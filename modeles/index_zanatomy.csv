@@ -1,0 +1,39 @@
+﻿objet;role;id_liste;fma_id;nom_en;systeme;glb;region_recalage;transformation;ecart_origine_mm;sommets;triangles;centre_x;centre_y;centre_z
+External carotid artery.r;structure;A17;FMA10635;external carotid artery;arteres;zanatomy_arteres.glb;branches de la carotide externe;ICP régional;0.5;876;1728;-0.0364;1.4628;0.1052
+Facial artery.r;structure;A20;FMA49549;facial artery;arteres;zanatomy_arteres.glb;branches de la carotide externe;ICP régional;;1308;2592;-0.0236;1.4647;0.1434
+Maxillary artery.r;structure;A23;FMA49675;maxillary artery;arteres;zanatomy_arteres.glb;branches de la carotide externe;ICP régional;;4860;9504;-0.0161;1.4987;0.1437
+Occipital artery.r;structure;A21;FMA49586;occipital artery;arteres;zanatomy_arteres.glb;branches de la carotide externe;ICP régional;;6876;13536;-0.0663;1.5577;0.0248
+Superficial temporal artery.r;structure;A22;FMA49650;superficial temporal artery;arteres;zanatomy_arteres.glb;branches de la carotide externe;ICP régional;;13272;26208;-0.0675;1.5703;0.0931
+Right common carotid artery;raccord;;;right common carotid artery;arteres;zanatomy_arteres.glb;branches de la carotide externe;ICP régional;;344;611;-0.0207;1.3820;0.1130
+External carotid artery.l;structure;A17;FMA10635;external carotid artery;arteres;zanatomy_arteres.glb;branches de la carotide externe;ICP régional;1.1;876;1728;0.0362;1.4625;0.1053
+Facial artery.l;structure;A20;FMA49549;facial artery;arteres;zanatomy_arteres.glb;branches de la carotide externe;ICP régional;;1308;2592;0.0240;1.4647;0.1437
+Maxillary artery.l;structure;A23;FMA49675;maxillary artery;arteres;zanatomy_arteres.glb;branches de la carotide externe;ICP régional;;4860;9504;0.0166;1.4988;0.1438
+Occipital artery.l;structure;A21;FMA49586;occipital artery;arteres;zanatomy_arteres.glb;branches de la carotide externe;ICP régional;;6876;13536;0.0657;1.5567;0.0239
+Superficial temporal artery.l;structure;A22;FMA49650;superficial temporal artery;arteres;zanatomy_arteres.glb;branches de la carotide externe;ICP régional;;13272;26208;0.0679;1.5697;0.0921
+Left common carotid artery;raccord;;;left common carotid artery;arteres;zanatomy_arteres.glb;branches de la carotide externe;ICP régional;;466;821;0.0204;1.3737;0.1075
+Deep femoral artery.r;structure;A64;FMA20796|FMA20797;deep femoral artery;arteres;zanatomy_arteres.glb;cuisse;ICP régional inverse;0.7;1164;2304;-0.0747;0.6248;0.1087
+Deep femoral artery.l;structure;A64;FMA20796|FMA20797;deep femoral artery;arteres;zanatomy_arteres.glb;cuisse;ICP régional inverse;0.7;1164;2304;0.0744;0.6242;0.1105
+Median sacral artery;structure;A52;FMA14757;median sacral artery;arteres;zanatomy_arteres.glb;pelvis;similitude globale;0.4;1452;2880;-0.0004;0.8671;0.0735
+Anterior division of internal iliac artery.r;raccord;;;right anterior division of internal iliac artery;arteres;zanatomy_arteres.glb;pelvis;similitude globale;;600;1152;-0.0327;0.8603;0.0856
+Anterior division of internal iliac artery.l;raccord;;;left anterior division of internal iliac artery;arteres;zanatomy_arteres.glb;pelvis;similitude globale;;600;1152;0.0318;0.8603;0.0856
+Posterior division of internal iliac artery.r;raccord;;;right posterior division of internal iliac artery;arteres;zanatomy_arteres.glb;pelvis;similitude globale;;600;1152;-0.0328;0.8655;0.0861
+Posterior division of internal iliac artery.l;raccord;;;left posterior division of internal iliac artery;arteres;zanatomy_arteres.glb;pelvis;similitude globale;;600;1152;0.0320;0.8655;0.0861
+Inferior gluteal artery.r;structure;A56;FMA18871;inferior gluteal artery;arteres;zanatomy_arteres.glb;pelvis;ICP régional inverse;0.1;1908;3744;-0.0511;0.7935;0.0344
+Internal pudendal artery.r;structure;A58;FMA18835;internal pudendal artery;arteres;zanatomy_arteres.glb;pelvis;ICP régional inverse;0.0;4056;8064;-0.0408;0.7897;0.0412
+Obturator artery.r;structure;A57;FMA18865;obturator artery;arteres;zanatomy_arteres.glb;pelvis;ICP régional inverse;33.8;876;1728;-0.0478;0.7976;0.0815
+Superior gluteal artery.r;structure;A55;FMA18868;superior gluteal artery;arteres;zanatomy_arteres.glb;pelvis;ICP régional inverse;0.0;8832;17280;-0.0528;0.8522;0.0408
+Inferior gluteal artery.l;structure;A56;FMA18871;inferior gluteal artery;arteres;zanatomy_arteres.glb;pelvis;ICP régional;0.1;1908;3744;0.0435;0.7966;0.0302
+Internal pudendal artery.l;structure;A58;FMA18835;internal pudendal artery;arteres;zanatomy_arteres.glb;pelvis;ICP régional;0.0;4056;8064;0.0334;0.7928;0.0375
+Obturator artery.l;structure;A57;FMA18865;obturator artery;arteres;zanatomy_arteres.glb;pelvis;ICP régional;34.6;876;1728;0.0428;0.8001;0.0775
+Superior gluteal artery.l;structure;A55;FMA18868;superior gluteal artery;arteres;zanatomy_arteres.glb;pelvis;ICP régional;0.0;8832;17280;0.0460;0.8552;0.0372
+Superior sagittal sinus;structure;V13;FMA50767;superior sagittal sinus;veines;zanatomy_veines.glb;sinus de la dure-mère;ICP régional;;3180;6336;-0.0008;1.5728;0.0733
+Internal jugular vein.r;raccord;;;right internal jugular vein;veines;zanatomy_veines.glb;sinus de la dure-mère;ICP régional;;1681;3265;-0.0313;1.4448;0.0914
+Internal jugular vein.l;raccord;;;left internal jugular vein;veines;zanatomy_veines.glb;sinus de la dure-mère;ICP régional;;1691;3282;0.0307;1.4443;0.0911
+Sigmoid sinus.r;structure;V15;FMA50782;sigmoid sinus;veines;zanatomy_veines.glb;sinus de la dure-mère;ICP régional inverse;6.8;444;864;-0.0536;1.5070;0.0546
+Transverse sinus.r;structure;V14;FMA50763;transverse sinus;veines;zanatomy_veines.glb;sinus de la dure-mère;ICP régional inverse;;1020;2016;-0.0359;1.5164;0.0204
+Sigmoid sinus.l;structure;V15;FMA50782;sigmoid sinus;veines;zanatomy_veines.glb;sinus de la dure-mère;ICP régional;6.8;444;864;0.0525;1.5054;0.0535
+Transverse sinus.l;structure;V14;FMA50763;transverse sinus;veines;zanatomy_veines.glb;sinus de la dure-mère;ICP régional;;1020;2016;0.0344;1.5146;0.0195
+External jugular vein.r;structure;V12;FMA13110;external jugular vein;veines;zanatomy_veines.glb;veines du cou;ICP régional;0.4;1020;2016;-0.0387;1.4145;0.1081
+External jugular vein.l;structure;V12;FMA13110;external jugular vein;veines;zanatomy_veines.glb;veines du cou;ICP régional inverse;0.2;1020;2016;0.0424;1.4191;0.1033
+Vertebral artery.r;raccord;;;right vertebral artery;arteres;zanatomy_arteres.glb;vertébrale;ICP régional;;466;857;-0.0234;1.3846;0.0846
+Vertebral artery.l;raccord;;;left vertebral artery;arteres;zanatomy_arteres.glb;vertébrale;ICP régional;;488;896;0.0229;1.3874;0.0849

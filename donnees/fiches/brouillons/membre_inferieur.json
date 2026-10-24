@@ -1,0 +1,1033 @@
+{
+  "region": "Membre inférieur",
+  "redige_le": "2026-10-21",
+  "fiches": [
+    {
+      "id": "A63",
+      "champs": {
+        "origine": {
+          "texte": "Fait suite à l'artère iliaque externe en passant sous le ligament inguinal, dans la lacune vasculaire, dont elle est l'élément le plus latéral.",
+          "sources": [
+            "MB26:14-15",
+            "ACV19d:10"
+          ]
+        },
+        "trajet": {
+          "texte": "Axe principal de la cuisse. Verticale, de la région inguinale au bord postérieur du condyle médial du fémur, dans le canal fémoral : gaine fibreuse en entonnoir, limitée en haut par le long adducteur en arrière et en dedans, l'ilio-psoas en arrière et en dehors, le sartorius en avant et en dehors. Plus bas, entre le long adducteur et le vaste médial, recouverte par le sartorius. Artère du compartiment antérieur de la cuisse, de passage pour la jambe.",
+          "sources": [
+            "MB26:14-16",
+            "MB25:18,20",
+            "ACV19d:10"
+          ]
+        },
+        "branches": {
+          "texte": "Cinq petites branches et l'artère profonde de la cuisse. Les rameaux superficiels traversent le fascia criblé : artère circonflexe iliaque superficielle, récurrente, vers la paroi latérale et antérieure de l'abdomen ; artère épigastrique superficielle, entre pubis et ombilic, anastomosée avec l'épigastrique supérieure (thoracique interne) ; deux artères pudendales externes, pour le scrotum ou les grandes lèvres. Plus bas, l'artère descendante du genou, avant le hiatus de l'adducteur. L'artère profonde de la cuisse, 4 à 5 cm sous le ligament.",
+          "sources": [
+            "MB26:15-16",
+            "MB25:18-19"
+          ]
+        },
+        "terminaison": {
+          "texte": "Traverse le hiatus tendineux de l'adducteur (anneau du grand adducteur) et devient l'artère poplitée.",
+          "sources": [
+            "MB26:14,16",
+            "MB25:18"
+          ]
+        },
+        "rapports": {
+          "texte": "Dans le canal fémoral, de dedans en dehors : nœuds lymphatiques, veine fémorale, artère fémorale, nerf fémoral et ses quatre rameaux terminaux. La veine fémorale est toujours environ 1 cm en dedans de l'artère. En avant, la veine grande saphène. Le canal contient aussi le nerf saphène.",
+          "sources": [
+            "MB26:15-16",
+            "MB25:18",
+            "ACV19d:10"
+          ]
+        },
+        "clinique": {
+          "texte": "Pouls fémoral à palper systématiquement dans la région inguinale. Ponction de la veine fémorale 1 cm en dedans du pouls. Artériopathie des membres inférieurs (tabac, hypertension, diabète) : sténoses surtout à la naissance de la profonde de la cuisse et à la traversée du hiatus de l'adducteur ; douleur à la marche (claudication, syndrome du lèche-vitrine) ; traitement par dilatation, stent ou pontage.",
+          "sources": [
+            "MB26:15-17",
+            "MB25:20"
+          ]
+        },
+        "pathologie": {
+          "texte": "Artériopathie oblitérante des membres inférieurs, dont la sténose de la fémorale au canal des adducteurs est la localisation la plus fréquente ; index de pression systolique cheville-bras inférieur à 0,9. Faux anévrisme après une ponction fémorale. Ischémie aiguë de membre : douleur, pâleur, froideur, abolition des pouls, troubles sensitifs puis moteurs.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Pouls fémoral au point mi-inguinal, sous le ligament inguinal : voie d'abord classique des cathétérismes artériels. Index de pression systolique cheville-bras normal entre 0,9 et 1,3.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "fait_suite_a",
+          "cible": "A62",
+          "sources": [
+            "MB26:14"
+          ]
+        }
+      ],
+      "remarques": [
+        "Nomenclature des cliniciens (MB25 p.19) : artère fémorale commune avant la naissance de la profonde de la cuisse, artère fémorale superficielle après.",
+        "MB26 p.15 compte cinq petites branches mais en nomme quatre plus la profonde de la cuisse : à vérifier sur le diaporama."
+      ]
+    },
+    {
+      "id": "A64",
+      "champs": {
+        "origine": {
+          "texte": "Face postérieure de l'artère fémorale, 4 à 5 cm sous le ligament inguinal. Sa collatérale la plus profonde et la plus volumineuse.",
+          "sources": [
+            "MB26:16",
+            "MB25:19"
+          ]
+        },
+        "trajet": {
+          "texte": "Vers le bas, l'arrière et le dehors. Passe entre le pectiné et le long adducteur, puis entre le long adducteur en avant et le court et le grand adducteurs en arrière, contre la face postérieure du long adducteur.",
+          "sources": [
+            "MB26:16",
+            "MB25:19-20"
+          ]
+        },
+        "branches": {
+          "texte": "L'artère du quadriceps, son plus gros rameau (tronc commun ou artères séparées pour chaque chef). Les artères circonflexes médiale et latérale du fémur, qui entourent le col fémoral. Cinq ou six rameaux perforants, qui traversent la nappe d'insertion du grand adducteur.",
+          "sources": [
+            "MB26:16",
+            "MB25:19-20"
+          ]
+        },
+        "territoire": {
+          "texte": "Muscles et parties molles de la cuisse, en premier lieu le quadriceps.",
+          "sources": [
+            "MB26:16",
+            "MB25:19",
+            "ACV19d:10"
+          ]
+        },
+        "variations": {
+          "texte": "Les circonflexes s'anastomosent avec l'artère obturatrice et l'artère glutéale inférieure. Les perforantes sont anastomosées entre elles, la première avec la branche fémorale de la glutéale inférieure : c'est l'anastomose cruciforme, longue voie postérieure de la région glutéale à la région poplitée, satellite du nerf ischiatique.",
+          "sources": [
+            "MB26:16",
+            "MB25:19-20"
+          ]
+        },
+        "clinique": {
+          "texte": "Par ses anastomoses, elle peut assurer le passage du sang vers la jambe et pallier une thrombose de l'artère fémorale.",
+          "sources": [
+            "MB25:19-20"
+          ]
+        },
+        "pathologie": {
+          "texte": "Voie de suppléance majeure lors d'une occlusion de l'artère fémorale au-delà de son origine ; une sténose de son origine aggrave l'ischémie et peut être levée par une profondoplastie.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Naît en dehors puis passe en arrière de l'artère fémorale. L'artère circonflexe médiale du fémur assure l'essentiel de la vascularisation de la tête fémorale : sa lésion dans une fracture du col expose à la nécrose de la tête.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "branche_de",
+          "cible": "A63",
+          "sources": [
+            "MB26:16"
+          ]
+        },
+        {
+          "type": "anastomose_avec",
+          "cible": "A56",
+          "sources": [
+            "MB25:20"
+          ]
+        },
+        {
+          "type": "anastomose_avec",
+          "cible": "A57",
+          "sources": [
+            "MB26:16"
+          ]
+        }
+      ],
+      "remarques": [
+        "Appelée aussi artère fémorale profonde (MB25 p.19).",
+        "Les ronéos rangent les adducteurs dans le compartiment postérieur (MB26 p.16, diapo 19d : « comp. postérieur ») ou dans le compartiment antérieur (MB25 p.19) : à vérifier sur le diaporama."
+      ]
+    },
+    {
+      "id": "A65",
+      "champs": {
+        "origine": {
+          "texte": "Fait suite à l'artère fémorale lorsque celle-ci traverse le hiatus tendineux de l'adducteur.",
+          "sources": [
+            "MB26:17",
+            "MB25:21"
+          ]
+        },
+        "trajet": {
+          "texte": "Oblique en bas et en dehors, puis verticale à partir de l'interligne articulaire du genou ; appliquée à la face postérieure du genou sur toute la hauteur de la fosse poplitée.",
+          "sources": [
+            "MB26:17",
+            "MB25:21"
+          ]
+        },
+        "branches": {
+          "texte": "Rameaux musculaires, dont les artères gastrocnémiennes médiale et latérale. Rameaux articulaires : artères supéro-médiale, supéro-latérale, inféro-médiale et inféro-latérale du genou, qui forment un cercle anastomotique autour de la patella ; artère moyenne du genou, qui traverse la capsule pour les ligaments croisés.",
+          "sources": [
+            "MB26:17",
+            "MB25:21"
+          ]
+        },
+        "terminaison": {
+          "texte": "En avant de l'arcade tendineuse du muscle soléaire, se divise en artère tibiale antérieure et artère tibiale postérieure.",
+          "sources": [
+            "MB26:17-18",
+            "MB25:22"
+          ]
+        },
+        "rapports": {
+          "texte": "Élément le plus profond et le plus médial de la fosse poplitée. La veine poplitée est en arrière et en dehors, enroulée autour d'elle ; le nerf tibial encore en arrière et en dehors. Le nerf fibulaire commun s'écarte en dehors vers le col de la fibula. Recouverte par le semi-membraneux, le fascia poplité profond et les gastrocnémiens. La petite saphène chemine entre les fascias poplités profond et superficiel.",
+          "sources": [
+            "MB26:17",
+            "MB25:21"
+          ]
+        },
+        "clinique": {
+          "texte": "Pouls poplité perceptible seulement genou fléchi à 90°, fascias détendus. Les anastomoses du genou sont très peu fonctionnelles : une sténose ou une thrombose poplitée est toujours très symptomatique. Syndrome de l'artère poplitée piégée : un faisceau aberrant du muscle poplité la comprime en flexion du genou.",
+          "sources": [
+            "MB26:17",
+            "MB25:21-22"
+          ]
+        },
+        "pathologie": {
+          "texte": "Anévrisme poplité : le plus fréquent des anévrismes périphériques, souvent bilatéral et associé à un anévrisme aortique, compliqué de thrombose ou d'embolies distales plutôt que de rupture. Lésion dans les luxations du genou : pouls distaux à contrôler systématiquement.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Pouls difficile à percevoir, genou fléchi : un pouls poplité trop facilement perçu fait évoquer un anévrisme.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "fait_suite_a",
+          "cible": "A63",
+          "sources": [
+            "MB26:17"
+          ]
+        }
+      ],
+      "remarques": [
+        "MB26 p.17 place d'abord la veine poplitée « en arrière et en dehors » de l'artère, puis « un peu en arrière et en dedans » ; MB25 p.21 dit en dehors et en arrière. La même page écrit « nerf tibial antérieur » pour le nerf tibial. À vérifier sur le diaporama.",
+        "Artères gastrocnémiennes anciennement appelées artères jumelles.",
+        "MB26 p.17 et MB25 p.21 attribuent le syndrome de l'artère poplitée piégée à un faisceau aberrant du muscle poplité : les ouvrages citent le plus souvent une insertion anormale du chef médial du gastrocnémien."
+      ]
+    },
+    {
+      "id": "A66",
+      "champs": {
+        "origine": {
+          "texte": "Branche de division antérieure de l'artère poplitée, dans la fosse poplitée, en avant de l'arcade du muscle soléaire.",
+          "sources": [
+            "MB26:18",
+            "MB25:22"
+          ]
+        },
+        "trajet": {
+          "texte": "Bref trajet vers l'avant dans la fosse poplitée, traverse la membrane interosseuse, puis descend verticalement contre elle, très profonde, dans le compartiment antérieur de la jambe. Passe en arrière du rétinaculum des extenseurs, à peine oblique en dedans, et traverse l'espace intermalléolaire à égale distance des deux malléoles.",
+          "sources": [
+            "MB26:18",
+            "MB25:22"
+          ]
+        },
+        "branches": {
+          "texte": "Artère récurrente fibulaire postérieure (face latérale du genou) ; artère circonflexe de la fibula, autour du col de la fibula ; artères récurrentes fibulaire antérieure et tibiale antérieure, anastomosées avec la descendante du genou et les artères du genou de la poplitée ; rameaux malléolaires antéro-médial et antéro-latéral ; rameaux pour les os et les muscles de la loge.",
+          "sources": [
+            "MB26:18",
+            "MB25:22"
+          ]
+        },
+        "terminaison": {
+          "texte": "Devient l'artère dorsale du pied en passant sous le rétinaculum des extenseurs.",
+          "sources": [
+            "MB26:18",
+            "MB25:22"
+          ]
+        },
+        "territoire": {
+          "texte": "Compartiment antérieur de la jambe.",
+          "sources": [
+            "MB26:18",
+            "ACV19d:10"
+          ]
+        },
+        "rapports": {
+          "texte": "Élément le plus profond de la loge antérieure, avec ses veines et le nerf fibulaire profond, recouverte par le troisième fibulaire et le long extenseur de l'hallux, puis par le tibial antérieur et le long extenseur des orteils.",
+          "sources": [
+            "MB26:18-19",
+            "MB25:22-23"
+          ]
+        },
+        "clinique": {
+          "texte": "Pouls palpable dans l'espace intermalléolaire. Le nerf fibulaire, voisin, peut être comprimé contre le col de la fibula par une botte plâtrée trop serrée.",
+          "sources": [
+            "MB26:18",
+            "MB25:22"
+          ]
+        },
+        "pathologie": {
+          "texte": "Syndrome des loges antérieur (traumatisme, effort) : compression de l'artère et du nerf fibulaire profond, urgence chirurgicale (aponévrotomie).",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Pouls perçu au cou-de-pied, entre les tendons du long extenseur de l'hallux et du long extenseur des orteils, juste avant qu'elle devienne l'artère dorsale du pied.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "branche_de",
+          "cible": "A65",
+          "sources": [
+            "MB26:18"
+          ]
+        },
+        {
+          "type": "anastomose_avec",
+          "cible": "A70",
+          "sources": [
+            "MB26:19"
+          ]
+        }
+      ],
+      "remarques": [
+        "MB25 p.22 précise qu'il est inutile de retenir tous ses rameaux."
+      ]
+    },
+    {
+      "id": "A67",
+      "champs": {
+        "origine": {
+          "texte": "Fait suite à l'artère tibiale antérieure, en arrière du rétinaculum des extenseurs.",
+          "sources": [
+            "MB26:18,20",
+            "MB25:22"
+          ]
+        },
+        "trajet": {
+          "texte": "Se dirige vers l'avant, plaquée contre les os du tarse, vers la base du premier espace interosseux, où elle plonge.",
+          "sources": [
+            "MB25:24"
+          ]
+        },
+        "branches": {
+          "texte": "Artères tarsiennes médiales et latérales, artère arquée : rameaux pour les os, le muscle court extenseur des orteils et les orteils.",
+          "sources": [
+            "MB26:20",
+            "MB25:24"
+          ]
+        },
+        "terminaison": {
+          "texte": "S'anastomose avec l'artère plantaire latérale (arcade plantaire profonde) à la partie postérieure du premier espace interosseux.",
+          "sources": [
+            "MB26:20",
+            "MB25:24",
+            "ACV19d:10"
+          ]
+        },
+        "rapports": {
+          "texte": "Accompagnée par le nerf fibulaire profond, qui se dirige vers le premier espace interdigital.",
+          "sources": [
+            "MB26:20"
+          ]
+        },
+        "clinique": {
+          "texte": "Pouls pédieux, palpable sur le dos du pied.",
+          "sources": [
+            "MB25:22"
+          ]
+        },
+        "pathologie": {
+          "texte": "Pouls pédieux absent chez environ 5 à 10 % des sujets sains, par variation anatomique. Artériopathie du diabétique : recherche des pouls distaux et examen des pieds à chaque consultation.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Pouls pédieux sur le dos du pied, en dehors du tendon du long extenseur de l'hallux, vers la base du premier espace intermétatarsien.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "fait_suite_a",
+          "cible": "A66",
+          "sources": [
+            "MB26:18"
+          ]
+        },
+        {
+          "type": "anastomose_avec",
+          "cible": "A72",
+          "sources": [
+            "MB26:20"
+          ]
+        }
+      ],
+      "remarques": [
+        "Appelée aussi artère pédieuse."
+      ]
+    },
+    {
+      "id": "A69",
+      "champs": {
+        "origine": {
+          "texte": "Branche de division postérieure de l'artère poplitée, dans la fosse poplitée, en avant de l'arcade du muscle soléaire.",
+          "sources": [
+            "MB26:18-19",
+            "MB25:22"
+          ]
+        },
+        "trajet": {
+          "texte": "À peu près verticale, se porte en dedans vers la malléole médiale, passe dans le sillon rétro-malléolaire médial puis dans le canal tarsien, avec le nerf tibial et les tendons du plan profond, sous le sustentaculum tali, et s'oriente vers l'avant.",
+          "sources": [
+            "MB26:19",
+            "MB25:22-23"
+          ]
+        },
+        "branches": {
+          "texte": "L'artère fibulaire, sa branche la plus volumineuse, née très haut ; l'artère récurrente tibiale médiale ; l'artère malléolaire postéro-médiale ; des rameaux musculaires.",
+          "sources": [
+            "MB26:19",
+            "MB25:23"
+          ]
+        },
+        "terminaison": {
+          "texte": "Se divise dans le canal tarsien en artère plantaire médiale et artère plantaire latérale.",
+          "sources": [
+            "MB26:19",
+            "MB25:23"
+          ]
+        },
+        "territoire": {
+          "texte": "Compartiment postérieur de la jambe, plante du pied.",
+          "sources": [
+            "ACV19d:10",
+            "MB26:19-20"
+          ]
+        },
+        "rapports": {
+          "texte": "Dans le compartiment postérieur, entre le plan profond (long fléchisseur des orteils en dedans, tibial postérieur, long fléchisseur de l'hallux en dehors) et le plan superficiel (soléaire). Accompagnée de ses veines et du nerf tibial, vertical.",
+          "sources": [
+            "MB26:19",
+            "MB25:23"
+          ]
+        },
+        "clinique": {
+          "texte": "Pouls tibial postérieur, perçu en arrière de la malléole médiale.",
+          "sources": [
+            "MB25:23",
+            "ACV19d:10"
+          ]
+        },
+        "pathologie": {
+          "texte": "Artériopathie distale du diabétique ; pontage distal sur la tibiale postérieure dans l'ischémie critique.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Pouls à mi-distance entre la malléole médiale et le tendon calcanéen. Dans le canal tarsien, d'avant en arrière : tendon du tibial postérieur, tendon du long fléchisseur des orteils, artère et veines tibiales postérieures, nerf tibial, tendon du long fléchisseur de l'hallux.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "branche_de",
+          "cible": "A65",
+          "sources": [
+            "MB26:18"
+          ]
+        },
+        {
+          "type": "anastomose_avec",
+          "cible": "A70",
+          "sources": [
+            "MB26:19"
+          ]
+        }
+      ],
+      "remarques": [
+        "Les ronéos font naître l'artère fibulaire de la tibiale postérieure, sans nommer le tronc tibio-fibulaire (structure d'approfondissement A68)."
+      ]
+    },
+    {
+      "id": "A70",
+      "champs": {
+        "origine": {
+          "texte": "Branche la plus volumineuse de l'artère tibiale postérieure, née très haut dans la région postérieure de la jambe.",
+          "sources": [
+            "MB26:19",
+            "MB25:23"
+          ]
+        },
+        "trajet": {
+          "texte": "Verticale, satellite de la fibula, appliquée contre la face postérieure de la membrane interosseuse crurale ; descend en arrière de la malléole latérale.",
+          "sources": [
+            "MB26:19",
+            "MB25:23"
+          ]
+        },
+        "branches": {
+          "texte": "Rameau communicant, qui l'anastomose avec la tibiale postérieure ; rameaux musculaires de la loge postérieure ; rameau perforant, qui traverse la membrane interosseuse et l'anastomose avec la tibiale antérieure.",
+          "sources": [
+            "MB26:19",
+            "MB25:23"
+          ]
+        },
+        "terminaison": {
+          "texte": "Devient l'artère malléolaire postéro-latérale, pour les téguments et les os de la face latérale de la cheville et du talon ; s'épuise dans la région rétro-malléolaire latérale.",
+          "sources": [
+            "MB26:19",
+            "MB25:23"
+          ]
+        },
+        "rapports": {
+          "texte": "Élément le plus profond du compartiment postérieur, en arrière de la membrane interosseuse, avec ses deux veines.",
+          "sources": [
+            "MB26:19",
+            "MB25:23"
+          ]
+        },
+        "clinique": {
+          "texte": "Trop grêle pour être palpée derrière la malléole latérale.",
+          "sources": [
+            "MB25:23"
+          ]
+        },
+        "pathologie": {
+          "texte": "Souvent la dernière artère de jambe perméable chez le diabétique. Prélevée avec la fibula pour les lambeaux libres de reconstruction, par exemple de la mandibule.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Naît environ 2 à 3 cm sous l'arcade du soléaire ; non palpable.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "branche_de",
+          "cible": "A69",
+          "sources": [
+            "MB26:19"
+          ]
+        },
+        {
+          "type": "anastomose_avec",
+          "cible": "A66",
+          "sources": [
+            "MB26:19"
+          ]
+        }
+      ],
+      "remarques": []
+    },
+    {
+      "id": "A71",
+      "champs": {
+        "origine": {
+          "texte": "Branche de division médiale de l'artère tibiale postérieure, à la sortie du canal tarsien, sous le sustentaculum tali.",
+          "sources": [
+            "MB26:19",
+            "MB25:23-24"
+          ]
+        },
+        "territoire": {
+          "texte": "Les deux premiers orteils.",
+          "sources": [
+            "MB25:24"
+          ]
+        },
+        "rapports": {
+          "texte": "Avec ses veines et le nerf plantaire médial, en dedans ; recouverte par les muscles les plus superficiels de la plante.",
+          "sources": [
+            "MB26:20"
+          ]
+        },
+        "pathologie": {
+          "texte": "Peu de pathologie propre ; plaies plantaires.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "La plus petite des deux branches terminales de la tibiale postérieure ; chemine avec le nerf plantaire médial entre l'abducteur de l'hallux et le court fléchisseur des orteils.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "branche_de",
+          "cible": "A69",
+          "sources": [
+            "MB26:19"
+          ]
+        }
+      ],
+      "remarques": [
+        "MB25 p.23 précise que le professeur passe rapidement sur les artères du pied, jugées spécialisées."
+      ]
+    },
+    {
+      "id": "A72",
+      "champs": {
+        "origine": {
+          "texte": "Branche de division latérale de l'artère tibiale postérieure, à la sortie du canal tarsien.",
+          "sources": [
+            "MB26:19",
+            "MB25:23-24"
+          ]
+        },
+        "branches": {
+          "texte": "Un rameau incurvé, transversal, qui forme l'arcade plantaire (profonde) : il gagne le premier espace interosseux et en traverse la partie postérieure de bas en haut. De cette arcade naissent les rameaux des espaces interosseux et des orteils.",
+          "sources": [
+            "MB26:19-20",
+            "MB25:24"
+          ]
+        },
+        "terminaison": {
+          "texte": "S'anastomose avec l'artère dorsale du pied dans le premier espace interosseux : anastomose entre les réseaux tibiaux antérieur et postérieur.",
+          "sources": [
+            "MB26:19-20",
+            "MB25:24",
+            "ACV19d:10"
+          ]
+        },
+        "rapports": {
+          "texte": "Avec ses veines et le nerf plantaire latéral, en dehors ; recouverte par les muscles les plus superficiels de la plante.",
+          "sources": [
+            "MB26:20"
+          ]
+        },
+        "pathologie": {
+          "texte": "Ischémie du pied diabétique, avec les autres artères distales.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "La plus grosse des deux branches terminales de la tibiale postérieure ; traverse obliquement la plante vers le dehors puis forme l'arcade plantaire profonde au niveau des bases des métatarsiens.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "branche_de",
+          "cible": "A69",
+          "sources": [
+            "MB26:19"
+          ]
+        },
+        {
+          "type": "anastomose_avec",
+          "cible": "A67",
+          "sources": [
+            "MB26:20"
+          ]
+        }
+      ],
+      "remarques": [
+        "MB25 p.24 lui attribue la vascularisation « du orteil » : le numéro de l'orteil manque dans la ronéo."
+      ]
+    },
+    {
+      "id": "V34",
+      "champs": {
+        "origine": {
+          "texte": "Extrémité médiale de l'arcade veineuse dorsale du pied, en avant et en dedans de la malléole médiale.",
+          "sources": [
+            "MB26:20",
+            "MB25:24",
+            "ACV19d:12"
+          ]
+        },
+        "trajet": {
+          "texte": "Remonte toute la face médiale du membre inférieur dans le tissu superficiel : régions crurale et fémorale médiales, face médiale du genou, puis contourne la cuisse. À la racine de la cuisse, elle est en avant de l'artère fémorale.",
+          "sources": [
+            "MB26:20",
+            "MB25:18,24",
+            "ACV19d:12"
+          ]
+        },
+        "affluents": {
+          "texte": "Les veines superficielles du membre inférieur ; dans la région inguinale, les veines superficielles satellites des branches superficielles de l'artère fémorale, qui rejoignent sa crosse. Anastomosée avec la petite saphène par les veines saphènes accessoires ou transverses.",
+          "sources": [
+            "MB26:21",
+            "MB25:24-25"
+          ]
+        },
+        "terminaison": {
+          "texte": "Ne traverse le fascia fémoral qu'au fascia criblé, par l'orifice semi-lunaire, en décrivant une crosse, et se jette dans la veine fémorale.",
+          "sources": [
+            "MB26:20-21",
+            "MB25:19,24"
+          ]
+        },
+        "rapports": {
+          "texte": "Le réseau lymphatique superficiel lui est satellite ; les nœuds inguinaux s'organisent en quatre cadrans autour de sa crosse.",
+          "sources": [
+            "MB26:21",
+            "MB25:25"
+          ]
+        },
+        "clinique": {
+          "texte": "Pathologie surtout variqueuse (varices retirées ou sclérosées), thrombose moins fréquente que dans le réseau profond. Sa partie distale, de calibre proche des coronaires, peut servir aux pontages coronaires.",
+          "sources": [
+            "MB26:21",
+            "MB25:25"
+          ]
+        },
+        "pathologie": {
+          "texte": "Insuffisance veineuse superficielle par incontinence de la valvule de la crosse : varices, traitées par chirurgie (éveinage), laser ou radiofréquence endoveineux, sclérothérapie. Thrombose veineuse superficielle proche de la crosse (à moins de 3 cm) : risque d'extension à la veine fémorale.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Passe en avant de la malléole médiale, site de dénudation veineuse en urgence ; accompagnée par le nerf saphène à la jambe, exposé lors du prélèvement. Crosse à environ 3 à 4 cm en dessous et en dehors du tubercule pubien.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "se_jette_dans",
+          "cible": "V36",
+          "sources": [
+            "MB26:21"
+          ]
+        },
+        {
+          "type": "anastomose_avec",
+          "cible": "V35",
+          "sources": [
+            "MB26:21"
+          ]
+        }
+      ],
+      "remarques": [
+        "MB26 p.21 écrit « les veines superficielles issues de l'artère fémorale » : il faut sans doute lire satellites des branches superficielles de l'artère fémorale."
+      ]
+    },
+    {
+      "id": "V35",
+      "champs": {
+        "origine": {
+          "texte": "Extrémité latérale de l'arcade veineuse dorsale du pied, en arrière de la malléole latérale.",
+          "sources": [
+            "MB26:21",
+            "MB25:25",
+            "ACV19d:12"
+          ]
+        },
+        "trajet": {
+          "texte": "Remonte verticalement dans le tissu superficiel de la région postérieure de la jambe, entre les deux gastrocnémiens, vers la fosse poplitée ; traverse le fascia poplité superficiel puis, un peu plus haut, le fascia poplité profond.",
+          "sources": [
+            "MB26:17,21",
+            "MB25:25"
+          ]
+        },
+        "affluents": {
+          "texte": "Les veines superficielles de la face postérieure de la jambe.",
+          "sources": [
+            "MB25:25"
+          ]
+        },
+        "terminaison": {
+          "texte": "Veine poplitée, dont elle est la branche la plus volumineuse.",
+          "sources": [
+            "MB26:21",
+            "MB25:21",
+            "ACV19d:12"
+          ]
+        },
+        "clinique": {
+          "texte": "Varices. Son calibre est celui d'une artère coronaire : prélevée au mollet, elle sert aux pontages coronaires, montée en sens inverse (extrémité distale sur l'aorte ascendante), mais résiste moins bien à la pression que les artères thoraciques internes.",
+          "sources": [
+            "MB25:25"
+          ]
+        },
+        "pathologie": {
+          "texte": "Varices du territoire postérieur de la jambe. Thrombose veineuse superficielle, qui peut s'étendre à la veine poplitée.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Passe en arrière de la malléole latérale avec le nerf sural, exposé lors de la chirurgie ; hauteur de sa terminaison poplitée variable.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "se_jette_dans",
+          "cible": "V37",
+          "sources": [
+            "MB26:21"
+          ]
+        },
+        {
+          "type": "anastomose_avec",
+          "cible": "V34",
+          "sources": [
+            "MB26:21"
+          ]
+        }
+      ],
+      "remarques": [
+        "MB25 p.25 cite la petite saphène pour les pontages coronaires ; MB26 p.21 parle des « veines saphènes » sans préciser. En pratique, c'est surtout la grande saphène qu'on prélève."
+      ]
+    },
+    {
+      "id": "V36",
+      "champs": {
+        "origine": {
+          "texte": "Fait suite à la veine poplitée.",
+          "sources": [
+            "MB26:20",
+            "MB25:24"
+          ]
+        },
+        "affluents": {
+          "texte": "La veine profonde de la cuisse ; la veine grande saphène, par sa crosse.",
+          "sources": [
+            "MB26:20-21",
+            "ACV19d:11"
+          ]
+        },
+        "terminaison": {
+          "texte": "Devient la veine iliaque externe en passant dans la lacune vasculaire, sous le ligament inguinal.",
+          "sources": [
+            "MB26:20",
+            "MB25:24"
+          ]
+        },
+        "rapports": {
+          "texte": "Dans le canal fémoral avec l'artère, sous une gaine fibreuse inextensible : la pulsation artérielle comprime la veine et aide le retour veineux. À la racine de la cuisse, environ 1 cm en dedans de l'artère ; les nœuds lymphatiques sont encore en dedans.",
+          "sources": [
+            "MB26:15,21",
+            "MB25:18"
+          ]
+        },
+        "clinique": {
+          "texte": "Ponctionnée 1 cm en dedans du pouls fémoral, par exemple pour perfuser rapidement un choc hypovolémique. Thrombose veineuse profonde, favorisée par l'immobilisation : le caillot peut migrer jusqu'à l'artère pulmonaire (embolie pulmonaire), d'où l'anticoagulation des patients alités.",
+          "sources": [
+            "MB26:15,20-21",
+            "MB25:18,24"
+          ]
+        },
+        "pathologie": {
+          "texte": "Thrombose veineuse profonde fémoro-poplitée : diagnostic par écho-doppler de compression (veine incompressible), orienté par le score de Wells et les D-dimères ; prévention par anticoagulants et contention chez les patients à risque.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Veine valvulée : la pompe musculaire du mollet et les valvules assurent le retour veineux. Voie veineuse centrale d'urgence, au prix de plus de thromboses et d'infections que les voies cervicales.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "fait_suite_a",
+          "cible": "V37",
+          "sources": [
+            "MB26:20"
+          ]
+        }
+      ],
+      "remarques": []
+    },
+    {
+      "id": "V37",
+      "champs": {
+        "origine": {
+          "texte": "Réseau profond de la jambe : jusqu'à l'étage poplité non compris, plusieurs veines par artère ; la veine poplitée est habituellement unique.",
+          "sources": [
+            "MB26:20",
+            "MB25:24",
+            "ACV19d:11"
+          ]
+        },
+        "affluents": {
+          "texte": "La veine petite saphène, sa branche la plus volumineuse.",
+          "sources": [
+            "MB26:21",
+            "MB25:21"
+          ]
+        },
+        "terminaison": {
+          "texte": "Se résout dans la veine fémorale au hiatus de l'adducteur.",
+          "sources": [
+            "MB26:20"
+          ]
+        },
+        "rapports": {
+          "texte": "Enroulée autour de l'artère poplitée, le plus souvent en arrière et en dehors d'elle ; le nerf tibial est encore en arrière et en dehors.",
+          "sources": [
+            "MB26:17",
+            "MB25:21"
+          ]
+        },
+        "pathologie": {
+          "texte": "Thrombose veineuse profonde. Compression par un kyste poplité ou un anévrisme de l'artère poplitée.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Dans la fosse poplitée, entre l'artère, plus profonde, et le nerf tibial, plus superficiel ; reçoit la veine petite saphène.",
+          "sources": []
+        }
+      },
+      "relations": [],
+      "remarques": [
+        "« Au hiatus de l'adducteur » est déduit de la terminaison de l'artère poplitée, les ronéos ne le disent pas pour la veine.",
+        "Position par rapport à l'artère : voir la remarque de la fiche de l'artère poplitée."
+      ]
+    },
+    {
+      "id": "V38",
+      "champs": {
+        "origine": {
+          "texte": "Réseau veineux profond, satellite de l'artère tibiale antérieure : au moins deux veines, parfois trois ou plus.",
+          "sources": [
+            "MB26:20",
+            "MB25:24"
+          ]
+        },
+        "terminaison": {
+          "texte": "Veine poplitée.",
+          "sources": [
+            "ACV19d:11"
+          ]
+        },
+        "rapports": {
+          "texte": "En avant de la membrane interosseuse, avec l'artère tibiale antérieure et le nerf fibulaire profond.",
+          "sources": [
+            "MB25:23"
+          ]
+        },
+        "clinique": {
+          "texte": "Siège possible de thrombose veineuse profonde.",
+          "sources": [
+            "MB26:20"
+          ]
+        },
+        "pathologie": {
+          "texte": "Thrombose veineuse profonde distale, sous-poplitée, de moindre risque embolique qu'une thrombose proximale.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Veines doubles, satellites de l'artère : disposition habituelle des veines profondes sous le genou et sous le coude.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "se_jette_dans",
+          "cible": "V37",
+          "sources": [
+            "ACV19d:11"
+          ]
+        }
+      ],
+      "remarques": [
+        "La diapo 19d liste les veines profondes de bas en haut (tibiales, poplitée, fémorale) ; la jonction des tibiales en veine poplitée n'est pas décrite en toutes lettres."
+      ]
+    },
+    {
+      "id": "V39",
+      "champs": {
+        "origine": {
+          "texte": "Réseau veineux profond, satellite de l'artère tibiale postérieure : au moins deux veines.",
+          "sources": [
+            "MB26:20",
+            "MB25:24"
+          ]
+        },
+        "affluents": {
+          "texte": "Les veines fibulaires.",
+          "sources": [
+            "ACV19d:11"
+          ]
+        },
+        "terminaison": {
+          "texte": "Veine poplitée.",
+          "sources": [
+            "ACV19d:11"
+          ]
+        },
+        "rapports": {
+          "texte": "Dans le plan profond du compartiment postérieur, avec l'artère tibiale postérieure et le nerf tibial.",
+          "sources": [
+            "MB26:19",
+            "MB25:23"
+          ]
+        },
+        "clinique": {
+          "texte": "Siège possible de thrombose veineuse profonde.",
+          "sources": [
+            "MB26:20"
+          ]
+        },
+        "pathologie": {
+          "texte": "Siège fréquent des thromboses veineuses distales, souvent parties des veines musculaires du mollet (soléaires, gastrocnémiennes).",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Reçoivent les veines perforantes de la face médiale de la jambe, dont l'incompétence favorise les ulcères veineux de la cheville.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "se_jette_dans",
+          "cible": "V37",
+          "sources": [
+            "ACV19d:11"
+          ]
+        }
+      ],
+      "remarques": [
+        "La diapo 19d écrit « veines tibiales antérieures et postérieures (⇐ vv. fibulaires) » sans dire lesquelles reçoivent les fibulaires ; les ouvrages les font rejoindre les tibiales postérieures."
+      ]
+    },
+    {
+      "id": "V40",
+      "champs": {
+        "origine": {
+          "texte": "Réseau veineux profond : deux veines satellites de l'artère fibulaire.",
+          "sources": [
+            "MB25:23",
+            "MB26:20"
+          ]
+        },
+        "terminaison": {
+          "texte": "Veines tibiales.",
+          "sources": [
+            "ACV19d:11"
+          ]
+        },
+        "rapports": {
+          "texte": "En arrière de la membrane interosseuse, éléments les plus profonds du compartiment postérieur avec l'artère fibulaire.",
+          "sources": [
+            "MB26:19",
+            "MB25:23"
+          ]
+        },
+        "pathologie": {
+          "texte": "Thrombose veineuse distale, avec les veines musculaires du mollet.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Paires, satellites de l'artère fibulaire ; rejoignent les veines tibiales postérieures sous la fosse poplitée.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "se_jette_dans",
+          "cible": "V39",
+          "sources": []
+        }
+      ],
+      "remarques": [
+        "Lien avec les veines tibiales postérieures : hors ronéos, la diapo 19d ne précise pas lesquelles des veines tibiales reçoivent les fibulaires."
+      ]
+    }
+  ]
+}

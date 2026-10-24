@@ -1,0 +1,34 @@
+{
+  "name": "atlas-anatomie",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Atlas d'anatomie local : visualiseur 3D (phase 1)",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "verifier": "tsc --noEmit",
+    "test:clic": "node tests/clic.mjs",
+    "test:focus": "node tests/focus.mjs",
+    "test:fiches": "node tests/fiches.mjs",
+    "test:toutes-fiches": "node tests/sonde_toutes_fiches.mjs",
+    "test:navigation": "node tests/navigation.mjs",
+    "test:apprentissage": "node tests/apprentissage.mjs",
+    "test:os": "node tests/os.mjs",
+    "test:appli": "node tests/appli.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/fraunces": "5.3.0",
+    "@fontsource/ibm-plex-mono": "5.3.0",
+    "@fontsource/ibm-plex-sans": "5.3.0",
+    "three": "0.186.1",
+    "three-mesh-bvh": "0.9.15"
+  },
+  "devDependencies": {
+    "@types/three": "0.186.0",
+    "playwright-core": "1.63.0",
+    "typescript": "6.0.3",
+    "vite": "6.4.4"
+  }
+}

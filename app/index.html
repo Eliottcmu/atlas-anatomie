@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atlas d'anatomie, Explorer</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%230d1117'/%3E%3Cpath d='M16 5v22M16 11c-5 0-7 3-8 7M16 11c5 0 7 3 8 7M16 18c-3 0-4 2-5 5M16 18c3 0 4 2 5 5' stroke='%23e8a93c' stroke-width='2.2' fill='none' stroke-linecap='round'/%3E%3C/svg%3E" />
+  </head>
+  <body>
+    <div id="vue3d" aria-label="Modèle 3D"></div>
+    <svg id="legendes-traits" class="legendes-traits" aria-hidden="true"></svg>
+    <div id="legendes" class="legendes" aria-label="Légendes de la vue" hidden></div>
+
+    <header class="entete">
+      <div class="titre">
+        <span class="surtitre">Atlas d'anatomie</span>
+        <h1 id="titre-mode">Explorer</h1>
+        <span class="sous-titre">Bloc 1 · Vaisseaux</span>
+      </div>
+      <div class="entete-centre">
+        <div class="recherche" role="search">
+          <label for="champ-recherche" class="etiquette">Rechercher</label>
+          <div class="champ">
+            <svg class="icone" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="4.6"/><path d="M10.4 10.4 14 14"/></svg>
+            <input id="champ-recherche" type="search" autocomplete="off" spellcheck="false"
+                   placeholder="Structure, région ou organe : subclavière, rein, genou..." aria-controls="resultats" />
+            <kbd id="raccourci-recherche">Ctrl K</kbd>
+          </div>
+          <ol id="resultats" class="resultats" role="listbox" hidden></ol>
+        </div>
+        <nav class="fil" aria-label="Où je suis">
+          <button id="nav-precedent" class="nav-bouton" aria-label="Étape précédente" title="Étape précédente" disabled>
+            <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3 5 8l5 5"/></svg>
+          </button>
+          <button id="nav-suivant" class="nav-bouton" aria-label="Étape suivante" title="Étape suivante" disabled>
+            <svg viewBox="0 0 16 16" aria-hidden="true"><path d="m6 3 5 5-5 5"/></svg>
+          </button>
+          <ol id="fil-ariane" class="fil-ariane"></ol>
+        </nav>
+      </div>
+      <div class="entete-droite">
+        <button id="ouvrir-liste-fiches" class="bouton-entete" title="Fiches à vérifier (L)">
+          <span class="etiquette">Fiches vérifiées</span>
+          <span><strong id="compteur-fiches">0/0</strong> <kbd>L</kbd></span>
+        </button>
+        <button id="ouvrir-catalogue" class="bouton-entete" title="Régions, os et organes (G)">
+          <span class="etiquette">Aller à</span>
+          <span>Régions et organes <kbd>G</kbd></span>
+        </button>
+        <button id="ouvrir-aide" class="bouton-entete bouton-aide" title="Raccourcis et réglages (?)" aria-label="Aide et réglages">
+          <span class="etiquette">Aide</span>
+          <span><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2"/><path d="M6.2 6.3a1.9 1.9 0 1 1 2.6 1.8c-.5.2-.8.6-.8 1.1v.5"/><circle cx="8" cy="11.6" r=".4" class="plein"/></svg><kbd>?</kbd></span>
+        </button>
+      </div>
+    </header>
+
+    <aside class="panneau affichage" aria-label="Affichage">
+      <nav class="modes" aria-label="Modes">
+        <button data-mode-app="explorer" aria-current="page" title="Explorer le modèle librement">Explorer</button>
+        <button id="ouvrir-parcours" data-mode-app="parcours" title="Parcours guidés (P)">Parcours <kbd>P</kbd></button>
+        <button id="ouvrir-revision" data-mode-app="reviser" title="Révision du jour (Q)">Réviser <span id="compteur-dues" class="compteur-dues" hidden></span> <kbd>Q</kbd></button>
+        <button id="ouvrir-tableau" data-mode-app="progres" title="Tableau de bord (B)">Progrès <kbd>B</kbd></button>
+      </nav>
+      <h2 class="etiquette titre-calques">Calques</h2>
+      <ul id="liste-calques"></ul>
+      <div class="sous-section">
+        <span class="etiquette">Os <kbd>O</kbd></span>
+        <div class="segments" role="radiogroup" aria-label="Affichage des os">
+          <button data-mode="repere" role="radio">Repère</button>
+          <button data-mode="opaque" role="radio">Opaques</button>
+          <button data-mode="masque" role="radio">Masqués</button>
+        </div>
+      </div>
+      <div class="sous-section">
+        <span class="etiquette">Légendes <kbd>N</kbd></span>
+        <div class="segments" role="radiogroup" aria-label="Légendes de la vue">
+          <button data-legendes="noms" role="radio">Noms</button>
+          <button data-legendes="numeros" role="radio">Numéros</button>
+          <button data-legendes="aucune" role="radio">Aucune</button>
+        </div>
+        <p class="aide" id="aide-legendes">Les légendes apparaissent en focus sur une région ou un organe.</p>
+      </div>
+    </aside>
+
+    <nav class="dock" aria-label="Vues et coupe">
+      <div class="dock-carte">
+      <div class="dock-groupe">
+        <span class="etiquette">Vue</span>
+        <div class="dock-boutons">
+          <button data-vue="face" title="Vue de face (F)">Face <kbd>F</kbd></button>
+          <button data-vue="dos" title="Vue de dos (D)">Dos <kbd>D</kbd></button>
+          <button data-vue="droite" title="Profil droit du sujet (flèche gauche)">Droite <kbd>&larr;</kbd></button>
+          <button data-vue="gauche" title="Profil gauche du sujet (flèche droite)">Gauche <kbd>&rarr;</kbd></button>
+          <button data-vue="dessus" title="Vue de dessus (flèche haut)"><span class="long">Dessus</span><span class="court">Haut</span> <kbd>&uarr;</kbd></button>
+          <button data-vue="dessous" title="Vue de dessous (flèche bas)"><span class="long">Dessous</span><span class="court">Bas</span> <kbd>&darr;</kbd></button>
+          <button data-action="cadrer" class="cadrer" title="Cadrer la sélection ou le focus (Z)">Cadrer <kbd>Z</kbd></button>
+        </div>
+      </div>
+      <div class="dock-groupe">
+        <span class="etiquette">Coupe <kbd>C</kbd></span>
+        <div class="segments coupe" role="radiogroup" aria-label="Plan de coupe">
+          <button data-coupe="aucune" role="radio" title="Pas de coupe"><span class="long">Aucune</span><span class="court">Non</span></button>
+          <button data-coupe="frontale" role="radio" title="Coupe frontale">Front.</button>
+          <button data-coupe="sagittale" role="radio" title="Coupe sagittale">Sagit.</button>
+          <button data-coupe="horizontale" role="radio" title="Coupe horizontale">Horiz.</button>
+        </div>
+        <div id="coupe-reglages" class="coupe-reglages" hidden>
+          <input id="coupe-position" type="range" min="0" max="100" value="50" aria-label="Position du plan de coupe" />
+          <button id="coupe-inverser" title="Garder l'autre moitié">Inverser</button>
+        </div>
+      </div>
+      </div>
+    </nav>
+
+    <div id="orientation" class="orientation" aria-label="Orientation : clique un axe pour regarder de ce côté">
+      <svg id="orientation-svg" viewBox="-50 -50 100 100"></svg>
+    </div>
+
+    <div id="catalogue" class="catalogue" role="dialog" aria-label="Régions et organes" hidden>
+      <div class="catalogue-carte">
+        <div class="catalogue-entete">
+          <div>
+            <span class="surtitre">Focus</span>
+            <h2>Régions, os et organes</h2>
+          </div>
+          <div class="catalogue-outils">
+            <div class="segments petit" role="radiogroup" aria-label="Côté des membres et des os pairs" title="Côté des membres et des os pairs">
+              <button data-cote="droit" role="radio" aria-checked="true">Droit</button>
+              <button data-cote="gauche" role="radio" aria-checked="false">Gauche</button>
+            </div>
+            <div class="champ petit-champ">
+              <svg class="icone" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="4.6"/><path d="M10.4 10.4 14 14"/></svg>
+              <input id="catalogue-filtre" type="search" autocomplete="off" spellcheck="false" placeholder="Filtrer : rein, fémur, main..." aria-label="Filtrer les régions, os et organes" />
+            </div>
+            <button id="catalogue-fermer" class="fermer">Fermer <kbd class="touche-echap">Échap</kbd></button>
+          </div>
+        </div>
+        <div class="catalogue-colonnes">
+          <div>
+            <div class="catalogue-titre-colonne"><h3>Régions</h3></div>
+            <p class="aide">Vue découpée à la région, vaisseaux de la liste noyau légendés.</p>
+            <div id="catalogue-regions"></div>
+          </div>
+          <div>
+            <div class="catalogue-titre-colonne"><h3>Os</h3></div>
+            <p class="aide">L'os seul, opaque, avec ses reliefs, faces et surfaces articulaires légendés. Côté au choix en haut.</p>
+            <div id="catalogue-os"></div>
+          </div>
+          <div>
+            <div class="catalogue-titre-colonne"><h3>Organes</h3></div>
+            <p class="aide">L'organe, ses parties et ses repères légendés, avec les vaisseaux et les os à son contact. Le chiffre indique les repères. Modèle masculin.</p>
+            <div id="catalogue-organes"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="liste-fiches" class="catalogue" role="dialog" aria-label="Fiches à vérifier" hidden>
+      <div class="catalogue-carte">
+        <div class="catalogue-entete">
+          <div>
+            <span class="surtitre">Phase 2</span>
+            <h2>Fiches des vaisseaux</h2>
+            <p class="aide" id="liste-fiches-bilan"></p>
+          </div>
+          <button id="liste-fiches-fermer" class="fermer">Fermer <kbd class="touche-echap">Échap</kbd></button>
+        </div>
+        <div class="segments filtres-fiches" role="radiogroup" aria-label="Filtre">
+          <button data-filtre-fiches="a-verifier" role="radio">À vérifier</button>
+          <button data-filtre-fiches="verifiees" role="radio">Vérifiées</button>
+          <button data-filtre-fiches="sans-fiche" role="radio">Sans fiche</button>
+          <button data-filtre-fiches="toutes" role="radio">Toutes</button>
+        </div>
+        <div id="liste-fiches-contenu" class="liste-fiches-contenu"></div>
+      </div>
+    </div>
+
+    <div id="aide" class="catalogue" role="dialog" aria-label="Aide et réglages" hidden>
+      <div class="catalogue-carte aide-carte">
+        <div class="catalogue-entete">
+          <div>
+            <span class="surtitre">Aide</span>
+            <h2>Raccourcis et réglages</h2>
+          </div>
+          <button id="aide-fermer" class="fermer">Fermer <kbd class="touche-echap">Échap</kbd></button>
+        </div>
+        <div id="aide-contenu" class="aide-contenu"></div>
+      </div>
+    </div>
+
+    <aside id="zone" class="panneau zone" aria-label="Contenu de la zone" hidden>
+      <span class="etiquette">Dans la zone</span>
+      <h2 class="zone-titre" id="zone-titre"></h2>
+      <div id="zone-liste" class="zone-liste"></div>
+    </aside>
+
+    <aside id="fiche" class="panneau fiche" aria-live="polite" hidden>
+      <p class="fiche-surtitre etiquette" id="fiche-surtitre"></p>
+      <h2 class="fiche-nom" id="fiche-nom"></h2>
+      <p class="fiche-cote" id="fiche-cote"></p>
+      <p class="fiche-parent" id="fiche-parent" hidden>
+        <span id="fiche-parent-texte">Fait partie de</span> <button class="lien" id="fiche-parent-lien"></button>
+      </p>
+      <dl class="fiche-details" id="fiche-details"></dl>
+      <div class="fiche-contenu" id="fiche-contenu"></div>
+      <div class="fiche-actions">
+        <button data-action="isoler">Isoler <kbd>I</kbd></button>
+        <button data-action="masquer">Masquer <kbd>H</kbd></button>
+        <button data-action="deselectionner">Fermer <kbd class="touche-echap">Échap</kbd></button>
+      </div>
+    </aside>
+
+    <div id="infobulle" class="infobulle" hidden></div>
+
+    <aside id="seance" class="panneau seance" aria-live="polite" hidden></aside>
+    <aside id="parcours-panneau" class="panneau seance parcours-panneau" aria-live="polite" hidden></aside>
+
+    <div id="parcours-liste" class="catalogue" role="dialog" aria-label="Parcours guidés" hidden>
+      <div class="catalogue-carte">
+        <div class="catalogue-entete">
+          <div><span class="surtitre">Apprendre</span><h2>Parcours guidés</h2>
+            <p class="aide">Une structure à la fois, dans l'ordre : la structure, ses branches, la suite. Deux lignes tirées de la fiche, puis un mini-quiz de 5 questions.</p></div>
+          <button id="parcours-liste-fermer" class="fermer">Fermer <kbd class="touche-echap">Échap</kbd></button>
+        </div>
+        <div id="parcours-liste-contenu" class="liste-fiches-contenu"></div>
+      </div>
+    </div>
+
+    <div id="tableau" class="catalogue" role="dialog" aria-label="Tableau de bord" hidden>
+      <div class="catalogue-carte">
+        <div class="catalogue-entete">
+          <div><span class="surtitre">Progrès</span><h2>Tableau de bord</h2></div>
+          <button id="tableau-fermer" class="fermer">Fermer <kbd class="touche-echap">Échap</kbd></button>
+        </div>
+        <div id="tableau-contenu"></div>
+      </div>
+    </div>
+
+    <div id="accueil-guide" class="catalogue" role="dialog" aria-label="Premier lancement" hidden>
+      <div class="catalogue-carte accueil-carte">
+        <span class="surtitre">Bienvenue dans l'atlas</span>
+        <div id="accueil-guide-contenu"></div>
+      </div>
+    </div>
+
+    <div id="legende-maitrise" class="legende-maitrise flottante" hidden></div>
+    <div id="interrogation" class="interrogation" role="status" aria-live="polite" hidden>
+      <span class="surtitre">Interrogation <span id="interrogation-progres"></span></span>
+      <p id="interrogation-texte"></p>
+      <div id="interrogation-boutons" class="interrogation-boutons"></div>
+    </div>
+
+    <footer class="etat" aria-live="polite">
+      <div><span class="etiquette">Où</span><span id="etat-ou">Explorer</span></div>
+      <div><span class="etiquette">Action</span><span id="etat-action">Chargement du modèle</span></div>
+      <div><span class="etiquette">Ensuite</span><span id="etat-ensuite">Patienter pendant le chargement</span></div>
+      <div class="ips" id="etat-ips" title="Images par seconde pendant le dernier mouvement"></div>
+    </footer>
+
+    <div id="chargement" class="chargement" role="status">
+      <div class="chargement-carte">
+        <span class="surtitre">Atlas d'anatomie</span>
+        <h2>Chargement du modèle</h2>
+        <p class="chargement-total"><span id="chargement-pourcent">0</span> %</p>
+        <ul id="chargement-fichiers"></ul>
+        <p class="chargement-erreur" id="chargement-erreur" hidden></p>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

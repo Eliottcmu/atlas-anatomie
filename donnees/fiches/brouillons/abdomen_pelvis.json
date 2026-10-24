@@ -1,0 +1,1907 @@
+{
+  "region": "Abdomen et pelvis",
+  "redige_le": "2026-10-21",
+  "fiches": [
+    {
+      "id": "A41",
+      "champs": {
+        "origine": {
+          "texte": "Fait suite à l'aorte thoracique descendante à la traversée du hiatus aortique du diaphragme, dans un plan horizontal passant par T12. Comprend les segments 4 et 5, séparés par l'origine des artères rénales : le segment 4 est très court.",
+          "sources": [
+            "GV26:10",
+            "GV25:9"
+          ]
+        },
+        "trajet": {
+          "texte": "Verticale, en avant et plutôt sur le flanc gauche de la colonne lombaire. Calibre d'environ 25 mm.",
+          "sources": [
+            "GV26:10",
+            "GV25:9"
+          ]
+        },
+        "branches": {
+          "texte": "Pariétales : artères phréniques inférieures, dès la traversée du diaphragme ; quatre artères lombaires de chaque côté. Viscérales, dans l'ordre : tronc cœliaque (T12), artères surrénales moyennes, artère mésentérique supérieure (L1), artères rénales (L1), artères gonadiques, artère mésentérique inférieure (L3-L4). Juste avant la bifurcation : l'artère sacrale médiane.",
+          "sources": [
+            "GV26:10-11",
+            "GV25:9-10",
+            "ACV19c:10"
+          ]
+        },
+        "terminaison": {
+          "texte": "Se divise en artères iliaques communes droite et gauche en regard du disque L4-L5, à gauche de la ligne médiane.",
+          "sources": [
+            "GV26:10",
+            "GV25:10"
+          ]
+        },
+        "rapports": {
+          "texte": "Entièrement rétro-péritonéale, dans le fascia rétro-péritonéal médian. En arrière : colonne vertébrale, conduit thoracique, veines lombaires gauches. À droite, sur toute la hauteur : veine cave inférieure. À gauche : rein et glande surrénale gauches, pelvis et uretère gauches. En avant, par l'intermédiaire du péritoine : pancréas, partie horizontale du duodénum, estomac, côlon transverse, anses grêles, foie en haut. La veine rénale gauche passe dans la pince aorto-mésentérique, entre l'aorte et l'artère mésentérique supérieure ; la veine splénique passe au-dessus de l'artère mésentérique supérieure. Entourée de nœuds lymphatiques et des plexus du système nerveux autonome ; plexus hypogastrique supérieur en avant de la bifurcation.",
+          "sources": [
+            "GV26:10,12-13",
+            "GV25:10-11"
+          ]
+        },
+        "clinique": {
+          "texte": "Anévrisme de l'aorte abdominale, surtout chez l'homme fumeur de plus de 60 ans, avec un risque de rupture. Fistule duodéno-aortique sur ulcère duodénal, avec hématémèse. Une chirurgie aortique peut léser le plexus hypogastrique supérieur (troubles de l'érection) ou l'artère radiculaire antérieure (paraplégie). Thrombose de l'aorte sous-rénale : les anastomoses (thoraciques internes et épigastriques, branches digestives et iliaques internes) suppléent les membres inférieurs, c'est le syndrome de Leriche ; une thrombose au-dessus des artères rénales n'est pas viable.",
+          "sources": [
+            "GV26:12-13",
+            "GV25:10-11,15-16"
+          ]
+        },
+        "pathologie": {
+          "texte": "Anévrisme dès que le diamètre dépasse 30 mm ; traitement (prothèse chirurgicale ou endoprothèse) discuté à partir d'environ 50 à 55 mm ou devant une croissance rapide. Rupture : douleur abdominale ou lombaire, collapsus, masse battante. Dépistage échographique proposé à l'homme fumeur ou ancien fumeur de 65 à 75 ans.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Diamètre normal de 15 à 25 mm, décroissant vers le bas. Battements visibles et palpables au-dessus de l'ombilic chez le sujet mince ; la bifurcation se projette à peu près sur l'ombilic (L4).",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "fait_suite_a",
+          "cible": "A10",
+          "sources": [
+            "GV26:10"
+          ]
+        }
+      ],
+      "remarques": [
+        "Calibre : environ 25 mm d'après GV26 p.10, environ 20 mm d'après GV25 p.12. À vérifier sur le diaporama."
+      ]
+    },
+    {
+      "id": "A42",
+      "champs": {
+        "origine": {
+          "texte": "Premières branches de l'aorte abdominale, nées immédiatement après la traversée du hiatus aortique du diaphragme.",
+          "sources": [
+            "GV26:10",
+            "GV25:9"
+          ]
+        },
+        "trajet": {
+          "texte": "Remontent puis tapissent la face inférieure des coupoles diaphragmatiques. Calibre de 2 à 3 mm, assez facilement visibles sur les examens.",
+          "sources": [
+            "GV26:10",
+            "GV25:9"
+          ]
+        },
+        "branches": {
+          "texte": "Les artères surrénales supérieures.",
+          "sources": [
+            "GV26:11",
+            "GV25:9"
+          ]
+        },
+        "territoire": {
+          "texte": "Diaphragme, en dessous du muscle ; glande surrénale par les artères surrénales supérieures.",
+          "sources": [
+            "GV26:10-11"
+          ]
+        },
+        "variations": {
+          "texte": "Il existe parfois des artères phréniques supérieures, issues de l'aorte thoracique descendante avant la traversée du diaphragme, qui s'épanouissent au-dessus du muscle.",
+          "sources": [
+            "GV26:10"
+          ]
+        },
+        "pathologie": {
+          "texte": "Embolisation dans certaines hémorragies, ou d'un carcinome hépato-cellulaire alimenté par une artère phrénique inférieure droite.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Naît souvent du tronc cœliaque plutôt que directement de l'aorte. Donne les artères surrénales supérieures.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "branche_de",
+          "cible": "A41",
+          "sources": [
+            "GV26:10"
+          ]
+        }
+      ],
+      "remarques": [
+        "Appelées aussi artères diaphragmatiques inférieures."
+      ]
+    },
+    {
+      "id": "A43",
+      "champs": {
+        "origine": {
+          "texte": "Face antérieure de l'aorte abdominale, en regard du bord inférieur de T12, en dessous des artères phréniques inférieures. Première des trois branches digestives, dirigées initialement vers l'avant.",
+          "sources": [
+            "GV26:11",
+            "GV25:9"
+          ]
+        },
+        "terminaison": {
+          "texte": "Se divise en trois branches : l'artère gastrique gauche, la plus grêle ; l'artère hépatique commune, vers la droite ; l'artère splénique, vers la gauche, la plus volumineuse.",
+          "sources": [
+            "GV26:11",
+            "GV25:9",
+            "ACV19c:10"
+          ]
+        },
+        "territoire": {
+          "texte": "Estomac, foie et vésicule biliaire, duodénum, pancréas, rate.",
+          "sources": [
+            "GV26:11",
+            "GV25:9"
+          ]
+        },
+        "rapports": {
+          "texte": "Entouré, comme les artères mésentérique supérieure et rénales, de volumineux plexus et ganglions du système nerveux autonome.",
+          "sources": [
+            "GV25:10"
+          ]
+        },
+        "pathologie": {
+          "texte": "Syndrome du ligament arqué médian : compression du tronc cœliaque par le ligament arqué du diaphragme, avec des douleurs post-prandiales. Ischémie mésentérique chronique (angor digestif) quand plusieurs troncs digestifs sont sténosés.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Tronc court, de 1 à 2 cm, terminé par une trifurcation (trépied de Haller). Artère de l'intestin antérieur embryonnaire, jusqu'à la papille duodénale majeure.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "branche_de",
+          "cible": "A41",
+          "sources": [
+            "GV26:11"
+          ]
+        },
+        {
+          "type": "anastomose_avec",
+          "cible": "A47",
+          "sources": [
+            "GV25:15"
+          ]
+        }
+      ],
+      "remarques": [
+        "Anastomoses : le tronc cœliaque et les deux artères mésentériques forment une longue arcade le long du bord des viscères digestifs, l'arcade para-colique ou de Riolan (GV25 p.15)."
+      ]
+    },
+    {
+      "id": "A44",
+      "champs": {
+        "origine": {
+          "texte": "Branche de division du tronc cœliaque, la plus grêle des trois.",
+          "sources": [
+            "GV26:11",
+            "GV25:9"
+          ]
+        },
+        "territoire": {
+          "texte": "Estomac, au niveau de sa petite courbure.",
+          "sources": [
+            "GV26:11",
+            "GV25:9"
+          ]
+        },
+        "clinique": {
+          "texte": "Sa veine satellite, la veine gastrique gauche, est tributaire du système porte : ses anastomoses avec les veines œsophagiennes du système cave donnent les varices œsophagiennes de l'hypertension portale.",
+          "sources": [
+            "GV26:22",
+            "GV25:19"
+          ]
+        },
+        "pathologie": {
+          "texte": "Ulcère de la petite courbure gastrique : hémorragie par érosion de la gastrique gauche, que l'on peut emboliser.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "La plus grêle des branches du tronc cœliaque. Monte vers le cardia (rameaux œsophagiens) puis descend le long de la petite courbure dans le petit omentum, où elle s'anastomose avec l'artère gastrique droite.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "branche_de",
+          "cible": "A43",
+          "sources": [
+            "GV26:11"
+          ]
+        }
+      ],
+      "remarques": [
+        "Appelée aussi artère coronaire stomachique."
+      ]
+    },
+    {
+      "id": "A45",
+      "champs": {
+        "origine": {
+          "texte": "Branche de division du tronc cœliaque, dirigée vers la droite.",
+          "sources": [
+            "GV26:11",
+            "GV25:9"
+          ]
+        },
+        "territoire": {
+          "texte": "Foie, vésicule biliaire, duodénum, tête et col du pancréas.",
+          "sources": [
+            "GV26:11",
+            "GV25:9"
+          ]
+        },
+        "pathologie": {
+          "texte": "Chimio-embolisation des tumeurs du foie par voie artérielle : le carcinome hépato-cellulaire est surtout vascularisé par l'artère hépatique. Thrombose de l'artère hépatique après une greffe : nécrose des voies biliaires. Variations fréquentes (artère hépatique droite née de la mésentérique supérieure, gauche née de la gastrique gauche), à connaître avant toute chirurgie hépato-biliaire.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "L'artère hépatique apporte environ 25 % du débit sanguin du foie mais à peu près la moitié de son oxygène, la veine porte le reste. Donne l'artère gastro-duodénale, puis devient l'artère hépatique propre, dans le pédicule hépatique avec la veine porte en arrière et le conduit cholédoque à droite.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "branche_de",
+          "cible": "A43",
+          "sources": [
+            "GV26:11"
+          ]
+        }
+      ],
+      "remarques": [
+        "Trajet et branches (artère hépatique propre, artère gastro-duodénale) non décrits dans les ronéos déposées : à compléter avec le cours d'anatomie digestive."
+      ]
+    },
+    {
+      "id": "A46",
+      "champs": {
+        "origine": {
+          "texte": "Branche de division du tronc cœliaque, dirigée vers la gauche ; la plus volumineuse des trois.",
+          "sources": [
+            "GV26:11",
+            "GV25:9"
+          ]
+        },
+        "territoire": {
+          "texte": "Rate, corps et queue du pancréas, estomac.",
+          "sources": [
+            "GV26:11",
+            "GV25:9"
+          ]
+        },
+        "pathologie": {
+          "texte": "Anévrisme de l'artère splénique : le plus fréquent des anévrismes viscéraux, plus fréquent chez la femme, avec un risque de rupture pendant la grossesse. Embolisation ou ligature lors des traumatismes de la rate.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Très sinueuse, le long du bord supérieur du pancréas. Donne les artères pancréatiques, les artères gastriques courtes et l'artère gastro-omentale gauche avant d'entrer dans le hile de la rate.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "branche_de",
+          "cible": "A43",
+          "sources": [
+            "GV26:11"
+          ]
+        }
+      ],
+      "remarques": [
+        "Trajet (bord supérieur du pancréas) et branches non décrits dans les ronéos déposées."
+      ]
+    },
+    {
+      "id": "A47",
+      "champs": {
+        "origine": {
+          "texte": "Face antérieure de l'aorte abdominale, en regard du bord supérieur de L1, un peu au-dessus des artères rénales. Deuxième branche digestive.",
+          "sources": [
+            "GV26:11",
+            "GV25:9"
+          ]
+        },
+        "trajet": {
+          "texte": "Passe entre le corps du pancréas et son processus unciné, puis s'engage dans le mésentère pour gagner les anses grêles et les côlons.",
+          "sources": [
+            "GV26:12",
+            "GV25:9"
+          ]
+        },
+        "territoire": {
+          "texte": "Tout l'intestin grêle (duodénum, jéjunum, iléon), cæcum, côlon ascendant et partie droite du côlon transverse (les deux tiers droits selon GV25).",
+          "sources": [
+            "GV26:11",
+            "GV25:9-10"
+          ]
+        },
+        "rapports": {
+          "texte": "Forme avec l'aorte, en arrière, la pince aorto-mésentérique, où passe la veine rénale gauche. La veine splénique passe au-dessus d'elle. Entourée de volumineux plexus du système nerveux autonome.",
+          "sources": [
+            "GV26:12",
+            "GV25:10,17"
+          ]
+        },
+        "pathologie": {
+          "texte": "Ischémie mésentérique aiguë, par embolie (souvent sur fibrillation atriale) ou par thrombose : douleur abdominale intense contrastant avec un examen pauvre, urgence vitale. Syndrome de la pince aorto-mésentérique : la partie horizontale du duodénum est comprimée entre l'aorte et l'artère, après un amaigrissement important.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Angle aorto-mésentérique normal d'environ 25 à 60°. Artère de l'intestin moyen embryonnaire : artères jéjunales et iléales par son bord gauche, artères coliques par son bord droit.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "branche_de",
+          "cible": "A41",
+          "sources": [
+            "GV26:11"
+          ]
+        },
+        {
+          "type": "anastomose_avec",
+          "cible": "A50",
+          "sources": [
+            "GV25:15"
+          ]
+        }
+      ],
+      "remarques": [
+        "Niveau d'origine : bord supérieur de L1 pour GV26 p.11, disque T12-L1 pour GV25 p.9.",
+        "Branches (artères jéjunales, iléales, coliques) non décrites dans les ronéos déposées."
+      ]
+    },
+    {
+      "id": "A48",
+      "champs": {
+        "origine": {
+          "texte": "Face postéro-latérale de l'aorte abdominale, à hauteur de L1. Leur ostium sépare les segments 4 et 5 de l'aorte.",
+          "sources": [
+            "GV26:10-11",
+            "GV25:9"
+          ]
+        },
+        "trajet": {
+          "texte": "Se dirigent en arrière et en dehors vers le rein.",
+          "sources": [
+            "GV26:10"
+          ]
+        },
+        "branches": {
+          "texte": "L'artère surrénale inférieure ; l'artère urétérale supérieure.",
+          "sources": [
+            "GV26:11",
+            "GV25:9,12"
+          ]
+        },
+        "territoire": {
+          "texte": "Rein, glande surrénale (partie inférieure), uretère (partie haute).",
+          "sources": [
+            "GV26:10-11",
+            "GV25:12"
+          ]
+        },
+        "variations": {
+          "texte": "Artère principale le plus souvent unique. Des artères accessoires, dites polaires (supérieures ou inférieures), naissent parfois de l'aorte : ce sont des artères de la migration embryonnaire du rein, du pelvis vers sa position finale, qui n'ont pas involué.",
+          "sources": [
+            "GV26:10-11",
+            "GV25:9"
+          ]
+        },
+        "clinique": {
+          "texte": "Les deux reins reçoivent environ 20 % du débit éjecté par le ventricule gauche.",
+          "sources": [
+            "GV25:17"
+          ]
+        },
+        "pathologie": {
+          "texte": "Sténose de l'artère rénale (athérome chez le sujet âgé, dysplasie fibro-musculaire chez la femme jeune) : hypertension réno-vasculaire par activation du système rénine-angiotensine. Infarctus rénal d'origine embolique.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "La droite, plus longue, passe en arrière de la veine cave inférieure. Artères segmentaires terminales, sans suppléance, ce qui permet les néphrectomies partielles. Débit sanguin rénal d'environ 1 à 1,2 L/min.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "branche_de",
+          "cible": "A41",
+          "sources": [
+            "GV26:10"
+          ]
+        }
+      ],
+      "remarques": []
+    },
+    {
+      "id": "A49",
+      "champs": {
+        "origine": {
+          "texte": "Face antérieure de l'aorte abdominale, entre les artères mésentériques supérieure et inférieure.",
+          "sources": [
+            "GV26:11",
+            "GV25:10"
+          ]
+        },
+        "trajet": {
+          "texte": "Très longues : elles naissent haut et descendent, très bas chez l'homme.",
+          "sources": [
+            "GV25:10"
+          ]
+        },
+        "territoire": {
+          "texte": "Testicule chez l'homme (artère testiculaire), ovaire chez la femme (artère ovarienne).",
+          "sources": [
+            "GV26:11",
+            "GV25:10"
+          ]
+        },
+        "pathologie": {
+          "texte": "Torsion du cordon spermatique ou de l'annexe : arrêt du flux artériel testiculaire ou ovarien, urgence chirurgicale (idéalement avant six heures).",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Sa naissance haute, vers L2, rappelle l'origine lombaire de la gonade avant sa migration. Chez l'homme, elle gagne le testicule par le canal inguinal, dans le cordon spermatique.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "branche_de",
+          "cible": "A41",
+          "sources": [
+            "GV26:11"
+          ]
+        }
+      ],
+      "remarques": [
+        "Niveau d'origine : disque L2-L3 pour GV26 p.11, L3-L4 pour GV25 p.10, qui place pourtant aussi l'artère mésentérique inférieure en L3-L4. À vérifier sur le diaporama."
+      ]
+    },
+    {
+      "id": "A50",
+      "champs": {
+        "origine": {
+          "texte": "Face antérieure de l'aorte abdominale, en regard du disque L3-L4, nettement plus bas que les autres branches digestives. Beaucoup plus petite que la mésentérique supérieure.",
+          "sources": [
+            "GV26:11",
+            "GV25:10"
+          ]
+        },
+        "trajet": {
+          "texte": "Se dirige en avant et vers la gauche et s'engage dans le méso-sigmoïde.",
+          "sources": [
+            "GV26:11",
+            "GV25:10"
+          ]
+        },
+        "territoire": {
+          "texte": "Partie gauche du côlon transverse, côlon descendant, côlon sigmoïde et partie supérieure du rectum.",
+          "sources": [
+            "GV26:11",
+            "GV25:10"
+          ]
+        },
+        "variations": {
+          "texte": "Anastomosée avec les artères rectales moyennes, branches des iliaques internes, et avec l'artère mésentérique supérieure par l'arcade para-colique : voies de suppléance.",
+          "sources": [
+            "GV26:17",
+            "GV25:15"
+          ]
+        },
+        "pathologie": {
+          "texte": "Ligature lors de la chirurgie du côlon gauche, du rectum ou d'un anévrisme de l'aorte : risque de colite ischémique, surtout à l'angle gauche du côlon, zone de jonction des territoires mésentériques supérieur et inférieur.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Artère de l'intestin postérieur embryonnaire, du dernier tiers du côlon transverse au haut du rectum. Se termine en artère rectale supérieure.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "branche_de",
+          "cible": "A41",
+          "sources": [
+            "GV26:11"
+          ]
+        },
+        {
+          "type": "anastomose_avec",
+          "cible": "A47",
+          "sources": [
+            "GV25:15"
+          ]
+        },
+        {
+          "type": "anastomose_avec",
+          "cible": "A54",
+          "sources": [
+            "GV26:17"
+          ]
+        }
+      ],
+      "remarques": []
+    },
+    {
+      "id": "A51",
+      "champs": {
+        "origine": {
+          "texte": "Face postéro-latérale de l'aorte abdominale, à chaque étage : quatre artères lombaires de chaque côté. La cinquième naît de l'artère sacrale médiane.",
+          "sources": [
+            "GV26:11",
+            "GV25:10"
+          ]
+        },
+        "trajet": {
+          "texte": "Parcourent la paroi postérieure de l'abdomen, dans la région lombaire, comme les intercostales parcourent la paroi thoracique.",
+          "sources": [
+            "GV26:11"
+          ]
+        },
+        "branches": {
+          "texte": "L'une d'elles donne habituellement l'artère radiculaire antérieure, artère médullaire principale ; elle naît dans l'immense majorité des cas entre T9 et L2 (de la neuvième intercostale à la deuxième lombaire), plutôt à gauche, mais ses origines sont très diverses.",
+          "sources": [
+            "GV26:10-11"
+          ]
+        },
+        "territoire": {
+          "texte": "Paroi postérieure de l'abdomen ; moelle spinale par l'artère radiculaire antérieure.",
+          "sources": [
+            "GV26:11"
+          ]
+        },
+        "variations": {
+          "texte": "S'anastomosent avec l'artère circonflexe iliaque profonde, branche de l'iliaque externe.",
+          "sources": [
+            "GV26:15"
+          ]
+        },
+        "clinique": {
+          "texte": "La ligature de l'artère qui donne la radiculaire antérieure (chirurgie de l'aorte, endoprothèses, lésions de l'angle costo-vertébral) expose à un risque de paraplégie.",
+          "sources": [
+            "GV26:12"
+          ]
+        },
+        "pathologie": {
+          "texte": "Après une endoprothèse aortique, les artères lombaires peuvent continuer d'alimenter le sac anévrismal (endofuite de type II). Saignement lors des chirurgies du rachis.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Quatre paires, une par vertèbre de L1 à L4, sur la face postérieure de l'aorte ; anastomosées avec les intercostales, les épigastriques et les circonflexes iliaques.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "branche_de",
+          "cible": "A41",
+          "sources": [
+            "GV26:11"
+          ]
+        },
+        {
+          "type": "branche_de",
+          "cible": "A52",
+          "sources": [
+            "GV26:11"
+          ]
+        }
+      ],
+      "remarques": [
+        "La relation avec l'artère sacrale médiane ne concerne que la cinquième artère lombaire."
+      ]
+    },
+    {
+      "id": "A52",
+      "champs": {
+        "origine": {
+          "texte": "Bifurcation aortique, juste avant la division en iliaques communes : petit rameau postérieur très fin.",
+          "sources": [
+            "GV26:11",
+            "GV25:10"
+          ]
+        },
+        "trajet": {
+          "texte": "Verticale, sur la ligne médiane, contre la face antérieure du sacrum.",
+          "sources": [
+            "GV26:16",
+            "GV25:10"
+          ]
+        },
+        "branches": {
+          "texte": "La cinquième artère lombaire.",
+          "sources": [
+            "GV26:11",
+            "GV25:10"
+          ]
+        },
+        "pathologie": {
+          "texte": "Peu de pathologie propre ; saignement possible lors de l'abord antérieur du disque L5-S1.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Reste de l'aorte caudale embryonnaire ; se termine vers le coccyx (glomus coccygien).",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "branche_de",
+          "cible": "A41",
+          "sources": [
+            "GV26:11"
+          ]
+        }
+      ],
+      "remarques": [
+        "À ne pas confondre avec les artères sacrales latérales, issues du tronc postérieur de l'iliaque interne (GV25 p.14).",
+        "GV26 p.16 l'appelle aussi « artère sacrale moyenne »."
+      ]
+    },
+    {
+      "id": "A53",
+      "champs": {
+        "origine": {
+          "texte": "Branches terminales de l'aorte abdominale, en regard du disque L4-L5.",
+          "sources": [
+            "GV26:14",
+            "GV25:12"
+          ]
+        },
+        "trajet": {
+          "texte": "Vers le bas, l'arrière et latéralement. Environ 10 mm de diamètre à l'origine, 5 à 6 cm de long chez l'adulte. Artères élastiques, de conduction.",
+          "sources": [
+            "GV26:13-14",
+            "GV25:12"
+          ]
+        },
+        "branches": {
+          "texte": "Une seule collatérale : l'artère urétérale moyenne.",
+          "sources": [
+            "GV26:14-15",
+            "GV25:12"
+          ]
+        },
+        "terminaison": {
+          "texte": "Se divise dans le plan du disque L5-S1, en avant de l'articulation sacro-iliaque, en artère iliaque interne et artère iliaque externe.",
+          "sources": [
+            "GV26:14",
+            "GV25:12"
+          ]
+        },
+        "rapports": {
+          "texte": "Dans le fascia rétro-péritonéal. En arrière : colonne lombaire, articulations sacro-iliaques, chaîne sympathique lombaire, qu'elle croise. Veines iliaques en dedans et en arrière des artères ; l'artère iliaque commune droite croise en avant la veine iliaque commune gauche. L'uretère gauche croise la partie terminale de l'iliaque commune gauche. Plexus hypogastrique supérieur en avant de la bifurcation aortique. En avant : côlon sigmoïde à gauche, cæcum à droite, organes pelviens.",
+          "sources": [
+            "GV26:15,20",
+            "GV25:13"
+          ]
+        },
+        "clinique": {
+          "texte": "Siège d'artériopathie : occlusions, pontages ou prothèses aorto-fémorales. L'empreinte de l'iliaque commune droite sur la veine iliaque commune gauche explique la fréquence plus grande des phlébites à gauche.",
+          "sources": [
+            "GV26:16,20"
+          ]
+        },
+        "pathologie": {
+          "texte": "Artériopathie oblitérante : claudication de la fesse et de la cuisse. Anévrisme iliaque, souvent associé à un anévrisme de l'aorte abdominale.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Se projette sur le tiers supérieur d'une ligne allant de l'ombilic au milieu du ligament inguinal. Sa bifurcation, en avant de l'articulation sacro-iliaque, est croisée par l'uretère.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "branche_de",
+          "cible": "A41",
+          "sources": [
+            "GV26:14"
+          ]
+        }
+      ],
+      "remarques": []
+    },
+    {
+      "id": "A54",
+      "champs": {
+        "origine": {
+          "texte": "Branche de division interne de l'artère iliaque commune, en regard de L5-S1.",
+          "sources": [
+            "GV26:14",
+            "GV25:12"
+          ]
+        },
+        "trajet": {
+          "texte": "Vers l'arrière, l'intérieur et le bas ; s'épanouit en un bouquet de branches collatérales. Diamètre de 7 à 8 mm.",
+          "sources": [
+            "GV26:14",
+            "GV25:12"
+          ]
+        },
+        "branches": {
+          "texte": "Disposition très variable ; on décrit souvent deux troncs. Tronc postérieur : artère ilio-lombale, artère sacrale latérale, artère glutéale supérieure. Tronc antérieur, d'avant en arrière : artère obturatrice, artère ombilicale, artère prostatique ou utérine, artère déférentielle ou vaginale, artères vésicales inférieures, artère rectale moyenne, artère pudendale interne, artère glutéale inférieure.",
+          "sources": [
+            "GV26:16-17",
+            "GV25:14-15"
+          ]
+        },
+        "territoire": {
+          "texte": "Organes du petit bassin, en particulier génitaux ; partie terminale du tube digestif ; parois du petit bassin ; racine du membre inférieur par ses branches obturatrice et glutéales.",
+          "sources": [
+            "GV26:14",
+            "GV25:12"
+          ]
+        },
+        "rapports": {
+          "texte": "Dans le fascia rétro-péritonéal, ses branches dans le fascia sous-péritonéal. En rapport avec la chaîne sympathique sacrale et, sur la paroi, avec les foramens supra- et infra-piriformes et le foramen obturé.",
+          "sources": [
+            "GV26:15-16"
+          ]
+        },
+        "variations": {
+          "texte": "Anastomoses entre iliaques internes droite et gauche dans la paroi des viscères ; avec l'aorte, par les rectales moyennes et la mésentérique inférieure ; avec l'iliaque externe, par l'ilio-lombale et la circonflexe iliaque profonde. Ces voies de dérivation peuvent pallier une thrombose de l'iliaque commune, voire de l'aorte.",
+          "sources": [
+            "GV26:16-17",
+            "GV25:14-15"
+          ]
+        },
+        "clinique": {
+          "texte": "Peut s'occlure chez le patient atteint d'artériopathie des membres inférieurs.",
+          "sources": [
+            "GV26:16"
+          ]
+        },
+        "pathologie": {
+          "texte": "Embolisation ou ligature des iliaques internes dans les hémorragies du post-partum et des fractures du bassin. Artériopathie : dysfonction érectile d'origine vasculaire, claudication de la fesse.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Courte, de 3 à 4 cm ; division en tronc antérieur (surtout viscéral) et tronc postérieur (pariétal) près du bord supérieur de la grande incisure ischiatique. L'uretère descend en avant d'elle.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "branche_de",
+          "cible": "A53",
+          "sources": [
+            "GV26:14"
+          ]
+        },
+        {
+          "type": "anastomose_avec",
+          "cible": "A62",
+          "sources": [
+            "GV26:16"
+          ]
+        }
+      ],
+      "remarques": [
+        "Appelée aussi artère hypogastrique."
+      ]
+    },
+    {
+      "id": "A55",
+      "champs": {
+        "origine": {
+          "texte": "Tronc postérieur de l'artère iliaque interne.",
+          "sources": [
+            "GV26:16",
+            "MB26:14"
+          ]
+        },
+        "trajet": {
+          "texte": "Quitte la cavité pelvienne en traversant d'avant en arrière le foramen supra-piriforme, avec le nerf glutéal supérieur.",
+          "sources": [
+            "GV26:16",
+            "GV25:14"
+          ]
+        },
+        "branches": {
+          "texte": "Une branche musculaire pour les muscles petit et moyen glutéaux ; une branche anastomotique avec l'artère glutéale inférieure.",
+          "sources": [
+            "MB26:14"
+          ]
+        },
+        "territoire": {
+          "texte": "Muscles de la région glutéale.",
+          "sources": [
+            "GV26:16",
+            "GV25:14"
+          ]
+        },
+        "pathologie": {
+          "texte": "Lésion dans les fractures du bassin. Les injections intramusculaires se font dans le quadrant supéro-latéral de la fesse, à distance de l'artère et du nerf ischiatique.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Plus grosse branche de l'iliaque interne ; sort du bassin au-dessus du muscle piriforme.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "branche_de",
+          "cible": "A54",
+          "sources": [
+            "GV26:16"
+          ]
+        },
+        {
+          "type": "anastomose_avec",
+          "cible": "A56",
+          "sources": [
+            "MB26:14"
+          ]
+        }
+      ],
+      "remarques": [
+        "Appelée aussi artère fessière supérieure."
+      ]
+    },
+    {
+      "id": "A56",
+      "champs": {
+        "origine": {
+          "texte": "Dernière branche du tronc antérieur de l'artère iliaque interne.",
+          "sources": [
+            "GV26:17"
+          ]
+        },
+        "trajet": {
+          "texte": "Traverse le foramen infra-piriforme.",
+          "sources": [
+            "GV26:17",
+            "MB26:14"
+          ]
+        },
+        "branches": {
+          "texte": "Une branche glutéale, pour le muscle grand glutéal ; une branche fémorale, qui descend dans le compartiment postérieur de la cuisse avec le nerf ischiatique.",
+          "sources": [
+            "MB26:14"
+          ]
+        },
+        "territoire": {
+          "texte": "Muscles de la région glutéale, compartiment postérieur de la cuisse.",
+          "sources": [
+            "GV26:17",
+            "MB26:14"
+          ]
+        },
+        "variations": {
+          "texte": "Reçoit une anastomose de l'artère obturatrice et de l'artère circonflexe médiale du fémur ; sa branche fémorale s'anastomose avec le premier rameau perforant de l'artère profonde de la cuisse : c'est le début de l'anastomose cruciforme.",
+          "sources": [
+            "MB26:14",
+            "MB25:19-20"
+          ]
+        },
+        "pathologie": {
+          "texte": "Lésion dans les traumatismes du bassin. Voie de suppléance de la fémorale par l'anastomose cruciforme.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Sort sous le muscle piriforme avec le nerf ischiatique et le nerf glutéal inférieur. L'artère satellite du nerf ischiatique est le vestige de l'axe artériel embryonnaire du membre inférieur ; sa persistance est une anomalie rare.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "branche_de",
+          "cible": "A54",
+          "sources": [
+            "GV26:17"
+          ]
+        },
+        {
+          "type": "anastomose_avec",
+          "cible": "A57",
+          "sources": [
+            "MB26:14"
+          ]
+        },
+        {
+          "type": "anastomose_avec",
+          "cible": "A64",
+          "sources": [
+            "MB25:20"
+          ]
+        }
+      ],
+      "remarques": [
+        "Appelée aussi artère fessière inférieure."
+      ]
+    },
+    {
+      "id": "A57",
+      "champs": {
+        "origine": {
+          "texte": "Branche la plus antérieure de l'artère iliaque interne, première du tronc antérieur.",
+          "sources": [
+            "GV26:17",
+            "MB26:14"
+          ]
+        },
+        "trajet": {
+          "texte": "En avant et en bas le long de l'os coxal, puis traverse d'arrière en avant le foramen obturé pour gagner la cuisse.",
+          "sources": [
+            "GV26:17",
+            "MB26:14"
+          ]
+        },
+        "branches": {
+          "texte": "À la sortie du foramen obturé, au-dessus du muscle obturateur externe, se divise en une branche antérieure et une branche postérieure. Donne un rameau acétabulaire.",
+          "sources": [
+            "MB26:14"
+          ]
+        },
+        "territoire": {
+          "texte": "Racine du membre inférieur, muscles de la cuisse.",
+          "sources": [
+            "GV26:17",
+            "GV25:15"
+          ]
+        },
+        "variations": {
+          "texte": "Sa branche postérieure s'anastomose avec les artères circonflexes du fémur et avec l'artère glutéale inférieure.",
+          "sources": [
+            "MB26:14"
+          ]
+        },
+        "clinique": {
+          "texte": "On a pensé que le rameau acétabulaire était impliqué dans les dysplasies de l'acétabulum (luxations congénitales de hanche).",
+          "sources": [
+            "MB26:14"
+          ]
+        },
+        "pathologie": {
+          "texte": "Corona mortis : anastomose entre les vaisseaux obturateurs et épigastriques inférieurs, ou artère obturatrice née de l'épigastrique inférieure, qui croise la branche supérieure du pubis ; risque d'hémorragie grave dans les cures de hernie fémorale et les fractures du pubis.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Traverse le canal obturateur avec le nerf obturateur. Son rameau acétabulaire donne l'artère du ligament de la tête fémorale, accessoire chez l'adulte.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "branche_de",
+          "cible": "A54",
+          "sources": [
+            "GV26:17"
+          ]
+        },
+        {
+          "type": "anastomose_avec",
+          "cible": "A56",
+          "sources": [
+            "MB26:14"
+          ]
+        },
+        {
+          "type": "anastomose_avec",
+          "cible": "A64",
+          "sources": [
+            "MB26:14,16"
+          ]
+        }
+      ],
+      "remarques": []
+    },
+    {
+      "id": "A58",
+      "champs": {
+        "origine": {
+          "texte": "Tronc antérieur de l'artère iliaque interne, avant-dernière branche.",
+          "sources": [
+            "GV26:17",
+            "GV25:15"
+          ]
+        },
+        "trajet": {
+          "texte": "Sort du bassin par le foramen infra-piriforme, passe brièvement dans la région glutéale en contournant l'épine ischiatique, rentre dans le petit bassin puis se porte en avant le long de la branche de l'ischion et de la branche inférieure du pubis.",
+          "sources": [
+            "GV26:17",
+            "GV25:15"
+          ]
+        },
+        "territoire": {
+          "texte": "Corps érectiles du pénis ou du clitoris. Ne participe pas à la vascularisation du membre inférieur.",
+          "sources": [
+            "GV26:17",
+            "MB26:14"
+          ]
+        },
+        "clinique": {
+          "texte": "Une des premières artères atteintes chez les fumeurs.",
+          "sources": [
+            "GV25:15"
+          ]
+        },
+        "pathologie": {
+          "texte": "Dysfonction érectile d'origine artérielle (athérome, tabac, diabète). Lésion dans les fractures du bassin.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Parcourt le canal pudendal avec le nerf pudendal, sur la paroi latérale de la fosse ischio-anale. Donne l'artère rectale inférieure, les artères périnéales et les artères du pénis ou du clitoris.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "branche_de",
+          "cible": "A54",
+          "sources": [
+            "GV26:17"
+          ]
+        }
+      ],
+      "remarques": [
+        "Appelée aussi artère honteuse interne (MB25 p.18)."
+      ]
+    },
+    {
+      "id": "A60",
+      "champs": {
+        "origine": {
+          "texte": "Tronc antérieur de l'artère iliaque interne, après les artères sexuées. Non sexuée ; souvent plusieurs, chez l'homme comme chez la femme.",
+          "sources": [
+            "GV26:17",
+            "GV25:15"
+          ]
+        },
+        "branches": {
+          "texte": "L'artère urétérale inférieure.",
+          "sources": [
+            "GV25:12"
+          ]
+        },
+        "territoire": {
+          "texte": "Vessie ; partie basse de l'uretère.",
+          "sources": [
+            "GV25:12,15"
+          ]
+        },
+        "pathologie": {
+          "texte": "Embolisation des artères prostatiques, souvent issues des vésicales inférieures, dans l'hypertrophie bénigne de la prostate. Hémorragies vésicales.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Vascularise le bas-fond vésical, la prostate et les vésicules séminales chez l'homme ; chez la femme, elle est souvent remplacée par des branches vaginales.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "branche_de",
+          "cible": "A54",
+          "sources": [
+            "GV26:17"
+          ]
+        }
+      ],
+      "remarques": [
+        "GV25 p.12 fait naître l'urétérale inférieure de « l'artère vésicale » sans préciser laquelle."
+      ]
+    },
+    {
+      "id": "A61",
+      "champs": {
+        "origine": {
+          "texte": "Tronc antérieur de l'artère iliaque interne : troisième branche, sexuée, qui est l'artère prostatique chez l'homme et l'artère utérine chez la femme (rameau supérieur ; le rameau inférieur est l'artère vaginale).",
+          "sources": [
+            "GV26:17",
+            "GV25:15"
+          ]
+        },
+        "trajet": {
+          "texte": "Très sinueuse, pour s'adapter aux déformations de l'organe.",
+          "sources": [
+            "CV25:4"
+          ]
+        },
+        "territoire": {
+          "texte": "Utérus.",
+          "sources": [
+            "GV26:17"
+          ]
+        },
+        "pathologie": {
+          "texte": "Hémorragie du post-partum : embolisation ou ligature des artères utérines. Embolisation des fibromes utérins. Plaie de l'uretère au cours de l'hystérectomie, là où il passe sous l'artère.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "L'uretère croise sous l'artère utérine à environ 1,5 à 2 cm du col (« l'eau passe sous le pont »). Le débit utérin augmente beaucoup pendant la grossesse, de l'ordre de 500 à 750 mL/min à terme.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "branche_de",
+          "cible": "A54",
+          "sources": [
+            "GV26:17"
+          ]
+        }
+      ],
+      "remarques": [
+        "Rapport avec l'uretère et branches non décrits dans les ronéos déposées : à compléter avec le cours d'anatomie génitale."
+      ]
+    },
+    {
+      "id": "A62",
+      "champs": {
+        "origine": {
+          "texte": "Branche de division latérale de l'artère iliaque commune, en regard de L5-S1.",
+          "sources": [
+            "GV26:14",
+            "GV25:12,14"
+          ]
+        },
+        "trajet": {
+          "texte": "Se dirige en dehors le long du détroit supérieur, satellite du muscle grand psoas dont elle longe le bord médial. Diamètre de 8 à 9 mm.",
+          "sources": [
+            "GV26:14",
+            "GV25:12"
+          ]
+        },
+        "branches": {
+          "texte": "Deux collatérales, nées peu avant sa terminaison : l'artère épigastrique inférieure, qui remonte à la face profonde de la paroi abdominale antérieure et s'anastomose avec les branches de la thoracique interne ; l'artère circonflexe iliaque profonde, satellite de la crête iliaque, anastomosée avec l'artère ilio-lombale (iliaque interne) et avec une branche des artères lombaires.",
+          "sources": [
+            "GV26:14-16",
+            "GV25:12,14"
+          ]
+        },
+        "terminaison": {
+          "texte": "Passe en arrière du ligament inguinal, par la lacune vasculaire, et devient l'artère fémorale.",
+          "sources": [
+            "GV26:14",
+            "GV25:12",
+            "MB26:14"
+          ]
+        },
+        "territoire": {
+          "texte": "Presque exclusivement le membre inférieur.",
+          "sources": [
+            "GV26:14",
+            "GV25:12"
+          ]
+        },
+        "rapports": {
+          "texte": "Dans le fascia rétro-péritonéal. La veine iliaque externe est en dedans et en arrière. L'uretère droit croise la partie proximale de l'iliaque externe droite.",
+          "sources": [
+            "GV26:15",
+            "GV25:13"
+          ]
+        },
+        "pathologie": {
+          "texte": "Endofibrose ou plicature de l'artère iliaque externe chez le cycliste de haut niveau : claudication à l'effort intense. Voie d'abord, avec la fémorale, des endoprothèses aortiques et des valves aortiques percutanées.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Longe le bord médial du psoas jusqu'au point mi-inguinal, à mi-distance entre l'épine iliaque antéro-supérieure et la symphyse pubienne. Son artère épigastrique inférieure sépare les hernies inguinales directes, en dedans, des indirectes, en dehors.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "branche_de",
+          "cible": "A53",
+          "sources": [
+            "GV26:14"
+          ]
+        },
+        {
+          "type": "anastomose_avec",
+          "cible": "A54",
+          "sources": [
+            "GV26:16"
+          ]
+        },
+        {
+          "type": "anastomose_avec",
+          "cible": "A51",
+          "sources": [
+            "GV26:15"
+          ]
+        }
+      ],
+      "remarques": [
+        "GV25 p.14 ajoute que l'anastomose épigastrique inférieure et thoracique interne sert « pour faire des pontages des artères coronaires » : phrase probablement tronquée, c'est la thoracique interne qui sert aux pontages."
+      ]
+    },
+    {
+      "id": "V21",
+      "champs": {
+        "origine": {
+          "texte": "Formée en arrière de la tête du pancréas par l'anastomose de la veine mésentérique supérieure et de la veine splénique.",
+          "sources": [
+            "GV26:22",
+            "GV25:19"
+          ]
+        },
+        "trajet": {
+          "texte": "Remonte vers le foie, en avant de la veine cave inférieure dont la sépare le péritoine ; entre les deux se trouve l'entrée de la bourse omentale.",
+          "sources": [
+            "GV26:21",
+            "GV25:17"
+          ]
+        },
+        "terminaison": {
+          "texte": "Se divise en une branche droite et une branche gauche dans le foie.",
+          "sources": [
+            "GV25:19"
+          ]
+        },
+        "territoire": {
+          "texte": "Sang veineux de la rate et du tube digestif, amené au foie : c'est le troisième système veineux, avec les systèmes caves supérieur et inférieur.",
+          "sources": [
+            "GV26:21",
+            "GV25:17",
+            "ACV19c:14-15"
+          ]
+        },
+        "variations": {
+          "texte": "Chez le fœtus, la veine ombilicale rejoint la branche gauche de la veine porte, puis gagne la veine cave inférieure par le canal veineux d'Arantius ; après la naissance, la veine ombilicale devient le ligament rond du foie et le canal d'Arantius le ligament veineux.",
+          "sources": [
+            "GV26:26-27"
+          ]
+        },
+        "clinique": {
+          "texte": "Hypertension portale, le plus souvent sur cirrhose : les anastomoses porto-caves s'ouvrent. Spléno-rénales (varices sans conséquence clinique), œsophagiennes (varices œsophagiennes, hématémèse parfois fatale, sclérose endoscopique), rectales (hémorroïdes), ombilicales (circulation collatérale sous-cutanée centrée sur l'ombilic).",
+          "sources": [
+            "GV26:21-23",
+            "GV25:18-19"
+          ]
+        },
+        "pathologie": {
+          "texte": "Thrombose porte (cirrhose, cancer, état prothrombotique), cavernome porte. Hypertension portale : gradient porto-cave supérieur à 5 mmHg, complications au-delà de 10 à 12 mmHg ; traitement possible par un shunt porto-systémique intra-hépatique posé par voie jugulaire (TIPS).",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Longue de 6 à 8 cm pour environ 12 mm de diamètre ; dans le pédicule hépatique, en arrière du conduit cholédoque et de l'artère hépatique propre. Apporte environ 75 % du débit sanguin du foie ; pression normale d'environ 5 à 10 mmHg.",
+          "sources": []
+        }
+      },
+      "relations": [],
+      "remarques": [
+        "Les ouvrages situent souvent la formation de la veine porte derrière le col du pancréas ; les ronéos disent « en arrière de la tête du pancréas ». À vérifier sur le diaporama."
+      ]
+    },
+    {
+      "id": "V22",
+      "champs": {
+        "territoire": {
+          "texte": "Intestin grêle, côlon ascendant et une partie du côlon transverse : le territoire de l'artère mésentérique supérieure.",
+          "sources": [
+            "GV26:22",
+            "GV25:19"
+          ]
+        },
+        "terminaison": {
+          "texte": "S'unit à la veine splénique, en arrière du pancréas, pour former la veine porte.",
+          "sources": [
+            "GV26:22",
+            "GV25:19",
+            "ACV19c:14"
+          ]
+        },
+        "pathologie": {
+          "texte": "Thrombose veineuse mésentérique : ischémie intestinale d'origine veineuse. Envahissement par un cancer de la tête du pancréas, critère de résécabilité.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "À droite de l'artère mésentérique supérieure ; passe en avant du processus unciné et de la partie horizontale du duodénum.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "se_jette_dans",
+          "cible": "V21",
+          "sources": [
+            "GV26:22"
+          ]
+        }
+      ],
+      "remarques": []
+    },
+    {
+      "id": "V23",
+      "champs": {
+        "origine": {
+          "texte": "Ramène le sang veineux de la rate.",
+          "sources": [
+            "GV26:22"
+          ]
+        },
+        "trajet": {
+          "texte": "Parcourt la face postérieure du pancréas, au-dessus de l'artère mésentérique supérieure.",
+          "sources": [
+            "GV26:12"
+          ]
+        },
+        "affluents": {
+          "texte": "La veine mésentérique inférieure.",
+          "sources": [
+            "GV26:22",
+            "GV25:19",
+            "ACV19c:14"
+          ]
+        },
+        "terminaison": {
+          "texte": "S'unit à la veine mésentérique supérieure pour former la veine porte.",
+          "sources": [
+            "GV26:22",
+            "GV25:19"
+          ]
+        },
+        "clinique": {
+          "texte": "Anastomoses spléno-rénales avec la veine rénale gauche : varices visibles en imagerie lors de l'hypertension portale, sans conséquence clinique.",
+          "sources": [
+            "GV26:22",
+            "GV25:19"
+          ]
+        },
+        "pathologie": {
+          "texte": "Thrombose de la veine splénique (pancréatite, cancer du pancréas) : hypertension portale segmentaire gauche avec des varices gastriques isolées.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Longe la face postérieure du pancréas avant de rejoindre la veine mésentérique supérieure.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "se_jette_dans",
+          "cible": "V21",
+          "sources": [
+            "GV26:22"
+          ]
+        },
+        {
+          "type": "anastomose_avec",
+          "cible": "V28",
+          "cote": "gauche",
+          "sources": [
+            "GV26:22"
+          ]
+        }
+      ],
+      "remarques": []
+    },
+    {
+      "id": "V24",
+      "champs": {
+        "origine": {
+          "texte": "Formée par les veines coliques gauches et les veines rectales supérieures.",
+          "sources": [
+            "GV25:19"
+          ]
+        },
+        "territoire": {
+          "texte": "Côlon descendant et une partie du côlon sigmoïde ; partie haute du rectum.",
+          "sources": [
+            "GV26:22",
+            "GV25:19"
+          ]
+        },
+        "terminaison": {
+          "texte": "Se jette dans la veine splénique.",
+          "sources": [
+            "GV26:22",
+            "GV25:19",
+            "ACV19c:14"
+          ]
+        },
+        "clinique": {
+          "texte": "Les veines rectales supérieures, portales, s'anastomosent avec les veines rectales moyennes et inférieures, caves (veine iliaque interne) : en cas d'hypertension portale, hémorroïdes.",
+          "sources": [
+            "GV26:22-23",
+            "GV25:19"
+          ]
+        },
+        "pathologie": {
+          "texte": "Voie des anastomoses porto-caves rectales ; thrombose dans les pathologies coliques.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Monte à gauche de l'artère mésentérique inférieure et de l'angle duodéno-jéjunal ; se jette dans la veine splénique, parfois dans la mésentérique supérieure ou à leur confluent.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "se_jette_dans",
+          "cible": "V23",
+          "sources": [
+            "GV26:22"
+          ]
+        }
+      ],
+      "remarques": []
+    },
+    {
+      "id": "V25",
+      "champs": {
+        "origine": {
+          "texte": "Une des trois veines hépatiques, qui assurent le retour veineux systémique du foie vers le cœur.",
+          "sources": [
+            "GV26:21",
+            "GV25:17"
+          ]
+        },
+        "terminaison": {
+          "texte": "Veine cave inférieure, juste avant sa traversée du diaphragme.",
+          "sources": [
+            "GV26:20-21"
+          ]
+        },
+        "rapports": {
+          "texte": "Les veines hépatiques sont les véritables amarres du foie, fixé par elles à la veine cave inférieure rétro-péritonéale.",
+          "sources": [
+            "GV26:21",
+            "GV25:17"
+          ]
+        },
+        "clinique": {
+          "texte": "Dans les accidents de décélération, le foie poursuit sa course vers l'avant et peut arracher ses veines hépatiques : saignement veineux en nappe, difficile à localiser.",
+          "sources": [
+            "GV26:21",
+            "GV25:17"
+          ]
+        },
+        "pathologie": {
+          "texte": "Syndrome de Budd-Chiari (obstruction des veines hépatiques) : hépatomégalie douloureuse, ascite ; le lobe caudé, qui se draine directement dans la veine cave inférieure, s'hypertrophie. Veine à préserver lors des hépatectomies.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Draine les segments VI et VII et une partie des segments V et VIII. Chemine dans la scissure porte droite, entre les secteurs antérieur et postérieur du foie droit.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "se_jette_dans",
+          "cible": "V02",
+          "sources": [
+            "GV26:21"
+          ]
+        }
+      ],
+      "remarques": [
+        "Les ronéos décrivent les trois veines hépatiques ensemble, sans distinguer leurs territoires respectifs : la répartition droite, moyenne, gauche est à compléter.",
+        "Anciennement veines sus-hépatiques."
+      ]
+    },
+    {
+      "id": "V26",
+      "champs": {
+        "origine": {
+          "texte": "Une des trois veines hépatiques, qui assurent le retour veineux systémique du foie vers le cœur. C'est celle que représente le schéma du cours.",
+          "sources": [
+            "GV26:21",
+            "GV25:17"
+          ]
+        },
+        "terminaison": {
+          "texte": "Veine cave inférieure, juste avant sa traversée du diaphragme.",
+          "sources": [
+            "GV26:20-21"
+          ]
+        },
+        "rapports": {
+          "texte": "Les veines hépatiques sont les véritables amarres du foie, fixé par elles à la veine cave inférieure rétro-péritonéale.",
+          "sources": [
+            "GV26:21",
+            "GV25:17"
+          ]
+        },
+        "clinique": {
+          "texte": "Dans les accidents de décélération, le foie poursuit sa course vers l'avant et peut arracher ses veines hépatiques : saignement veineux en nappe, difficile à localiser.",
+          "sources": [
+            "GV26:21",
+            "GV25:17"
+          ]
+        },
+        "pathologie": {
+          "texte": "Syndrome de Budd-Chiari. Son sort se discute lors du prélèvement du foie droit chez un donneur vivant.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Chemine dans la scissure principale, entre foie droit et foie gauche (ligne allant du lit de la vésicule à la veine cave inférieure) ; draine le segment IV et une partie des segments V et VIII. Rejoint souvent la veine hépatique gauche en un tronc commun avant la veine cave.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "se_jette_dans",
+          "cible": "V02",
+          "sources": [
+            "GV26:21"
+          ]
+        }
+      ],
+      "remarques": [
+        "Les ronéos décrivent les trois veines hépatiques ensemble, sans distinguer leurs territoires respectifs.",
+        "GV25 p.17 parle de « 3 petites veines hépatiques », GV26 p.21 de « branches très importantes »."
+      ]
+    },
+    {
+      "id": "V27",
+      "champs": {
+        "origine": {
+          "texte": "Une des trois veines hépatiques, qui assurent le retour veineux systémique du foie vers le cœur.",
+          "sources": [
+            "GV26:21",
+            "GV25:17"
+          ]
+        },
+        "terminaison": {
+          "texte": "Veine cave inférieure, juste avant sa traversée du diaphragme.",
+          "sources": [
+            "GV26:20-21"
+          ]
+        },
+        "rapports": {
+          "texte": "Les veines hépatiques sont les véritables amarres du foie, fixé par elles à la veine cave inférieure rétro-péritonéale.",
+          "sources": [
+            "GV26:21",
+            "GV25:17"
+          ]
+        },
+        "clinique": {
+          "texte": "Dans les accidents de décélération, le foie poursuit sa course vers l'avant et peut arracher ses veines hépatiques : saignement veineux en nappe, difficile à localiser.",
+          "sources": [
+            "GV26:21",
+            "GV25:17"
+          ]
+        },
+        "pathologie": {
+          "texte": "Syndrome de Budd-Chiari.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Draine les segments II et III et une partie du segment IV ; chemine dans la scissure gauche. Tronc commun avec la veine hépatique moyenne dans la majorité des cas.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "se_jette_dans",
+          "cible": "V02",
+          "sources": [
+            "GV26:21"
+          ]
+        }
+      ],
+      "remarques": [
+        "Les ronéos décrivent les trois veines hépatiques ensemble, sans distinguer leurs territoires respectifs."
+      ]
+    },
+    {
+      "id": "V28",
+      "champs": {
+        "origine": {
+          "texte": "Ramène le sang veineux du rein. À droite, très courte ; à gauche, plus longue, elle croise la ligne médiane.",
+          "sources": [
+            "GV26:12,21"
+          ]
+        },
+        "trajet": {
+          "texte": "À gauche : passe dans la pince aorto-mésentérique, entre l'aorte en arrière et l'artère mésentérique supérieure en avant, pour rejoindre la veine cave inférieure située à droite de l'aorte.",
+          "sources": [
+            "GV26:12",
+            "GV25:17"
+          ]
+        },
+        "affluents": {
+          "texte": "À gauche : la veine gonadique gauche et la veine surrénale gauche. À droite, la veine surrénale se jette directement dans la veine cave inférieure.",
+          "sources": [
+            "GV26:21",
+            "GV25:17"
+          ]
+        },
+        "terminaison": {
+          "texte": "Veine cave inférieure.",
+          "sources": [
+            "GV26:21",
+            "ACV19c:13"
+          ]
+        },
+        "variations": {
+          "texte": "À gauche, la veine rénale donne la racine latérale de la veine hémi-azygos et s'anastomose avec la veine splénique (anastomose spléno-rénale, porto-cave).",
+          "sources": [
+            "GV26:22,24"
+          ]
+        },
+        "clinique": {
+          "texte": "Débit énorme : les deux reins reçoivent environ 20 % du débit éjecté par le ventricule gauche.",
+          "sources": [
+            "GV25:17"
+          ]
+        },
+        "pathologie": {
+          "texte": "Syndrome du casse-noisette : compression de la veine rénale gauche dans la pince aorto-mésentérique (hématurie, varicocèle gauche, douleurs pelviennes). Thrombose de la veine rénale (syndrome néphrotique, cancer du rein, qui peut l'envahir jusqu'à la veine cave inférieure).",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "La gauche, environ 7 cm, est à peu près trois fois plus longue que la droite : on prélève de préférence le rein gauche chez le donneur vivant. Au hile, d'avant en arrière : veine, artère, pelvis rénal.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "se_jette_dans",
+          "cible": "V02",
+          "sources": [
+            "GV26:21"
+          ]
+        },
+        {
+          "type": "anastomose_avec",
+          "cible": "V23",
+          "cote": "gauche",
+          "sources": [
+            "GV26:22"
+          ]
+        }
+      ],
+      "remarques": [
+        "GV25 p.17 dit que la veine rénale droite « passe en arrière de la veine cave inférieure » : c'est classiquement l'artère rénale droite qui passe en arrière de la veine cave. À vérifier sur le diaporama."
+      ]
+    },
+    {
+      "id": "V29",
+      "champs": {
+        "territoire": {
+          "texte": "Testicule chez l'homme (veine testiculaire), ovaire chez la femme (veine ovarienne).",
+          "sources": [
+            "GV26:21",
+            "GV25:17"
+          ]
+        },
+        "terminaison": {
+          "texte": "Asymétrique : à droite, directement dans la veine cave inférieure ; à gauche, dans la veine rénale gauche.",
+          "sources": [
+            "GV26:21",
+            "GV25:17"
+          ]
+        },
+        "pathologie": {
+          "texte": "Varicocèle, bien plus fréquente à gauche (terminaison à angle droit dans la veine rénale gauche) ; une varicocèle droite ou d'apparition brutale fait rechercher une compression, par exemple une tumeur rénale. Syndrome de congestion pelvienne chez la femme ; thrombose de la veine ovarienne du post-partum, plus souvent droite.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Le plexus pampiniforme du cordon spermatique refroidit le sang artériel testiculaire par échange de chaleur : la spermatogenèse se fait 2 à 3 °C sous la température centrale.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "se_jette_dans",
+          "cible": "V02",
+          "cote": "droit",
+          "sources": [
+            "GV26:21"
+          ]
+        },
+        {
+          "type": "se_jette_dans",
+          "cible": "V28",
+          "cote": "gauche",
+          "sources": [
+            "GV26:21"
+          ]
+        }
+      ],
+      "remarques": [
+        "Question d'annales classique : la veine gonadique gauche ne se jette pas directement dans la veine cave inférieure."
+      ]
+    },
+    {
+      "id": "V30",
+      "champs": {
+        "origine": {
+          "texte": "Réunion des veines iliaques externe et interne, à hauteur de l'articulation sacro-iliaque, un peu au-dessous de la bifurcation artérielle.",
+          "sources": [
+            "GV26:19",
+            "GV25:17"
+          ]
+        },
+        "terminaison": {
+          "texte": "Les deux veines iliaques communes s'unissent à hauteur du corps de L5, à droite de la ligne médiane, un peu au-dessous de la bifurcation aortique, pour former la veine cave inférieure.",
+          "sources": [
+            "GV26:19",
+            "GV25:13,16"
+          ]
+        },
+        "affluents": {
+          "texte": "À droite, la veine lombaire ascendante droite en provient : elle forme, avec la veine subcostale droite, la racine latérale de la veine azygos.",
+          "sources": [
+            "GV26:24"
+          ]
+        },
+        "rapports": {
+          "texte": "En dedans et en arrière des artères iliaques. La veine iliaque commune gauche est croisée en avant par l'artère iliaque commune droite, qui y imprime une empreinte et réduit un peu son flux.",
+          "sources": [
+            "GV26:15,20",
+            "GV25:18"
+          ]
+        },
+        "variations": {
+          "texte": "Continuation azygos de la veine cave inférieure : les deux veines iliaques communes se jettent dans la veine azygos. Veine azygos gauche anastomosant la veine iliaque commune et la veine brachio-céphalique gauches.",
+          "sources": [
+            "GV26:26"
+          ]
+        },
+        "clinique": {
+          "texte": "Cette compression explique que les phlébites soient plus fréquentes au membre inférieur gauche.",
+          "sources": [
+            "GV26:20",
+            "GV25:18"
+          ]
+        },
+        "pathologie": {
+          "texte": "Syndrome de May-Thurner (ou de Cockett) : thrombose veineuse iliaque gauche favorisée par la compression de la veine par l'artère iliaque commune droite ; traitement possible par stent veineux.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "La gauche, plus longue et plus oblique, passe sous la bifurcation aortique ; elle reçoit la veine sacrale médiane.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "se_jette_dans",
+          "cible": "V02",
+          "sources": [
+            "GV26:19"
+          ]
+        }
+      ],
+      "remarques": [
+        "GV26 p.19 écrit « la veine cave supérieure est constituée par l'anastomose des deux veines iliaques communes » : il faut lire veine cave inférieure.",
+        "GV25 p.18 nomme la compression « syndrome de Crockett » : l'orthographe usuelle est syndrome de Cockett."
+      ]
+    },
+    {
+      "id": "V31",
+      "champs": {
+        "affluents": {
+          "texte": "Les veines satellites des branches de l'artère iliaque interne, dont les veines rectales moyennes et inférieures.",
+          "sources": [
+            "MB26:20",
+            "GV26:22"
+          ]
+        },
+        "terminaison": {
+          "texte": "S'unit à la veine iliaque externe, à hauteur de l'articulation sacro-iliaque, pour former la veine iliaque commune.",
+          "sources": [
+            "GV26:15,19"
+          ]
+        },
+        "territoire": {
+          "texte": "Pelvis : réseau cave inférieur.",
+          "sources": [
+            "ACV19c:13"
+          ]
+        },
+        "rapports": {
+          "texte": "En dedans et en arrière de l'artère iliaque interne.",
+          "sources": [
+            "GV26:15"
+          ]
+        },
+        "clinique": {
+          "texte": "Les veines rectales moyennes et inférieures, caves, s'anastomosent avec les veines rectales supérieures, portales : hémorroïdes en cas d'hypertension portale.",
+          "sources": [
+            "GV26:22-23",
+            "GV25:19"
+          ]
+        },
+        "pathologie": {
+          "texte": "Hémorragie veineuse des fractures du bassin (plexus pré-sacrés), difficile à contrôler : stabilisation du bassin et tamponnement. Varices pelviennes.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Plexus veineux pelviens (vésical, rectal, prostatique ou utéro-vaginal) très anastomosés entre eux et avec le plexus veineux vertébral interne : voie de dissémination des métastases du cancer de la prostate vers le rachis.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "se_jette_dans",
+          "cible": "V30",
+          "sources": [
+            "GV26:19"
+          ]
+        }
+      ],
+      "remarques": []
+    },
+    {
+      "id": "V32",
+      "champs": {
+        "origine": {
+          "texte": "Fait suite à la veine fémorale lorsqu'elle passe dans la lacune vasculaire, sous le ligament inguinal.",
+          "sources": [
+            "MB26:20",
+            "MB25:24"
+          ]
+        },
+        "terminaison": {
+          "texte": "S'unit à la veine iliaque interne, à hauteur de l'articulation sacro-iliaque, pour former la veine iliaque commune.",
+          "sources": [
+            "GV26:15,19"
+          ]
+        },
+        "territoire": {
+          "texte": "Membre inférieur.",
+          "sources": [
+            "MB26:20"
+          ]
+        },
+        "rapports": {
+          "texte": "En dedans et en arrière de l'artère iliaque externe ; à la racine de la cuisse, environ 1 cm en dedans du pouls fémoral.",
+          "sources": [
+            "GV26:15",
+            "MB25:18"
+          ]
+        },
+        "pathologie": {
+          "texte": "Thrombose veineuse ilio-fémorale : œdème de tout le membre, risque élevé d'embolie pulmonaire et de maladie post-thrombotique.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "En dedans de l'artère, sous le ligament inguinal ; reçoit les veines épigastrique inférieure et circonflexe iliaque profonde.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "fait_suite_a",
+          "cible": "V36",
+          "sources": [
+            "MB26:20"
+          ]
+        },
+        {
+          "type": "se_jette_dans",
+          "cible": "V30",
+          "sources": [
+            "GV26:19"
+          ]
+        }
+      ],
+      "remarques": [
+        "MB25 p.18 l'appelle aussi « veine fémorale commune » : nomenclature des cliniciens, à ne pas confondre avec la veine fémorale de la TA."
+      ]
+    }
+  ]
+}

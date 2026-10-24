@@ -1,0 +1,251 @@
+{
+  "region": "Tête, cou et membre supérieur",
+  "redige_le": "2026-10-21",
+  "fiches": [
+    {
+      "id": "A16",
+      "champs": {
+        "origine": {"texte": "Branche de division de l'artère carotide commune.", "sources": ["GV25:4", "ACV19c:9"]},
+        "territoire": {"texte": "Cerveau et œil. Avec les deux artères vertébrales, les deux carotides internes sont les quatre artères destinées au cerveau.", "sources": ["GV25:4", "ACV19c:15"]},
+        "rapports": {"texte": "Artère élastique de conduction, comme l'aorte et les carotides communes.", "sources": ["GV26:14"]},
+        "pathologie": {"texte": "Sténose athéromateuse de son origine : AVC ischémique du territoire carotidien (hémiplégie, aphasie si l'hémisphère dominant est touché) et cécité monoculaire transitoire par l'artère ophtalmique. Dissection, chez le sujet jeune ou après un traumatisme cervical : douleur cervicale, syndrome de Claude Bernard-Horner, AVC. Anévrismes intracrâniens et fistule carotido-caverneuse.", "sources": []},
+        "reperes": {"texte": "Aucune branche dans le cou, ce qui la distingue de la carotide externe en échographie ; première branche intracrânienne : l'artère ophtalmique. Se termine en artères cérébrales antérieure et moyenne. Segments C1 à C7 (classification de Bouthillier) : cervical, pétreux, lacérum, caverneux, clinoïdien, ophtalmique, communicant. Une sténose symptomatique de 70 à 99 % est l'indication classique de l'endartériectomie.", "sources": []}
+      },
+      "relations": [{"type": "branche_de", "cible": "A08", "sources": ["GV25:4"]}],
+      "remarques": ["Trajet cervical et intracrânien non décrits dans les ronéos déposées (cours cardiovasculaire) : à compléter avec le cours du cou ou de neuro-anatomie."]
+    },
+    {
+      "id": "A24",
+      "champs": {
+        "origine": {"texte": "Naît normalement de l'artère subclavière, à droite comme à gauche.", "sources": ["GV26:4"]},
+        "territoire": {"texte": "Fosse postérieure : cervelet, tronc cérébral et partie postérieure des lobes occipitaux. Une des quatre artères destinées au cerveau, avec les carotides internes.", "sources": ["GV26:4", "GV25:4", "ACV19c:15"]},
+        "variations": {"texte": "L'artère vertébrale gauche peut naître directement de l'aorte horizontale, entre la carotide commune et la subclavière gauches ; les ronéos donnent 20 % des cas.", "sources": ["GV26:4", "GV25:4"]},
+        "pathologie": {"texte": "Insuffisance vertébro-basilaire : vertiges, troubles visuels, ataxie. Dissection vertébrale (manipulations cervicales, traumatisme) : douleur cervicale et infarctus du tronc cérébral ou du cervelet, par exemple syndrome de Wallenberg par atteinte de l'artère cérébelleuse inféro-postérieure. Inversion du flux dans le syndrome de vol subclavier.", "sources": []},
+        "reperes": {"texte": "Quatre segments : V1, de la subclavière au foramen transversaire de C6 (elle ne passe pas dans celui de C7) ; V2, dans les foramens transversaires de C6 à C1 ; V3, autour de l'atlas, dans le sillon de l'artère vertébrale ; V4, intracrânien, après la traversée de la dure-mère et du foramen magnum, jusqu'à la réunion des deux vertébrales au bord inférieur du pont en tronc basilaire. Souvent asymétriques, la gauche plus grosse.", "sources": []}
+      },
+      "relations": [{"type": "branche_de", "cible": "A09", "sources": ["GV26:4"]}],
+      "remarques": ["Fréquence de 20 % pour l'origine aortique de la vertébrale gauche : chiffre identique dans les ronéos 2025 et 2026, plus élevé que ce que citent souvent les ouvrages. À vérifier sur le diaporama.", "Trajet dans les foramens transversaires et réunion en tronc basilaire non décrits dans les ronéos déposées."]
+    },
+    {
+      "id": "A32",
+      "champs": {
+        "origine": {"texte": "Première branche de l'artère subclavière.", "sources": ["MB26:3"]},
+        "trajet": {"texte": "Descend contre la face antérieure du thorax, le long du sternum de chaque côté, juste en avant du cœur.", "sources": ["MB26:3", "MED25:9"]},
+        "branches": {"texte": "Une artère intercostale antérieure par espace intercostal, anastomosée avec l'intercostale postérieure correspondante ; les vaisseaux péricardo-phréniques, qui accompagnent le nerf phrénique ; l'artère épigastrique supérieure.", "sources": ["MB26:3,15", "GV26:6"]},
+        "terminaison": {"texte": "L'artère épigastrique supérieure s'anastomose avec l'artère épigastrique superficielle, branche de la fémorale : longue voie anastomotique entre l'artère subclavière et l'artère fémorale.", "sources": ["MB26:15"]},
+        "clinique": {"texte": "Utilisée pour les pontages des artères coronaires, en ligaturant toutes ses branches intercostales antérieures.", "sources": ["MB26:3", "MED25:9"]},
+        "pathologie": {"texte": "Greffon de choix des pontages coronaires, dont la perméabilité à long terme dépasse celle des greffons veineux : classiquement l'artère thoracique interne gauche sur l'IVA. Coarctation de l'aorte : voie de suppléance dilatée.", "sources": []},
+        "reperes": {"texte": "Descend à environ 1 cm du bord latéral du sternum, en arrière des cartilages costaux ; se divise au 6e espace intercostal en artères musculo-phrénique et épigastrique supérieure. Risque de plaie lors d'une ponction ou d'un drainage parasternal.", "sources": []}
+      },
+      "relations": [
+        {"type": "branche_de", "cible": "A09", "sources": ["MB26:3"]},
+        {"type": "anastomose_avec", "cible": "A11", "sources": ["MB26:3"]}
+      ],
+      "remarques": ["Appelée aussi artère mammaire interne.", "MB26 p.3, comme MB25, en fait la première branche de la subclavière : classiquement, la première est l'artère vertébrale, et la thoracique interne naît de la face inférieure de la subclavière, en regard du tronc thyro-cervical.", "MB26 p.15 anastomose l'épigastrique supérieure avec l'épigastrique superficielle (branche de la fémorale) : l'anastomose classique, la plus importante, se fait avec l'épigastrique inférieure, branche de l'iliaque externe (GV26 p.14-16)."]
+    },
+    {
+      "id": "A33",
+      "champs": {
+        "origine": {"texte": "Branche de l'artère subclavière.", "sources": ["MB26:3"]},
+        "branches": {"texte": "L'artère supra-scapulaire, qui se dirige en arrière, passe dans l'incisure scapulaire, descend sur la face postérieure de la scapula jusqu'à son bord inférieur, et s'anastomose avec l'artère scapulaire dorsale et l'artère circonflexe de la scapula (cercle périscapulaire).", "sources": ["MB26:3,5"]},
+        "pathologie": {"texte": "Peu de pathologie propre. Sa branche thyroïdienne inférieure est un repère de la chirurgie de la thyroïde, à cause de son rapport avec le nerf récurrent laryngé (paralysie récurrentielle).", "sources": []},
+        "reperes": {"texte": "Naît de la première portion de la subclavière, au bord médial du scalène antérieur. Branches classiques : artères thyroïdienne inférieure, cervicale ascendante, transverse du cou et supra-scapulaire.", "sources": []}
+      },
+      "relations": [{"type": "branche_de", "cible": "A09", "sources": ["MB26:3"]}],
+      "remarques": ["Les ronéos ne citent le tronc thyro-cervical que comme origine de l'artère supra-scapulaire : ses autres branches ne sont pas décrites.", "Appelé aussi tronc thyro-bicervico-scapulaire."]
+    },
+    {
+      "id": "A34",
+      "champs": {
+        "origine": {"texte": "Fait suite à l'artère subclavière sous le milieu de la clavicule, à droite comme à gauche.", "sources": ["MB26:3"]},
+        "trajet": {"texte": "Tronc artériel principal de la fosse axillaire, qu'elle traverse en décrivant une courbe à concavité inférieure et médiale ; horizontale en position opératoire, bras à 90°. Artère de conduction pour le membre supérieur et de distribution pour les parois de la fosse axillaire.", "sources": ["MB26:3-4"]},
+        "branches": {"texte": "Artères thoraciques suprêmes, puis petites thoraciques pour les muscles pectoraux. Artère thoraco-acromiale : branche thoracique (anastomosée avec la thoracique interne) et branche acromiale. Artère thoracique latérale, pour la face latérale du thorax et la glande mammaire. Artère subscapulaire, qui donne la circonflexe de la scapula puis se continue par l'artère thoraco-dorsale (muscle grand dorsal). Artères circonflexes humérales antérieure et postérieure, autour du col de l'humérus.", "sources": ["MB26:4-5"]},
+        "terminaison": {"texte": "Devient l'artère brachiale en croisant le bord inférieur du muscle grand pectoral.", "sources": ["MB26:3,6"]},
+        "rapports": {"texte": "Parois musculaires de la fosse axillaire : grand et petit pectoraux en avant ; subscapulaire, supra-épineux, infra-épineux, petit rond, grand rond et grand dorsal en arrière ; dentelé antérieur en dedans ; deltoïde en dehors. Entourée par les faisceaux latéral, postérieur et médial du plexus brachial. Rapport antéro-médial de la tête humérale.", "sources": ["MB26:4,6"]},
+        "variations": {"texte": "Les artères circonflexes humérales naissent le plus souvent d'un tronc commun, de l'axillaire ou parfois de la brachiale, et peuvent naître séparément.", "sources": ["MB26:5,7"]},
+        "clinique": {"texte": "Pouls axillaire perçu les doigts dans la fosse axillaire, bras non en abduction. Repère des blocs d'anesthésie locorégionale du membre supérieur ; on ne la ponctionne plus à cause du risque nerveux. Luxation antéro-médiale de l'épaule : compression de l'artère et lésion du plexus brachial.", "sources": ["MB26:4,6"]},
+        "pathologie": {"texte": "Lésion dans les luxations antéro-médiales de l'épaule et les fractures du col de l'humérus (artère circonflexe humérale postérieure, avec le nerf axillaire, autour du col chirurgical). Compression prolongée par une béquille.", "sources": []},
+        "reperes": {"texte": "Trois portions définies par le muscle petit pectoral : en dedans, en arrière et en dehors de lui. Le cercle anastomotique péri-scapulaire (supra-scapulaire, scapulaire dorsale, circonflexe de la scapula) relie la subclavière à l'axillaire : il permet de lier l'axillaire au-dessus de l'artère subscapulaire.", "sources": []}
+      },
+      "relations": [{"type": "fait_suite_a", "cible": "A09", "sources": ["MB26:3"]}],
+      "remarques": []
+    },
+    {
+      "id": "A35",
+      "champs": {
+        "origine": {"texte": "Fait suite à l'artère axillaire lorsque celle-ci croise le bord inférieur du muscle grand pectoral.", "sources": ["MB26:6"]},
+        "trajet": {"texte": "Descend verticalement dans le compartiment antérieur du bras vers le milieu du pli du coude, appliquée contre la diaphyse humérale (tiers moyen et inférieur), dans le canal brachial avec ses deux veines et le nerf médian. Au pli du coude, parcourt le sillon bicipital médial.", "sources": ["MB26:6-8"]},
+        "branches": {"texte": "Nombreux rameaux musculaires ; l'artère profonde du bras, sa première branche volumineuse ; l'artère collatérale ulnaire supérieure ; l'artère collatérale ulnaire inférieure ; parfois les artères circonflexes humérales.", "sources": ["MB26:6-7"]},
+        "terminaison": {"texte": "Se divise 2 à 3 cm sous le pli de flexion du coude, dans le sillon bicipital médial, en artère radiale (branche latérale) et artère ulnaire (branche médiale).", "sources": ["MB26:6,9"]},
+        "rapports": {"texte": "Longée sur tout son trajet par le nerf médian, qui la croise en X très allongé, de dehors en dedans, en passant en avant d'elle. En haut, le nerf ulnaire en dedans (il passe ensuite en arrière du septum intermusculaire médial), le nerf musculo-cutané et le nerf radial.", "sources": ["MB26:7"]},
+        "clinique": {"texte": "Pouls facilement perçu dans le sillon bicipital médial, en dedans du tendon du biceps ; c'est là qu'on écoute au stéthoscope lors de la mesure de la pression artérielle.", "sources": ["MB26:6"]},
+        "pathologie": {"texte": "Fracture supra-condylienne de l'humérus chez l'enfant : lésion ou compression de l'artère brachiale (pouls radial aboli), avec un risque de syndrome des loges et de rétraction ischémique de Volkmann. Voie d'abord artérielle possible, moins utilisée que la radiale.", "sources": []},
+        "reperes": {"texte": "Mesure de la pression artérielle : brassard au bras, stéthoscope sur l'artère au pli du coude (bruits de Korotkoff). Un garrot posé au bras la comprime contre l'humérus.", "sources": []}
+      },
+      "relations": [{"type": "fait_suite_a", "cible": "A34", "sources": ["MB26:6"]}],
+      "remarques": ["Appelée aussi artère humérale dans les ronéos."]
+    },
+    {
+      "id": "A36",
+      "champs": {
+        "origine": {"texte": "Première branche volumineuse de l'artère brachiale.", "sources": ["MB26:7"]},
+        "trajet": {"texte": "S'engage avec le nerf radial dans l'espace axillaire caudal, gagne le compartiment postérieur du bras et croise la face postérieure de la diaphyse humérale, vers le bas et en dehors.", "sources": ["MB26:6-7"]},
+        "branches": {"texte": "Un rameau récurrent vers l'articulation scapulo-humérale, anastomosé avec les artères circonflexes humérales.", "sources": ["MB26:5,7"]},
+        "terminaison": {"texte": "Deux branches de part et d'autre de l'épicondyle latéral : l'artère collatérale radiale, en avant, qui traverse le septum intermusculaire latéral, parcourt le sillon bicipital latéral et s'anastomose avec l'artère récurrente radiale ; l'artère collatérale moyenne, en arrière, qui s'anastomose avec l'artère récurrente interosseuse dans le sillon épicondylo-olécranien latéral.", "sources": ["MB26:7"]},
+        "rapports": {"texte": "Accompagnée par ses veines et par le nerf radial, en arrière de la diaphyse humérale.", "sources": ["MB26:6,8"]},
+        "pathologie": {"texte": "Fracture de la diaphyse humérale au tiers moyen : lésion possible avec le nerf radial dans son sillon (main tombante).", "sources": []},
+        "reperes": {"texte": "Accompagne le nerf radial dans le sillon du nerf radial, à la face postérieure de l'humérus ; participe au réseau anastomotique du coude.", "sources": []}
+      },
+      "relations": [{"type": "branche_de", "cible": "A35", "sources": ["MB26:7"]}],
+      "remarques": ["Appelée aussi artère brachiale profonde."]
+    },
+    {
+      "id": "A37",
+      "champs": {
+        "origine": {"texte": "Branche terminale latérale de l'artère brachiale, dans le sillon bicipital médial.", "sources": ["MB26:6,9"]},
+        "trajet": {"texte": "Suit l'axe du radius dans le compartiment antérieur de l'avant-bras, superficielle, recouverte par le muscle brachio-radial dont elle est satellite, avec la branche superficielle du nerf radial et les veines radiales. Contourne en dehors le poignet, sur la face latérale du scaphoïde (tabatière anatomique), parcourt la face postérieure du carpe, puis traverse d'arrière en avant le premier espace interosseux.", "sources": ["MB26:9-10"]},
+        "branches": {"texte": "Artère récurrente radiale, qui parcourt le sillon bicipital latéral et s'anastomose avec l'artère collatérale radiale. Rameaux carpiens palmaire et dorsal (arcades carpiennes palmaire et dorsale, avec ceux de l'ulnaire). Artère métacarpienne dorsale du pouce. Rameau palmaire superficiel, qui participe à l'arcade palmaire superficielle.", "sources": ["MB26:8,10-11"]},
+        "terminaison": {"texte": "S'anastomose avec le rameau palmaire profond de l'artère ulnaire pour former l'arcade palmaire profonde.", "sources": ["MB26:9,11"]},
+        "clinique": {"texte": "Pouls radial entre le tendon du brachio-radial en dehors et celui du fléchisseur radial du carpe en dedans ; aussi dans la tabatière anatomique. Superficielle, donc exposée aux plaies. Anastomosée à la veine céphalique pour créer une fistule de dialyse.", "sources": ["MB26:9-10"]},
+        "pathologie": {"texte": "Voie d'abord de référence de la coronarographie et de l'angioplastie coronaire, avec moins de complications hémorragiques que la voie fémorale. Ponction pour les gaz du sang artériel, cathéter de pression artérielle. Greffon possible pour les pontages coronaires.", "sources": []},
+        "reperes": {"texte": "Test d'Allen avant de la ponctionner ou de la canuler : on vérifie que l'artère ulnaire suffit à perfuser la main par les arcades palmaires. Pouls radial : prise habituelle de la fréquence cardiaque.", "sources": []}
+      },
+      "relations": [
+        {"type": "branche_de", "cible": "A35", "sources": ["MB26:9"]},
+        {"type": "anastomose_avec", "cible": "A38", "sources": ["MB26:9,11"]}
+      ],
+      "remarques": []
+    },
+    {
+      "id": "A38",
+      "champs": {
+        "origine": {"texte": "Branche terminale médiale de l'artère brachiale, dans le sillon bicipital médial.", "sources": ["MB26:6,9"]},
+        "trajet": {"texte": "Plus profonde que la radiale, en arrière du muscle fléchisseur superficiel des doigts ; croisée par le nerf médian, rejointe au tiers moyen par le nerf ulnaire, qui se place en dedans. Satellite du tendon du fléchisseur ulnaire du carpe, elle gagne le bord latéral du pisiforme et le canal ulnaire.", "sources": ["MB26:9-10"]},
+        "branches": {"texte": "Artère récurrente ulnaire, qui se divise en récurrente ulnaire antérieure (anastomosée avec la collatérale ulnaire inférieure) et postérieure (avec la collatérale ulnaire supérieure). Artère interosseuse commune, qui donne les interosseuses antérieure et postérieure et la récurrente interosseuse. Rameaux carpiens palmaire et dorsal. Rameau palmaire profond, qui participe à l'arcade palmaire profonde.", "sources": ["MB26:10-11"]},
+        "terminaison": {"texte": "Au bord inférieur du pisiforme, s'infléchit et s'anastomose avec le rameau palmaire superficiel de l'artère radiale : arcade palmaire superficielle.", "sources": ["MB26:9,11"]},
+        "clinique": {"texte": "Pouls ulnaire palpable dans le canal ulnaire, moins frappé que le pouls radial (calibre plus petit).", "sources": ["MB26:9"]},
+        "pathologie": {"texte": "Syndrome du marteau hypothénarien : thrombose ou anévrisme de l'ulnaire dans le canal ulnaire chez ceux qui frappent avec le talon de la main, avec une ischémie des doigts.", "sources": []},
+        "reperes": {"texte": "Principale contributrice de l'arcade palmaire superficielle. Traverse le canal ulnaire avec le nerf ulnaire, en dehors du pisiforme. Le test d'Allen évalue sa suppléance avant une ponction radiale.", "sources": []}
+      },
+      "relations": [
+        {"type": "branche_de", "cible": "A35", "sources": ["MB26:9"]},
+        {"type": "anastomose_avec", "cible": "A37", "sources": ["MB26:9,11"]}
+      ],
+      "remarques": ["Appelée aussi artère cubitale."]
+    },
+    {
+      "id": "A39",
+      "champs": {
+        "origine": {"texte": "Anastomose de l'artère ulnaire et du rameau palmaire superficiel de l'artère radiale.", "sources": ["MB26:9,11"]},
+        "trajet": {"texte": "Convexe vers le bas, très superficielle dans la région palmaire, en arrière de l'aponévrose palmaire et en avant des tendons des muscles fléchisseurs.", "sources": ["MB26:11-12"]},
+        "branches": {"texte": "Quatre branches : l'artère digitale palmaire propre médiale du cinquième doigt, puis les artères digitales palmaires communes des deuxième, troisième et quatrième espaces interosseux, qui donnent à l'extrémité de l'espace les artères digitales palmaires propres des doigts adjacents.", "sources": ["MB26:11"]},
+        "territoire": {"texte": "Par les artères digitales palmaires propres : face antérieure des doigts, et face dorsale des deuxième et troisième phalanges des doigts longs.", "sources": ["MB26:12"]},
+        "clinique": {"texte": "Peut être lésée lors d'une plaie de la paume.", "sources": ["MB26:11"]},
+        "pathologie": {"texte": "Plaies de la paume ; ischémie digitale du phénomène de Raynaud et de la sclérodermie.", "sources": []},
+        "reperes": {"texte": "Se projette au niveau du bord distal du pouce en abduction complète ; l'arcade profonde est environ un centimètre plus proximale. Arcade complète chez une majorité de sujets seulement, d'où l'intérêt du test d'Allen.", "sources": []}
+      },
+      "relations": [
+        {"type": "fait_suite_a", "cible": "A38", "sources": ["MB26:9,11"]},
+        {"type": "anastomose_avec", "cible": "A37", "sources": ["MB26:11"]}
+      ],
+      "remarques": ["MB26 p.11 fait naître les branches « par sa concavité » d'une arcade convexe vers le bas : à vérifier sur le diaporama."]
+    },
+    {
+      "id": "A40",
+      "champs": {
+        "origine": {"texte": "Anastomose de l'artère radiale, au sortir du premier espace interosseux, et du rameau palmaire profond de l'artère ulnaire.", "sources": ["MB26:9,11"]},
+        "trajet": {"texte": "Dans la loge interosseuse, plus profonde que l'arcade superficielle et descendant moins bas qu'elle ; convexe vers le bas, recouverte par les muscles intrinsèques et extrinsèques de la main.", "sources": ["MB26:11-12"]},
+        "branches": {"texte": "Par sa convexité, les artères métacarpiennes palmaires, qui rejoignent les artères digitales palmaires communes des deuxième à quatrième espaces ; des branches perforantes vers les artères métacarpiennes dorsales des deuxième à quatrième espaces. Près de son origine (ou de la terminaison de la radiale) : l'artère métacarpienne dorsale du pouce et l'artère digitale palmaire commune du premier espace, qui donne l'artère principale du pouce et l'artère digitale palmaire propre latérale de l'index.", "sources": ["MB26:11-12"]},
+        "pathologie": {"texte": "Plaies profondes de la main ; ischémie digitale.", "sources": []},
+        "reperes": {"texte": "Environ un centimètre plus proximale que l'arcade superficielle, au niveau des bases des métacarpiens, accompagnée par la branche profonde du nerf ulnaire.", "sources": []}
+      },
+      "relations": [
+        {"type": "fait_suite_a", "cible": "A37", "sources": ["MB26:9,11"]},
+        {"type": "anastomose_avec", "cible": "A38", "sources": ["MB26:11"]}
+      ],
+      "remarques": ["MB26 p.12 la situe « immédiatement en avant des métatarsiens » : il faut lire métacarpiens."]
+    },
+    {
+      "id": "V11",
+      "champs": {
+        "affluents": {"texte": "Les veines thyroïdiennes supérieures, à droite comme à gauche.", "sources": ["GV26:19"]},
+        "terminaison": {"texte": "S'unit à la veine subclavière, en arrière du premier cartilage costo-sternal, pour former la veine brachio-céphalique.", "sources": ["GV26:18", "MB26:13"]},
+        "territoire": {"texte": "Principale veine du cou, dans le réseau cave supérieur.", "sources": ["ACV19c:12"]},
+        "clinique": {"texte": "Voie d'accès possible, avec la subclavière, pour les cathéters veineux centraux, les sondes de pression dans l'atrium droit et les biopsies hépatiques transveineuses.", "sources": ["GV26:19"]},
+        "pathologie": {"texte": "Thrombose sur cathéter ou après une infection oro-pharyngée (syndrome de Lemierre). Voie d'abord écho-guidée des cathéters centraux, de préférence à droite, dont le trajet vers la veine cave supérieure est rectiligne.", "sources": []},
+        "reperes": {"texte": "Turgescence jugulaire et reflux hépato-jugulaire, examinés à 45° : reflet de la pression de l'atrium droit. Dans la gaine carotidienne, en dehors de la carotide, le nerf vague en arrière entre les deux. Bulbe supérieur au foramen jugulaire, bulbe inférieur, valvulé, près de sa terminaison.", "sources": []}
+      },
+      "relations": [{"type": "se_jette_dans", "cible": "V03", "sources": ["GV26:18"]}],
+      "remarques": ["Origine (foramen jugulaire) et trajet cervical non décrits dans les ronéos déposées : à compléter avec le cours du cou."]
+    },
+    {
+      "id": "V12",
+      "champs": {
+        "terminaison": {"texte": "Veine subclavière.", "sources": []},
+        "rapports": {"texte": "Dans le fascia superficiel du cou, avec le muscle platysma dans les régions antérieure et latérales, comme les veines jugulaires antérieures.", "sources": ["COU:25"]},
+        "pathologie": {"texte": "Turgescence visible quand la pression veineuse centrale s'élève (insuffisance cardiaque droite). Voie veineuse périphérique de secours.", "sources": []},
+        "reperes": {"texte": "Croise superficiellement le muscle sterno-cléido-mastoïdien, de l'angle de la mandibule vers le milieu de la clavicule ; formée par les veines rétro-mandibulaire et auriculaire postérieure.", "sources": []}
+      },
+      "relations": [{"type": "se_jette_dans", "cible": "V20", "sources": []}],
+      "remarques": ["Seule la diapo UE10 du cou la mentionne : la terminaison est un ajout hors ronéos, à vérifier."]
+    },
+    {
+      "id": "V16",
+      "champs": {
+        "origine": {"texte": "Partie latérale du réseau veineux dorsal de la main.", "sources": ["MB26:13"]},
+        "trajet": {"texte": "Contourne l'extrémité inférieure de l'avant-bras pour gagner sa face antérieure, puis remonte à la face antéro-latérale du bras, dans le tissu sous-cutané. Au pli du coude, elle forme avec la veine basilique et les veines médianes le M veineux, visible mais parfois incomplet.", "sources": ["MB26:13"]},
+        "affluents": {"texte": "La veine médiane céphalique, au pli du coude ; parfois une veine céphalique accessoire.", "sources": ["MB26:13", "ACV19d:8"]},
+        "terminaison": {"texte": "Traverse le fascia profond dans la région delto-pectorale et se jette dans la veine axillaire.", "sources": ["MB26:13", "ACV19d:8"]},
+        "variations": {"texte": "Le développement du réseau veineux superficiel est très variable d'un individu à l'autre.", "sources": ["MB26:13"]},
+        "clinique": {"texte": "Lieu habituel des ponctions veineuses et des voies veineuses périphériques, au pli du coude. Peut être anastomosée à l'artère radiale pour créer une fistule de dialyse.", "sources": ["MB26:9,13"]},
+        "pathologie": {"texte": "Thrombose veineuse superficielle sur cathéter périphérique. Voie d'abord chirurgicale des sondes de stimulateur cardiaque dans le sillon delto-pectoral. Utilisée pour les fistules artério-veineuses de dialyse.", "sources": []},
+        "reperes": {"texte": "Chemine dans le sillon delto-pectoral puis le trigone clavi-pectoral, où elle perfore le fascia clavi-pectoral pour rejoindre la veine axillaire.", "sources": []}
+      },
+      "relations": [{"type": "se_jette_dans", "cible": "V19", "sources": ["MB26:13"]}],
+      "remarques": []
+    },
+    {
+      "id": "V17",
+      "champs": {
+        "origine": {"texte": "Partie médiale du réseau veineux dorsal de la main.", "sources": ["MB26:13"]},
+        "trajet": {"texte": "Contourne l'avant-bras pour gagner sa face antérieure, puis remonte à la face antérieure du bras, dans le tissu sous-cutané. Elle traverse le fascia brachial à peu près là où le nerf cutané médial du bras devient superficiel.", "sources": ["MB26:8,13"]},
+        "affluents": {"texte": "La veine médiane basilique, au pli du coude ; parfois une veine basilique accessoire.", "sources": ["MB26:13", "ACV19d:8"]},
+        "terminaison": {"texte": "Devient profonde et se jette dans une des deux veines brachiales.", "sources": ["MB26:12-13", "ACV19d:8"]},
+        "clinique": {"texte": "Veine du M veineux du pli du coude, utilisée pour les ponctions et les voies veineuses périphériques.", "sources": ["MB26:13"]},
+        "pathologie": {"texte": "Fistules de dialyse avec veine basilique superficialisée. Thrombose veineuse superficielle.", "sources": []},
+        "reperes": {"texte": "Traverse le fascia brachial vers le milieu du bras ; le nerf cutané médial de l'avant-bras l'accompagne, exposé lors des ponctions.", "sources": []}
+      },
+      "relations": [],
+      "remarques": ["MB26 p.8 fait traverser le fascia brachial à la basilique là où le nerf cutané médial « du bras » devient superficiel : classiquement, c'est le nerf cutané médial de l'avant-bras qui perfore le fascia avec elle."]
+    },
+    {
+      "id": "V19",
+      "champs": {
+        "origine": {"texte": "Les deux veines brachiales : l'une se jette dans l'autre dans la partie inférieure de la fosse axillaire, par un canal veineux collatéral qui croise l'artère axillaire ; la veine axillaire est donc unique.", "sources": ["MB26:12-13"]},
+        "affluents": {"texte": "La veine céphalique, deuxième veine principale du réseau superficiel.", "sources": ["MB26:13"]},
+        "terminaison": {"texte": "Devient la veine subclavière en passant sous le milieu de la clavicule.", "sources": ["MB26:13"]},
+        "territoire": {"texte": "Membre supérieur, réseaux profond et superficiel.", "sources": ["MB26:12-13"]},
+        "pathologie": {"texte": "Thrombose d'effort de la veine axillo-subclavière (syndrome de Paget-Schroetter) chez le sportif ou le travailleur aux bras levés ; thrombose sur cathéter.", "sources": []},
+        "reperes": {"texte": "En dedans de l'artère axillaire ; reçoit la veine céphalique. Entourée par les nœuds lymphatiques axillaires, que l'on prélève dans le cancer du sein.", "sources": []}
+      },
+      "relations": [],
+      "remarques": []
+    },
+    {
+      "id": "V20",
+      "champs": {
+        "origine": {"texte": "Fait suite à la veine axillaire, sous le milieu de la clavicule.", "sources": ["MB26:13"]},
+        "terminaison": {"texte": "S'unit à la veine jugulaire interne, en arrière du premier cartilage costo-sternal, pour former la veine brachio-céphalique.", "sources": ["GV26:18", "MB26:13"]},
+        "rapports": {"texte": "En avant de l'artère subclavière : le nerf vague passe entre l'artère subclavière, en arrière, et la veine subclavière, en avant.", "sources": ["GV26:6,8"]},
+        "clinique": {"texte": "Ponctionnée pour poser une voie veineuse centrale ou une sonde de pression dans l'atrium droit.", "sources": ["GV26:19"]},
+        "pathologie": {"texte": "Pneumothorax lors de sa ponction, le dôme pleural étant juste en dessous. Thrombose d'effort, compression dans la pince costo-claviculaire.", "sources": []},
+        "reperes": {"texte": "Passe en avant du muscle scalène antérieur, alors que l'artère passe en arrière de lui, entre les scalènes antérieur et moyen. Ponction sous-claviculaire sous le tiers moyen de la clavicule, l'aiguille dirigée vers l'incisure jugulaire du sternum.", "sources": []}
+      },
+      "relations": [
+        {"type": "fait_suite_a", "cible": "V19", "sources": ["MB26:13"]},
+        {"type": "se_jette_dans", "cible": "V03", "sources": ["GV26:18"]}
+      ],
+      "remarques": ["Appelée aussi veine sous-clavière (ancienne nomenclature française) ; la TA2 française dit veine subclavière."]
+    }
+  ]
+}

@@ -1,0 +1,1744 @@
+﻿qid;fma_id;libelle_en;libelle_fr;alias_fr
+Q2349469;FMA3736;ascending aorta;aorte ascendante;portion ascendante de la crosse aortique
+Q616032;FMA3768;aortic arch;arc de l'aorte;arche aortique|crosse de l'aorte
+Q3270170;FMA3784;descending aorta;aorte descendante;portion descendante de l'aorte
+Q2264329;FMA3789;abdominal aorta;aorte abdominale;
+Q66499428;FMA3802;trunk of right coronary artery;;
+Q55091813;FMA3807;conus branch of right coronary artery;rameau du cône artériel de l'artère coronaire droite;artère du cône artériel droit|artère graisseuse droite de Vieussens
+Q66499434;FMA3815;first anterior ventricular branch of right coronary artery;;
+Q6382772;FMA3818;right marginal branch of right coronary artery;rameau marginal droit de l'artère coronaire droite;artère marginale droite
+Q66499452;FMA3837;first posterior ventricular branch of right coronary artery;;
+Q6382778;FMA3840;posterior interventricular branch of right coronary artery;artère interventriculaire postérieure;rameau interventriculaire postérieur de l'artère coronaire droite
+Q66499458;FMA3847;first septal branch of posterior interventricular artery;;
+Q66499459;FMA3848;second septal branch of posterior interventricular artery;;
+Q66499463;FMA3855;trunk of left coronary artery;;
+Q66499465;FMA3860;left diagonal artery;;
+Q4771358;FMA3862;anterior interventricular branch of left coronary artery;artère interventriculaire antérieure;IVA
+Q66499469;FMA3868;conal branch of anterior interventricular artery;rameau du cône artériel de l'artère interventriculaire antérieure;
+Q66499473;FMA3872;first right anterior branch of anterior interventricular branch of left coronary artery;;
+Q66499474;FMA3874;second right anterior branch of anterior interventricular branch of left coronary artery;;
+Q66499476;FMA3876;third right anterior branch of anterior interventricular branch of left coronary artery;;
+Q66499487;FMA3892;septal branch of anterior interventricular artery;;
+Q5121741;FMA3895;circumflex branch of left coronary artery;rameau circonflexe de l'artère coronaire gauche;artère auriculo-ventriculaire|artère circonflexe du cœur
+Q515917;FMA3932;brachiocephalic artery;tronc brachiocéphalique;artère brachio-céphalique|artère brachiocéphalique|tronc artériel brachio-céphalique|tronc artériel brachiocéphalique|tronc brachio-cephalique|tronc brachio-céphalique
+Q214275;FMA3939;common carotid artery;artère carotide commune;Artère carotide commune|artère carotide primitive
+Q30126918;FMA3941;right common carotid artery;artère carotide commune droite;
+Q515848;FMA3947;internal carotid artery;artère carotide interne;carotide interne
+Q66499533;FMA3949;right internal carotid artery;;
+Q490059;FMA3951;subclavian artery;artère subclavière;artere sous-claviere|artère sous-clavière|artere subclaviere
+Q30126940;FMA3953;right subclavian artery;artère subclavière droite;
+Q516546;FMA3956;vertebral artery;artère vertébrale;artere vertebrale
+Q66499536;FMA3958;right vertebral artery;;
+Q497563;FMA3960;internal thoracic artery;artère thoracique interne;artère mammaire interne|mammaire interne
+Q66499540;FMA3969;right internal thoracic artery;;
+Q66499558;FMA3988;right superior epigastric artery;;
+Q2456456;FMA3990;thyrocervical trunk;tronc thyro-cervical;tronc thyro-bicervico-scapulaire|tronc thyro-scapulaire
+Q66499559;FMA3992;right thyrocervical trunk;;
+Q66499636;FMA4057;right dorsal scapular artery;;
+Q30126919;FMA4058;left common carotid artery;artère carotide commune gauche;
+Q66499640;FMA4062;left internal carotid artery;;
+Q66499648;FMA4066;left vertebral artery;;
+Q66499649;FMA4068;left internal thoracic artery;;
+Q66499667;FMA4077;left musculophrenic artery;;
+Q66499678;FMA4083;left superior epigastric artery;;
+Q66499681;FMA4084;left thyrocervical trunk;;
+Q66499683;FMA4086;left costocervical trunk;;
+Q66499686;FMA4088;left superior intercostal artery;;
+Q66499731;FMA4112;left second posterior intercostal artery;;
+Q66499777;FMA4134;left deep cervical artery;;
+Q3660617;FMA4149;esophageal artery;artère œsophagienne;
+Q66499827;FMA4176;posterior intercostal artery;artère intercostale aortique;artère intercostale dorsale|artère intercostale postérieure
+Q66500591;FMA4634;right subcostal artery;;
+Q66500619;FMA4654;left subcostal artery;;
+Q30126941;FMA4694;left subclavian artery;artère subclavière gauche;
+Q629460;FMA4706;coronary sinus;sinus coronaire;
+Q2886255;FMA4707;great cardiac vein;grande veine du cœur;veine cardiaque majeure|veine grande coronaire
+Q6516978;FMA4708;left marginal vein;veine marginale gauche du cœur;veine du bord gauche du cœur
+Q7234258;FMA4712;posterior vein of left ventricle;veine postérieure du ventricule gauche;
+Q6841662;FMA4713;middle cardiac vein;veine cardiaque moyenne;veine interventriculaire inférieure|veine interventriculaire postérieure|veine médiane du cœur de Henle
+Q7543026;FMA4714;small cardiac vein;petite veine cardiaque;petite veine du cœur
+Q7333621;FMA4716;right marginal vein;veine marginale droite du cœur;veine de Galien|veine du bord droit du cœur
+Q736995;FMA4720;superior vena cava;veine cave supérieure;veine cave crâniale|veine cave descendante
+Q2341350;FMA4723;brachiocephalic vein;veine brachiocéphalique;tronc veineux innominé|tronc brachiocéphalique veineux|veine innominée
+Q540598;FMA4724;internal jugular vein;veine jugulaire interne;
+Q493430;FMA4725;subclavian vein;veine subclavière;veine sous-clavière
+Q66500712;FMA4751;right brachiocephalic vein;;
+Q66500713;FMA4754;right internal jugular vein;;
+Q66500714;FMA4755;right subclavian vein;;
+Q66500719;FMA4758;right internal thoracic vein;;
+Q66501490;FMA4761;left brachiocephalic vein;;
+Q66501634;FMA4762;left internal jugular vein;;
+Q66501635;FMA4763;left subclavian vein;;
+Q66501642;FMA4771;right superior epigastric vein;;
+Q66501643;FMA4772;right musculophrenic vein;;
+Q66501657;FMA4785;left superior epigastric vein;;
+Q66501658;FMA4786;left musculophrenic vein;;
+Q136558443;FMA4797;;veine intercostale supérieure gauche;
+Q591137;FMA4838;azygos vein;veine azygos;grande veine azygos|veine thoracique longitudinale droite
+Q66501713;FMA4843;right ascending lumbar vein;;
+Q66501714;FMA4844;right subcostal vein;;
+Q66501742;FMA4877;right superior intercostal vein;veine intercostale supérieure droite;veine hémi-azygos supérieure droite|veine hémiazygos supérieure droite
+Q2214048;FMA4944;hemi-azygos vein;veine hémiazygos;petite veine azygos|veine hémiazygos inférieure|veine petite azygos inférieure
+Q66501813;FMA4950;left ascending lumbar vein;;
+Q66501814;FMA4951;left subcostal vein;;
+Q4672537;FMA5011;accessory hemiazygos vein;veine hémiazygos accessoire;veine hémiazygos supérieure|veine petite azygos accessoire|veine petite azygos supérieure|veine thoracique longitudinale accessoire
+Q66501888;FMA5039;right costocervical trunk;;
+Q66501889;FMA5041;right second posterior intercostal artery;;
+Q66501890;FMA5042;right superior intercostal artery;;
+Q66502755;FMA7041;short ciliary nerve;;
+Q173710;FMA7131;esophagus;œsophage;oesophage|oesophagien
+Q1029907;FMA7148;stomach;estomac;poche stomachale
+Q5259911;FMA7163;human skin;peau humaine;
+Q9371;FMA7196;spleen;rate;
+Q9618;FMA7198;pancreas;pancréas;
+Q64386;FMA7202;gallbladder;vésicule biliaire;Biliaire|Vesicule biliaire|Vésicule du fiel
+Q66502827;FMA7204;right kidney;;
+Q66502828;FMA7205;left kidney;;
+Q134955;FMA7206;duodenum;duodénum;Duodenum|Gastroduodénal
+Q66502829;FMA7211;right testis;;
+Q66502830;FMA7212;left testis;;
+Q66502842;FMA7238;superior leaflet of right atrioventricular valve;cuspide antérieure de la valve atrio-ventriculaire droite;valve antérieure de la valvule tricuspide
+Q66502843;FMA7239;inferior leaflet of right atrioventricular valve;cuspide postérieure de la valve atrio-ventriculaire droite;valve inférieure de la valvule tricuspide|valve postérieure de la valvule tricuspide
+Q66502844;FMA7240;septal leaflet of right atrioventricular valve;cuspide septale de la valve atrio-ventriculaire droite;valve interne de la valvule tricuspide|valve septale de la valvule tricuspide
+Q66502846;FMA7242;anterior leaflet of mitral valve;cuspide antérieure de la valve atrio-ventriculaire gauche;grande valve de la mitrale|valve droite de la valvule mitrale|valve interne de la valvule mitrale
+Q66502847;FMA7243;posterior leaflet of mitral valve;cuspide postérieure de la valve atrio-ventriculaire gauche;petite valve de la mitrale|valve externe de la valvule mitrale|valve gauche de la valvule mitrale
+Q66502849;FMA7247;anterior semilunar leaflet of pulmonary valve;valvule semi-lunaire antérieure de la valve du tronc pulmonaire;
+Q66502851;FMA7249;right semilunar leaflet of pulmonary valve;valvule semi-lunaire droite de la valve du tronc pulmonaire;
+Q66502852;FMA7250;left semilunar leaflet of pulmonary valve;valvule semi-lunaire gauche de la valve du tronc pulmonaire;
+Q66502854;FMA7252;non-coronary leaflet;valvule semi-lunaire postérieure de la valve aortique;valvule non coronaire de la valve aortique
+Q66502855;FMA7253;right coronary leaflet;valvule coronaire droite de la valve aortique;valvule semi-lunaire droite de la valve aortique
+Q66502856;FMA7254;left coronary leaflet;valvule coronaire gauche de la valve aortique;valvule semi-lunaire gauche de la valve aortique
+Q66502858;FMA7260;anterior papillary muscle of right ventricle;muscle papillaire antérieur du ventricule droit;
+Q66502859;FMA7261;inferior papillary muscle of right ventricle;muscle papillaire postérieur du ventricule droit;
+Q66502860;FMA7262;septal papillary muscle of right ventricle;muscle papillaire septal du ventricule droit;
+Q66502861;FMA7264;superior papillary muscle of left ventricle;muscle papillaire antérieur du ventricule gauche;
+Q66502862;FMA7265;anterolateral head of lateral papillary muscle of left ventricle;;
+Q175449;FMA7394;trachea;trachée;Soumission|Étranglement|Trachee|Trachée artère|Trachée-artère|Trachées
+Q12232936;FMA7396;left main bronchus;;
+Q2719344;FMA7486;manubrium;manubrium sternal;manubrium|manubrium du sternum
+Q16356;FMA7487;body of sternum;corps du sternum;
+Q16359;FMA7488;xiphoid process;processus xiphoïde;apophyse xiphoïde|appendice ensiforme|appendice xiphoïde|pointe du sternum|processus ensiforme|xiphisternum
+Q66503349;FMA7857;right first rib;;
+Q66503367;FMA7875;right first costal cartilage;;
+Q66503374;FMA7882;right second rib;;
+Q66503378;FMA7886;right second costal cartilage;;
+Q66503401;FMA7909;right third rib;;
+Q66503405;FMA7913;right third costal cartilage;;
+Q66503449;FMA7957;right fourth rib;;
+Q66503468;FMA7976;right fourth costal cartilage;;
+Q66503478;FMA7987;left first rib;;
+Q66503495;FMA8005;left first costal cartilage;;
+Q66503503;FMA8012;left second rib;;
+Q66503522;FMA8031;left second costal cartilage;;
+Q66503530;FMA8039;left third rib;;
+Q66503551;FMA8058;left third costal cartilage;;
+Q66503559;FMA8066;right fifth rib;;
+Q66503563;FMA8070;right fifth costal cartilage;;
+Q66503588;FMA8093;left fifth rib;;
+Q66503607;FMA8112;left fifth costal cartilage;;
+Q66503640;FMA8148;left fourth rib;;
+Q66503659;FMA8167;left fourth costal cartilage;;
+Q66503667;FMA8175;right sixth rib;;
+Q66503690;FMA8194;right sixth costal cartilage;;
+Q66503699;FMA8202;left sixth rib;;
+Q66503718;FMA8221;left sixth costal cartilage;;
+Q66503727;FMA8229;right seventh rib;;
+Q66503747;FMA8248;right seventh costal cartilage;;
+Q66503755;FMA8256;left seventh rib;;
+Q66503774;FMA8275;left seventh costal cartilage;;
+Q66503782;FMA8283;right eighth rib;;
+Q66503810;FMA8310;left eighth rib;;
+Q66503861;FMA8364;right ninth rib;;
+Q66503887;FMA8391;left ninth rib;;
+Q66503935;FMA8445;right tenth rib;;
+Q66503958;FMA8472;left tenth rib;;
+Q66504013;FMA8531;right eleventh rib;;
+Q66504014;FMA8532;left eleventh rib;;
+Q66504015;FMA8533;right twelfth rib;;
+Q66504016;FMA8534;left twelfth rib;;
+Q999472;FMA8612;pulmonary trunk;tronc pulmonaire;artère pulmonaire
+Q66504087;FMA8620;right anterior segmental artery;artère segmentaire antérieure de l'artère pulmonaire droite;artère médiastinale ventrale du poumon droit
+Q66504097;FMA8634;left apical segmental artery;artère segmentaire apicale de l'artère pulmonaire gauche;rameau apical de l'artère pulmonaire gauche
+Q66504098;FMA8635;left posterior segmental artery;artère segmentaire postérieure de l'artère pulmonaire gauche;artère dorsale supérieure
+Q66504102;FMA8639;superior lingular artery;artère lingulaire supérieure de l'artère pulmonaire gauche;artère lingulaire crâniale de l'artère pulmonaire gauche|rameau lingulaire crânial de l'artère pulmonaire gauche|rameau lingulaire supérieur de l'artère pulmonaire gauche
+Q66504103;FMA8640;inferior lingular artery;artère lingulaire inférieure de l'artère pulmonaire gauche;artère lingulaire caudale de l'artère pulmonaire gauche|rameau lingulaire caudal de l'artère pulmonaire gauche|rameau lingulaire inférieur de l'artère pulmonaire gauche
+Q66504105;FMA8642;left superior segmental artery;artère segmentaire supérieure de l'artère pulmonaire gauche;artère apicale du lobe inférieur du poumon|artère du segment de Nelson
+Q66504107;FMA8644;left medial basal segmental artery;artère segmentaire basale médiale de l'artère pulmonaire gauche;artère basale interne gauche|artère paracardiaque gauche
+Q66504108;FMA8645;left anterior basal segmental artery;artère segmentaire basale antérieure de l'artère pulmonaire gauche;artère antérobasale de l'artère pulmonaire gauche|artère basale antérieure gauche|rameau basal antérieur gauche
+Q66504109;FMA8646;left lateral basal segmental artery;artère segmentaire basale latérale de l'artère pulmonaire gauche;artère basale externe gauche|artère latérobasale de l'artère pulmonaire gauche
+Q66504110;FMA8647;left posterior basal segmental artery;artère segmentaire basale postérieure de l'artère pulmonaire gauche;artère dorsobasale gauche|artère postérobasale de l'artère pulmonaire gauche|artère terminobasale gauche
+Q66504229;FMA8662;right anterior segmental vein;;
+Q66504230;FMA8663;right posterior segmental vein;;
+Q66504234;FMA8667;left anterior segmental vein;;
+Q66504235;FMA8668;superior lingular vein of left lung;rameau supérieur de la veine lingulaire de la veine pulmonaire supérieure gauche;branche supérieure de la veine lingulaire|partie supérieure de la veine lingulaire du lobe supérieur du poumon gauche|veine lingulaire supérieure de la veine pulmonaire supérieure gauche
+Q66504236;FMA8669;inferior lingular vein of left lung;rameau inférieur de la veine lingulaire de la veine pulmonaire supérieure gauche;branche inférieure de la veine lingulaire|rameau inférieur de la veine lingulaire de la veine pulmonaire supérieure gauche|veine lingulaire inférieure de la veine pulmonaire supérieure gauche
+Q66504237;FMA8670;right superior segmental vein;;
+Q66504240;FMA8673;right anterior basal segmental vein;;
+Q66504245;FMA8678;left anterior basal segmental vein;;
+Q66504248;FMA8681;apical part of right apical segmental vein;;
+Q46992872;FMA9165;T1 vertebra;première vertèbre thoracique;T1|vertèbre T1
+Q46992873;FMA9187;T2 vertebra;deuxième vertèbre thoracique;T2|vertèbre T2
+Q46992874;FMA9209;T3 vertebra;troisième vertèbre thoracique;T3|vertèbre T3
+Q46992875;FMA9248;T4 vertebra;quatrième vertèbre thoracique;T4|vertèbre T4
+Q66504784;FMA9291;cavity of right ventricle;;
+Q66504886;FMA9422;right medial basal segmental vein;;
+Q66504889;FMA9425;right lateral basal segmental vein;;
+Q66504892;FMA9428;right posterior basal segmental vein;;
+Q66504897;FMA9437;left apical segmental vein;;
+Q66504898;FMA9438;left posterior segmental vein;;
+Q66504909;FMA9450;left lateral basal segmental vein;;
+Q66504910;FMA9451;left posterior basal segmental vein;;
+Q66504915;FMA9457;wall of right atrium;;
+Q66504920;FMA9465;cavity of left atrium;;
+Q66504921;FMA9466;cavity of left ventricle;;
+Q66504971;FMA9531;wall of left atrium;;
+Q9625;FMA9600;prostate;prostate;
+Q638244;FMA9615;cricoid cartilage;cartilage cricoïde;cartilage basal de Ludwig
+Q66505019;FMA9623;perineal muscle;muscle du périnée;
+Q193527;FMA9710;vomer;vomer;os vomer|vomérien
+Q66505071;FMA9756;external intercostal muscle;;
+Q1954132;FMA9757;internal intercostal muscle;muscle intercostal interne;muscle intercostal moyen
+Q66505073;FMA9758;innermost intercostal muscle;;
+Q66505075;FMA9761;right transversus thoracis;;
+Q66505076;FMA9762;left transversus thoracis;;
+Q46992876;FMA9922;T5 vertebra;cinquième vertèbre thoracique;T5|vertèbre T5
+Q46992877;FMA9945;T6 vertebra;sixième vertèbre thoracique;T6|vertèbre T6
+Q46992878;FMA9968;T7 vertebra;septième vertèbre thoracique;T7|vertèbre T7
+Q46992879;FMA9991;T8 vertebra;huitième vertèbre thoracique;vertèbre T8|T8
+Q46992880;FMA10014;T9 vertebra;neuvième vertèbre thoracique;T9|vertèbre T9
+Q46992881;FMA10037;T10 vertebra;dixième vertèbre thoracique;T10|vertèbre T10
+Q46992882;FMA10059;T11 vertebra;onzième vertèbre thoracique;T11|vertèbre T11
+Q46992883;FMA10081;T12 vertebra;douzième vertèbre thoracique;T12|vertèbre T12|vertèbre thoracique inférieure
+Q668063;FMA10419;pancreatic duct;canal pancréatique;Conduit pancréatique
+Q502781;FMA10446;intervertebral disc;disque intervertébral;
+Q66505663;FMA10458;intervertebral disk of first thoracic vertebra;;
+Q66505727;FMA10552;left dorsal scapular artery;;
+Q125276;FMA10635;external carotid artery;artère carotide externe;Artères carotides
+Q66505820;FMA10660;right deep cervical artery;;
+Q66505830;FMA10680;left inferior thyroid artery;;
+Q66505831;FMA10681;left suprascapular artery;;
+Q66505832;FMA10682;left transverse cervical artery;;
+Q66505833;FMA10683;left superficial cervical artery;;
+Q66505838;FMA10692;right musculophrenic artery;;
+Q66505841;FMA10697;right inferior thyroid artery;;
+Q66505842;FMA10698;right suprascapular artery;;
+Q66505843;FMA10699;right transverse cervical artery;;
+Q66505844;FMA10700;right superficial cervical artery;;
+Q745438;FMA10951;inferior vena cava;veine cave inférieure;Veine cave inferieure
+Q942068;FMA11336;linea alba;ligne blanche;ligne de hunter|linea alba
+Q33126544;FMA11338;ileocecal junction;;
+Q66506369;FMA11359;cavity of right atrium;;
+Q655357;FMA12519;atlas;atlas;C1|Os atlas|première vertèbre cervicale|vertèbre C1
+Q792567;FMA12520;axis;axis;axis (vertèbre)|os axis
+Q194905;FMA12521;C3 vertebra;troisième vertèbre cervicale;C3|vertèbre C3
+Q5065361;FMA12522;C4 vertebra;quatrième vertèbre cervicale;C4|vertèbre C4
+Q5065363;FMA12523;C5 vertebra;cinquième vertèbre cervicale;C5|vertèbre C5
+Q5065364;FMA12524;C6 vertebra;sixième vertèbre cervicale;C6|vertèbre C6
+Q4010274;FMA12525;C7 vertebra;vertèbre proéminente;C7|septième vertèbre cervicale|vertèbre C7
+Q4803822;FMA12858;ascending lumbar vein;veine lombaire ascendante;veine azygos lombaire
+Q46993005;FMA13072;L1 vertebra;première vertèbre lombaire;L1|vertèbre L1
+Q46993006;FMA13073;L2 vertebra;deuxième vertèbre lombaire;L2|vertèbre L2
+Q46993007;FMA13074;L3 vertebra;troisième vertèbre lombaire;L3|vertèbre L3
+Q46993008;FMA13075;L4 vertebra;quatrième vertèbre lombaire;L4|vertèbre L4
+Q46993009;FMA13076;L5 vertebra;cinquième vertèbre lombaire;vertèbre L5|L5
+Q2512768;FMA13110;external jugular vein;veine jugulaire externe;
+Q66507993;FMA13279;left anterior segmental artery;artère segmentaire antérieure de l'artère pulmonaire gauche;artère médiastinale ventrale du poumon gauche
+Q9654;FMA13295;thoracic diaphragm;diaphragme;
+Q66508022;FMA13322;right clavicle;;
+Q66508023;FMA13323;left clavicle;;
+Q1670335;FMA13324;cephalic vein;veine céphalique;
+Q114774917;FMA13324;cephalic vein of forearm;veine céphalique antébrachiale;
+Q66508024;FMA13325;right cephalic vein;;
+Q66508025;FMA13326;left cephalic vein;;
+Q682122;FMA13329;axillary vein;veine axillaire;
+Q66508026;FMA13330;right axillary vein;;
+Q66508027;FMA13331;left axillary vein;;
+Q66508031;FMA13336;right external oblique;;
+Q66508032;FMA13337;left external oblique;;
+Q66508034;FMA13346;right sternohyoid;;
+Q66508035;FMA13347;left sternohyoid;;
+Q66508036;FMA13348;right omohyoid;;
+Q66508037;FMA13349;left omohyoid;;
+Q66508038;FMA13350;right sternothyroid;;
+Q66508039;FMA13351;left sternothyroid;;
+Q66508040;FMA13352;right thyrohyoid;;
+Q66508041;FMA13353;left thyrohyoid;;
+Q5054375;FMA13365;caudate lobe of liver;;
+Q66508054;FMA13375;right pectoralis minor;;
+Q66508055;FMA13376;left pectoralis minor;;
+Q66508058;FMA13381;right rhomboid major;;
+Q66508059;FMA13382;left rhomboid major;;
+Q66508060;FMA13383;right rhomboid minor;;
+Q66508061;FMA13384;left rhomboid minor;;
+Q66508062;FMA13388;right scalenus posterior;;
+Q66508063;FMA13389;left scalenus posterior;;
+Q66508064;FMA13390;right scalenus medius;;
+Q66508065;FMA13391;left scalenus medius;;
+Q66508066;FMA13392;right scalenus anterior;;
+Q66508067;FMA13393;left scalenus anterior;;
+Q66508068;FMA13395;right scapula;;
+Q66508069;FMA13396;left scapula;;
+Q66508070;FMA13398;right serratus anterior;;
+Q66508071;FMA13399;left serratus anterior;;
+Q66508073;FMA13403;right serratus posterior superior;;
+Q66508074;FMA13404;left serratus posterior superior;;
+Q66508075;FMA13405;right serratus posterior inferior;;
+Q66508076;FMA13406;left serratus posterior inferior;;
+Q66508077;FMA13408;right sternocleidomastoid;;
+Q66508078;FMA13409;left sternocleidomastoid;;
+Q66508079;FMA13411;left subclavius;;
+Q66508080;FMA13412;right subclavius;;
+Q66508081;FMA13414;right subscapularis;;
+Q66508082;FMA13415;left subscapularis;;
+Q66508172;FMA13495;intervertebral disk of second thoracic vertebra;;
+Q66508178;FMA13500;intervertebral disk of third thoracic vertebra;;
+Q66508180;FMA13501;intervertebral disk of fourth thoracic vertebra;;
+Q66508182;FMA13502;intervertebral disk of fifth thoracic vertebra;;
+Q66508184;FMA13503;intervertebral disk of sixth thoracic vertebra;;
+Q66508186;FMA13504;intervertebral disk of seventh thoracic vertebra;;
+Q66508187;FMA13505;intervertebral disk of eighth thoracic vertebra;;
+Q66508189;FMA13506;intervertebral disk of ninth thoracic vertebra;;
+Q66508191;FMA13507;intervertebral disk of tenth thoracic vertebra;;
+Q66508193;FMA13508;intervertebral disk of eleventh thoracic vertebra;;
+Q66508805;FMA13884;wall of ventricle;;
+Q156871;FMA13889;pituitary gland;hypophyse;adénome hypophysaire|glande hypophyse|glande pituitaire|hormone hypophysaire|pituitaire
+Q66508822;FMA13896;intervertebral disk of third cervical vertebra;;
+Q66508825;FMA13897;intervertebral disk of fourth cervical vertebra;;
+Q66508827;FMA13898;intervertebral disk of fifth cervical vertebra;;
+Q66508830;FMA13899;intervertebral disk of sixth cervical vertebra;;
+Q66508832;FMA13900;intervertebral disk of seventh cervical vertebra;;
+Q66509120;FMA14177;bronchial branch of arch of aorta;;
+Q3091615;FMA14331;splenic vein;veine splénique;Veine splenique
+Q751322;FMA14332;superior mesenteric vein;veine mésentérique supérieure;
+Q3143036;FMA14333;common iliac vein;veine iliaque commune;veine iliaque primitive
+Q132318;FMA14334;renal vein;veine rénale;
+Q66509389;FMA14335;right renal vein;veine rénale droite;
+Q66509390;FMA14336;left renal vein;veine rénale gauche;
+Q66509392;FMA14338;right hepatic vein;veine hépatique droite;
+Q66509394;FMA14339;left hepatic vein;veine hépatique gauche;
+Q66509396;FMA14340;intermediate hepatic vein;veine hépatique intermédiaire;
+Q66509399;FMA14341;right testicular vein;veine testiculaire droite;
+Q66509403;FMA14343;right suprarenal vein;veine suprarénale droite;veine surrénale droite
+Q585624;FMA14344;testicular vein;veine testiculaire;veine spermatique
+Q66509405;FMA14345;left testicular vein;veine testiculaire gauche;
+Q66509409;FMA14349;left suprarenal vein;veine suprarénale gauche;veine surrénale gauche
+Q664439;FMA14539;cystic duct;Conduit cystique;
+Q9656;FMA14542;appendix;appendice iléo-cæcal;appendice
+Q158716;FMA14544;rectum;rectum;ampoule rectale|rectal
+Q2562556;FMA14545;ascending colon;côlon ascendant;côlon droit
+Q2619732;FMA14546;transverse colon;côlon transverse;
+Q2562565;FMA14547;descending colon;côlon descendant;côlon gauche
+Q66510583;FMA14643;mesentery of small intestine;;
+Q3333390;FMA14647;transverse mesocolon;mésocôlon transverse;
+Q2043581;FMA14668;common hepatic duct;Conduit hépatique;canal hépatique
+Q66510630;FMA14669;right hepatic duct;;
+Q66510631;FMA14670;left hepatic duct;;
+Q3491693;FMA14734;inferior phrenic artery;artère phrénique inférieure;artère diaphragmatique caudale|artère diaphragmatique inférieure
+Q66510748;FMA14735;lumbar artery;;
+Q66510768;FMA14746;right inferior phrenic artery;;
+Q66510771;FMA14747;left inferior phrenic artery;;
+Q367570;FMA14749;superior mesenteric artery;artère mésentérique supérieure;artère grande mésentérique
+Q707384;FMA14750;inferior mesenteric artery;artère mésentérique inférieure;artère petite mésentérique
+Q707540;FMA14751;renal artery;artère rénale;artere renale|artère Rénale
+Q66510773;FMA14752;right renal artery;;
+Q66510775;FMA14753;left renal artery;;
+Q66510777;FMA14755;right middle suprarenal artery;;
+Q66510779;FMA14756;left middle suprarenal artery;;
+Q707535;FMA14757;median sacral artery;artère sacrale médiane;
+Q707616;FMA14758;testicular artery;artère testiculaire;
+Q66510782;FMA14759;right testicular artery;;
+Q66510784;FMA14760;left testicular artery;;
+Q707257;FMA14764;common iliac artery;artère iliaque commune;artère iliaque primitive
+Q66510793;FMA14765;right common iliac artery;;
+Q66510796;FMA14766;left common iliac artery;;
+Q508792;FMA14768;left gastric artery;artère gastrique gauche;artère coronaire stomachique|Arteria gastrica sinistra
+Q707236;FMA14771;common hepatic artery;artère hépatique commune;artère hépatique|artère gastro-hépatique droite|artère hépatique cœliaque
+Q542166;FMA14772;hepatic artery proper;artère hépatique propre;artère hépatique médiane|artère hépatique moyenne|artère hépatique primordiale moyenne
+Q707326;FMA14773;splenic artery;artère splénique;artère gastro-splénique de Piquand|artère liénale|artère pancréatico-spléno-gastrique de Farabeuf
+Q707177;FMA14776;right gastric artery;artère gastrique droite;artère pylorique
+Q707202;FMA14781;right gastroepiploic artery;artère gastro-omentale droite;
+Q37947143;FMA14782;anterior superior pancreaticoduodenal artery;artère pancréatico-duodénale supéro-antérieure;artère pancréatico-duodénale droite supérieure de Rouvière|artère pancréatico-duodénale postérieure|artère pancréatico-duodénale postéro-supérieure de Pedro Bellou|artère rétro-duodénale d’Edwards
+Q37947145;FMA14784;posterior superior pancreaticoduodenal artery;artère pancréatico-duodénale supéro-postérieure;
+Q5298799;FMA14787;dorsal pancreatic artery;artère pancréatique dorsale;artère pancréatique isthmique de Rio Branco|artère pancréatique moyenne de Theile|artère pancréatique principale|artère pancréatique supérieure de Testut et Descomps|artère pancréatique supérieure gauche de Rio Branco
+Q66510815;FMA14790;inferior pancreatic artery;artère pancréatique inférieure;artère pancréatique inférieure gauche|artère pancréatique transverse de Haller
+Q707433;FMA14792;greater pancreatic artery;grande artère pancréatique;artère pancréatique isthmique de Rio Branco
+Q66510820;FMA14793;artery of tail of pancreas;artère de la queue du pancréas;
+Q707204;FMA14796;left gastroepiploic artery;artère gastro-omentale gauche;artère gastro-épiploïque gauche
+Q707436;FMA14805;inferior pancreaticoduodenal artery;artère pancréatico-duodénale inférieure;artère pancréatico-duodénale gauche de Rouvière|artère pancréatico-duodénale postéro-inférieure de Calas|tronc commun des artères pancréatiques inférieures de Calas
+Q66510843;FMA14809;ileal artery;;
+Q707115;FMA14810;middle colic artery;artère colique moyenne;artère colique ascendante|artère colique moyenne de Michels|artère du côlon transverse
+Q707113;FMA14811;right colic artery;artère colique droite;artère colique droite supérieure|artère de l’angle droit du côlon
+Q66539914;FMA14812;celiac trunk;;
+Q241186;FMA14815;ileocolic artery;artère iléocolique;artère colique droite inférieure|artère iléo-caeco-appendiculaire|artère iléocaecocolique
+Q707052;FMA14816;anterior caecal artery;artère cæcale antérieure;
+Q707058;FMA14817;posterior caecal artery;artère cæcale postérieure;
+Q706969;FMA14818;appendicular artery;Artère appendiculaire;
+Q5997438;FMA14819;ileal branch of ileocolic artery;rameau iléal de l'artère iléocolique;
+Q5144814;FMA14820;colic branch of ileocolic artery;rameau colique de l'artère iléocolique;
+Q3621435;FMA14824;marginal artery of the colon;artère marginale du côlon;arcade marginale de Drummond|arcade marginale du côlon|artère juxtacolique
+Q1816515;FMA14826;left colic artery;artère colique gauche;
+Q38047666;FMA14828;ascending branch of left colic artery;branche ascendante de l'artère colique gauche;
+Q38047668;FMA14829;descending branch of left colic artery;branche descendante de l'artère colique gauche;
+Q707709;FMA14830;sigmoid artery;artère sigmoïdienne;artères sigmoïdiennes
+Q66510852;FMA14831;marginal artery of colon;;
+Q384950;FMA14832;superior rectal artery;artère rectale supérieure;artère hémorroïdale supérieure
+Q66511110;FMA14964;proximal part of ileum;;
+Q66511111;FMA14965;middle part of ileum;;
+Q7702734;FMA14966;terminal ileum;;
+Q66511265;FMA15042;taenia mesocolica;;
+Q66511268;FMA15043;taenia omentalis;;
+Q66511269;FMA15044;taenia libera;;
+Q66511935;FMA15370;lumbar vein;;
+Q6381103;FMA15390;left gastroepiploic vein;veine gastro-épiploïque gauche;veine gastro-omentale gauche
+Q3176575;FMA15391;inferior mesenteric vein;veine mésentérique inférieure;Veine mesenterique inferieure
+Q7643673;FMA15393;superior rectal vein;veine rectale supérieure;veine hémorroïdale supérieure
+Q4115340;FMA15394;left colic vein;veine colique gauche;
+Q66511971;FMA15395;sigmoid vein;;
+Q4115374;FMA15397;right gastroepiploic vein;veine gastro-épiploïque droite;
+Q66511975;FMA15398;pancreaticoduodenal vein;;
+Q730403;FMA15399;left gastric vein;veine gastrique gauche;
+Q4115303;FMA15400;right gastric vein;veine gastrique droite;
+Q66511983;FMA15405;ileal vein;;
+Q4115373;FMA15406;middle colic vein;veine colique moyenne;
+Q4115294;FMA15407;right colic vein;veine colique droite;
+Q4115339;FMA15408;Ileocolic vein;veine iléocolique;veine iléo-colique
+Q66511991;FMA15414;right portal vein;rameau droit de la veine porte hépatique;
+Q66511992;FMA15415;left portal vein;rameau gauche de la veine porte hépatique;
+Q66512001;FMA15420;anterior superior segmental branch of right portal vein;;
+Q66512004;FMA15421;anterior inferior segmental branch of right portal vein;;
+Q66512008;FMA15423;posterior superior segmental branch of right portal vein;;
+Q66512011;FMA15424;posterior inferior segmental branch of right portal vein;;
+Q66512012;FMA15425;caudate lobe branch of left portal vein;rameau du lobe caudé;rameaux du lobe caudé
+Q66512018;FMA15428;medial superior segmental branch of left portal vein;;
+Q66512019;FMA15429;medial inferior segmental branch of left portal vein;;
+Q66512023;FMA15431;lateral superior segmental branch of left portal vein;;
+Q66512024;FMA15432;lateral inferior segmental branch of left portal vein;;
+Q66512237;FMA15571;right ureter;;
+Q66512240;FMA15572;left ureter;;
+Q66715642;FMA15629;right adrenal gland;;
+Q66715643;FMA15630;left adrenal gland;;
+Q66512430;FMA15739;hepatovenous segment ii;;
+Q66512436;FMA15741;hepatovenous segment iii;;
+Q66512437;FMA15742;hepatovenous segment iv;;
+Q66512440;FMA15743;hepatovenous segment v;;
+Q66512441;FMA15744;hepatovenous segment vi;;
+Q66512444;FMA15745;hepatovenous segment vii;;
+Q66512446;FMA15746;hepatovenous segment viii;;
+Q66512448;FMA15747;hepatovenous segment ix;;
+Q66512544;FMA15793;tributary of middle hepatic vein;;
+Q66512551;FMA15796;posterior superior segmental tributary of right hepatic vein;;
+Q66512554;FMA15797;posterior inferior segmental tributary of right hepatic vein;;
+Q66512558;FMA15798;anterior superior segmental tributary of right hepatic vein;;
+Q66512563;FMA15800;anterior inferior segmental tributary of middle hepatic vein;;
+Q66512565;FMA15801;medial inferior segmental tributary of middle hepatic vein;;
+Q66512568;FMA15802;medial superior segmental tributary of left hepatic vein;;
+Q66512571;FMA15803;lateral superior segmental tributary of left hepatic vein;;
+Q66512573;FMA15804;lateral inferior segmental tributary of left hepatic vein;;
+Q9382;FMA15900;urinary bladder;vessie;
+Q66513041;FMA16033;intervertebral disk of first lumbar vertebra;;
+Q66513044;FMA16034;intervertebral disk of second lumbar vertebra;;
+Q66513047;FMA16035;intervertebral disk of third lumbar vertebra;;
+Q66513050;FMA16036;intervertebral disk of fourth lumbar vertebra;;
+Q66513055;FMA16037;intervertebral disk of fifth lumbar vertebra;;
+Q233316;FMA16202;sacrum;sacrum;Vertèbre sacrale
+Q60332406;FMA16549;Mesoappendix;mésoappendice;
+Q66514139;FMA16586;right hip bone;;
+Q66514141;FMA16587;left hip bone;;
+Q66713494;FMA16981;Proximal part of jejunum;;
+Q66713497;FMA16982;Middle part of jejunum;;
+Q66713503;FMA16983;Distal part of jejunum;;
+Q650891;FMA18247;glans penis;gland du pénis;balane|balanus|gland pénien
+Q66509437;FMA18256;right epididymis;;
+Q66509439;FMA18257;left epididymis;;
+Q585053;FMA18805;external iliac artery;artère iliaque externe;
+Q66510057;FMA18806;right external iliac artery;;
+Q66510058;FMA18807;left external iliac artery;;
+Q532558;FMA18808;internal iliac artery;artère iliaque interne;artère hypogastrique
+Q66510059;FMA18809;right internal iliac artery;;
+Q66510060;FMA18810;left internal iliac artery;;
+Q707686;FMA18823;inferior vesical artery;artère vésicale inférieure;
+Q707674;FMA18829;uterine artery;artère utérine;artère génitale principale
+Q707489;FMA18835;internal pudendal artery;artère pudendale interne;artère honteuse interne|artère périnéale de Farabeuf|artère pudendale commune
+Q707692;FMA18839;superior vesical artery;artère vésicale supérieure;artère vésicale latéro-supérieure de Farabeuf
+Q707393;FMA18865;obturator artery;artère obturatrice;
+Q707218;FMA18868;superior gluteal artery;artère glutéale supérieure;artère fessière|artère iliaque postérieure de Poirier
+Q132000;FMA18871;inferior gluteal artery;artère glutéale inférieure;
+Q3090687;FMA18883;external iliac vein;veine iliaque externe;
+Q1165743;FMA18884;internal iliac vein;veine iliaque interne;veine hypogastrique
+Q66510114;FMA18885;right external iliac vein;;
+Q66510115;FMA18886;left external iliac vein;;
+Q66510116;FMA18887;right internal iliac vein;;
+Q66510117;FMA18888;left internal iliac vein;;
+Q66510131;FMA18903;right iliolumbar vein;;
+Q66510132;FMA18904;left iliolumbar vein;;
+Q66510134;FMA18906;right lateral sacral vein;;
+Q66510135;FMA18907;left lateral sacral vein;;
+Q66510137;FMA18909;right superior gluteal vein;;
+Q66510138;FMA18910;left superior gluteal vein;;
+Q66510140;FMA18912;right inferior gluteal vein;;
+Q66510141;FMA18913;left inferior gluteal vein;;
+Q66510143;FMA18915;right obturator vein;;
+Q66510144;FMA18916;left obturator vein;;
+Q66510145;FMA18918;right internal pudendal vein;;
+Q66510146;FMA18919;left internal pudendal vein;;
+Q66510394;FMA19235;right deferent duct;;
+Q66510395;FMA19236;left deferent duct;;
+Q66510590;FMA19387;right seminal vesicle;;
+Q66510592;FMA19388;left seminal vesicle;;
+Q14413567;FMA19617;corpus spongiosum penis;;
+Q1455226;FMA19618;corpus cavernosum penis;corps caverneux;
+Q9386;FMA19667;urethra;urètre;
+Q66512370;FMA20688;right inferior epigastric artery;;
+Q66512372;FMA20689;left inferior epigastric artery;;
+Q66512471;FMA20735;right superficial epigastric artery;;
+Q66512472;FMA20736;left superficial epigastric artery;;
+Q66512557;FMA20796;right deep femoral artery;;
+Q66512559;FMA20797;left deep femoral artery;;
+Q66512561;FMA20801;right lateral circumflex femoral artery;;
+Q66512562;FMA20802;left lateral circumflex femoral artery;;
+Q66512578;FMA20818;right dorsal artery of penis;;
+Q66512580;FMA20819;left dorsal artery of penis;;
+Q66513033;FMA21163;right inferior epigastric vein;;
+Q66513034;FMA21164;left inferior epigastric vein;;
+Q368521;FMA21185;femoral vein;veine fémorale;
+Q66513066;FMA21188;right femoral vein;;
+Q66513067;FMA21189;left femoral vein;;
+Q66513307;FMA21354;deep dorsal vein of penis;veine dorsale profonde du pénis;veine dorsale profonde de la verge
+Q543323;FMA21376;great saphenous vein;veine grande saphène;veine saphène interne
+Q66513342;FMA21379;right great saphenous vein;;
+Q66513344;FMA21380;left great saphenous vein;;
+Q66513350;FMA21384;superficial dorsal vein of penis;;
+Q66513351;FMA21385;right superficial dorsal vein of penis;;
+Q66513352;FMA21386;left superficial dorsal vein of penis;;
+Q66513354;FMA21387;right common iliac vein;;
+Q66513356;FMA21388;left common iliac vein;;
+Q66513404;FMA21422;descending branch of right lateral circumflex femoral artery;;
+Q66513406;FMA21423;descending branch of left lateral circumflex femoral artery;;
+Q2379958;FMA21930;external anal sphincter;muscle sphincter externe de l'anus;
+Q66514389;FMA22322;right iliacus;;
+Q66514390;FMA22323;left iliacus;;
+Q66514391;FMA22324;right obturator internus;;
+Q66514392;FMA22325;left obturator internus;;
+Q66514393;FMA22326;right obturator externus;;
+Q66514394;FMA22327;left obturator externus;;
+Q66514395;FMA22328;right gluteus maximus;;
+Q66514396;FMA22329;left gluteus maximus;;
+Q66514397;FMA22330;right gluteus medius;;
+Q66514398;FMA22331;left gluteus medius;;
+Q66514399;FMA22332;right gluteus minimus;;
+Q66514400;FMA22333;left gluteus minimus;;
+Q66514401;FMA22334;right gemellus superior;;
+Q66514402;FMA22335;left gemellus superior;;
+Q66514403;FMA22336;right gemellus inferior;;
+Q66514404;FMA22337;left gemellus inferior;;
+Q66514405;FMA22338;right quadratus femoris;;
+Q66514406;FMA22339;left quadratus femoris;;
+Q66514407;FMA22340;right piriformis;;
+Q66514408;FMA22341;left piriformis;;
+Q66514409;FMA22342;right psoas major;;
+Q66514410;FMA22343;left psoas major;;
+Q66514419;FMA22354;right sartorius;;
+Q66514420;FMA22355;left sartorius;;
+Q66514421;FMA22358;right semitendinosus;;
+Q66514422;FMA22359;left semitendinosus;;
+Q66514484;FMA22425;right tensor fasciae latae;;
+Q66514485;FMA22426;left tensor fasciae latae;;
+Q66514495;FMA22448;right semimembranosus;;
+Q66514496;FMA22449;left semimembranosus;;
+Q66514497;FMA22450;right pectineus;;
+Q66514498;FMA22451;left pectineus;;
+Q66514499;FMA22452;right adductor brevis;;
+Q66514500;FMA22454;left adductor brevis;;
+Q66514501;FMA22456;right adductor longus;;
+Q66514502;FMA22457;left adductor longus;;
+Q66514503;FMA22459;right adductor magnus;;
+Q66514504;FMA22460;left adductor magnus;;
+Q66514540;FMA22507;right descending genicular artery;;
+Q66514541;FMA22508;left descending genicular artery;;
+Q66514561;FMA22544;right tibialis anterior;;
+Q66514562;FMA22545;left tibialis anterior;;
+Q66514563;FMA22546;right extensor hallucis longus;;
+Q66514564;FMA22547;left extensor hallucis longus;;
+Q66514565;FMA22548;right extensor digitorum longus;;
+Q66514566;FMA22549;left extensor digitorum longus;;
+Q66514567;FMA22550;right fibularis tertius;;
+Q66514568;FMA22551;left fibularis tertius;;
+Q66514569;FMA22552;right fibularis longus;;
+Q66514570;FMA22553;left fibularis longus;;
+Q66514571;FMA22554;right fibularis brevis;;
+Q66514572;FMA22555;left fibularis brevis;;
+Q66514575;FMA22558;right soleus;;
+Q66514576;FMA22559;left soleus;;
+Q66514577;FMA22560;right plantaris;;
+Q66514578;FMA22561;left plantaris;;
+Q66514579;FMA22562;right middle genicular artery;;
+Q66514580;FMA22563;left middle genicular artery;;
+Q66514598;FMA22586;right medial superior genicular artery;;
+Q66514600;FMA22587;left medial superior genicular artery;;
+Q66514602;FMA22588;right lateral superior genicular artery;;
+Q66514603;FMA22589;left lateral superior genicular artery;;
+Q66514606;FMA22591;right popliteus;;
+Q66514607;FMA22592;left popliteus;;
+Q502164;FMA22654;axillary artery;artère axillaire;Artere axillaire
+Q66514705;FMA22655;right axillary artery;;
+Q66514706;FMA22656;left axillary artery;;
+Q66514721;FMA22675;right lateral thoracic artery;;
+Q66514722;FMA22676;left lateral thoracic artery;;
+Q66514723;FMA22678;right subscapular artery;;
+Q66514724;FMA22679;left subscapular artery;;
+Q66514725;FMA22682;right anterior circumflex humeral artery;;
+Q66514726;FMA22683;left anterior circumflex humeral artery;;
+Q66514727;FMA22685;right posterior circumflex humeral artery;;
+Q66514728;FMA22687;left posterior circumflex humeral artery;;
+Q503643;FMA22689;brachial artery;artère brachiale;artère humérale
+Q66396274;FMA22691;right brachial artery;;
+Q66514729;FMA22692;left brachial artery;;
+Q707473;FMA22695;deep brachial artery;artère profonde du bras;artère collatérale externe du bras|artère humérale profonde
+Q66514731;FMA22696;right deep brachial artery;;
+Q66514732;FMA22697;left deep brachial artery;;
+Q66514736;FMA22707;right superior ulnar collateral artery;;
+Q66514737;FMA22708;left superior ulnar collateral artery;;
+Q66514740;FMA22712;right inferior ulnar collateral artery;;
+Q66514741;FMA22713;left inferior ulnar collateral artery;;
+Q66514754;FMA22726;right splenius cervicis;;
+Q66514755;FMA22727;left splenius cervicis;;
+Q66514756;FMA22728;right splenius capitis;;
+Q66514757;FMA22729;left splenius capitis;;
+Q662857;FMA22730;radial artery;artère radiale;
+Q66514760;FMA22733;right radial artery;;
+Q66514761;FMA22734;left radial artery;;
+Q66514765;FMA22740;right iliocostalis lumborum;;
+Q66514766;FMA22741;left iliocostalis lumborum;;
+Q66514767;FMA22742;right iliocostalis thoracis;;
+Q66514768;FMA22743;left iliocostalis thoracis;;
+Q66514769;FMA22744;right iliocostalis cervicis;;
+Q66514770;FMA22745;left iliocostalis cervicis;;
+Q66514772;FMA22751;right longissimus thoracis;;
+Q66514773;FMA22753;left longissimus thoracis;;
+Q66514774;FMA22754;right longissimus capitis;;
+Q66514775;FMA22756;left longissimus capitis;;
+Q66514776;FMA22757;right longissimus cervicis;;
+Q66514777;FMA22758;left longissimus cervicis;;
+Q66514779;FMA22764;right radial recurrent artery;;
+Q66514781;FMA22766;left radial recurrent artery;;
+Q66514786;FMA22772;dorsal carpal branch of right radial artery;;
+Q66514787;FMA22773;dorsal carpal branch of left radial artery;;
+Q66514791;FMA22777;right arteria radialis indicis;;
+Q66514792;FMA22778;left arteria radialis indicis;;
+Q66514793;FMA22779;right spinalis thoracis;;
+Q66514794;FMA22780;left spinalis thoracis;;
+Q599817;FMA22796;ulnar artery;artère ulnaire;artère cubitale
+Q66395588;FMA22797;right ulnar artery;;
+Q66514807;FMA22798;left ulnar artery;;
+Q66514809;FMA22801;right anterior ulnar recurrent artery;;
+Q66514810;FMA22802;left anterior ulnar recurrent artery;;
+Q66514811;FMA22804;right posterior ulnar recurrent artery;;
+Q66514812;FMA22805;left posterior ulnar recurrent artery;;
+Q66514813;FMA22807;right common interosseous artery;;
+Q66514814;FMA22808;left common interosseous artery;;
+Q66514816;FMA22812;right anterior interosseous artery;;
+Q66514817;FMA22813;left anterior interosseous artery;;
+Q66514823;FMA22821;right dorsal carpal branch of ulnar artery;;
+Q66514824;FMA22822;left dorsal carpal branch of ulnar artery;;
+Q7643328;FMA22834;superficial palmar arch;arcade palmaire superficielle;arcade palmaire cubitale
+Q66514830;FMA22835;right superficial palmar arterial arch;;
+Q66514831;FMA22837;left superficial palmar arterial arch;;
+Q638316;FMA22838;deep palmar arch;arcade palmaire profonde;arcade palmaire radiale
+Q66514832;FMA22839;right deep palmar arch;;
+Q66514833;FMA22840;left deep palmar arch;;
+Q66514841;FMA22850;lateral lumbar intertransversarius;;
+Q66514842;FMA22851;medial lumbar intertransversarius;;
+Q66514846;FMA22856;right first common palmar digital artery;;
+Q66514848;FMA22858;lateral proper palmar digital artery of right middle finger;;
+Q66514850;FMA22860;lateral proper palmar digital artery of left middle finger;;
+Q66514852;FMA22864;right palmar metacarpal artery;;
+Q66514853;FMA22865;left palmar metacarpal artery;;
+Q66514860;FMA22872;right semispinalis thoracis;;
+Q66514861;FMA22873;left semispinalis thoracis;;
+Q66514862;FMA22874;right semispinalis cervicis;;
+Q66514863;FMA22875;left semispinalis cervicis;;
+Q66514864;FMA22876;right semispinalis capitis;;
+Q66514865;FMA22877;left semispinalis capitis;;
+Q66514876;FMA22890;right interspinalis thoracis;;
+Q66514877;FMA22891;left interspinalis thoracis;;
+Q66514889;FMA22905;right arteria princeps pollicis;;
+Q66514891;FMA22907;left arteria princeps pollicis;;
+Q1601362;FMA22908;basilic vein;veine basilique;veine royale
+Q114775284;FMA22908;basilic vein of forearm;veine basilique de l'avant-bras;veine basilique antébrachiale|veine cubitale superficielle
+Q66514892;FMA22909;right basilic vein;;
+Q66514893;FMA22910;left basilic vein;;
+Q66514894;FMA22912;right deep palmar venous arch;;
+Q66514895;FMA22913;left deep palmar venous arch;;
+Q66514896;FMA22915;right superficial palmar venous arch;;
+Q66514897;FMA22916;left superficial palmar venous arch;;
+Q66514900;FMA22920;right palmar metacarpal vein;;
+Q66514901;FMA22921;left palmar metacarpal vein;;
+Q66514903;FMA22923;common palmar digital vein;;
+Q66514914;FMA22935;right medial brachial vein;;
+Q66514915;FMA22936;left medial brachial vein;;
+Q66514921;FMA22948;right radial vein;;
+Q66514922;FMA22949;left radial vein;;
+Q66514924;FMA22951;right ulnar vein;;
+Q66514925;FMA22952;left ulnar vein;;
+Q66514927;FMA22954;dorsal metacarpal vein;;
+Q3320949;FMA22963;median cubital vein;veine médiane cubitale;veine médiane basilique|veine médiane du coude
+Q66514933;FMA22964;right median cubital vein;;
+Q66514934;FMA22965;left median cubital vein;;
+Q66514936;FMA22968;right median antebrachial vein;;
+Q66514937;FMA22969;left median antebrachial vein;;
+Q66514996;FMA23050;medial proper palmar digital artery of right index finger;;
+Q66514997;FMA23051;medial proper palmar digital artery of left index finger;;
+Q66514998;FMA23052;medial proper palmar digital artery of right ring finger;;
+Q66515000;FMA23054;lateral proper palmar digital artery of right little finger;;
+Q66515001;FMA23055;lateral proper palmar digital artery of left little finger;;
+Q66515006;FMA23063;pectoral branch of right thoraco-acromial artery;;
+Q66515007;FMA23064;pectoral branch of left thoraco-acromial artery;;
+Q66515010;FMA23068;acromial branch of right thoraco-acromial artery;;
+Q66515011;FMA23069;acromial branch of left thoraco-acromial artery;;
+Q66515015;FMA23072;deltoid branch of right thoraco-acromial artery;;
+Q66515016;FMA23073;deltoid branch of left thoraco-acromial artery;;
+Q66515024;FMA23083;thoracic rotator;muscle rotateur du thorax;
+Q66515026;FMA23089;right lumbar rotator;;
+Q66515027;FMA23090;left lumbar rotator;;
+Q66515043;FMA23114;right subscapular vein;;
+Q66515044;FMA23115;left subscapular vein;;
+Q66515050;FMA23124;middle collateral branch of right deep brachial artery;;
+Q66515051;FMA23125;middle collateral branch of left deep brachial artery;;
+Q66515052;FMA23126;radial collateral branch of right deep brachial artery;;
+Q66515053;FMA23127;radial collateral branch of left deep brachial artery;;
+Q66515056;FMA23130;right humerus;;
+Q66515057;FMA23131;left humerus;;
+Q66515100;FMA23180;right circumflex scapular artery;;
+Q66515101;FMA23181;left circumflex scapular artery;;
+Q66515317;FMA23464;right radius;;
+Q66515318;FMA23465;left radius;;
+Q66515319;FMA23467;right ulna;;
+Q66515320;FMA23468;left ulna;;
+Q66515479;FMA23707;interosseous membrane of right forearm;;
+Q66515480;FMA23708;interosseous membrane of left forearm;;
+Q66515481;FMA23725;right trapezoid;;
+Q66515613;FMA23938;middle phalanx of left index finger;;
+Q66515614;FMA23940;middle phalanx of left middle finger;;
+Q66515615;FMA23942;middle phalanx of left ring finger;;
+Q66515616;FMA23944;middle phalanx of left little finger;;
+Q66515622;FMA23951;distal phalanx of left thumb;;
+Q66515623;FMA23953;distal phalanx of left index finger;;
+Q66515624;FMA23955;distal phalanx of left middle finger;;
+Q66515625;FMA23957;distal phalanx of left ring finger;;
+Q66515626;FMA23959;distal phalanx of left little finger;;
+Q66515960;FMA24435;right scaphoid;;
+Q66515961;FMA24436;left scaphoid;;
+Q66515962;FMA24437;right lunate;;
+Q66515963;FMA24438;left lunate;;
+Q66515964;FMA24439;right triquetral;;
+Q66515965;FMA24440;left triquetral;;
+Q66515966;FMA24441;right pisiform;;
+Q66515967;FMA24442;left pisiform;;
+Q66515968;FMA24443;right trapezium;;
+Q66515969;FMA24444;left trapezium;;
+Q66515970;FMA24445;left trapezoid;;
+Q66515971;FMA24446;right capitate;;
+Q66515972;FMA24447;left capitate;;
+Q66515973;FMA24448;right hamate;;
+Q66515974;FMA24449;left hamate;;
+Q66515976;FMA24450;proximal phalanx of right thumb;;
+Q66515977;FMA24451;proximal phalanx of right index finger;;
+Q66515978;FMA24452;proximal phalanx of right middle finger;;
+Q66515979;FMA24453;proximal phalanx of right ring finger;;
+Q66515980;FMA24454;proximal phalanx of right little finger;;
+Q66515981;FMA24455;middle phalanx of right index finger;;
+Q66515982;FMA24456;middle phalanx of right middle finger;;
+Q66515983;FMA24457;middle phalanx of right ring finger;;
+Q66515984;FMA24458;middle phalanx of right little finger;;
+Q66515985;FMA24459;distal phalanx of right thumb;;
+Q66515986;FMA24460;distal phalanx of right index finger;;
+Q66515987;FMA24461;distal phalanx of right middle finger;;
+Q66515988;FMA24462;distal phalanx of right ring finger;;
+Q66515990;FMA24463;distal phalanx of right little finger;;
+Q66515991;FMA24464;right first metacarpal bone;;
+Q66515992;FMA24465;left first metacarpal bone;;
+Q66515993;FMA24466;right second metacarpal bone;;
+Q66515994;FMA24467;left second metacarpal bone;;
+Q66515995;FMA24468;right third metacarpal bone;;
+Q66515996;FMA24469;left third metacarpal bone;;
+Q66515997;FMA24470;right fourth metacarpal bone;;
+Q66515998;FMA24471;left fourth metacarpal bone;;
+Q66515999;FMA24472;right fifth metacarpal bone;;
+Q66516000;FMA24473;left fifth metacarpal bone;;
+Q66516001;FMA24474;right femur;;
+Q66516002;FMA24475;left femur;;
+Q66516003;FMA24477;right tibia;;
+Q66516004;FMA24478;left tibia;;
+Q66516005;FMA24480;right fibula;;
+Q66516006;FMA24481;left fibula;;
+Q66516007;FMA24482;right talus;;
+Q66516008;FMA24483;left talus;;
+Q66516009;FMA24486;right patella;;
+Q66516010;FMA24487;left patella;;
+Q66516011;FMA24497;right calcaneus;;
+Q66516012;FMA24498;left calcaneus;;
+Q66516013;FMA24500;navicular bone of right foot;;
+Q66516014;FMA24501;navicular bone of left foot;;
+Q66516020;FMA24507;right first metatarsal bone;;
+Q66516021;FMA24508;left first metatarsal bone;;
+Q66516022;FMA24509;right second metatarsal bone;;
+Q66516023;FMA24510;left second metatarsal bone;;
+Q66516024;FMA24511;right third metatarsal bone;;
+Q66516025;FMA24512;left third metatarsal bone;;
+Q66516026;FMA24513;right fourth metatarsal bone;;
+Q66516027;FMA24514;left fourth metatarsal bone;;
+Q66516028;FMA24515;right fifth metatarsal bone;;
+Q66516029;FMA24516;left fifth metatarsal bone;;
+Q66516031;FMA24521;right medial cuneiform bone;;
+Q66516032;FMA24522;left medial cuneiform bone;;
+Q66516033;FMA24523;right intermediate cuneiform bone;;
+Q66516034;FMA24524;left intermediate cuneiform bone;;
+Q66516035;FMA24525;right lateral cuneiform bone;;
+Q66516036;FMA24526;left lateral cuneiform bone;;
+Q66516037;FMA24528;right cuboid bone;;
+Q66516038;FMA24529;left cuboid bone;;
+Q66516391;FMA25058;intervertebral disk of axis;;
+Q66523018;FMA32530;right rectus capitis posterior major;;
+Q66523019;FMA32531;left rectus capitis posterior major;;
+Q66523020;FMA32532;right rectus capitis posterior minor;;
+Q66523021;FMA32533;left rectus capitis posterior minor;;
+Q66523022;FMA32534;right obliquus capitis superior;;
+Q66523023;FMA32535;left obliquus capitis superior;;
+Q66523024;FMA32536;right obliquus capitis inferior;;
+Q66523026;FMA32537;left obliquus capitis inferior;;
+Q66523027;FMA32540;right levator scapulae;;
+Q66523028;FMA32541;left levator scapulae;;
+Q66523032;FMA32544;right supraspinatus;;
+Q66523033;FMA32545;left supraspinatus;;
+Q66523034;FMA32547;right infraspinatus muscle;;
+Q66523035;FMA32548;left infraspinatus muscle;;
+Q66523036;FMA32551;right teres major;;
+Q66523037;FMA32552;left teres major;;
+Q66523038;FMA32553;right teres minor;;
+Q66523039;FMA32554;left teres minor;;
+Q66523100;FMA32634;proximal phalanx of right second toe;;
+Q66523101;FMA32635;proximal phalanx of left second toe;;
+Q66523102;FMA32636;proximal phalanx of right third toe;;
+Q66523103;FMA32637;proximal phalanx of left third toe;;
+Q66523104;FMA32638;proximal phalanx of right fourth toe;;
+Q66523105;FMA32639;proximal phalanx of left fourth toe;;
+Q66523106;FMA32640;proximal phalanx of right little toe;;
+Q66523107;FMA32641;proximal phalanx of left little toe;;
+Q66523108;FMA32642;middle phalanx of right second toe;;
+Q66523109;FMA32643;middle phalanx of left second toe;;
+Q66523110;FMA32644;middle phalanx of right third toe;;
+Q66523111;FMA32645;middle phalanx of left third toe;;
+Q66523112;FMA32646;middle phalanx of right fourth toe;;
+Q66523113;FMA32647;middle phalanx of left fourth toe;;
+Q66523114;FMA32650;distal phalanx of right big toe;;
+Q66523115;FMA32651;distal phalanx of left big toe;;
+Q66523116;FMA32652;distal phalanx of right second toe;;
+Q66523117;FMA32653;distal phalanx of left second toe;;
+Q66523118;FMA32654;distal phalanx of right third toe;;
+Q66523120;FMA32655;distal phalanx of left third toe;;
+Q66523121;FMA32656;distal phalanx of right fourth toe;;
+Q66523122;FMA32657;distal phalanx of left fourth toe;;
+Q66523123;FMA32658;distal phalanx of right little toe;;
+Q66523124;FMA32659;distal phalanx of left little toe;;
+Q66523847;FMA33581;ascending part of right trapezius;;
+Q66523849;FMA33583;ascending part of left trapezius;;
+Q66523850;FMA33584;transverse part of right trapezius;;
+Q66523851;FMA33585;transverse part of left trapezius;;
+Q66523852;FMA33586;descending part of right trapezius;;
+Q66523853;FMA33587;descending part of left trapezius;;
+Q66524649;FMA34680;clavicular part of right deltoid;;
+Q66524650;FMA34681;clavicular part of left deltoid;;
+Q66524651;FMA34682;acromial part of right deltoid;;
+Q66524652;FMA34683;acromial part of left deltoid;;
+Q66524653;FMA34684;spinal part of right deltoid;;
+Q66524654;FMA34685;spinal part of left deltoid;;
+Q66524659;FMA34690;clavicular part of right pectoralis major;;
+Q66524660;FMA34691;clavicular part of left pectoralis major;;
+Q66525124;FMA35192;interosseous membrane of right leg;;
+Q66525125;FMA35193;interosseous membrane of left leg;;
+Q66526730;FMA37386;right abductor pollicis brevis;;
+Q66526731;FMA37387;left abductor pollicis brevis;;
+Q66526732;FMA37388;right flexor pollicis brevis;;
+Q66526733;FMA37389;left flexor pollicis brevis;;
+Q66526734;FMA37390;right opponens pollicis;;
+Q66526735;FMA37391;left opponens pollicis;;
+Q66526740;FMA37396;abductor digiti minimi of right hand;;
+Q66526741;FMA37397;abductor digiti minimi of left hand;;
+Q66526742;FMA37398;flexor digiti minimi brevis of right hand;;
+Q66526743;FMA37399;flexor digiti minimi brevis of left hand;;
+Q66526744;FMA37400;opponens digiti minimi of right hand;;
+Q66526745;FMA37401;opponens digiti minimi of left hand;;
+Q66526784;FMA37459;right abductor hallucis;;
+Q66526785;FMA37460;left abductor hallucis;;
+Q66526786;FMA37461;right flexor digitorum brevis;;
+Q66526787;FMA37462;left flexor digitorum brevis;;
+Q66526788;FMA37463;abductor digiti minimi of right foot;;
+Q66526789;FMA37464;abductor digiti minimi of left foot;;
+Q66526790;FMA37465;right flexor accessorius;;
+Q66526791;FMA37466;left flexor accessorius;;
+Q66526796;FMA37471;flexor digiti minimi brevis of right foot;;
+Q66526797;FMA37472;flexor digiti minimi brevis of left foot;;
+Q66526802;FMA37483;fourth lumbrical of right foot;;
+Q66526803;FMA37484;fourth lumbrical of left foot;;
+Q66526804;FMA37485;third lumbrical of right foot;;
+Q66526805;FMA37486;third lumbrical of left foot;;
+Q66526946;FMA37665;right coracobrachialis;;
+Q66526947;FMA37666;left coracobrachialis;;
+Q66526948;FMA37668;right brachialis;;
+Q66526949;FMA37669;left brachialis;;
+Q66526960;FMA37684;short head of right biceps brachii;;
+Q66526961;FMA37685;short head of left biceps brachii;;
+Q66526962;FMA37686;long head of right biceps brachii;;
+Q66526963;FMA37687;long head of left biceps brachii;;
+Q66526971;FMA37695;medial head of right triceps brachii;;
+Q66526972;FMA37696;medial head of left triceps brachii;;
+Q66526973;FMA37697;lateral head of right triceps brachii;;
+Q66526974;FMA37698;lateral head of left triceps brachii;;
+Q66526975;FMA37699;long head of right triceps brachii;;
+Q66526976;FMA37700;long head of left triceps brachii;;
+Q66526979;FMA37705;right anconeus;;
+Q66526980;FMA37706;left anconeus;;
+Q66526983;FMA37717;first lumbrical of right foot;;
+Q66526984;FMA37718;first lumbrical of left foot;;
+Q66526985;FMA37719;second lumbrical of right foot;;
+Q66526986;FMA37720;second lumbrical of left foot;;
+Q66527005;FMA37741;third plantar interosseous of right foot;;
+Q66527006;FMA37742;third plantar interosseous of left foot;;
+Q66527007;FMA37743;second plantar interosseous of right foot;;
+Q66527008;FMA37744;second plantar interosseous of left foot;;
+Q66527010;FMA37745;first plantar interosseous of right foot;;
+Q66527011;FMA37746;first plantar interosseous of left foot;;
+Q66527637;FMA38454;right pronator quadratus;;
+Q66527638;FMA38455;left pronator quadratus;;
+Q66527640;FMA38460;right flexor carpi radialis;;
+Q66527641;FMA38461;left flexor carpi radialis;;
+Q66527642;FMA38463;right palmaris longus;;
+Q66527643;FMA38464;left palmaris longus;;
+Q66527647;FMA38470;right flexor digitorum superficialis;;
+Q66527648;FMA38471;left flexor digitorum superficialis;;
+Q66527651;FMA38479;right flexor digitorum profundus;;
+Q66527652;FMA38480;left flexor digitorum profundus;;
+Q66527653;FMA38482;right flexor pollicis longus;;
+Q66527654;FMA38484;left flexor pollicis longus;;
+Q66527655;FMA38486;right brachioradialis;;
+Q66527656;FMA38487;left brachioradialis;;
+Q66527659;FMA38495;right extensor carpi radialis longus;;
+Q66527660;FMA38496;left extensor carpi radialis longus;;
+Q66527661;FMA38498;right extensor carpi radialis brevis;;
+Q66527662;FMA38499;left extensor carpi radialis brevis;;
+Q66527663;FMA38501;right extensor digitorum;;
+Q66527664;FMA38502;left extensor digitorum;;
+Q66527665;FMA38504;right extensor digiti minimi;;
+Q66527666;FMA38505;left extensor digiti minimi;;
+Q66527667;FMA38507;right extensor carpi ulnaris;;
+Q66527668;FMA38508;left extensor carpi ulnaris;;
+Q66527670;FMA38513;right supinator;;
+Q66527671;FMA38514;left supinator;;
+Q66527672;FMA38516;right abductor pollicis longus;;
+Q66527673;FMA38517;left abductor pollicis longus;;
+Q66527674;FMA38519;right extensor pollicis brevis;;
+Q66527676;FMA38520;left extensor pollicis brevis;;
+Q66527677;FMA38522;right extensor pollicis longus;;
+Q66527678;FMA38523;left extensor pollicis longus;;
+Q66527679;FMA38525;right extensor indicis;;
+Q66527680;FMA38526;left extensor indicis;;
+Q66527692;FMA38560;humeral head of right pronator teres;;
+Q66527693;FMA38561;humeral head of left pronator teres;;
+Q66527694;FMA38562;ulnar head of right pronator teres;;
+Q66527695;FMA38563;ulnar head of left pronator teres;;
+Q66527734;FMA38617;humeral head of right flexor carpi ulnaris;;
+Q66527735;FMA38618;humeral head of left flexor carpi ulnaris;;
+Q66527736;FMA38619;ulnar head of right flexor carpi ulnaris;;
+Q66527737;FMA38620;ulnar head of left flexor carpi ulnaris;;
+Q66527883;FMA38928;right rectus femoris;;
+Q66527884;FMA38929;left rectus femoris;;
+Q66527885;FMA38930;right vastus lateralis;;
+Q66527886;FMA38931;left vastus lateralis;;
+Q66527887;FMA38932;right vastus medialis;;
+Q66527888;FMA38933;left vastus medialis;;
+Q66527889;FMA38934;right vastus intermedius;;
+Q66527890;FMA38935;left vastus intermedius;;
+Q66528887;FMA40120;flexor retinaculum of right wrist;;
+Q66528888;FMA40121;flexor retinaculum of left wrist;;
+Q66530440;FMA42398;set of lumbricals of right hand;;
+Q66530441;FMA42399;set of lumbricals of left hand;;
+Q66530442;FMA42402;set of palmar interossei of right hand;;
+Q66530443;FMA42403;set of palmar interossei of left hand;;
+Q66530444;FMA42404;set of dorsal interossei of right hand;;
+Q66530445;FMA42405;set of dorsal interossei of left hand;;
+Q66532386;FMA43253;proximal phalanx of right big toe;;
+Q66532387;FMA43254;proximal phalanx of left big toe;;
+Q66533805;FMA43883;right gracilis;;
+Q66533806;FMA43884;left gracilis;;
+Q66533807;FMA43886;right adductor minimus;;
+Q66533808;FMA43887;left adductor minimus;;
+Q66533809;FMA43890;right inferior medial genicular artery;;
+Q66533810;FMA43891;left inferior medial genicular artery;;
+Q66533811;FMA43892;right inferior lateral genicular artery;;
+Q66533812;FMA43893;left inferior lateral genicular artery;;
+Q707651;FMA43894;anterior tibial artery;artère tibiale antérieure;Artere tibiale anterieure|Artère Tibiale Antérieure
+Q707659;FMA43895;posterior tibial artery;artère tibiale postérieure;
+Q66533813;FMA43896;right anterior tibial artery;;
+Q66533814;FMA43897;left anterior tibial artery;;
+Q66533815;FMA43898;right posterior tibial artery;;
+Q66533816;FMA43899;left posterior tibial artery;;
+Q66533820;FMA43907;right anterior tibial recurrent artery;;
+Q66533821;FMA43908;left anterior tibial recurrent artery;;
+Q2865983;FMA43915;dorsalis pedis artery;artère dorsale du pied;artère pédieuse
+Q66533829;FMA43916;right dorsalis pedis artery;;
+Q66533830;FMA43917;left dorsalis pedis artery;;
+Q3444008;FMA43921;fibular artery;artère fibulaire;artère péronière
+Q1134588;FMA43925;medial plantar artery;artère plantaire médiale;artère plantaire interne
+Q707450;FMA43926;lateral plantar artery;artère plantaire latérale;artère plantaire externe
+Q66533838;FMA43929;right medial plantar artery;;
+Q66533839;FMA43930;left medial plantar artery;;
+Q66533840;FMA43931;right lateral plantar artery;;
+Q66533841;FMA43932;left lateral plantar artery;;
+Q66533846;FMA43937;right superficial medial plantar artery;;
+Q66533847;FMA43938;left superficial medial plantar artery;;
+Q66533852;FMA43943;right plantar arch;;
+Q66533853;FMA43944;left plantar arch;;
+Q66533861;FMA43956;plantar metatarsal artery;;
+Q66534110;FMA44249;right long plantar ligament;;
+Q66534111;FMA44250;left long plantar ligament;;
+Q2746562;FMA44327;popliteal vein;veine poplitée;veine poplitee
+Q66534247;FMA44328;right popliteal vein;;
+Q66534249;FMA44329;left popliteal vein;;
+Q3448908;FMA44331;anterior tibial vein;veine tibiale antérieure;
+Q3448931;FMA44332;posterior tibial vein;veine tibiale postérieure;
+Q2736974;FMA44333;small saphenous vein;veine petite saphène;veine saphène externe
+Q66534258;FMA44334;right small saphenous vein;;
+Q66534261;FMA44335;left small saphenous vein;;
+Q66534263;FMA44336;right anterior tibial vein;;
+Q66534265;FMA44337;left anterior tibial vein;;
+Q66534267;FMA44338;right posterior tibial vein;;
+Q66534270;FMA44339;left posterior tibial vein;;
+Q66534272;FMA44340;right superficial epigastric vein;;
+Q66534275;FMA44341;left superficial epigastric vein;;
+Q66534631;FMA44499;tributary of plantar venous arch;;
+Q66534644;FMA44504;plantar metatarsal vein;;
+Q66534767;FMA44558;fibular vein;;
+Q66534980;FMA44660;dorsal digital artery of foot;;
+Q66535337;FMA44881;dorsal venous arch of right foot;;
+Q66535338;FMA44882;dorsal venous arch of left foot;;
+Q66535339;FMA44883;plantar venous arch of right foot;;
+Q66535340;FMA44884;plantar venous arch of left foot;;
+Q66535341;FMA44885;right fibular vein;;
+Q66535342;FMA44886;left fibular vein;;
+Q66535343;FMA44887;right genicular vein;;
+Q66535344;FMA44888;left genicular vein;;
+Q66535374;FMA44918;right medial circumflex femoral vein;;
+Q66535375;FMA44919;left medial circumflex femoral vein;;
+Q66535377;FMA44920;right lateral circumflex femoral vein;;
+Q66535379;FMA44922;left lateral circumflex femoral vein;;
+Q66535540;FMA45097;sesamoid bone of right foot;;
+Q66535541;FMA45098;sesamoid bone of left foot;;
+Q66536039;FMA45739;right platysma;;
+Q66536040;FMA45740;left platysma;;
+Q66536100;FMA45826;right stylohyoid;;
+Q66536101;FMA45827;left stylohyoid;;
+Q66536118;FMA45854;right pubococcygeus;;
+Q66536119;FMA45855;left pubococcygeus;;
+Q66536120;FMA45856;right puborectalis;;
+Q66536121;FMA45857;left puborectalis;;
+Q66536122;FMA45858;right iliococcygeus;;
+Q66536123;FMA45859;left iliococcygeus;;
+Q66536134;FMA45874;abdominal part of right pectoralis major;;
+Q66536135;FMA45875;abdominal part of left pectoralis major;;
+Q66536144;FMA45888;long head of right biceps femoris;;
+Q66536146;FMA45889;long head of left biceps femoris;;
+Q66536148;FMA45891;short head of right biceps femoris;;
+Q66536149;FMA45892;short head of left biceps femoris;;
+Q66536177;FMA45957;medial head of right gastrocnemius;;
+Q66536178;FMA45958;medial head of left gastrocnemius;;
+Q66536180;FMA45960;lateral head of right gastrocnemius;;
+Q66536181;FMA45961;lateral head of left gastrocnemius;;
+Q66536188;FMA45971;medial head of right flexor hallucis brevis;;
+Q66536189;FMA45972;medial head of left flexor hallucis brevis;;
+Q66536190;FMA45973;lateral head of right flexor hallucis brevis;;
+Q66536191;FMA45974;lateral head of left flexor hallucis brevis;;
+Q66536229;FMA46018;oblique head of right adductor hallucis;;
+Q66536230;FMA46019;oblique head of left adductor hallucis;;
+Q66536231;FMA46020;transverse head of right adductor hallucis;;
+Q66536232;FMA46021;transverse head of left adductor hallucis;;
+Q66536313;FMA46121;oblique head of right adductor pollicis;;
+Q66536314;FMA46122;oblique head of left adductor pollicis;;
+Q66536315;FMA46123;transverse head of right adductor pollicis;;
+Q66536316;FMA46124;transverse head of left adductor pollicis;;
+Q66536447;FMA46284;superior oblique part of left longus colli;;
+Q66536449;FMA46286;vertical intermediate part of left longus colli;;
+Q66536451;FMA46288;inferior oblique part of left longus colli;;
+Q66536453;FMA46292;right digastric;;
+Q66536454;FMA46293;left digastric;;
+Q66536464;FMA46309;right longus capitis;;
+Q66536465;FMA46310;left longus capitis;;
+Q66536466;FMA46313;right rectus capitis anterior;;
+Q66536467;FMA46314;left rectus capitis anterior;;
+Q66536468;FMA46317;right rectus capitis lateralis;;
+Q66536469;FMA46318;left rectus capitis lateralis;;
+Q66536470;FMA46321;right mylohyoid;;
+Q66536471;FMA46322;left mylohyoid;;
+Q66536472;FMA46326;right geniohyoid;;
+Q66536473;FMA46327;left geniohyoid;;
+Q66536527;FMA46442;tendinous arch of levator ani;arcade tendineuse du muscle élévateur de l'anus;arc tendineux du releveur de l'anus
+Q66536528;FMA46443;right coccygeus;;
+Q66536529;FMA46444;left coccygeus;;
+Q66536598;FMA46577;right posterior crico-arytenoid;;
+Q66536599;FMA46578;left posterior crico-arytenoid;;
+Q66536600;FMA46580;right lateral crico-arytenoid;;
+Q66536601;FMA46581;left lateral crico-arytenoid;;
+Q717887;FMA46582;transverse arytenoid muscle;muscle aryténoïdien transverse;muscel ary-aryténoïdien transverse|muscel interaryténoïdien transverse
+Q66536602;FMA46584;right oblique arytenoid;;
+Q66536603;FMA46585;left oblique arytenoid;;
+Q66536604;FMA46589;right thyro-arytenoid;;
+Q66536605;FMA46590;left thyro-arytenoid;;
+Q66536606;FMA46592;right vocalis;;
+Q66536607;FMA46593;left vocalis;;
+Q66536616;FMA46604;right aryepiglotticus;;
+Q66536617;FMA46605;left aryepiglotticus;;
+Q66536623;FMA46611;straight part of right cricothyroid;;
+Q66536624;FMA46612;straight part of left cricothyroid;;
+Q66536625;FMA46613;oblique part of right cricothyroid;;
+Q66536626;FMA46614;oblique part of left cricothyroid;;
+Q66536632;FMA46631;right superior pharyngeal constrictor;;
+Q66536633;FMA46632;left superior pharyngeal constrictor;;
+Q66536634;FMA46633;right middle pharyngeal constrictor;;
+Q66536635;FMA46634;left middle pharyngeal constrictor;;
+Q66536636;FMA46635;right inferior pharyngeal constrictor;;
+Q66536637;FMA46636;left inferior pharyngeal constrictor;;
+Q66536665;FMA46667;right stylopharyngeus;;
+Q66536666;FMA46668;left stylopharyngeus;;
+Q66536667;FMA46669;right salpingopharyngeus;;
+Q66536668;FMA46670;left salpingopharyngeus;;
+Q66536669;FMA46671;right palatopharyngeus;;
+Q66536670;FMA46672;left palatopharyngeus;;
+Q66536676;FMA46698;right genioglossus;;
+Q66536679;FMA46702;left genioglossus;;
+Q66536680;FMA46703;right hyoglossus;;
+Q66536681;FMA46704;left hyoglossus;;
+Q66536705;FMA46728;right levator veli palatini;;
+Q66536706;FMA46729;left levator veli palatini;;
+Q66536707;FMA46731;right tensor veli palatini;;
+Q66536708;FMA46732;left tensor veli palatini;;
+Q1417662;FMA46733;musculus uvulae;muscle uvulaire;muscle azygos de la luette|muscle de la luette|muscle palato-staphyllin
+Q66538458;FMA49044;right superior rectus;;
+Q66538459;FMA49045;left superior rectus;;
+Q66538460;FMA49046;right inferior rectus;;
+Q66538461;FMA49047;left inferior rectus;;
+Q66538462;FMA49048;right levator palpebrae superioris;;
+Q66538463;FMA49049;left levator palpebrae superioris;;
+Q66538464;FMA49050;right inferior oblique;;
+Q66538465;FMA49051;left inferior oblique;;
+Q66538466;FMA49052;right superior oblique;;
+Q66538467;FMA49053;left superior oblique;;
+Q66538468;FMA49054;right lateral rectus;;
+Q66538469;FMA49055;left lateral rectus;;
+Q66538470;FMA49056;right medial rectus;;
+Q66538471;FMA49057;left medial rectus;;
+Q66538478;FMA49067;trochlea of right superior oblique;;
+Q66538479;FMA49068;trochlea of left superior oblique;;
+Q66538482;FMA49072;right common tendinous ring;;
+Q66538483;FMA49073;left common tendinous ring;;
+Q66538514;FMA49144;check ligament of right lateral rectus;;
+Q66538516;FMA49145;check ligament of left lateral rectus;;
+Q66538518;FMA49147;check ligament of right medial rectus;;
+Q66538519;FMA49148;check ligament of left medial rectus;;
+Q499316;FMA49472;superior thyroid artery;artère thyroïdienne supérieure;
+Q497582;FMA49526;lingual artery;artère linguale;artère principale de la langue
+Q282371;FMA49549;facial artery;artère faciale;artère maxillaire externe
+Q491726;FMA49586;occipital artery;artère occipitale;
+Q494694;FMA49650;superficial temporal artery;artère temporale superficielle;
+Q498171;FMA49675;maxillary artery;artère maxillaire;artère maxillaire interne
+Q66539111;FMA49869;right ophthalmic artery;;
+Q66539112;FMA49870;left ophthalmic artery;;
+Q30126466;FMA49911;right inferior pulmonary vein;veine pulmonaire inférieure droite;
+Q30126469;FMA49913;left inferior pulmonary vein;veine pulmonaire inférieure gauche;
+Q30126465;FMA49914;right superior pulmonary vein;veine pulmonaire supérieure droite;
+Q30126467;FMA49916;left superior pulmonary vein;veine pulmonaire supérieure gauche;
+Q498935;FMA50028;anterior cerebral artery;artère cérébrale antérieure;
+Q66539242;FMA50029;right anterior cerebral artery;;
+Q66539243;FMA50030;left anterior cerebral artery;;
+Q429285;FMA50039;right coronary artery;artère coronaire droite;artère coronaire postérieure
+Q744391;FMA50040;left coronary artery;artère coronaire gauche;artère coronaire antérieure|artère grande coronaire
+Q498179;FMA50079;middle cerebral artery;artère cérébrale moyenne;artère sylvienne
+Q66539278;FMA50082;right middle cerebral artery;;
+Q185438;FMA50084;posterior communicating artery;artère communicante postérieure;artère communicante latérale
+Q66539280;FMA50085;right posterior communicating artery;;
+Q66539281;FMA50086;left posterior communicating artery;;
+Q66539282;FMA50088;right anterior choroidal artery;;
+Q66539283;FMA50089;left anterior choroidal artery;;
+Q66539341;FMA50146;branch of right anterior choroidal artery to posterior limb of right internal capsule;;
+Q66539342;FMA50147;branch of left anterior choroidal artery to posterior limb of left internal capsule;;
+Q598769;FMA50169;anterior communicating artery;artère communicante antérieure;
+Q66539489;FMA50343;right medial frontobasal artery;;
+Q66539490;FMA50344;left medial frontobasal artery;;
+Q66539493;FMA50347;right callosomarginal artery;;
+Q66539494;FMA50348;left callosomarginal artery;;
+Q66539497;FMA50351;intermediomedial branch of right callosomarginal artery;;
+Q66539498;FMA50352;intermediomedial branch of left callosomarginal artery;;
+Q66539499;FMA50353;posteromedial branch of right callosomarginal artery;;
+Q66539500;FMA50354;posteromedial branch of left callosomarginal artery;;
+Q66539503;FMA50357;paracentral branch of right callosomarginal artery;;
+Q66539504;FMA50358;paracentral branch of left callosomarginal artery;;
+Q66539505;FMA50359;right pericallosal artery;;
+Q66539506;FMA50360;left pericallosal artery;;
+Q66539507;FMA50361;precuneal branch of right pericallosal artery;;
+Q66539508;FMA50362;precuneal branch of left pericallosal artery;;
+Q66539512;FMA50366;sphenoid part of right middle cerebral artery;;
+Q66539513;FMA50367;sphenoid part of left middle cerebral artery;;
+Q66539515;FMA50369;insular part of right middle cerebral artery;;
+Q66539516;FMA50370;insular part of left middle cerebral artery;;
+Q66539518;FMA50377;anterolateral central branch of right middle cerebral artery;;
+Q66539519;FMA50378;anterolateral central branch of left middle cerebral artery;;
+Q66539521;FMA50380;right polar temporal artery;;
+Q66539522;FMA50381;left polar temporal artery;;
+Q66539524;FMA50383;right anterior temporal artery;;
+Q66539525;FMA50384;left anterior temporal artery;;
+Q66539570;FMA50428;hypothalamic branch of right posterior communicating artery;;
+Q66539571;FMA50429;hypothalamic branch of left posterior communicating artery;;
+Q66539584;FMA50443;right lateral frontobasal artery;;
+Q66539585;FMA50444;left lateral frontobasal artery;;
+Q66539586;FMA50445;right prefrontal artery;;
+Q487595;FMA50454;circle of Willis;cercle artériel du cerveau;cercle de Willis|polygone artériel de Willis
+Q66551017;FMA50467;middle temporal branch of right middle cerebral artery;;
+Q66539605;FMA50468;middle temporal branch of left middle cerebral artery;;
+Q66539607;FMA50470;posterior temporal branch of right middle cerebral artery;;
+Q66539608;FMA50471;posterior temporal branch of left middle cerebral artery;;
+Q66539610;FMA50473;temporo-occipital branch of right middle cerebral artery;;
+Q66539611;FMA50474;temporo-occipital branch of left middle cerebral artery;;
+Q66539613;FMA50476;branch of right middle cerebral artery to right angular gyrus;;
+Q66539615;FMA50477;branch of left middle cerebral artery to left angular gyrus;;
+Q66539617;FMA50478;left prefrontal artery;;
+Q66539619;FMA50480;artery of right precentral sulcus;;
+Q66539620;FMA50481;artery of left precentral sulcus;;
+Q66539623;FMA50483;artery of right postcentral sulcus;;
+Q66539624;FMA50484;artery of left postcentral sulcus;;
+Q66539626;FMA50486;right anterior parietal artery;;
+Q66539628;FMA50487;left anterior parietal artery;;
+Q66539630;FMA50489;right posterior parietal artery;;
+Q66539631;FMA50490;left posterior parietal artery;;
+Q66539660;FMA50519;right posterior inferior cerebellar artery;;
+Q66539661;FMA50520;left posterior inferior cerebellar artery;;
+Q66539670;FMA50532;right anterior spinal artery;;
+Q66539671;FMA50533;left anterior spinal artery;;
+Q500339;FMA50542;basilar artery;artère basilaire;tronc basilaire
+Q707277;FMA50544;anterior inferior cerebellar artery;artère cérébelleuse inféro-antérieure;artère cérébelleuse antéro-inférieure|artère cérébelleuse moyenne
+Q66539702;FMA50566;medial branch of right pontine artery;;
+Q66539703;FMA50567;medial branch of left pontine artery;;
+Q66539704;FMA50568;lateral branch of right pontine artery;;
+Q66539705;FMA50569;lateral branch of left pontine artery;;
+Q66539709;FMA50574;right superior cerebellar artery;;
+Q66539710;FMA50575;left superior cerebellar artery;;
+Q66539713;FMA50578;lateral branch of right superior cerebellar artery;;
+Q66539714;FMA50579;lateral branch of left superior cerebellar artery;;
+Q66539716;FMA50581;medial branch of right superior cerebellar artery;;
+Q66539717;FMA50582;medial branch of left superior cerebellar artery;;
+Q492482;FMA50583;posterior cerebral artery;artère cérébrale postérieure;
+Q66539718;FMA50584;right posterior cerebral artery;;
+Q66539719;FMA50585;left posterior cerebral artery;;
+Q66539767;FMA50639;precommunicating part of right posterior cerebral artery;;
+Q66539769;FMA50640;precommunicating part of left posterior cerebral artery;;
+Q66539771;FMA50641;postcommunicating part of right posterior cerebral artery;;
+Q66539772;FMA50642;postcommunicating part of left posterior cerebral artery;;
+Q66539774;FMA50643;right lateral occipital artery;;
+Q66539776;FMA50644;left lateral occipital artery;;
+Q66539778;FMA50645;right medial occipital artery;;
+Q66539780;FMA50646;left medial occipital artery;;
+Q66539808;FMA50660;posteromedial central branch of right posterior cerebral artery;;
+Q66539810;FMA50661;posteromedial central branch of left posterior cerebral artery;;
+Q66539816;FMA50664;right thalamoperforating artery;;
+Q66539818;FMA50665;left thalamoperforating artery;;
+Q66539828;FMA50670;right thalamogeniculate artery;;
+Q66539830;FMA50671;left thalamogeniculate artery;;
+Q66539832;FMA50672;right posterior medial choroidal artery;;
+Q66539834;FMA50673;left posterior medial choroidal artery;;
+Q66539844;FMA50678;anterior temporal branch of right lateral occipital artery;;
+Q66539846;FMA50679;anterior temporal branch of left lateral occipital artery;;
+Q66539848;FMA50680;middle temporal branch of right lateral occipital artery;;
+Q66539850;FMA50681;middle temporal branch of left lateral occipital artery;;
+Q66539857;FMA50684;right splenial artery;;
+Q66539859;FMA50685;left splenial artery;;
+Q66539881;FMA50696;superior vermian branch of medial branch of right superior cerebellar artery;;
+Q66539883;FMA50697;superior vermian branch of medial branch of left superior cerebellar artery;;
+Q464543;FMA50735;hepatic portal vein;veine porte;
+Q519368;FMA50737;celiac artery;tronc cœliaque;
+Q5860395;FMA50763;transverse sinuses;sinus transverse de la dure-mère;sinus transverse
+Q4115976;FMA50767;superior sagittal sinus;sinus sagittal supérieur;sinus longitudinal supérieur|sinus triangulaire
+Q9292294;FMA50782;sigmoid sinus;sinus sigmoïde;
+Q66540045;FMA50859;right suprascapular vein;;
+Q66540047;FMA50860;left suprascapular vein;;
+Q2917413;FMA50872;right pulmonary artery;artère pulmonaire droite;
+Q8205462;FMA50873;left pulmonary artery;artère pulmonaire gauche;
+Q66540053;FMA50875;right optic nerve;;
+Q66540059;FMA50878;left optic nerve;;
+Q66540065;FMA50881;right trochlear nerve;;
+Q66540067;FMA50882;left trochlear nerve;;
+Q66540351;FMA51042;right deep femoral vein;;
+Q66540353;FMA51043;left deep femoral vein;;
+Q66540502;FMA51144;right extensor hallucis brevis;;
+Q66540504;FMA51145;left extensor hallucis brevis;;
+Q66542805;FMA52574;superior branch of right oculomotor nerve;;
+Q66542806;FMA52575;superior branch of left oculomotor nerve;;
+Q66542807;FMA52576;inferior branch of right oculomotor nerve;;
+Q66542808;FMA52577;inferior branch of left oculomotor nerve;;
+Q66542845;FMA52622;right ophthalmic nerve;;
+Q66542846;FMA52623;left ophthalmic nerve;;
+Q66542851;FMA52629;right lacrimal nerve;;
+Q66542852;FMA52630;left lacrimal nerve;;
+Q66542860;FMA52639;right frontal nerve;;
+Q66542861;FMA52640;left frontal nerve;;
+Q66542863;FMA52643;right supratrochlear nerve;;
+Q66542864;FMA52644;left supratrochlear nerve;;
+Q66542875;FMA52656;right supra-orbital nerve;;
+Q66542876;FMA52657;left supra-orbital nerve;;
+Q66542887;FMA52669;right nasociliary nerve;;
+Q66542888;FMA52670;left nasociliary nerve;;
+Q66542890;FMA52673;communicating branch of right nasociliary nerve with right ciliary ganglion;;
+Q66542891;FMA52674;communicating branch of left nasociliary nerve with left ciliary ganglion;;
+Q66542892;FMA52676;right anterior ethmoidal nerve;;
+Q66542893;FMA52677;left anterior ethmoidal nerve;;
+Q66542911;FMA52698;right infratrochlear nerve;;
+Q66542912;FMA52699;left infratrochlear nerve;;
+Q66542927;FMA52715;right posterior ethmoidal nerve;;
+Q66542928;FMA52716;left posterior ethmoidal nerve;;
+Q16295;FMA52734;frontal bone;os frontal;
+Q16317;FMA52735;occipital bone;os occipital;
+Q16321;FMA52736;sphenoid bone;os sphénoïde;
+Q66542943;FMA52738;right temporal bone;;
+Q66542944;FMA52739;left temporal bone;;
+Q16331;FMA52740;ethmoid bone;os ethmoïde;ethmoïde
+Q5283631;FMA52748;human mandible;mandibule;mâchoire inférieure|maxillaire inférieur
+Q16332;FMA52749;hyoid bone;os hyoïde;os lingual
+Q609753;FMA52781;outer ear;oreille externe;
+Q66542977;FMA52788;right parietal bone;;
+Q66542978;FMA52789;left parietal bone;;
+Q66543046;FMA52892;right zygomatic bone;;
+Q66543047;FMA52893;left zygomatic bone;os zygomatique gauche;
+Q66543589;FMA53549;right ciliary ganglion;;
+Q66543590;FMA53550;left ciliary ganglion;;
+Q66543688;FMA53645;right lacrimal bone;;
+Q66543689;FMA53646;left lacrimal bone;;
+Q66543690;FMA53647;right nasal bone;;
+Q66543691;FMA53648;left nasal bone;;
+Q66543692;FMA53649;right maxilla;;
+Q66543693;FMA53650;left maxilla;;
+Q66543698;FMA53655;right palatine bone;;
+Q66543699;FMA53656;left palatine bone;;
+Q66544079;FMA54159;tendon of right levator palpebrae superioris;;
+Q43748;FMA54237;eyebrow;sourcil;sourcils
+Q66544105;FMA54241;hair of head;;
+Q54795;FMA54319;pubic hair;pilosité pubienne;
+Q9614;FMA54640;tongue;langue;
+Q66544513;FMA54737;right inferior nasal concha;;
+Q66544514;FMA54738;left inferior nasal concha;;
+Q7180892;FMA55077;pharyngeal raphe;raphé pharyngien;raphé du pharynx|raphé médian postérieur du pharynx
+Q171093;FMA55099;thyroid cartilage;cartilage thyroïde;Cartilage thyroide|Pomme d'adam
+Q66544833;FMA55113;right arytenoid cartilage;;
+Q66544834;FMA55114;left arytenoid cartilage;;
+Q66544835;FMA55115;right corniculate cartilage;;
+Q66544836;FMA55116;left corniculate cartilage;;
+Q66544837;FMA55117;right cuneiform cartilage;;
+Q66544838;FMA55118;left cuneiform cartilage;;
+Q235378;FMA55130;epiglottis;épiglotte;epiglotte
+Q66544852;FMA55133;right thyrohyoid membrane;;
+Q66544853;FMA55134;left thyrohyoid membrane;;
+Q966616;FMA55138;median thyrohyoid ligament;ligament thyro-hyoïdien médian;
+Q66544859;FMA55140;right lateral thyrohyoid ligament;;
+Q66544860;FMA55141;left lateral thyrohyoid ligament;;
+Q1130000;FMA55227;hyo-epiglottic ligament;ligament hyo-épiglottique;membrane hyo-épiglottique
+Q66544932;FMA55227;hyo-epiglottic ligament;;
+Q7799734;FMA55230;thyroepiglottic ligament;ligament thyro-épiglottique;
+Q6806113;FMA55237;median cricothyroid ligament;ligament crico-thyroïdien médian;ligament conoïde du larynx|membrane crico-thyroïdienne
+Q66544945;FMA55245;right vocal ligament;;
+Q66544946;FMA55246;left vocal ligament;;
+Q66544950;FMA55251;right conus elasticus;;
+Q66544951;FMA55252;left conus elasticus;;
+Q66545263;FMA55619;right pterygomandibular raphe;;
+Q66545264;FMA55620;left pterygomandibular raphe;;
+Q66545301;FMA55680;right upper lateral secondary incisor tooth;;
+Q66545302;FMA55681;right upper central secondary incisor tooth;;
+Q66545303;FMA55682;left upper central secondary incisor tooth;;
+Q66545304;FMA55683;left upper lateral secondary incisor tooth;;
+Q66545305;FMA55686;right lower secondary canine tooth;;
+Q66545306;FMA55687;left lower secondary canine tooth;;
+Q66545307;FMA55688;right upper second secondary premolar tooth;;
+Q66545308;FMA55689;right upper first secondary premolar tooth;;
+Q66545309;FMA55690;left upper first secondary premolar tooth;;
+Q66545310;FMA55691;left upper second secondary premolar tooth;;
+Q66545311;FMA55692;left lower second secondary premolar tooth;;
+Q66545312;FMA55693;left lower first secondary premolar tooth;;
+Q66545313;FMA55694;right lower first secondary premolar tooth;;
+Q66545314;FMA55695;right lower second secondary premolar tooth;;
+Q66545316;FMA55697;right upper second secondary molar tooth;;
+Q66545317;FMA55698;right upper first secondary molar tooth;;
+Q66545318;FMA55699;left upper first secondary molar tooth;;
+Q66545319;FMA55700;left upper second secondary molar tooth;;
+Q66545323;FMA55703;left lower second secondary molar tooth;;
+Q66545324;FMA55704;left lower first secondary molar tooth;;
+Q66545325;FMA55705;right lower first secondary molar tooth;;
+Q66545326;FMA55706;right lower second secondary molar tooth;;
+Q66545408;FMA55798;right upper secondary canine tooth;;
+Q66545409;FMA55799;left upper secondary canine tooth;;
+Q66553871;FMA57140;right lower lateral secondary incisor tooth;;
+Q66553872;FMA57141;left lower lateral secondary incisor tooth;;
+Q66553873;FMA57142;right lower central secondary incisor tooth;;
+Q66553874;FMA57143;left lower central secondary incisor tooth;;
+Q66554726;FMA58081;anterior chamber of right eyeball;;
+Q66554727;FMA58082;anterior chamber of left eyeball;;
+Q66554860;FMA58236;right iris;;
+Q66554861;FMA58237;left iris;;
+Q66554862;FMA58239;right cornea;;
+Q66554863;FMA58240;left cornea;;
+Q66554864;FMA58242;right lens;;
+Q66554865;FMA58243;left lens;;
+Q66554883;FMA58271;right sclera;;
+Q66554884;FMA58272;left sclera;;
+Q66554903;FMA58299;right choroid;;
+Q66554904;FMA58300;left choroid;;
+Q66555049;FMA58483;right corona ciliaris;;
+Q66555050;FMA58484;left corona ciliaris;;
+Q66555159;FMA58607;optic part of right retina;;
+Q66555160;FMA58608;optic part of left retina;;
+Q66555295;FMA58776;right iliotibial tract;;
+Q66555296;FMA58777;left iliotibial tract;;
+Q66555341;FMA58828;right vitreous body;;
+Q66555342;FMA58829;left vitreous body;;
+Q66555343;FMA58839;suspensory ligament of right lens;;
+Q66555344;FMA58840;suspensory ligament of left lens;;
+Q66555564;FMA59089;tarsal plate of right lower eyelid;;
+Q66555565;FMA59090;tarsal plate of left lower eyelid;;
+Q66555566;FMA59091;tarsal plate of right upper eyelid;;
+Q66555567;FMA59092;tarsal plate of left upper eyelid;;
+Q66555575;FMA59102;right lacrimal gland;;
+Q66555576;FMA59103;left lacrimal gland;;
+Q3482204;FMA59503;cartilage of the septum;cartilage septal du nez;cartilage de la cloison nasale|cartilage septal
+Q66555939;FMA59505;right major alar cartilage;;
+Q66555940;FMA59506;left major alar cartilage;;
+Q66555946;FMA59512;right lateral nasal cartilage;;
+Q66555947;FMA59513;left lateral nasal cartilage;;
+Q66555968;FMA59541;right lacrimal lake;;
+Q66555969;FMA59542;left lacrimal lake;;
+Q66555972;FMA59545;right lacrimal sac;;
+Q66555973;FMA59546;left lacrimal sac;;
+Q66555982;FMA59555;right nasolacrimal duct;;
+Q66555983;FMA59556;left nasolacrimal duct;;
+Q66556006;FMA59582;right lacrimal canaliculus;;
+Q66556007;FMA59583;left lacrimal canaliculus;;
+Q66556187;FMA59763;gingiva of upper jaw;;
+Q66556188;FMA59764;gingiva of lower jaw;;
+Q66556217;FMA59802;right submandibular gland;;
+Q66556218;FMA59803;left submandibular gland;;
+Q66556219;FMA59804;right sublingual gland;;
+Q66556220;FMA59805;left sublingual gland;;
+Q15173;FMA59816;lip;lèvre;
+Q66558006;FMA61842;septum of telencephalon;;
+Q926250;FMA61934;choroid plexus;plexus choroïdes;plexus choroide|plexus choroïde|plexus choroides
+Q203800;FMA61961;anterior commissure;commissure antérieure;Commissure blanche antérieure|Précommissure
+Q41759310;FMA61970;hippocampal commissure;;
+Q3122152;FMA61974;stria terminalis;strie terminale;Stria terminalis
+Q1148419;FMA61975;lamina terminalis;;
+Q185080;FMA61993;mesencephalon;mésencéphale;Mesencephale
+Q189033;FMA62004;medulla oblongata;bulbe rachidien;bulbe cérébral|medulla oblongata|moelle allongée|myélencéphale
+Q164386;FMA62008;hypothalamus;hypothalamus;
+Q267641;FMA62032;habenula;habenula;
+Q198654;FMA62033;pineal gland;glande pinéale;Glande épiphyse|Glande pineale|Pinéale
+Q1071710;FMA62045;optic chiasm;chiasma optique;chiasme optique|tractus optique
+Q915729;FMA62072;posterior commissure;commissure postérieure;Commissure blanche postérieure|Commissure cérébrale postérieure|Commissure épithalamique
+Q866106;FMA62327;tuber cinereum;tuber cinereum;
+Q66558680;FMA62382;right optic tract;;
+Q646944;FMA62394;cerebral peduncle;pédoncule cérébral;
+Q66558819;FMA62506;dorsal venous network of right hand;;
+Q66558821;FMA62507;dorsal venous network of left hand;;
+Q66559586;FMA63103;pancreatic duct tree;;
+Q66559615;FMA63120;parenchyma of pancreas;;
+Q707295;FMA63822;posterior intercostal arteries;artère intercostale postérieure;artère intercostale dorsale
+Q66561330;FMA65014;right flexor hallucis longus;;
+Q66561332;FMA65015;left flexor hallucis longus;;
+Q66561334;FMA65016;right flexor digitorum longus;;
+Q66561336;FMA65017;left flexor digitorum longus;;
+Q66561338;FMA65018;right tibialis posterior;;
+Q66561340;FMA65019;left tibialis posterior;;
+Q66561525;FMA65198;superficial head of right flexor pollicis brevis;;
+Q66561526;FMA65199;superficial head of left flexor pollicis brevis;;
+Q66561755;FMA65470;proximal phalanx of left thumb;;
+Q66562373;FMA66242;right first posterior intercostal artery;;
+Q66562374;FMA66243;left first posterior intercostal artery;;
+Q66562434;FMA66321;right thoracodorsal artery;;
+Q66562435;FMA66322;left thoracodorsal artery;;
+Q66562461;FMA66358;trunk of superior mesenteric artery;;
+Q66562465;FMA66363;trunk of right renal artery;;
+Q66562466;FMA66364;trunk of left renal artery;;
+Q66562501;FMA66403;anterior interventricular vein;veine interventriculaire antérieure;
+Q66562641;FMA66563;trunk of right thoraco-acromial artery;;
+Q66562642;FMA66564;trunk of left thoraco-acromial artery;;
+Q66562866;FMA66791;proximal phalanx of left little finger;;
+Q66563600;FMA67936;left optic tract;;
+Q192570;FMA67943;pons;pont;Pont de Varole|Protubérance annulaire|Sillon bulbo-pontique
+Q130983;FMA67944;cerebellum;cervelet;
+Q605523;FMA68068;inferior phrenic vein;veine phrénique inférieure;veine diaphragmatique inférieure
+Q927103;FMA68109;bronchial artery;rameau artériel bronchique de l'aorte thoracique;artère bronchique|artères bronchiques|rameaux artériels bronchiques de l'aorte thoracique
+Q66563800;FMA68197;right upper lobar artery;artère lobaire supérieure de l'artère pulmonaire droite;artère scissurale du lobe supérieur du poumon droit|premier rameau de l’artère pulmonaire de Narath|tronc antérieur de l’artère pulmonaire droite de Boyden|artère du lobe supérieur de Lodge|artère fissurale du lobe supérieur du poumon droit|artère lobaire supérieure droite de Lucien|artère médiastinale|artère principale du lobe supérieur droit d’Hovelacque
+Q66563808;FMA68211;right apical segmental bronchial tree;;
+Q66563809;FMA68212;right anterior segmental bronchial tree;;
+Q66563810;FMA68213;right posterior segmental bronchial tree;;
+Q66563811;FMA68214;medial segmental bronchial tree;;
+Q66563812;FMA68215;lateral segmental bronchial tree;;
+Q66563813;FMA68216;right superior segmental bronchial tree;;
+Q66563814;FMA68218;right medial basal segmental bronchial tree;;
+Q66563816;FMA68220;right lateral basal segmental bronchial tree;;
+Q66563817;FMA68221;right posterior basal segmental bronchial tree;;
+Q66563818;FMA68222;left anterior segmental bronchial tree;;
+Q66563819;FMA68223;left apical segmental bronchial tree;;
+Q66563821;FMA68225;left posterior segmental bronchial tree;;
+Q66563822;FMA68226;superior lingular bronchial tree;;
+Q66563823;FMA68227;inferior lingular bronchial tree;;
+Q66563824;FMA68228;left superior segmental bronchial tree;;
+Q66563826;FMA68230;left medial basal segmental bronchial tree;;
+Q66563827;FMA68231;left anterior basal segmental bronchial tree;;
+Q66563828;FMA68232;left lateral basal segmental bronchial tree;;
+Q66563829;FMA68233;left posterior basal segmental bronchial tree;;
+Q66563923;FMA68321;right anterior basal segmental bronchial tree;;
+Q66564020;FMA68418;right main bronchus proper;;
+Q66564208;FMA68662;apical part of right apical segmental artery;;
+Q66564211;FMA68665;anterior part of right apical segmental artery;;
+Q66564218;FMA68670;apical part of right posterior segmental artery;;
+Q66564221;FMA68673;posterior part of right posterior segmental artery;;
+Q66564226;FMA68677;posterior branch of right anterior segmental artery;;
+Q66564233;FMA68683;anterior branch of right anterior segmental artery;;
+Q66564241;FMA68690;posterior branch of lateral segmental artery;;
+Q66564242;FMA68691;anterior branch of lateral segmental artery;;
+Q66564244;FMA68693;superior branch of medial segmental artery;;
+Q66564245;FMA68694;inferior branch of medial segmental artery;;
+Q66564256;FMA68706;medial branch of right superior segmental artery;;
+Q66564259;FMA68709;superior branch of right superior segmental artery;;
+Q66564262;FMA68712;lateral branch of right superior segmental artery;;
+Q66564273;FMA68723;basal branch of right anterior basal segmental artery;;
+Q66564275;FMA68725;lateral branch of right anterior basal segmental artery;;
+Q66564278;FMA68728;lateral branch of right lateral basal segmental artery;;
+Q66564285;FMA68735;accessory subsuperior branch of right posterior basal segmental artery;;
+Q66564288;FMA68738;laterobasal branch of right posterior basal segmental artery;;
+Q66564291;FMA68741;mediobasal branch of right posterior basal segmental artery;;
+Q66564425;FMA68880;trunk of right apical segmental vein;;
+Q66564462;FMA68921;anterior part of right apical segmental vein;;
+Q66564467;FMA68926;superior part of right anterior segmental vein;;
+Q66564469;FMA68928;inferior part of right anterior segmental vein;;
+Q66564485;FMA68944;posterior part of lateral segmental vein;;
+Q66564486;FMA68945;anterior part of lateral segmental vein;;
+Q66566543;FMA68982;superior part of medial segmental vein;;
+Q66566545;FMA68983;inferior part of medial segmental vein;;
+Q66566997;FMA69265;right inferior suprarenal artery;;
+Q66566999;FMA69266;left inferior suprarenal artery;;
+Q66567340;FMA69490;right lateral tarsal artery;;
+Q66567341;FMA69491;left lateral tarsal artery;;
+Q66567346;FMA69494;right arcuate artery;;
+Q66567347;FMA69495;left arcuate artery;;
+Q66567379;FMA69514;right deep plantar artery;;
+Q66567382;FMA69515;left deep plantar artery;;
+Q66567385;FMA69517;distal perforating artery;;
+Q707174;FMA70248;femoral artery;artère fémorale;artère crurale|artère fémorale primitive
+Q66568267;FMA70249;right femoral artery;;
+Q66568268;FMA70250;left femoral artery;;
+Q66568410;FMA70442;anterior superior segmental hepatic artery;;
+Q66568411;FMA70443;anterior inferior segmental hepatic artery;;
+Q66568413;FMA70445;posterior superior segmental hepatic artery;;
+Q66568414;FMA70446;posterior inferior segmental hepatic artery;;
+Q66568415;FMA70447;caudate lobe branch of right hepatic artery;artère droite du lobe caudé;
+Q66568417;FMA70449;medial superior segmental hepatic artery;;
+Q66568418;FMA70450;medial inferior segmental hepatic artery;;
+Q66568420;FMA70452;lateral superior segmental hepatic artery;;
+Q66568421;FMA70453;lateral inferior segmental hepatic artery;;
+Q66568422;FMA70455;caudate lobe branch of left hepatic artery;artère gauche du lobe caudé;
+Q66568423;FMA70456;trunk of right hepatic artery;;
+Q66568424;FMA70457;trunk of left hepatic artery;;
+Q38042008;FMA70479;anterior inferior pancreaticoduodenal artery;rameau antérieur de l'artère pancréatico-duodénale inférieure;
+Q38042010;FMA70480;posterior inferior pancreaticoduodenal artery;rameau inférieur de l'artère pancréatico-duodénale inférieure;
+Q66568450;FMA70486;anterior division of right renal artery;;
+Q66568451;FMA70487;anterior division of left renal artery;;
+Q66568453;FMA70489;posterior division of right renal artery;;
+Q66568454;FMA70490;posterior division of left renal artery;;
+Q66568456;FMA70492;ureteric segment of right renal artery;;
+Q66568457;FMA70493;ureteric segment of left renal artery;;
+Q3328736;FMA70800;dorsal metacarpal arteries;artère métacarpienne dorsale;artère interosseuse dorsale de la main
+Q5298777;FMA70801;dorsal digital arteries of foot;artère digitale dorsale du pied;
+Q66568732;FMA70801;set of dorsal digital arteries;;
+Q707334;FMA70807;lumbar artery;artère lombale;artère lombaire
+Q66568736;FMA70815;set of perforating arteries;;
+Q5153594;FMA70821;common plantar digital arteries;artère digitale plantaire commune;artères digitales plantaires communes
+Q4771354;FMA70839;anterior intercostal veins;veine intercostale antérieure;
+Q5298783;FMA70917;dorsal digital veins of the foot;veine digitale dorsale du pied;veines digitales dorsales du pied
+Q29405;FMA70919;plantar digital veins;veine digitale plantaire;veines digitales plantaires
+Q2512709;FMA70922;perforator vein;veine perforante de la cuisse;veines perforantes de cuisse
+Q3448908;FMA70925;anterior tibial vein;veine tibiale antérieure;
+Q66569025;FMA71194;right lobe of thymus;;
+Q66569026;FMA71195;left lobe of thymus;;
+Q66569040;FMA71211;right lateral thoracic vein;;
+Q66569041;FMA71212;left lateral thoracic vein;;
+Q66569043;FMA71214;right thoracodorsal vein;;
+Q66569044;FMA71215;left thoracodorsal vein;;
+Q66569099;FMA71307;interspinales lumborum muscles;muscle interépineux lombaire;
+Q66569101;FMA71309;interspinales colli muscles;muscle interépineux cervical;
+Q66515017;FMA71442;anterior intertransversarii colli muscles;muscle intertransversaire antérieur du cou;
+Q66515018;FMA71443;lateral posterior intertransversarii colli muscles;muscle intertransversaire latéral postérieur du cou;partie latérale du muscle intertransversaire postérieur du cou
+Q66569245;FMA71502;posterior temporal branches of lateral occipital artery;rameau temporal postérieur de l'artère occipitale latérale;rameaux temporaux postérieurs de l'artère occipitale latérale
+Q927103;FMA71536;bronchial artery;rameau artériel bronchique de l'aorte thoracique;artère bronchique|artères bronchiques|rameaux artériels bronchiques de l'aorte thoracique
+Q9066221;FMA71537;oesophageal branches of aorta;rameau œsophagien de l'aorte thoracique;artère œsophagienne|artère du croisement aortique|artères œsophagiennes|rameau œsophagien de l'aorte thoracique|rameaux artériels œsophagiens de l'aorte thoracique|rameaux œsophagiens de l'aorte thoracique
+Q66569296;FMA71562;calcaneal branches of posterior tibial artery;rameau calcanéen de l'artère tibiale postérieure;rameaux calcanéens de l'artère tibiale postérieure
+Q545208;FMA71564;proper plantar digital arteries;artère digitale plantaire propre;artères digitales plantaires propres
+Q66569407;FMA71708;right lobe branch of right hepatic artery;;
+Q66569409;FMA71710;left lobe branch of left hepatic artery;;
+Q66569559;FMA71867;anterior superior tributary of right hepatic biliary tree;;
+Q66569560;FMA71868;anterior inferior tributary of right hepatic biliary tree;;
+Q66569561;FMA71869;posterior superior tributary of right hepatic biliary tree;;
+Q66569562;FMA71870;posterior inferior tributary of right hepatic biliary tree;;
+Q66569576;FMA71885;medial superior tributary of left hepatic biliary tree;;
+Q66569577;FMA71886;medial inferior tributary of left hepatic biliary tree;;
+Q66569578;FMA71887;lateral superior tributary of left hepatic biliary tree;;
+Q66569579;FMA71888;lateral inferior tributary of left hepatic biliary tree;;
+Q66569580;FMA71889;caudate lobe tributary of left hepatic biliary tree;;
+Q66569594;FMA71904;pre-hepatic portal vein;;
+Q66569598;FMA71908;proximal phalanx of left middle finger;;
+Q66569604;FMA71915;proximal phalanx of left index finger;;
+Q66569605;FMA71916;proximal phalanx of left ring finger;;
+Q66569893;FMA72309;right stylohyoid ligament;;
+Q66569895;FMA72311;left stylohyoid ligament;;
+Q66570158;FMA72653;right superior frontal gyrus;;
+Q66570159;FMA72654;left superior frontal gyrus;;
+Q66570160;FMA72655;right middle frontal gyrus;;
+Q66570161;FMA72656;left middle frontal gyrus;;
+Q66570162;FMA72657;right inferior frontal gyrus;;
+Q66570163;FMA72658;left inferior frontal gyrus;;
+Q66570166;FMA72661;right precentral gyrus;;
+Q66570167;FMA72662;left precentral gyrus;;
+Q66570168;FMA72665;right postcentral gyrus;;
+Q66570169;FMA72666;left postcentral gyrus;;
+Q66570170;FMA72667;right supramarginal gyrus;;
+Q66570171;FMA72668;left supramarginal gyrus;;
+Q66570172;FMA72669;right angular gyrus;;
+Q66570173;FMA72670;left angular gyrus;;
+Q66570174;FMA72671;right superior parietal lobule;;
+Q66570175;FMA72672;left superior parietal lobule;;
+Q66570188;FMA72685;right middle temporal gyrus;;
+Q66570189;FMA72686;left middle temporal gyrus;;
+Q66570190;FMA72687;right inferior temporal gyrus;;
+Q66570191;FMA72688;left inferior temporal gyrus;;
+Q66570192;FMA72689;right fusiform gyrus;;
+Q66570193;FMA72690;left fusiform gyrus;;
+Q66570208;FMA72705;right parahippocampal gyrus;;
+Q66570209;FMA72706;left parahippocampal gyrus;;
+Q66570216;FMA72713;right hippocampus;;
+Q66570217;FMA72714;left hippocampus;;
+Q66570220;FMA72717;right cingulate gyrus;;
+Q66570221;FMA72718;left cingulate gyrus;;
+Q66570295;FMA72800;anterior part of right superior temporal gyrus;;
+Q66570296;FMA72801;anterior part of left superior temporal gyrus;;
+Q66570299;FMA72804;posterior part of right superior temporal gyrus;;
+Q66570300;FMA72805;posterior part of left superior temporal gyrus;;
+Q66570321;FMA72826;right caudate nucleus;;
+Q66570322;FMA72827;left caudate nucleus;;
+Q66570323;FMA72828;right putamen;;
+Q66570324;FMA72829;left putamen;;
+Q66570325;FMA72830;right globus pallidus;;
+Q66570326;FMA72831;left globus pallidus;;
+Q66570327;FMA72832;right amygdala;;
+Q66570328;FMA72833;left amygdala;;
+Q66570396;FMA72906;right internal capsule;;
+Q66570397;FMA72907;left internal capsule;;
+Q66570414;FMA72924;right fornix of forebrain;;
+Q66570415;FMA72925;left fornix of forebrain;;
+Q66570427;FMA72940;left stria terminalis;;
+Q66570456;FMA72975;right occipital lobe;;
+Q66570457;FMA72976;left occipital lobe;;
+Q66570458;FMA72977;right insula;;
+Q66570460;FMA72978;left insula;;
+Q66570759;FMA73303;right lateral geniculate body;;
+Q66570760;FMA73304;left lateral geniculate body;;
+Q66570765;FMA73309;right medial geniculate body;;
+Q66570766;FMA73310;left medial geniculate body;;
+Q66570868;FMA73413;right stria medullaris of thalamus;;
+Q66570869;FMA73414;left stria medullaris of thalamus;;
+Q66570873;FMA73422;right superior colliculus;;
+Q66570874;FMA73423;left superior colliculus;;
+Q66570885;FMA73434;right inferior colliculus;;
+Q66570886;FMA73435;left inferior colliculus;;
+Q66570912;FMA73461;brachium of right superior colliculus;;
+Q66570913;FMA73462;brachium of left superior colliculus;;
+Q66570914;FMA73463;brachium of right inferior colliculus;;
+Q66570915;FMA73464;brachium of left inferior colliculus;;
+Q66571428;FMA74075;set of right levatores costarum longi;;
+Q66571429;FMA74076;set of left levatores costarum longi;;
+Q66571430;FMA74077;set of right levatores costarum breves;;
+Q66571431;FMA74078;set of left levatores costarum breves;;
+Q499802;FMA74877;mammillary body;corps mamillaires;tubercules mamillaires
+Q66572152;FMA74912;trunk of anterior interventricular branch of left coronary artery;;
+Q3540833;FMA75351;interventricular foramina;trou de monro;trou de Monro
+Q66573276;FMA76128;trunk of inferior terminal branch of right middle cerebral artery;;
+Q66573277;FMA76129;trunk of inferior terminal branch of left middle cerebral artery;;
+Q66573963;FMA76574;trunk of gastroduodenal artery;;
+Q66574181;FMA76767;anterior cardiac vein;;
+Q66574374;FMA76903;left duct of caudate lobe of liver;;
+Q707468;FMA77155;popliteal artery;artère poplitée;
+Q4116983;FMA77168;median sacral vein;veine sacrée médiane;veine sacrale médiane
+Q1088104;FMA77179;spinalis muscles;muscle épineux;muscle épi-épineux
+Q66574996;FMA77380;right popliteal artery;;
+Q66574997;FMA77381;left popliteal artery;;
+Q66575066;FMA77439;artery of central sulcus;artère du sillon central;artère de la scissure de Rolando|artère du sillon rolandique|artère rolandique
+Q66575629;FMA77949;right circumflex scapular vein;;
+Q66575630;FMA77950;left circumflex scapular vein;;
+Q66575636;FMA77954;right anterior circumflex humeral vein;;
+Q66575638;FMA77955;left anterior circumflex humeral vein;;
+Q66575880;FMA78121;superior phrenic vein;;
+Q66576367;FMA78449;right lateral ventricle;;
+Q66576369;FMA78450;left lateral ventricle;;
+Q662322;FMA78454;third ventricle;troisième ventricule;
+Q623016;FMA78467;cerebral aqueduct;aqueduc de Sylvius;Acqueduc de Sylvius|Aqueduc cérébral|Aqueduc de sylvius|Aqueduc De Sylvius|Aqueduc du mésencéphale
+Q1069121;FMA78469;fourth ventricle;quatrième ventricule;
+Q190634;FMA78497;central canal of spinal cord;canal de l'épendyme;
+Q66578666;FMA79979;sternocostal part of right pectoralis major;;
+Q66578667;FMA79980;sternocostal part of left pectoralis major;;
+Q66588597;FMA81752;right cervical rotator;;
+Q66588598;FMA81753;left cervical rotator;;
+Q66589499;FMA82695;trunk of right portal vein;;
+Q66589501;FMA82697;trunk of left portal vein;;
+Q66589506;FMA82706;caudate lobe branch of right portal vein;;
+Q66589530;FMA82734;right long ciliary nerve;;
+Q66589531;FMA82735;left long ciliary nerve;;
+Q66590342;FMA83740;interpeduncular fossa;;
+Q1089501;FMA83966;tentorium cerebelli;Tente du cervelet;
+Q66591490;FMA85096;proper palmar digital vein of right index finger;;
+Q66591491;FMA85097;proper palmar digital vein of left index finger;;
+Q66591492;FMA85098;proper palmar digital vein of right middle finger;;
+Q66591493;FMA85099;proper palmar digital vein of left middle finger;;
+Q66591494;FMA85100;proper palmar digital vein of right ring finger;;
+Q66591495;FMA85101;proper palmar digital vein of left ring finger;;
+Q66591496;FMA85102;proper palmar digital vein of right little finger;;
+Q66591497;FMA85103;proper palmar digital vein of left little finger;;
+Q66591504;FMA85112;medial proper palmar digital artery of right middle finger;;
+Q66591508;FMA85115;lateral proper palmar digital artery of right ring finger;;
+Q66591509;FMA85116;lateral proper palmar digital artery of left ring finger;;
+Q66591511;FMA85118;left first common palmar digital artery;;
+Q66591512;FMA85119;right second common palmar digital artery;;
+Q66591513;FMA85120;left second common palmar digital artery;;
+Q66591514;FMA85121;right third common palmar digital artery;;
+Q66591515;FMA85122;left third common palmar digital artery;;
+Q66591516;FMA85123;right fourth common palmar digital artery;;
+Q66591517;FMA85124;left fourth common palmar digital artery;;
+Q66592010;FMA86034;opponens digiti minimi of right foot;;
+Q66592011;FMA86035;opponens digiti minimi of left foot;;
+Q66592281;FMA86340;Superior segmental branch of right renal artery;;
+Q66592282;FMA86341;Superior segmental branch of left renal artery;;
+Q66592287;FMA86346;Inferior segmental branch of right renal artery;;
+Q66592288;FMA86347;Inferior segmental branch of left renal artery;;
+Q66592289;FMA86348;Posterior segmental branch of right renal artery;;
+Q66592290;FMA86349;Posterior segmental branch of left renal artery;;
+Q223851;FMA86464;corpus callosum;corps calleux;Corpus callosum|Mésolobe
+Q66592966;FMA87217;Descending thoracic aorta;;
+Q66595855;FMA230986;Middle phalanx of right little toe;;
+Q66595856;FMA230988;Middle phalanx of left little toe;;
+Q66599495;FMA256194;orbital gyrus;;
+Q66600565;FMA258714;Right thalamus;;
+Q66600566;FMA258716;Left thalamus;;
+Q66600601;FMA258847;Right calcaneal tendon;;
+Q66600604;FMA258850;Right intermediate tendon;;
+Q66601439;FMA260791;White matter of right cerebral hemisphere;;
+Q66601441;FMA260794;White matter of left cerebral hemisphere;;
+Q66603457;FMA264844;Left calcaneal tendon;;

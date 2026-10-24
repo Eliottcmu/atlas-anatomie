@@ -1,0 +1,488 @@
+﻿concept;relation;parent;parent_gauche;id_liste;remarque
+ascending aorta;structure;;;A05;
+arch of aorta;structure;;;A06;
+descending thoracic aorta;structure;;;A10;
+abdominal aorta;structure;;;A41;
+anterior cusp of aortic valve;hors;;;;valvule de la valve aortique : partie du cœur, hors arbre artériel
+posterior cusp of aortic valve;hors;;;;valvule de la valve aortique : partie du cœur, hors arbre artériel
+brachiocephalic artery;structure;;;A07;
+common carotid artery;structure;;;A08;
+subclavian artery;structure;;;A09;
+internal carotid artery;structure;;;A16;
+vertebral artery;structure;;;A24;
+posterior intercostal arteries;structure;;;A11;artères intercostales postérieures 3 à 11, nées de l'aorte thoracique descendante
+first posterior intercostal artery;structure;;;A11;les deux premières artères intercostales postérieures naissent de l'artère intercostale suprême (tronc costo-cervical), pas de l'aorte
+second posterior intercostal artery;structure;;;A11;les deux premières artères intercostales postérieures naissent de l'artère intercostale suprême (tronc costo-cervical), pas de l'aorte
+subcostal artery;branche;descending thoracic aorta;;;dernière branche pariétale de l'aorte thoracique, sous la 12e côte
+bronchial artery;structure;;;A12;
+bronchial branch of arch of aorta;structure;;;A12;artère bronchique née ici de la crosse aortique
+esophageal artery;branche;descending thoracic aorta;;;
+set of oesophageal branches of thoracic aorta;branche;descending thoracic aorta;;;
+pulmonary trunk;structure;;;A13;
+right pulmonary artery;structure;;;A14;
+left pulmonary artery;structure;;;A15;
+right upper lobar artery;branche;right pulmonary artery;;;
+right middle lobar artery;branche;right pulmonary artery;;;
+right lower lobar artery;branche;right pulmonary artery;;;
+right apical segmental artery;branche;right upper lobar artery;;;segment S1
+apical part of right apical segmental artery;partie;right apical segmental artery;;;
+anterior part of right apical segmental artery;partie;right apical segmental artery;;;
+right posterior segmental artery;branche;right upper lobar artery;;;segment S2
+apical part of right posterior segmental artery;partie;right posterior segmental artery;;;
+posterior part of right posterior segmental artery;partie;right posterior segmental artery;;;
+right anterior segmental artery;branche;right upper lobar artery;;;segment S3
+anterior branch of right anterior segmental artery;branche;right anterior segmental artery;;;
+posterior branch of right anterior segmental artery;branche;right anterior segmental artery;;;
+lateral segmental artery;branche;right middle lobar artery;;;segment S4
+anterior branch of lateral segmental artery;branche;lateral segmental artery;;;
+posterior branch of lateral segmental artery;branche;lateral segmental artery;;;
+medial segmental artery;branche;right middle lobar artery;;;segment S5
+superior branch of medial segmental artery;branche;medial segmental artery;;;
+inferior branch of medial segmental artery;branche;medial segmental artery;;;
+right superior segmental artery;branche;right lower lobar artery;;;segment S6
+superior branch of right superior segmental artery;branche;right superior segmental artery;;;
+medial branch of right superior segmental artery;branche;right superior segmental artery;;;
+lateral branch of right superior segmental artery;branche;right superior segmental artery;;;
+right anterior basal segmental artery;branche;right lower lobar artery;;;segment S8
+basal branch of right anterior basal segmental artery;branche;right anterior basal segmental artery;;;
+lateral branch of right anterior basal segmental artery;branche;right anterior basal segmental artery;;;
+right lateral basal segmental artery;branche;right lower lobar artery;;;segment S9
+lateral branch of right lateral basal segmental artery;branche;right lateral basal segmental artery;;;
+right posterior basal segmental artery;branche;right lower lobar artery;;;segment S10
+accessory subsuperior branch of right posterior basal segmental artery;branche;right posterior basal segmental artery;;;
+mediobasal branch of right posterior basal segmental artery;branche;right posterior basal segmental artery;;;
+laterobasal branch of right posterior basal segmental artery;branche;right posterior basal segmental artery;;;
+left upper lobar artery;branche;left pulmonary artery;;;
+left lower lobar artery;branche;left pulmonary artery;;;
+left apical segmental artery;branche;left upper lobar artery;;;segment S1
+left posterior segmental artery;branche;left upper lobar artery;;;segment S2
+left anterior segmental artery;branche;left upper lobar artery;;;segment S3
+superior lingular artery;branche;left pulmonary artery;;;segment S4, lingula
+inferior lingular artery;branche;left pulmonary artery;;;segment S5, lingula
+left superior segmental artery;branche;left lower lobar artery;;;segment S6
+left medial basal segmental artery;branche;left lower lobar artery;;;segment S7
+left anterior basal segmental artery;branche;left lower lobar artery;;;segment S8
+left lateral basal segmental artery;branche;left lower lobar artery;;;segment S9
+left posterior basal segmental artery;branche;left lower lobar artery;;;segment S10
+right coronary artery;structure;;;A01;
+trunk of right coronary artery;partie;right coronary artery;;;
+right conus artery;branche;right coronary artery;;;
+first anterior ventricular branch of right coronary artery;branche;right coronary artery;;;
+marginal branch of right coronary artery;branche;right coronary artery;;;
+first posterior ventricular branch of right coronary artery;branche;right coronary artery;;;
+posterior interventricular branch of right coronary artery;branche;right coronary artery;;;artère interventriculaire postérieure
+first septal branch of right posterior interventricular artery;branche;posterior interventricular branch of right coronary artery;;;
+second septal branch of right posterior interventricular artery;branche;posterior interventricular branch of right coronary artery;;;
+left coronary artery;structure;;;A02;
+trunk of left coronary artery;partie;left coronary artery;;;tronc commun de la coronaire gauche
+anterior interventricular branch of left coronary artery;structure;;;A03;
+trunk of anterior interventricular branch of left coronary artery;partie;anterior interventricular branch of left coronary artery;;;
+diagonal branch of anterior descending branch of left coronary artery;branche;anterior interventricular branch of left coronary artery;;;
+conus branch of anterior interventricular branch of left coronary artery;branche;anterior interventricular branch of left coronary artery;;;
+first right anterior branch of anterior interventricular branch of left coronary artery;branche;anterior interventricular branch of left coronary artery;;;
+second right anterior branch of anterior interventricular branch of left coronary artery;branche;anterior interventricular branch of left coronary artery;;;
+third right anterior branch of anterior interventricular branch of left coronary artery;branche;anterior interventricular branch of left coronary artery;;;
+septal branch of anterior interventricular artery;branche;anterior interventricular branch of left coronary artery;;;
+circumflex branch of left coronary artery;structure;;;A04;
+ophthalmic artery;branche;internal carotid artery;;;
+anterior choroidal artery;branche;internal carotid artery;;;
+branch of anterior choroidal artery to posterior limb of internal capsule;branche;anterior choroidal artery;;;
+posterior communicating artery;structure;;;A31;
+hypothalamic branch of posterior communicating artery;branche;posterior communicating artery;;;
+anterior cerebral artery;structure;;;A27;
+anterior communicating artery;structure;;;A30;
+pericallosal artery;partie;anterior cerebral artery;;;portion postcommunicante (A2 et au-delà) de l'artère cérébrale antérieure
+callosomarginal artery;branche;anterior cerebral artery;;;
+paracentral branch of callosomarginal artery;branche;callosomarginal artery;;;
+intermediomedial branch of callosomarginal artery;branche;callosomarginal artery;;;
+posteromedial branch of callosomarginal artery;branche;callosomarginal artery;;;
+precuneal branch of pericallosal artery;branche;pericallosal artery;;;
+medial frontobasal artery;branche;anterior cerebral artery;;;
+middle cerebral artery;structure;;;A28;
+sphenoid part of middle cerebral artery;partie;middle cerebral artery;;;segment M1
+insular part of middle cerebral artery;partie;middle cerebral artery;;;segment M2
+insular branches of middle cerebral artery;partie;middle cerebral artery;;;segment M2 (Z-Anatomy)
+anterolateral central branch of middle cerebral artery;branche;middle cerebral artery;;;artères lenticulo-striées
+trunk of inferior terminal branch of middle cerebral artery;branche;middle cerebral artery;;;
+lateral frontobasal artery;branche;middle cerebral artery;;;
+prefrontal artery;branche;middle cerebral artery;;;
+artery of precentral sulcus;branche;middle cerebral artery;;;
+artery of central sulcus;branche;middle cerebral artery;;;
+artery of postcentral sulcus;branche;middle cerebral artery;;;
+anterior parietal artery;branche;middle cerebral artery;;;
+posterior parietal artery;branche;middle cerebral artery;;;
+branch of middle cerebral artery to angular gyrus;branche;middle cerebral artery;;;
+anterior temporal artery;branche;middle cerebral artery;;;
+polar temporal artery;branche;middle cerebral artery;;;
+middle temporal branch of middle cerebral artery;branche;middle cerebral artery;;;
+posterior temporal branch of middle cerebral artery;branche;middle cerebral artery;;;
+temporo-occipital branch of middle cerebral artery;branche;middle cerebral artery;;;
+anterior spinal artery;branche;vertebral artery;;;
+posterior inferior cerebellar artery;branche;vertebral artery;;;
+basilar artery;structure;;;A25;
+anterior inferior cerebellar artery;branche;basilar artery;;;
+pontine artery;branche;basilar artery;;;
+medial branch of pontine artery;branche;pontine artery;;;
+lateral branch of pontine artery;branche;pontine artery;;;
+superior cerebellar artery;branche;basilar artery;;;
+medial branch of superior cerebellar artery;branche;superior cerebellar artery;;;
+lateral branch of superior cerebellar artery;branche;superior cerebellar artery;;;
+superior vermian branch of medial branch of superior cerebellar artery;branche;medial branch of superior cerebellar artery;;;
+posterior cerebral artery;structure;;;A29;
+precommunicating part of posterior cerebral artery;partie;posterior cerebral artery;;;segment P1
+postcommunicating part of posterior cerebral artery;partie;posterior cerebral artery;;;segment P2
+thalamoperforating artery;branche;posterior cerebral artery;;;
+posteromedial central branch of posterior cerebral artery;branche;posterior cerebral artery;;;
+thalamogeniculate artery;branche;posterior cerebral artery;;;
+posterior medial choroidal artery;branche;posterior cerebral artery;;;
+lateral occipital artery;branche;posterior cerebral artery;;;
+anterior temporal branch of lateral occipital artery;branche;lateral occipital artery;;;
+middle temporal branch of lateral occipital artery;branche;lateral occipital artery;;;
+set of posterior temporal branches of lateral occipital artery;branche;lateral occipital artery;;;
+medial occipital artery;branche;posterior cerebral artery;;;
+splenial artery;branche;medial occipital artery;;;rameau dorsal du corps calleux
+external carotid artery;structure;;;A17;
+facial artery;structure;;;A20;
+occipital artery;structure;;;A21;
+superficial temporal artery;structure;;;A22;
+maxillary artery;structure;;;A23;
+thyrocervical trunk;structure;;;A33;
+inferior thyroid artery;branche;thyrocervical trunk;;;
+suprascapular artery;branche;thyrocervical trunk;;;
+transverse cervical artery;branche;thyrocervical trunk;;;
+superficial cervical artery;branche;transverse cervical artery;;;branche superficielle de l'artère transverse du cou
+dorsal scapular artery;branche;subclavian artery;;;branche de la subclavière d'après les ronéos (MB26 p.3), dans le modèle 3D elle naît de l'artère transverse du cou, variante fréquente
+costocervical trunk;branche;subclavian artery;;;
+deep cervical artery;branche;costocervical trunk;;;
+superior intercostal artery;branche;costocervical trunk;;;artère intercostale suprême : donne les deux premières intercostales postérieures
+internal thoracic artery;structure;;;A32;
+musculophrenic artery;branche;internal thoracic artery;;;
+superior epigastric artery;branche;internal thoracic artery;;;
+axillary artery;structure;;;A34;
+thoraco-acromial artery;branche;axillary artery;;;
+trunk of thoraco-acromial artery;partie;thoraco-acromial artery;;;
+acromial branch of thoraco-acromial artery;branche;thoraco-acromial artery;;;
+deltoid branch of thoraco-acromial artery;branche;thoraco-acromial artery;;;
+pectoral branch of thoraco-acromial artery;branche;thoraco-acromial artery;;;
+lateral thoracic artery;branche;axillary artery;;;
+subscapular artery;branche;axillary artery;;;
+circumflex scapular artery;branche;subscapular artery;;;
+thoracodorsal artery;branche;subscapular artery;;;
+anterior circumflex humeral artery;branche;axillary artery;;;
+posterior circumflex humeral artery;branche;axillary artery;;;
+brachial artery;structure;;;A35;
+deep brachial artery;structure;;;A36;
+middle collateral branch of deep brachial artery;branche;deep brachial artery;;;
+radial collateral branch of deep brachial artery;branche;deep brachial artery;;;
+superior ulnar collateral artery;branche;brachial artery;;;
+inferior ulnar collateral artery;branche;brachial artery;;;
+radial artery;structure;;;A37;
+radial recurrent artery;branche;radial artery;;;
+dorsal carpal branch of radial artery;branche;radial artery;;;
+arteria princeps pollicis;branche;radial artery;;;
+arteria radialis indicis;branche;radial artery;;;
+ulnar artery;structure;;;A38;
+anterior ulnar recurrent artery;branche;ulnar artery;;;
+posterior ulnar recurrent artery;branche;ulnar artery;;;
+common interosseous artery;branche;ulnar artery;;;
+anterior interosseous artery;branche;common interosseous artery;;;
+posterior interosseous artery;branche;common interosseous artery;;;
+recurrent interosseous artery;branche;posterior interosseous artery;;;
+dorsal carpal branch of ulnar artery;branche;ulnar artery;;;
+superficial palmar arterial arch;structure;;;A39;
+deep palmar arch;structure;;;A40;
+deep palmar arterial arch;structure;;;A40;
+common palmar digital artery;branche;superficial palmar arterial arch;;;
+first common palmar digital artery;branche;superficial palmar arterial arch;;;
+second common palmar digital artery;branche;superficial palmar arterial arch;;;
+third common palmar digital artery;branche;superficial palmar arterial arch;;;
+fourth common palmar digital artery;branche;superficial palmar arterial arch;;;
+lateral proper palmar digital artery of little finger;branche;common palmar digital artery;;;
+lateral proper palmar digital artery of middle finger;branche;common palmar digital artery;;;
+lateral proper palmar digital artery of ring finger;branche;common palmar digital artery;;;
+medial proper palmar digital artery of index finger;branche;common palmar digital artery;;;
+medial proper palmar digital artery of middle finger;branche;common palmar digital artery;;;
+medial proper palmar digital artery of ring finger;branche;common palmar digital artery;;;
+palmar metacarpal artery;branche;deep palmar arch;;;
+dorsal carpal arch;branche;radial artery;;;arcade dorsale du carpe, formée surtout par le rameau carpien dorsal de l'artère radiale, complétée par celui de l'ulnaire
+set of dorsal metacarpal arteries;branche;dorsal carpal arch;;;
+set of dorsal digital arteries;branche;set of dorsal metacarpal arteries;;;
+inferior phrenic artery;structure;;;A42;
+middle suprarenal artery;branche;abdominal aorta;;;
+inferior suprarenal artery;branche;renal artery;;;
+celiac trunk;structure;;;A43;
+celiac artery;partie;celiac trunk;;;
+left gastric artery;structure;;;A44;
+common hepatic artery;structure;;;A45;
+hepatic artery proper;branche;common hepatic artery;;;branche terminale de l'artère hépatique commune, après la naissance de la gastro-duodénale
+right gastric artery;branche;hepatic artery proper;;;naît de l'hépatique propre ou de l'hépatique commune selon les sujets
+gastroduodenal artery;branche;common hepatic artery;;;
+trunk of gastroduodenal artery;partie;gastroduodenal artery;;;
+right gastro-epiploic artery;branche;gastroduodenal artery;;;
+anterior superior pancreaticoduodenal artery;branche;gastroduodenal artery;;;
+posterior superior pancreaticoduodenal artery;branche;gastroduodenal artery;;;
+right hepatic artery;branche;hepatic artery proper;;;
+trunk of right hepatic artery;partie;right hepatic artery;;;
+caudate lobe branch of right hepatic artery;branche;right hepatic artery;;;
+right lobe branch of right hepatic artery;branche;right hepatic artery;;;
+left lobe branch of left hepatic artery;branche;left hepatic artery;;;
+anterior segmental hepatic artery;branche;right hepatic artery;;;
+anterior inferior segmental hepatic artery;branche;anterior segmental hepatic artery;;;segment V
+anterior superior segmental hepatic artery;branche;anterior segmental hepatic artery;;;segment VIII
+posterior segmental hepatic artery;branche;right hepatic artery;;;
+posterior inferior segmental hepatic artery;branche;posterior segmental hepatic artery;;;segment VI
+posterior superior segmental hepatic artery;branche;posterior segmental hepatic artery;;;segment VII
+left hepatic artery;branche;hepatic artery proper;;;
+trunk of left hepatic artery;partie;left hepatic artery;;;
+caudate lobe branch of left hepatic artery;branche;left hepatic artery;;;
+medial segmental hepatic artery;branche;left hepatic artery;;;
+medial inferior segmental hepatic artery;branche;medial segmental hepatic artery;;;segment IVb
+medial superior segmental hepatic artery;branche;medial segmental hepatic artery;;;segment IVa
+lateral segmental hepatic artery;branche;left hepatic artery;;;
+lateral inferior segmental hepatic artery;branche;lateral segmental hepatic artery;;;segment III
+lateral superior segmental hepatic artery;branche;lateral segmental hepatic artery;;;segment II
+splenic artery;structure;;;A46;
+left gastro-epiploic artery;branche;splenic artery;;;
+dorsal pancreatic artery;branche;splenic artery;;;
+great pancreatic artery;branche;splenic artery;;;
+caudal pancreatic artery;branche;splenic artery;;;
+inferior pancreatic artery;branche;dorsal pancreatic artery;;;
+superior mesenteric artery;structure;;;A47;
+trunk of superior mesenteric artery;partie;superior mesenteric artery;;;
+inferior pancreaticoduodenal artery;branche;superior mesenteric artery;;;
+anterior inferior pancreaticoduodenal artery;branche;inferior pancreaticoduodenal artery;;;
+posterior inferior pancreaticoduodenal artery;branche;inferior pancreaticoduodenal artery;;;
+middle colic artery;branche;superior mesenteric artery;;;
+right colic artery;branche;superior mesenteric artery;;;
+ileal artery;branche;superior mesenteric artery;;;
+ileocolic artery;branche;superior mesenteric artery;;;
+ascending branch of inferior branch of ileocolic artery;branche;ileocolic artery;;;
+ileal branch of inferior branch of ileocolic artery;branche;ileocolic artery;;;
+anterior cecal artery;branche;ileocolic artery;;;
+posterior cecal artery;branche;ileocolic artery;;;
+appendicular artery;branche;ileocolic artery;;;
+marginal colic artery;anastomose;superior mesenteric artery|inferior mesenteric artery;;;arcade marginale du côlon (de Drummond), formée par les artères coliques des deux mésentériques
+marginal artery of colon;anastomose;superior mesenteric artery|inferior mesenteric artery;;;arcade marginale du côlon (de Drummond), formée par les artères coliques des deux mésentériques
+inferior mesenteric artery;structure;;;A50;
+left colic artery;branche;inferior mesenteric artery;;;
+ascending branch of left colic artery;branche;left colic artery;;;
+descending branch of left colic artery;branche;left colic artery;;;
+sigmoid artery;branche;inferior mesenteric artery;;;
+superior rectal artery;branche;inferior mesenteric artery;;;branche terminale de l'artère mésentérique inférieure
+renal artery;structure;;;A48;
+trunk of renal artery;partie;renal artery;;;
+anterior division of renal artery;branche;renal artery;;;
+posterior division of renal artery;branche;renal artery;;;
+superior segmental branch of renal artery;branche;anterior division of renal artery;;;
+anterior segmental branch of renal artery;branche;anterior division of renal artery;;;
+inferior segmental branch of renal artery;branche;anterior division of renal artery;;;
+posterior segmental branch of renal artery;branche;posterior division of renal artery;;;
+ureteric segment of renal artery;branche;renal artery;;;branche urétérique
+testicular artery;structure;;;A49;
+lumbar artery;structure;;;A51;
+median sacral artery;structure;;;A52;
+common iliac artery;structure;;;A53;
+internal iliac artery;structure;;;A54;
+anterior division of internal iliac artery;branche;internal iliac artery;;;tronc antérieur (Z-Anatomy)
+posterior division of internal iliac artery;branche;internal iliac artery;;;tronc postérieur (Z-Anatomy)
+superior gluteal artery;structure;;;A55;
+inferior gluteal artery;structure;;;A56;
+obturator artery;structure;;;A57;
+internal pudendal artery;structure;;;A58;
+dorsal artery of penis;branche;internal pudendal artery;;;
+external iliac artery;structure;;;A62;
+inferior epigastric artery;branche;external iliac artery;;;
+femoral artery;structure;;;A63;
+superficial epigastric artery;branche;femoral artery;;;
+descending genicular artery;branche;femoral artery;;;naît de l'artère fémorale dans le canal des adducteurs
+deep femoral artery;structure;;;A64;
+lateral circumflex femoral artery;branche;deep femoral artery;;;naît parfois directement de l'artère fémorale
+descending branch of lateral circumflex femoral artery;branche;lateral circumflex femoral artery;;;
+ascending and transverse branches of lateral circumflex femoral artery;branche;lateral circumflex femoral artery;;;identification par la géométrie (étiquette BodyParts3D erronée), à vérifier
+set of perforating arteries;branche;deep femoral artery;;;
+popliteal artery;structure;;;A65;
+lateral superior genicular artery;branche;popliteal artery;;;
+medial superior genicular artery;branche;popliteal artery;;;
+middle genicular artery;branche;popliteal artery;;;
+inferior lateral genicular artery;branche;popliteal artery;;;
+inferior medial genicular artery;branche;popliteal artery;;;
+anterior tibial artery;structure;;;A66;
+anterior tibial recurrent artery;branche;anterior tibial artery;;;
+dorsalis pedis artery;structure;;;A67;
+arcuate artery;branche;dorsalis pedis artery;;;
+lateral tarsal artery;branche;dorsalis pedis artery;;;
+deep plantar artery;branche;dorsalis pedis artery;;;rejoint l'arcade plantaire profonde
+dorsal metatarsal artery;branche;arcuate artery;;;
+dorsal digital artery of foot;branche;dorsal metatarsal artery;;;
+posterior tibial artery;structure;;;A69;
+fibular artery;structure;;;A70;
+medial plantar artery;structure;;;A71;
+superficial medial plantar artery;branche;medial plantar artery;;;
+lateral plantar artery;structure;;;A72;
+plantar arch;branche;lateral plantar artery;;;arcade plantaire profonde : terminaison de l'artère plantaire latérale, fermée par l'artère plantaire profonde (dorsale du pied)
+plantar metatarsal artery;branche;plantar arch;;;
+distal perforating artery;branche;plantar metatarsal artery;;;
+set of common plantar digital arteries;branche;plantar metatarsal artery;;;
+set of plantar digital arteries proper;branche;set of common plantar digital arteries;;;
+superior vena cava;structure;;;V01;
+inferior vena cava;structure;;;V02;
+brachiocephalic vein;structure;;;V03;
+azygos vein;structure;;;V04;
+hemiazygos vein;structure;;;V05;
+accessory hemiazygos vein;affluent;azygos vein;;;rejoint la veine azygos en croisant la ligne médiane (vers T7-T8), reçoit les veines intercostales postérieures gauches hautes
+superior intercostal vein;affluent;azygos vein;brachiocephalic vein;;à droite, se jette dans la veine azygos, à gauche, dans la veine brachio-céphalique gauche
+subcostal vein;affluent;azygos vein;hemiazygos vein;;
+ascending lumbar vein;affluent;azygos vein;hemiazygos vein;;à droite, origine de la veine azygos, à gauche, de la veine hémi-azygos
+transverse anastomosis between ascending lumbar veins;anastomose;azygos vein|hemiazygos vein;;;identification incertaine (segment transversal de BodyParts3D)
+lumbar vein;affluent;inferior vena cava;;;
+right internal thoracic vein;affluent;right brachiocephalic vein;;;
+internal thoracic vein;affluent;brachiocephalic vein;;;
+set of anterior intercostal veins;affluent;internal thoracic vein;;;
+musculophrenic vein;affluent;internal thoracic vein;;;
+superior epigastric vein;affluent;internal thoracic vein;;;
+inferior phrenic vein;affluent;inferior vena cava;renal vein;;à droite, dans la veine cave inférieure, à gauche, dans la veine rénale ou surrénale gauche
+suprarenal vein;affluent;inferior vena cava;renal vein;;à droite, dans la veine cave inférieure, à gauche, dans la veine rénale gauche
+renal vein;structure;;;V28;
+testicular vein;structure;;;V29;
+right hepatic vein;structure;;;V25;
+middle hepatic vein;structure;;;V26;
+left hepatic vein;structure;;;V27;
+anterior superior segmental tributary of right hepatic vein;affluent;right hepatic vein;;;segment VIII
+posterior inferior segmental tributary of right hepatic vein;affluent;right hepatic vein;;;segment VI
+posterior superior segmental tributary of right hepatic vein;affluent;right hepatic vein;;;segment VII
+anterior inferior segmental tributary of middle hepatic vein;affluent;middle hepatic vein;;;segment V
+medial inferior segmental tributary of middle hepatic vein;affluent;middle hepatic vein;;;segment IVb
+tributary of middle hepatic vein;affluent;middle hepatic vein;;;
+lateral inferior segmental tributary of left hepatic vein;affluent;left hepatic vein;;;segment III
+lateral superior segmental tributary of left hepatic vein;affluent;left hepatic vein;;;segment II
+medial superior segmental tributary of left hepatic vein;affluent;left hepatic vein;;;segment IVa
+hepatic portal vein;structure;;;V21;
+pre-hepatic portal vein;partie;hepatic portal vein;;;
+right portal vein;branche;hepatic portal vein;;;branche droite de la veine porte, dans le foie
+trunk of right portal vein;partie;right portal vein;;;
+caudate lobe branch of right portal vein;branche;right portal vein;;;
+anterior inferior segmental branch of right portal vein;branche;right portal vein;;;segment V
+anterior superior segmental branch of right portal vein;branche;right portal vein;;;segment VIII
+posterior inferior segmental branch of right portal vein;branche;right portal vein;;;segment VI
+posterior superior segmental branch of right portal vein;branche;right portal vein;;;segment VII
+left portal vein;branche;hepatic portal vein;;;branche gauche de la veine porte, dans le foie
+trunk of left portal vein;partie;left portal vein;;;
+caudate lobe branch of left portal vein;branche;left portal vein;;;
+lateral inferior segmental branch of left portal vein;branche;left portal vein;;;segment III
+lateral superior segmental branch of left portal vein;branche;left portal vein;;;segment II
+medial inferior segmental branch of left portal vein;branche;left portal vein;;;segment IVb
+medial superior segmental branch of left portal vein;branche;left portal vein;;;segment IVa
+right gastric vein;affluent;hepatic portal vein;;;
+left gastric vein;affluent;hepatic portal vein;;;se jette dans la veine porte ou à la jonction spléno-mésentérique, voie des anastomoses porto-caves œsophagiennes
+posterior superior pancreaticoduodenal vein;affluent;hepatic portal vein;;;
+superior mesenteric vein;structure;;;V22;
+splenic vein;structure;;;V23;
+inferior mesenteric vein;structure;;;V24;
+right gastroepiploic vein;affluent;superior mesenteric vein;;;
+left gastroepiploic vein;affluent;splenic vein;;;
+anterior pancreaticoduodenal vein;affluent;superior mesenteric vein;;;
+ileocolic vein;affluent;superior mesenteric vein;;;
+ileal vein;affluent;superior mesenteric vein;;;
+right colic vein;affluent;superior mesenteric vein;;;
+middle colic vein;affluent;superior mesenteric vein;;;
+left colic vein;affluent;inferior mesenteric vein;;;
+sigmoid vein;affluent;inferior mesenteric vein;;;
+superior rectal vein;affluent;inferior mesenteric vein;;;origine de la veine mésentérique inférieure, voie des anastomoses porto-caves rectales
+coronary sinus;structure;;;V10;
+great cardiac vein;affluent;coronary sinus;;;
+anterior interventricular vein;partie;great cardiac vein;;;portion initiale de la grande veine du cœur
+left marginal vein;affluent;great cardiac vein;;;
+posterior vein of left ventricle;affluent;coronary sinus;;;
+middle cardiac vein;affluent;coronary sinus;;;
+small cardiac vein;affluent;coronary sinus;;;
+right marginal vein;affluent;small cardiac vein;;;
+anterior cardiac vein;affluent;right atrium;;;se jette directement dans l'atrium droit, sans passer par le sinus coronaire
+right superior pulmonary vein;structure;;;V06;
+right inferior pulmonary vein;structure;;;V07;
+left superior pulmonary vein;structure;;;V08;
+left inferior pulmonary vein;structure;;;V09;
+apical segmental vein;affluent;superior pulmonary vein;;;segment S1
+trunk of right apical segmental vein;partie;right apical segmental vein;;;
+apical part of right apical segmental vein;partie;right apical segmental vein;;;
+anterior part of right apical segmental vein;partie;right apical segmental vein;;;
+posterior segmental vein;affluent;superior pulmonary vein;;;segment S2
+anterior segmental vein;affluent;superior pulmonary vein;;;segment S3
+superior part of right anterior segmental vein;partie;right anterior segmental vein;;;
+inferior part of right anterior segmental vein;partie;right anterior segmental vein;;;
+lateral segmental vein;affluent;right superior pulmonary vein;;;segment S4 (lobe moyen)
+anterior part of lateral segmental vein;partie;lateral segmental vein;;;
+posterior part of lateral segmental vein;partie;lateral segmental vein;;;
+medial segmental vein;affluent;right superior pulmonary vein;;;segment S5 (lobe moyen)
+superior part of medial segmental vein;partie;medial segmental vein;;;
+inferior part of medial segmental vein;partie;medial segmental vein;;;
+superior lingular vein;affluent;left superior pulmonary vein;;;segment S4 (lingula)
+inferior lingular vein;affluent;left superior pulmonary vein;;;segment S5 (lingula)
+superior segmental vein;affluent;inferior pulmonary vein;;;segment S6
+medial basal segmental vein;affluent;inferior pulmonary vein;;;segment S7
+anterior basal segmental vein;affluent;inferior pulmonary vein;;;segment S8
+lateral basal segmental vein;affluent;inferior pulmonary vein;;;segment S9
+posterior basal segmental vein;affluent;inferior pulmonary vein;;;segment S10
+internal jugular vein;structure;;;V11;
+external jugular vein;structure;;;V12;
+superior sagittal sinus;structure;;;V13;
+transverse sinus;structure;;;V14;
+sigmoid sinus;structure;;;V15;
+subclavian vein;structure;;;V20;
+axillary vein;structure;;;V19;
+cephalic vein;structure;;;V16;
+basilic vein;structure;;;V17;
+median cubital vein;structure;;;V18;
+suprascapular vein;affluent;external jugular vein;;;classiquement dans la veine jugulaire externe, le modèle la raccorde près de la veine subclavière
+circumflex scapular vein;affluent;subscapular vein;;;
+subscapular vein;affluent;axillary vein;;;
+thoracodorsal vein;affluent;subscapular vein;;;
+lateral thoracic vein;affluent;axillary vein;;;
+anterior circumflex humeral vein;affluent;axillary vein;;;
+brachial vein;affluent;axillary vein;;;veines brachiales profondes, satellites de l'artère brachiale
+medial brachial vein;affluent;axillary vein;;;veine brachiale médiale : s'unit à la basilique pour former la veine axillaire
+radial vein;affluent;brachial vein;;;
+ulnar vein;affluent;brachial vein;;;
+median antebrachial vein;affluent;basilic vein;;;se jette dans la basilique ou dans la veine médiane du coude
+dorsal venous network of hand;anastomose;cephalic vein|basilic vein;;;réseau d'origine des veines céphalique (côté radial) et basilique (côté ulnaire)
+deep palmar venous arch;affluent;radial vein|ulnar vein;;;
+palmar metacarpal vein;affluent;deep palmar venous arch;;;
+superficial palmar venous arch;affluent;ulnar vein|radial vein;;;
+common palmar digital vein;affluent;superficial palmar venous arch;;;
+proper palmar digital vein of index finger;affluent;common palmar digital vein;;;
+proper palmar digital vein of middle finger;affluent;common palmar digital vein;;;
+proper palmar digital vein of ring finger;affluent;common palmar digital vein;;;
+proper palmar digital vein of little finger;affluent;common palmar digital vein;;;
+common iliac vein;structure;;;V30;
+internal iliac vein;structure;;;V31;
+external iliac vein;structure;;;V32;
+median sacral vein;affluent;left common iliac vein;;;
+iliolumbar vein;affluent;internal iliac vein;;;se jette dans l'iliaque interne ou l'iliaque commune
+lateral sacral vein;affluent;internal iliac vein;;;
+superior gluteal vein;affluent;internal iliac vein;;;
+inferior gluteal vein;affluent;internal iliac vein;;;
+obturator vein;affluent;internal iliac vein;;;
+internal pudendal vein;affluent;internal iliac vein;;;
+deep dorsal vein of penis;affluent;internal iliac vein;;;par le plexus veineux prostatique
+superficial dorsal vein of penis;affluent;great saphenous vein;;;par les veines pudendales externes
+inferior epigastric vein;affluent;external iliac vein;;;
+superficial epigastric vein;affluent;great saphenous vein;;;
+femoral vein;structure;;;V36;
+deep femoral vein;affluent;femoral vein;;;
+lateral circumflex femoral vein;affluent;deep femoral vein;;;
+medial circumflex femoral vein;affluent;deep femoral vein;;;
+set of perforating veins;affluent;deep femoral vein;;;veines perforantes de la cuisse, satellites des artères perforantes
+great saphenous vein;structure;;;V34;
+small saphenous vein;structure;;;V35;
+popliteal vein;structure;;;V37;
+genicular vein;affluent;popliteal vein;;;
+anterior tibial vein;structure;;;V38;
+posterior tibial vein;structure;;;V39;
+fibular vein;structure;;;V40;
+dorsal venous arch of foot;anastomose;great saphenous vein|small saphenous vein;;;origine de la grande saphène (extrémité médiale) et de la petite saphène (extrémité latérale)
+dorsal metatarsal vein;affluent;dorsal venous arch of foot;;;
+set of dorsal digital veins;affluent;dorsal metatarsal vein;;;
+set of perforating veins of foot;anastomose;dorsal venous arch of foot|plantar venous arch of foot;;;relient les réseaux veineux dorsal et plantaire du pied
+plantar venous arch of foot;affluent;posterior tibial vein;;;par les veines plantaires médiales et latérales
+tributary of plantar venous arch;affluent;plantar venous arch of foot;;;
+plantar metatarsal vein;affluent;plantar venous arch of foot;;;
+set of plantar digital veins;affluent;plantar metatarsal vein;;;

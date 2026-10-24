@@ -1,0 +1,40 @@
+# Téléchargements bruts : se reconstituent avec pipeline/telecharger_sources.py
+donnees/brut/
+*.partiel
+
+# Ronéos : supports de cours, restent dans OneDrive, jamais sur GitHub.
+# Les extraits texte se reconstituent avec pipeline/extraire_roneos.py
+donnees/roneos/
+donnees/derive/roneos/
+
+# Bases SQLite (données personnelles, sauvegardes, graine générée)
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+donnees/sauvegardes/
+
+# Paquet décompressé pour l'essai de l'appli
+Atlas d'anatomie/
+
+# Modèles GLB : se régénèrent avec pipeline/convertir_glb.py --compresser
+modeles/*.glb
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Fichiers temporaires Excel
+~$*
+
+# Interface : dépendances et build
+app/node_modules/
+app/dist/
+
+# Captures des tests, régénérées par app/tests/clic.mjs
+rapports/captures/
+
+# Construction de l'appli : se régénère avec python -I pipeline/construire_appli.py
+construction/
+distribution/
+lanceur/*.syso

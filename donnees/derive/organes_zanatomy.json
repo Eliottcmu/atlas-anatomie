@@ -1,0 +1,3390 @@
+{
+ "doublons_bp3d": [
+  "FJ1781",
+  "FJ1796",
+  "FJ1830"
+ ],
+ "deja_presents": {
+  "Amygdaloid body.l": "FJ1753",
+  "Amygdaloid body.r": "FJ1829",
+  "Anterior occipital sulcus*.l": "FJ1758",
+  "Cingulate sulcus (Marginal part*).l": "FJ1758",
+  "Collateral sulcus.l": "FJ1758",
+  "Occipitotemporal sulcus (Lateral part*).l": "FJ1758",
+  "Olfactory sulcus.l": "FJ1758",
+  "Paracentral sulcus.l": "FJ1758",
+  "Parieto-occipital sulcus.l": "FJ1758",
+  "Precentral sulcus (Superior part)*.l": "FJ1758",
+  "Precentral sulcus (inferior part)*.l": "FJ1758",
+  "Sulcus interm_prim-Jensen.l": "FJ1758",
+  "Transverse occipital sulcus.l": "FJ1758",
+  "Anterior occipital sulcus*.r": "FJ1806",
+  "Cingulate sulcus (Marginal part*).r": "FJ1806",
+  "Collateral sulcus.r": "FJ1806",
+  "Olfactory sulcus.r": "FJ1806",
+  "Paracentral sulcus.r": "FJ1806",
+  "Parieto-occipital sulcus.r": "FJ1806",
+  "Precentral sulcus (Superior part)*.r": "FJ1806",
+  "Transverse occipital sulcus.r": "FJ1806",
+  "Base of peduncle.l": "FJ1774",
+  "Base of peduncle.r": "FJ1821",
+  "Choroid plexus.l": "FJ1755",
+  "Choroid plexus.r": "FJ1803",
+  "Circular sulcus of insula.l": "FJ1748",
+  "Circular sulcus of insula.r": "FJ1749",
+  "Fornix.l": "FJ1756",
+  "Fornix.r": "FJ1804",
+  "Hippocampal commissure": "FJ1741",
+  "Inferior temporal sulcus.l": "FJ1746",
+  "Inferior temporal sulcus.r": "FJ1747",
+  "Intraparietal sulcus.l": "FJ1835",
+  "Precuneus.l": "FJ1835",
+  "Subparietal sulcus.l": "FJ1835",
+  "Intraparietal sulcus.r": "FJ1836",
+  "Precuneus.r": "FJ1836",
+  "Subparietal sulcus.r": "FJ1836",
+  "Lat_Fis-post.l": "FJ1841",
+  "Lat_Fis-post.r": "FJ1842",
+  "Mamillary body.l": "FJ1768",
+  "Mamillary body.r": "FJ1815",
+  "Occipitotemporal sulcus (Lateral part*).r": "FJ1790",
+  "Olive.l": "FJ1769",
+  "Posterior cochlear nucleus.l": "FJ1769",
+  "Opercular part of inferior frontal gyrus.l": "FJ1744",
+  "Opercular part of inferior frontal gyrus.r": "FJ1745",
+  "Paracentral gyrus and sulcus*.l": "FJ1800",
+  "Paracentral gyrus and sulcus*.r": "FJ1801",
+  "Postcentral sulcus.l": "FJ1797",
+  "Postcentral sulcus.r": "FJ1798",
+  "Posterior cochlear nucleus.r": "FJ1831",
+  "Septal nuclei": "FJ1812",
+  "Septum pellucidum": "FJ1832",
+  "Straight gyrus (Gyrus rectus).l": "FJ1793",
+  "Straight gyrus (Gyrus rectus).r": "FJ1794",
+  "Stria medullaris thalami.l": "FJ1782",
+  "Stria medullaris thalami.r": "FJ1730",
+  "Sulcus interm_prim-Jensen.r": "FJ1733",
+  "Transverse frontopolar gyrus and sulcus*.r": "FJ1834",
+  "Ampulla of lacrimal canaliculus.l": "FJ1309",
+  "Ampulla of lacrimal canaliculus.r": "FJ1360",
+  "Retina.l": "FJ1316",
+  "Retina.r": "FJ1337",
+  "Inferior pancreatic nodes": "FJ2629",
+  "Inferior tracheobronchial nodes": "FJ2539",
+  "Right colic nodes": "FJ2569"
+ },
+ "legendes": [
+  {
+   "nom_en": "pancreatic impression of spleen",
+   "inconstant": true,
+   "cle": "FJ2561",
+   "cote": null,
+   "porteur": "Spleen",
+   "ecart_mm": 0.1,
+   "p": [
+    0.0693,
+    1.0734,
+    0.0982
+   ]
+  },
+  {
+   "nom_en": "anterior extremity of spleen",
+   "inconstant": false,
+   "cle": "FJ2561",
+   "cote": null,
+   "porteur": "Spleen",
+   "ecart_mm": 0.2,
+   "p": [
+    0.0997,
+    1.0599,
+    0.1405
+   ]
+  },
+  {
+   "nom_en": "colic impression of spleen",
+   "inconstant": false,
+   "cle": "FJ2561",
+   "cote": null,
+   "porteur": "Spleen",
+   "ecart_mm": 0.1,
+   "p": [
+    0.0874,
+    1.0658,
+    0.1128
+   ]
+  },
+  {
+   "nom_en": "diaphragmatic surface of spleen",
+   "inconstant": false,
+   "cle": "FJ2561",
+   "cote": null,
+   "porteur": "Spleen",
+   "ecart_mm": 0.1,
+   "p": [
+    0.1083,
+    1.0879,
+    0.0741
+   ]
+  },
+  {
+   "nom_en": "gastric impression of spleen",
+   "inconstant": false,
+   "cle": "FJ2561",
+   "cote": null,
+   "porteur": "Spleen",
+   "ecart_mm": 0.1,
+   "p": [
+    0.0782,
+    1.1016,
+    0.085
+   ]
+  },
+  {
+   "nom_en": "hilum of spleen",
+   "inconstant": false,
+   "cle": "FJ2561",
+   "cote": null,
+   "porteur": "Spleen",
+   "ecart_mm": 0.0,
+   "p": [
+    0.0843,
+    1.0878,
+    0.0947
+   ]
+  },
+  {
+   "nom_en": "inferior border of spleen",
+   "inconstant": false,
+   "cle": "FJ2561",
+   "cote": null,
+   "porteur": "Spleen",
+   "ecart_mm": 0.1,
+   "p": [
+    0.1011,
+    1.0537,
+    0.0818
+   ]
+  },
+  {
+   "nom_en": "posterior extremity of spleen",
+   "inconstant": false,
+   "cle": "FJ2561",
+   "cote": null,
+   "porteur": "Spleen",
+   "ecart_mm": 0.2,
+   "p": [
+    0.0731,
+    1.1071,
+    0.0477
+   ]
+  },
+  {
+   "nom_en": "renal impression of spleen",
+   "inconstant": false,
+   "cle": "FJ2561",
+   "cote": null,
+   "porteur": "Spleen",
+   "ecart_mm": 0.1,
+   "p": [
+    0.0795,
+    1.0782,
+    0.078
+   ]
+  },
+  {
+   "nom_en": "superior border of spleen",
+   "inconstant": false,
+   "cle": "FJ2561",
+   "cote": null,
+   "porteur": "Spleen",
+   "ecart_mm": 0.1,
+   "p": [
+    0.1012,
+    1.1095,
+    0.0995
+   ]
+  },
+  {
+   "nom_en": "visceral surface of spleen",
+   "inconstant": false,
+   "cle": "FJ2561",
+   "cote": null,
+   "porteur": "Spleen",
+   "ecart_mm": 0.1,
+   "p": [
+    0.072,
+    1.07,
+    0.1027
+   ]
+  },
+  {
+   "nom_en": "superior medulla oblongata",
+   "inconstant": false,
+   "cle": "FJ1769",
+   "cote": "gauche",
+   "porteur": "Medulla oblongata.l",
+   "ecart_mm": 0.3,
+   "p": [
+    0.0092,
+    1.4961,
+    0.0761
+   ]
+  },
+  {
+   "nom_en": "inferior medulla oblongata",
+   "inconstant": false,
+   "cle": "FJ1769",
+   "cote": "gauche",
+   "porteur": "Medulla oblongata.l",
+   "ecart_mm": 1.1,
+   "p": [
+    0.0068,
+    1.4784,
+    0.0652
+   ]
+  },
+  {
+   "nom_en": "anterior semicircular canal",
+   "inconstant": false,
+   "cle": "Vestibule.r",
+   "cote": "droit",
+   "porteur": "Vestibule.r",
+   "ecart_mm": 0.1,
+   "p": [
+    -0.0395,
+    1.516,
+    0.087
+   ]
+  },
+  {
+   "nom_en": "anterior semicircular canal",
+   "inconstant": false,
+   "cle": "Vestibule.l",
+   "cote": "gauche",
+   "porteur": "Vestibule.l",
+   "ecart_mm": 0.1,
+   "p": [
+    0.0381,
+    1.5161,
+    0.0867
+   ]
+  },
+  {
+   "nom_en": "anterior bony ampulla",
+   "inconstant": false,
+   "cle": "Vestibule.r",
+   "cote": "droit",
+   "porteur": "Vestibule.r",
+   "ecart_mm": 0.1,
+   "p": [
+    -0.0422,
+    1.512,
+    0.0907
+   ]
+  },
+  {
+   "nom_en": "anterior bony ampulla",
+   "inconstant": false,
+   "cle": "Vestibule.l",
+   "cote": "gauche",
+   "porteur": "Vestibule.l",
+   "ecart_mm": 0.1,
+   "p": [
+    0.0408,
+    1.5121,
+    0.0905
+   ]
+  },
+  {
+   "nom_en": "posterior semicircular canal",
+   "inconstant": false,
+   "cle": "Vestibule.r",
+   "cote": "droit",
+   "porteur": "Vestibule.r",
+   "ecart_mm": 0.1,
+   "p": [
+    -0.0398,
+    1.5064,
+    0.0814
+   ]
+  },
+  {
+   "nom_en": "posterior semicircular canal",
+   "inconstant": false,
+   "cle": "Vestibule.l",
+   "cote": "gauche",
+   "porteur": "Vestibule.l",
+   "ecart_mm": 0.1,
+   "p": [
+    0.0383,
+    1.5065,
+    0.0812
+   ]
+  },
+  {
+   "nom_en": "posterior bony ampulla",
+   "inconstant": false,
+   "cle": "Vestibule.r",
+   "cote": "droit",
+   "porteur": "Vestibule.r",
+   "ecart_mm": 0.2,
+   "p": [
+    -0.0401,
+    1.5037,
+    0.0892
+   ]
+  },
+  {
+   "nom_en": "posterior bony ampulla",
+   "inconstant": false,
+   "cle": "Vestibule.l",
+   "cote": "gauche",
+   "porteur": "Vestibule.l",
+   "ecart_mm": 0.2,
+   "p": [
+    0.0387,
+    1.5038,
+    0.0889
+   ]
+  },
+  {
+   "nom_en": "common bony limb",
+   "inconstant": false,
+   "cle": "Vestibule.r",
+   "cote": "droit",
+   "porteur": "Vestibule.r",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0374,
+    1.5081,
+    0.0886
+   ]
+  },
+  {
+   "nom_en": "common bony limb",
+   "inconstant": false,
+   "cle": "Vestibule.l",
+   "cote": "gauche",
+   "porteur": "Vestibule.l",
+   "ecart_mm": 0.0,
+   "p": [
+    0.036,
+    1.5082,
+    0.0884
+   ]
+  },
+  {
+   "nom_en": "lateral semicircular canal",
+   "inconstant": false,
+   "cle": "Vestibule.r",
+   "cote": "droit",
+   "porteur": "Vestibule.r",
+   "ecart_mm": 0.1,
+   "p": [
+    -0.0454,
+    1.5089,
+    0.0857
+   ]
+  },
+  {
+   "nom_en": "lateral semicircular canal",
+   "inconstant": false,
+   "cle": "Vestibule.l",
+   "cote": "gauche",
+   "porteur": "Vestibule.l",
+   "ecart_mm": 0.1,
+   "p": [
+    0.0439,
+    1.509,
+    0.0854
+   ]
+  },
+  {
+   "nom_en": "lateral bony ampulla",
+   "inconstant": false,
+   "cle": "Vestibule.r",
+   "cote": "droit",
+   "porteur": "Vestibule.r",
+   "ecart_mm": 0.1,
+   "p": [
+    -0.0447,
+    1.5099,
+    0.0894
+   ]
+  },
+  {
+   "nom_en": "lateral bony ampulla",
+   "inconstant": false,
+   "cle": "Vestibule.l",
+   "cote": "gauche",
+   "porteur": "Vestibule.l",
+   "ecart_mm": 0.1,
+   "p": [
+    0.0433,
+    1.5101,
+    0.0891
+   ]
+  },
+  {
+   "nom_en": "simple bony limb",
+   "inconstant": false,
+   "cle": "Vestibule.r",
+   "cote": "droit",
+   "porteur": "Vestibule.r",
+   "ecart_mm": 0.1,
+   "p": [
+    -0.0408,
+    1.5069,
+    0.086
+   ]
+  },
+  {
+   "nom_en": "simple bony limb",
+   "inconstant": false,
+   "cle": "Vestibule.l",
+   "cote": "gauche",
+   "porteur": "Vestibule.l",
+   "ecart_mm": 0.1,
+   "p": [
+    0.0394,
+    1.507,
+    0.0857
+   ]
+  },
+  {
+   "nom_en": "cochlear cupula",
+   "inconstant": false,
+   "cle": "Cochlea.r",
+   "cote": "droit",
+   "porteur": "Cochlea.r",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0422,
+    1.5075,
+    0.0987
+   ]
+  },
+  {
+   "nom_en": "cochlear cupula",
+   "inconstant": false,
+   "cle": "Cochlea.l",
+   "cote": "gauche",
+   "porteur": "Cochlea.l",
+   "ecart_mm": 0.0,
+   "p": [
+    0.0409,
+    1.5076,
+    0.0984
+   ]
+  },
+  {
+   "nom_en": "base of cochlea",
+   "inconstant": false,
+   "cle": "Cochlea.r",
+   "cote": "droit",
+   "porteur": "Cochlea.r",
+   "ecart_mm": 0.1,
+   "p": [
+    -0.0435,
+    1.5053,
+    0.0928
+   ]
+  },
+  {
+   "nom_en": "base of cochlea",
+   "inconstant": false,
+   "cle": "Cochlea.l",
+   "cote": "gauche",
+   "porteur": "Cochlea.l",
+   "ecart_mm": 0.1,
+   "p": [
+    0.0421,
+    1.5054,
+    0.0925
+   ]
+  },
+  {
+   "nom_en": "spiral canal of cochlea",
+   "inconstant": false,
+   "cle": "Cochlea.r",
+   "cote": "droit",
+   "porteur": "Cochlea.r",
+   "ecart_mm": 0.1,
+   "p": [
+    -0.0398,
+    1.504,
+    0.0988
+   ]
+  },
+  {
+   "nom_en": "spiral canal of cochlea",
+   "inconstant": false,
+   "cle": "Cochlea.l",
+   "cote": "gauche",
+   "porteur": "Cochlea.l",
+   "ecart_mm": 0.1,
+   "p": [
+    0.0384,
+    1.5041,
+    0.0985
+   ]
+  },
+  {
+   "nom_en": "sulcus sclerae",
+   "inconstant": false,
+   "cle": "FJ1340",
+   "cote": "droit",
+   "porteur": "Cornea.r",
+   "ecart_mm": 0.4,
+   "p": [
+    -0.031,
+    1.5248,
+    0.163
+   ]
+  },
+  {
+   "nom_en": "sulcus sclerae",
+   "inconstant": false,
+   "cle": "FJ1289",
+   "cote": "gauche",
+   "porteur": "Cornea.l",
+   "ecart_mm": 0.3,
+   "p": [
+    0.0297,
+    1.5248,
+    0.1631
+   ]
+  },
+  {
+   "nom_en": "sphincter pupillae",
+   "inconstant": false,
+   "cle": "FJ1348",
+   "cote": "droit",
+   "porteur": "Iris.r",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0323,
+    1.5166,
+    0.1614
+   ]
+  },
+  {
+   "nom_en": "sphincter pupillae",
+   "inconstant": false,
+   "cle": "FJ1297",
+   "cote": "gauche",
+   "porteur": "Iris.l",
+   "ecart_mm": 0.1,
+   "p": [
+    0.0309,
+    1.5167,
+    0.1614
+   ]
+  },
+  {
+   "nom_en": "pupillary margin of iris",
+   "inconstant": false,
+   "cle": "FJ1348",
+   "cote": "droit",
+   "porteur": "Iris.r",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0312,
+    1.5194,
+    0.1624
+   ]
+  },
+  {
+   "nom_en": "pupillary margin of iris",
+   "inconstant": false,
+   "cle": "FJ1297",
+   "cote": "gauche",
+   "porteur": "Iris.l",
+   "ecart_mm": 0.1,
+   "p": [
+    0.03,
+    1.5194,
+    0.1624
+   ]
+  },
+  {
+   "nom_en": "pupil",
+   "inconstant": false,
+   "cle": "FJ1348",
+   "cote": "droit",
+   "porteur": "Iris.r",
+   "ecart_mm": 1.5,
+   "p": [
+    -0.0317,
+    1.5192,
+    0.1622
+   ]
+  },
+  {
+   "nom_en": "pupil",
+   "inconstant": false,
+   "cle": "FJ1297",
+   "cote": "gauche",
+   "porteur": "Iris.l",
+   "ecart_mm": 1.5,
+   "p": [
+    0.0301,
+    1.5193,
+    0.1622
+   ]
+  },
+  {
+   "nom_en": "posterior surface of iris",
+   "inconstant": false,
+   "cle": "FJ1348",
+   "cote": "droit",
+   "porteur": "Iris.r",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0308,
+    1.5142,
+    0.1611
+   ]
+  },
+  {
+   "nom_en": "posterior surface of iris",
+   "inconstant": false,
+   "cle": "FJ1297",
+   "cote": "gauche",
+   "porteur": "Iris.l",
+   "ecart_mm": 0.8,
+   "p": [
+    0.0287,
+    1.5143,
+    0.1612
+   ]
+  },
+  {
+   "nom_en": "posterior surface of cornea",
+   "inconstant": false,
+   "cle": "FJ1340",
+   "cote": "droit",
+   "porteur": "Cornea.r",
+   "ecart_mm": 0.2,
+   "p": [
+    -0.0302,
+    1.5163,
+    0.165
+   ]
+  },
+  {
+   "nom_en": "posterior surface of cornea",
+   "inconstant": false,
+   "cle": "FJ1289",
+   "cote": "gauche",
+   "porteur": "Cornea.l",
+   "ecart_mm": 0.2,
+   "p": [
+    0.0287,
+    1.5162,
+    0.165
+   ]
+  },
+  {
+   "nom_en": "posterior pole of eyeball",
+   "inconstant": false,
+   "cle": "FJ1368",
+   "cote": "droit",
+   "porteur": "Sclera.r",
+   "ecart_mm": 0.3,
+   "p": [
+    -0.0299,
+    1.5189,
+    0.1389
+   ]
+  },
+  {
+   "nom_en": "posterior pole of eyeball",
+   "inconstant": false,
+   "cle": "FJ1317",
+   "cote": "gauche",
+   "porteur": "Sclera.l",
+   "ecart_mm": 0.3,
+   "p": [
+    0.0283,
+    1.5187,
+    0.1389
+   ]
+  },
+  {
+   "nom_en": "folds of iris",
+   "inconstant": false,
+   "cle": "FJ1348",
+   "cote": "droit",
+   "porteur": "Iris.r",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0318,
+    1.5213,
+    0.1625
+   ]
+  },
+  {
+   "nom_en": "folds of iris",
+   "inconstant": false,
+   "cle": "FJ1297",
+   "cote": "gauche",
+   "porteur": "Iris.l",
+   "ecart_mm": 0.3,
+   "p": [
+    0.0308,
+    1.5215,
+    0.1624
+   ]
+  },
+  {
+   "nom_en": "eyeball",
+   "inconstant": false,
+   "cle": "FJ1368",
+   "cote": "droit",
+   "porteur": "Sclera.r",
+   "ecart_mm": 0.4,
+   "p": [
+    -0.0432,
+    1.5182,
+    0.1486
+   ]
+  },
+  {
+   "nom_en": "eyeball",
+   "inconstant": false,
+   "cle": "FJ1317",
+   "cote": "gauche",
+   "porteur": "Sclera.l",
+   "ecart_mm": 0.3,
+   "p": [
+    0.0419,
+    1.5181,
+    0.1488
+   ]
+  },
+  {
+   "nom_en": "dilator pupillae",
+   "inconstant": false,
+   "cle": "FJ1348",
+   "cote": "droit",
+   "porteur": "Iris.r",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0286,
+    1.5199,
+    0.1615
+   ]
+  },
+  {
+   "nom_en": "dilator pupillae",
+   "inconstant": false,
+   "cle": "FJ1297",
+   "cote": "gauche",
+   "porteur": "Iris.l",
+   "ecart_mm": 0.6,
+   "p": [
+    0.0274,
+    1.5205,
+    0.1614
+   ]
+  },
+  {
+   "nom_en": "corneoscleral junction",
+   "inconstant": false,
+   "cle": "FJ1340",
+   "cote": "droit",
+   "porteur": "Cornea.r",
+   "ecart_mm": 0.3,
+   "p": [
+    -0.0361,
+    1.5227,
+    0.1628
+   ]
+  },
+  {
+   "nom_en": "corneoscleral junction",
+   "inconstant": false,
+   "cle": "FJ1289",
+   "cote": "gauche",
+   "porteur": "Cornea.l",
+   "ecart_mm": 0.4,
+   "p": [
+    0.0344,
+    1.5231,
+    0.1627
+   ]
+  },
+  {
+   "nom_en": "anterior surface of iris",
+   "inconstant": false,
+   "cle": "FJ1348",
+   "cote": "droit",
+   "porteur": "Iris.r",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0275,
+    1.5152,
+    0.1624
+   ]
+  },
+  {
+   "nom_en": "anterior surface of iris",
+   "inconstant": false,
+   "cle": "FJ1297",
+   "cote": "gauche",
+   "porteur": "Iris.l",
+   "ecart_mm": 0.1,
+   "p": [
+    0.026,
+    1.5153,
+    0.1624
+   ]
+  },
+  {
+   "nom_en": "anterior surface of cornea",
+   "inconstant": false,
+   "cle": "FJ1340",
+   "cote": "droit",
+   "porteur": "Cornea.r",
+   "ecart_mm": 0.2,
+   "p": [
+    -0.0333,
+    1.5127,
+    0.164
+   ]
+  },
+  {
+   "nom_en": "anterior surface of cornea",
+   "inconstant": false,
+   "cle": "FJ1289",
+   "cote": "gauche",
+   "porteur": "Cornea.l",
+   "ecart_mm": 0.1,
+   "p": [
+    0.0321,
+    1.5128,
+    0.1639
+   ]
+  },
+  {
+   "nom_en": "anterior pole of eyeball",
+   "inconstant": false,
+   "cle": "FJ1340",
+   "cote": "droit",
+   "porteur": "Cornea.r",
+   "ecart_mm": 0.2,
+   "p": [
+    -0.0312,
+    1.5179,
+    0.166
+   ]
+  },
+  {
+   "nom_en": "anterior pole of eyeball",
+   "inconstant": false,
+   "cle": "FJ1289",
+   "cote": "gauche",
+   "porteur": "Cornea.l",
+   "ecart_mm": 0.2,
+   "p": [
+    0.03,
+    1.5176,
+    0.166
+   ]
+  },
+  {
+   "nom_en": "anterior median fissure of medulla oblongata",
+   "inconstant": false,
+   "cle": "FJ1831",
+   "cote": "droit",
+   "porteur": "Medulla oblongata.r",
+   "ecart_mm": 0.2,
+   "p": [
+    -0.0007,
+    1.4771,
+    0.0675
+   ]
+  },
+  {
+   "nom_en": "retro-olivary groove",
+   "inconstant": false,
+   "cle": "FJ1831",
+   "cote": "droit",
+   "porteur": "Medulla oblongata.r",
+   "ecart_mm": 0.1,
+   "p": [
+    -0.012,
+    1.4971,
+    0.0692
+   ]
+  },
+  {
+   "nom_en": "olive",
+   "inconstant": false,
+   "cle": "FJ1831",
+   "cote": "droit",
+   "porteur": "Medulla oblongata.r",
+   "ecart_mm": 0.2,
+   "p": [
+    -0.0129,
+    1.4965,
+    0.0741
+   ]
+  },
+  {
+   "nom_en": "anterolateral sulcus of medulla oblongata",
+   "inconstant": false,
+   "cle": "FJ1831",
+   "cote": "droit",
+   "porteur": "Medulla oblongata.r",
+   "ecart_mm": 0.3,
+   "p": [
+    -0.0068,
+    1.4748,
+    0.0653
+   ]
+  },
+  {
+   "nom_en": "lateral funiculus of medulla oblongata",
+   "inconstant": false,
+   "cle": "FJ1831",
+   "cote": "droit",
+   "porteur": "Medulla oblongata.r",
+   "ecart_mm": 0.5,
+   "p": [
+    -0.0089,
+    1.4783,
+    0.0633
+   ]
+  },
+  {
+   "nom_en": "trigeminal tubercle",
+   "inconstant": false,
+   "cle": "FJ1831",
+   "cote": "droit",
+   "porteur": "Medulla oblongata.r",
+   "ecart_mm": 0.2,
+   "p": [
+    -0.0112,
+    1.4931,
+    0.0655
+   ]
+  },
+  {
+   "nom_en": "gracile tubercle",
+   "inconstant": false,
+   "cle": "FJ1831",
+   "cote": "droit",
+   "porteur": "Medulla oblongata.r",
+   "ecart_mm": 0.4,
+   "p": [
+    -0.0041,
+    1.4912,
+    0.057
+   ]
+  },
+  {
+   "nom_en": "cuneate tubercle",
+   "inconstant": false,
+   "cle": "FJ1831",
+   "cote": "droit",
+   "porteur": "Medulla oblongata.r",
+   "ecart_mm": 0.3,
+   "p": [
+    -0.009,
+    1.4922,
+    0.0608
+   ]
+  },
+  {
+   "nom_en": "posterior median sulcus of medulla oblongata",
+   "inconstant": false,
+   "cle": "FJ1831",
+   "cote": "droit",
+   "porteur": "Medulla oblongata.r",
+   "ecart_mm": 0.3,
+   "p": [
+    -0.0007,
+    1.4788,
+    0.055
+   ]
+  },
+  {
+   "nom_en": "posterolateral sulcus of medulla oblongata",
+   "inconstant": false,
+   "cle": "FJ1831",
+   "cote": "droit",
+   "porteur": "Medulla oblongata.r",
+   "ecart_mm": 0.4,
+   "p": [
+    -0.0089,
+    1.4823,
+    0.0628
+   ]
+  },
+  {
+   "nom_en": "pyramid of medulla oblongata",
+   "inconstant": false,
+   "cle": "FJ1831",
+   "cote": "droit",
+   "porteur": "Medulla oblongata.r",
+   "ecart_mm": 0.3,
+   "p": [
+    -0.0055,
+    1.4951,
+    0.081
+   ]
+  },
+  {
+   "nom_en": "pyramidal lobe",
+   "inconstant": true,
+   "cle": "Thyroid gland",
+   "cote": null,
+   "porteur": "Thyroid gland",
+   "ecart_mm": 0.1,
+   "p": [
+    -0.0006,
+    1.4083,
+    0.124
+   ]
+  },
+  {
+   "nom_en": "angular incisure",
+   "inconstant": false,
+   "cle": "FJ2564",
+   "cote": null,
+   "porteur": "Stomach",
+   "ecart_mm": 1.6,
+   "p": [
+    -0.0121,
+    1.0754,
+    0.1585
+   ]
+  },
+  {
+   "nom_en": "anterior basal segment of left lung (sviii)",
+   "inconstant": false,
+   "cle": "Inferior lobe of left lung",
+   "cote": null,
+   "porteur": "Inferior lobe of left lung",
+   "ecart_mm": 0.3,
+   "p": [
+    0.1131,
+    1.141,
+    0.1657
+   ]
+  },
+  {
+   "nom_en": "anterior border of lung",
+   "inconstant": false,
+   "cle": "Superior lobe of right lung",
+   "cote": null,
+   "porteur": "Superior lobe of right lung",
+   "ecart_mm": 1.6,
+   "p": [
+    -0.0095,
+    1.2704,
+    0.1641
+   ]
+  },
+  {
+   "nom_en": "anterior border of pancreas",
+   "inconstant": false,
+   "cle": "FJ2629",
+   "cote": null,
+   "porteur": "Pancreas",
+   "ecart_mm": 3.4,
+   "p": [
+    0.0178,
+    1.054,
+    0.1382
+   ]
+  },
+  {
+   "nom_en": "anterior border of testis",
+   "inconstant": false,
+   "cle": "FJ3142",
+   "cote": "droit",
+   "porteur": "Testis.r",
+   "ecart_mm": 2.4,
+   "p": [
+    -0.0189,
+    0.6997,
+    0.1623
+   ]
+  },
+  {
+   "nom_en": "anterior border of testis",
+   "inconstant": false,
+   "cle": "FJ3138",
+   "cote": "gauche",
+   "porteur": "Testis.l",
+   "ecart_mm": 3.8,
+   "p": [
+    0.0205,
+    0.7014,
+    0.1625
+   ]
+  },
+  {
+   "nom_en": "anterior lateral segment of liver (vi)",
+   "inconstant": false,
+   "cle": "FJ2822",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 2.5,
+   "p": [
+    -0.1071,
+    1.0488,
+    0.0996
+   ]
+  },
+  {
+   "nom_en": "anterior medial segment of liver (v)",
+   "inconstant": false,
+   "cle": "FJ2821",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 0.8,
+   "p": [
+    -0.0752,
+    1.0922,
+    0.1822
+   ]
+  },
+  {
+   "nom_en": "anterior segment of left lung (siii)",
+   "inconstant": false,
+   "cle": "Superior lobe of left lung",
+   "cote": null,
+   "porteur": "Superior lobe of left lung",
+   "ecart_mm": 0.2,
+   "p": [
+    0.0533,
+    1.2699,
+    0.1526
+   ]
+  },
+  {
+   "nom_en": "anterior segment of right lung (siii)",
+   "inconstant": false,
+   "cle": "Superior lobe of right lung",
+   "cote": null,
+   "porteur": "Superior lobe of right lung",
+   "ecart_mm": 0.1,
+   "p": [
+    -0.0452,
+    1.2483,
+    0.167
+   ]
+  },
+  {
+   "nom_en": "anterior surface of kidney",
+   "inconstant": false,
+   "cle": "FJ3147",
+   "cote": "droit",
+   "porteur": "Kidney.r",
+   "ecart_mm": 0.1,
+   "p": [
+    -0.0704,
+    1.0194,
+    0.1019
+   ]
+  },
+  {
+   "nom_en": "anterior surface of kidney",
+   "inconstant": false,
+   "cle": "FJ3145",
+   "cote": "gauche",
+   "porteur": "Kidney.l",
+   "ecart_mm": 4.9,
+   "p": [
+    0.0678,
+    1.0189,
+    0.0979
+   ]
+  },
+  {
+   "nom_en": "anterior surface of liver",
+   "inconstant": false,
+   "cle": "FJ2824",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 0.7,
+   "p": [
+    -0.0499,
+    1.1323,
+    0.1951
+   ]
+  },
+  {
+   "nom_en": "anterior surface of suprarenal gland",
+   "inconstant": false,
+   "cle": "FJ3130",
+   "cote": "droit",
+   "porteur": "Suprarenal gland.r",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0433,
+    1.0765,
+    0.0941
+   ]
+  },
+  {
+   "nom_en": "anterior wall of stomach",
+   "inconstant": false,
+   "cle": "FJ2564",
+   "cote": null,
+   "porteur": "Stomach",
+   "ecart_mm": 4.0,
+   "p": [
+    0.0595,
+    1.1065,
+    0.1857
+   ]
+  },
+  {
+   "nom_en": "antero-inferior surface of pancreas",
+   "inconstant": false,
+   "cle": "FJ1895",
+   "cote": null,
+   "porteur": "Pancreas",
+   "ecart_mm": 0.6,
+   "p": [
+    0.0177,
+    1.0427,
+    0.1404
+   ]
+  },
+  {
+   "nom_en": "anterosuperior surface of pancreas",
+   "inconstant": false,
+   "cle": "FJ2629",
+   "cote": null,
+   "porteur": "Pancreas",
+   "ecart_mm": 0.6,
+   "p": [
+    0.0155,
+    1.0641,
+    0.1368
+   ]
+  },
+  {
+   "nom_en": "apex of bladder",
+   "inconstant": false,
+   "cle": "FJ3149",
+   "cote": null,
+   "porteur": "Urinary bladder",
+   "ecart_mm": 7.5,
+   "p": [
+    -0.0006,
+    0.8173,
+    0.1282
+   ]
+  },
+  {
+   "nom_en": "apex of lung",
+   "inconstant": false,
+   "cle": "Superior lobe of right lung",
+   "cote": null,
+   "porteur": "Superior lobe of right lung",
+   "ecart_mm": 1.7,
+   "p": [
+    -0.0341,
+    1.356,
+    0.0787
+   ]
+  },
+  {
+   "nom_en": "apical segment of right lung (si)",
+   "inconstant": false,
+   "cle": "Superior lobe of right lung",
+   "cote": null,
+   "porteur": "Superior lobe of right lung",
+   "ecart_mm": 1.2,
+   "p": [
+    -0.0237,
+    1.3435,
+    0.0926
+   ]
+  },
+  {
+   "nom_en": "apicoposterior segment of left lung (si+sii)",
+   "inconstant": false,
+   "cle": "Superior lobe of left lung",
+   "cote": null,
+   "porteur": "Superior lobe of left lung",
+   "ecart_mm": 1.3,
+   "p": [
+    0.0315,
+    1.3567,
+    0.0937
+   ]
+  },
+  {
+   "nom_en": "bare area of liver",
+   "inconstant": false,
+   "cle": "FJ2824",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 4.2,
+   "p": [
+    -0.0474,
+    1.1778,
+    0.0853
+   ]
+  },
+  {
+   "nom_en": "base of lung",
+   "inconstant": false,
+   "cle": "Inferior lobe of right lung",
+   "cote": null,
+   "porteur": "Inferior lobe of right lung",
+   "ecart_mm": 0.6,
+   "p": [
+    -0.0742,
+    1.1711,
+    0.0671
+   ]
+  },
+  {
+   "nom_en": "body of bladder",
+   "inconstant": false,
+   "cle": "FJ3149",
+   "cote": null,
+   "porteur": "Urinary bladder",
+   "ecart_mm": 10.8,
+   "p": [
+    -0.0048,
+    0.83,
+    0.0705
+   ]
+  },
+  {
+   "nom_en": "body of gallbladder",
+   "inconstant": false,
+   "cle": "FJ2817",
+   "cote": null,
+   "porteur": "Gallbladder",
+   "ecart_mm": 0.8,
+   "p": [
+    -0.0621,
+    1.0665,
+    0.1508
+   ]
+  },
+  {
+   "nom_en": "body of pancreas",
+   "inconstant": false,
+   "cle": "FJ1895",
+   "cote": null,
+   "porteur": "Pancreas",
+   "ecart_mm": 0.5,
+   "p": [
+    0.0027,
+    1.0518,
+    0.1451
+   ]
+  },
+  {
+   "nom_en": "body of stomach",
+   "inconstant": false,
+   "cle": "FJ2564",
+   "cote": null,
+   "porteur": "Stomach",
+   "ecart_mm": 1.4,
+   "p": [
+    0.0857,
+    1.0908,
+    0.1749
+   ]
+  },
+  {
+   "nom_en": "cardia",
+   "inconstant": false,
+   "cle": "FJ2564",
+   "cote": null,
+   "porteur": "Stomach",
+   "ecart_mm": 2.9,
+   "p": [
+    0.0123,
+    1.129,
+    0.1249
+   ]
+  },
+  {
+   "nom_en": "cardiac impression of liver",
+   "inconstant": false,
+   "cle": "FJ2820",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 2.3,
+   "p": [
+    0.0089,
+    1.1698,
+    0.1401
+   ]
+  },
+  {
+   "nom_en": "cardiac impression of lung",
+   "inconstant": false,
+   "cle": "Superior lobe of right lung",
+   "cote": null,
+   "porteur": "Superior lobe of right lung",
+   "ecart_mm": 0.1,
+   "p": [
+    -0.0306,
+    1.2428,
+    0.1338
+   ]
+  },
+  {
+   "nom_en": "cardiac notch",
+   "inconstant": false,
+   "cle": "FJ2564",
+   "cote": null,
+   "porteur": "Stomach",
+   "ecart_mm": 1.3,
+   "p": [
+    0.0168,
+    1.1336,
+    0.1219
+   ]
+  },
+  {
+   "nom_en": "cardiac notch of left lung",
+   "inconstant": false,
+   "cle": "Superior lobe of left lung",
+   "cote": null,
+   "porteur": "Superior lobe of left lung",
+   "ecart_mm": 0.8,
+   "p": [
+    0.0453,
+    1.2038,
+    0.1819
+   ]
+  },
+  {
+   "nom_en": "caudate process",
+   "inconstant": false,
+   "cle": "FJ2816",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 1.7,
+   "p": [
+    -0.0272,
+    1.0977,
+    0.1219
+   ]
+  },
+  {
+   "nom_en": "colic impression of liver",
+   "inconstant": false,
+   "cle": "FJ2822",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 2.3,
+   "p": [
+    -0.0892,
+    1.0595,
+    0.1253
+   ]
+  },
+  {
+   "nom_en": "costal surface of lung",
+   "inconstant": false,
+   "cle": "Superior lobe of right lung",
+   "cote": null,
+   "porteur": "Superior lobe of right lung",
+   "ecart_mm": 0.3,
+   "p": [
+    -0.0652,
+    1.2556,
+    0.1555
+   ]
+  },
+  {
+   "nom_en": "diaphragmatic surface of lung",
+   "inconstant": false,
+   "cle": "Inferior lobe of right lung",
+   "cote": null,
+   "porteur": "Inferior lobe of right lung",
+   "ecart_mm": 0.4,
+   "p": [
+    -0.0911,
+    1.177,
+    0.0877
+   ]
+  },
+  {
+   "nom_en": "diaphragmatic surface of liver",
+   "inconstant": false,
+   "cle": "FJ2824",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 5.5,
+   "p": [
+    -0.0467,
+    1.1827,
+    0.137
+   ]
+  },
+  {
+   "nom_en": "duodenal impression of liver",
+   "inconstant": false,
+   "cle": "FJ2821",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 1.9,
+   "p": [
+    -0.0653,
+    1.071,
+    0.157
+   ]
+  },
+  {
+   "nom_en": "fibrous appendix of liver",
+   "inconstant": false,
+   "cle": "FJ2818",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 2.0,
+   "p": [
+    0.0933,
+    1.142,
+    0.147
+   ]
+  },
+  {
+   "nom_en": "fissure for ligamentum teres",
+   "inconstant": false,
+   "cle": "FJ2820",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 1.6,
+   "p": [
+    -0.0008,
+    1.1019,
+    0.1723
+   ]
+  },
+  {
+   "nom_en": "fissure for ligamentum venosum",
+   "inconstant": false,
+   "cle": "FJ2820",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 1.0,
+   "p": [
+    0.0069,
+    1.1269,
+    0.128
+   ]
+  },
+  {
+   "nom_en": "fossa for gallbladder",
+   "inconstant": false,
+   "cle": "FJ2821",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 1.5,
+   "p": [
+    -0.044,
+    1.0867,
+    0.1397
+   ]
+  },
+  {
+   "nom_en": "fundus of bladder",
+   "inconstant": false,
+   "cle": "FJ3149",
+   "cote": null,
+   "porteur": "Urinary bladder",
+   "ecart_mm": 6.9,
+   "p": [
+    0.0035,
+    0.8179,
+    0.0565
+   ]
+  },
+  {
+   "nom_en": "fundus of gallbladder",
+   "inconstant": false,
+   "cle": "FJ2817",
+   "cote": null,
+   "porteur": "Gallbladder",
+   "ecart_mm": 1.0,
+   "p": [
+    -0.0525,
+    1.056,
+    0.1772
+   ]
+  },
+  {
+   "nom_en": "fundus of stomach",
+   "inconstant": false,
+   "cle": "FJ2564",
+   "cote": null,
+   "porteur": "Stomach",
+   "ecart_mm": 4.5,
+   "p": [
+    0.0541,
+    1.1552,
+    0.1319
+   ]
+  },
+  {
+   "nom_en": "gastric impression of liver",
+   "inconstant": false,
+   "cle": "FJ2818",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 1.3,
+   "p": [
+    0.0449,
+    1.1558,
+    0.1302
+   ]
+  },
+  {
+   "nom_en": "greater curvature of stomach",
+   "inconstant": false,
+   "cle": "FJ2564",
+   "cote": null,
+   "porteur": "Stomach",
+   "ecart_mm": 2.1,
+   "p": [
+    0.0901,
+    1.0659,
+    0.1524
+   ]
+  },
+  {
+   "nom_en": "head of pancreas",
+   "inconstant": false,
+   "cle": "FJ2629",
+   "cote": null,
+   "porteur": "Pancreas",
+   "ecart_mm": 0.5,
+   "p": [
+    -0.0316,
+    1.0285,
+    0.1387
+   ]
+  },
+  {
+   "nom_en": "hilum of kidney",
+   "inconstant": false,
+   "cle": "FJ3147",
+   "cote": "droit",
+   "porteur": "Kidney.r",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0474,
+    1.0199,
+    0.0921
+   ]
+  },
+  {
+   "nom_en": "hilum of kidney",
+   "inconstant": false,
+   "cle": "FJ3145",
+   "cote": "gauche",
+   "porteur": "Kidney.l",
+   "ecart_mm": 1.2,
+   "p": [
+    0.047,
+    1.0209,
+    0.0928
+   ]
+  },
+  {
+   "nom_en": "hilum of lung",
+   "inconstant": false,
+   "cle": "Superior lobe of right lung",
+   "cote": null,
+   "porteur": "Superior lobe of right lung",
+   "ecart_mm": 0.7,
+   "p": [
+    -0.0267,
+    1.2541,
+    0.0864
+   ]
+  },
+  {
+   "nom_en": "hilum of suprarenal gland",
+   "inconstant": false,
+   "cle": "FJ3130",
+   "cote": "droit",
+   "porteur": "Suprarenal gland.r",
+   "ecart_mm": 0.1,
+   "p": [
+    -0.0318,
+    1.0613,
+    0.1006
+   ]
+  },
+  {
+   "nom_en": "horizontal fissure of right lung",
+   "inconstant": false,
+   "cle": "Middle lobe of right lung",
+   "cote": null,
+   "porteur": "Middle lobe of right lung",
+   "ecart_mm": 1.3,
+   "p": [
+    -0.1189,
+    1.2365,
+    0.0861
+   ]
+  },
+  {
+   "nom_en": "inferior border of liver",
+   "inconstant": false,
+   "cle": "FJ2820",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 2.3,
+   "p": [
+    -0.0357,
+    1.0629,
+    0.1854
+   ]
+  },
+  {
+   "nom_en": "inferior border of lung",
+   "inconstant": false,
+   "cle": "Middle lobe of right lung",
+   "cote": null,
+   "porteur": "Middle lobe of right lung",
+   "ecart_mm": 1.7,
+   "p": [
+    -0.0503,
+    1.1494,
+    0.1995
+   ]
+  },
+  {
+   "nom_en": "inferior border of pancreas",
+   "inconstant": false,
+   "cle": "FJ2629",
+   "cote": null,
+   "porteur": "Pancreas",
+   "ecart_mm": 0.7,
+   "p": [
+    0.0371,
+    1.0484,
+    0.1183
+   ]
+  },
+  {
+   "nom_en": "inferior lingular segment of left lung (sv)",
+   "inconstant": false,
+   "cle": "Superior lobe of left lung",
+   "cote": null,
+   "porteur": "Superior lobe of left lung",
+   "ecart_mm": 0.4,
+   "p": [
+    0.0856,
+    1.183,
+    0.1825
+   ]
+  },
+  {
+   "nom_en": "inferior pole of kidney",
+   "inconstant": false,
+   "cle": "FJ3147",
+   "cote": "droit",
+   "porteur": "Kidney.r",
+   "ecart_mm": 0.2,
+   "p": [
+    -0.0478,
+    0.9671,
+    0.1002
+   ]
+  },
+  {
+   "nom_en": "inferior pole of testis",
+   "inconstant": false,
+   "cle": "FJ3142",
+   "cote": "droit",
+   "porteur": "Testis.r",
+   "ecart_mm": 1.0,
+   "p": [
+    -0.0191,
+    0.6908,
+    0.1485
+   ]
+  },
+  {
+   "nom_en": "inferior pole of testis",
+   "inconstant": false,
+   "cle": "FJ3138",
+   "cote": "gauche",
+   "porteur": "Testis.l",
+   "ecart_mm": 1.1,
+   "p": [
+    0.0146,
+    0.6907,
+    0.1485
+   ]
+  },
+  {
+   "nom_en": "infundibulum of gallbladder",
+   "inconstant": false,
+   "cle": "FJ2817",
+   "cote": null,
+   "porteur": "Gallbladder",
+   "ecart_mm": 0.6,
+   "p": [
+    -0.0428,
+    1.0783,
+    0.1304
+   ]
+  },
+  {
+   "nom_en": "interlobar surface of lung",
+   "inconstant": false,
+   "cle": "Middle lobe of right lung",
+   "cote": null,
+   "porteur": "Middle lobe of right lung",
+   "ecart_mm": 0.1,
+   "p": [
+    -0.0697,
+    1.2297,
+    0.112
+   ]
+  },
+  {
+   "nom_en": "isthmus of thyroid gland",
+   "inconstant": false,
+   "cle": "Thyroid gland",
+   "cote": null,
+   "porteur": "Thyroid gland",
+   "ecart_mm": 0.2,
+   "p": [
+    -0.0005,
+    1.3889,
+    0.1133
+   ]
+  },
+  {
+   "nom_en": "lateral basal segment of left lung (six)",
+   "inconstant": false,
+   "cle": "Inferior lobe of left lung",
+   "cote": null,
+   "porteur": "Inferior lobe of left lung",
+   "ecart_mm": 0.2,
+   "p": [
+    0.1262,
+    1.1368,
+    0.0932
+   ]
+  },
+  {
+   "nom_en": "lateral basal segment of right lung (six)",
+   "inconstant": false,
+   "cle": "Inferior lobe of right lung",
+   "cote": null,
+   "porteur": "Inferior lobe of right lung",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.1144,
+    1.1361,
+    0.0559
+   ]
+  },
+  {
+   "nom_en": "lateral border of kidney",
+   "inconstant": false,
+   "cle": "FJ3147",
+   "cote": "droit",
+   "porteur": "Kidney.r",
+   "ecart_mm": 0.1,
+   "p": [
+    -0.0856,
+    1.0116,
+    0.0763
+   ]
+  },
+  {
+   "nom_en": "lateral border of kidney",
+   "inconstant": false,
+   "cle": "FJ3145",
+   "cote": "gauche",
+   "porteur": "Kidney.l",
+   "ecart_mm": 2.4,
+   "p": [
+    0.0875,
+    1.0125,
+    0.0776
+   ]
+  },
+  {
+   "nom_en": "lateral segment of right lung (siv)",
+   "inconstant": false,
+   "cle": "Middle lobe of right lung",
+   "cote": null,
+   "porteur": "Middle lobe of right lung",
+   "ecart_mm": 0.2,
+   "p": [
+    -0.1098,
+    1.2018,
+    0.1488
+   ]
+  },
+  {
+   "nom_en": "lateral surface of testis",
+   "inconstant": false,
+   "cle": "FJ3142",
+   "cote": "droit",
+   "porteur": "Testis.r",
+   "ecart_mm": 1.3,
+   "p": [
+    -0.0308,
+    0.7047,
+    0.1503
+   ]
+  },
+  {
+   "nom_en": "lateral surface of testis",
+   "inconstant": false,
+   "cle": "FJ3138",
+   "cote": "gauche",
+   "porteur": "Testis.l",
+   "ecart_mm": 2.8,
+   "p": [
+    0.0276,
+    0.7057,
+    0.1486
+   ]
+  },
+  {
+   "nom_en": "left anterior lateral segment of liver (iii)",
+   "inconstant": false,
+   "cle": "FJ2819",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 3.4,
+   "p": [
+    0.0283,
+    1.1056,
+    0.1999
+   ]
+  },
+  {
+   "nom_en": "left lateral division of liver",
+   "inconstant": false,
+   "cle": "FJ2818",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 1.5,
+   "p": [
+    0.0296,
+    1.1591,
+    0.1888
+   ]
+  },
+  {
+   "nom_en": "left lobe of liver",
+   "inconstant": false,
+   "cle": "FJ2818",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 3.1,
+   "p": [
+    0.051,
+    1.1532,
+    0.1854
+   ]
+  },
+  {
+   "nom_en": "left medial division of liver",
+   "inconstant": false,
+   "cle": "FJ2820",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 2.3,
+   "p": [
+    -0.0236,
+    1.1675,
+    0.1844
+   ]
+  },
+  {
+   "nom_en": "left medial segment of liver (iv)",
+   "inconstant": false,
+   "cle": "FJ2820",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 3.8,
+   "p": [
+    -0.0225,
+    1.1032,
+    0.1984
+   ]
+  },
+  {
+   "nom_en": "left part of liver",
+   "inconstant": false,
+   "cle": "FJ2820",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 1.3,
+   "p": [
+    -0.0032,
+    1.144,
+    0.1978
+   ]
+  },
+  {
+   "nom_en": "left posterior lateral segment of liver (ii)",
+   "inconstant": false,
+   "cle": "FJ1858",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 1.4,
+   "p": [
+    -0.0982,
+    1.1462,
+    0.0677
+   ]
+  },
+  {
+   "nom_en": "lesser curvature of stomach",
+   "inconstant": false,
+   "cle": "FJ2564",
+   "cote": null,
+   "porteur": "Stomach",
+   "ecart_mm": 8.0,
+   "p": [
+    0.0216,
+    1.0903,
+    0.1664
+   ]
+  },
+  {
+   "nom_en": "lingula of left lung",
+   "inconstant": false,
+   "cle": "Superior lobe of left lung",
+   "cote": null,
+   "porteur": "Superior lobe of left lung",
+   "ecart_mm": 0.1,
+   "p": [
+    0.089,
+    1.1994,
+    0.1724
+   ]
+  },
+  {
+   "nom_en": "lobe of lung",
+   "inconstant": false,
+   "cle": "Inferior lobe of right lung",
+   "cote": null,
+   "porteur": "Inferior lobe of right lung",
+   "ecart_mm": 1.2,
+   "p": [
+    -0.1311,
+    1.1618,
+    0.1105
+   ]
+  },
+  {
+   "nom_en": "lobe of thyroid gland",
+   "inconstant": false,
+   "cle": "Thyroid gland",
+   "cote": null,
+   "porteur": "Thyroid gland",
+   "ecart_mm": 0.4,
+   "p": [
+    -0.0163,
+    1.3954,
+    0.0995
+   ]
+  },
+  {
+   "nom_en": "main portal fissure",
+   "inconstant": false,
+   "cle": "FJ2816",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 1.1,
+   "p": [
+    -0.02,
+    1.1373,
+    0.1128
+   ]
+  },
+  {
+   "nom_en": "medial basal segment of left lung (svii)",
+   "inconstant": false,
+   "cle": "Inferior lobe of left lung",
+   "cote": null,
+   "porteur": "Inferior lobe of left lung",
+   "ecart_mm": 1.2,
+   "p": [
+    0.0183,
+    1.1722,
+    0.0601
+   ]
+  },
+  {
+   "nom_en": "medial basal segment of right lung (svii)",
+   "inconstant": false,
+   "cle": "Inferior lobe of right lung",
+   "cote": null,
+   "porteur": "Inferior lobe of right lung",
+   "ecart_mm": 0.1,
+   "p": [
+    -0.0138,
+    1.1651,
+    0.0651
+   ]
+  },
+  {
+   "nom_en": "medial border of kidney",
+   "inconstant": false,
+   "cle": "FJ3147",
+   "cote": "droit",
+   "porteur": "Kidney.r",
+   "ecart_mm": 0.1,
+   "p": [
+    -0.0326,
+    1.0515,
+    0.0975
+   ]
+  },
+  {
+   "nom_en": "medial border of kidney",
+   "inconstant": false,
+   "cle": "FJ3145",
+   "cote": "gauche",
+   "porteur": "Kidney.l",
+   "ecart_mm": 11.4,
+   "p": [
+    0.0398,
+    1.0535,
+    0.089
+   ]
+  },
+  {
+   "nom_en": "medial border of suprarenal gland",
+   "inconstant": false,
+   "cle": "FJ3130",
+   "cote": "droit",
+   "porteur": "Suprarenal gland.r",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0314,
+    1.0677,
+    0.0986
+   ]
+  },
+  {
+   "nom_en": "medial segment of right lung (sv)",
+   "inconstant": false,
+   "cle": "Middle lobe of right lung",
+   "cote": null,
+   "porteur": "Middle lobe of right lung",
+   "ecart_mm": 0.4,
+   "p": [
+    -0.0309,
+    1.1941,
+    0.1943
+   ]
+  },
+  {
+   "nom_en": "medial surface of lung",
+   "inconstant": false,
+   "cle": "Inferior lobe of right lung",
+   "cote": null,
+   "porteur": "Inferior lobe of right lung",
+   "ecart_mm": 0.2,
+   "p": [
+    -0.014,
+    1.2019,
+    0.0534
+   ]
+  },
+  {
+   "nom_en": "medial surface of testis",
+   "inconstant": false,
+   "cle": "FJ3142",
+   "cote": "droit",
+   "porteur": "Testis.r",
+   "ecart_mm": 3.2,
+   "p": [
+    -0.0105,
+    0.703,
+    0.1484
+   ]
+  },
+  {
+   "nom_en": "medial surface of testis",
+   "inconstant": false,
+   "cle": "FJ3138",
+   "cote": "gauche",
+   "porteur": "Testis.l",
+   "ecart_mm": 2.4,
+   "p": [
+    0.0075,
+    0.7024,
+    0.1515
+   ]
+  },
+  {
+   "nom_en": "mediastinal surface of lung",
+   "inconstant": false,
+   "cle": "Superior lobe of right lung",
+   "cote": null,
+   "porteur": "Superior lobe of right lung",
+   "ecart_mm": 0.7,
+   "p": [
+    -0.0279,
+    1.2983,
+    0.1125
+   ]
+  },
+  {
+   "nom_en": "neck of gallbladder",
+   "inconstant": false,
+   "cle": "FJ2817",
+   "cote": null,
+   "porteur": "Gallbladder",
+   "ecart_mm": 0.8,
+   "p": [
+    -0.0335,
+    1.0855,
+    0.1402
+   ]
+  },
+  {
+   "nom_en": "notch for ligamentum teres",
+   "inconstant": false,
+   "cle": "FJ2820",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 0.4,
+   "p": [
+    -0.0054,
+    1.0889,
+    0.1861
+   ]
+  },
+  {
+   "nom_en": "oblique fissure of left lung",
+   "inconstant": false,
+   "cle": "Inferior lobe of left lung",
+   "cote": null,
+   "porteur": "Inferior lobe of left lung",
+   "ecart_mm": 1.6,
+   "p": [
+    0.122,
+    1.211,
+    0.0996
+   ]
+  },
+  {
+   "nom_en": "oblique fissure of right lung",
+   "inconstant": false,
+   "cle": "Inferior lobe of right lung",
+   "cote": null,
+   "porteur": "Inferior lobe of right lung",
+   "ecart_mm": 1.8,
+   "p": [
+    -0.1218,
+    1.1886,
+    0.1248
+   ]
+  },
+  {
+   "nom_en": "oesophageal impression of liver",
+   "inconstant": false,
+   "cle": "FJ2818",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 1.9,
+   "p": [
+    0.0245,
+    1.1435,
+    0.1048
+   ]
+  },
+  {
+   "nom_en": "omental eminence of pancreas",
+   "inconstant": false,
+   "cle": "FJ2629",
+   "cote": null,
+   "porteur": "Pancreas",
+   "ecart_mm": 0.6,
+   "p": [
+    0.0075,
+    1.0565,
+    0.1438
+   ]
+  },
+  {
+   "nom_en": "omental tuberosity of liver",
+   "inconstant": false,
+   "cle": "FJ2819",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 1.2,
+   "p": [
+    0.0135,
+    1.1189,
+    0.1284
+   ]
+  },
+  {
+   "nom_en": "pancreas",
+   "inconstant": false,
+   "cle": "FJ2629",
+   "cote": null,
+   "porteur": "Pancreas",
+   "ecart_mm": 0.3,
+   "p": [
+    -0.0053,
+    1.0648,
+    0.1295
+   ]
+  },
+  {
+   "nom_en": "neck of pancreas",
+   "inconstant": false,
+   "cle": "FJ2629",
+   "cote": null,
+   "porteur": "Pancreas",
+   "ecart_mm": 0.4,
+   "p": [
+    -0.01,
+    1.0634,
+    0.1354
+   ]
+  },
+  {
+   "nom_en": "pancreatic notch",
+   "inconstant": false,
+   "cle": "FJ2629",
+   "cote": null,
+   "porteur": "Pancreas",
+   "ecart_mm": 0.4,
+   "p": [
+    -0.0137,
+    1.028,
+    0.1354
+   ]
+  },
+  {
+   "nom_en": "papillary process",
+   "inconstant": false,
+   "cle": "FJ2816",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 1.8,
+   "p": [
+    -0.0011,
+    1.1024,
+    0.1268
+   ]
+  },
+  {
+   "nom_en": "pars distalis of hypophysis",
+   "inconstant": false,
+   "cle": "Adenohypophysis",
+   "cote": null,
+   "porteur": "Adenohypophysis",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0007,
+    1.527,
+    0.1095
+   ]
+  },
+  {
+   "nom_en": "pars intermedia of hypophysis",
+   "inconstant": false,
+   "cle": "Adenohypophysis",
+   "cote": null,
+   "porteur": "Adenohypophysis",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0007,
+    1.5315,
+    0.1073
+   ]
+  },
+  {
+   "nom_en": "pars nervosa of hypophysis",
+   "inconstant": false,
+   "cle": "Neurohypophysis",
+   "cote": null,
+   "porteur": "Neurohypophysis",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0007,
+    1.5264,
+    0.1006
+   ]
+  },
+  {
+   "nom_en": "pars tubelaris of hypophysis",
+   "inconstant": false,
+   "cle": "Adenohypophysis",
+   "cote": null,
+   "porteur": "Adenohypophysis",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0007,
+    1.5338,
+    0.1032
+   ]
+  },
+  {
+   "nom_en": "porta hepatis",
+   "inconstant": false,
+   "cle": "FJ2820",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 2.4,
+   "p": [
+    -0.0254,
+    1.1068,
+    0.1395
+   ]
+  },
+  {
+   "nom_en": "posterior basal segment of left lung (sx)",
+   "inconstant": false,
+   "cle": "Inferior lobe of left lung",
+   "cote": null,
+   "porteur": "Inferior lobe of left lung",
+   "ecart_mm": 0.6,
+   "p": [
+    0.0655,
+    1.1442,
+    0.0194
+   ]
+  },
+  {
+   "nom_en": "posterior basal segment of right lung (sx)",
+   "inconstant": false,
+   "cle": "Inferior lobe of right lung",
+   "cote": null,
+   "porteur": "Inferior lobe of right lung",
+   "ecart_mm": 0.6,
+   "p": [
+    -0.0687,
+    1.1482,
+    0.0172
+   ]
+  },
+  {
+   "nom_en": "posterior border of testis",
+   "inconstant": false,
+   "cle": "FJ3142",
+   "cote": "droit",
+   "porteur": "Testis.r",
+   "ecart_mm": 0.9,
+   "p": [
+    -0.0212,
+    0.7054,
+    0.1412
+   ]
+  },
+  {
+   "nom_en": "posterior border of testis",
+   "inconstant": false,
+   "cle": "FJ3138",
+   "cote": "gauche",
+   "porteur": "Testis.l",
+   "ecart_mm": 2.2,
+   "p": [
+    0.0157,
+    0.7052,
+    0.1414
+   ]
+  },
+  {
+   "nom_en": "posterior medial segment of liver (viii)",
+   "inconstant": false,
+   "cle": "FJ2824",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 3.7,
+   "p": [
+    -0.0622,
+    1.181,
+    0.1457
+   ]
+  },
+  {
+   "nom_en": "posterior part of liver",
+   "inconstant": false,
+   "cle": "FJ2816",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 1.5,
+   "p": [
+    0.0009,
+    1.1466,
+    0.113
+   ]
+  },
+  {
+   "nom_en": "posterior segment of liver (i)",
+   "inconstant": false,
+   "cle": "FJ2816",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 0.5,
+   "p": [
+    -0.0067,
+    1.1151,
+    0.117
+   ]
+  },
+  {
+   "nom_en": "posterior segment of right lung (sii)",
+   "inconstant": false,
+   "cle": "Superior lobe of right lung",
+   "cote": null,
+   "porteur": "Superior lobe of right lung",
+   "ecart_mm": 0.3,
+   "p": [
+    -0.1105,
+    1.2766,
+    0.0797
+   ]
+  },
+  {
+   "nom_en": "posterior surface of kidney",
+   "inconstant": false,
+   "cle": "FJ3147",
+   "cote": "droit",
+   "porteur": "Kidney.r",
+   "ecart_mm": 4.6,
+   "p": [
+    -0.0635,
+    1.0196,
+    0.0677
+   ]
+  },
+  {
+   "nom_en": "posterior surface of kidney",
+   "inconstant": false,
+   "cle": "FJ3145",
+   "cote": "gauche",
+   "porteur": "Kidney.l",
+   "ecart_mm": 4.1,
+   "p": [
+    0.0579,
+    1.0163,
+    0.0666
+   ]
+  },
+  {
+   "nom_en": "posterior surface of liver",
+   "inconstant": false,
+   "cle": "FJ2823",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 0.4,
+   "p": [
+    -0.057,
+    1.1211,
+    0.0446
+   ]
+  },
+  {
+   "nom_en": "posterior surface of pancreas",
+   "inconstant": false,
+   "cle": "FJ2629",
+   "cote": null,
+   "porteur": "Pancreas",
+   "ecart_mm": 0.5,
+   "p": [
+    0.0127,
+    1.0535,
+    0.1209
+   ]
+  },
+  {
+   "nom_en": "posterior surface of suprarenal gland",
+   "inconstant": false,
+   "cle": "FJ3130",
+   "cote": "droit",
+   "porteur": "Suprarenal gland.r",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0383,
+    1.0737,
+    0.0853
+   ]
+  },
+  {
+   "nom_en": "posterior surface of suprarenal gland",
+   "inconstant": false,
+   "cle": "FJ3129",
+   "cote": "gauche",
+   "porteur": "Suprarenal gland.l",
+   "ecart_mm": 3.9,
+   "p": [
+    0.0366,
+    1.0749,
+    0.0821
+   ]
+  },
+  {
+   "nom_en": "posterior wall of stomach",
+   "inconstant": false,
+   "cle": "FJ2564",
+   "cote": null,
+   "porteur": "Stomach",
+   "ecart_mm": 3.7,
+   "p": [
+    0.0588,
+    1.0749,
+    0.105
+   ]
+  },
+  {
+   "nom_en": "pyloric antrum",
+   "inconstant": false,
+   "cle": "FJ2564",
+   "cote": null,
+   "porteur": "Stomach",
+   "ecart_mm": 3.0,
+   "p": [
+    -0.0071,
+    1.0631,
+    0.1832
+   ]
+  },
+  {
+   "nom_en": "pyloric part",
+   "inconstant": false,
+   "cle": "FJ2564",
+   "cote": null,
+   "porteur": "Stomach",
+   "ecart_mm": 3.3,
+   "p": [
+    -0.016,
+    1.0543,
+    0.17
+   ]
+  },
+  {
+   "nom_en": "quadrate lobe",
+   "inconstant": false,
+   "cle": "FJ2820",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 1.4,
+   "p": [
+    -0.0334,
+    1.0828,
+    0.1723
+   ]
+  },
+  {
+   "nom_en": "renal surface of suprarenal gland",
+   "inconstant": false,
+   "cle": "FJ3130",
+   "cote": "droit",
+   "porteur": "Suprarenal gland.r",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0441,
+    1.0662,
+    0.0897
+   ]
+  },
+  {
+   "nom_en": "right lateral division of liver",
+   "inconstant": false,
+   "cle": "FJ2824",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 2.8,
+   "p": [
+    -0.0982,
+    1.1588,
+    0.1075
+   ]
+  },
+  {
+   "nom_en": "right lobe of liver",
+   "inconstant": false,
+   "cle": "FJ2824",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 1.5,
+   "p": [
+    -0.0768,
+    1.151,
+    0.1756
+   ]
+  },
+  {
+   "nom_en": "right medial division of liver",
+   "inconstant": false,
+   "cle": "FJ2821",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 1.4,
+   "p": [
+    -0.0676,
+    1.0956,
+    0.1876
+   ]
+  },
+  {
+   "nom_en": "right part of liver",
+   "inconstant": false,
+   "cle": "FJ2824",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 0.7,
+   "p": [
+    -0.0828,
+    1.1243,
+    0.1763
+   ]
+  },
+  {
+   "nom_en": "right portal fissure",
+   "inconstant": false,
+   "cle": "FJ2821",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 3.1,
+   "p": [
+    -0.052,
+    1.0603,
+    0.1829
+   ]
+  },
+  {
+   "nom_en": "right surface of liver",
+   "inconstant": false,
+   "cle": "FJ2823",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 1.2,
+   "p": [
+    -0.1147,
+    1.1081,
+    0.1109
+   ]
+  },
+  {
+   "nom_en": "root of lung",
+   "inconstant": false,
+   "cle": "Superior lobe of right lung",
+   "cote": null,
+   "porteur": "Superior lobe of right lung",
+   "ecart_mm": 1.4,
+   "p": [
+    -0.0236,
+    1.268,
+    0.0901
+   ]
+  },
+  {
+   "nom_en": "superior border of pancreas",
+   "inconstant": false,
+   "cle": "FJ2629",
+   "cote": null,
+   "porteur": "Pancreas",
+   "ecart_mm": 0.6,
+   "p": [
+    0.0259,
+    1.07,
+    0.1196
+   ]
+  },
+  {
+   "nom_en": "superior border of suprarenal gland",
+   "inconstant": false,
+   "cle": "FJ3130",
+   "cote": "droit",
+   "porteur": "Suprarenal gland.r",
+   "ecart_mm": 0.1,
+   "p": [
+    -0.0474,
+    1.0854,
+    0.0857
+   ]
+  },
+  {
+   "nom_en": "superior border of suprarenal gland",
+   "inconstant": false,
+   "cle": "FJ3129",
+   "cote": "gauche",
+   "porteur": "Suprarenal gland.l",
+   "ecart_mm": 4.7,
+   "p": [
+    0.0465,
+    1.0854,
+    0.0812
+   ]
+  },
+  {
+   "nom_en": "superior pole of testis",
+   "inconstant": false,
+   "cle": "FJ3142",
+   "cote": "droit",
+   "porteur": "Testis.r",
+   "ecart_mm": 0.9,
+   "p": [
+    -0.0209,
+    0.7188,
+    0.1564
+   ]
+  },
+  {
+   "nom_en": "superior pole of testis",
+   "inconstant": false,
+   "cle": "FJ3138",
+   "cote": "gauche",
+   "porteur": "Testis.l",
+   "ecart_mm": 1.3,
+   "p": [
+    0.0186,
+    0.7177,
+    0.1583
+   ]
+  },
+  {
+   "nom_en": "superior segment of left lung (svi)",
+   "inconstant": false,
+   "cle": "Inferior lobe of left lung",
+   "cote": null,
+   "porteur": "Inferior lobe of left lung",
+   "ecart_mm": 0.5,
+   "p": [
+    0.0818,
+    1.2257,
+    0.0177
+   ]
+  },
+  {
+   "nom_en": "superior segment of right lung (svi)",
+   "inconstant": false,
+   "cle": "Inferior lobe of right lung",
+   "cote": null,
+   "porteur": "Inferior lobe of right lung",
+   "ecart_mm": 0.3,
+   "p": [
+    -0.066,
+    1.2226,
+    0.017
+   ]
+  },
+  {
+   "nom_en": "anterior basal segment of right lung (sviii)",
+   "inconstant": false,
+   "cle": "Inferior lobe of right lung",
+   "cote": null,
+   "porteur": "Inferior lobe of right lung",
+   "ecart_mm": 0.2,
+   "p": [
+    -0.1311,
+    1.147,
+    0.1201
+   ]
+  },
+  {
+   "nom_en": "superior surface of liver",
+   "inconstant": false,
+   "cle": "FJ2824",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 4.9,
+   "p": [
+    -0.068,
+    1.182,
+    0.1236
+   ]
+  },
+  {
+   "nom_en": "suprarenal impression of liver",
+   "inconstant": false,
+   "cle": "FJ1858",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 2.5,
+   "p": [
+    -0.0265,
+    1.1161,
+    0.0904
+   ]
+  },
+  {
+   "nom_en": "tail of pancreas",
+   "inconstant": false,
+   "cle": "FJ1895",
+   "cote": null,
+   "porteur": "Pancreas",
+   "ecart_mm": 1.1,
+   "p": [
+    0.0703,
+    1.0724,
+    0.1019
+   ]
+  },
+  {
+   "nom_en": "umbilical fissure",
+   "inconstant": false,
+   "cle": "FJ2818",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 1.4,
+   "p": [
+    0.011,
+    1.1537,
+    0.1194
+   ]
+  },
+  {
+   "nom_en": "uncinate process of pancreas",
+   "inconstant": false,
+   "cle": "FJ2629",
+   "cote": null,
+   "porteur": "Pancreas",
+   "ecart_mm": 0.3,
+   "p": [
+    -0.0053,
+    1.0189,
+    0.1322
+   ]
+  },
+  {
+   "nom_en": "visceral surface of liver",
+   "inconstant": false,
+   "cle": "FJ2822",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 1.8,
+   "p": [
+    -0.0557,
+    1.0721,
+    0.1261
+   ]
+  },
+  {
+   "nom_en": "renal sinus",
+   "inconstant": false,
+   "cle": "FJ3147",
+   "cote": "droit",
+   "porteur": "Kidney.r",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0398,
+    1.0263,
+    0.0897
+   ]
+  },
+  {
+   "nom_en": "renal sinus",
+   "inconstant": false,
+   "cle": "FJ3145",
+   "cote": "gauche",
+   "porteur": "Kidney.l",
+   "ecart_mm": 6.9,
+   "p": [
+    0.0423,
+    1.0198,
+    0.0893
+   ]
+  },
+  {
+   "nom_en": "infundibular stalk",
+   "inconstant": false,
+   "cle": "Neurohypophysis",
+   "cote": null,
+   "porteur": "Neurohypophysis",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0007,
+    1.5335,
+    0.1011
+   ]
+  },
+  {
+   "nom_en": "renal impression of liver",
+   "inconstant": false,
+   "cle": "FJ2822",
+   "cote": null,
+   "porteur": "Liver",
+   "ecart_mm": 4.3,
+   "p": [
+    -0.0529,
+    1.0864,
+    0.0851
+   ]
+  },
+  {
+   "nom_en": "superior lingular segment of left lung (siv)",
+   "inconstant": false,
+   "cle": "Superior lobe of left lung",
+   "cote": null,
+   "porteur": "Superior lobe of left lung",
+   "ecart_mm": 0.2,
+   "p": [
+    0.0929,
+    1.2126,
+    0.1629
+   ]
+  },
+  {
+   "nom_en": "superior pole of kidney",
+   "inconstant": false,
+   "cle": "FJ3147",
+   "cote": "droit",
+   "porteur": "Kidney.r",
+   "ecart_mm": 0.2,
+   "p": [
+    -0.0478,
+    1.0708,
+    0.0863
+   ]
+  },
+  {
+   "nom_en": "superior pole of kidney",
+   "inconstant": false,
+   "cle": "FJ3145",
+   "cote": "gauche",
+   "porteur": "Kidney.l",
+   "ecart_mm": 3.3,
+   "p": [
+    0.0498,
+    1.0733,
+    0.0876
+   ]
+  },
+  {
+   "nom_en": "apex of heart",
+   "inconstant": false,
+   "cle": "FJ2428",
+   "cote": null,
+   "porteur": "calculé",
+   "ecart_mm": 0.0,
+   "p": [
+    0.0682,
+    1.186,
+    0.159
+   ],
+   "calcule": true
+  },
+  {
+   "nom_en": "sternocostal surface of heart",
+   "inconstant": false,
+   "cle": "FJ2428",
+   "cote": null,
+   "porteur": "calculé",
+   "ecart_mm": 0.0,
+   "p": [
+    0.0265,
+    1.2292,
+    0.1758
+   ],
+   "calcule": true
+  },
+  {
+   "nom_en": "diaphragmatic surface of heart",
+   "inconstant": false,
+   "cle": "FJ2428",
+   "cote": null,
+   "porteur": "calculé",
+   "ecart_mm": 0.0,
+   "p": [
+    0.0481,
+    1.1751,
+    0.1186
+   ],
+   "calcule": true
+  },
+  {
+   "nom_en": "pulmonary surface of heart",
+   "inconstant": false,
+   "cle": "FJ2428",
+   "cote": null,
+   "porteur": "calculé",
+   "ecart_mm": 0.0,
+   "p": [
+    0.0791,
+    1.2053,
+    0.1361
+   ],
+   "calcule": true
+  },
+  {
+   "nom_en": "right border of heart",
+   "inconstant": false,
+   "cle": "FJ2439",
+   "cote": null,
+   "porteur": "calculé",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0363,
+    1.2326,
+    0.109
+   ],
+   "calcule": true
+  },
+  {
+   "nom_en": "anterior interventricular sulcus",
+   "inconstant": false,
+   "cle": "FJ2428",
+   "cote": null,
+   "porteur": "calculé",
+   "ecart_mm": 0.0,
+   "p": [
+    0.0529,
+    1.224,
+    0.1615
+   ],
+   "calcule": true
+  },
+  {
+   "nom_en": "posterior interventricular sulcus",
+   "inconstant": false,
+   "cle": "FJ2428",
+   "cote": null,
+   "porteur": "calculé",
+   "ecart_mm": 0.0,
+   "p": [
+    0.0363,
+    1.1777,
+    0.1373
+   ],
+   "calcule": true
+  },
+  {
+   "nom_en": "coronary sulcus",
+   "inconstant": false,
+   "cle": "FJ2439",
+   "cote": null,
+   "porteur": "calculé",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0167,
+    1.2149,
+    0.1559
+   ],
+   "calcule": true
+  },
+  {
+   "nom_en": "apex of tongue",
+   "inconstant": false,
+   "cle": "FJ2761",
+   "cote": null,
+   "porteur": "calculé",
+   "ecart_mm": 0.0,
+   "p": [
+    0.0035,
+    1.4554,
+    0.1699
+   ],
+   "calcule": true
+  },
+  {
+   "nom_en": "dorsum of tongue",
+   "inconstant": false,
+   "cle": "FJ2761",
+   "cote": null,
+   "porteur": "calculé",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0039,
+    1.4673,
+    0.1395
+   ],
+   "calcule": true
+  },
+  {
+   "nom_en": "root of tongue",
+   "inconstant": false,
+   "cle": "FJ2761",
+   "cote": null,
+   "porteur": "calculé",
+   "ecart_mm": 0.0,
+   "p": [
+    0.0046,
+    1.4321,
+    0.1112
+   ],
+   "calcule": true
+  },
+  {
+   "nom_en": "base of prostate",
+   "inconstant": false,
+   "cle": "FJ3139",
+   "cote": null,
+   "porteur": "calculé",
+   "ecart_mm": 0.0,
+   "p": [
+    0.0014,
+    0.7924,
+    0.0684
+   ],
+   "calcule": true
+  },
+  {
+   "nom_en": "apex of prostate",
+   "inconstant": false,
+   "cle": "FJ3139",
+   "cote": null,
+   "porteur": "calculé",
+   "ecart_mm": 0.0,
+   "p": [
+    0.0019,
+    0.7721,
+    0.0784
+   ],
+   "calcule": true
+  }
+ ],
+ "legendes_ecartees": [
+  "Optic axis (External axis of eyeball : porteur absent)",
+  "Anterior surface of suprarenal gland (Suprarenal gland.l : 13 mm de la surface)",
+  "Hilum of suprarenal gland (Suprarenal gland.l : 19 mm de la surface)",
+  "Inferior pole of kidney (Kidney.l : 23 mm de la surface)",
+  "Medial border of suprarenal gland (Suprarenal gland.l : 16 mm de la surface)",
+  "Renal surface of suprarenal gland (Suprarenal gland.l : 13 mm de la surface)"
+ ],
+ "bilan": {
+  "global": {
+   "echelle": 1.003372311910226,
+   "rotation": [
+    [
+     0.9999998723551762,
+     0.0001904676785965872,
+     -0.00046798685294001147
+    ],
+    [
+     -0.00018469415257527845,
+     0.9999242592272698,
+     0.012306164994217444
+    ],
+    [
+     0.00047029533393297906,
+     -0.012306076988963311,
+     0.9999241667703803
+    ]
+   ],
+   "translation_mm": [
+    0.030438345475922335,
+    -111.19891945488412,
+    -75.72264199939423
+   ],
+   "angle_rotation_deg": 0.705700663515109,
+   "os_apparies": 99,
+   "os_retenus": 69,
+   "ecart_median_os_retenus_mm": 7.404500763181612,
+   "ecart_median_tous_os_mm": 9.728397541403078
+  },
+  "groupes": {
+   "poumons": {
+    "reperes": 25,
+    "avant_mm": 5.66,
+    "apres_mm": 5.13,
+    "transformation": "ICP local"
+   },
+   "cervelet": {
+    "reperes": 48,
+    "avant_mm": 2.89,
+    "apres_mm": 2.53,
+    "transformation": "ICP local"
+   },
+   "encephale": {
+    "reperes": 48,
+    "avant_mm": 2.89,
+    "apres_mm": 2.53,
+    "transformation": "ICP local"
+   },
+   "moelle": {
+    "reperes": 29,
+    "avant_mm": 6.24,
+    "apres_mm": 5.8,
+    "transformation": "ICP local"
+   },
+   "yeux": {
+    "reperes": 10,
+    "avant_mm": 1.76,
+    "apres_mm": 0.82,
+    "transformation": "ICP local"
+   },
+   "oreilles": {
+    "reperes": 2,
+    "avant_mm": 3.56,
+    "apres_mm": 3.03,
+    "transformation": "ICP local"
+   },
+   "pharynx": {
+    "reperes": 8,
+    "avant_mm": 3.56,
+    "apres_mm": 2.63,
+    "transformation": "ICP local"
+   },
+   "endocrines": {
+    "reperes": 5,
+    "avant_mm": 2.36,
+    "apres_mm": 1.46,
+    "transformation": "ICP local"
+   },
+   "abdomen": {
+    "reperes": 9,
+    "avant_mm": 5.63,
+    "apres_mm": 5.49,
+    "transformation": "ICP local"
+   }
+  },
+  "regions_os": {
+   "tête et cou": {
+    "reperes": 15,
+    "avant_mm": 3.97,
+    "apres_mm": 3.42,
+    "transformation": "ICP local"
+   },
+   "thorax": {
+    "reperes": 24,
+    "avant_mm": 5.85,
+    "apres_mm": 5.21,
+    "transformation": "ICP local"
+   },
+   "membre supérieur droit": {
+    "reperes": 5,
+    "avant_mm": 7.32,
+    "apres_mm": 2.13,
+    "transformation": "ICP local"
+   },
+   "membre supérieur gauche": {
+    "reperes": 5,
+    "avant_mm": 7.05,
+    "apres_mm": 2.26,
+    "transformation": "ICP local"
+   },
+   "bassin": {
+    "reperes": 3,
+    "avant_mm": 9.72,
+    "apres_mm": 2.78,
+    "transformation": "ICP local"
+   },
+   "membre inférieur droit": {
+    "reperes": 4,
+    "avant_mm": 6.17,
+    "apres_mm": 4.24,
+    "transformation": "ICP local"
+   },
+   "membre inférieur gauche": {
+    "reperes": 4,
+    "avant_mm": 6.15,
+    "apres_mm": 4.19,
+    "transformation": "ICP local"
+   }
+  }
+ }
+}

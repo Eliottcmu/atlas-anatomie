@@ -1,0 +1,524 @@
+{
+ "global": {
+  "echelle": 1.003372311910226,
+  "rotation": [
+   [
+    0.9999998723551762,
+    0.0001904676785965872,
+    -0.00046798685294001147
+   ],
+   [
+    -0.00018469415257527845,
+    0.9999242592272698,
+    0.012306164994217444
+   ],
+   [
+    0.00047029533393297906,
+    -0.012306076988963311,
+    0.9999241667703803
+   ]
+  ],
+  "translation_mm": [
+   0.030438345475922335,
+   -111.19891945488412,
+   -75.72264199939423
+  ],
+  "angle_rotation_deg": 0.705700663515109,
+  "os_apparies": 99,
+  "os_retenus": 69,
+  "ecart_median_os_retenus_mm": 7.404500763181612,
+  "ecart_median_tous_os_mm": 9.728397541403078
+ },
+ "regions": [
+  {
+   "region": "branches de la carotide externe",
+   "cote": "droit",
+   "reperes": [
+    "right common carotid artery",
+    "right internal carotid artery"
+   ],
+   "ecart_reperes_avant_mm": 8.8,
+   "ecart_reperes_apres_mm": 5.0,
+   "ecart_reperes_inverse_mm": 3.5,
+   "transformation": "ICP régional",
+   "structures": [
+    {
+     "objet": "External carotid artery.r",
+     "id": "A17",
+     "origine": "common carotid artery",
+     "ecarts_mm": {
+      "similitude globale": 0.5,
+      "ICP régional": 0.5,
+      "ICP régional inverse": 0.5
+     }
+    },
+    {
+     "objet": "Facial artery.r",
+     "id": "A20",
+     "origine": null,
+     "ecarts_mm": {
+      "similitude globale": null,
+      "ICP régional": null,
+      "ICP régional inverse": null
+     }
+    },
+    {
+     "objet": "Maxillary artery.r",
+     "id": "A23",
+     "origine": null,
+     "ecarts_mm": {
+      "similitude globale": null,
+      "ICP régional": null,
+      "ICP régional inverse": null
+     }
+    },
+    {
+     "objet": "Occipital artery.r",
+     "id": "A21",
+     "origine": null,
+     "ecarts_mm": {
+      "similitude globale": null,
+      "ICP régional": null,
+      "ICP régional inverse": null
+     }
+    },
+    {
+     "objet": "Superficial temporal artery.r",
+     "id": "A22",
+     "origine": null,
+     "ecarts_mm": {
+      "similitude globale": null,
+      "ICP régional": null,
+      "ICP régional inverse": null
+     }
+    }
+   ]
+  },
+  {
+   "region": "branches de la carotide externe",
+   "cote": "gauche",
+   "reperes": [
+    "left common carotid artery",
+    "left internal carotid artery"
+   ],
+   "ecart_reperes_avant_mm": 8.6,
+   "ecart_reperes_apres_mm": 4.9,
+   "ecart_reperes_inverse_mm": 3.8,
+   "transformation": "ICP régional",
+   "structures": [
+    {
+     "objet": "External carotid artery.l",
+     "id": "A17",
+     "origine": "common carotid artery",
+     "ecarts_mm": {
+      "similitude globale": 1.1,
+      "ICP régional": 1.1,
+      "ICP régional inverse": 1.1
+     }
+    },
+    {
+     "objet": "Facial artery.l",
+     "id": "A20",
+     "origine": null,
+     "ecarts_mm": {
+      "similitude globale": null,
+      "ICP régional": null,
+      "ICP régional inverse": null
+     }
+    },
+    {
+     "objet": "Maxillary artery.l",
+     "id": "A23",
+     "origine": null,
+     "ecarts_mm": {
+      "similitude globale": null,
+      "ICP régional": null,
+      "ICP régional inverse": null
+     }
+    },
+    {
+     "objet": "Occipital artery.l",
+     "id": "A21",
+     "origine": null,
+     "ecarts_mm": {
+      "similitude globale": null,
+      "ICP régional": null,
+      "ICP régional inverse": null
+     }
+    },
+    {
+     "objet": "Superficial temporal artery.l",
+     "id": "A22",
+     "origine": null,
+     "ecarts_mm": {
+      "similitude globale": null,
+      "ICP régional": null,
+      "ICP régional inverse": null
+     }
+    }
+   ]
+  },
+  {
+   "region": "cuisse",
+   "cote": "droit",
+   "reperes": [
+    "right external iliac artery",
+    "right femoral artery",
+    "right popliteal artery"
+   ],
+   "ecart_reperes_avant_mm": 13.4,
+   "ecart_reperes_apres_mm": 5.6,
+   "ecart_reperes_inverse_mm": 4.9,
+   "transformation": "ICP régional inverse",
+   "structures": [
+    {
+     "objet": "Deep femoral artery.r",
+     "id": "A64",
+     "origine": "femoral artery",
+     "ecarts_mm": {
+      "similitude globale": 2.7,
+      "ICP régional": 1.2,
+      "ICP régional inverse": 0.7
+     }
+    }
+   ]
+  },
+  {
+   "region": "cuisse",
+   "cote": "gauche",
+   "reperes": [
+    "left external iliac artery",
+    "left femoral artery",
+    "left popliteal artery"
+   ],
+   "ecart_reperes_avant_mm": 13.0,
+   "ecart_reperes_apres_mm": 5.5,
+   "ecart_reperes_inverse_mm": 5.3,
+   "transformation": "ICP régional inverse",
+   "structures": [
+    {
+     "objet": "Deep femoral artery.l",
+     "id": "A64",
+     "origine": "femoral artery",
+     "ecarts_mm": {
+      "similitude globale": 2.0,
+      "ICP régional": 2.7,
+      "ICP régional inverse": 0.7
+     }
+    }
+   ]
+  },
+  {
+   "region": "pelvis",
+   "cote": "médian",
+   "reperes": [
+    "right common iliac artery",
+    "left common iliac artery",
+    "right internal iliac artery",
+    "left internal iliac artery",
+    "right external iliac artery",
+    "left external iliac artery",
+    "abdominal aorta"
+   ],
+   "ecart_reperes_avant_mm": 5.1,
+   "ecart_reperes_apres_mm": 3.8,
+   "ecart_reperes_inverse_mm": 2.7,
+   "transformation": "similitude globale",
+   "structures": [
+    {
+     "objet": "Median sacral artery",
+     "id": "A52",
+     "origine": "abdominal aorta",
+     "ecarts_mm": {
+      "similitude globale": 0.4,
+      "ICP régional": 4.3,
+      "ICP régional inverse": 4.6
+     }
+    }
+   ]
+  },
+  {
+   "region": "pelvis",
+   "cote": "droit",
+   "reperes": [
+    "right common iliac artery",
+    "right internal iliac artery",
+    "right external iliac artery",
+    "abdominal aorta"
+   ],
+   "ecart_reperes_avant_mm": 3.9,
+   "ecart_reperes_apres_mm": 3.7,
+   "ecart_reperes_inverse_mm": 2.4,
+   "transformation": "ICP régional inverse",
+   "structures": [
+    {
+     "objet": "Inferior gluteal artery.r",
+     "id": "A56",
+     "origine": "internal iliac artery",
+     "ecarts_mm": {
+      "similitude globale": 0.1,
+      "ICP régional": 0.1,
+      "ICP régional inverse": 0.1
+     }
+    },
+    {
+     "objet": "Internal pudendal artery.r",
+     "id": "A58",
+     "origine": "internal iliac artery",
+     "ecarts_mm": {
+      "similitude globale": 0.0,
+      "ICP régional": 0.0,
+      "ICP régional inverse": 0.0
+     }
+    },
+    {
+     "objet": "Obturator artery.r",
+     "id": "A57",
+     "origine": "internal iliac artery",
+     "ecarts_mm": {
+      "similitude globale": 35.5,
+      "ICP régional": 35.1,
+      "ICP régional inverse": 33.8
+     }
+    },
+    {
+     "objet": "Superior gluteal artery.r",
+     "id": "A55",
+     "origine": "internal iliac artery",
+     "ecarts_mm": {
+      "similitude globale": 0.0,
+      "ICP régional": 0.0,
+      "ICP régional inverse": 0.0
+     }
+    }
+   ]
+  },
+  {
+   "region": "pelvis",
+   "cote": "gauche",
+   "reperes": [
+    "left common iliac artery",
+    "left internal iliac artery",
+    "left external iliac artery",
+    "abdominal aorta"
+   ],
+   "ecart_reperes_avant_mm": 4.9,
+   "ecart_reperes_apres_mm": 3.5,
+   "ecart_reperes_inverse_mm": 2.7,
+   "transformation": "ICP régional",
+   "structures": [
+    {
+     "objet": "Inferior gluteal artery.l",
+     "id": "A56",
+     "origine": "internal iliac artery",
+     "ecarts_mm": {
+      "similitude globale": 0.1,
+      "ICP régional": 0.1,
+      "ICP régional inverse": 0.1
+     }
+    },
+    {
+     "objet": "Internal pudendal artery.l",
+     "id": "A58",
+     "origine": "internal iliac artery",
+     "ecarts_mm": {
+      "similitude globale": 0.0,
+      "ICP régional": 0.0,
+      "ICP régional inverse": 0.0
+     }
+    },
+    {
+     "objet": "Obturator artery.l",
+     "id": "A57",
+     "origine": "internal iliac artery",
+     "ecarts_mm": {
+      "similitude globale": 35.5,
+      "ICP régional": 34.6,
+      "ICP régional inverse": 35.5
+     }
+    },
+    {
+     "objet": "Superior gluteal artery.l",
+     "id": "A55",
+     "origine": "internal iliac artery",
+     "ecarts_mm": {
+      "similitude globale": 0.0,
+      "ICP régional": 0.0,
+      "ICP régional inverse": 0.0
+     }
+    }
+   ]
+  },
+  {
+   "region": "sinus de la dure-mère",
+   "cote": "médian",
+   "reperes": [
+    "right internal jugular vein",
+    "left internal jugular vein",
+    "occipital bone"
+   ],
+   "ecart_reperes_avant_mm": 4.9,
+   "ecart_reperes_apres_mm": 3.7,
+   "ecart_reperes_inverse_mm": 1.8,
+   "transformation": "ICP régional",
+   "structures": [
+    {
+     "objet": "Superior sagittal sinus",
+     "id": "V13",
+     "origine": null,
+     "ecarts_mm": {
+      "similitude globale": null,
+      "ICP régional": null,
+      "ICP régional inverse": null
+     }
+    }
+   ]
+  },
+  {
+   "region": "sinus de la dure-mère",
+   "cote": "droit",
+   "reperes": [
+    "right internal jugular vein",
+    "occipital bone"
+   ],
+   "ecart_reperes_avant_mm": 3.9,
+   "ecart_reperes_apres_mm": 2.4,
+   "ecart_reperes_inverse_mm": 1.6,
+   "transformation": "ICP régional inverse",
+   "structures": [
+    {
+     "objet": "Sigmoid sinus.r",
+     "id": "V15",
+     "origine": "internal jugular vein",
+     "ecarts_mm": {
+      "similitude globale": 6.8,
+      "ICP régional": 6.8,
+      "ICP régional inverse": 6.8
+     }
+    },
+    {
+     "objet": "Transverse sinus.r",
+     "id": "V14",
+     "origine": null,
+     "ecarts_mm": {
+      "similitude globale": null,
+      "ICP régional": null,
+      "ICP régional inverse": null
+     }
+    }
+   ]
+  },
+  {
+   "region": "sinus de la dure-mère",
+   "cote": "gauche",
+   "reperes": [
+    "left internal jugular vein",
+    "occipital bone"
+   ],
+   "ecart_reperes_avant_mm": 3.9,
+   "ecart_reperes_apres_mm": 2.3,
+   "ecart_reperes_inverse_mm": 1.6,
+   "transformation": "ICP régional",
+   "structures": [
+    {
+     "objet": "Sigmoid sinus.l",
+     "id": "V15",
+     "origine": "internal jugular vein",
+     "ecarts_mm": {
+      "similitude globale": 6.8,
+      "ICP régional": 6.8,
+      "ICP régional inverse": 6.8
+     }
+    },
+    {
+     "objet": "Transverse sinus.l",
+     "id": "V14",
+     "origine": null,
+     "ecarts_mm": {
+      "similitude globale": null,
+      "ICP régional": null,
+      "ICP régional inverse": null
+     }
+    }
+   ]
+  },
+  {
+   "region": "veines du cou",
+   "cote": "droit",
+   "reperes": [
+    "right internal jugular vein",
+    "right subclavian vein",
+    "right brachiocephalic vein"
+   ],
+   "ecart_reperes_avant_mm": 38.2,
+   "ecart_reperes_apres_mm": 29.2,
+   "ecart_reperes_inverse_mm": 2.1,
+   "transformation": "ICP régional",
+   "structures": [
+    {
+     "objet": "External jugular vein.r",
+     "id": "V12",
+     "origine": "subclavian vein",
+     "ecarts_mm": {
+      "similitude globale": 1.4,
+      "ICP régional": 0.4,
+      "ICP régional inverse": 0.7
+     }
+    }
+   ]
+  },
+  {
+   "region": "veines du cou",
+   "cote": "gauche",
+   "reperes": [
+    "left internal jugular vein",
+    "left subclavian vein",
+    "left brachiocephalic vein"
+   ],
+   "ecart_reperes_avant_mm": 14.9,
+   "ecart_reperes_apres_mm": 10.9,
+   "ecart_reperes_inverse_mm": 1.6,
+   "transformation": "ICP régional inverse",
+   "structures": [
+    {
+     "objet": "External jugular vein.l",
+     "id": "V12",
+     "origine": "subclavian vein",
+     "ecarts_mm": {
+      "similitude globale": 0.7,
+      "ICP régional": 0.2,
+      "ICP régional inverse": 0.2
+     }
+    }
+   ]
+  },
+  {
+   "region": "vertébrale",
+   "cote": "droit",
+   "reperes": [
+    "right subclavian artery",
+    "right vertebral artery",
+    "right common carotid artery"
+   ],
+   "ecart_reperes_avant_mm": 3.3,
+   "ecart_reperes_apres_mm": 1.8,
+   "ecart_reperes_inverse_mm": 2.3,
+   "transformation": "ICP régional",
+   "structures": []
+  },
+  {
+   "region": "vertébrale",
+   "cote": "gauche",
+   "reperes": [
+    "left subclavian artery",
+    "left vertebral artery",
+    "left common carotid artery"
+   ],
+   "ecart_reperes_avant_mm": 3.4,
+   "ecart_reperes_apres_mm": 2.0,
+   "ecart_reperes_inverse_mm": 2.5,
+   "transformation": "ICP régional",
+   "structures": []
+  }
+ ]
+}

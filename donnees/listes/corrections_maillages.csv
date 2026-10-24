@@ -1,0 +1,32 @@
+﻿fj;etiquette_bp3d;nom_en;action;justification
+FJ2041;right anterior segmental artery;anterior segmental branch of right renal artery;renommer;au hile du rein droit, raccordée à la division antérieure de l'artère rénale droite (0,1 mm) : artère segmentaire du rein, pas du poumon
+FJ2044;right anterior segmental artery;anterior segmental branch of right renal artery;renommer;au hile du rein droit, raccordée aux artères segmentaires supérieure et inférieure du rein droit (0,1 à 0,3 mm)
+FJ2093;set of dorsal digital arteries;left fibular artery;renommer;33 cm dans la loge postérieure de la jambe gauche, née de l'artère tibiale postérieure (contact 0 mm), le long des veines fibulaires : c'est l'artère fibulaire
+FJ2197;set of dorsal digital arteries;right fibular artery;renommer;miroir exact de FJ2093, née de l'artère tibiale postérieure droite (contact 0 mm)
+FJ2091;set of calcaneal branches of posterior tibial artery;ascending and transverse branches of left lateral circumflex femoral artery;renommer;à la racine de la cuisse et non au talon, raccordée à l'artère circonflexe latérale de la cuisse et à sa branche descendante (0 à 0,3 mm), identification probable, à vérifier
+FJ2195;set of calcaneal branches of posterior tibial artery;ascending and transverse branches of right lateral circumflex femoral artery;renommer;miroir de FJ2091, mêmes contacts du côté droit, identification probable, à vérifier
+FJ2190;right fibular vein;set of perforating veins;renommer;dans la cuisse gauche, miroir exact de FJ2192 (veines perforantes de la cuisse droite), raccordée à la veine profonde de la cuisse gauche
+FJ2100;set of perforating veins;set of perforating veins of foot;renommer;veines perforantes du pied (entre réseaux dorsal et plantaire), distinctes des perforantes de la cuisse qui portent le même concept
+FJ2119;set of perforating veins;set of perforating veins of foot;renommer;veines perforantes du pied
+FJ2138;set of perforating veins;set of perforating veins of foot;renommer;veines perforantes du pied
+FJ2174;set of perforating veins;set of perforating veins of foot;renommer;veines perforantes du pied
+FJ2186;dorsal metacarpal vein;dorsal metatarsal vein;renommer;au dos du pied gauche, raccordée à l'arcade veineuse dorsale du pied : veine métatarsienne et non métacarpienne
+FJ2199;dorsal metacarpal vein;dorsal metatarsal vein;renommer;au dos du pied droit, raccordée à l'arcade veineuse dorsale du pied
+FJ3522;left external iliac vein;left internal iliac vein;renommer;raccordée à la veine iliaque interne gauche (0,6 mm) et à la veine ilio-lombaire, loin de l'iliaque externe
+FJ3523;left external iliac vein;left internal iliac vein;renommer;reçoit les veines obturatrice et glutéale inférieure gauches : affluents de l'iliaque interne
+FJ3524;left external iliac vein;left internal iliac vein;renommer;reçoit la veine glutéale supérieure gauche : affluent de l'iliaque interne
+FJ3648;superior phrenic vein;right inferior phrenic vein;renommer;sous le diaphragme, le long de l'artère phrénique inférieure droite (0,2 mm), jusqu'à la veine cave inférieure
+FJ3649;superior phrenic vein;right inferior phrenic vein;renommer;le long de l'artère phrénique inférieure droite
+FJ3650;superior phrenic vein;right inferior phrenic vein;renommer;rejoint la veine cave inférieure (1,3 mm)
+FJ3651;superior phrenic vein;right inferior phrenic vein;renommer;le long de l'artère phrénique inférieure droite
+FJ3652;superior phrenic vein;right inferior phrenic vein;renommer;le long de l'artère phrénique inférieure droite
+FJ3653;superior phrenic vein;right inferior phrenic vein;renommer;le long de l'artère phrénique inférieure droite
+FJ3654;superior phrenic vein;right inferior phrenic vein;renommer;le long de l'artère phrénique inférieure droite
+FJ3615;right superior epigastric vein;;doublon;copie exacte de la veine épigastrique superficielle droite FJ2178 (même boîte englobante, à l'aine)
+FJ3530;left superior epigastric vein;;doublon;copie de la veine épigastrique superficielle gauche FJ2122 (même boîte englobante à 1 mm près, à l'aine)
+FJ3493;left ascending lumbar vein;right ascending lumbar vein;renommer;à droite de la ligne médiane (x de -28 à -7 mm) : étiquettes droite et gauche inversées
+FJ3589;right ascending lumbar vein;left ascending lumbar vein;renommer;à gauche de la ligne médiane, raccordée à la veine hémi-azygos (0,02 mm) : étiquettes inversées
+FJ3658;ascending lumbar vein;transverse anastomosis between ascending lumbar veins;renommer;segment transversal en avant de L3-L4, raccordé aux deux veines lombaires ascendantes, identification incertaine
+FJ3545;pancreaticoduodenal vein;anterior pancreaticoduodenal vein;renommer;en avant de la tête du pancréas, raccordée à la veine gastro-omentale droite : draine vers la veine mésentérique supérieure
+FJ3646;pancreaticoduodenal vein;posterior superior pancreaticoduodenal vein;renommer;en arrière de la tête du pancréas, le long des artères pancréatico-duodénales postérieures
+FJ3655;pancreaticoduodenal vein;posterior superior pancreaticoduodenal vein;renommer;raccordée à la veine porte (0,4 mm)

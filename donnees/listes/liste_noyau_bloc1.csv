@@ -1,0 +1,113 @@
+﻿id;nom_fr;synonymes_fr;nom_fma_en;fma_id;systeme;region;cote;niveau;remarque
+A01;artère coronaire droite;coronaire droite;right coronary artery;FMA50039;artère;Cœur et thorax;unique;noyau;
+A02;artère coronaire gauche;coronaire gauche|tronc commun de la coronaire gauche;left coronary artery;FMA50040;artère;Cœur et thorax;unique;noyau;
+A03;artère interventriculaire antérieure;rameau interventriculaire antérieur|IVA;anterior interventricular branch of left coronary artery;FMA3862;artère;Cœur et thorax;unique;noyau;[ronéos 21/10/2026] renommée, ancien nom rameau interventriculaire antérieur : terme des ronéos de Montaudon
+A04;artère circonflexe;rameau circonflexe;circumflex branch of left coronary artery;FMA3895;artère;Cœur et thorax;unique;noyau;[ronéos 21/10/2026] renommée, ancien nom rameau circonflexe : 24 occurrences en référence contre 0
+A05;aorte ascendante;;ascending aorta;FMA3736;artère;Cœur et thorax;unique;noyau;
+A06;aorte horizontale;arc aortique|crosse de l'aorte|arc de l'aorte|crosse aortique;arch of aorta;FMA3768;artère;Cœur et thorax;unique;noyau;[ronéos 21/10/2026] renommée, ancien nom arc aortique : 26 occurrences contre 2 pour arc aortique
+A07;artère brachio-céphalique;tronc brachiocéphalique|tronc artériel brachiocéphalique|tronc artériel brachio-céphalique;brachiocephalic artery;FMA3932;artère;Cœur et thorax;unique;noyau;nom FMA : brachiocephalic artery / [ronéos 21/10/2026] renommée, ancien nom tronc brachiocéphalique : terme principal de Montaudon
+A08;artère carotide commune;carotide primitive;common carotid artery;FMA3939;artère;Cœur et thorax;bilatéral;noyau;
+A09;artère subclavière;artère sous-clavière;subclavian artery;FMA3951;artère;Cœur et thorax;bilatéral;noyau;
+A10;aorte thoracique descendante;aorte thoracique|aorte descendante;descending thoracic aorta;FMA87217;artère;Cœur et thorax;unique;noyau;
+A11;artères intercostales postérieures;intercostales aortiques;posterior intercostal artery;FMA4176;artère;Cœur et thorax;bilatéral;noyau;
+A12;artères bronchiques;;bronchial artery;FMA68109;artère;Cœur et thorax;bilatéral;noyau;
+A13;tronc pulmonaire;tronc de l'artère pulmonaire|artère pulmonaire;pulmonary trunk;FMA8612;artère;Cœur et thorax;unique;noyau;
+A14;artère pulmonaire droite;;right pulmonary artery;FMA50872;artère;Cœur et thorax;unique;noyau;
+A15;artère pulmonaire gauche;;left pulmonary artery;FMA50873;artère;Cœur et thorax;unique;noyau;
+A16;artère carotide interne;;internal carotid artery;FMA3947;artère;Tête et cou;bilatéral;noyau;
+A17;artère carotide externe;;external carotid artery;FMA10635;artère;Tête et cou;bilatéral;approfondissement;[ronéos 21/10/2026] passée en approfondissement : absente des ronéos déposées (tête et cou non traités par le cours cardiovasculaire)
+A18;artère thyroïdienne supérieure;;superior thyroid artery;FMA49472;artère;Tête et cou;bilatéral;approfondissement;[ronéos 21/10/2026] passée en approfondissement : absente des ronéos déposées (tête et cou non traités par le cours cardiovasculaire)
+A19;artère linguale;;lingual artery;FMA49526;artère;Tête et cou;bilatéral;approfondissement;[ronéos 21/10/2026] passée en approfondissement : absente des ronéos déposées (tête et cou non traités par le cours cardiovasculaire)
+A20;artère faciale;;facial artery;FMA49549;artère;Tête et cou;bilatéral;approfondissement;[ronéos 21/10/2026] passée en approfondissement : absente des ronéos déposées (tête et cou non traités par le cours cardiovasculaire)
+A21;artère occipitale;;occipital artery;FMA49586;artère;Tête et cou;bilatéral;approfondissement;[ronéos 21/10/2026] passée en approfondissement : absente des ronéos déposées (tête et cou non traités par le cours cardiovasculaire)
+A22;artère temporale superficielle;;superficial temporal artery;FMA49650;artère;Tête et cou;bilatéral;approfondissement;[ronéos 21/10/2026] passée en approfondissement : absente des ronéos déposées (tête et cou non traités par le cours cardiovasculaire)
+A23;artère maxillaire;artère maxillaire interne;maxillary artery;FMA49675;artère;Tête et cou;bilatéral;approfondissement;[ronéos 21/10/2026] passée en approfondissement : absente des ronéos déposées (tête et cou non traités par le cours cardiovasculaire)
+A24;artère vertébrale;;vertebral artery;FMA3956;artère;Tête et cou;bilatéral;noyau;branche de la subclavière
+A25;tronc basilaire;artère basilaire;basilar artery;FMA50542;artère;Tête et cou;unique;approfondissement;[ronéos 21/10/2026] passée en approfondissement : absente des ronéos déposées (tête et cou non traités par le cours cardiovasculaire)
+A26;cercle artériel du cerveau;polygone de Willis|cercle de Willis;cerebral arterial circle;FMA50454;artère;Tête et cou;unique;approfondissement;[ronéos 21/10/2026] passée en approfondissement : absente des ronéos déposées (tête et cou non traités par le cours cardiovasculaire)
+A27;artère cérébrale antérieure;;anterior cerebral artery;FMA50028;artère;Tête et cou;bilatéral;approfondissement;[ronéos 21/10/2026] passée en approfondissement : absente des ronéos déposées (tête et cou non traités par le cours cardiovasculaire)
+A28;artère cérébrale moyenne;artère sylvienne;middle cerebral artery;FMA50082;artère;Tête et cou;bilatéral;approfondissement;[ronéos 21/10/2026] passée en approfondissement : absente des ronéos déposées (tête et cou non traités par le cours cardiovasculaire)
+A29;artère cérébrale postérieure;;posterior cerebral artery;FMA50584|FMA50585;artère;Tête et cou;bilatéral;approfondissement;[ronéos 21/10/2026] passée en approfondissement : absente des ronéos déposées (tête et cou non traités par le cours cardiovasculaire)
+A30;artère communicante antérieure;;anterior communicating artery;FMA50169;artère;Tête et cou;unique;approfondissement;[ronéos 21/10/2026] passée en approfondissement : absente des ronéos déposées (tête et cou non traités par le cours cardiovasculaire)
+A31;artère communicante postérieure;;posterior communicating artery;FMA50084;artère;Tête et cou;bilatéral;approfondissement;[ronéos 21/10/2026] passée en approfondissement : absente des ronéos déposées (tête et cou non traités par le cours cardiovasculaire)
+A32;artère thoracique interne;artère mammaire interne;internal thoracic artery;FMA3960;artère;Membre supérieur;bilatéral;noyau;branche de la subclavière
+A33;tronc thyro-cervical;tronc thyro-bicervico-scapulaire;thyrocervical trunk;FMA3990;artère;Membre supérieur;bilatéral;noyau;branche de la subclavière
+A34;artère axillaire;;axillary artery;FMA22654;artère;Membre supérieur;bilatéral;noyau;
+A35;artère brachiale;artère humérale;brachial artery;FMA22689;artère;Membre supérieur;bilatéral;noyau;
+A36;artère profonde du bras;artère humérale profonde;deep brachial artery;FMA22695;artère;Membre supérieur;bilatéral;noyau;
+A37;artère radiale;;radial artery;FMA22730;artère;Membre supérieur;bilatéral;noyau;
+A38;artère ulnaire;artère cubitale;ulnar artery;FMA22796;artère;Membre supérieur;bilatéral;noyau;
+A39;arcade palmaire superficielle;arcade artérielle palmaire superficielle;superficial palmar arterial arch;FMA22834;artère;Membre supérieur;bilatéral;noyau;
+A40;arcade palmaire profonde;arcade artérielle palmaire profonde;deep palmar arterial arch;FMA22838;artère;Membre supérieur;bilatéral;noyau;
+A41;aorte abdominale;;abdominal aorta;FMA3789;artère;Abdomen;unique;noyau;
+A42;artère phrénique inférieure;artère diaphragmatique inférieure;inferior phrenic artery;FMA14734;artère;Abdomen;bilatéral;noyau;
+A43;tronc cœliaque;;celiac trunk;FMA14812;artère;Abdomen;unique;noyau;
+A44;artère gastrique gauche;artère coronaire stomachique;left gastric artery;FMA14768;artère;Abdomen;unique;noyau;
+A45;artère hépatique commune;;common hepatic artery;FMA14771;artère;Abdomen;unique;noyau;
+A46;artère splénique;artère liénale;splenic artery;FMA14773;artère;Abdomen;unique;noyau;
+A47;artère mésentérique supérieure;;superior mesenteric artery;FMA14749;artère;Abdomen;unique;noyau;
+A48;artère rénale;;renal artery;FMA14751;artère;Abdomen;bilatéral;noyau;
+A49;artère gonadique;artère testiculaire|artère spermatique|artère ovarienne;testicular artery;FMA14758;artère;Abdomen;bilatéral;noyau;modèle masculin : testiculaire, ovarienne sur le modèle féminin
+A50;artère mésentérique inférieure;;inferior mesenteric artery;FMA14750;artère;Abdomen;unique;noyau;
+A51;artères lombaires;;lumbar artery;FMA14735;artère;Abdomen;bilatéral;noyau;
+A52;artère sacrale médiane;artère sacrée moyenne;median sacral artery;FMA14757;artère;Abdomen;unique;noyau;
+A53;artère iliaque commune;artère iliaque primitive;common iliac artery;FMA14764;artère;Abdomen;bilatéral;noyau;
+A54;artère iliaque interne;artère hypogastrique;internal iliac artery;FMA18808;artère;Pelvis et membre inférieur;bilatéral;noyau;
+A55;artère glutéale supérieure;artère fessière supérieure;superior gluteal artery;FMA18868;artère;Pelvis et membre inférieur;bilatéral;noyau;
+A56;artère glutéale inférieure;artère ischiatique;inferior gluteal artery;FMA18871;artère;Pelvis et membre inférieur;bilatéral;noyau;
+A57;artère obturatrice;;obturator artery;FMA18865;artère;Pelvis et membre inférieur;bilatéral;noyau;
+A58;artère pudendale interne;artère honteuse interne;internal pudendal artery;FMA18835;artère;Pelvis et membre inférieur;bilatéral;noyau;
+A59;artère vésicale supérieure;;superior vesical artery;FMA18839;artère;Pelvis et membre inférieur;bilatéral;approfondissement;[ronéos 21/10/2026] passée en approfondissement : absente des ronéos : Montaudon ne cite que les artères vésicales inférieures
+A60;artère vésicale inférieure;;inferior vesical artery;FMA18823;artère;Pelvis et membre inférieur;bilatéral;noyau;
+A61;artère utérine;;uterine artery;FMA18829;artère;Pelvis et membre inférieur;bilatéral;noyau;absente du modèle masculin attendue
+A62;artère iliaque externe;;external iliac artery;FMA18805;artère;Pelvis et membre inférieur;bilatéral;noyau;
+A63;artère fémorale;artère fémorale commune|artère fémorale superficielle;femoral artery;FMA70248;artère;Pelvis et membre inférieur;bilatéral;noyau;
+A64;artère profonde de la cuisse;artère fémorale profonde;deep femoral artery;FMA20796|FMA20797;artère;Pelvis et membre inférieur;bilatéral;noyau;[ronéos 21/10/2026] renommée, ancien nom artère fémorale profonde : 10 occurrences contre 0
+A65;artère poplitée;;popliteal artery;FMA77155;artère;Pelvis et membre inférieur;bilatéral;noyau;
+A66;artère tibiale antérieure;;anterior tibial artery;FMA43894;artère;Pelvis et membre inférieur;bilatéral;noyau;
+A67;artère dorsale du pied;artère pédieuse;dorsalis pedis artery;FMA43915;artère;Pelvis et membre inférieur;bilatéral;noyau;
+A68;tronc tibio-fibulaire;tronc tibio-péronier;tibioperoneal trunk;aucun;artère;Pelvis et membre inférieur;bilatéral;approfondissement;pas de concept FMA : dans la FMA, la fibulaire est une subdivision de la tibiale postérieure / [ronéos 21/10/2026] passée en approfondissement : absente des ronéos : la fibulaire naît directement de la tibiale postérieure (Montaudon, FMA)
+A69;artère tibiale postérieure;;posterior tibial artery;FMA43895;artère;Pelvis et membre inférieur;bilatéral;noyau;
+A70;artère fibulaire;artère péronière;fibular artery;FMA43921;artère;Pelvis et membre inférieur;bilatéral;noyau;
+A71;artère plantaire médiale;artère plantaire interne;medial plantar artery;FMA43925;artère;Pelvis et membre inférieur;bilatéral;noyau;
+A72;artère plantaire latérale;artère plantaire externe;lateral plantar artery;FMA43926;artère;Pelvis et membre inférieur;bilatéral;noyau;
+V01;veine cave supérieure;;superior vena cava;FMA4720;veine;Cœur et thorax;unique;noyau;
+V02;veine cave inférieure;;inferior vena cava;FMA10951;veine;Cœur et thorax;unique;noyau;
+V03;veine brachiocéphalique;tronc veineux brachiocéphalique|veine brachio-céphalique;brachiocephalic vein;FMA4723;veine;Cœur et thorax;bilatéral;noyau;
+V04;veine azygos;grande veine azygos;azygos vein;FMA4838;veine;Cœur et thorax;unique;noyau;
+V05;veine hémi-azygos;petite veine azygos inférieure;hemiazygos vein;FMA4944;veine;Cœur et thorax;unique;noyau;
+V06;veine pulmonaire supérieure droite;;right superior pulmonary vein;FMA49914;veine;Cœur et thorax;unique;noyau;
+V07;veine pulmonaire inférieure droite;;right inferior pulmonary vein;FMA49911;veine;Cœur et thorax;unique;noyau;
+V08;veine pulmonaire supérieure gauche;;left superior pulmonary vein;FMA49916;veine;Cœur et thorax;unique;noyau;
+V09;veine pulmonaire inférieure gauche;;left inferior pulmonary vein;FMA49913;veine;Cœur et thorax;unique;noyau;
+V10;sinus coronaire;;coronary sinus;FMA4706;veine;Cœur et thorax;unique;noyau;
+V11;veine jugulaire interne;;internal jugular vein;FMA4724;veine;Tête et cou;bilatéral;noyau;
+V12;veine jugulaire externe;;external jugular vein;FMA13110;veine;Tête et cou;bilatéral;noyau;
+V13;sinus sagittal supérieur;sinus longitudinal supérieur;superior sagittal sinus;FMA50767;veine;Tête et cou;unique;approfondissement;
+V14;sinus transverse;sinus latéral;transverse sinus;FMA50763;veine;Tête et cou;bilatéral;approfondissement;
+V15;sinus sigmoïde;;sigmoid sinus;FMA50782;veine;Tête et cou;bilatéral;approfondissement;
+V16;veine céphalique;;cephalic vein;FMA13324;veine;Membre supérieur;bilatéral;noyau;
+V17;veine basilique;;basilic vein;FMA22908;veine;Membre supérieur;bilatéral;noyau;
+V18;veine médiane du coude;veine médiane cubitale|veine médiane basilique|veine médiane céphalique;median cubital vein;FMA22963;veine;Membre supérieur;bilatéral;approfondissement;[ronéos 21/10/2026] passée en approfondissement : absente des ronéos : le cours décrit les veines médianes céphalique et basilique (M veineux)
+V19;veine axillaire;;axillary vein;FMA13329;veine;Membre supérieur;bilatéral;noyau;
+V20;veine subclavière;veine sous-clavière;subclavian vein;FMA4725;veine;Membre supérieur;bilatéral;noyau;
+V21;veine porte;veine porte hépatique;hepatic portal vein;FMA50735;veine;Abdomen et pelvis;unique;noyau;
+V22;veine mésentérique supérieure;;superior mesenteric vein;FMA14332;veine;Abdomen et pelvis;unique;noyau;
+V23;veine splénique;veine liénale;splenic vein;FMA14331;veine;Abdomen et pelvis;unique;noyau;
+V24;veine mésentérique inférieure;;inferior mesenteric vein;FMA15391;veine;Abdomen et pelvis;unique;noyau;
+V25;veine hépatique droite;veine sus-hépatique droite;right hepatic vein;FMA14338;veine;Abdomen et pelvis;unique;noyau;
+V26;veine hépatique moyenne;veine hépatique intermédiaire|veine sus-hépatique médiane;middle hepatic vein;FMA14340;veine;Abdomen et pelvis;unique;noyau;[ronéos 21/10/2026] renommée, ancien nom veine hépatique intermédiaire : terme des ronéos
+V27;veine hépatique gauche;veine sus-hépatique gauche;left hepatic vein;FMA14339;veine;Abdomen et pelvis;unique;noyau;
+V28;veine rénale;;renal vein;FMA14334;veine;Abdomen et pelvis;bilatéral;noyau;
+V29;veine gonadique;veine testiculaire|veine spermatique|veine ovarienne;testicular vein;FMA14344;veine;Abdomen et pelvis;bilatéral;noyau;la gauche se jette dans la rénale gauche
+V30;veine iliaque commune;veine iliaque primitive;common iliac vein;FMA14333;veine;Abdomen et pelvis;bilatéral;noyau;
+V31;veine iliaque interne;veine hypogastrique;internal iliac vein;FMA18884;veine;Abdomen et pelvis;bilatéral;noyau;
+V32;veine iliaque externe;;external iliac vein;FMA18883;veine;Abdomen et pelvis;bilatéral;noyau;
+V33;anastomoses porto-caves;;;;veine;Abdomen et pelvis;unique;approfondissement;groupe d'anastomoses, pas une structure unique
+V34;veine grande saphène;grande veine saphène|veine saphène interne;great saphenous vein;FMA21376;veine;Membre inférieur;bilatéral;noyau;[ronéos 21/10/2026] renommée, ancien nom grande veine saphène : terme de Montaudon 2026
+V35;veine petite saphène;petite veine saphène|veine saphène externe;small saphenous vein;FMA44333;veine;Membre inférieur;bilatéral;noyau;[ronéos 21/10/2026] renommée, ancien nom petite veine saphène : terme de Montaudon 2026
+V36;veine fémorale;;femoral vein;FMA21185;veine;Membre inférieur;bilatéral;noyau;
+V37;veine poplitée;;popliteal vein;FMA44327;veine;Membre inférieur;bilatéral;noyau;
+V38;veine tibiale antérieure;;anterior tibial vein;FMA44331;veine;Membre inférieur;bilatéral;noyau;
+V39;veine tibiale postérieure;;posterior tibial vein;FMA44332;veine;Membre inférieur;bilatéral;noyau;
+V40;veine fibulaire;veine péronière;fibular vein;FMA44558;veine;Membre inférieur;bilatéral;noyau;

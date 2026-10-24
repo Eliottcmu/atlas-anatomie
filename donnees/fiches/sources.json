@@ -1,0 +1,16 @@
+{
+  "_note": "Codes des ronéos citées dans les fiches. Une référence s'écrit CODE:pages, par exemple GV26:16-17 ou MB26:3,5.",
+  "GV26": {"fichier": "3. (2026) Anatomie des gros vaisseaux", "titre": "Anatomie des gros vaisseaux (Montaudon, 2026)"},
+  "MB26": {"fichier": "4. (2026) Anatomie des vaisseaux des membres ", "titre": "Anatomie des vaisseaux des membres (Montaudon, 2026)"},
+  "CV25": {"fichier": "2. (2025) Anatomie de la vascularisation et de l'innervation du coeur AVEC ANNALES", "titre": "Vascularisation et innervation du cœur (Montaudon, 2025)"},
+  "CV26": {"fichier": "2. (2026) Anatomie de la vascularisation et de l'innervation du coeur, péricarde", "titre": "Innervation du cœur et péricarde (Montaudon, 2026)"},
+  "MED25": {"fichier": "1. (2025) Anatomie médiastinale et cardiaque", "titre": "Anatomie médiastinale et cardiaque (Montaudon, 2025)"},
+  "GV25": {"fichier": "3. (2025) Anatomie des gros vaisseaux", "titre": "Anatomie des gros vaisseaux (Montaudon, 2025)"},
+  "MB25": {"fichier": "4. (2025) Anatomie des vaisseaux des membres", "titre": "Anatomie des vaisseaux des membres (Montaudon, 2025)"},
+  "COU": {"fichier": "UE10 9 OGR Cou", "titre": "UE10, organisation générale régionale : cou"},
+  "THX": {"fichier": "UE10 11 OGR Thorax", "titre": "UE10, organisation générale régionale : thorax"},
+  "ACV19a": {"fichier": "UE10 19a AG Appareil cardiovasculaire", "titre": "UE10, anatomie générale : appareil cardiovasculaire (a)"},
+  "ACV19b": {"fichier": "UE10 19b AG Appareil cardiovasculaire", "titre": "UE10, anatomie générale : appareil cardiovasculaire (b)"},
+  "ACV19c": {"fichier": "UE10 19c AG Appareil cardiovasculaire", "titre": "UE10, anatomie générale : appareil cardiovasculaire (c)"},
+  "ACV19d": {"fichier": "UE10 19d AG Appareil cardiovasculaire", "titre": "UE10, anatomie générale : appareil cardiovasculaire (d)"}
+}

@@ -1,0 +1,1373 @@
+{
+  "region": "Cœur et thorax",
+  "redige_le": "2026-10-21",
+  "fiches": [
+    {
+      "id": "A01",
+      "champs": {
+        "origine": {
+          "texte": "Aorte ascendante, au-dessus de la valvule semi-lunaire antéro-latérale droite de la valve aortique. Trajet « a retro » par rapport au flux sanguin aortique.",
+          "sources": [
+            "CV25:5,7",
+            "GV26:4"
+          ]
+        },
+        "trajet": {
+          "texte": "Gagne le sillon coronaire (atrio-ventriculaire) droit, où elle est recouverte de graisse et de l'auricule droite, et en fait le tour complet jusqu'à la face inférieure du cœur. Trois coudes : à l'entrée dans le sillon coronaire droit, au bord droit du ventricule droit, puis à la croix des sillons, où elle s'engage dans le sillon interventriculaire postérieur. Calibre d'environ 4 mm. En coronarographie, forme typique en « C », sans grosse branche collatérale.",
+          "sources": [
+            "CV25:5-6,8"
+          ]
+        },
+        "branches": {
+          "texte": "Rameaux vasculaires grêles pour la racine de l'aorte et l'infundibulum pulmonaire. Rameaux atriaux droits antérieur (le plus constant), marginal et postérieur. Rameaux ventriculaires droits antérieur, marginal et postérieur. Rameaux septaux pour le tiers inférieur du septum. Avant son troisième coude, l'artère rétro-ventriculaire gauche, vers le sillon coronaire gauche. Enfin le rameau (artère) interventriculaire postérieur, qui donne des branches ventriculaires droites et gauches postérieures et des branches septales.",
+          "sources": [
+            "CV25:6-7"
+          ]
+        },
+        "terminaison": {
+          "texte": "Rameau interventriculaire postérieur, qui se termine avant d'atteindre l'incisure cardiaque, juste avant l'apex.",
+          "sources": [
+            "CV25:6"
+          ]
+        },
+        "territoire": {
+          "texte": "Tout l'atrium droit, la quasi-totalité du ventricule droit, la paroi inférieure du ventricule gauche (sans l'apex) et la paroi inféro-septale, le tiers inférieur du septum. L'essentiel du système cardionecteur : nœud sino-atrial, nœud atrio-ventriculaire, faisceau atrio-ventriculaire, une partie de la branche gauche.",
+          "sources": [
+            "CV25:11-12"
+          ]
+        },
+        "variations": {
+          "texte": "Le nœud sino-atrial est vascularisé par l'artère atriale antérieure droite dans deux tiers des cas, par l'atriale antérieure gauche (coronaire gauche) dans un tiers.",
+          "sources": [
+            "CV25:6-7"
+          ]
+        },
+        "clinique": {
+          "texte": "Perfusion essentiellement diastolique, comme la coronaire gauche. Infarctus de la coronaire droite : troubles du rythme très fréquents, ce qui tue en général à la phase aiguë.",
+          "sources": [
+            "CV25:4,11"
+          ]
+        },
+        "pathologie": {
+          "texte": "Athérosclérose coronaire : une sténose donne un angor, une occlusion un infarctus inférieur (sus-décalage du segment ST en D2, D3 et aVF), souvent compliqué de bradycardie ou de bloc atrio-ventriculaire (nœud atrio-ventriculaire) et parfois d'un infarctus du ventricule droit. Traitement par angioplastie avec stent ou par pontage.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Dominance droite dans environ 70 à 85 % des cas selon les séries : la coronaire droite donne alors l'artère interventriculaire postérieure. Débit coronaire total au repos d'environ 250 mL/min, soit 5 % du débit cardiaque. Exploration par coronarographie (voie radiale ou fémorale) ou par coroscanner.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "branche_de",
+          "cible": "A05",
+          "sources": [
+            "CV25:5",
+            "GV26:4"
+          ]
+        }
+      ],
+      "remarques": [
+        "Segment d'origine : CV25 p.5 dit « segment I de l'aorte », GV26 p.4 dit que seul le segment 0 (sinus de l'aorte) donne des collatérales, les coronaires. À trancher avec le diaporama de Moodle.",
+        "CV25 p.6 appelle « sinus coronaire » une petite dilatation de l'artère : ce terme désigne ailleurs la veine (V10). Il s'agit vraisemblablement du sinus de l'aorte."
+      ]
+    },
+    {
+      "id": "A02",
+      "champs": {
+        "origine": {
+          "texte": "Aorte ascendante, au-dessus de la valvule semi-lunaire antéro-latérale gauche. La troisième valvule, postérieure, ne porte pas d'ostium.",
+          "sources": [
+            "CV25:7"
+          ]
+        },
+        "trajet": {
+          "texte": "Un peu plus volumineuse que la droite : environ 5 mm à l'origine. Le tronc commun, en amont de la bifurcation, est recouvert par l'auricule gauche et par la branche gauche de l'artère pulmonaire, au contact de l'artère pulmonaire.",
+          "sources": [
+            "CV25:7"
+          ]
+        },
+        "branches": {
+          "texte": "Le tronc commun donne des rameaux vasculaires pour l'aorte et l'artère pulmonaire. Rameaux atriaux gauches antérieur (plutôt constant), marginal et postérieur (inconstants). Parfois une artère bissectrice naît dans l'angle de la bifurcation.",
+          "sources": [
+            "CV25:7-8"
+          ]
+        },
+        "terminaison": {
+          "texte": "Se divise en artère interventriculaire antérieure et artère circonflexe.",
+          "sources": [
+            "CV25:7"
+          ]
+        },
+        "territoire": {
+          "texte": "Une partie de l'atrium gauche, tout le ventricule gauche sauf sa paroi inférieure, les deux tiers antérieurs du septum, une partie de la branche gauche et la branche droite du faisceau atrio-ventriculaire.",
+          "sources": [
+            "CV25:11"
+          ]
+        },
+        "variations": {
+          "texte": "Vascularise le nœud sino-atrial par l'artère atriale antérieure gauche dans un tiers des cas. Tronc commun parfois très court.",
+          "sources": [
+            "CV25:7-8"
+          ]
+        },
+        "clinique": {
+          "texte": "Tronc commun difficile d'accès : on n'y fait pas de pontage, on pose plutôt des stents. Infarctus du tronc commun : tout le territoire gauche. Les infarctus gauches donnent plutôt une insuffisance ventriculaire gauche que des troubles du rythme.",
+          "sources": [
+            "CV25:7,11-12"
+          ]
+        },
+        "pathologie": {
+          "texte": "Sténose du tronc commun : lésion grave, car elle menace tout le territoire gauche ; revascularisation par pontage ou par angioplastie. Son occlusion aiguë donne un choc cardiogénique ou une mort subite.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Tronc commun long d'environ 0,5 à 2 cm. Sur l'ECG, son territoire correspond aux dérivations antérieures et latérales.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "branche_de",
+          "cible": "A05",
+          "sources": [
+            "CV25:7"
+          ]
+        }
+      ],
+      "remarques": []
+    },
+    {
+      "id": "A03",
+      "champs": {
+        "origine": {
+          "texte": "Prolongement de l'artère coronaire gauche lorsqu'elle pénètre dans le sillon interventriculaire antérieur, après la bifurcation du tronc commun.",
+          "sources": [
+            "CV25:7"
+          ]
+        },
+        "trajet": {
+          "texte": "Parcourt le sillon interventriculaire antérieur en sinuosités, contourne l'incisure cardiaque et gagne le sillon interventriculaire postérieur.",
+          "sources": [
+            "CV25:7"
+          ]
+        },
+        "branches": {
+          "texte": "Une douzaine à une quinzaine d'artères diagonales pour la face antérieure du ventricule gauche ; des branches pour la face antérieure du ventricule droit ; des rameaux vasculaires pour l'aorte et l'artère pulmonaire ; des rameaux perforants septaux (le « peigne septal » en coronarographie) pour les deux tiers antérieurs du septum.",
+          "sources": [
+            "CV25:8"
+          ]
+        },
+        "terminaison": {
+          "texte": "Dans le sillon interventriculaire postérieur, où elle s'anastomose avec le rameau interventriculaire postérieur de la coronaire droite : première anastomose coronaire.",
+          "sources": [
+            "CV25:7"
+          ]
+        },
+        "territoire": {
+          "texte": "Paroi antérieure et paroi antéro-septale du ventricule gauche, apex, deux tiers antérieurs du septum.",
+          "sources": [
+            "CV25:8,11-12"
+          ]
+        },
+        "rapports": {
+          "texte": "Longée sur son flanc gauche par la grande veine du cœur, dont les collatérales venues du ventricule droit passent en avant d'elle et gênent les pontages.",
+          "sources": [
+            "CV25:9-10"
+          ]
+        },
+        "pathologie": {
+          "texte": "Artère la plus souvent en cause dans les infarctus antérieurs (sus-décalage de ST en V1 à V4), les plus étendus et les plus graves : insuffisance cardiaque, anévrisme ventriculaire, thrombus apical. Le pontage de référence anastomose l'artère thoracique interne gauche à l'IVA.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Surnommée « artère du veuvage » pour la gravité de ses occlusions proximales. Pont myocardique possible : un segment, le plus souvent moyen, chemine dans le myocarde et se comprime en systole.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "branche_de",
+          "cible": "A02",
+          "sources": [
+            "CV25:7"
+          ]
+        },
+        {
+          "type": "anastomose_avec",
+          "cible": "A01",
+          "sources": [
+            "CV25:7"
+          ]
+        }
+      ],
+      "remarques": [
+        "Appelée aussi rameau interventriculaire antérieur ou IVA."
+      ]
+    },
+    {
+      "id": "A04",
+      "champs": {
+        "origine": {
+          "texte": "Branche de bifurcation de l'artère coronaire gauche, aussi grosse qu'elle.",
+          "sources": [
+            "CV25:7"
+          ]
+        },
+        "trajet": {
+          "texte": "Parcourt le sillon coronaire (atrio-ventriculaire) gauche en avant, sur le côté puis en arrière.",
+          "sources": [
+            "CV25:7"
+          ]
+        },
+        "branches": {
+          "texte": "Branches ventriculaires gauches destinées au bord du ventricule gauche : les artères marginales gauches, parfois issues d'un tronc commun.",
+          "sources": [
+            "CV25:7-8"
+          ]
+        },
+        "terminaison": {
+          "texte": "À l'extrémité du sillon coronaire gauche, s'anastomose avec l'artère rétro-ventriculaire gauche, branche de la coronaire droite : deuxième anastomose coronaire.",
+          "sources": [
+            "CV25:7"
+          ]
+        },
+        "territoire": {
+          "texte": "Paroi latérale du ventricule gauche, antéro-latérale et inféro-latérale.",
+          "sources": [
+            "CV25:12"
+          ]
+        },
+        "clinique": {
+          "texte": "C'est la « troisième artère coronaire » parfois citée en cardiologie. Son occlusion donne un infarctus de la paroi latérale du ventricule gauche (exemple d'IRM du cours).",
+          "sources": [
+            "CV25:7,12"
+          ]
+        },
+        "pathologie": {
+          "texte": "Infarctus latéral (D1, aVL, V5, V6) ou postéro-latéral, souvent peu visible sur l'ECG standard : on ajoute les dérivations postérieures V7 à V9. Longe l'anneau mitral : risque de lésion lors de la chirurgie de la valve mitrale.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Dominance gauche dans environ 10 % des cas : la circonflexe donne alors l'artère interventriculaire postérieure. Longée par la grande veine du cœur puis par le sinus coronaire dans le sillon atrio-ventriculaire gauche.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "branche_de",
+          "cible": "A02",
+          "sources": [
+            "CV25:7"
+          ]
+        },
+        {
+          "type": "anastomose_avec",
+          "cible": "A01",
+          "sources": [
+            "CV25:7"
+          ]
+        }
+      ],
+      "remarques": [
+        "Appelée aussi rameau circonflexe."
+      ]
+    },
+    {
+      "id": "A05",
+      "champs": {
+        "origine": {
+          "texte": "Orifice aortique du ventricule gauche.",
+          "sources": [
+            "GV26:3"
+          ]
+        },
+        "trajet": {
+          "texte": "Segments 0 et 1 de l'aorte thoracique. Le segment 0, dilaté, forme le sinus de l'aorte (sinus de Valsalva), de la convexité des valves aortiques à l'anneau aortique. Le segment 1, vertical, va de l'anneau aortique à l'artère brachio-céphalique, d'abord oblique en avant, en haut et à droite. Longueur 5 cm, diamètre 3 cm.",
+          "sources": [
+            "GV26:3"
+          ]
+        },
+        "branches": {
+          "texte": "Seul le segment 0 donne des collatérales : les artères coronaires droite et gauche. Le segment 1 n'en donne pas.",
+          "sources": [
+            "GV26:4"
+          ]
+        },
+        "terminaison": {
+          "texte": "Se continue par l'aorte horizontale à l'origine de l'artère brachio-céphalique.",
+          "sources": [
+            "GV26:3"
+          ]
+        },
+        "rapports": {
+          "texte": "Largement recouverte par le péricarde séreux, dont la réflexion remonte jusqu'à l'artère brachio-céphalique. À droite, la veine cave supérieure. En avant, l'auricule droite et l'artère pulmonaire qui s'enroule autour d'elle. En arrière, la branche droite de l'artère pulmonaire et la bifurcation trachéale. Plus en avant, le thymus (ou ses résidus graisseux) puis le sternum, à quelques millimètres.",
+          "sources": [
+            "GV26:4-6"
+          ]
+        },
+        "clinique": {
+          "texte": "Rupture : fuite dans la cavité péricardique et tamponnade. Chirurgie relativement simple par sternotomie médiane (prothèse, avec ou sans remplacement de la valve) ; risque de plaie aortique lors des ponctions sternales et des sternotomies itératives. Siège habituel des anévrismes de l'aorte thoracique et point de départ fréquent des dissections.",
+          "sources": [
+            "GV26:5-6,13"
+          ]
+        },
+        "pathologie": {
+          "texte": "Dissection aortique de type A de Stanford (atteinte de l'aorte ascendante) : douleur thoracique brutale et migratrice, asymétrie tensionnelle, risque de tamponnade, d'insuffisance aortique et d'extension aux coronaires ; urgence chirurgicale. Anévrisme (hypertension, maladie de Marfan, bicuspidie aortique) : chirurgie discutée à partir d'environ 55 mm, plus tôt dans le Marfan.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Diamètre normal inférieur à environ 40 mm chez l'adulte, à rapporter à l'âge et à la taille. Pression systolique égale à celle du ventricule gauche, environ 120 mmHg. Foyer d'auscultation aortique au 2e espace intercostal droit, au bord du sternum.",
+          "sources": []
+        }
+      },
+      "relations": [],
+      "remarques": []
+    },
+    {
+      "id": "A06",
+      "champs": {
+        "origine": {
+          "texte": "Fait suite à l'aorte ascendante à l'origine de l'artère brachio-céphalique.",
+          "sources": [
+            "GV26:3"
+          ]
+        },
+        "trajet": {
+          "texte": "Segment 2 de l'aorte, horizontal, dans un plan passant par le corps de T4, dirigé vers l'arrière ; environ 6 cm de long sur 2,5 à 3 cm. Double concavité : vers le bas dans le plan sagittal (la crosse) et vers la droite dans le plan horizontal, appuyée contre la trachée et l'œsophage.",
+          "sources": [
+            "GV26:3-4"
+          ]
+        },
+        "branches": {
+          "texte": "Par sa face supérieure, trois branches constantes, d'avant en arrière : l'artère brachio-céphalique, l'artère carotide commune gauche, l'artère subclavière gauche.",
+          "sources": [
+            "GV26:4,8"
+          ]
+        },
+        "terminaison": {
+          "texte": "L'isthme aortique, juste après l'ostium de la subclavière gauche ; se continue par l'aorte thoracique descendante.",
+          "sources": [
+            "GV26:3"
+          ]
+        },
+        "rapports": {
+          "texte": "Longe le flanc gauche de la trachée et de l'œsophage. Le nerf vague gauche, refoulé à gauche par la crosse, y abandonne le nerf récurrent laryngé gauche, qui passe sous la crosse en arrière et à gauche du ligament artériel. Le ligament artériel unit la branche gauche de l'artère pulmonaire à l'isthme ; le ganglion cardiaque supérieur occupe la concavité de la crosse. En avant, le nerf phrénique gauche et le pédicule péricardo-phrénique gauche ; en dessous, la bronche principale gauche et le pédicule pulmonaire gauche ; la veine brachio-céphalique gauche croise la jonction avec l'aorte ascendante.",
+          "sources": [
+            "GV26:5-9"
+          ]
+        },
+        "variations": {
+          "texte": "Parfois une artère thyroïdienne ima entre l'artère brachio-céphalique et la carotide commune gauche, et une artère vertébrale gauche entre la carotide commune et la subclavière gauches. Une veine intercostale supérieure gauche (20 % des cas) longe alors sa face gauche.",
+          "sources": [
+            "GV26:4,8"
+          ]
+        },
+        "clinique": {
+          "texte": "Isthme fragile dans les accidents de décélération : l'aorte horizontale, fixée par ses branches et le ligament artériel, ne bouge pas, alors que l'aorte descendante est mobile (rupture isthmique). Un anévrisme de l'aorte horizontale peut léser le récurrent gauche (dysphonie). Chirurgie plus délicate que celle de l'aorte ascendante, à cause des artères destinées au cerveau.",
+          "sources": [
+            "GV26:5-7"
+          ]
+        },
+        "pathologie": {
+          "texte": "Coarctation de l'aorte, le plus souvent à l'isthme près du ligament artériel : hypertension aux membres supérieurs, pouls fémoraux faibles et retardés, encoches costales creusées par les intercostales dilatées. Arc aortique droit et double arc, qui peuvent former un anneau vasculaire autour de la trachée et de l'œsophage. Rupture isthmique traumatique : élargissement du médiastin sur la radiographie.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Se projette en arrière du manubrium sternal ; forme le bouton aortique, à gauche de la trachée, sur la radiographie de face. Sa paroi porte des barorécepteurs, dont les afférences cheminent avec le nerf vague, et des corpuscules para-aortiques chimiorécepteurs : régulation de la pression artérielle et de la ventilation.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "fait_suite_a",
+          "cible": "A05",
+          "sources": [
+            "GV26:3"
+          ]
+        }
+      ],
+      "remarques": [
+        "Appelée aussi arc aortique ou crosse de l'aorte."
+      ]
+    },
+    {
+      "id": "A07",
+      "champs": {
+        "origine": {
+          "texte": "Première branche de l'aorte horizontale, par sa face supérieure.",
+          "sources": [
+            "GV26:4,8"
+          ]
+        },
+        "trajet": {
+          "texte": "Naît de la crosse en avant et à gauche de la trachée, puis monte obliquement en haut, à droite et un peu en arrière, en avant puis à droite de la trachée, sur 4 à 5 cm, jusqu'en arrière de l'articulation sterno-claviculaire droite. Croisée en avant par la veine brachio-céphalique gauche ; la veine brachio-céphalique droite est à sa droite.",
+          "sources": []
+        },
+        "terminaison": {
+          "texte": "Se divise en arrière du premier cartilage costo-sternal en artère carotide commune droite et artère subclavière droite.",
+          "sources": [
+            "GV26:4"
+          ]
+        },
+        "territoire": {
+          "texte": "Partie droite de la tête et du cerveau, par la carotide commune droite ; membre supérieur droit, par la subclavière droite.",
+          "sources": [
+            "GV26:4"
+          ]
+        },
+        "rapports": {
+          "texte": "La réflexion du péricarde séreux remonte jusqu'à elle. Artère élastique de conduction, comme l'aorte et les carotides communes.",
+          "sources": [
+            "GV26:4-5,14"
+          ]
+        },
+        "variations": {
+          "texte": "Une artère thyroïdienne ima, destinée à la thyroïde, naît parfois entre elle et la carotide commune gauche.",
+          "sources": [
+            "GV26:4"
+          ]
+        },
+        "pathologie": {
+          "texte": "Sténose ou occlusion athéromateuse : accidents ischémiques cérébraux droits, ischémie du membre supérieur droit, vol vasculaire par inversion du flux dans l'artère vertébrale droite. Fistule entre la trachée et l'artère après une trachéotomie basse : la canule peut éroder l'artère, qui croise la trachée en avant ; hémorragie massive. Origine commune de l'artère brachio-céphalique et de la carotide commune gauche, ou carotide commune gauche née de la brachio-céphalique : la plus fréquente des variantes de la crosse (de l'ordre de 10 à 20 % des sujets), dite à tort « arc bovin ».",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Le plus gros des troncs supra-aortiques : environ 4 à 5 cm de long pour 10 à 12 mm de diamètre. Sans équivalent à gauche, où carotide commune et subclavière naissent séparément de l'aorte. Se projette en arrière du manubrium, puis de l'articulation sterno-claviculaire droite : repère des sternotomies et des trachéotomies basses.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "branche_de",
+          "cible": "A06",
+          "sources": [
+            "GV26:4"
+          ]
+        }
+      ],
+      "remarques": [
+        "Appelée aussi tronc artériel brachio-céphalique."
+      ]
+    },
+    {
+      "id": "A08",
+      "champs": {
+        "origine": {
+          "texte": "À droite, branche de division de l'artère brachio-céphalique, en arrière du premier cartilage costo-sternal. À gauche, deuxième branche de l'aorte horizontale.",
+          "sources": [
+            "GV26:4"
+          ]
+        },
+        "terminaison": {
+          "texte": "Se divise en artère carotide interne, pour le cerveau et l'œil, et artère carotide externe, pour les muscles de la face, le scalp et les structures osseuses.",
+          "sources": [
+            "GV25:4",
+            "ACV19c:9"
+          ]
+        },
+        "territoire": {
+          "texte": "Partie de la tête et du cerveau du même côté : la carotide commune droite pour la partie droite, la gauche pour la partie gauche.",
+          "sources": [
+            "GV26:4"
+          ]
+        },
+        "rapports": {
+          "texte": "Artère élastique de conduction.",
+          "sources": [
+            "GV26:14"
+          ]
+        },
+        "pathologie": {
+          "texte": "Athérosclérose de la bifurcation carotidienne, qui gagne l'origine de la carotide interne : source d'accidents ischémiques transitoires et d'AVC ; souffle carotidien à l'auscultation. Hypersensibilité du sinus carotidien : malaises, voire syncopes, lors de la rotation de la tête ou au col serré.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Pouls carotidien au bord antérieur du sterno-cléido-mastoïdien, en dehors du cartilage thyroïde ; on ne palpe jamais les deux côtés à la fois. Bifurcation vers le bord supérieur du cartilage thyroïde (C4). Le sinus carotidien (barorécepteurs, nerf du sinus carotidien du glossopharyngien) et le glomus carotidien (chimiorécepteurs) y siègent : le massage sino-carotidien ralentit le cœur. Peut être comprimée contre le tubercule antérieur du processus transverse de C6 (tubercule carotidien).",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "branche_de",
+          "cible": "A07",
+          "cote": "droit",
+          "sources": [
+            "GV26:4"
+          ]
+        },
+        {
+          "type": "branche_de",
+          "cible": "A06",
+          "cote": "gauche",
+          "sources": [
+            "GV26:4"
+          ]
+        }
+      ],
+      "remarques": []
+    },
+    {
+      "id": "A09",
+      "champs": {
+        "origine": {
+          "texte": "À droite, branche de division de l'artère brachio-céphalique. À gauche, troisième branche de l'aorte horizontale.",
+          "sources": [
+            "GV26:4"
+          ]
+        },
+        "trajet": {
+          "texte": "Passe entre les muscles scalène antérieur et scalène moyen. Le nerf vague passe en avant d'elle ; à droite, le nerf récurrent laryngé fait une boucle sous l'artère. La veine subclavière est en avant.",
+          "sources": [
+            "MB26:6",
+            "GV26:6,18"
+          ]
+        },
+        "branches": {
+          "texte": "Artère vertébrale ; artère thoracique interne ; tronc thyro-cervical, dont naît l'artère supra-scapulaire ; artère scapulaire dorsale.",
+          "sources": [
+            "GV26:4",
+            "MB26:3"
+          ]
+        },
+        "terminaison": {
+          "texte": "Devient l'artère axillaire au niveau du milieu de la clavicule.",
+          "sources": [
+            "MB26:3"
+          ]
+        },
+        "territoire": {
+          "texte": "Membre supérieur correspondant.",
+          "sources": [
+            "GV26:4"
+          ]
+        },
+        "clinique": {
+          "texte": "Compression positionnelle dans le syndrome du défilé des scalènes et dans le syndrome de la fente costo-claviculaire, avec des troubles vasculaires distaux.",
+          "sources": [
+            "MB26:6"
+          ]
+        },
+        "pathologie": {
+          "texte": "Sténose de l'origine, plus fréquente à gauche : différence de pression de plus de 15 à 20 mmHg entre les deux bras, syndrome de vol subclavier (le bras se perfuse par inversion du flux dans la vertébrale, vertiges à l'effort du bras). Artère subclavière droite rétro-œsophagienne (artère lusoria), née en dernier de la crosse : dysphagie.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Trois portions définies par le muscle scalène antérieur : en dedans (artère vertébrale, artère thoracique interne, tronc thyro-cervical), en arrière (tronc costo-cervical) et en dehors de lui. Croise la face supérieure de la première côte. On mesure la pression artérielle aux deux bras au premier examen.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "branche_de",
+          "cible": "A07",
+          "cote": "droit",
+          "sources": [
+            "GV26:4"
+          ]
+        },
+        {
+          "type": "branche_de",
+          "cible": "A06",
+          "cote": "gauche",
+          "sources": [
+            "GV26:4"
+          ]
+        }
+      ],
+      "remarques": [
+        "MB26 p.3 dit que la subclavière précède l'axillaire « au-dessus du milieu de la clavicule », puis que l'axillaire lui fait suite « sous le milieu de la clavicule » : à harmoniser."
+      ]
+    },
+    {
+      "id": "A10",
+      "champs": {
+        "origine": {
+          "texte": "Fait suite à l'aorte horizontale à l'isthme aortique, juste après l'ostium de la subclavière gauche.",
+          "sources": [
+            "GV26:3"
+          ]
+        },
+        "trajet": {
+          "texte": "Segment 3 de l'aorte. Descend contre la colonne vertébrale, d'abord en avant et à gauche de la colonne thoracique, puis se rapproche de la ligne médiane et devient prévertébrale.",
+          "sources": [
+            "GV26:3,7"
+          ]
+        },
+        "branches": {
+          "texte": "Pariétales : artères intercostales postérieures (3e à 11e espaces), artères subcostales, parfois artères phréniques supérieures. Viscérales : artères bronchiques gauches, artères grande et petite œsophagiennes ; petits rameaux médiastinaux et péricardiques par sa face antérieure.",
+          "sources": [
+            "GV26:4,10"
+          ]
+        },
+        "terminaison": {
+          "texte": "Traverse le diaphragme par le hiatus aortique, dans le plan de T12, et devient l'aorte abdominale.",
+          "sources": [
+            "GV26:3,10"
+          ]
+        },
+        "rapports": {
+          "texte": "Œsophage thoracique à sa droite, puis en avant d'elle au hiatus. Veines hémi-azygos et hémi-azygos accessoire et chaîne sympathique thoracique gauche, en arrière et à gauche. Poumon gauche, sur la face médiastinale duquel elle laisse une empreinte ; pédicule pulmonaire gauche en avant. Nœuds trachéo-bronchiques inférieurs et péri-œsophagiens. Conduit thoracique en arrière, entre l'œsophage et l'aorte.",
+          "sources": [
+            "GV26:5-9",
+            "MED25:9"
+          ]
+        },
+        "clinique": {
+          "texte": "Chirurgie complexe, l'aorte descendante étant très postérieure. Mobile par rapport à l'aorte horizontale : rupture isthmique dans les décélérations.",
+          "sources": [
+            "GV26:5,7"
+          ]
+        },
+        "pathologie": {
+          "texte": "Dissection aortique de type B de Stanford (sans atteinte de l'aorte ascendante), traitée médicalement ou par endoprothèse selon les complications. Anévrisme de l'aorte thoracique descendante. Rupture isthmique traumatique.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Diamètre normal d'environ 25 mm. Traverse le diaphragme en T12. Ses branches intercostales participent à la vascularisation de la moelle spinale : risque de paraplégie lors de sa chirurgie.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "fait_suite_a",
+          "cible": "A06",
+          "sources": [
+            "GV26:3"
+          ]
+        }
+      ],
+      "remarques": []
+    },
+    {
+      "id": "A11",
+      "champs": {
+        "origine": {
+          "texte": "Face postéro-latérale de l'aorte thoracique descendante, à chaque étage, droites et gauches : branches pariétales, numéros 3 à 11.",
+          "sources": [
+            "GV26:4,11"
+          ]
+        },
+        "trajet": {
+          "texte": "Parcourent les espaces intercostaux.",
+          "sources": [
+            "GV26:4,11"
+          ]
+        },
+        "branches": {
+          "texte": "Rameaux destinés à la moelle spinale. L'une d'elles (ou une artère lombaire) donne l'artère radiculaire antérieure, artère médullaire principale, le plus souvent entre T9 et L2 et plutôt à gauche. L'artère bronchique droite naît en général de la 3e ou de la 4e intercostale postérieure droite.",
+          "sources": [
+            "GV26:4,10-11"
+          ]
+        },
+        "terminaison": {
+          "texte": "S'anastomosent avec les rameaux intercostaux antérieurs de l'artère thoracique interne.",
+          "sources": [
+            "GV26:4",
+            "MB26:3"
+          ]
+        },
+        "clinique": {
+          "texte": "Ligature de l'intercostale qui donne l'artère radiculaire antérieure (prothèses et endoprothèses aortiques, chirurgie de l'angle costo-vertébral) : risque théorique de paraplégie.",
+          "sources": [
+            "GV26:11-12"
+          ]
+        },
+        "pathologie": {
+          "texte": "Coarctation aortique : les intercostales se dilatent en voies de suppléance et creusent des encoches au bord inférieur des côtes. Plaie lors d'un drainage ou d'une ponction pleurale : on pique au bord supérieur de la côte inférieure.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Paquet vasculo-nerveux intercostal dans le sillon de la côte, sous son bord inférieur : de haut en bas veine, artère, nerf. Les deux premières artères intercostales postérieures naissent de l'artère intercostale suprême, branche du tronc costo-cervical.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "branche_de",
+          "cible": "A10",
+          "sources": [
+            "GV26:4"
+          ]
+        },
+        {
+          "type": "anastomose_avec",
+          "cible": "A32",
+          "sources": [
+            "GV26:4",
+            "MB26:3"
+          ]
+        }
+      ],
+      "remarques": [
+        "MB26 p.3 parle de branches intercostales postérieures « issues de l'aorte ou de l'artère subclavière » : les deux premiers espaces ne sont pas décrits dans GV26."
+      ]
+    },
+    {
+      "id": "A12",
+      "champs": {
+        "origine": {
+          "texte": "Les artères bronchiques gauches, souvent deux (lobe supérieur et lobe inférieur gauches), sont des branches viscérales de l'aorte thoracique descendante. L'artère bronchique droite naît en général d'une artère intercostale postérieure droite, la 3e ou la 4e.",
+          "sources": [
+            "GV26:4,10"
+          ]
+        },
+        "territoire": {
+          "texte": "Bronches et poumons ; la distribution des rameaux est vue dans le cours de l'appareil respiratoire.",
+          "sources": [
+            "GV26:4"
+          ]
+        },
+        "pathologie": {
+          "texte": "Hémoptysie de grande abondance (dilatations des bronches, tuberculose, cancer) : le saignement vient le plus souvent des artères bronchiques, à pression systémique ; traitement par embolisation des artères bronchiques.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Circulation nourricière des bronches, à haute pression, distincte de la circulation fonctionnelle pulmonaire. Une partie du sang veineux bronchique rejoint les veines pulmonaires : petit shunt droit-gauche physiologique.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "branche_de",
+          "cible": "A10",
+          "cote": "gauche",
+          "sources": [
+            "GV26:10"
+          ]
+        },
+        {
+          "type": "branche_de",
+          "cible": "A11",
+          "cote": "droit",
+          "sources": [
+            "GV26:10"
+          ]
+        }
+      ],
+      "remarques": []
+    },
+    {
+      "id": "A13",
+      "champs": {
+        "origine": {
+          "texte": "Ventricule droit, par sa chambre de chasse (infundibulum), au-delà de la valve pulmonaire.",
+          "sources": [
+            "GV26:7",
+            "MED25:14"
+          ]
+        },
+        "trajet": {
+          "texte": "S'enroule autour de l'aorte ascendante, sur son flanc gauche, recouvert comme elle par le péricarde.",
+          "sources": [
+            "GV26:5,18"
+          ]
+        },
+        "terminaison": {
+          "texte": "Bifurque rapidement en artères pulmonaires droite et gauche.",
+          "sources": [
+            "GV26:5,18"
+          ]
+        },
+        "rapports": {
+          "texte": "Son origine se projette à gauche du sternum ; foyer d'auscultation pulmonaire au 2e espace intercostal gauche, à quelques centimètres du sternum.",
+          "sources": [
+            "MED25:7"
+          ]
+        },
+        "clinique": {
+          "texte": "Chez le fœtus, une grande partie du sang passe du tronc pulmonaire à l'aorte descendante par le canal artériel, qui devient le ligament artériel.",
+          "sources": [
+            "GV26:27"
+          ]
+        },
+        "pathologie": {
+          "texte": "Embolie pulmonaire : un thrombus venu des veines des membres inférieurs peut se bloquer à la bifurcation (embolie « à cheval »). Hypertension pulmonaire (pression moyenne supérieure à 20 mmHg au repos) : dilatation du tronc. Sténose valvulaire pulmonaire, tétralogie de Fallot, persistance du canal artériel.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Environ 5 cm de long ; diamètre normal inférieur à environ 29 mm, un tronc plus large que l'aorte ascendante fait évoquer une hypertension pulmonaire. Pressions normales d'environ 25/10 mmHg, moyenne autour de 15 mmHg. Bifurque sous la crosse aortique, vers T5.",
+          "sources": []
+        }
+      },
+      "relations": [],
+      "remarques": [
+        "Montaudon dit le plus souvent « artère pulmonaire » pour le tronc pulmonaire."
+      ]
+    },
+    {
+      "id": "A14",
+      "champs": {
+        "origine": {
+          "texte": "Branche droite de bifurcation du tronc pulmonaire.",
+          "sources": [
+            "GV26:5"
+          ]
+        },
+        "trajet": {
+          "texte": "Passe en arrière de l'aorte ascendante, à son contact, et en arrière de la terminaison de la veine cave supérieure, pour gagner le hile du poumon droit.",
+          "sources": [
+            "GV26:5,18"
+          ]
+        },
+        "territoire": {
+          "texte": "Poumon droit.",
+          "sources": [
+            "GV26:5"
+          ]
+        },
+        "pathologie": {
+          "texte": "Embolie pulmonaire, plus fréquente à droite et dans les lobes inférieurs. Compression par une tumeur ou des adénopathies du hile droit.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Plus longue que la gauche : elle croise la ligne médiane sous la crosse aortique, en avant et un peu au-dessous de la bifurcation trachéale. Au hile droit, la bronche du lobe supérieur naît au-dessus de l'artère (bronche épartérielle).",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "branche_de",
+          "cible": "A13",
+          "sources": [
+            "GV26:5"
+          ]
+        }
+      ],
+      "remarques": []
+    },
+    {
+      "id": "A15",
+      "champs": {
+        "origine": {
+          "texte": "Branche gauche de bifurcation du tronc pulmonaire.",
+          "sources": [
+            "GV26:5"
+          ]
+        },
+        "trajet": {
+          "texte": "Gagne le hile du poumon gauche en passant sous l'aorte horizontale. Avec la bronche principale gauche et les deux veines pulmonaires gauches, elle forme le pédicule du poumon gauche, rapport antérieur de l'aorte descendante.",
+          "sources": [
+            "GV26:5,7,25"
+          ]
+        },
+        "territoire": {
+          "texte": "Poumon gauche.",
+          "sources": [
+            "GV26:5"
+          ]
+        },
+        "rapports": {
+          "texte": "Le ligament artériel unit sa partie proximale à l'isthme aortique. Elle recouvre le tronc commun de la coronaire gauche.",
+          "sources": [
+            "GV26:5,7",
+            "CV25:7"
+          ]
+        },
+        "clinique": {
+          "texte": "Le canal artériel fœtal reliait sa partie proximale à l'aorte descendante ; il se ferme après la naissance et devient le ligament artériel.",
+          "sources": [
+            "GV26:27-28"
+          ]
+        },
+        "pathologie": {
+          "texte": "Embolie pulmonaire. Persistance du canal artériel entre sa partie proximale et l'isthme aortique : souffle continu sous-claviculaire gauche, fermeture par voie percutanée ou chirurgicale.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Plus courte que la droite. Au hile gauche, elle passe au-dessus de la bronche principale gauche : il n'y a pas de bronche épartérielle à gauche.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "branche_de",
+          "cible": "A13",
+          "sources": [
+            "GV26:5"
+          ]
+        }
+      ],
+      "remarques": []
+    },
+    {
+      "id": "V01",
+      "champs": {
+        "origine": {
+          "texte": "Réunion, dans le médiastin, des veines brachio-céphaliques droite (verticale) et gauche (oblique en bas et à droite).",
+          "sources": [
+            "GV26:18"
+          ]
+        },
+        "affluents": {
+          "texte": "Son unique branche collatérale est la veine azygos, qui se jette dans sa face postérieure après sa crosse au-dessus de la bronche principale droite.",
+          "sources": [
+            "GV26:18,24-25"
+          ]
+        },
+        "terminaison": {
+          "texte": "Atrium droit, par sa paroi supérieure (ostium d'environ 2 cm) ; sa terminaison est brièvement recouverte de péricarde.",
+          "sources": [
+            "GV26:18",
+            "MED25:13"
+          ]
+        },
+        "territoire": {
+          "texte": "Tête, membres supérieurs et colonne vertébrale.",
+          "sources": [
+            "GV26:18"
+          ]
+        },
+        "rapports": {
+          "texte": "Élément le plus antérieur du médiastin. À droite de l'aorte ascendante ; l'artère pulmonaire droite passe en arrière de sa terminaison. Recouverte par le poumon droit et la plèvre médiastinale, longée par le nerf phrénique droit. Se projette juste en arrière du bord droit du sternum. Trajet vertical, 7 à 8 cm de long, 2 cm de diamètre.",
+          "sources": [
+            "GV26:5,18",
+            "MED25:7"
+          ]
+        },
+        "clinique": {
+          "texte": "Paroi fine et compressible : une lésion médiastinale ou pulmonaire donne un syndrome cave supérieur (œdème du visage, des épaules et des membres supérieurs). Fissure possible avec épanchement péricardique. Site des voies veineuses centrales (chimiothérapie, remplissage), de la mesure de la pression veineuse centrale, et voie d'abord des biopsies hépatiques transveineuses.",
+          "sources": [
+            "GV26:19"
+          ]
+        },
+        "pathologie": {
+          "texte": "Syndrome cave supérieur (cancer bronchique, lymphome, thrombose sur cathéter) : œdème en pèlerine, cyanose du visage, circulation veineuse collatérale thoracique. Thrombose sur chambre implantable.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Pression veineuse centrale normale d'environ 2 à 8 mmHg. L'extrémité d'un cathéter central se place à la jonction de la veine cave supérieure et de l'atrium droit, contrôlée par une radiographie.",
+          "sources": []
+        }
+      },
+      "relations": [],
+      "remarques": []
+    },
+    {
+      "id": "V02",
+      "champs": {
+        "origine": {
+          "texte": "Réunion des deux veines iliaques communes, à hauteur du corps de L5, à droite de la ligne médiane, un peu au-dessous de la bifurcation aortique.",
+          "sources": [
+            "GV26:19"
+          ]
+        },
+        "affluents": {
+          "texte": "Veine gonadique droite ; veine rénale droite, très courte ; veine rénale gauche, qui draine aussi la gonadique et la surrénalienne gauches ; veine surrénalienne droite, à sa face postérieure ; veines phréniques inférieures ; les trois veines hépatiques, juste avant la traversée du diaphragme ; veines satellites des artères (circonflexe iliaque profonde, sacrale médiane).",
+          "sources": [
+            "GV26:21"
+          ]
+        },
+        "terminaison": {
+          "texte": "Traverse le centre tendineux du diaphragme par le foramen de la veine cave inférieure (corps de T8), puis le péricarde, et se jette dans l'atrium droit par sa paroi inférieure (valvule d'Eustachi).",
+          "sources": [
+            "GV26:19-20",
+            "MED25:13"
+          ]
+        },
+        "territoire": {
+          "texte": "Abdomen et membres inférieurs.",
+          "sources": [
+            "GV26:19"
+          ]
+        },
+        "rapports": {
+          "texte": "Verticale, à droite de la ligne médiane, dans le fascia rétro-péritonéal, une vingtaine de centimètres sur 2 à 3 cm. En arrière : rein et glande surrénale droits (la surrénale à son contact), uretère droit. À gauche : l'aorte abdominale. En avant, par le péritoine : tête du pancréas, foie (qu'elle traverse parfois : segment rétro-hépatique inopérable), duodénum, veine porte, voie biliaire principale ; plus loin l'estomac et le côlon ascendant.",
+          "sources": [
+            "GV26:19-21"
+          ]
+        },
+        "variations": {
+          "texte": "Continuation azygos de la veine cave inférieure : les iliaques communes et les rénales se drainent dans l'azygos, et la veine cave inférieure, absente sous les veines hépatiques, est très courte.",
+          "sources": [
+            "GV26:26"
+          ]
+        },
+        "clinique": {
+          "texte": "Filtres caves chez les patients à thromboses récidivantes, contre les embolies pulmonaires. Désinsertion des veines hépatiques dans les décélérations, avec saignement en nappe.",
+          "sources": [
+            "GV26:21"
+          ]
+        },
+        "pathologie": {
+          "texte": "Thrombose de la veine cave inférieure (extension d'une thrombose iliaque, cancer du rein) : œdème des deux membres inférieurs, circulation collatérale abdominale. Compression par l'utérus gravide en décubitus dorsal : malaise et hypotension, d'où le décubitus latéral gauche en fin de grossesse.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "En échographie, son diamètre et ses variations respiratoires renseignent sur la volémie et la pression de l'atrium droit.",
+          "sources": []
+        }
+      },
+      "relations": [],
+      "remarques": [
+        "GV26 p.19 écrit « la veine cave supérieure est constituée par l'anastomose des deux veines iliaques communes » : il faut lire veine cave inférieure."
+      ]
+    },
+    {
+      "id": "V03",
+      "champs": {
+        "origine": {
+          "texte": "Réunion des veines jugulaire interne et subclavière, en arrière du premier cartilage costo-sternal.",
+          "sources": [
+            "GV26:18",
+            "MB26:13"
+          ]
+        },
+        "affluents": {
+          "texte": "Les veines thyroïdiennes inférieures, volumineuses, rejoignent la veine brachio-céphalique gauche. Une veine intercostale supérieure gauche, présente dans 20 % des cas, s'y jette aussi.",
+          "sources": [
+            "GV26:8,19"
+          ]
+        },
+        "terminaison": {
+          "texte": "Les deux veines brachio-céphaliques s'unissent pour former la veine cave supérieure.",
+          "sources": [
+            "GV26:18"
+          ]
+        },
+        "rapports": {
+          "texte": "La droite est verticale ; la gauche, oblique en bas et à droite, passe en avant de la jonction de l'aorte ascendante et de l'aorte horizontale, à laquelle elle est tangente.",
+          "sources": [
+            "GV26:7,9,18"
+          ]
+        },
+        "pathologie": {
+          "texte": "Thrombose ou sténose sur cathéter central et sur sonde de stimulateur cardiaque ; compression par les tumeurs du médiastin antérieur (thymome). Plaie de la veine brachio-céphalique gauche lors d'une sternotomie, car elle traverse le médiastin juste en arrière du manubrium.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "La gauche, longue de 6 à 7 cm, mesure environ deux fois la droite. Le conduit thoracique se termine à l'angle veineux gauche, jonction des veines jugulaire interne et subclavière gauches ; le conduit lymphatique droit à l'angle veineux droit.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "se_jette_dans",
+          "cible": "V01",
+          "sources": [
+            "GV26:18"
+          ]
+        }
+      ],
+      "remarques": [
+        "MB26 p.13 écrit « la veine brachio-céphalique qui forme la veine cave inférieure » : il faut lire veine cave supérieure."
+      ]
+    },
+    {
+      "id": "V04",
+      "champs": {
+        "origine": {
+          "texte": "Espace infra-médiastinal postérieur droit, à hauteur de T11, par deux racines : la racine médiale, issue de la face postérieure de la veine cave inférieure en regard de L2, et la racine latérale, très courte, formée par la veine lombaire ascendante droite et la veine subcostale droite.",
+          "sources": [
+            "GV26:23-24"
+          ]
+        },
+        "affluents": {
+          "texte": "Toutes les veines intercostales postérieures droites, les veines vertébrales, des veines œsophagiennes, les veines bronchiques, les veines phréniques supérieures, quelques veines péricardiques et médiastinales postérieures, et les veines hémi-azygos et hémi-azygos accessoire.",
+          "sources": [
+            "GV26:24"
+          ]
+        },
+        "terminaison": {
+          "texte": "Face postérieure de la veine cave supérieure, après une crosse décrite à hauteur de T4 au-dessus de la bronche principale droite.",
+          "sources": [
+            "GV26:24-25"
+          ]
+        },
+        "territoire": {
+          "texte": "Paroi thoracique et médiastin postérieur ; long courant veineux postérieur qui anastomose les systèmes caves inférieur et supérieur.",
+          "sources": [
+            "GV26:23"
+          ]
+        },
+        "rapports": {
+          "texte": "Monte contre le flanc droit de la colonne dans le médiastin postérieur, puis devient oblique à droite à partir de T6. 20 à 25 cm ; 5 mm à l'origine, 10 mm à la terminaison. La crosse est en rapport avec le nerf vague droit, qui passe entre elle et la bifurcation trachéale, avec les nœuds trachéo-bronchiques inférieurs droits et ceux de la bifurcation ; plus loin le nerf phrénique droit et le thymus.",
+          "sources": [
+            "GV26:23-25"
+          ]
+        },
+        "variations": {
+          "texte": "Constante à droite. Variations du côté gauche dans environ 30 % des cas ; continuation azygos de la veine cave inférieure.",
+          "sources": [
+            "GV26:26"
+          ]
+        },
+        "clinique": {
+          "texte": "Voie de dérivation du système cave supérieur lors d'un syndrome cave supérieur ; participe aux anastomoses porto-caves.",
+          "sources": [
+            "GV26:23"
+          ]
+        },
+        "pathologie": {
+          "texte": "Dilatation de la crosse visible en radiographie lors d'une hypertension veineuse ou d'une continuation azygos de la veine cave inférieure. Voie de dérivation lors d'une obstruction de l'une des veines caves.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Crosse visible en radiographie et au scanner dans l'angle trachéo-bronchique droit, au-dessus de la bronche principale droite ; diamètre normal inférieur à environ 10 mm en position debout.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "se_jette_dans",
+          "cible": "V01",
+          "sources": [
+            "GV26:24"
+          ]
+        }
+      ],
+      "remarques": []
+    },
+    {
+      "id": "V05",
+      "champs": {
+        "origine": {
+          "texte": "Espace infra-médiastinal postérieur gauche, en regard de T11, par deux racines : la veine lombaire ascendante gauche (racine médiale) et une racine latérale issue de la veine rénale gauche.",
+          "sources": [
+            "GV26:24"
+          ]
+        },
+        "affluents": {
+          "texte": "Les 4 ou 5 dernières veines intercostales postérieures gauches, des veines œsophagiennes, les veines phréniques supérieures gauches et quelques veines médiastinales postérieures.",
+          "sources": [
+            "GV26:24"
+          ]
+        },
+        "terminaison": {
+          "texte": "Verticale jusqu'à T7, elle se dirige ensuite à droite, croise la ligne médiane et se jette dans la veine azygos.",
+          "sources": [
+            "GV26:24"
+          ]
+        },
+        "rapports": {
+          "texte": "Plaquée contre le flanc gauche des vertèbres thoraciques ; rapport de l'aorte thoracique descendante.",
+          "sources": [
+            "GV26:9,24"
+          ]
+        },
+        "variations": {
+          "texte": "Peut manquer : les veines intercostales postérieures gauches inférieures se jettent alors directement dans la veine azygos.",
+          "sources": [
+            "GV26:26"
+          ]
+        },
+        "pathologie": {
+          "texte": "Voie de suppléance lors des obstructions caves.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Croise la ligne médiane en arrière de l'aorte, de l'œsophage et du conduit thoracique pour rejoindre la veine azygos.",
+          "sources": []
+        }
+      },
+      "relations": [
+        {
+          "type": "se_jette_dans",
+          "cible": "V04",
+          "sources": [
+            "GV26:24"
+          ]
+        }
+      ],
+      "remarques": [
+        "La veine hémi-azygos accessoire (6 ou 7 premières intercostales postérieures gauches) complète le dispositif en haut et se jette aussi dans l'azygos à hauteur de T6 (GV26 p.24)."
+      ]
+    },
+    {
+      "id": "V06",
+      "champs": {
+        "terminaison": {
+          "texte": "Atrium gauche. À droite, les ostiums des veines pulmonaires supérieure et inférieure sont le plus souvent séparés.",
+          "sources": [
+            "MED25:15"
+          ]
+        },
+        "territoire": {
+          "texte": "Sang oxygéné du poumon droit.",
+          "sources": [
+            "MED25:15"
+          ]
+        },
+        "rapports": {
+          "texte": "Le pédicule péricardo-phrénique droit passe juste en avant d'elle.",
+          "sources": [
+            "MED25:9"
+          ]
+        },
+        "clinique": {
+          "texte": "Les fibrillations atriales naissent dans les veines pulmonaires ; on les traite en isolant électriquement les veines pulmonaires des atriums. Une brûlure trop étendue de la veine pulmonaire supérieure droite peut léser le nerf phrénique droit et paralyser l'hémi-diaphragme droit.",
+          "sources": [
+            "MED25:9"
+          ]
+        },
+        "pathologie": {
+          "texte": "Retour veineux pulmonaire anormal partiel, le plus souvent de cette veine vers la veine cave supérieure, associé à une communication inter-atriale de type sinus venosus. Sténose des veines pulmonaires après une ablation de fibrillation atriale.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Draine les lobes supérieur et moyen droits. Les veines pulmonaires portent le sang le plus oxygéné du corps (saturation proche de 98 à 100 %), à la pression de l'atrium gauche, environ 5 à 10 mmHg, estimée par la pression artérielle pulmonaire d'occlusion.",
+          "sources": []
+        }
+      },
+      "relations": [],
+      "remarques": []
+    },
+    {
+      "id": "V07",
+      "champs": {
+        "terminaison": {
+          "texte": "Atrium gauche, par un ostium le plus souvent séparé de celui de la veine pulmonaire supérieure droite.",
+          "sources": [
+            "MED25:15"
+          ]
+        },
+        "territoire": {
+          "texte": "Sang oxygéné du poumon droit.",
+          "sources": [
+            "MED25:15"
+          ]
+        },
+        "clinique": {
+          "texte": "Comme toutes les veines pulmonaires, cible de l'isolement électrique dans le traitement des fibrillations atriales.",
+          "sources": [
+            "MED25:9"
+          ]
+        },
+        "pathologie": {
+          "texte": "Sténose après une ablation de fibrillation atriale. Syndrome du cimeterre : veine pulmonaire droite se jetant dans la veine cave inférieure.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Draine le lobe inférieur droit ; élément le plus bas du hile droit, au-dessus du ligament pulmonaire.",
+          "sources": []
+        }
+      },
+      "relations": [],
+      "remarques": []
+    },
+    {
+      "id": "V08",
+      "champs": {
+        "terminaison": {
+          "texte": "Atrium gauche ; à gauche, l'ostium des veines pulmonaires supérieure et inférieure est souvent commun.",
+          "sources": [
+            "MED25:15"
+          ]
+        },
+        "territoire": {
+          "texte": "Sang oxygéné du poumon gauche.",
+          "sources": [
+            "MED25:15"
+          ]
+        },
+        "rapports": {
+          "texte": "Avec l'autre veine pulmonaire gauche, la bronche principale gauche et l'artère pulmonaire gauche, elle forme le pédicule du poumon gauche, rapport antérieur de l'aorte descendante et inférieur de l'aorte horizontale.",
+          "sources": [
+            "GV26:7"
+          ]
+        },
+        "clinique": {
+          "texte": "Cible de l'isolement électrique dans le traitement des fibrillations atriales.",
+          "sources": [
+            "MED25:9"
+          ]
+        },
+        "pathologie": {
+          "texte": "Sténose après une ablation de fibrillation atriale. Retour veineux pulmonaire anormal par une veine verticale gauche vers la veine brachio-céphalique gauche.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Draine le lobe supérieur gauche et la lingula ; au hile gauche, en avant et en dessous de l'artère pulmonaire gauche.",
+          "sources": []
+        }
+      },
+      "relations": [],
+      "remarques": []
+    },
+    {
+      "id": "V09",
+      "champs": {
+        "terminaison": {
+          "texte": "Atrium gauche, souvent par un ostium commun avec la veine pulmonaire supérieure gauche.",
+          "sources": [
+            "MED25:15"
+          ]
+        },
+        "territoire": {
+          "texte": "Sang oxygéné du poumon gauche.",
+          "sources": [
+            "MED25:15"
+          ]
+        },
+        "rapports": {
+          "texte": "Élément du pédicule pulmonaire gauche, avec la veine pulmonaire supérieure gauche, la bronche principale gauche et l'artère pulmonaire gauche.",
+          "sources": [
+            "GV26:7"
+          ]
+        },
+        "clinique": {
+          "texte": "Cible de l'isolement électrique dans le traitement des fibrillations atriales.",
+          "sources": [
+            "MED25:9"
+          ]
+        },
+        "pathologie": {
+          "texte": "Sténose après une ablation de fibrillation atriale.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Draine le lobe inférieur gauche ; élément le plus bas du hile gauche, au-dessus du ligament pulmonaire.",
+          "sources": []
+        }
+      },
+      "relations": [],
+      "remarques": []
+    },
+    {
+      "id": "V10",
+      "champs": {
+        "origine": {
+          "texte": "Formé par la grande veine du cœur.",
+          "sources": [
+            "CV25:9"
+          ]
+        },
+        "affluents": {
+          "texte": "Les trois veines coronaires principales : la grande veine du cœur, satellite de l'artère interventriculaire antérieure puis de l'artère circonflexe ; la petite veine du cœur, satellite du rameau marginal droit, qui gagne le sillon atrio-ventriculaire droit ; la veine moyenne du cœur, satellite de l'artère interventriculaire postérieure.",
+          "sources": [
+            "CV25:9-10"
+          ]
+        },
+        "terminaison": {
+          "texte": "Atrium droit, par sa paroi inférieure ; l'ostium, au contact de la valve tricuspide, porte souvent un débris valvulaire, la valvule de Thebesius.",
+          "sources": [
+            "CV25:9",
+            "MED25:13-14"
+          ]
+        },
+        "territoire": {
+          "texte": "Retour veineux du cœur ; une petite partie se fait en dehors de lui, par de minuscules ostiums dans toutes les cavités cardiaques.",
+          "sources": [
+            "CV25:9-10"
+          ]
+        },
+        "rapports": {
+          "texte": "Structure veineuse de 3 cm sur 1,5 cm, sans paroi propre (limitée par l'épicarde), située dans le sillon atrio-ventriculaire gauche.",
+          "sources": [
+            "CV25:9"
+          ]
+        },
+        "pathologie": {
+          "texte": "Dilaté par une veine cave supérieure gauche persistante, qui s'y draine : à connaître avant de poser une sonde. Voie d'implantation de la sonde ventriculaire gauche des stimulateurs de resynchronisation, glissée dans une veine latérale du ventricule gauche.",
+          "sources": []
+        },
+        "reperes": {
+          "texte": "Ostium entre l'orifice de la veine cave inférieure et la valve tricuspide. Draine la majeure partie du sang veineux du cœur, le reste passant par les veines antérieures du cœur et les veines minimes.",
+          "sources": []
+        }
+      },
+      "relations": [],
+      "remarques": []
+    }
+  ]
+}
