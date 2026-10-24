@@ -9,6 +9,7 @@ Appli locale d'apprentissage de l'anatomie sur modèle 3D, avec révisions espac
 - Journaux balisés `[OK]`, `[WARN]`, `[FAIL]`, construits en cause, conséquence, action.
 - Python lancé avec `python -I` (les données téléchargées ne doivent jamais être importables).
 - CSV : séparateur `;`, encodage UTF-8 avec BOM (ouverture directe dans Excel).
+- Dépôt GitHub privé : https://github.com/Eliottcmu/atlas-anatomie (branche `main`). Les ronéos (PDF et extraits texte), les bases SQLite et les fichiers régénérables ne sont jamais versionnés (voir `.gitignore`). `gh` est dans `%LOCALAPPDATA%\Microsoft\WinGet\Packages\GitHub.cli_Microsoft.Winget.Source_8wekyb3d8bbwe\bin\`.
 
 ## Arborescence
 
