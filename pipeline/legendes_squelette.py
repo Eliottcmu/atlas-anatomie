@@ -10,8 +10,16 @@ court, sacrum 3 cm) : une similitude globale ne suffit pas. Ce script :
   3. pose chaque pointe sur le sommet le plus proche de l'os BodyParts3D, à 18 mm au plus, sinon
      la légende est écartée et signalée. Les pointes de Z-Anatomy visent parfois le centre d'un trou
      (foramen obturé) ou l'axe d'un os long (corps du tibia) : au-delà de 10 mm, la légende est posée
-     sur le bord le plus proche et marquée « approchée ». Les os absents de BodyParts3D (manubrium, coccyx,
-     osselets) gardent leurs légendes en réserve, signalées.
+     sur le bord le plus proche et marquée « approchée ». Les os absents de BodyParts3D (coccyx, osselets)
+     sont importés de Z-Anatomy par pipeline/organes_zanatomy.py : leurs légendes sont posées sur le
+     maillage importé (à lancer avant ce script) ;
+  4. reporte les repères d'un os type sur les autres os de sa famille : Z-Anatomy ne légende que L3, T8,
+     C4, la sixième côte, le troisième métacarpien... Report de proche en proche (L3 vers L2, puis L1, T12...),
+     par ICP rigide puis affine d'un os sur son voisin, avec une liste des os où chaque repère existe
+     (pas de fossette costale transverse sur T11 et T12). Marqués « reportés », à vérifier ;
+  5. calcule quelques repères de la face, que Z-Anatomy ne légende pas (processus du maxillaire et de
+     l'os zygomatique, tête, processus coronoïde et angle de la mandibule) : sommet le plus avancé dans
+     une direction, marqués « position calculée ».
 
 Sorties : donnees/derive/legendes_squelette.json (lu par construire_atlas.py), rapports/legendes_squelette.md.
 
@@ -39,15 +47,113 @@ RAPPORT = RACINE / "rapports" / "legendes_squelette.md"
 SEUIL_LEGENDE_MM, SEUIL_APPROCHEE_MM = 18.0, 10.0
 DEFORMATION_MAX = 0.25  # écart maximal des valeurs singulières de l'affine à 1
 POINTS_AFFINE, ITERATIONS_AFFINE, SEUIL_APPARIEMENT_MM = 4000, 40, 12.0
+ORDINAUX = ["first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth",
+            "eleventh", "twelfth"]
 
 # Os que Z-Anatomy ne légende pas : repères calculés sur BodyParts3D, sommet le plus avancé dans une
-# direction (repère BodyParts3D : gauche du sujet +X, avant -Y, haut +Z), marqués « calculés »
+# direction (repère BodyParts3D : avant -Y, haut +Z ; la composante X est latérale, vers l'extérieur du
+# côté de l'os), marqués « calculés ». Moitié : os impair d'un seul tenant (mandibule), un repère par côté.
 REPERES_CALCULES = [
-    ("base of patella", r"^(right|left) patella$", (0, 0, 1)),
-    ("apex of patella", r"^(right|left) patella$", (0, 0, -1)),
-    ("anterior surface of patella", r"^(right|left) patella$", (0, -1, 0)),
-    ("articular surface of patella", r"^(right|left) patella$", (0, 1, 0)),
+    ("base of patella", r"^(right|left) patella$", (0, 0, 1), False),
+    ("apex of patella", r"^(right|left) patella$", (0, 0, -1), False),
+    ("anterior surface of patella", r"^(right|left) patella$", (0, -1, 0), False),
+    ("articular surface of patella", r"^(right|left) patella$", (0, 1, 0), False),
+    # Mandibule : la tête est le point le plus haut et le plus en arrière de la branche, le processus
+    # coronoïde le plus haut en avant d'elle (les incisives sont 3 à 4 cm plus bas), l'angle en bas et en arrière
+    ("head of mandible", r"^mandible$", (0, 0.5, 1), True),
+    ("coronoid process of mandible", r"^mandible$", (0, -0.3, 1), True),
+    ("angle of mandible", r"^mandible$", (0.3, 1, -1), True),
+    ("frontal process of maxilla", r"^(right|left) maxilla$", (0, 0, 1), False),
+    ("alveolar process of maxilla", r"^(right|left) maxilla$", (0, 0, -1), False),
+    ("zygomatic process of maxilla", r"^(right|left) maxilla$", (1, 0, 0), False),
+    ("frontal process of zygomatic bone", r"^(right|left) zygomatic bone$", (0, 0, 1), False),
+    ("temporal process of zygomatic bone", r"^(right|left) zygomatic bone$", (0, 1, 0), False),
 ]
+# Moitié d'un os impair : sommets à plus de 10 mm du plan médian de l'os
+MOITIE_MM = 10.0
+
+# Report des repères d'un os type sur sa famille. Chaînes de noms BodyParts3D, de proche en proche depuis
+# l'os type ({cote} : right ou left) ; pour chaque repère, les os où il existe (None : toute la famille).
+CERVICALES = [f"{o} cervical vertebra" for o in ORDINAUX[2:7]]
+THORACIQUES = [f"{o} thoracic vertebra" for o in ORDINAUX]
+LOMBAIRES = [f"{o} lumbar vertebra" for o in ORDINAUX[:5]]
+RACHIS = CERVICALES + THORACIQUES + LOMBAIRES  # de haut en bas, C3 à L5 (C1 et C2 ont leurs propres repères)
+
+
+def vertebres(*noms):
+    """'T2-T9' -> noms BodyParts3D de T2 à T9."""
+    res = []
+    for n in noms:
+        a, b = n.split("-") if "-" in n else (n, n)
+        etage = {"C": CERVICALES, "T": THORACIQUES, "L": LOMBAIRES}[a[0]]
+        decalage = 3 if a[0] == "C" else 1
+        res += etage[int(a[1:]) - decalage:int(b[1:]) - decalage + 1]
+    return set(res)
+
+
+def chaine(liste, depart):
+    """Deux chaînes de proche en proche depuis l'os type : vers le début de la liste, puis vers la fin."""
+    i = liste.index(depart)
+    return [liste[i::-1], liste[i:]]
+
+
+DOIGTS_MAIN = ["thumb", "index finger", "middle finger", "ring finger", "little finger"]
+ORTEILS = ["big toe", "second toe", "third toe", "fourth toe", "little toe"]
+TRANSFERTS = [
+    {"source": "Vertebra L3", "chaines": chaine(RACHIS, "third lumbar vertebra"), "vertebre": True, "reperes": {
+        **{n: vertebres("C3-C7", "T1-T12", "L1-L5") for n in (
+            "vertebral body", "pedicle of vertebral arch", "lamina of vertebral arch", "vertebral arch", "spinous process",
+            "transverse process", "superior articular process of vertebra", "superior articular facet of vertebra",
+            "inferior articular facet of vertebra", "superior vertebral notch", "inferior vertebral notch",
+            "vertebral foramen", "intervertebral surface", "annular epiphysis")},
+        "pars interarticularis of vertebral arch": vertebres("L1-L5"),
+        "costal part of transverse process": vertebres("L1-L5")}},
+    # Fossettes costales : demi-fossettes supérieure et inférieure de T2 à T9 (T1 a une fossette entière pour
+    # la première côte, T10 à T12 une seule fossette) ; fossette transverse de T1 à T10
+    {"source": "Vertebra T8", "chaines": chaine(THORACIQUES, "eighth thoracic vertebra"), "vertebre": True, "reperes": {
+        "superior costal facet": vertebres("T2-T9"), "inferior costal facet": vertebres("T1-T8"),
+        "transverse costal facet": vertebres("T1-T10")}},
+    {"source": "Vertebra C4", "chaines": chaine(CERVICALES, "fourth cervical vertebra"), "vertebre": True, "reperes": {
+        "foramen transversarium": vertebres("C3-C7"), "uncinate process of vertebra": vertebres("C3-C7"),
+        "anterior tubercle of transverse process": vertebres("C3-C6"),
+        "posterior tubercle of transverse process": vertebres("C3-C6"), "groove for spinal nerve": vertebres("C3-C6")}},
+    # Côtes typiques : de la troisième à la neuvième
+    *[{"source": f"Sixth rib.{c}", "chaines": chaine([f"{cote} {o} rib" for o in ORDINAUX[2:9]], f"{cote} sixth rib"),
+       "reperes": {n: None for n in ("head of rib", "articular facets of head of rib", "crest of head of rib", "neck of rib",
+                                     "crest of neck of rib", "tubercle of rib", "articular facet of tubercle of rib",
+                                     "body of rib", "angle of rib", "costal groove")}}
+      for c, cote in (("r", "right"), ("l", "left"))],
+    *[t for c, cote in (("r", "right"), ("l", "left")) for t in (
+        {"source": f"Third metacarpal bone.{c}",
+         "chaines": chaine([f"{cote} {o} metacarpal bone" for o in ORDINAUX[:5]], f"{cote} third metacarpal bone"),
+         "reperes": {n: None for n in ("metacarpal base", "body of metacarpal bone", "head of metacarpal bone")}},
+        # Phalanges proximales, puis moyennes depuis la proximale du majeur (même forme, plus courte)
+        {"source": f"Proximal phalanx of third finger of hand.{c}",
+         "chaines": chaine([f"proximal phalanx of {cote} {d}" for d in DOIGTS_MAIN], f"proximal phalanx of {cote} middle finger")
+         + [[f"proximal phalanx of {cote} middle finger", f"middle phalanx of {cote} middle finger",
+             f"middle phalanx of {cote} index finger"],
+            [f"middle phalanx of {cote} middle finger", f"middle phalanx of {cote} ring finger",
+             f"middle phalanx of {cote} little finger"]],
+         "reperes": {n: None for n in ("base of phalanx of hand", "body of phalanx of hand", "head of phalanx of hand",
+                                       "trochlea of phalanx of hand")}},
+        {"source": f"Distal phalanx of third finger of hand.{c}",
+         "chaines": chaine([f"distal phalanx of {cote} {d}" for d in DOIGTS_MAIN], f"distal phalanx of {cote} middle finger"),
+         "reperes": {"tuberosity of distal phalanx of hand": None}},
+        {"source": f"Third metatarsal bone.{c}",
+         "chaines": chaine([f"{cote} {o} metatarsal bone" for o in ORDINAUX[:5]], f"{cote} third metatarsal bone"),
+         "reperes": {n: None for n in ("base of metatarsal bone", "body of metatarsal bone", "head of metatarsal bone")}},
+        {"source": f"Proximal phalanx of third finger of foot.{c}",
+         "chaines": chaine([f"proximal phalanx of {cote} {d}" for d in ORTEILS], f"proximal phalanx of {cote} third toe")
+         + [[f"proximal phalanx of {cote} third toe", f"middle phalanx of {cote} third toe",
+             f"middle phalanx of {cote} second toe"],
+            [f"middle phalanx of {cote} third toe", f"middle phalanx of {cote} fourth toe",
+             f"middle phalanx of {cote} little toe"]],
+         "reperes": {n: None for n in ("base of phalanx of foot", "body of phalanx of foot", "head of phalanx of foot",
+                                       "trochlea of phalanx of foot")}})],
+]
+# Report refusé si les deux os restent à plus de cet écart médian après recalage (formes trop différentes),
+# repère écarté s'il tombe à plus de cette distance de la surface de l'os cible
+ECART_REPORT_MAX_MM, POSE_REPORT_MAX_MM = 2.0, 6.0
 
 # Étiquettes de Z-Anatomy fausses, repérées par pipeline/controler_legendes_os.py : noms échangés,
 # avec la justification géométrique (affichée dans l'appli)
@@ -57,9 +163,7 @@ ECHANGES = [
      "y est à 2 cm de l'épicondyle médial et à 6 cm du latéral. Noms échangés."),
 ]
 
-ORDINAUX = ["first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth",
-            "eleventh", "twelfth"]
-ETAGES = {"C": "cervical", "T": "thoracic", "L": "lumbar"}
+ETAGES ={"C": "cervical", "T": "thoracic", "L": "lumbar"}
 DOIGTS = {"hand": {"first": "thumb", "second": "index finger", "third": "middle finger", "fourth": "ring finger",
                    "fifth": "little finger"},
           "foot": {"first": "big toe", "second": "second toe", "third": "third toe", "fourth": "fourth toe",
@@ -80,6 +184,8 @@ def noms_bp3d(porteur):
         return [f"{pre}{m.group(1).lower()} {m.group(2)} secondary {m.group(3)} tooth"]
     if base == "Navicular bone":
         return [f"navicular bone of {pre}foot"]
+    if base == "Manubrium of sternum":
+        return ["manubrium"]
     b = base.lower()
     return [pre + b, pre + re.sub(r" bone$", "", b)]
 
@@ -127,6 +233,112 @@ def icp_affine(source, cible):
     return a, t, avant, apres
 
 
+def en_gltf(point_mm):
+    """Point BodyParts3D (mm) en coordonnées glTF (m, arrondies)."""
+    return [round(float(v), 4) for v in point_mm @ ROTATION.T * ECHELLE]
+
+
+def os_importes():
+    """Os importés de Z-Anatomy par organes_zanatomy.py : {objet: sommets placés (mm, repère BodyParts3D)}."""
+    npz = CACHE / "os_importes.npz"
+    if not npz.exists():
+        journal("WARN", "Os importés de Z-Anatomy introuvables (coccyx, osselets). Conséquence : leurs légendes restent "
+                "en réserve. Action : lancer python -I pipeline/organes_zanatomy.py, puis relancer ce script.")
+        return {}
+    d = np.load(npz)
+    return {str(d[k]): d["s" + k[3:]] for k in d.files if k.startswith("nom")}
+
+
+def rotation_entre(u, v):
+    """Rotation qui amène la direction u sur la direction v (formule de Rodrigues)."""
+    u, v = u / np.linalg.norm(u), v / np.linalg.norm(v)
+    axe = np.cross(u, v)
+    s, c = np.linalg.norm(axe), float(u @ v)
+    if s < 1e-9:
+        return np.eye(3)
+    k = axe / s
+    kx = np.array([[0, -k[2], k[1]], [k[2], 0, -k[0]], [-k[1], k[0], 0]])
+    return np.eye(3) + s * kx + (1 - c) * kx @ kx
+
+
+def recaler_voisin(src, cib, r0):
+    """Recale un os sur son voisin de famille : centres superposés après la rotation r0, ICP rigide puis
+    affine (bornée comme pour Z-Anatomy). Renvoie (transformation des points, écart médian final en mm)."""
+    cs, cc = src.mean(axis=0), cib.mean(axis=0)
+
+    def initial(q):
+        return (q - cs) @ r0.T + cc
+
+    s0 = initial(src)
+    r, t, avant, rigide = icp(s0, cib)
+    if rigide >= avant:
+        r, t, rigide = np.eye(3), np.zeros(3), avant
+    a, ta, _, apres = icp_affine(s0 @ r.T + t, cib)
+    if a is None:
+        a, ta, apres = np.eye(3), np.zeros(3), rigide
+    return (lambda q: (initial(q) @ r.T + t) @ a.T + ta), apres
+
+
+def reporter_familles(index, geo_bp3d, recalages, sorties):
+    """Report des repères des os types sur leur famille (TRANSFERTS). Renvoie (repères reportés, refus)."""
+    fj_os = {}
+    for l in index:
+        if l["systeme"] == "os" and l["fj"] in geo_bp3d:
+            fj_os.setdefault(l["nom_en"].lower(), l["fj"])
+    # Axe du rachis : la rotation initiale d'une vertèbre vers sa voisine suit la courbure (lordose, cyphose)
+    centres = {n: geo_bp3d[fj_os[n]].mean(axis=0) for n in RACHIS if n in fj_os}
+
+    def tangente(n):
+        i = RACHIS.index(n)
+        haut = next((centres[RACHIS[j]] for j in (i - 1, i) if j >= 0 and RACHIS[j] in centres), centres[n])
+        bas = next((centres[RACHIS[j]] for j in (i + 1, i) if j < len(RACHIS) and RACHIS[j] in centres), centres[n])
+        return haut - bas
+
+    deja = {(s["cle"], s["nom_en"]) for s in sorties}
+    reportes, refus = [], []
+    for tr in TRANSFERTS:
+        if tr["source"] not in recalages:
+            refus.append(f"{tr['source']} : os type sans légendes posées")
+            continue
+        depart = tr["chaines"][0][0]
+        connus = {depart: [(s["nom_en"], s["inconstant"], s["_mm"]) for s in sorties
+                           if s["porteur"] == tr["source"] and s["nom_en"] in tr["reperes"]]}
+        for ch in tr["chaines"]:
+            for prec, cour in zip(ch, ch[1:]):
+                if prec not in connus or cour in connus:
+                    continue
+                if prec not in fj_os or cour not in fj_os:
+                    refus.append(f"{cour} : maillage absent de BodyParts3D")
+                    continue
+                src, cib = geo_bp3d[fj_os[prec]], geo_bp3d[fj_os[cour]]
+                r0 = rotation_entre(tangente(prec), tangente(cour)) if tr.get("vertebre") else np.eye(3)
+                transfo, ecart = recaler_voisin(src, cib, r0)
+                if ecart > ECART_REPORT_MAX_MM:
+                    refus.append(f"{cour} depuis {prec} : formes trop différentes ({ecart:.1f} mm après recalage)")
+                    continue
+                if not connus[prec]:
+                    connus[cour] = []
+                    continue
+                d, i = cKDTree(cib).query(transfo(np.array([p for _, _, p in connus[prec]])))
+                connus[cour] = []
+                cote = "droit" if " right " in f" {cour} " else "gauche" if " left " in f" {cour} " else None
+                for (nom, inconstant, _), di, ii in zip(connus[prec], d, i):
+                    if di > POSE_REPORT_MAX_MM:
+                        refus.append(f"{nom} sur {cour} : {di:.0f} mm de la surface")
+                        continue
+                    connus[cour].append((nom, inconstant, cib[ii]))
+                    autorise = tr["reperes"][nom]
+                    if (autorise is not None and cour not in autorise) or (fj_os[cour], nom) in deja:
+                        continue
+                    deja.add((fj_os[cour], nom))
+                    reportes.append({"nom_en": nom, "inconstant": inconstant, "cle": fj_os[cour], "cote": cote,
+                                     "porteur": f"report:{cour}", "ecart_mm": round(float(di), 1), "p": en_gltf(cib[ii]),
+                                     "reporte": depart})
+    journal("OK", f"{len(reportes)} repères reportés des os types sur leur famille"
+            + (f" ; {len(refus)} reports refusés." if refus else "."))
+    return reportes, refus
+
+
 def legendes_brutes(blender, blend, reexporter):
     sortie, npz = CACHE / "legendes_squelette.json", CACHE / "legendes_squelette_sommets.npz"
     if reexporter or not sortie.exists() or not npz.exists():
@@ -150,8 +362,9 @@ def main():
     for p in porteurs:
         fjs_de[p] = next((fj_par_nom[n] for n in noms_bp3d(p) if fj_par_nom.get(n)), [])
     besoins = {fj for v in fjs_de.values() for fj in v} | {l["fj"] for l in index if l["systeme"] == "os"}
-    besoins |= {l["fj"] for l in index if any(re.search(m, l["nom_en"]) for _, m, _ in REPERES_CALCULES)}
+    besoins |= {l["fj"] for l in index if any(re.search(c[1], l["nom_en"]) for c in REPERES_CALCULES)}
     geo_bp3d = charger_bp3d(besoins)
+    importes = os_importes()
 
     # Similitude globale sur les os (bornes relevées par pipeline/zanatomy.py)
     bornes = json.loads((DERIVE / "zanatomy_bornes.json").read_text(encoding="utf-8"))
@@ -166,11 +379,16 @@ def main():
     recalages, bilan_os, sans_homologue = {}, {}, []
     for p in porteurs:
         fjs = [fj for fj in fjs_de[p] if fj in geo_bp3d]
-        if not fjs or p not in sommets_za:
+        if p not in sommets_za or not (fjs or p in importes):
             sans_homologue.append(p)
             continue
-        cible = np.concatenate([geo_bp3d[fj] for fj in fjs])
-        etiquettes = np.concatenate([np.full(len(geo_bp3d[fj]), fj, dtype=object) for fj in fjs])
+        if fjs:
+            cible = np.concatenate([geo_bp3d[fj] for fj in fjs])
+            etiquettes = np.concatenate([np.full(len(geo_bp3d[fj]), fj, dtype=object) for fj in fjs])
+        else:
+            # Os importé de Z-Anatomy : la cible est le maillage affiché, sa clé le nom de l'objet
+            cible, fjs = importes[p], [p]
+            etiquettes = np.full(len(cible), p, dtype=object)
         source = globale(sommets_za[p].astype(float) * 1000)
         r, t, avant, rigide = icp(source, cible)
         if rigide >= avant:
@@ -205,9 +423,8 @@ def main():
         if d > SEUIL_LEGENDE_MM:
             ecartees.append(f"{nom} ({p} : {d:.0f} mm de la surface)")
             continue
-        pos = cible[i] @ ROTATION.T * ECHELLE
         sorties.append({"nom_en": nom, "inconstant": inconstant, "cle": str(etiquettes[i]), "cote": cote_de(p),
-                        "porteur": p, "ecart_mm": round(float(d), 1), "p": [round(float(v), 4) for v in pos]})
+                        "porteur": p, "ecart_mm": round(float(d), 1), "p": en_gltf(cible[i]), "_mm": cible[i]})
         if d > SEUIL_APPROCHEE_MM:
             sorties[-1]["approchee"] = True
 
@@ -217,21 +434,34 @@ def main():
                 leg["nom_en"] = b if leg["nom_en"] == a else a
                 leg["correction"] = raison
 
+    reportes, refus = reporter_familles(index, geo_bp3d, recalages, sorties)
+    sorties += reportes
+
     # Repères calculés : posés sur un sommet de l'os, donc sur la surface affichée
-    for nom, motif, direction in REPERES_CALCULES:
+    for nom, motif, direction, moitie in REPERES_CALCULES:
         for l in index:
             if not re.search(motif, l["nom_en"]) or l["fj"] not in geo_bp3d:
                 continue
             pts = geo_bp3d[l["fj"]]
-            i = int(np.argmax(pts @ (np.array(direction, float) / np.linalg.norm(direction))))
-            cote = "droit" if l["nom_en"].startswith("right") else "gauche" if l["nom_en"].startswith("left") else None
-            sorties.append({"nom_en": nom, "inconstant": False, "cle": l["fj"], "cote": cote, "porteur": "calculé",
-                            "ecart_mm": 0.0, "p": [round(float(v), 4) for v in pts[i] @ ROTATION.T * ECHELLE],
-                            "calcule": True})
+            cote_os = "droit" if l["nom_en"].startswith("right") else "gauche" if l["nom_en"].startswith("left") else None
+            if moitie:
+                cx = pts[:, 0].mean()
+                cas = [("droit", pts[:, 0] < cx - MOITIE_MM), ("gauche", pts[:, 0] > cx + MOITIE_MM)]
+            else:
+                cas = [(cote_os, np.ones(len(pts), bool))]
+            for cote, masque in cas:
+                d = np.array(direction, float)
+                d[0] *= -1 if cote == "droit" else 1  # composante latérale ; gauche du sujet vers +X
+                sous = pts[masque]
+                i = int(np.argmax(sous @ (d / np.linalg.norm(d))))
+                sorties.append({"nom_en": nom, "inconstant": False, "cle": l["fj"], "cote": cote, "porteur": "calculé",
+                                "ecart_mm": 0.0, "p": en_gltf(sous[i]), "calcule": True})
 
+    for s in sorties:
+        s.pop("_mm", None)
     SORTIE_JSON.write_text(json.dumps({"legendes": sorties, "ecartees": ecartees, "reserve": reserve,
-                                       "os": bilan_os, "global": resume_global}, ensure_ascii=False, indent=1),
-                           encoding="utf-8")
+                                       "reports_refuses": refus, "os": bilan_os, "global": resume_global},
+                                      ensure_ascii=False, indent=1), encoding="utf-8")
     affines = sum(b["mode"] == "affine" for b in bilan_os.values())
     journal("OK", f"{len(sorties)} légendes osseuses posées sur {len(bilan_os)} os ({affines} recalés en affine), "
             f"écart de pose médian {np.median([s['ecart_mm'] for s in sorties]):.1f} mm.")
@@ -254,6 +484,14 @@ def main():
     lignes += ["", f"**{len(sorties)} légendes posées** ; écart de pose médian "
                f"{np.median([s['ecart_mm'] for s in sorties]):.1f} mm, maximal {max(s['ecart_mm'] for s in sorties):.1f} mm.", ""]
     lignes += ["Étiquettes de Z-Anatomy corrigées :", ""] + [f"- {os_} : {a} et {b}. {r}" for os_, a, b, r in ECHANGES] + [""]
+    par_os_type = Counter(r["reporte"] for r in reportes)
+    lignes += [f"**{len(reportes)} repères reportés** d'un os type sur sa famille (de proche en proche, ICP rigide "
+               "puis affine) :", "", "| Os type | Repères reportés | Os légendés |", "| --- | --- | --- |"]
+    for depart, n in sorted(par_os_type.items()):
+        lignes.append(f"| {depart} | {n} | {len({r['cle'] for r in reportes if r['reporte'] == depart})} |")
+    lignes += [""]
+    if refus:
+        lignes += ["Reports refusés :", ""] + [f"- {e}" for e in refus] + [""]
     if ecartees:
         lignes += ["Légendes écartées (pointe trop loin de l'os après recalage) :", ""] + [f"- {e}" for e in ecartees] + [""]
     if reserve:

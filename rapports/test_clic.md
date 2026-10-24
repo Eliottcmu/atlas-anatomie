@@ -2,7 +2,7 @@
 
 Fichier généré par app/tests/clic.mjs, ne pas éditer à la main.
 
-Date : 2026-10-24 10:58. Rendu : ANGLE (Intel, Intel(R) UHD Graphics (0x00004688) Direct3D11 vs_5_0 ps_5_0, D3D11). Chargement : 1.8 s.
+Date : 2026-10-24 15:21. Rendu : ANGLE (Intel, Intel(R) UHD Graphics (0x00004688) Direct3D11 vs_5_0 ps_5_0, D3D11). Chargement : 1.8 s.
 Fluidité mesurée en rotation : 60 i/s (rendu matériel).
 
 **170 cas cliquables sur 170** (100 %).

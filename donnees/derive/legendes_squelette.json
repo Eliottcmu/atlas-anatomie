@@ -184,6 +184,19 @@
    ]
   },
   {
+   "nom_en": "anterior limb of stapes",
+   "inconstant": false,
+   "cle": "Stapes.r",
+   "cote": "droit",
+   "porteur": "Stapes.r",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0453,
+    1.507,
+    0.0905
+   ]
+  },
+  {
    "nom_en": "anterior process of calcaneus",
    "inconstant": false,
    "cle": "FJ3360",
@@ -194,6 +207,19 @@
     -0.0979,
     -0.034,
     0.075
+   ]
+  },
+  {
+   "nom_en": "anterior process of malleus",
+   "inconstant": false,
+   "cle": "Malleus.r",
+   "cote": "droit",
+   "porteur": "Malleus.r",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0506,
+    1.5096,
+    0.0915
    ]
   },
   {
@@ -249,6 +275,19 @@
    ]
   },
   {
+   "nom_en": "apex of coccyx",
+   "inconstant": false,
+   "cle": "Coccyx",
+   "cote": null,
+   "porteur": "Coccyx",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0002,
+    0.7811,
+    0.0171
+   ]
+  },
+  {
    "nom_en": "arch of cricoid cartilage",
    "inconstant": false,
    "cle": "FJ2440",
@@ -272,6 +311,58 @@
     -0.0054,
     1.4101,
     0.0978
+   ]
+  },
+  {
+   "nom_en": "articular facet for malleus",
+   "inconstant": false,
+   "cle": "Incus.r",
+   "cote": "droit",
+   "porteur": "Incus.r",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0499,
+    1.5102,
+    0.0892
+   ]
+  },
+  {
+   "nom_en": "articular facet for stapes",
+   "inconstant": false,
+   "cle": "Incus.r",
+   "cote": "droit",
+   "porteur": "Incus.r",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0473,
+    1.5065,
+    0.0894
+   ]
+  },
+  {
+   "nom_en": "articular facet of head of malleus",
+   "inconstant": false,
+   "cle": "Malleus.r",
+   "cote": "droit",
+   "porteur": "Malleus.r",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0508,
+    1.511,
+    0.0896
+   ]
+  },
+  {
+   "nom_en": "articular facet of head of stapes",
+   "inconstant": false,
+   "cle": "Stapes.r",
+   "cote": "droit",
+   "porteur": "Stapes.r",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0473,
+    1.5065,
+    0.0891
    ]
   },
   {
@@ -353,6 +444,19 @@
    ]
   },
   {
+   "nom_en": "base of coccyx",
+   "inconstant": false,
+   "cle": "Coccyx",
+   "cote": null,
+   "porteur": "Coccyx",
+   "ecart_mm": 0.0,
+   "p": [
+    0.0,
+    0.8073,
+    0.0111
+   ]
+  },
+  {
    "nom_en": "base of mandible",
    "inconstant": false,
    "cle": "FJ3289",
@@ -392,6 +496,19 @@
    ]
   },
   {
+   "nom_en": "base of stapes",
+   "inconstant": false,
+   "cle": "Stapes.r",
+   "cote": "droit",
+   "porteur": "Stapes.r",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.044,
+    1.5084,
+    0.0896
+   ]
+  },
+  {
    "nom_en": "basilar part of occipital bone",
    "inconstant": false,
    "cle": "FJ3309",
@@ -428,6 +545,19 @@
     -0.0055,
     1.4227,
     0.1246
+   ]
+  },
+  {
+   "nom_en": "body of incus",
+   "inconstant": false,
+   "cle": "Incus.r",
+   "cote": "droit",
+   "porteur": "Incus.r",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0514,
+    1.5113,
+    0.0882
    ]
   },
   {
@@ -623,6 +753,32 @@
     -0.0007,
     1.5323,
     0.1156
+   ]
+  },
+  {
+   "nom_en": "clavicular notch",
+   "inconstant": false,
+   "cle": "FJ3290",
+   "cote": null,
+   "porteur": "Manubrium of sternum",
+   "ecart_mm": 1.2,
+   "p": [
+    -0.0223,
+    1.3057,
+    0.1442
+   ]
+  },
+  {
+   "nom_en": "coccygeal horn",
+   "inconstant": false,
+   "cle": "Coccyx",
+   "cote": null,
+   "porteur": "Coccyx",
+   "ecart_mm": 0.0,
+   "p": [
+    0.0093,
+    0.8069,
+    -0.0001
    ]
   },
   {
@@ -1211,6 +1367,32 @@
    ]
   },
   {
+   "nom_en": "handle of malleus",
+   "inconstant": false,
+   "cle": "Malleus.r",
+   "cote": "droit",
+   "porteur": "Malleus.r",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0497,
+    1.5064,
+    0.0914
+   ]
+  },
+  {
+   "nom_en": "head of malleus",
+   "inconstant": false,
+   "cle": "Malleus.r",
+   "cote": "droit",
+   "porteur": "Malleus.r",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0506,
+    1.5129,
+    0.0905
+   ]
+  },
+  {
    "nom_en": "head of metatarsal bone",
    "inconstant": false,
    "cle": "FJ3355",
@@ -1627,6 +1809,19 @@
    ]
   },
   {
+   "nom_en": "lateral process of malleus",
+   "inconstant": false,
+   "cle": "Malleus.r",
+   "cote": "droit",
+   "porteur": "Malleus.r",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0522,
+    1.5078,
+    0.0902
+   ]
+  },
+  {
    "nom_en": "lateral process of talus",
    "inconstant": false,
    "cle": "FJ3385",
@@ -1663,6 +1858,19 @@
     -0.0653,
     -0.0207,
     0.0491
+   ]
+  },
+  {
+   "nom_en": "lenticular process of incus",
+   "inconstant": false,
+   "cle": "Incus.r",
+   "cote": "droit",
+   "porteur": "Incus.r",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0477,
+    1.5063,
+    0.0896
    ]
   },
   {
@@ -1715,6 +1923,19 @@
     -0.0184,
     1.4531,
     0.1457
+   ]
+  },
+  {
+   "nom_en": "long limb of incus",
+   "inconstant": false,
+   "cle": "Incus.r",
+   "cote": "droit",
+   "porteur": "Incus.r",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.048,
+    1.5081,
+    0.0886
    ]
   },
   {
@@ -1988,6 +2209,19 @@
     -0.0725,
     -0.0204,
     0.1041
+   ]
+  },
+  {
+   "nom_en": "neck of malleus",
+   "inconstant": false,
+   "cle": "Malleus.r",
+   "cote": "droit",
+   "porteur": "Malleus.r",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0512,
+    1.5087,
+    0.0906
    ]
   },
   {
@@ -2287,6 +2521,19 @@
     0.0067,
     1.529,
     0.0959
+   ]
+  },
+  {
+   "nom_en": "posterior limb of stapes",
+   "inconstant": false,
+   "cle": "Stapes.r",
+   "cote": "droit",
+   "porteur": "Stapes.r",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0448,
+    1.5067,
+    0.0886
    ]
   },
   {
@@ -6849,6 +7096,19 @@
    ]
   },
   {
+   "nom_en": "anterior limb of stapes",
+   "inconstant": false,
+   "cle": "Stapes.l",
+   "cote": "gauche",
+   "porteur": "Stapes.l",
+   "ecart_mm": 0.0,
+   "p": [
+    0.0443,
+    1.5079,
+    0.0906
+   ]
+  },
+  {
    "nom_en": "anterior process of calcaneus",
    "inconstant": false,
    "cle": "FJ3256",
@@ -6859,6 +7119,19 @@
     0.0972,
     -0.0331,
     0.0743
+   ]
+  },
+  {
+   "nom_en": "anterior process of malleus",
+   "inconstant": false,
+   "cle": "Malleus.l",
+   "cote": "gauche",
+   "porteur": "Malleus.l",
+   "ecart_mm": 0.0,
+   "p": [
+    0.0495,
+    1.5106,
+    0.0916
    ]
   },
   {
@@ -6898,6 +7171,58 @@
     0.004,
     1.4101,
     0.0978
+   ]
+  },
+  {
+   "nom_en": "articular facet for malleus",
+   "inconstant": false,
+   "cle": "Incus.l",
+   "cote": "gauche",
+   "porteur": "Incus.l",
+   "ecart_mm": 0.0,
+   "p": [
+    0.0489,
+    1.5112,
+    0.0894
+   ]
+  },
+  {
+   "nom_en": "articular facet for stapes",
+   "inconstant": false,
+   "cle": "Incus.l",
+   "cote": "gauche",
+   "porteur": "Incus.l",
+   "ecart_mm": 0.0,
+   "p": [
+    0.0463,
+    1.5075,
+    0.0894
+   ]
+  },
+  {
+   "nom_en": "articular facet of head of malleus",
+   "inconstant": false,
+   "cle": "Malleus.l",
+   "cote": "gauche",
+   "porteur": "Malleus.l",
+   "ecart_mm": 0.0,
+   "p": [
+    0.0497,
+    1.5121,
+    0.0897
+   ]
+  },
+  {
+   "nom_en": "articular facet of head of stapes",
+   "inconstant": false,
+   "cle": "Stapes.l",
+   "cote": "gauche",
+   "porteur": "Stapes.l",
+   "ecart_mm": 0.0,
+   "p": [
+    0.0463,
+    1.5075,
+    0.0892
    ]
   },
   {
@@ -6992,6 +7317,19 @@
    ]
   },
   {
+   "nom_en": "base of stapes",
+   "inconstant": false,
+   "cle": "Stapes.l",
+   "cote": "gauche",
+   "porteur": "Stapes.l",
+   "ecart_mm": 0.0,
+   "p": [
+    0.0429,
+    1.5093,
+    0.0897
+   ]
+  },
+  {
    "nom_en": "body of clavicle",
    "inconstant": false,
    "cle": "FJ3237",
@@ -7002,6 +7340,19 @@
     0.0719,
     1.3395,
     0.1162
+   ]
+  },
+  {
+   "nom_en": "body of incus",
+   "inconstant": false,
+   "cle": "Incus.l",
+   "cote": "gauche",
+   "porteur": "Incus.l",
+   "ecart_mm": 0.0,
+   "p": [
+    0.0503,
+    1.5124,
+    0.0884
    ]
   },
   {
@@ -7278,6 +7629,32 @@
    ]
   },
   {
+   "nom_en": "handle of malleus",
+   "inconstant": false,
+   "cle": "Malleus.l",
+   "cote": "gauche",
+   "porteur": "Malleus.l",
+   "ecart_mm": 0.0,
+   "p": [
+    0.0487,
+    1.5074,
+    0.0915
+   ]
+  },
+  {
+   "nom_en": "head of malleus",
+   "inconstant": false,
+   "cle": "Malleus.l",
+   "cote": "gauche",
+   "porteur": "Malleus.l",
+   "ecart_mm": 0.0,
+   "p": [
+    0.0495,
+    1.5139,
+    0.0907
+   ]
+  },
+  {
    "nom_en": "head of metatarsal bone",
    "inconstant": false,
    "cle": "FJ3247",
@@ -7369,6 +7746,19 @@
    ]
   },
   {
+   "nom_en": "lateral process of malleus",
+   "inconstant": false,
+   "cle": "Malleus.l",
+   "cote": "gauche",
+   "porteur": "Malleus.l",
+   "ecart_mm": 0.0,
+   "p": [
+    0.0512,
+    1.5088,
+    0.0903
+   ]
+  },
+  {
    "nom_en": "lateral process of talus",
    "inconstant": false,
    "cle": "FJ3280",
@@ -7395,6 +7785,19 @@
    ]
   },
   {
+   "nom_en": "lenticular process of incus",
+   "inconstant": false,
+   "cle": "Incus.l",
+   "cote": "gauche",
+   "porteur": "Incus.l",
+   "ecart_mm": 0.0,
+   "p": [
+    0.0467,
+    1.5073,
+    0.0896
+   ]
+  },
+  {
    "nom_en": "lingual surface of tooth",
    "inconstant": false,
    "cle": "FJ1254",
@@ -7405,6 +7808,19 @@
     0.0172,
     1.453,
     0.1455
+   ]
+  },
+  {
+   "nom_en": "long limb of incus",
+   "inconstant": false,
+   "cle": "Incus.l",
+   "cote": "gauche",
+   "porteur": "Incus.l",
+   "ecart_mm": 0.0,
+   "p": [
+    0.047,
+    1.5091,
+    0.0888
    ]
   },
   {
@@ -7525,6 +7941,19 @@
    ]
   },
   {
+   "nom_en": "neck of malleus",
+   "inconstant": false,
+   "cle": "Malleus.l",
+   "cote": "gauche",
+   "porteur": "Malleus.l",
+   "ecart_mm": 0.0,
+   "p": [
+    0.0502,
+    1.5097,
+    0.0907
+   ]
+  },
+  {
    "nom_en": "neck of rib",
    "inconstant": false,
    "cle": "FJ3233",
@@ -7600,6 +8029,19 @@
     0.073,
     -0.0209,
     0.0582
+   ]
+  },
+  {
+   "nom_en": "posterior limb of stapes",
+   "inconstant": false,
+   "cle": "Stapes.l",
+   "cote": "gauche",
+   "porteur": "Stapes.l",
+   "ecart_mm": 0.0,
+   "p": [
+    0.0438,
+    1.5077,
+    0.0887
    ]
   },
   {
@@ -10980,6 +11422,7412 @@
    ]
   },
   {
+   "nom_en": "annular epiphysis",
+   "inconstant": false,
+   "cle": "FJ3159",
+   "cote": null,
+   "porteur": "report:second lumbar vertebra",
+   "ecart_mm": 2.9,
+   "p": [
+    0.0176,
+    1.0363,
+    0.0965
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "costal part of transverse process",
+   "inconstant": false,
+   "cle": "FJ3159",
+   "cote": null,
+   "porteur": "report:second lumbar vertebra",
+   "ecart_mm": 5.8,
+   "p": [
+    -0.0309,
+    1.023,
+    0.0649
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3159",
+   "cote": null,
+   "porteur": "report:second lumbar vertebra",
+   "ecart_mm": 1.1,
+   "p": [
+    0.0137,
+    0.9949,
+    0.0619
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3159",
+   "cote": null,
+   "porteur": "report:second lumbar vertebra",
+   "ecart_mm": 0.9,
+   "p": [
+    -0.015,
+    1.0185,
+    0.076
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "intervertebral surface",
+   "inconstant": false,
+   "cle": "FJ3159",
+   "cote": null,
+   "porteur": "report:second lumbar vertebra",
+   "ecart_mm": 2.6,
+   "p": [
+    -0.0033,
+    1.0356,
+    0.092
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "lamina of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3159",
+   "cote": null,
+   "porteur": "report:second lumbar vertebra",
+   "ecart_mm": 1.9,
+   "p": [
+    0.0059,
+    1.0129,
+    0.06
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "pars interarticularis of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3159",
+   "cote": null,
+   "porteur": "report:second lumbar vertebra",
+   "ecart_mm": 0.4,
+   "p": [
+    0.0124,
+    1.0164,
+    0.0613
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "pedicle of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3159",
+   "cote": null,
+   "porteur": "report:second lumbar vertebra",
+   "ecart_mm": 2.5,
+   "p": [
+    0.0175,
+    1.025,
+    0.0738
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "spinous process",
+   "inconstant": false,
+   "cle": "FJ3159",
+   "cote": null,
+   "porteur": "report:second lumbar vertebra",
+   "ecart_mm": 1.2,
+   "p": [
+    0.0007,
+    0.9946,
+    0.0353
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3159",
+   "cote": null,
+   "porteur": "report:second lumbar vertebra",
+   "ecart_mm": 2.1,
+   "p": [
+    -0.0127,
+    1.0262,
+    0.0618
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular process of vertebra",
+   "inconstant": false,
+   "cle": "FJ3159",
+   "cote": null,
+   "porteur": "report:second lumbar vertebra",
+   "ecart_mm": 1.7,
+   "p": [
+    0.0156,
+    1.0347,
+    0.0574
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3159",
+   "cote": null,
+   "porteur": "report:second lumbar vertebra",
+   "ecart_mm": 2.1,
+   "p": [
+    -0.0123,
+    1.0327,
+    0.0709
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "transverse process",
+   "inconstant": false,
+   "cle": "FJ3159",
+   "cote": null,
+   "porteur": "report:second lumbar vertebra",
+   "ecart_mm": 1.7,
+   "p": [
+    0.0367,
+    1.0249,
+    0.0614
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3159",
+   "cote": null,
+   "porteur": "report:second lumbar vertebra",
+   "ecart_mm": 2.5,
+   "p": [
+    0.0036,
+    1.0151,
+    0.0581
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral body",
+   "inconstant": false,
+   "cle": "FJ3159",
+   "cote": null,
+   "porteur": "report:second lumbar vertebra",
+   "ecart_mm": 2.7,
+   "p": [
+    0.0125,
+    1.0216,
+    0.1063
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral foramen",
+   "inconstant": false,
+   "cle": "FJ3159",
+   "cote": null,
+   "porteur": "report:second lumbar vertebra",
+   "ecart_mm": 1.0,
+   "p": [
+    0.0041,
+    1.0214,
+    0.0642
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "annular epiphysis",
+   "inconstant": false,
+   "cle": "FJ3157",
+   "cote": null,
+   "porteur": "report:first lumbar vertebra",
+   "ecart_mm": 2.3,
+   "p": [
+    0.0182,
+    1.0681,
+    0.0901
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "costal part of transverse process",
+   "inconstant": false,
+   "cle": "FJ3157",
+   "cote": null,
+   "porteur": "report:first lumbar vertebra",
+   "ecart_mm": 1.9,
+   "p": [
+    -0.028,
+    1.0518,
+    0.0598
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3157",
+   "cote": null,
+   "porteur": "report:first lumbar vertebra",
+   "ecart_mm": 2.3,
+   "p": [
+    0.011,
+    1.0237,
+    0.0583
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3157",
+   "cote": null,
+   "porteur": "report:first lumbar vertebra",
+   "ecart_mm": 1.5,
+   "p": [
+    -0.0137,
+    1.0464,
+    0.0699
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "lamina of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3157",
+   "cote": null,
+   "porteur": "report:first lumbar vertebra",
+   "ecart_mm": 1.0,
+   "p": [
+    0.0063,
+    1.0406,
+    0.0551
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "pars interarticularis of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3157",
+   "cote": null,
+   "porteur": "report:first lumbar vertebra",
+   "ecart_mm": 1.2,
+   "p": [
+    0.0105,
+    1.043,
+    0.0562
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "pedicle of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3157",
+   "cote": null,
+   "porteur": "report:first lumbar vertebra",
+   "ecart_mm": 1.3,
+   "p": [
+    0.0154,
+    1.0538,
+    0.0685
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "spinous process",
+   "inconstant": false,
+   "cle": "FJ3157",
+   "cote": null,
+   "porteur": "report:first lumbar vertebra",
+   "ecart_mm": 2.3,
+   "p": [
+    0.0009,
+    1.0196,
+    0.0307
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3157",
+   "cote": null,
+   "porteur": "report:first lumbar vertebra",
+   "ecart_mm": 2.1,
+   "p": [
+    -0.0105,
+    1.0516,
+    0.0562
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular process of vertebra",
+   "inconstant": false,
+   "cle": "FJ3157",
+   "cote": null,
+   "porteur": "report:first lumbar vertebra",
+   "ecart_mm": 1.4,
+   "p": [
+    0.0144,
+    1.0616,
+    0.0497
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3157",
+   "cote": null,
+   "porteur": "report:first lumbar vertebra",
+   "ecart_mm": 1.5,
+   "p": [
+    -0.0129,
+    1.0595,
+    0.0639
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "transverse process",
+   "inconstant": false,
+   "cle": "FJ3157",
+   "cote": null,
+   "porteur": "report:first lumbar vertebra",
+   "ecart_mm": 1.2,
+   "p": [
+    0.0331,
+    1.052,
+    0.0552
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3157",
+   "cote": null,
+   "porteur": "report:first lumbar vertebra",
+   "ecart_mm": 1.8,
+   "p": [
+    0.0049,
+    1.0411,
+    0.0532
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral body",
+   "inconstant": false,
+   "cle": "FJ3157",
+   "cote": null,
+   "porteur": "report:first lumbar vertebra",
+   "ecart_mm": 3.4,
+   "p": [
+    0.0137,
+    1.0521,
+    0.0996
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral foramen",
+   "inconstant": false,
+   "cle": "FJ3157",
+   "cote": null,
+   "porteur": "report:first lumbar vertebra",
+   "ecart_mm": 1.0,
+   "p": [
+    0.0038,
+    1.0498,
+    0.0588
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "annular epiphysis",
+   "inconstant": false,
+   "cle": "FJ3156",
+   "cote": null,
+   "porteur": "report:twelfth thoracic vertebra",
+   "ecart_mm": 1.1,
+   "p": [
+    0.0176,
+    1.0969,
+    0.0816
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3156",
+   "cote": null,
+   "porteur": "report:twelfth thoracic vertebra",
+   "ecart_mm": 1.3,
+   "p": [
+    0.0115,
+    1.054,
+    0.05
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3156",
+   "cote": null,
+   "porteur": "report:twelfth thoracic vertebra",
+   "ecart_mm": 0.6,
+   "p": [
+    -0.0131,
+    1.0762,
+    0.0606
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "lamina of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3156",
+   "cote": null,
+   "porteur": "report:twelfth thoracic vertebra",
+   "ecart_mm": 1.3,
+   "p": [
+    0.0056,
+    1.0705,
+    0.047
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "pedicle of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3156",
+   "cote": null,
+   "porteur": "report:twelfth thoracic vertebra",
+   "ecart_mm": 3.2,
+   "p": [
+    0.0174,
+    1.0848,
+    0.0573
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "spinous process",
+   "inconstant": false,
+   "cle": "FJ3156",
+   "cote": null,
+   "porteur": "report:twelfth thoracic vertebra",
+   "ecart_mm": 3.6,
+   "p": [
+    0.0002,
+    1.0516,
+    0.0243
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3156",
+   "cote": null,
+   "porteur": "report:twelfth thoracic vertebra",
+   "ecart_mm": 1.2,
+   "p": [
+    -0.011,
+    1.0812,
+    0.0461
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular process of vertebra",
+   "inconstant": false,
+   "cle": "FJ3156",
+   "cote": null,
+   "porteur": "report:twelfth thoracic vertebra",
+   "ecart_mm": 3.7,
+   "p": [
+    0.0158,
+    1.0887,
+    0.0389
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3156",
+   "cote": null,
+   "porteur": "report:twelfth thoracic vertebra",
+   "ecart_mm": 2.4,
+   "p": [
+    -0.0123,
+    1.0899,
+    0.0571
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3156",
+   "cote": null,
+   "porteur": "report:twelfth thoracic vertebra",
+   "ecart_mm": 2.1,
+   "p": [
+    0.0044,
+    1.0701,
+    0.0459
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral body",
+   "inconstant": false,
+   "cle": "FJ3156",
+   "cote": null,
+   "porteur": "report:twelfth thoracic vertebra",
+   "ecart_mm": 3.1,
+   "p": [
+    0.0134,
+    1.0846,
+    0.0908
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral foramen",
+   "inconstant": false,
+   "cle": "FJ3156",
+   "cote": null,
+   "porteur": "report:twelfth thoracic vertebra",
+   "ecart_mm": 1.1,
+   "p": [
+    0.0043,
+    1.0797,
+    0.0489
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "annular epiphysis",
+   "inconstant": false,
+   "cle": "FJ3155",
+   "cote": null,
+   "porteur": "report:eleventh thoracic vertebra",
+   "ecart_mm": 2.9,
+   "p": [
+    0.0165,
+    1.1255,
+    0.0755
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3155",
+   "cote": null,
+   "porteur": "report:eleventh thoracic vertebra",
+   "ecart_mm": 3.6,
+   "p": [
+    0.0111,
+    1.0874,
+    0.0419
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3155",
+   "cote": null,
+   "porteur": "report:eleventh thoracic vertebra",
+   "ecart_mm": 0.8,
+   "p": [
+    -0.0134,
+    1.1049,
+    0.052
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "lamina of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3155",
+   "cote": null,
+   "porteur": "report:eleventh thoracic vertebra",
+   "ecart_mm": 2.3,
+   "p": [
+    0.0055,
+    1.1008,
+    0.0363
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "pedicle of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3155",
+   "cote": null,
+   "porteur": "report:eleventh thoracic vertebra",
+   "ecart_mm": 1.5,
+   "p": [
+    0.0162,
+    1.1139,
+    0.0489
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "spinous process",
+   "inconstant": false,
+   "cle": "FJ3155",
+   "cote": null,
+   "porteur": "report:eleventh thoracic vertebra",
+   "ecart_mm": 2.5,
+   "p": [
+    0.001,
+    1.0812,
+    0.0133
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3155",
+   "cote": null,
+   "porteur": "report:eleventh thoracic vertebra",
+   "ecart_mm": 1.0,
+   "p": [
+    -0.0106,
+    1.1108,
+    0.0388
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular process of vertebra",
+   "inconstant": false,
+   "cle": "FJ3155",
+   "cote": null,
+   "porteur": "report:eleventh thoracic vertebra",
+   "ecart_mm": 1.9,
+   "p": [
+    0.0166,
+    1.1162,
+    0.0335
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3155",
+   "cote": null,
+   "porteur": "report:eleventh thoracic vertebra",
+   "ecart_mm": 2.4,
+   "p": [
+    -0.0137,
+    1.1207,
+    0.0504
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3155",
+   "cote": null,
+   "porteur": "report:eleventh thoracic vertebra",
+   "ecart_mm": 1.8,
+   "p": [
+    0.0055,
+    1.1008,
+    0.0363
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral body",
+   "inconstant": false,
+   "cle": "FJ3155",
+   "cote": null,
+   "porteur": "report:eleventh thoracic vertebra",
+   "ecart_mm": 1.2,
+   "p": [
+    0.0137,
+    1.1126,
+    0.0807
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral foramen",
+   "inconstant": false,
+   "cle": "FJ3155",
+   "cote": null,
+   "porteur": "report:eleventh thoracic vertebra",
+   "ecart_mm": 2.3,
+   "p": [
+    0.0043,
+    1.1079,
+    0.0387
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "annular epiphysis",
+   "inconstant": false,
+   "cle": "FJ3154",
+   "cote": null,
+   "porteur": "report:tenth thoracic vertebra",
+   "ecart_mm": 2.5,
+   "p": [
+    0.0146,
+    1.1532,
+    0.07
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3154",
+   "cote": null,
+   "porteur": "report:tenth thoracic vertebra",
+   "ecart_mm": 1.3,
+   "p": [
+    0.0114,
+    1.1157,
+    0.037
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3154",
+   "cote": null,
+   "porteur": "report:tenth thoracic vertebra",
+   "ecart_mm": 1.7,
+   "p": [
+    -0.0149,
+    1.1317,
+    0.0458
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "lamina of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3154",
+   "cote": null,
+   "porteur": "report:tenth thoracic vertebra",
+   "ecart_mm": 1.4,
+   "p": [
+    0.006,
+    1.1285,
+    0.0288
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "pedicle of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3154",
+   "cote": null,
+   "porteur": "report:tenth thoracic vertebra",
+   "ecart_mm": 1.6,
+   "p": [
+    0.0146,
+    1.1415,
+    0.0423
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "spinous process",
+   "inconstant": false,
+   "cle": "FJ3154",
+   "cote": null,
+   "porteur": "report:tenth thoracic vertebra",
+   "ecart_mm": 1.2,
+   "p": [
+    0.0008,
+    1.1081,
+    0.0088
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3154",
+   "cote": null,
+   "porteur": "report:tenth thoracic vertebra",
+   "ecart_mm": 3.0,
+   "p": [
+    -0.0083,
+    1.1381,
+    0.0305
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular process of vertebra",
+   "inconstant": false,
+   "cle": "FJ3154",
+   "cote": null,
+   "porteur": "report:tenth thoracic vertebra",
+   "ecart_mm": 5.2,
+   "p": [
+    0.0184,
+    1.1396,
+    0.0297
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3154",
+   "cote": null,
+   "porteur": "report:tenth thoracic vertebra",
+   "ecart_mm": 1.1,
+   "p": [
+    -0.0142,
+    1.1488,
+    0.0445
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3154",
+   "cote": null,
+   "porteur": "report:tenth thoracic vertebra",
+   "ecart_mm": 1.4,
+   "p": [
+    0.006,
+    1.1285,
+    0.0288
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral body",
+   "inconstant": false,
+   "cle": "FJ3154",
+   "cote": null,
+   "porteur": "report:tenth thoracic vertebra",
+   "ecart_mm": 2.3,
+   "p": [
+    0.012,
+    1.1426,
+    0.0739
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral foramen",
+   "inconstant": false,
+   "cle": "FJ3154",
+   "cote": null,
+   "porteur": "report:tenth thoracic vertebra",
+   "ecart_mm": 2.8,
+   "p": [
+    0.0029,
+    1.1334,
+    0.0339
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "annular epiphysis",
+   "inconstant": false,
+   "cle": "FJ3175",
+   "cote": null,
+   "porteur": "report:ninth thoracic vertebra",
+   "ecart_mm": 1.0,
+   "p": [
+    0.0137,
+    1.1802,
+    0.0626
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3175",
+   "cote": null,
+   "porteur": "report:ninth thoracic vertebra",
+   "ecart_mm": 1.5,
+   "p": [
+    0.0124,
+    1.1461,
+    0.0297
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3175",
+   "cote": null,
+   "porteur": "report:ninth thoracic vertebra",
+   "ecart_mm": 1.8,
+   "p": [
+    -0.014,
+    1.1616,
+    0.039
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "lamina of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3175",
+   "cote": null,
+   "porteur": "report:ninth thoracic vertebra",
+   "ecart_mm": 4.1,
+   "p": [
+    0.0043,
+    1.1593,
+    0.0196
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "pedicle of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3175",
+   "cote": null,
+   "porteur": "report:ninth thoracic vertebra",
+   "ecart_mm": 1.3,
+   "p": [
+    0.0156,
+    1.1705,
+    0.0358
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "spinous process",
+   "inconstant": false,
+   "cle": "FJ3175",
+   "cote": null,
+   "porteur": "report:ninth thoracic vertebra",
+   "ecart_mm": 3.9,
+   "p": [
+    -0.0009,
+    1.1367,
+    0.0062
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3175",
+   "cote": null,
+   "porteur": "report:ninth thoracic vertebra",
+   "ecart_mm": 1.3,
+   "p": [
+    -0.0074,
+    1.1676,
+    0.0247
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular process of vertebra",
+   "inconstant": false,
+   "cle": "FJ3175",
+   "cote": null,
+   "porteur": "report:ninth thoracic vertebra",
+   "ecart_mm": 1.7,
+   "p": [
+    0.0196,
+    1.168,
+    0.0224
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3175",
+   "cote": null,
+   "porteur": "report:ninth thoracic vertebra",
+   "ecart_mm": 0.6,
+   "p": [
+    -0.0143,
+    1.1763,
+    0.0387
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3175",
+   "cote": null,
+   "porteur": "report:ninth thoracic vertebra",
+   "ecart_mm": 4.1,
+   "p": [
+    0.0043,
+    1.1593,
+    0.0196
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral body",
+   "inconstant": false,
+   "cle": "FJ3175",
+   "cote": null,
+   "porteur": "report:ninth thoracic vertebra",
+   "ecart_mm": 2.8,
+   "p": [
+    0.0126,
+    1.1678,
+    0.068
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral foramen",
+   "inconstant": false,
+   "cle": "FJ3175",
+   "cote": null,
+   "porteur": "report:ninth thoracic vertebra",
+   "ecart_mm": 1.2,
+   "p": [
+    0.0027,
+    1.1616,
+    0.0269
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "annular epiphysis",
+   "inconstant": false,
+   "cle": "FJ3174",
+   "cote": null,
+   "porteur": "report:eighth thoracic vertebra",
+   "ecart_mm": 1.7,
+   "p": [
+    0.0133,
+    1.2045,
+    0.0572
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3174",
+   "cote": null,
+   "porteur": "report:eighth thoracic vertebra",
+   "ecart_mm": 0.9,
+   "p": [
+    0.0118,
+    1.1745,
+    0.0261
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3174",
+   "cote": null,
+   "porteur": "report:eighth thoracic vertebra",
+   "ecart_mm": 1.1,
+   "p": [
+    -0.0129,
+    1.1885,
+    0.034
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "lamina of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3174",
+   "cote": null,
+   "porteur": "report:eighth thoracic vertebra",
+   "ecart_mm": 3.4,
+   "p": [
+    0.0007,
+    1.1862,
+    0.0156
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "pedicle of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3174",
+   "cote": null,
+   "porteur": "report:eighth thoracic vertebra",
+   "ecart_mm": 0.9,
+   "p": [
+    0.0142,
+    1.1968,
+    0.0323
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "spinous process",
+   "inconstant": false,
+   "cle": "FJ3174",
+   "cote": null,
+   "porteur": "report:eighth thoracic vertebra",
+   "ecart_mm": 1.3,
+   "p": [
+    -0.001,
+    1.1662,
+    0.0023
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3174",
+   "cote": null,
+   "porteur": "report:eighth thoracic vertebra",
+   "ecart_mm": 0.7,
+   "p": [
+    -0.0074,
+    1.1946,
+    0.0218
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular process of vertebra",
+   "inconstant": false,
+   "cle": "FJ3174",
+   "cote": null,
+   "porteur": "report:eighth thoracic vertebra",
+   "ecart_mm": 2.1,
+   "p": [
+    0.0202,
+    1.1954,
+    0.0179
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3174",
+   "cote": null,
+   "porteur": "report:eighth thoracic vertebra",
+   "ecart_mm": 1.4,
+   "p": [
+    -0.0137,
+    1.2026,
+    0.0334
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3174",
+   "cote": null,
+   "porteur": "report:eighth thoracic vertebra",
+   "ecart_mm": 3.4,
+   "p": [
+    0.0007,
+    1.1862,
+    0.0156
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral body",
+   "inconstant": false,
+   "cle": "FJ3174",
+   "cote": null,
+   "porteur": "report:eighth thoracic vertebra",
+   "ecart_mm": 3.0,
+   "p": [
+    0.0122,
+    1.1925,
+    0.0601
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral foramen",
+   "inconstant": false,
+   "cle": "FJ3174",
+   "cote": null,
+   "porteur": "report:eighth thoracic vertebra",
+   "ecart_mm": 1.9,
+   "p": [
+    0.0022,
+    1.187,
+    0.0228
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "annular epiphysis",
+   "inconstant": false,
+   "cle": "FJ3173",
+   "cote": null,
+   "porteur": "report:seventh thoracic vertebra",
+   "ecart_mm": 1.8,
+   "p": [
+    0.0128,
+    1.2308,
+    0.0536
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3173",
+   "cote": null,
+   "porteur": "report:seventh thoracic vertebra",
+   "ecart_mm": 1.5,
+   "p": [
+    0.013,
+    1.2021,
+    0.0214
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3173",
+   "cote": null,
+   "porteur": "report:seventh thoracic vertebra",
+   "ecart_mm": 0.9,
+   "p": [
+    -0.0128,
+    1.2161,
+    0.0306
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "lamina of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3173",
+   "cote": null,
+   "porteur": "report:seventh thoracic vertebra",
+   "ecart_mm": 2.0,
+   "p": [
+    0.0025,
+    1.215,
+    0.0128
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "pedicle of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3173",
+   "cote": null,
+   "porteur": "report:seventh thoracic vertebra",
+   "ecart_mm": 0.9,
+   "p": [
+    0.0144,
+    1.225,
+    0.0296
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "spinous process",
+   "inconstant": false,
+   "cle": "FJ3173",
+   "cote": null,
+   "porteur": "report:seventh thoracic vertebra",
+   "ecart_mm": 2.8,
+   "p": [
+    -0.0012,
+    1.1945,
+    0.0036
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3173",
+   "cote": null,
+   "porteur": "report:seventh thoracic vertebra",
+   "ecart_mm": 1.7,
+   "p": [
+    -0.0084,
+    1.2242,
+    0.0185
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular process of vertebra",
+   "inconstant": false,
+   "cle": "FJ3173",
+   "cote": null,
+   "porteur": "report:seventh thoracic vertebra",
+   "ecart_mm": 1.6,
+   "p": [
+    0.0228,
+    1.2243,
+    0.0155
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3173",
+   "cote": null,
+   "porteur": "report:seventh thoracic vertebra",
+   "ecart_mm": 0.8,
+   "p": [
+    -0.014,
+    1.2309,
+    0.0304
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3173",
+   "cote": null,
+   "porteur": "report:seventh thoracic vertebra",
+   "ecart_mm": 2.0,
+   "p": [
+    0.0025,
+    1.215,
+    0.0128
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral body",
+   "inconstant": false,
+   "cle": "FJ3173",
+   "cote": null,
+   "porteur": "report:seventh thoracic vertebra",
+   "ecart_mm": 1.6,
+   "p": [
+    0.013,
+    1.2174,
+    0.0534
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral foramen",
+   "inconstant": false,
+   "cle": "FJ3173",
+   "cote": null,
+   "porteur": "report:seventh thoracic vertebra",
+   "ecart_mm": 1.2,
+   "p": [
+    0.0015,
+    1.2157,
+    0.02
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "annular epiphysis",
+   "inconstant": false,
+   "cle": "FJ3171",
+   "cote": null,
+   "porteur": "report:sixth thoracic vertebra",
+   "ecart_mm": 1.7,
+   "p": [
+    0.0118,
+    1.2549,
+    0.0531
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3171",
+   "cote": null,
+   "porteur": "report:sixth thoracic vertebra",
+   "ecart_mm": 0.4,
+   "p": [
+    0.0117,
+    1.2323,
+    0.0203
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3171",
+   "cote": null,
+   "porteur": "report:sixth thoracic vertebra",
+   "ecart_mm": 0.9,
+   "p": [
+    -0.0116,
+    1.2447,
+    0.0314
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "lamina of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3171",
+   "cote": null,
+   "porteur": "report:sixth thoracic vertebra",
+   "ecart_mm": 3.8,
+   "p": [
+    -0.0002,
+    1.2474,
+    0.0109
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "pedicle of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3171",
+   "cote": null,
+   "porteur": "report:sixth thoracic vertebra",
+   "ecart_mm": 1.2,
+   "p": [
+    0.0119,
+    1.2541,
+    0.0305
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "spinous process",
+   "inconstant": false,
+   "cle": "FJ3171",
+   "cote": null,
+   "porteur": "report:sixth thoracic vertebra",
+   "ecart_mm": 1.2,
+   "p": [
+    -0.0008,
+    1.2278,
+    0.0033
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3171",
+   "cote": null,
+   "porteur": "report:sixth thoracic vertebra",
+   "ecart_mm": 2.0,
+   "p": [
+    -0.0097,
+    1.2539,
+    0.0202
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular process of vertebra",
+   "inconstant": false,
+   "cle": "FJ3171",
+   "cote": null,
+   "porteur": "report:sixth thoracic vertebra",
+   "ecart_mm": 2.6,
+   "p": [
+    0.0215,
+    1.2567,
+    0.0162
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3171",
+   "cote": null,
+   "porteur": "report:sixth thoracic vertebra",
+   "ecart_mm": 1.1,
+   "p": [
+    -0.0121,
+    1.2602,
+    0.0324
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3171",
+   "cote": null,
+   "porteur": "report:sixth thoracic vertebra",
+   "ecart_mm": 3.8,
+   "p": [
+    -0.0002,
+    1.2474,
+    0.0109
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral body",
+   "inconstant": false,
+   "cle": "FJ3171",
+   "cote": null,
+   "porteur": "report:sixth thoracic vertebra",
+   "ecart_mm": 0.8,
+   "p": [
+    0.0113,
+    1.2424,
+    0.0524
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral foramen",
+   "inconstant": false,
+   "cle": "FJ3171",
+   "cote": null,
+   "porteur": "report:sixth thoracic vertebra",
+   "ecart_mm": 0.7,
+   "p": [
+    0.0016,
+    1.2462,
+    0.0207
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "annular epiphysis",
+   "inconstant": false,
+   "cle": "FJ3169",
+   "cote": null,
+   "porteur": "report:fifth thoracic vertebra",
+   "ecart_mm": 1.4,
+   "p": [
+    0.0121,
+    1.2797,
+    0.0544
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3169",
+   "cote": null,
+   "porteur": "report:fifth thoracic vertebra",
+   "ecart_mm": 1.1,
+   "p": [
+    0.0114,
+    1.2621,
+    0.0222
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3169",
+   "cote": null,
+   "porteur": "report:fifth thoracic vertebra",
+   "ecart_mm": 0.8,
+   "p": [
+    -0.0119,
+    1.2722,
+    0.0348
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "lamina of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3169",
+   "cote": null,
+   "porteur": "report:fifth thoracic vertebra",
+   "ecart_mm": 1.0,
+   "p": [
+    -0.0004,
+    1.2762,
+    0.0145
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "pedicle of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3169",
+   "cote": null,
+   "porteur": "report:fifth thoracic vertebra",
+   "ecart_mm": 1.5,
+   "p": [
+    0.0122,
+    1.2823,
+    0.0353
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "spinous process",
+   "inconstant": false,
+   "cle": "FJ3169",
+   "cote": null,
+   "porteur": "report:fifth thoracic vertebra",
+   "ecart_mm": 1.1,
+   "p": [
+    -0.0003,
+    1.2583,
+    0.0044
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3169",
+   "cote": null,
+   "porteur": "report:fifth thoracic vertebra",
+   "ecart_mm": 2.8,
+   "p": [
+    -0.0075,
+    1.2835,
+    0.0253
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular process of vertebra",
+   "inconstant": false,
+   "cle": "FJ3169",
+   "cote": null,
+   "porteur": "report:fifth thoracic vertebra",
+   "ecart_mm": 1.1,
+   "p": [
+    0.021,
+    1.2858,
+    0.022
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3169",
+   "cote": null,
+   "porteur": "report:fifth thoracic vertebra",
+   "ecart_mm": 0.8,
+   "p": [
+    -0.011,
+    1.2866,
+    0.0374
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3169",
+   "cote": null,
+   "porteur": "report:fifth thoracic vertebra",
+   "ecart_mm": 1.0,
+   "p": [
+    -0.0004,
+    1.2762,
+    0.0145
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral body",
+   "inconstant": false,
+   "cle": "FJ3169",
+   "cote": null,
+   "porteur": "report:fifth thoracic vertebra",
+   "ecart_mm": 3.4,
+   "p": [
+    0.0086,
+    1.2691,
+    0.055
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral foramen",
+   "inconstant": false,
+   "cle": "FJ3169",
+   "cote": null,
+   "porteur": "report:fifth thoracic vertebra",
+   "ecart_mm": 1.5,
+   "p": [
+    0.003,
+    1.274,
+    0.0252
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "annular epiphysis",
+   "inconstant": false,
+   "cle": "FJ3166",
+   "cote": null,
+   "porteur": "report:fourth thoracic vertebra",
+   "ecart_mm": 1.8,
+   "p": [
+    0.01,
+    1.303,
+    0.0599
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3166",
+   "cote": null,
+   "porteur": "report:fourth thoracic vertebra",
+   "ecart_mm": 1.4,
+   "p": [
+    0.0101,
+    1.2903,
+    0.0259
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3166",
+   "cote": null,
+   "porteur": "report:fourth thoracic vertebra",
+   "ecart_mm": 0.5,
+   "p": [
+    -0.0116,
+    1.298,
+    0.0396
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "lamina of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3166",
+   "cote": null,
+   "porteur": "report:fourth thoracic vertebra",
+   "ecart_mm": 3.7,
+   "p": [
+    -0.0004,
+    1.3046,
+    0.0243
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "pedicle of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3166",
+   "cote": null,
+   "porteur": "report:fourth thoracic vertebra",
+   "ecart_mm": 1.5,
+   "p": [
+    0.0115,
+    1.3067,
+    0.0402
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "spinous process",
+   "inconstant": false,
+   "cle": "FJ3166",
+   "cote": null,
+   "porteur": "report:fourth thoracic vertebra",
+   "ecart_mm": 1.8,
+   "p": [
+    -0.0014,
+    1.2917,
+    0.0068
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3166",
+   "cote": null,
+   "porteur": "report:fourth thoracic vertebra",
+   "ecart_mm": 2.9,
+   "p": [
+    -0.0061,
+    1.311,
+    0.0344
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular process of vertebra",
+   "inconstant": false,
+   "cle": "FJ3166",
+   "cote": null,
+   "porteur": "report:fourth thoracic vertebra",
+   "ecart_mm": 1.3,
+   "p": [
+    0.0213,
+    1.3117,
+    0.0294
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3166",
+   "cote": null,
+   "porteur": "report:fourth thoracic vertebra",
+   "ecart_mm": 1.5,
+   "p": [
+    -0.0108,
+    1.3115,
+    0.0452
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3166",
+   "cote": null,
+   "porteur": "report:fourth thoracic vertebra",
+   "ecart_mm": 3.7,
+   "p": [
+    -0.0004,
+    1.3046,
+    0.0243
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral body",
+   "inconstant": false,
+   "cle": "FJ3166",
+   "cote": null,
+   "porteur": "report:fourth thoracic vertebra",
+   "ecart_mm": 3.0,
+   "p": [
+    0.0104,
+    1.293,
+    0.0563
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral foramen",
+   "inconstant": false,
+   "cle": "FJ3166",
+   "cote": null,
+   "porteur": "report:fourth thoracic vertebra",
+   "ecart_mm": 0.4,
+   "p": [
+    0.0027,
+    1.3017,
+    0.0305
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "annular epiphysis",
+   "inconstant": false,
+   "cle": "FJ3163",
+   "cote": null,
+   "porteur": "report:third thoracic vertebra",
+   "ecart_mm": 1.3,
+   "p": [
+    0.0103,
+    1.3231,
+    0.0695
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3163",
+   "cote": null,
+   "porteur": "report:third thoracic vertebra",
+   "ecart_mm": 1.2,
+   "p": [
+    0.01,
+    1.315,
+    0.0338
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3163",
+   "cote": null,
+   "porteur": "report:third thoracic vertebra",
+   "ecart_mm": 0.3,
+   "p": [
+    -0.0118,
+    1.32,
+    0.0476
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "lamina of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3163",
+   "cote": null,
+   "porteur": "report:third thoracic vertebra",
+   "ecart_mm": 2.9,
+   "p": [
+    0.0004,
+    1.3288,
+    0.0309
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "pedicle of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3163",
+   "cote": null,
+   "porteur": "report:third thoracic vertebra",
+   "ecart_mm": 1.5,
+   "p": [
+    0.013,
+    1.329,
+    0.0496
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "spinous process",
+   "inconstant": false,
+   "cle": "FJ3163",
+   "cote": null,
+   "porteur": "report:third thoracic vertebra",
+   "ecart_mm": 0.8,
+   "p": [
+    -0.0014,
+    1.3161,
+    0.0137
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3163",
+   "cote": null,
+   "porteur": "report:third thoracic vertebra",
+   "ecart_mm": 1.3,
+   "p": [
+    -0.0073,
+    1.3319,
+    0.0437
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular process of vertebra",
+   "inconstant": false,
+   "cle": "FJ3163",
+   "cote": null,
+   "porteur": "report:third thoracic vertebra",
+   "ecart_mm": 1.0,
+   "p": [
+    0.0209,
+    1.3345,
+    0.0387
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3163",
+   "cote": null,
+   "porteur": "report:third thoracic vertebra",
+   "ecart_mm": 1.1,
+   "p": [
+    -0.0105,
+    1.3325,
+    0.0538
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3163",
+   "cote": null,
+   "porteur": "report:third thoracic vertebra",
+   "ecart_mm": 2.9,
+   "p": [
+    0.0004,
+    1.3288,
+    0.0309
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral body",
+   "inconstant": false,
+   "cle": "FJ3163",
+   "cote": null,
+   "porteur": "report:third thoracic vertebra",
+   "ecart_mm": 4.1,
+   "p": [
+    0.0106,
+    1.3184,
+    0.0659
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral foramen",
+   "inconstant": false,
+   "cle": "FJ3163",
+   "cote": null,
+   "porteur": "report:third thoracic vertebra",
+   "ecart_mm": 0.5,
+   "p": [
+    0.0031,
+    1.3242,
+    0.039
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "annular epiphysis",
+   "inconstant": false,
+   "cle": "FJ3160",
+   "cote": null,
+   "porteur": "report:second thoracic vertebra",
+   "ecart_mm": 1.4,
+   "p": [
+    0.0116,
+    1.3428,
+    0.0762
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3160",
+   "cote": null,
+   "porteur": "report:second thoracic vertebra",
+   "ecart_mm": 1.4,
+   "p": [
+    0.0122,
+    1.3371,
+    0.0443
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3160",
+   "cote": null,
+   "porteur": "report:second thoracic vertebra",
+   "ecart_mm": 1.4,
+   "p": [
+    -0.0128,
+    1.3414,
+    0.0586
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "lamina of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3160",
+   "cote": null,
+   "porteur": "report:second thoracic vertebra",
+   "ecart_mm": 3.6,
+   "p": [
+    -0.0017,
+    1.3499,
+    0.0452
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "pedicle of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3160",
+   "cote": null,
+   "porteur": "report:second thoracic vertebra",
+   "ecart_mm": 2.3,
+   "p": [
+    0.0149,
+    1.3492,
+    0.062
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "spinous process",
+   "inconstant": false,
+   "cle": "FJ3160",
+   "cote": null,
+   "porteur": "report:second thoracic vertebra",
+   "ecart_mm": 3.2,
+   "p": [
+    -0.0014,
+    1.3393,
+    0.0223
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3160",
+   "cote": null,
+   "porteur": "report:second thoracic vertebra",
+   "ecart_mm": 1.7,
+   "p": [
+    -0.0094,
+    1.352,
+    0.0546
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular process of vertebra",
+   "inconstant": false,
+   "cle": "FJ3160",
+   "cote": null,
+   "porteur": "report:second thoracic vertebra",
+   "ecart_mm": 1.7,
+   "p": [
+    0.0225,
+    1.3566,
+    0.0497
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3160",
+   "cote": null,
+   "porteur": "report:second thoracic vertebra",
+   "ecart_mm": 1.2,
+   "p": [
+    -0.0113,
+    1.3512,
+    0.0648
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3160",
+   "cote": null,
+   "porteur": "report:second thoracic vertebra",
+   "ecart_mm": 3.6,
+   "p": [
+    -0.0017,
+    1.3499,
+    0.0452
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral body",
+   "inconstant": false,
+   "cle": "FJ3160",
+   "cote": null,
+   "porteur": "report:second thoracic vertebra",
+   "ecart_mm": 4.8,
+   "p": [
+    0.014,
+    1.34,
+    0.0699
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral foramen",
+   "inconstant": false,
+   "cle": "FJ3160",
+   "cote": null,
+   "porteur": "report:second thoracic vertebra",
+   "ecart_mm": 1.6,
+   "p": [
+    0.0036,
+    1.3471,
+    0.0487
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "annular epiphysis",
+   "inconstant": false,
+   "cle": "FJ3158",
+   "cote": null,
+   "porteur": "report:first thoracic vertebra",
+   "ecart_mm": 1.6,
+   "p": [
+    0.0112,
+    1.3603,
+    0.0812
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3158",
+   "cote": null,
+   "porteur": "report:first thoracic vertebra",
+   "ecart_mm": 2.0,
+   "p": [
+    0.0132,
+    1.3575,
+    0.0494
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3158",
+   "cote": null,
+   "porteur": "report:first thoracic vertebra",
+   "ecart_mm": 1.2,
+   "p": [
+    -0.0139,
+    1.3611,
+    0.0653
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "lamina of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3158",
+   "cote": null,
+   "porteur": "report:first thoracic vertebra",
+   "ecart_mm": 0.9,
+   "p": [
+    -0.0018,
+    1.3669,
+    0.053
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "pedicle of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3158",
+   "cote": null,
+   "porteur": "report:first thoracic vertebra",
+   "ecart_mm": 2.0,
+   "p": [
+    0.0156,
+    1.3667,
+    0.0702
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "spinous process",
+   "inconstant": false,
+   "cle": "FJ3158",
+   "cote": null,
+   "porteur": "report:first thoracic vertebra",
+   "ecart_mm": 2.8,
+   "p": [
+    -0.001,
+    1.3595,
+    0.028
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3158",
+   "cote": null,
+   "porteur": "report:first thoracic vertebra",
+   "ecart_mm": 1.4,
+   "p": [
+    -0.0111,
+    1.3688,
+    0.0607
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular process of vertebra",
+   "inconstant": false,
+   "cle": "FJ3158",
+   "cote": null,
+   "porteur": "report:first thoracic vertebra",
+   "ecart_mm": 3.3,
+   "p": [
+    0.0263,
+    1.3715,
+    0.0589
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3158",
+   "cote": null,
+   "porteur": "report:first thoracic vertebra",
+   "ecart_mm": 0.6,
+   "p": [
+    -0.0125,
+    1.3692,
+    0.0714
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3158",
+   "cote": null,
+   "porteur": "report:first thoracic vertebra",
+   "ecart_mm": 0.9,
+   "p": [
+    -0.0018,
+    1.3669,
+    0.053
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral body",
+   "inconstant": false,
+   "cle": "FJ3158",
+   "cote": null,
+   "porteur": "report:first thoracic vertebra",
+   "ecart_mm": 1.2,
+   "p": [
+    0.0142,
+    1.3593,
+    0.0757
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral foramen",
+   "inconstant": false,
+   "cle": "FJ3158",
+   "cote": null,
+   "porteur": "report:first thoracic vertebra",
+   "ecart_mm": 1.2,
+   "p": [
+    0.0045,
+    1.3661,
+    0.0553
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "annular epiphysis",
+   "inconstant": false,
+   "cle": "FJ3172",
+   "cote": null,
+   "porteur": "report:seventh cervical vertebra",
+   "ecart_mm": 1.9,
+   "p": [
+    0.0097,
+    1.3777,
+    0.0854
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3172",
+   "cote": null,
+   "porteur": "report:seventh cervical vertebra",
+   "ecart_mm": 1.3,
+   "p": [
+    0.0127,
+    1.3732,
+    0.0553
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3172",
+   "cote": null,
+   "porteur": "report:seventh cervical vertebra",
+   "ecart_mm": 1.0,
+   "p": [
+    -0.0129,
+    1.3768,
+    0.0704
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "lamina of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3172",
+   "cote": null,
+   "porteur": "report:seventh cervical vertebra",
+   "ecart_mm": 1.3,
+   "p": [
+    -0.0022,
+    1.3819,
+    0.0599
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "pedicle of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3172",
+   "cote": null,
+   "porteur": "report:seventh cervical vertebra",
+   "ecart_mm": 1.1,
+   "p": [
+    0.0146,
+    1.3809,
+    0.0763
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "spinous process",
+   "inconstant": false,
+   "cle": "FJ3172",
+   "cote": null,
+   "porteur": "report:seventh cervical vertebra",
+   "ecart_mm": 3.1,
+   "p": [
+    0.0015,
+    1.3763,
+    0.0309
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3172",
+   "cote": null,
+   "porteur": "report:seventh cervical vertebra",
+   "ecart_mm": 1.2,
+   "p": [
+    -0.0112,
+    1.3842,
+    0.0661
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular process of vertebra",
+   "inconstant": false,
+   "cle": "FJ3172",
+   "cote": null,
+   "porteur": "report:seventh cervical vertebra",
+   "ecart_mm": 1.8,
+   "p": [
+    0.0246,
+    1.3858,
+    0.0663
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3172",
+   "cote": null,
+   "porteur": "report:seventh cervical vertebra",
+   "ecart_mm": 1.7,
+   "p": [
+    -0.0132,
+    1.3851,
+    0.0769
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3172",
+   "cote": null,
+   "porteur": "report:seventh cervical vertebra",
+   "ecart_mm": 1.3,
+   "p": [
+    -0.0022,
+    1.3819,
+    0.0599
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral body",
+   "inconstant": false,
+   "cle": "FJ3172",
+   "cote": null,
+   "porteur": "report:seventh cervical vertebra",
+   "ecart_mm": 2.0,
+   "p": [
+    0.0134,
+    1.3753,
+    0.0794
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral foramen",
+   "inconstant": false,
+   "cle": "FJ3172",
+   "cote": null,
+   "porteur": "report:seventh cervical vertebra",
+   "ecart_mm": 0.5,
+   "p": [
+    0.0052,
+    1.3814,
+    0.0615
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "annular epiphysis",
+   "inconstant": false,
+   "cle": "FJ3170",
+   "cote": null,
+   "porteur": "report:sixth cervical vertebra",
+   "ecart_mm": 1.6,
+   "p": [
+    0.0084,
+    1.3912,
+    0.0885
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3170",
+   "cote": null,
+   "porteur": "report:sixth cervical vertebra",
+   "ecart_mm": 0.7,
+   "p": [
+    0.0116,
+    1.388,
+    0.0614
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3170",
+   "cote": null,
+   "porteur": "report:sixth cervical vertebra",
+   "ecart_mm": 1.0,
+   "p": [
+    -0.0135,
+    1.3904,
+    0.0747
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "lamina of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3170",
+   "cote": null,
+   "porteur": "report:sixth cervical vertebra",
+   "ecart_mm": 2.2,
+   "p": [
+    -0.0015,
+    1.3969,
+    0.0634
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "pedicle of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3170",
+   "cote": null,
+   "porteur": "report:sixth cervical vertebra",
+   "ecart_mm": 0.6,
+   "p": [
+    0.014,
+    1.3945,
+    0.081
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "spinous process",
+   "inconstant": false,
+   "cle": "FJ3170",
+   "cote": null,
+   "porteur": "report:sixth cervical vertebra",
+   "ecart_mm": 3.1,
+   "p": [
+    0.0024,
+    1.3885,
+    0.0387
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3170",
+   "cote": null,
+   "porteur": "report:sixth cervical vertebra",
+   "ecart_mm": 1.0,
+   "p": [
+    -0.0115,
+    1.3982,
+    0.0701
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular process of vertebra",
+   "inconstant": false,
+   "cle": "FJ3170",
+   "cote": null,
+   "porteur": "report:sixth cervical vertebra",
+   "ecart_mm": 2.0,
+   "p": [
+    0.0239,
+    1.3981,
+    0.0686
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3170",
+   "cote": null,
+   "porteur": "report:sixth cervical vertebra",
+   "ecart_mm": 1.6,
+   "p": [
+    -0.0126,
+    1.3991,
+    0.0798
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3170",
+   "cote": null,
+   "porteur": "report:sixth cervical vertebra",
+   "ecart_mm": 2.2,
+   "p": [
+    -0.0015,
+    1.3969,
+    0.0634
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral body",
+   "inconstant": false,
+   "cle": "FJ3170",
+   "cote": null,
+   "porteur": "report:sixth cervical vertebra",
+   "ecart_mm": 1.6,
+   "p": [
+    0.0115,
+    1.3887,
+    0.0854
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral foramen",
+   "inconstant": false,
+   "cle": "FJ3170",
+   "cote": null,
+   "porteur": "report:sixth cervical vertebra",
+   "ecart_mm": 1.7,
+   "p": [
+    0.0063,
+    1.3957,
+    0.0657
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "annular epiphysis",
+   "inconstant": false,
+   "cle": "FJ3167",
+   "cote": null,
+   "porteur": "report:fifth cervical vertebra",
+   "ecart_mm": 1.2,
+   "p": [
+    0.0072,
+    1.4068,
+    0.0877
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3167",
+   "cote": null,
+   "porteur": "report:fifth cervical vertebra",
+   "ecart_mm": 1.1,
+   "p": [
+    0.0119,
+    1.4005,
+    0.0635
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3167",
+   "cote": null,
+   "porteur": "report:fifth cervical vertebra",
+   "ecart_mm": 1.4,
+   "p": [
+    -0.0138,
+    1.4055,
+    0.0745
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "lamina of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3167",
+   "cote": null,
+   "porteur": "report:fifth cervical vertebra",
+   "ecart_mm": 2.0,
+   "p": [
+    -0.0013,
+    1.4094,
+    0.0638
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "pedicle of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3167",
+   "cote": null,
+   "porteur": "report:fifth cervical vertebra",
+   "ecart_mm": 1.1,
+   "p": [
+    0.0136,
+    1.4089,
+    0.0821
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "spinous process",
+   "inconstant": false,
+   "cle": "FJ3167",
+   "cote": null,
+   "porteur": "report:fifth cervical vertebra",
+   "ecart_mm": 1.0,
+   "p": [
+    0.0032,
+    1.3997,
+    0.0443
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3167",
+   "cote": null,
+   "porteur": "report:fifth cervical vertebra",
+   "ecart_mm": 1.2,
+   "p": [
+    -0.0111,
+    1.4116,
+    0.0705
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular process of vertebra",
+   "inconstant": false,
+   "cle": "FJ3167",
+   "cote": null,
+   "porteur": "report:fifth cervical vertebra",
+   "ecart_mm": 1.1,
+   "p": [
+    0.0237,
+    1.4106,
+    0.0702
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3167",
+   "cote": null,
+   "porteur": "report:fifth cervical vertebra",
+   "ecart_mm": 1.9,
+   "p": [
+    -0.0126,
+    1.4158,
+    0.08
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3167",
+   "cote": null,
+   "porteur": "report:fifth cervical vertebra",
+   "ecart_mm": 2.0,
+   "p": [
+    -0.0013,
+    1.4094,
+    0.0638
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral body",
+   "inconstant": false,
+   "cle": "FJ3167",
+   "cote": null,
+   "porteur": "report:fifth cervical vertebra",
+   "ecart_mm": 0.8,
+   "p": [
+    0.011,
+    1.4048,
+    0.0844
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral foramen",
+   "inconstant": false,
+   "cle": "FJ3167",
+   "cote": null,
+   "porteur": "report:fifth cervical vertebra",
+   "ecart_mm": 1.6,
+   "p": [
+    0.0066,
+    1.4107,
+    0.0674
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "annular epiphysis",
+   "inconstant": false,
+   "cle": "FJ3164",
+   "cote": null,
+   "porteur": "report:fourth cervical vertebra",
+   "ecart_mm": 1.1,
+   "p": [
+    0.007,
+    1.423,
+    0.0849
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3164",
+   "cote": null,
+   "porteur": "report:fourth cervical vertebra",
+   "ecart_mm": 1.0,
+   "p": [
+    0.0112,
+    1.4143,
+    0.0648
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3164",
+   "cote": null,
+   "porteur": "report:fourth cervical vertebra",
+   "ecart_mm": 0.4,
+   "p": [
+    -0.0132,
+    1.4201,
+    0.0728
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "lamina of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3164",
+   "cote": null,
+   "porteur": "report:fourth cervical vertebra",
+   "ecart_mm": 4.1,
+   "p": [
+    -0.0027,
+    1.4213,
+    0.0582
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "pedicle of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3164",
+   "cote": null,
+   "porteur": "report:fourth cervical vertebra",
+   "ecart_mm": 1.2,
+   "p": [
+    0.0126,
+    1.424,
+    0.0799
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "spinous process",
+   "inconstant": false,
+   "cle": "FJ3164",
+   "cote": null,
+   "porteur": "report:fourth cervical vertebra",
+   "ecart_mm": 1.6,
+   "p": [
+    0.0033,
+    1.4088,
+    0.0451
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3164",
+   "cote": null,
+   "porteur": "report:fourth cervical vertebra",
+   "ecart_mm": 1.5,
+   "p": [
+    -0.0103,
+    1.4242,
+    0.0661
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular process of vertebra",
+   "inconstant": false,
+   "cle": "FJ3164",
+   "cote": null,
+   "porteur": "report:fourth cervical vertebra",
+   "ecart_mm": 0.3,
+   "p": [
+    0.0231,
+    1.4234,
+    0.0675
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3164",
+   "cote": null,
+   "porteur": "report:fourth cervical vertebra",
+   "ecart_mm": 1.1,
+   "p": [
+    -0.0109,
+    1.4292,
+    0.0752
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3164",
+   "cote": null,
+   "porteur": "report:fourth cervical vertebra",
+   "ecart_mm": 4.1,
+   "p": [
+    -0.0027,
+    1.4213,
+    0.0582
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral body",
+   "inconstant": false,
+   "cle": "FJ3164",
+   "cote": null,
+   "porteur": "report:fourth cervical vertebra",
+   "ecart_mm": 0.7,
+   "p": [
+    0.0104,
+    1.4219,
+    0.0815
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral foramen",
+   "inconstant": false,
+   "cle": "FJ3164",
+   "cote": null,
+   "porteur": "report:fourth cervical vertebra",
+   "ecart_mm": 2.4,
+   "p": [
+    0.0085,
+    1.4247,
+    0.0647
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "annular epiphysis",
+   "inconstant": false,
+   "cle": "FJ3161",
+   "cote": null,
+   "porteur": "report:third cervical vertebra",
+   "ecart_mm": 2.3,
+   "p": [
+    0.0069,
+    1.4394,
+    0.0848
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3161",
+   "cote": null,
+   "porteur": "report:third cervical vertebra",
+   "ecart_mm": 1.4,
+   "p": [
+    0.0123,
+    1.427,
+    0.0626
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3161",
+   "cote": null,
+   "porteur": "report:third cervical vertebra",
+   "ecart_mm": 0.8,
+   "p": [
+    -0.0147,
+    1.4347,
+    0.0711
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "lamina of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3161",
+   "cote": null,
+   "porteur": "report:third cervical vertebra",
+   "ecart_mm": 1.9,
+   "p": [
+    -0.0034,
+    1.4359,
+    0.0549
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "pedicle of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3161",
+   "cote": null,
+   "porteur": "report:third cervical vertebra",
+   "ecart_mm": 1.5,
+   "p": [
+    0.0148,
+    1.439,
+    0.0766
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "spinous process",
+   "inconstant": false,
+   "cle": "FJ3161",
+   "cote": null,
+   "porteur": "report:third cervical vertebra",
+   "ecart_mm": 1.8,
+   "p": [
+    0.0025,
+    1.4209,
+    0.0422
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3161",
+   "cote": null,
+   "porteur": "report:third cervical vertebra",
+   "ecart_mm": 2.3,
+   "p": [
+    -0.0127,
+    1.4359,
+    0.0624
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular process of vertebra",
+   "inconstant": false,
+   "cle": "FJ3161",
+   "cote": null,
+   "porteur": "report:third cervical vertebra",
+   "ecart_mm": 0.6,
+   "p": [
+    0.0246,
+    1.4374,
+    0.064
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3161",
+   "cote": null,
+   "porteur": "report:third cervical vertebra",
+   "ecart_mm": 1.4,
+   "p": [
+    -0.0117,
+    1.4445,
+    0.0716
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3161",
+   "cote": null,
+   "porteur": "report:third cervical vertebra",
+   "ecart_mm": 1.9,
+   "p": [
+    -0.0034,
+    1.4359,
+    0.0549
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral body",
+   "inconstant": false,
+   "cle": "FJ3161",
+   "cote": null,
+   "porteur": "report:third cervical vertebra",
+   "ecart_mm": 1.0,
+   "p": [
+    0.0119,
+    1.4372,
+    0.0798
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral foramen",
+   "inconstant": false,
+   "cle": "FJ3161",
+   "cote": null,
+   "porteur": "report:third cervical vertebra",
+   "ecart_mm": 2.5,
+   "p": [
+    0.011,
+    1.4362,
+    0.0608
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "annular epiphysis",
+   "inconstant": false,
+   "cle": "FJ3165",
+   "cote": null,
+   "porteur": "report:fourth lumbar vertebra",
+   "ecart_mm": 2.6,
+   "p": [
+    0.0186,
+    0.9681,
+    0.0975
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "costal part of transverse process",
+   "inconstant": false,
+   "cle": "FJ3165",
+   "cote": null,
+   "porteur": "report:fourth lumbar vertebra",
+   "ecart_mm": 1.3,
+   "p": [
+    -0.0337,
+    0.9671,
+    0.068
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3165",
+   "cote": null,
+   "porteur": "report:fourth lumbar vertebra",
+   "ecart_mm": 2.2,
+   "p": [
+    0.0172,
+    0.9481,
+    0.0499
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3165",
+   "cote": null,
+   "porteur": "report:fourth lumbar vertebra",
+   "ecart_mm": 2.1,
+   "p": [
+    -0.0171,
+    0.9622,
+    0.0694
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "lamina of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3165",
+   "cote": null,
+   "porteur": "report:fourth lumbar vertebra",
+   "ecart_mm": 2.5,
+   "p": [
+    0.0083,
+    0.9649,
+    0.0556
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "pars interarticularis of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3165",
+   "cote": null,
+   "porteur": "report:fourth lumbar vertebra",
+   "ecart_mm": 1.5,
+   "p": [
+    0.0138,
+    0.9642,
+    0.0576
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "pedicle of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3165",
+   "cote": null,
+   "porteur": "report:fourth lumbar vertebra",
+   "ecart_mm": 1.7,
+   "p": [
+    0.0245,
+    0.9644,
+    0.0715
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "spinous process",
+   "inconstant": false,
+   "cle": "FJ3165",
+   "cote": null,
+   "porteur": "report:fourth lumbar vertebra",
+   "ecart_mm": 2.1,
+   "p": [
+    0.0,
+    0.9574,
+    0.0268
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3165",
+   "cote": null,
+   "porteur": "report:fourth lumbar vertebra",
+   "ecart_mm": 3.0,
+   "p": [
+    -0.0166,
+    0.9761,
+    0.0638
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular process of vertebra",
+   "inconstant": false,
+   "cle": "FJ3165",
+   "cote": null,
+   "porteur": "report:fourth lumbar vertebra",
+   "ecart_mm": 0.5,
+   "p": [
+    0.0193,
+    0.9827,
+    0.0617
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3165",
+   "cote": null,
+   "porteur": "report:fourth lumbar vertebra",
+   "ecart_mm": 1.9,
+   "p": [
+    -0.0171,
+    0.9744,
+    0.0712
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "transverse process",
+   "inconstant": false,
+   "cle": "FJ3165",
+   "cote": null,
+   "porteur": "report:fourth lumbar vertebra",
+   "ecart_mm": 2.1,
+   "p": [
+    0.0413,
+    0.9714,
+    0.0612
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3165",
+   "cote": null,
+   "porteur": "report:fourth lumbar vertebra",
+   "ecart_mm": 2.4,
+   "p": [
+    0.006,
+    0.9671,
+    0.0552
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral body",
+   "inconstant": false,
+   "cle": "FJ3165",
+   "cote": null,
+   "porteur": "report:fourth lumbar vertebra",
+   "ecart_mm": 1.8,
+   "p": [
+    0.0154,
+    0.9508,
+    0.0981
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral foramen",
+   "inconstant": false,
+   "cle": "FJ3165",
+   "cote": null,
+   "porteur": "report:fourth lumbar vertebra",
+   "ecart_mm": 1.5,
+   "p": [
+    0.0061,
+    0.9687,
+    0.0621
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "annular epiphysis",
+   "inconstant": false,
+   "cle": "FJ3168",
+   "cote": null,
+   "porteur": "report:fifth lumbar vertebra",
+   "ecart_mm": 1.2,
+   "p": [
+    0.0207,
+    0.9368,
+    0.0853
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "costal part of transverse process",
+   "inconstant": false,
+   "cle": "FJ3168",
+   "cote": null,
+   "porteur": "report:fifth lumbar vertebra",
+   "ecart_mm": 5.3,
+   "p": [
+    -0.0415,
+    0.9328,
+    0.0568
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3168",
+   "cote": null,
+   "porteur": "report:fifth lumbar vertebra",
+   "ecart_mm": 3.3,
+   "p": [
+    0.0209,
+    0.9184,
+    0.0377
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "inferior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3168",
+   "cote": null,
+   "porteur": "report:fifth lumbar vertebra",
+   "ecart_mm": 0.9,
+   "p": [
+    -0.0205,
+    0.932,
+    0.0594
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "lamina of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3168",
+   "cote": null,
+   "porteur": "report:fifth lumbar vertebra",
+   "ecart_mm": 1.1,
+   "p": [
+    0.0102,
+    0.9366,
+    0.0469
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "pars interarticularis of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3168",
+   "cote": null,
+   "porteur": "report:fifth lumbar vertebra",
+   "ecart_mm": 0.2,
+   "p": [
+    0.0158,
+    0.935,
+    0.0487
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "pedicle of vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3168",
+   "cote": null,
+   "porteur": "report:fifth lumbar vertebra",
+   "ecart_mm": 4.7,
+   "p": [
+    0.0302,
+    0.9299,
+    0.0619
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "spinous process",
+   "inconstant": false,
+   "cle": "FJ3168",
+   "cote": null,
+   "porteur": "report:fifth lumbar vertebra",
+   "ecart_mm": 1.6,
+   "p": [
+    0.0003,
+    0.9317,
+    0.0189
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular facet of vertebra",
+   "inconstant": false,
+   "cle": "FJ3168",
+   "cote": null,
+   "porteur": "report:fifth lumbar vertebra",
+   "ecart_mm": 3.1,
+   "p": [
+    -0.0192,
+    0.9437,
+    0.0538
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior articular process of vertebra",
+   "inconstant": false,
+   "cle": "FJ3168",
+   "cote": null,
+   "porteur": "report:fifth lumbar vertebra",
+   "ecart_mm": 1.2,
+   "p": [
+    0.0223,
+    0.9546,
+    0.0536
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior vertebral notch",
+   "inconstant": false,
+   "cle": "FJ3168",
+   "cote": null,
+   "porteur": "report:fifth lumbar vertebra",
+   "ecart_mm": 0.7,
+   "p": [
+    -0.0201,
+    0.9447,
+    0.062
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "transverse process",
+   "inconstant": false,
+   "cle": "FJ3168",
+   "cote": null,
+   "porteur": "report:fifth lumbar vertebra",
+   "ecart_mm": 1.2,
+   "p": [
+    0.048,
+    0.9424,
+    0.0531
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral arch",
+   "inconstant": false,
+   "cle": "FJ3168",
+   "cote": null,
+   "porteur": "report:fifth lumbar vertebra",
+   "ecart_mm": 2.0,
+   "p": [
+    0.0056,
+    0.9375,
+    0.0448
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral body",
+   "inconstant": false,
+   "cle": "FJ3168",
+   "cote": null,
+   "porteur": "report:fifth lumbar vertebra",
+   "ecart_mm": 5.4,
+   "p": [
+    0.0127,
+    0.9197,
+    0.0865
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "vertebral foramen",
+   "inconstant": false,
+   "cle": "FJ3168",
+   "cote": null,
+   "porteur": "report:fifth lumbar vertebra",
+   "ecart_mm": 4.5,
+   "p": [
+    0.011,
+    0.9374,
+    0.0524
+   ],
+   "reporte": "third lumbar vertebra"
+  },
+  {
+   "nom_en": "superior costal facet",
+   "inconstant": false,
+   "cle": "FJ3173",
+   "cote": null,
+   "porteur": "report:seventh thoracic vertebra",
+   "ecart_mm": 1.4,
+   "p": [
+    0.013,
+    1.2287,
+    0.0339
+   ],
+   "reporte": "eighth thoracic vertebra"
+  },
+  {
+   "nom_en": "inferior costal facet",
+   "inconstant": false,
+   "cle": "FJ3173",
+   "cote": null,
+   "porteur": "report:seventh thoracic vertebra",
+   "ecart_mm": 1.9,
+   "p": [
+    0.0155,
+    1.212,
+    0.0384
+   ],
+   "reporte": "eighth thoracic vertebra"
+  },
+  {
+   "nom_en": "transverse costal facet",
+   "inconstant": false,
+   "cle": "FJ3173",
+   "cote": null,
+   "porteur": "report:seventh thoracic vertebra",
+   "ecart_mm": 1.2,
+   "p": [
+    0.0296,
+    1.2249,
+    0.0202
+   ],
+   "reporte": "eighth thoracic vertebra"
+  },
+  {
+   "nom_en": "superior costal facet",
+   "inconstant": false,
+   "cle": "FJ3171",
+   "cote": null,
+   "porteur": "report:sixth thoracic vertebra",
+   "ecart_mm": 1.2,
+   "p": [
+    0.0124,
+    1.2573,
+    0.0346
+   ],
+   "reporte": "eighth thoracic vertebra"
+  },
+  {
+   "nom_en": "inferior costal facet",
+   "inconstant": false,
+   "cle": "FJ3171",
+   "cote": null,
+   "porteur": "report:sixth thoracic vertebra",
+   "ecart_mm": 1.3,
+   "p": [
+    0.0153,
+    1.2393,
+    0.0372
+   ],
+   "reporte": "eighth thoracic vertebra"
+  },
+  {
+   "nom_en": "transverse costal facet",
+   "inconstant": false,
+   "cle": "FJ3171",
+   "cote": null,
+   "porteur": "report:sixth thoracic vertebra",
+   "ecart_mm": 3.1,
+   "p": [
+    0.0272,
+    1.2575,
+    0.0211
+   ],
+   "reporte": "eighth thoracic vertebra"
+  },
+  {
+   "nom_en": "superior costal facet",
+   "inconstant": false,
+   "cle": "FJ3169",
+   "cote": null,
+   "porteur": "report:fifth thoracic vertebra",
+   "ecart_mm": 1.5,
+   "p": [
+    0.0133,
+    1.2842,
+    0.0376
+   ],
+   "reporte": "eighth thoracic vertebra"
+  },
+  {
+   "nom_en": "inferior costal facet",
+   "inconstant": false,
+   "cle": "FJ3169",
+   "cote": null,
+   "porteur": "report:fifth thoracic vertebra",
+   "ecart_mm": 0.7,
+   "p": [
+    0.0148,
+    1.2659,
+    0.0385
+   ],
+   "reporte": "eighth thoracic vertebra"
+  },
+  {
+   "nom_en": "transverse costal facet",
+   "inconstant": false,
+   "cle": "FJ3169",
+   "cote": null,
+   "porteur": "report:fifth thoracic vertebra",
+   "ecart_mm": 3.8,
+   "p": [
+    0.0238,
+    1.2845,
+    0.0273
+   ],
+   "reporte": "eighth thoracic vertebra"
+  },
+  {
+   "nom_en": "superior costal facet",
+   "inconstant": false,
+   "cle": "FJ3166",
+   "cote": null,
+   "porteur": "report:fourth thoracic vertebra",
+   "ecart_mm": 1.4,
+   "p": [
+    0.0117,
+    1.3094,
+    0.0445
+   ],
+   "reporte": "eighth thoracic vertebra"
+  },
+  {
+   "nom_en": "inferior costal facet",
+   "inconstant": false,
+   "cle": "FJ3166",
+   "cote": null,
+   "porteur": "report:fourth thoracic vertebra",
+   "ecart_mm": 0.9,
+   "p": [
+    0.0138,
+    1.2926,
+    0.0411
+   ],
+   "reporte": "eighth thoracic vertebra"
+  },
+  {
+   "nom_en": "transverse costal facet",
+   "inconstant": false,
+   "cle": "FJ3166",
+   "cote": null,
+   "porteur": "report:fourth thoracic vertebra",
+   "ecart_mm": 2.4,
+   "p": [
+    0.0245,
+    1.3086,
+    0.0345
+   ],
+   "reporte": "eighth thoracic vertebra"
+  },
+  {
+   "nom_en": "superior costal facet",
+   "inconstant": false,
+   "cle": "FJ3163",
+   "cote": null,
+   "porteur": "report:third thoracic vertebra",
+   "ecart_mm": 2.0,
+   "p": [
+    0.0131,
+    1.3304,
+    0.0554
+   ],
+   "reporte": "eighth thoracic vertebra"
+  },
+  {
+   "nom_en": "inferior costal facet",
+   "inconstant": false,
+   "cle": "FJ3163",
+   "cote": null,
+   "porteur": "report:third thoracic vertebra",
+   "ecart_mm": 1.1,
+   "p": [
+    0.0131,
+    1.3149,
+    0.0484
+   ],
+   "reporte": "eighth thoracic vertebra"
+  },
+  {
+   "nom_en": "transverse costal facet",
+   "inconstant": false,
+   "cle": "FJ3163",
+   "cote": null,
+   "porteur": "report:third thoracic vertebra",
+   "ecart_mm": 1.4,
+   "p": [
+    0.0239,
+    1.3306,
+    0.045
+   ],
+   "reporte": "eighth thoracic vertebra"
+  },
+  {
+   "nom_en": "superior costal facet",
+   "inconstant": false,
+   "cle": "FJ3160",
+   "cote": null,
+   "porteur": "report:second thoracic vertebra",
+   "ecart_mm": 0.7,
+   "p": [
+    0.0141,
+    1.3504,
+    0.0646
+   ],
+   "reporte": "eighth thoracic vertebra"
+  },
+  {
+   "nom_en": "inferior costal facet",
+   "inconstant": false,
+   "cle": "FJ3160",
+   "cote": null,
+   "porteur": "report:second thoracic vertebra",
+   "ecart_mm": 2.3,
+   "p": [
+    0.0128,
+    1.3354,
+    0.0585
+   ],
+   "reporte": "eighth thoracic vertebra"
+  },
+  {
+   "nom_en": "transverse costal facet",
+   "inconstant": false,
+   "cle": "FJ3160",
+   "cote": null,
+   "porteur": "report:second thoracic vertebra",
+   "ecart_mm": 1.4,
+   "p": [
+    0.0272,
+    1.35,
+    0.0553
+   ],
+   "reporte": "eighth thoracic vertebra"
+  },
+  {
+   "nom_en": "inferior costal facet",
+   "inconstant": false,
+   "cle": "FJ3158",
+   "cote": null,
+   "porteur": "report:first thoracic vertebra",
+   "ecart_mm": 2.6,
+   "p": [
+    0.0133,
+    1.3538,
+    0.0667
+   ],
+   "reporte": "eighth thoracic vertebra"
+  },
+  {
+   "nom_en": "transverse costal facet",
+   "inconstant": false,
+   "cle": "FJ3158",
+   "cote": null,
+   "porteur": "report:first thoracic vertebra",
+   "ecart_mm": 2.9,
+   "p": [
+    0.0291,
+    1.3687,
+    0.0593
+   ],
+   "reporte": "eighth thoracic vertebra"
+  },
+  {
+   "nom_en": "superior costal facet",
+   "inconstant": false,
+   "cle": "FJ3175",
+   "cote": null,
+   "porteur": "report:ninth thoracic vertebra",
+   "ecart_mm": 2.6,
+   "p": [
+    0.0133,
+    1.1767,
+    0.042
+   ],
+   "reporte": "eighth thoracic vertebra"
+  },
+  {
+   "nom_en": "transverse costal facet",
+   "inconstant": false,
+   "cle": "FJ3175",
+   "cote": null,
+   "porteur": "report:ninth thoracic vertebra",
+   "ecart_mm": 1.5,
+   "p": [
+    0.0272,
+    1.1689,
+    0.0249
+   ],
+   "reporte": "eighth thoracic vertebra"
+  },
+  {
+   "nom_en": "transverse costal facet",
+   "inconstant": false,
+   "cle": "FJ3154",
+   "cote": null,
+   "porteur": "report:tenth thoracic vertebra",
+   "ecart_mm": 1.6,
+   "p": [
+    0.0248,
+    1.14,
+    0.0307
+   ],
+   "reporte": "eighth thoracic vertebra"
+  },
+  {
+   "nom_en": "anterior tubercle of transverse process",
+   "inconstant": false,
+   "cle": "FJ3161",
+   "cote": null,
+   "porteur": "report:third cervical vertebra",
+   "ecart_mm": 1.1,
+   "p": [
+    -0.0204,
+    1.4417,
+    0.08
+   ],
+   "reporte": "fourth cervical vertebra"
+  },
+  {
+   "nom_en": "foramen transversarium",
+   "inconstant": false,
+   "cle": "FJ3161",
+   "cote": null,
+   "porteur": "report:third cervical vertebra",
+   "ecart_mm": 0.7,
+   "p": [
+    -0.0178,
+    1.4395,
+    0.0727
+   ],
+   "reporte": "fourth cervical vertebra"
+  },
+  {
+   "nom_en": "groove for spinal nerve",
+   "inconstant": false,
+   "cle": "FJ3161",
+   "cote": null,
+   "porteur": "report:third cervical vertebra",
+   "ecart_mm": 1.6,
+   "p": [
+    -0.0265,
+    1.4357,
+    0.0791
+   ],
+   "reporte": "fourth cervical vertebra"
+  },
+  {
+   "nom_en": "posterior tubercle of transverse process",
+   "inconstant": false,
+   "cle": "FJ3161",
+   "cote": null,
+   "porteur": "report:third cervical vertebra",
+   "ecart_mm": 1.1,
+   "p": [
+    -0.0204,
+    1.4417,
+    0.08
+   ],
+   "reporte": "fourth cervical vertebra"
+  },
+  {
+   "nom_en": "uncinate process of vertebra",
+   "inconstant": false,
+   "cle": "FJ3161",
+   "cote": null,
+   "porteur": "report:third cervical vertebra",
+   "ecart_mm": 1.2,
+   "p": [
+    -0.0117,
+    1.4445,
+    0.0716
+   ],
+   "reporte": "fourth cervical vertebra"
+  },
+  {
+   "nom_en": "anterior tubercle of transverse process",
+   "inconstant": false,
+   "cle": "FJ3167",
+   "cote": null,
+   "porteur": "report:fifth cervical vertebra",
+   "ecart_mm": 0.8,
+   "p": [
+    -0.0195,
+    1.4111,
+    0.0862
+   ],
+   "reporte": "fourth cervical vertebra"
+  },
+  {
+   "nom_en": "foramen transversarium",
+   "inconstant": false,
+   "cle": "FJ3167",
+   "cote": null,
+   "porteur": "report:fifth cervical vertebra",
+   "ecart_mm": 1.4,
+   "p": [
+    -0.016,
+    1.4087,
+    0.0777
+   ],
+   "reporte": "fourth cervical vertebra"
+  },
+  {
+   "nom_en": "groove for spinal nerve",
+   "inconstant": false,
+   "cle": "FJ3167",
+   "cote": null,
+   "porteur": "report:fifth cervical vertebra",
+   "ecart_mm": 1.4,
+   "p": [
+    -0.024,
+    1.402,
+    0.0819
+   ],
+   "reporte": "fourth cervical vertebra"
+  },
+  {
+   "nom_en": "posterior tubercle of transverse process",
+   "inconstant": false,
+   "cle": "FJ3167",
+   "cote": null,
+   "porteur": "report:fifth cervical vertebra",
+   "ecart_mm": 0.8,
+   "p": [
+    -0.0195,
+    1.4111,
+    0.0862
+   ],
+   "reporte": "fourth cervical vertebra"
+  },
+  {
+   "nom_en": "uncinate process of vertebra",
+   "inconstant": false,
+   "cle": "FJ3167",
+   "cote": null,
+   "porteur": "report:fifth cervical vertebra",
+   "ecart_mm": 1.5,
+   "p": [
+    -0.0118,
+    1.4165,
+    0.081
+   ],
+   "reporte": "fourth cervical vertebra"
+  },
+  {
+   "nom_en": "anterior tubercle of transverse process",
+   "inconstant": false,
+   "cle": "FJ3170",
+   "cote": null,
+   "porteur": "report:sixth cervical vertebra",
+   "ecart_mm": 1.5,
+   "p": [
+    -0.0197,
+    1.3937,
+    0.0864
+   ],
+   "reporte": "fourth cervical vertebra"
+  },
+  {
+   "nom_en": "foramen transversarium",
+   "inconstant": false,
+   "cle": "FJ3170",
+   "cote": null,
+   "porteur": "report:sixth cervical vertebra",
+   "ecart_mm": 1.0,
+   "p": [
+    -0.0156,
+    1.3941,
+    0.0764
+   ],
+   "reporte": "fourth cervical vertebra"
+  },
+  {
+   "nom_en": "groove for spinal nerve",
+   "inconstant": false,
+   "cle": "FJ3170",
+   "cote": null,
+   "porteur": "report:sixth cervical vertebra",
+   "ecart_mm": 0.5,
+   "p": [
+    -0.0244,
+    1.3873,
+    0.0812
+   ],
+   "reporte": "fourth cervical vertebra"
+  },
+  {
+   "nom_en": "posterior tubercle of transverse process",
+   "inconstant": false,
+   "cle": "FJ3170",
+   "cote": null,
+   "porteur": "report:sixth cervical vertebra",
+   "ecart_mm": 1.5,
+   "p": [
+    -0.0197,
+    1.3937,
+    0.0864
+   ],
+   "reporte": "fourth cervical vertebra"
+  },
+  {
+   "nom_en": "uncinate process of vertebra",
+   "inconstant": false,
+   "cle": "FJ3170",
+   "cote": null,
+   "porteur": "report:sixth cervical vertebra",
+   "ecart_mm": 0.7,
+   "p": [
+    -0.0125,
+    1.4002,
+    0.0808
+   ],
+   "reporte": "fourth cervical vertebra"
+  },
+  {
+   "nom_en": "foramen transversarium",
+   "inconstant": false,
+   "cle": "FJ3172",
+   "cote": null,
+   "porteur": "report:seventh cervical vertebra",
+   "ecart_mm": 1.2,
+   "p": [
+    -0.0153,
+    1.3813,
+    0.0728
+   ],
+   "reporte": "fourth cervical vertebra"
+  },
+  {
+   "nom_en": "uncinate process of vertebra",
+   "inconstant": false,
+   "cle": "FJ3172",
+   "cote": null,
+   "porteur": "report:seventh cervical vertebra",
+   "ecart_mm": 1.8,
+   "p": [
+    -0.0123,
+    1.3854,
+    0.0766
+   ],
+   "reporte": "fourth cervical vertebra"
+  },
+  {
+   "nom_en": "angle of rib",
+   "inconstant": false,
+   "cle": "FJ3342",
+   "cote": "droit",
+   "porteur": "report:right fifth rib",
+   "ecart_mm": 1.5,
+   "p": [
+    -0.0745,
+    1.264,
+    0.0131
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "articular facet of tubercle of rib",
+   "inconstant": false,
+   "cle": "FJ3342",
+   "cote": "droit",
+   "porteur": "report:right fifth rib",
+   "ecart_mm": 1.3,
+   "p": [
+    -0.0332,
+    1.2808,
+    0.0228
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "articular facets of head of rib",
+   "inconstant": false,
+   "cle": "FJ3342",
+   "cote": "droit",
+   "porteur": "report:right fifth rib",
+   "ecart_mm": 0.8,
+   "p": [
+    -0.0155,
+    1.2803,
+    0.0437
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "body of rib",
+   "inconstant": false,
+   "cle": "FJ3342",
+   "cote": "droit",
+   "porteur": "report:right fifth rib",
+   "ecart_mm": 1.0,
+   "p": [
+    -0.1256,
+    1.2303,
+    0.0827
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "costal groove",
+   "inconstant": false,
+   "cle": "FJ3342",
+   "cote": "droit",
+   "porteur": "report:right fifth rib",
+   "ecart_mm": 1.1,
+   "p": [
+    -0.0779,
+    1.2626,
+    0.0204
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "crest of head of rib",
+   "inconstant": false,
+   "cle": "FJ3342",
+   "cote": "droit",
+   "porteur": "report:right fifth rib",
+   "ecart_mm": 0.5,
+   "p": [
+    -0.0156,
+    1.2849,
+    0.0441
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "crest of neck of rib",
+   "inconstant": false,
+   "cle": "FJ3342",
+   "cote": "droit",
+   "porteur": "report:right fifth rib",
+   "ecart_mm": 2.8,
+   "p": [
+    -0.0535,
+    1.2833,
+    0.0274
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "head of rib",
+   "inconstant": false,
+   "cle": "FJ3342",
+   "cote": "droit",
+   "porteur": "report:right fifth rib",
+   "ecart_mm": 1.3,
+   "p": [
+    -0.0227,
+    1.29,
+    0.0411
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "neck of rib",
+   "inconstant": false,
+   "cle": "FJ3342",
+   "cote": "droit",
+   "porteur": "report:right fifth rib",
+   "ecart_mm": 1.4,
+   "p": [
+    -0.0303,
+    1.2826,
+    0.0373
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "tubercle of rib",
+   "inconstant": false,
+   "cle": "FJ3342",
+   "cote": "droit",
+   "porteur": "report:right fifth rib",
+   "ecart_mm": 1.2,
+   "p": [
+    -0.0346,
+    1.277,
+    0.0251
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "angle of rib",
+   "inconstant": false,
+   "cle": "FJ3340",
+   "cote": "droit",
+   "porteur": "report:right fourth rib",
+   "ecart_mm": 3.4,
+   "p": [
+    -0.0748,
+    1.2955,
+    0.0267
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "articular facet of tubercle of rib",
+   "inconstant": false,
+   "cle": "FJ3340",
+   "cote": "droit",
+   "porteur": "report:right fourth rib",
+   "ecart_mm": 1.3,
+   "p": [
+    -0.0332,
+    1.3079,
+    0.0291
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "articular facets of head of rib",
+   "inconstant": false,
+   "cle": "FJ3340",
+   "cote": "droit",
+   "porteur": "report:right fourth rib",
+   "ecart_mm": 1.5,
+   "p": [
+    -0.0156,
+    1.3067,
+    0.0492
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "body of rib",
+   "inconstant": false,
+   "cle": "FJ3340",
+   "cote": "droit",
+   "porteur": "report:right fourth rib",
+   "ecart_mm": 1.3,
+   "p": [
+    -0.116,
+    1.2623,
+    0.0934
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "costal groove",
+   "inconstant": false,
+   "cle": "FJ3340",
+   "cote": "droit",
+   "porteur": "report:right fourth rib",
+   "ecart_mm": 1.8,
+   "p": [
+    -0.0767,
+    1.2937,
+    0.0315
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "crest of head of rib",
+   "inconstant": false,
+   "cle": "FJ3340",
+   "cote": "droit",
+   "porteur": "report:right fourth rib",
+   "ecart_mm": 1.3,
+   "p": [
+    -0.0158,
+    1.3106,
+    0.0489
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "crest of neck of rib",
+   "inconstant": false,
+   "cle": "FJ3340",
+   "cote": "droit",
+   "porteur": "report:right fourth rib",
+   "ecart_mm": 2.4,
+   "p": [
+    -0.052,
+    1.3078,
+    0.0349
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "head of rib",
+   "inconstant": false,
+   "cle": "FJ3340",
+   "cote": "droit",
+   "porteur": "report:right fourth rib",
+   "ecart_mm": 0.9,
+   "p": [
+    -0.0214,
+    1.3145,
+    0.0464
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "neck of rib",
+   "inconstant": false,
+   "cle": "FJ3340",
+   "cote": "droit",
+   "porteur": "report:right fourth rib",
+   "ecart_mm": 0.9,
+   "p": [
+    -0.0287,
+    1.3086,
+    0.0442
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "tubercle of rib",
+   "inconstant": false,
+   "cle": "FJ3340",
+   "cote": "droit",
+   "porteur": "report:right fourth rib",
+   "ecart_mm": 0.9,
+   "p": [
+    -0.0356,
+    1.3043,
+    0.0324
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "angle of rib",
+   "inconstant": false,
+   "cle": "FJ3338",
+   "cote": "droit",
+   "porteur": "report:right third rib",
+   "ecart_mm": 1.6,
+   "p": [
+    -0.0736,
+    1.3204,
+    0.04
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "articular facet of tubercle of rib",
+   "inconstant": false,
+   "cle": "FJ3338",
+   "cote": "droit",
+   "porteur": "report:right third rib",
+   "ecart_mm": 1.2,
+   "p": [
+    -0.0333,
+    1.3295,
+    0.0378
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "articular facets of head of rib",
+   "inconstant": false,
+   "cle": "FJ3338",
+   "cote": "droit",
+   "porteur": "report:right third rib",
+   "ecart_mm": 0.5,
+   "p": [
+    -0.0149,
+    1.3278,
+    0.0548
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "body of rib",
+   "inconstant": false,
+   "cle": "FJ3338",
+   "cote": "droit",
+   "porteur": "report:right third rib",
+   "ecart_mm": 0.7,
+   "p": [
+    -0.1073,
+    1.2919,
+    0.0984
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "costal groove",
+   "inconstant": false,
+   "cle": "FJ3338",
+   "cote": "droit",
+   "porteur": "report:right third rib",
+   "ecart_mm": 2.0,
+   "p": [
+    -0.0748,
+    1.3193,
+    0.0446
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "crest of head of rib",
+   "inconstant": false,
+   "cle": "FJ3338",
+   "cote": "droit",
+   "porteur": "report:right third rib",
+   "ecart_mm": 1.0,
+   "p": [
+    -0.0142,
+    1.3319,
+    0.0545
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "crest of neck of rib",
+   "inconstant": false,
+   "cle": "FJ3338",
+   "cote": "droit",
+   "porteur": "report:right third rib",
+   "ecart_mm": 1.7,
+   "p": [
+    -0.0483,
+    1.331,
+    0.0454
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "head of rib",
+   "inconstant": false,
+   "cle": "FJ3338",
+   "cote": "droit",
+   "porteur": "report:right third rib",
+   "ecart_mm": 0.7,
+   "p": [
+    -0.0202,
+    1.3358,
+    0.054
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "neck of rib",
+   "inconstant": false,
+   "cle": "FJ3338",
+   "cote": "droit",
+   "porteur": "report:right third rib",
+   "ecart_mm": 0.9,
+   "p": [
+    -0.0282,
+    1.3304,
+    0.0519
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "tubercle of rib",
+   "inconstant": false,
+   "cle": "FJ3338",
+   "cote": "droit",
+   "porteur": "report:right third rib",
+   "ecart_mm": 1.4,
+   "p": [
+    -0.0348,
+    1.3251,
+    0.0418
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "angle of rib",
+   "inconstant": false,
+   "cle": "FJ3346",
+   "cote": "droit",
+   "porteur": "report:right seventh rib",
+   "ecart_mm": 2.8,
+   "p": [
+    -0.0682,
+    1.2023,
+    0.0061
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "articular facet of tubercle of rib",
+   "inconstant": false,
+   "cle": "FJ3346",
+   "cote": "droit",
+   "porteur": "report:right seventh rib",
+   "ecart_mm": 1.3,
+   "p": [
+    -0.0309,
+    1.2259,
+    0.0179
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "articular facets of head of rib",
+   "inconstant": false,
+   "cle": "FJ3346",
+   "cote": "droit",
+   "porteur": "report:right seventh rib",
+   "ecart_mm": 0.5,
+   "p": [
+    -0.0154,
+    1.2269,
+    0.0387
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "body of rib",
+   "inconstant": false,
+   "cle": "FJ3346",
+   "cote": "droit",
+   "porteur": "report:right seventh rib",
+   "ecart_mm": 2.3,
+   "p": [
+    -0.1281,
+    1.1693,
+    0.0634
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "costal groove",
+   "inconstant": false,
+   "cle": "FJ3346",
+   "cote": "droit",
+   "porteur": "report:right seventh rib",
+   "ecart_mm": 0.9,
+   "p": [
+    -0.0704,
+    1.202,
+    0.0101
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "crest of head of rib",
+   "inconstant": false,
+   "cle": "FJ3346",
+   "cote": "droit",
+   "porteur": "report:right seventh rib",
+   "ecart_mm": 1.6,
+   "p": [
+    -0.0148,
+    1.2318,
+    0.0393
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "crest of neck of rib",
+   "inconstant": false,
+   "cle": "FJ3346",
+   "cote": "droit",
+   "porteur": "report:right seventh rib",
+   "ecart_mm": 1.3,
+   "p": [
+    -0.0487,
+    1.2242,
+    0.0176
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "head of rib",
+   "inconstant": false,
+   "cle": "FJ3346",
+   "cote": "droit",
+   "porteur": "report:right seventh rib",
+   "ecart_mm": 2.7,
+   "p": [
+    -0.0211,
+    1.2375,
+    0.0323
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "neck of rib",
+   "inconstant": false,
+   "cle": "FJ3346",
+   "cote": "droit",
+   "porteur": "report:right seventh rib",
+   "ecart_mm": 1.0,
+   "p": [
+    -0.029,
+    1.227,
+    0.0312
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "tubercle of rib",
+   "inconstant": false,
+   "cle": "FJ3346",
+   "cote": "droit",
+   "porteur": "report:right seventh rib",
+   "ecart_mm": 2.1,
+   "p": [
+    -0.0326,
+    1.223,
+    0.0196
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "angle of rib",
+   "inconstant": false,
+   "cle": "FJ3347",
+   "cote": "droit",
+   "porteur": "report:right eighth rib",
+   "ecart_mm": 2.2,
+   "p": [
+    -0.0603,
+    1.1759,
+    0.0079
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "articular facet of tubercle of rib",
+   "inconstant": false,
+   "cle": "FJ3347",
+   "cote": "droit",
+   "porteur": "report:right eighth rib",
+   "ecart_mm": 1.7,
+   "p": [
+    -0.0285,
+    1.1978,
+    0.0224
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "articular facets of head of rib",
+   "inconstant": false,
+   "cle": "FJ3347",
+   "cote": "droit",
+   "porteur": "report:right eighth rib",
+   "ecart_mm": 0.6,
+   "p": [
+    -0.0175,
+    1.1982,
+    0.0411
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "body of rib",
+   "inconstant": false,
+   "cle": "FJ3347",
+   "cote": "droit",
+   "porteur": "report:right eighth rib",
+   "ecart_mm": 2.4,
+   "p": [
+    -0.1193,
+    1.1406,
+    0.0562
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "costal groove",
+   "inconstant": false,
+   "cle": "FJ3347",
+   "cote": "droit",
+   "porteur": "report:right eighth rib",
+   "ecart_mm": 1.4,
+   "p": [
+    -0.0617,
+    1.173,
+    0.0101
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "crest of head of rib",
+   "inconstant": false,
+   "cle": "FJ3347",
+   "cote": "droit",
+   "porteur": "report:right eighth rib",
+   "ecart_mm": 0.8,
+   "p": [
+    -0.0157,
+    1.2023,
+    0.0427
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "crest of neck of rib",
+   "inconstant": false,
+   "cle": "FJ3347",
+   "cote": "droit",
+   "porteur": "report:right eighth rib",
+   "ecart_mm": 2.5,
+   "p": [
+    -0.0432,
+    1.1969,
+    0.0173
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "head of rib",
+   "inconstant": false,
+   "cle": "FJ3347",
+   "cote": "droit",
+   "porteur": "report:right eighth rib",
+   "ecart_mm": 1.0,
+   "p": [
+    -0.0208,
+    1.2089,
+    0.0359
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "neck of rib",
+   "inconstant": false,
+   "cle": "FJ3347",
+   "cote": "droit",
+   "porteur": "report:right eighth rib",
+   "ecart_mm": 0.9,
+   "p": [
+    -0.028,
+    1.1989,
+    0.0337
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "tubercle of rib",
+   "inconstant": false,
+   "cle": "FJ3347",
+   "cote": "droit",
+   "porteur": "report:right eighth rib",
+   "ecart_mm": 0.4,
+   "p": [
+    -0.0295,
+    1.1945,
+    0.0221
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "angle of rib",
+   "inconstant": false,
+   "cle": "FJ3348",
+   "cote": "droit",
+   "porteur": "report:right ninth rib",
+   "ecart_mm": 0.9,
+   "p": [
+    -0.0542,
+    1.1456,
+    0.0125
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "articular facet of tubercle of rib",
+   "inconstant": false,
+   "cle": "FJ3348",
+   "cote": "droit",
+   "porteur": "report:right ninth rib",
+   "ecart_mm": 1.0,
+   "p": [
+    -0.0264,
+    1.1705,
+    0.03
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "articular facets of head of rib",
+   "inconstant": false,
+   "cle": "FJ3348",
+   "cote": "droit",
+   "porteur": "report:right ninth rib",
+   "ecart_mm": 0.4,
+   "p": [
+    -0.0191,
+    1.1717,
+    0.0478
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "body of rib",
+   "inconstant": false,
+   "cle": "FJ3348",
+   "cote": "droit",
+   "porteur": "report:right ninth rib",
+   "ecart_mm": 0.8,
+   "p": [
+    -0.1123,
+    1.112,
+    0.0427
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "costal groove",
+   "inconstant": false,
+   "cle": "FJ3348",
+   "cote": "droit",
+   "porteur": "report:right ninth rib",
+   "ecart_mm": 0.7,
+   "p": [
+    -0.055,
+    1.1434,
+    0.0151
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "crest of head of rib",
+   "inconstant": false,
+   "cle": "FJ3348",
+   "cote": "droit",
+   "porteur": "report:right ninth rib",
+   "ecart_mm": 0.8,
+   "p": [
+    -0.0181,
+    1.1771,
+    0.0489
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "crest of neck of rib",
+   "inconstant": false,
+   "cle": "FJ3348",
+   "cote": "droit",
+   "porteur": "report:right ninth rib",
+   "ecart_mm": 0.9,
+   "p": [
+    -0.0395,
+    1.1694,
+    0.0235
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "head of rib",
+   "inconstant": false,
+   "cle": "FJ3348",
+   "cote": "droit",
+   "porteur": "report:right ninth rib",
+   "ecart_mm": 1.0,
+   "p": [
+    -0.0217,
+    1.1832,
+    0.041
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "neck of rib",
+   "inconstant": false,
+   "cle": "FJ3348",
+   "cote": "droit",
+   "porteur": "report:right ninth rib",
+   "ecart_mm": 1.0,
+   "p": [
+    -0.0283,
+    1.1725,
+    0.0404
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "tubercle of rib",
+   "inconstant": false,
+   "cle": "FJ3348",
+   "cote": "droit",
+   "porteur": "report:right ninth rib",
+   "ecart_mm": 0.6,
+   "p": [
+    -0.0277,
+    1.1669,
+    0.0303
+   ],
+   "reporte": "right sixth rib"
+  },
+  {
+   "nom_en": "angle of rib",
+   "inconstant": false,
+   "cle": "FJ3232",
+   "cote": "gauche",
+   "porteur": "report:left fifth rib",
+   "ecart_mm": 1.4,
+   "p": [
+    0.0725,
+    1.2641,
+    0.0133
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "articular facet of tubercle of rib",
+   "inconstant": false,
+   "cle": "FJ3232",
+   "cote": "gauche",
+   "porteur": "report:left fifth rib",
+   "ecart_mm": 1.3,
+   "p": [
+    0.0324,
+    1.2809,
+    0.0221
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "articular facets of head of rib",
+   "inconstant": false,
+   "cle": "FJ3232",
+   "cote": "gauche",
+   "porteur": "report:left fifth rib",
+   "ecart_mm": 0.4,
+   "p": [
+    0.0145,
+    1.2808,
+    0.0453
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "body of rib",
+   "inconstant": false,
+   "cle": "FJ3232",
+   "cote": "gauche",
+   "porteur": "report:left fifth rib",
+   "ecart_mm": 1.5,
+   "p": [
+    0.1234,
+    1.2337,
+    0.0785
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "costal groove",
+   "inconstant": false,
+   "cle": "FJ3232",
+   "cote": "gauche",
+   "porteur": "report:left fifth rib",
+   "ecart_mm": 1.0,
+   "p": [
+    0.0774,
+    1.2618,
+    0.0198
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "crest of head of rib",
+   "inconstant": false,
+   "cle": "FJ3232",
+   "cote": "gauche",
+   "porteur": "report:left fifth rib",
+   "ecart_mm": 0.7,
+   "p": [
+    0.0143,
+    1.2849,
+    0.0436
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "crest of neck of rib",
+   "inconstant": false,
+   "cle": "FJ3232",
+   "cote": "gauche",
+   "porteur": "report:left fifth rib",
+   "ecart_mm": 3.5,
+   "p": [
+    0.0506,
+    1.2777,
+    0.0291
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "head of rib",
+   "inconstant": false,
+   "cle": "FJ3232",
+   "cote": "gauche",
+   "porteur": "report:left fifth rib",
+   "ecart_mm": 1.0,
+   "p": [
+    0.0208,
+    1.29,
+    0.0419
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "neck of rib",
+   "inconstant": false,
+   "cle": "FJ3232",
+   "cote": "gauche",
+   "porteur": "report:left fifth rib",
+   "ecart_mm": 1.2,
+   "p": [
+    0.0305,
+    1.2826,
+    0.0365
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "tubercle of rib",
+   "inconstant": false,
+   "cle": "FJ3232",
+   "cote": "gauche",
+   "porteur": "report:left fifth rib",
+   "ecart_mm": 1.2,
+   "p": [
+    0.0333,
+    1.2776,
+    0.0243
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "angle of rib",
+   "inconstant": false,
+   "cle": "FJ3231",
+   "cote": "gauche",
+   "porteur": "report:left fourth rib",
+   "ecart_mm": 3.1,
+   "p": [
+    0.0718,
+    1.2961,
+    0.0259
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "articular facet of tubercle of rib",
+   "inconstant": false,
+   "cle": "FJ3231",
+   "cote": "gauche",
+   "porteur": "report:left fourth rib",
+   "ecart_mm": 1.3,
+   "p": [
+    0.0321,
+    1.3075,
+    0.0289
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "articular facets of head of rib",
+   "inconstant": false,
+   "cle": "FJ3231",
+   "cote": "gauche",
+   "porteur": "report:left fourth rib",
+   "ecart_mm": 1.0,
+   "p": [
+    0.0135,
+    1.307,
+    0.0504
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "body of rib",
+   "inconstant": false,
+   "cle": "FJ3231",
+   "cote": "gauche",
+   "porteur": "report:left fourth rib",
+   "ecart_mm": 0.9,
+   "p": [
+    0.1141,
+    1.2654,
+    0.0885
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "costal groove",
+   "inconstant": false,
+   "cle": "FJ3231",
+   "cote": "gauche",
+   "porteur": "report:left fourth rib",
+   "ecart_mm": 2.0,
+   "p": [
+    0.0759,
+    1.2935,
+    0.0301
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "crest of head of rib",
+   "inconstant": false,
+   "cle": "FJ3231",
+   "cote": "gauche",
+   "porteur": "report:left fourth rib",
+   "ecart_mm": 1.2,
+   "p": [
+    0.0138,
+    1.3108,
+    0.0495
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "crest of neck of rib",
+   "inconstant": false,
+   "cle": "FJ3231",
+   "cote": "gauche",
+   "porteur": "report:left fourth rib",
+   "ecart_mm": 3.0,
+   "p": [
+    0.0489,
+    1.3061,
+    0.0352
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "head of rib",
+   "inconstant": false,
+   "cle": "FJ3231",
+   "cote": "gauche",
+   "porteur": "report:left fourth rib",
+   "ecart_mm": 1.1,
+   "p": [
+    0.0181,
+    1.3146,
+    0.0486
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "neck of rib",
+   "inconstant": false,
+   "cle": "FJ3231",
+   "cote": "gauche",
+   "porteur": "report:left fourth rib",
+   "ecart_mm": 1.1,
+   "p": [
+    0.0293,
+    1.3088,
+    0.0424
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "tubercle of rib",
+   "inconstant": false,
+   "cle": "FJ3231",
+   "cote": "gauche",
+   "porteur": "report:left fourth rib",
+   "ecart_mm": 0.9,
+   "p": [
+    0.0326,
+    1.3051,
+    0.0312
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "angle of rib",
+   "inconstant": false,
+   "cle": "FJ3230",
+   "cote": "gauche",
+   "porteur": "report:left third rib",
+   "ecart_mm": 1.4,
+   "p": [
+    0.0701,
+    1.3214,
+    0.0391
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "articular facet of tubercle of rib",
+   "inconstant": false,
+   "cle": "FJ3230",
+   "cote": "gauche",
+   "porteur": "report:left third rib",
+   "ecart_mm": 0.9,
+   "p": [
+    0.0324,
+    1.3293,
+    0.0378
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "articular facets of head of rib",
+   "inconstant": false,
+   "cle": "FJ3230",
+   "cote": "gauche",
+   "porteur": "report:left third rib",
+   "ecart_mm": 0.7,
+   "p": [
+    0.0137,
+    1.3289,
+    0.056
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "body of rib",
+   "inconstant": false,
+   "cle": "FJ3230",
+   "cote": "gauche",
+   "porteur": "report:left third rib",
+   "ecart_mm": 0.8,
+   "p": [
+    0.1058,
+    1.2945,
+    0.0941
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "costal groove",
+   "inconstant": false,
+   "cle": "FJ3230",
+   "cote": "gauche",
+   "porteur": "report:left third rib",
+   "ecart_mm": 1.1,
+   "p": [
+    0.0731,
+    1.3194,
+    0.0417
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "crest of head of rib",
+   "inconstant": false,
+   "cle": "FJ3230",
+   "cote": "gauche",
+   "porteur": "report:left third rib",
+   "ecart_mm": 0.7,
+   "p": [
+    0.0131,
+    1.3324,
+    0.0551
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "crest of neck of rib",
+   "inconstant": false,
+   "cle": "FJ3230",
+   "cote": "gauche",
+   "porteur": "report:left third rib",
+   "ecart_mm": 2.3,
+   "p": [
+    0.0475,
+    1.3286,
+    0.0473
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "head of rib",
+   "inconstant": false,
+   "cle": "FJ3230",
+   "cote": "gauche",
+   "porteur": "report:left third rib",
+   "ecart_mm": 0.8,
+   "p": [
+    0.0173,
+    1.3359,
+    0.0555
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "neck of rib",
+   "inconstant": false,
+   "cle": "FJ3230",
+   "cote": "gauche",
+   "porteur": "report:left third rib",
+   "ecart_mm": 1.4,
+   "p": [
+    0.028,
+    1.3295,
+    0.0511
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "tubercle of rib",
+   "inconstant": false,
+   "cle": "FJ3230",
+   "cote": "gauche",
+   "porteur": "report:left third rib",
+   "ecart_mm": 1.9,
+   "p": [
+    0.0331,
+    1.3258,
+    0.0394
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "angle of rib",
+   "inconstant": false,
+   "cle": "FJ3234",
+   "cote": "gauche",
+   "porteur": "report:left seventh rib",
+   "ecart_mm": 2.9,
+   "p": [
+    0.0662,
+    1.2033,
+    0.0061
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "articular facet of tubercle of rib",
+   "inconstant": false,
+   "cle": "FJ3234",
+   "cote": "gauche",
+   "porteur": "report:left seventh rib",
+   "ecart_mm": 1.0,
+   "p": [
+    0.0299,
+    1.2256,
+    0.0168
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "articular facets of head of rib",
+   "inconstant": false,
+   "cle": "FJ3234",
+   "cote": "gauche",
+   "porteur": "report:left seventh rib",
+   "ecart_mm": 0.7,
+   "p": [
+    0.0144,
+    1.2276,
+    0.0395
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "body of rib",
+   "inconstant": false,
+   "cle": "FJ3234",
+   "cote": "gauche",
+   "porteur": "report:left seventh rib",
+   "ecart_mm": 1.8,
+   "p": [
+    0.1253,
+    1.1725,
+    0.058
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "costal groove",
+   "inconstant": false,
+   "cle": "FJ3234",
+   "cote": "gauche",
+   "porteur": "report:left seventh rib",
+   "ecart_mm": 1.2,
+   "p": [
+    0.0689,
+    1.202,
+    0.0101
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "crest of head of rib",
+   "inconstant": false,
+   "cle": "FJ3234",
+   "cote": "gauche",
+   "porteur": "report:left seventh rib",
+   "ecart_mm": 1.4,
+   "p": [
+    0.013,
+    1.2319,
+    0.0383
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "crest of neck of rib",
+   "inconstant": false,
+   "cle": "FJ3234",
+   "cote": "gauche",
+   "porteur": "report:left seventh rib",
+   "ecart_mm": 0.8,
+   "p": [
+    0.0471,
+    1.2242,
+    0.0176
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "head of rib",
+   "inconstant": false,
+   "cle": "FJ3234",
+   "cote": "gauche",
+   "porteur": "report:left seventh rib",
+   "ecart_mm": 2.3,
+   "p": [
+    0.0197,
+    1.2385,
+    0.0316
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "neck of rib",
+   "inconstant": false,
+   "cle": "FJ3234",
+   "cote": "gauche",
+   "porteur": "report:left seventh rib",
+   "ecart_mm": 1.1,
+   "p": [
+    0.0303,
+    1.2287,
+    0.0294
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "tubercle of rib",
+   "inconstant": false,
+   "cle": "FJ3234",
+   "cote": "gauche",
+   "porteur": "report:left seventh rib",
+   "ecart_mm": 2.3,
+   "p": [
+    0.0313,
+    1.223,
+    0.02
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "angle of rib",
+   "inconstant": false,
+   "cle": "FJ3235",
+   "cote": "gauche",
+   "porteur": "report:left eighth rib",
+   "ecart_mm": 2.3,
+   "p": [
+    0.0586,
+    1.1762,
+    0.0081
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "articular facet of tubercle of rib",
+   "inconstant": false,
+   "cle": "FJ3235",
+   "cote": "gauche",
+   "porteur": "report:left eighth rib",
+   "ecart_mm": 1.7,
+   "p": [
+    0.0281,
+    1.1975,
+    0.0206
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "articular facets of head of rib",
+   "inconstant": false,
+   "cle": "FJ3235",
+   "cote": "gauche",
+   "porteur": "report:left eighth rib",
+   "ecart_mm": 0.5,
+   "p": [
+    0.0162,
+    1.1989,
+    0.0421
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "body of rib",
+   "inconstant": false,
+   "cle": "FJ3235",
+   "cote": "gauche",
+   "porteur": "report:left eighth rib",
+   "ecart_mm": 1.0,
+   "p": [
+    0.1145,
+    1.1418,
+    0.0492
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "costal groove",
+   "inconstant": false,
+   "cle": "FJ3235",
+   "cote": "gauche",
+   "porteur": "report:left eighth rib",
+   "ecart_mm": 1.4,
+   "p": [
+    0.0591,
+    1.1744,
+    0.011
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "crest of head of rib",
+   "inconstant": false,
+   "cle": "FJ3235",
+   "cote": "gauche",
+   "porteur": "report:left eighth rib",
+   "ecart_mm": 0.8,
+   "p": [
+    0.0139,
+    1.2023,
+    0.0414
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "crest of neck of rib",
+   "inconstant": false,
+   "cle": "FJ3235",
+   "cote": "gauche",
+   "porteur": "report:left eighth rib",
+   "ecart_mm": 2.5,
+   "p": [
+    0.0404,
+    1.1979,
+    0.0185
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "head of rib",
+   "inconstant": false,
+   "cle": "FJ3235",
+   "cote": "gauche",
+   "porteur": "report:left eighth rib",
+   "ecart_mm": 1.0,
+   "p": [
+    0.0197,
+    1.2088,
+    0.0356
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "neck of rib",
+   "inconstant": false,
+   "cle": "FJ3235",
+   "cote": "gauche",
+   "porteur": "report:left eighth rib",
+   "ecart_mm": 0.5,
+   "p": [
+    0.0283,
+    1.2002,
+    0.0318
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "tubercle of rib",
+   "inconstant": false,
+   "cle": "FJ3235",
+   "cote": "gauche",
+   "porteur": "report:left eighth rib",
+   "ecart_mm": 0.4,
+   "p": [
+    0.0282,
+    1.1946,
+    0.0224
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "angle of rib",
+   "inconstant": false,
+   "cle": "FJ3236",
+   "cote": "gauche",
+   "porteur": "report:left ninth rib",
+   "ecart_mm": 0.7,
+   "p": [
+    0.0521,
+    1.1464,
+    0.0128
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "articular facet of tubercle of rib",
+   "inconstant": false,
+   "cle": "FJ3236",
+   "cote": "gauche",
+   "porteur": "report:left ninth rib",
+   "ecart_mm": 0.9,
+   "p": [
+    0.0262,
+    1.1707,
+    0.0283
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "articular facets of head of rib",
+   "inconstant": false,
+   "cle": "FJ3236",
+   "cote": "gauche",
+   "porteur": "report:left ninth rib",
+   "ecart_mm": 0.4,
+   "p": [
+    0.0182,
+    1.1725,
+    0.0489
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "body of rib",
+   "inconstant": false,
+   "cle": "FJ3236",
+   "cote": "gauche",
+   "porteur": "report:left ninth rib",
+   "ecart_mm": 2.0,
+   "p": [
+    0.1085,
+    1.1118,
+    0.0385
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "costal groove",
+   "inconstant": false,
+   "cle": "FJ3236",
+   "cote": "gauche",
+   "porteur": "report:left ninth rib",
+   "ecart_mm": 0.7,
+   "p": [
+    0.0536,
+    1.1443,
+    0.0163
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "crest of head of rib",
+   "inconstant": false,
+   "cle": "FJ3236",
+   "cote": "gauche",
+   "porteur": "report:left ninth rib",
+   "ecart_mm": 1.1,
+   "p": [
+    0.0167,
+    1.1755,
+    0.0481
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "crest of neck of rib",
+   "inconstant": false,
+   "cle": "FJ3236",
+   "cote": "gauche",
+   "porteur": "report:left ninth rib",
+   "ecart_mm": 1.4,
+   "p": [
+    0.0383,
+    1.1693,
+    0.0234
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "head of rib",
+   "inconstant": false,
+   "cle": "FJ3236",
+   "cote": "gauche",
+   "porteur": "report:left ninth rib",
+   "ecart_mm": 0.5,
+   "p": [
+    0.0205,
+    1.1825,
+    0.0414
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "neck of rib",
+   "inconstant": false,
+   "cle": "FJ3236",
+   "cote": "gauche",
+   "porteur": "report:left ninth rib",
+   "ecart_mm": 1.5,
+   "p": [
+    0.0273,
+    1.1747,
+    0.0379
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "tubercle of rib",
+   "inconstant": false,
+   "cle": "FJ3236",
+   "cote": "gauche",
+   "porteur": "report:left ninth rib",
+   "ecart_mm": 0.6,
+   "p": [
+    0.0268,
+    1.1664,
+    0.0304
+   ],
+   "reporte": "left sixth rib"
+  },
+  {
+   "nom_en": "metacarpal base",
+   "inconstant": false,
+   "cle": "FJ3352",
+   "cote": "droit",
+   "porteur": "report:right second metacarpal bone",
+   "ecart_mm": 1.7,
+   "p": [
+    -0.266,
+    0.7763,
+    0.1238
+   ],
+   "reporte": "right third metacarpal bone"
+  },
+  {
+   "nom_en": "body of metacarpal bone",
+   "inconstant": false,
+   "cle": "FJ3352",
+   "cote": "droit",
+   "porteur": "report:right second metacarpal bone",
+   "ecart_mm": 1.9,
+   "p": [
+    -0.2751,
+    0.7534,
+    0.1292
+   ],
+   "reporte": "right third metacarpal bone"
+  },
+  {
+   "nom_en": "head of metacarpal bone",
+   "inconstant": false,
+   "cle": "FJ3352",
+   "cote": "droit",
+   "porteur": "report:right second metacarpal bone",
+   "ecart_mm": 0.4,
+   "p": [
+    -0.2789,
+    0.7274,
+    0.1347
+   ],
+   "reporte": "right third metacarpal bone"
+  },
+  {
+   "nom_en": "metacarpal base",
+   "inconstant": false,
+   "cle": "FJ3356",
+   "cote": "droit",
+   "porteur": "report:right fourth metacarpal bone",
+   "ecart_mm": 2.6,
+   "p": [
+    -0.2452,
+    0.7794,
+    0.1243
+   ],
+   "reporte": "right third metacarpal bone"
+  },
+  {
+   "nom_en": "body of metacarpal bone",
+   "inconstant": false,
+   "cle": "FJ3356",
+   "cote": "droit",
+   "porteur": "report:right fourth metacarpal bone",
+   "ecart_mm": 1.6,
+   "p": [
+    -0.2459,
+    0.7553,
+    0.1276
+   ],
+   "reporte": "right third metacarpal bone"
+  },
+  {
+   "nom_en": "head of metacarpal bone",
+   "inconstant": false,
+   "cle": "FJ3356",
+   "cote": "droit",
+   "porteur": "report:right fourth metacarpal bone",
+   "ecart_mm": 0.6,
+   "p": [
+    -0.2423,
+    0.7334,
+    0.1354
+   ],
+   "reporte": "right third metacarpal bone"
+  },
+  {
+   "nom_en": "metacarpal base",
+   "inconstant": false,
+   "cle": "FJ3358",
+   "cote": "droit",
+   "porteur": "report:right fifth metacarpal bone",
+   "ecart_mm": 1.6,
+   "p": [
+    -0.2359,
+    0.7822,
+    0.1291
+   ],
+   "reporte": "right third metacarpal bone"
+  },
+  {
+   "nom_en": "body of metacarpal bone",
+   "inconstant": false,
+   "cle": "FJ3358",
+   "cote": "droit",
+   "porteur": "report:right fifth metacarpal bone",
+   "ecart_mm": 0.1,
+   "p": [
+    -0.2331,
+    0.7601,
+    0.1315
+   ],
+   "reporte": "right third metacarpal bone"
+  },
+  {
+   "nom_en": "head of metacarpal bone",
+   "inconstant": false,
+   "cle": "FJ3358",
+   "cote": "droit",
+   "porteur": "report:right fifth metacarpal bone",
+   "ecart_mm": 0.5,
+   "p": [
+    -0.2268,
+    0.7415,
+    0.1388
+   ],
+   "reporte": "right third metacarpal bone"
+  },
+  {
+   "nom_en": "base of phalanx of hand",
+   "inconstant": false,
+   "cle": "FJ3322",
+   "cote": "droit",
+   "porteur": "report:proximal phalanx of right index finger",
+   "ecart_mm": 1.2,
+   "p": [
+    -0.2825,
+    0.7138,
+    0.1402
+   ],
+   "reporte": "proximal phalanx of right middle finger"
+  },
+  {
+   "nom_en": "body of phalanx of hand",
+   "inconstant": false,
+   "cle": "FJ3322",
+   "cote": "droit",
+   "porteur": "report:proximal phalanx of right index finger",
+   "ecart_mm": 4.6,
+   "p": [
+    -0.2902,
+    0.6979,
+    0.1482
+   ],
+   "reporte": "proximal phalanx of right middle finger"
+  },
+  {
+   "nom_en": "head of phalanx of hand",
+   "inconstant": false,
+   "cle": "FJ3322",
+   "cote": "droit",
+   "porteur": "report:proximal phalanx of right index finger",
+   "ecart_mm": 1.8,
+   "p": [
+    -0.2942,
+    0.6891,
+    0.1503
+   ],
+   "reporte": "proximal phalanx of right middle finger"
+  },
+  {
+   "nom_en": "trochlea of phalanx of hand",
+   "inconstant": false,
+   "cle": "FJ3322",
+   "cote": "droit",
+   "porteur": "report:proximal phalanx of right index finger",
+   "ecart_mm": 0.1,
+   "p": [
+    -0.298,
+    0.691,
+    0.1555
+   ],
+   "reporte": "proximal phalanx of right middle finger"
+  },
+  {
+   "nom_en": "base of phalanx of hand",
+   "inconstant": false,
+   "cle": "FJ3326",
+   "cote": "droit",
+   "porteur": "report:proximal phalanx of right ring finger",
+   "ecart_mm": 0.9,
+   "p": [
+    -0.2406,
+    0.7247,
+    0.1435
+   ],
+   "reporte": "proximal phalanx of right middle finger"
+  },
+  {
+   "nom_en": "body of phalanx of hand",
+   "inconstant": false,
+   "cle": "FJ3326",
+   "cote": "droit",
+   "porteur": "report:proximal phalanx of right ring finger",
+   "ecart_mm": 2.0,
+   "p": [
+    -0.2435,
+    0.7098,
+    0.1488
+   ],
+   "reporte": "proximal phalanx of right middle finger"
+  },
+  {
+   "nom_en": "head of phalanx of hand",
+   "inconstant": false,
+   "cle": "FJ3326",
+   "cote": "droit",
+   "porteur": "report:proximal phalanx of right ring finger",
+   "ecart_mm": 0.8,
+   "p": [
+    -0.2441,
+    0.6932,
+    0.156
+   ],
+   "reporte": "proximal phalanx of right middle finger"
+  },
+  {
+   "nom_en": "trochlea of phalanx of hand",
+   "inconstant": false,
+   "cle": "FJ3326",
+   "cote": "droit",
+   "porteur": "report:proximal phalanx of right ring finger",
+   "ecart_mm": 0.6,
+   "p": [
+    -0.2492,
+    0.6944,
+    0.1604
+   ],
+   "reporte": "proximal phalanx of right middle finger"
+  },
+  {
+   "nom_en": "base of phalanx of hand",
+   "inconstant": false,
+   "cle": "FJ3323",
+   "cote": "droit",
+   "porteur": "report:proximal phalanx of right little finger",
+   "ecart_mm": 0.6,
+   "p": [
+    -0.2232,
+    0.7326,
+    0.1443
+   ],
+   "reporte": "proximal phalanx of right middle finger"
+  },
+  {
+   "nom_en": "body of phalanx of hand",
+   "inconstant": false,
+   "cle": "FJ3323",
+   "cote": "droit",
+   "porteur": "report:proximal phalanx of right little finger",
+   "ecart_mm": 0.6,
+   "p": [
+    -0.2241,
+    0.7196,
+    0.1482
+   ],
+   "reporte": "proximal phalanx of right middle finger"
+  },
+  {
+   "nom_en": "head of phalanx of hand",
+   "inconstant": false,
+   "cle": "FJ3323",
+   "cote": "droit",
+   "porteur": "report:proximal phalanx of right little finger",
+   "ecart_mm": 0.8,
+   "p": [
+    -0.2229,
+    0.7072,
+    0.1537
+   ],
+   "reporte": "proximal phalanx of right middle finger"
+  },
+  {
+   "nom_en": "trochlea of phalanx of hand",
+   "inconstant": false,
+   "cle": "FJ3323",
+   "cote": "droit",
+   "porteur": "report:proximal phalanx of right little finger",
+   "ecart_mm": 0.3,
+   "p": [
+    -0.2264,
+    0.707,
+    0.1587
+   ],
+   "reporte": "proximal phalanx of right middle finger"
+  },
+  {
+   "nom_en": "tuberosity of distal phalanx of hand",
+   "inconstant": false,
+   "cle": "FJ3193",
+   "cote": "droit",
+   "porteur": "report:distal phalanx of right index finger",
+   "ecart_mm": 0.7,
+   "p": [
+    -0.3059,
+    0.6754,
+    0.1721
+   ],
+   "reporte": "distal phalanx of right middle finger"
+  },
+  {
+   "nom_en": "tuberosity of distal phalanx of hand",
+   "inconstant": false,
+   "cle": "FJ3198",
+   "cote": "droit",
+   "porteur": "report:distal phalanx of right thumb",
+   "ecart_mm": 2.2,
+   "p": [
+    -0.3117,
+    0.7388,
+    0.1608
+   ],
+   "reporte": "distal phalanx of right middle finger"
+  },
+  {
+   "nom_en": "tuberosity of distal phalanx of hand",
+   "inconstant": false,
+   "cle": "FJ3197",
+   "cote": "droit",
+   "porteur": "report:distal phalanx of right ring finger",
+   "ecart_mm": 1.6,
+   "p": [
+    -0.2488,
+    0.674,
+    0.181
+   ],
+   "reporte": "distal phalanx of right middle finger"
+  },
+  {
+   "nom_en": "tuberosity of distal phalanx of hand",
+   "inconstant": false,
+   "cle": "FJ3194",
+   "cote": "droit",
+   "porteur": "report:distal phalanx of right little finger",
+   "ecart_mm": 0.6,
+   "p": [
+    -0.2226,
+    0.6893,
+    0.1716
+   ],
+   "reporte": "distal phalanx of right middle finger"
+  },
+  {
+   "nom_en": "base of metatarsal bone",
+   "inconstant": false,
+   "cle": "FJ3353",
+   "cote": "droit",
+   "porteur": "report:right second metatarsal bone",
+   "ecart_mm": 2.4,
+   "p": [
+    -0.0939,
+    -0.0251,
+    0.1337
+   ],
+   "reporte": "right third metatarsal bone"
+  },
+  {
+   "nom_en": "body of metatarsal bone",
+   "inconstant": false,
+   "cle": "FJ3353",
+   "cote": "droit",
+   "porteur": "report:right second metatarsal bone",
+   "ecart_mm": 1.2,
+   "p": [
+    -0.1069,
+    -0.0443,
+    0.1592
+   ],
+   "reporte": "right third metatarsal bone"
+  },
+  {
+   "nom_en": "head of metatarsal bone",
+   "inconstant": false,
+   "cle": "FJ3353",
+   "cote": "droit",
+   "porteur": "report:right second metatarsal bone",
+   "ecart_mm": 1.4,
+   "p": [
+    -0.1098,
+    -0.0607,
+    0.184
+   ],
+   "reporte": "right third metatarsal bone"
+  },
+  {
+   "nom_en": "base of metatarsal bone",
+   "inconstant": false,
+   "cle": "FJ3357",
+   "cote": "droit",
+   "porteur": "report:right fourth metatarsal bone",
+   "ecart_mm": 1.8,
+   "p": [
+    -0.1071,
+    -0.037,
+    0.1198
+   ],
+   "reporte": "right third metatarsal bone"
+  },
+  {
+   "nom_en": "body of metatarsal bone",
+   "inconstant": false,
+   "cle": "FJ3357",
+   "cote": "droit",
+   "porteur": "report:right fourth metatarsal bone",
+   "ecart_mm": 3.2,
+   "p": [
+    -0.1257,
+    -0.0537,
+    0.1448
+   ],
+   "reporte": "right third metatarsal bone"
+  },
+  {
+   "nom_en": "head of metatarsal bone",
+   "inconstant": false,
+   "cle": "FJ3357",
+   "cote": "droit",
+   "porteur": "report:right fourth metatarsal bone",
+   "ecart_mm": 1.2,
+   "p": [
+    -0.1337,
+    -0.0609,
+    0.1681
+   ],
+   "reporte": "right third metatarsal bone"
+  },
+  {
+   "nom_en": "base of metatarsal bone",
+   "inconstant": false,
+   "cle": "FJ3359",
+   "cote": "droit",
+   "porteur": "report:right fifth metatarsal bone",
+   "ecart_mm": 2.3,
+   "p": [
+    -0.1108,
+    -0.0431,
+    0.1093
+   ],
+   "reporte": "right third metatarsal bone"
+  },
+  {
+   "nom_en": "body of metatarsal bone",
+   "inconstant": false,
+   "cle": "FJ3359",
+   "cote": "droit",
+   "porteur": "report:right fifth metatarsal bone",
+   "ecart_mm": 3.8,
+   "p": [
+    -0.1335,
+    -0.0623,
+    0.1342
+   ],
+   "reporte": "right third metatarsal bone"
+  },
+  {
+   "nom_en": "head of metatarsal bone",
+   "inconstant": false,
+   "cle": "FJ3359",
+   "cote": "droit",
+   "porteur": "report:right fifth metatarsal bone",
+   "ecart_mm": 1.2,
+   "p": [
+    -0.1431,
+    -0.0628,
+    0.1551
+   ],
+   "reporte": "right third metatarsal bone"
+  },
+  {
+   "nom_en": "base of phalanx of foot",
+   "inconstant": false,
+   "cle": "FJ3319",
+   "cote": "droit",
+   "porteur": "report:proximal phalanx of right second toe",
+   "ecart_mm": 0.9,
+   "p": [
+    -0.1151,
+    -0.0551,
+    0.1888
+   ],
+   "reporte": "proximal phalanx of right third toe"
+  },
+  {
+   "nom_en": "body of phalanx of foot",
+   "inconstant": false,
+   "cle": "FJ3319",
+   "cote": "droit",
+   "porteur": "report:proximal phalanx of right second toe",
+   "ecart_mm": 0.8,
+   "p": [
+    -0.1224,
+    -0.0585,
+    0.1998
+   ],
+   "reporte": "proximal phalanx of right third toe"
+  },
+  {
+   "nom_en": "head of phalanx of foot",
+   "inconstant": false,
+   "cle": "FJ3319",
+   "cote": "droit",
+   "porteur": "report:proximal phalanx of right second toe",
+   "ecart_mm": 0.3,
+   "p": [
+    -0.1246,
+    -0.0633,
+    0.2114
+   ],
+   "reporte": "proximal phalanx of right third toe"
+  },
+  {
+   "nom_en": "trochlea of phalanx of foot",
+   "inconstant": false,
+   "cle": "FJ3319",
+   "cote": "droit",
+   "porteur": "report:proximal phalanx of right second toe",
+   "ecart_mm": 1.1,
+   "p": [
+    -0.13,
+    -0.0636,
+    0.2092
+   ],
+   "reporte": "proximal phalanx of right third toe"
+  },
+  {
+   "nom_en": "base of phalanx of foot",
+   "inconstant": false,
+   "cle": "FJ3310",
+   "cote": "droit",
+   "porteur": "report:proximal phalanx of right big toe",
+   "ecart_mm": 1.2,
+   "p": [
+    -0.0991,
+    -0.0518,
+    0.1916
+   ],
+   "reporte": "proximal phalanx of right third toe"
+  },
+  {
+   "nom_en": "body of phalanx of foot",
+   "inconstant": false,
+   "cle": "FJ3310",
+   "cote": "droit",
+   "porteur": "report:proximal phalanx of right big toe",
+   "ecart_mm": 2.7,
+   "p": [
+    -0.1074,
+    -0.057,
+    0.2032
+   ],
+   "reporte": "proximal phalanx of right third toe"
+  },
+  {
+   "nom_en": "head of phalanx of foot",
+   "inconstant": false,
+   "cle": "FJ3310",
+   "cote": "droit",
+   "porteur": "report:proximal phalanx of right big toe",
+   "ecart_mm": 1.6,
+   "p": [
+    -0.106,
+    -0.066,
+    0.2149
+   ],
+   "reporte": "proximal phalanx of right third toe"
+  },
+  {
+   "nom_en": "trochlea of phalanx of foot",
+   "inconstant": false,
+   "cle": "FJ3310",
+   "cote": "droit",
+   "porteur": "report:proximal phalanx of right big toe",
+   "ecart_mm": 2.6,
+   "p": [
+    -0.1096,
+    -0.0665,
+    0.21
+   ],
+   "reporte": "proximal phalanx of right third toe"
+  },
+  {
+   "nom_en": "base of phalanx of foot",
+   "inconstant": false,
+   "cle": "FJ3321",
+   "cote": "droit",
+   "porteur": "report:proximal phalanx of right fourth toe",
+   "ecart_mm": 0.8,
+   "p": [
+    -0.1409,
+    -0.0568,
+    0.1694
+   ],
+   "reporte": "proximal phalanx of right third toe"
+  },
+  {
+   "nom_en": "body of phalanx of foot",
+   "inconstant": false,
+   "cle": "FJ3321",
+   "cote": "droit",
+   "porteur": "report:proximal phalanx of right fourth toe",
+   "ecart_mm": 1.7,
+   "p": [
+    -0.1466,
+    -0.0593,
+    0.1767
+   ],
+   "reporte": "proximal phalanx of right third toe"
+  },
+  {
+   "nom_en": "head of phalanx of foot",
+   "inconstant": false,
+   "cle": "FJ3321",
+   "cote": "droit",
+   "porteur": "report:proximal phalanx of right fourth toe",
+   "ecart_mm": 0.6,
+   "p": [
+    -0.1493,
+    -0.0636,
+    0.1881
+   ],
+   "reporte": "proximal phalanx of right third toe"
+  },
+  {
+   "nom_en": "trochlea of phalanx of foot",
+   "inconstant": false,
+   "cle": "FJ3321",
+   "cote": "droit",
+   "porteur": "report:proximal phalanx of right fourth toe",
+   "ecart_mm": 0.6,
+   "p": [
+    -0.1527,
+    -0.0656,
+    0.1866
+   ],
+   "reporte": "proximal phalanx of right third toe"
+  },
+  {
+   "nom_en": "base of phalanx of foot",
+   "inconstant": false,
+   "cle": "FJ3324",
+   "cote": "droit",
+   "porteur": "report:proximal phalanx of right little toe",
+   "ecart_mm": 1.1,
+   "p": [
+    -0.1476,
+    -0.0611,
+    0.1572
+   ],
+   "reporte": "proximal phalanx of right third toe"
+  },
+  {
+   "nom_en": "body of phalanx of foot",
+   "inconstant": false,
+   "cle": "FJ3324",
+   "cote": "droit",
+   "porteur": "report:proximal phalanx of right little toe",
+   "ecart_mm": 1.9,
+   "p": [
+    -0.1552,
+    -0.0629,
+    0.1649
+   ],
+   "reporte": "proximal phalanx of right third toe"
+  },
+  {
+   "nom_en": "head of phalanx of foot",
+   "inconstant": false,
+   "cle": "FJ3324",
+   "cote": "droit",
+   "porteur": "report:proximal phalanx of right little toe",
+   "ecart_mm": 0.6,
+   "p": [
+    -0.1573,
+    -0.0677,
+    0.1739
+   ],
+   "reporte": "proximal phalanx of right third toe"
+  },
+  {
+   "nom_en": "trochlea of phalanx of foot",
+   "inconstant": false,
+   "cle": "FJ3324",
+   "cote": "droit",
+   "porteur": "report:proximal phalanx of right little toe",
+   "ecart_mm": 1.4,
+   "p": [
+    -0.1622,
+    -0.068,
+    0.172
+   ],
+   "reporte": "proximal phalanx of right third toe"
+  },
+  {
+   "nom_en": "metacarpal base",
+   "inconstant": false,
+   "cle": "FJ3243",
+   "cote": "gauche",
+   "porteur": "report:left second metacarpal bone",
+   "ecart_mm": 1.6,
+   "p": [
+    0.2657,
+    0.7771,
+    0.1256
+   ],
+   "reporte": "left third metacarpal bone"
+  },
+  {
+   "nom_en": "body of metacarpal bone",
+   "inconstant": false,
+   "cle": "FJ3243",
+   "cote": "gauche",
+   "porteur": "report:left second metacarpal bone",
+   "ecart_mm": 5.0,
+   "p": [
+    0.2792,
+    0.747,
+    0.1318
+   ],
+   "reporte": "left third metacarpal bone"
+  },
+  {
+   "nom_en": "head of metacarpal bone",
+   "inconstant": false,
+   "cle": "FJ3243",
+   "cote": "gauche",
+   "porteur": "report:left second metacarpal bone",
+   "ecart_mm": 1.5,
+   "p": [
+    0.279,
+    0.7271,
+    0.135
+   ],
+   "reporte": "left third metacarpal bone"
+  },
+  {
+   "nom_en": "metacarpal base",
+   "inconstant": false,
+   "cle": "FJ3249",
+   "cote": "gauche",
+   "porteur": "report:left fourth metacarpal bone",
+   "ecart_mm": 1.0,
+   "p": [
+    0.2453,
+    0.7778,
+    0.1235
+   ],
+   "reporte": "left third metacarpal bone"
+  },
+  {
+   "nom_en": "body of metacarpal bone",
+   "inconstant": false,
+   "cle": "FJ3249",
+   "cote": "gauche",
+   "porteur": "report:left fourth metacarpal bone",
+   "ecart_mm": 0.9,
+   "p": [
+    0.2462,
+    0.7531,
+    0.1285
+   ],
+   "reporte": "left third metacarpal bone"
+  },
+  {
+   "nom_en": "head of metacarpal bone",
+   "inconstant": false,
+   "cle": "FJ3249",
+   "cote": "gauche",
+   "porteur": "report:left fourth metacarpal bone",
+   "ecart_mm": 1.3,
+   "p": [
+    0.2421,
+    0.7328,
+    0.1347
+   ],
+   "reporte": "left third metacarpal bone"
+  },
+  {
+   "nom_en": "metacarpal base",
+   "inconstant": false,
+   "cle": "FJ3252",
+   "cote": "gauche",
+   "porteur": "report:left fifth metacarpal bone",
+   "ecart_mm": 2.2,
+   "p": [
+    0.237,
+    0.7799,
+    0.1298
+   ],
+   "reporte": "left third metacarpal bone"
+  },
+  {
+   "nom_en": "body of metacarpal bone",
+   "inconstant": false,
+   "cle": "FJ3252",
+   "cote": "gauche",
+   "porteur": "report:left fifth metacarpal bone",
+   "ecart_mm": 0.9,
+   "p": [
+    0.2326,
+    0.7575,
+    0.1326
+   ],
+   "reporte": "left third metacarpal bone"
+  },
+  {
+   "nom_en": "head of metacarpal bone",
+   "inconstant": false,
+   "cle": "FJ3252",
+   "cote": "gauche",
+   "porteur": "report:left fifth metacarpal bone",
+   "ecart_mm": 1.7,
+   "p": [
+    0.2262,
+    0.7398,
+    0.1398
+   ],
+   "reporte": "left third metacarpal bone"
+  },
+  {
+   "nom_en": "base of phalanx of hand",
+   "inconstant": false,
+   "cle": "FJ3313",
+   "cote": "gauche",
+   "porteur": "report:proximal phalanx of left index finger",
+   "ecart_mm": 1.1,
+   "p": [
+    0.2818,
+    0.7151,
+    0.1387
+   ],
+   "reporte": "proximal phalanx of left middle finger"
+  },
+  {
+   "nom_en": "body of phalanx of hand",
+   "inconstant": false,
+   "cle": "FJ3313",
+   "cote": "gauche",
+   "porteur": "report:proximal phalanx of left index finger",
+   "ecart_mm": 0.7,
+   "p": [
+    0.289,
+    0.7006,
+    0.145
+   ],
+   "reporte": "proximal phalanx of left middle finger"
+  },
+  {
+   "nom_en": "head of phalanx of hand",
+   "inconstant": false,
+   "cle": "FJ3313",
+   "cote": "gauche",
+   "porteur": "report:proximal phalanx of left index finger",
+   "ecart_mm": 0.9,
+   "p": [
+    0.2944,
+    0.6864,
+    0.1534
+   ],
+   "reporte": "proximal phalanx of left middle finger"
+  },
+  {
+   "nom_en": "trochlea of phalanx of hand",
+   "inconstant": false,
+   "cle": "FJ3313",
+   "cote": "gauche",
+   "porteur": "report:proximal phalanx of left index finger",
+   "ecart_mm": 0.9,
+   "p": [
+    0.2974,
+    0.6912,
+    0.1554
+   ],
+   "reporte": "proximal phalanx of left middle finger"
+  },
+  {
+   "nom_en": "base of phalanx of hand",
+   "inconstant": false,
+   "cle": "FJ3318",
+   "cote": "gauche",
+   "porteur": "report:proximal phalanx of left thumb",
+   "ecart_mm": 1.9,
+   "p": [
+    0.3033,
+    0.7561,
+    0.1443
+   ],
+   "reporte": "proximal phalanx of left middle finger"
+  },
+  {
+   "nom_en": "body of phalanx of hand",
+   "inconstant": false,
+   "cle": "FJ3318",
+   "cote": "gauche",
+   "porteur": "report:proximal phalanx of left thumb",
+   "ecart_mm": 2.6,
+   "p": [
+    0.3083,
+    0.7456,
+    0.1524
+   ],
+   "reporte": "proximal phalanx of left middle finger"
+  },
+  {
+   "nom_en": "head of phalanx of hand",
+   "inconstant": false,
+   "cle": "FJ3318",
+   "cote": "gauche",
+   "porteur": "report:proximal phalanx of left thumb",
+   "ecart_mm": 1.9,
+   "p": [
+    0.3126,
+    0.7362,
+    0.1589
+   ],
+   "reporte": "proximal phalanx of left middle finger"
+  },
+  {
+   "nom_en": "trochlea of phalanx of hand",
+   "inconstant": false,
+   "cle": "FJ3318",
+   "cote": "gauche",
+   "porteur": "report:proximal phalanx of left thumb",
+   "ecart_mm": 1.1,
+   "p": [
+    0.3128,
+    0.7405,
+    0.161
+   ],
+   "reporte": "proximal phalanx of left middle finger"
+  },
+  {
+   "nom_en": "base of phalanx of hand",
+   "inconstant": false,
+   "cle": "FJ3317",
+   "cote": "gauche",
+   "porteur": "report:proximal phalanx of left ring finger",
+   "ecart_mm": 1.1,
+   "p": [
+    0.2406,
+    0.723,
+    0.1423
+   ],
+   "reporte": "proximal phalanx of left middle finger"
+  },
+  {
+   "nom_en": "body of phalanx of hand",
+   "inconstant": false,
+   "cle": "FJ3317",
+   "cote": "gauche",
+   "porteur": "report:proximal phalanx of left ring finger",
+   "ecart_mm": 2.6,
+   "p": [
+    0.2438,
+    0.7069,
+    0.146
+   ],
+   "reporte": "proximal phalanx of left middle finger"
+  },
+  {
+   "nom_en": "head of phalanx of hand",
+   "inconstant": false,
+   "cle": "FJ3317",
+   "cote": "gauche",
+   "porteur": "report:proximal phalanx of left ring finger",
+   "ecart_mm": 1.3,
+   "p": [
+    0.2449,
+    0.6908,
+    0.1587
+   ],
+   "reporte": "proximal phalanx of left middle finger"
+  },
+  {
+   "nom_en": "trochlea of phalanx of hand",
+   "inconstant": false,
+   "cle": "FJ3317",
+   "cote": "gauche",
+   "porteur": "report:proximal phalanx of left ring finger",
+   "ecart_mm": 0.1,
+   "p": [
+    0.2493,
+    0.6941,
+    0.1605
+   ],
+   "reporte": "proximal phalanx of left middle finger"
+  },
+  {
+   "nom_en": "base of phalanx of hand",
+   "inconstant": false,
+   "cle": "FJ3314",
+   "cote": "gauche",
+   "porteur": "report:proximal phalanx of left little finger",
+   "ecart_mm": 1.1,
+   "p": [
+    0.2235,
+    0.7311,
+    0.1423
+   ],
+   "reporte": "proximal phalanx of left middle finger"
+  },
+  {
+   "nom_en": "body of phalanx of hand",
+   "inconstant": false,
+   "cle": "FJ3314",
+   "cote": "gauche",
+   "porteur": "report:proximal phalanx of left little finger",
+   "ecart_mm": 3.6,
+   "p": [
+    0.224,
+    0.7215,
+    0.1469
+   ],
+   "reporte": "proximal phalanx of left middle finger"
+  },
+  {
+   "nom_en": "head of phalanx of hand",
+   "inconstant": false,
+   "cle": "FJ3314",
+   "cote": "gauche",
+   "porteur": "report:proximal phalanx of left little finger",
+   "ecart_mm": 1.0,
+   "p": [
+    0.2226,
+    0.7055,
+    0.1567
+   ],
+   "reporte": "proximal phalanx of left middle finger"
+  },
+  {
+   "nom_en": "trochlea of phalanx of hand",
+   "inconstant": false,
+   "cle": "FJ3314",
+   "cote": "gauche",
+   "porteur": "report:proximal phalanx of left little finger",
+   "ecart_mm": 1.2,
+   "p": [
+    0.2256,
+    0.7068,
+    0.1587
+   ],
+   "reporte": "proximal phalanx of left middle finger"
+  },
+  {
+   "nom_en": "tuberosity of distal phalanx of hand",
+   "inconstant": false,
+   "cle": "FJ3183",
+   "cote": "gauche",
+   "porteur": "report:distal phalanx of left index finger",
+   "ecart_mm": 0.7,
+   "p": [
+    0.3083,
+    0.662,
+    0.1835
+   ],
+   "reporte": "distal phalanx of left middle finger"
+  },
+  {
+   "nom_en": "tuberosity of distal phalanx of hand",
+   "inconstant": false,
+   "cle": "FJ3188",
+   "cote": "gauche",
+   "porteur": "report:distal phalanx of left thumb",
+   "ecart_mm": 1.6,
+   "p": [
+    0.323,
+    0.7241,
+    0.1704
+   ],
+   "reporte": "distal phalanx of left middle finger"
+  },
+  {
+   "nom_en": "tuberosity of distal phalanx of hand",
+   "inconstant": false,
+   "cle": "FJ3187",
+   "cote": "gauche",
+   "porteur": "report:distal phalanx of left ring finger",
+   "ecart_mm": 0.2,
+   "p": [
+    0.25,
+    0.6648,
+    0.1927
+   ],
+   "reporte": "distal phalanx of left middle finger"
+  },
+  {
+   "nom_en": "tuberosity of distal phalanx of hand",
+   "inconstant": false,
+   "cle": "FJ3184",
+   "cote": "gauche",
+   "porteur": "report:distal phalanx of left little finger",
+   "ecart_mm": 0.7,
+   "p": [
+    0.2211,
+    0.6768,
+    0.1797
+   ],
+   "reporte": "distal phalanx of left middle finger"
+  },
+  {
+   "nom_en": "base of metatarsal bone",
+   "inconstant": false,
+   "cle": "FJ3244",
+   "cote": "gauche",
+   "porteur": "report:left second metatarsal bone",
+   "ecart_mm": 1.8,
+   "p": [
+    0.0928,
+    -0.0283,
+    0.1316
+   ],
+   "reporte": "left third metatarsal bone"
+  },
+  {
+   "nom_en": "body of metatarsal bone",
+   "inconstant": false,
+   "cle": "FJ3244",
+   "cote": "gauche",
+   "porteur": "report:left second metatarsal bone",
+   "ecart_mm": 1.3,
+   "p": [
+    0.1038,
+    -0.0399,
+    0.1565
+   ],
+   "reporte": "left third metatarsal bone"
+  },
+  {
+   "nom_en": "head of metatarsal bone",
+   "inconstant": false,
+   "cle": "FJ3244",
+   "cote": "gauche",
+   "porteur": "report:left second metatarsal bone",
+   "ecart_mm": 1.2,
+   "p": [
+    0.1117,
+    -0.0587,
+    0.187
+   ],
+   "reporte": "left third metatarsal bone"
+  },
+  {
+   "nom_en": "base of metatarsal bone",
+   "inconstant": false,
+   "cle": "FJ3250",
+   "cote": "gauche",
+   "porteur": "report:left fourth metatarsal bone",
+   "ecart_mm": 1.5,
+   "p": [
+    0.107,
+    -0.0371,
+    0.1203
+   ],
+   "reporte": "left third metatarsal bone"
+  },
+  {
+   "nom_en": "body of metatarsal bone",
+   "inconstant": false,
+   "cle": "FJ3250",
+   "cote": "gauche",
+   "porteur": "report:left fourth metatarsal bone",
+   "ecart_mm": 3.0,
+   "p": [
+    0.1209,
+    -0.0446,
+    0.1387
+   ],
+   "reporte": "left third metatarsal bone"
+  },
+  {
+   "nom_en": "head of metatarsal bone",
+   "inconstant": false,
+   "cle": "FJ3250",
+   "cote": "gauche",
+   "porteur": "report:left fourth metatarsal bone",
+   "ecart_mm": 1.2,
+   "p": [
+    0.1346,
+    -0.0587,
+    0.1684
+   ],
+   "reporte": "left third metatarsal bone"
+  },
+  {
+   "nom_en": "base of metatarsal bone",
+   "inconstant": false,
+   "cle": "FJ3253",
+   "cote": "gauche",
+   "porteur": "report:left fifth metatarsal bone",
+   "ecart_mm": 0.6,
+   "p": [
+    0.111,
+    -0.0435,
+    0.11
+   ],
+   "reporte": "left third metatarsal bone"
+  },
+  {
+   "nom_en": "body of metatarsal bone",
+   "inconstant": false,
+   "cle": "FJ3253",
+   "cote": "gauche",
+   "porteur": "report:left fifth metatarsal bone",
+   "ecart_mm": 3.0,
+   "p": [
+    0.1289,
+    -0.0498,
+    0.1237
+   ],
+   "reporte": "left third metatarsal bone"
+  },
+  {
+   "nom_en": "head of metatarsal bone",
+   "inconstant": false,
+   "cle": "FJ3253",
+   "cote": "gauche",
+   "porteur": "report:left fifth metatarsal bone",
+   "ecart_mm": 0.7,
+   "p": [
+    0.1464,
+    -0.0611,
+    0.1545
+   ],
+   "reporte": "left third metatarsal bone"
+  },
+  {
+   "nom_en": "base of phalanx of foot",
+   "inconstant": false,
+   "cle": "FJ3328",
+   "cote": "gauche",
+   "porteur": "report:proximal phalanx of left second toe",
+   "ecart_mm": 1.0,
+   "p": [
+    0.1147,
+    -0.0551,
+    0.1887
+   ],
+   "reporte": "proximal phalanx of left third toe"
+  },
+  {
+   "nom_en": "body of phalanx of foot",
+   "inconstant": false,
+   "cle": "FJ3328",
+   "cote": "gauche",
+   "porteur": "report:proximal phalanx of left second toe",
+   "ecart_mm": 2.0,
+   "p": [
+    0.122,
+    -0.0581,
+    0.1989
+   ],
+   "reporte": "proximal phalanx of left third toe"
+  },
+  {
+   "nom_en": "head of phalanx of foot",
+   "inconstant": false,
+   "cle": "FJ3328",
+   "cote": "gauche",
+   "porteur": "report:proximal phalanx of left second toe",
+   "ecart_mm": 0.9,
+   "p": [
+    0.1252,
+    -0.0622,
+    0.2112
+   ],
+   "reporte": "proximal phalanx of left third toe"
+  },
+  {
+   "nom_en": "trochlea of phalanx of foot",
+   "inconstant": false,
+   "cle": "FJ3328",
+   "cote": "gauche",
+   "porteur": "report:proximal phalanx of left second toe",
+   "ecart_mm": 0.8,
+   "p": [
+    0.1293,
+    -0.0639,
+    0.2093
+   ],
+   "reporte": "proximal phalanx of left third toe"
+  },
+  {
+   "nom_en": "base of phalanx of foot",
+   "inconstant": false,
+   "cle": "FJ3329",
+   "cote": "gauche",
+   "porteur": "report:proximal phalanx of left big toe",
+   "ecart_mm": 1.5,
+   "p": [
+    0.0964,
+    -0.0596,
+    0.1916
+   ],
+   "reporte": "proximal phalanx of left third toe"
+  },
+  {
+   "nom_en": "body of phalanx of foot",
+   "inconstant": false,
+   "cle": "FJ3329",
+   "cote": "gauche",
+   "porteur": "report:proximal phalanx of left big toe",
+   "ecart_mm": 4.4,
+   "p": [
+    0.0999,
+    -0.0646,
+    0.2053
+   ],
+   "reporte": "proximal phalanx of left third toe"
+  },
+  {
+   "nom_en": "head of phalanx of foot",
+   "inconstant": false,
+   "cle": "FJ3329",
+   "cote": "gauche",
+   "porteur": "report:proximal phalanx of left big toe",
+   "ecart_mm": 1.4,
+   "p": [
+    0.1008,
+    -0.0642,
+    0.2168
+   ],
+   "reporte": "proximal phalanx of left third toe"
+  },
+  {
+   "nom_en": "trochlea of phalanx of foot",
+   "inconstant": false,
+   "cle": "FJ3329",
+   "cote": "gauche",
+   "porteur": "report:proximal phalanx of left big toe",
+   "ecart_mm": 0.9,
+   "p": [
+    0.1066,
+    -0.0648,
+    0.216
+   ],
+   "reporte": "proximal phalanx of left third toe"
+  },
+  {
+   "nom_en": "base of phalanx of foot",
+   "inconstant": false,
+   "cle": "FJ3312",
+   "cote": "gauche",
+   "porteur": "report:proximal phalanx of left fourth toe",
+   "ecart_mm": 0.8,
+   "p": [
+    0.1389,
+    -0.0568,
+    0.1691
+   ],
+   "reporte": "proximal phalanx of left third toe"
+  },
+  {
+   "nom_en": "body of phalanx of foot",
+   "inconstant": false,
+   "cle": "FJ3312",
+   "cote": "gauche",
+   "porteur": "report:proximal phalanx of left fourth toe",
+   "ecart_mm": 1.6,
+   "p": [
+    0.1482,
+    -0.06,
+    0.1751
+   ],
+   "reporte": "proximal phalanx of left third toe"
+  },
+  {
+   "nom_en": "head of phalanx of foot",
+   "inconstant": false,
+   "cle": "FJ3312",
+   "cote": "gauche",
+   "porteur": "report:proximal phalanx of left fourth toe",
+   "ecart_mm": 0.3,
+   "p": [
+    0.1489,
+    -0.0637,
+    0.1879
+   ],
+   "reporte": "proximal phalanx of left third toe"
+  },
+  {
+   "nom_en": "trochlea of phalanx of foot",
+   "inconstant": false,
+   "cle": "FJ3312",
+   "cote": "gauche",
+   "porteur": "report:proximal phalanx of left fourth toe",
+   "ecart_mm": 0.7,
+   "p": [
+    0.1521,
+    -0.0649,
+    0.1871
+   ],
+   "reporte": "proximal phalanx of left third toe"
+  },
+  {
+   "nom_en": "base of phalanx of foot",
+   "inconstant": false,
+   "cle": "FJ3315",
+   "cote": "gauche",
+   "porteur": "report:proximal phalanx of left little toe",
+   "ecart_mm": 1.3,
+   "p": [
+    0.1471,
+    -0.0607,
+    0.1551
+   ],
+   "reporte": "proximal phalanx of left third toe"
+  },
+  {
+   "nom_en": "body of phalanx of foot",
+   "inconstant": false,
+   "cle": "FJ3315",
+   "cote": "gauche",
+   "porteur": "report:proximal phalanx of left little toe",
+   "ecart_mm": 2.5,
+   "p": [
+    0.1542,
+    -0.0613,
+    0.16
+   ],
+   "reporte": "proximal phalanx of left third toe"
+  },
+  {
+   "nom_en": "head of phalanx of foot",
+   "inconstant": false,
+   "cle": "FJ3315",
+   "cote": "gauche",
+   "porteur": "report:proximal phalanx of left little toe",
+   "ecart_mm": 0.7,
+   "p": [
+    0.1573,
+    -0.0681,
+    0.1738
+   ],
+   "reporte": "proximal phalanx of left third toe"
+  },
+  {
+   "nom_en": "trochlea of phalanx of foot",
+   "inconstant": false,
+   "cle": "FJ3315",
+   "cote": "gauche",
+   "porteur": "report:proximal phalanx of left little toe",
+   "ecart_mm": 1.8,
+   "p": [
+    0.1616,
+    -0.068,
+    0.1722
+   ],
+   "reporte": "proximal phalanx of left third toe"
+  },
+  {
    "nom_en": "base of patella",
    "inconstant": false,
    "cle": "FJ3275",
@@ -11090,6 +18938,230 @@
     0.101
    ],
    "calcule": true
+  },
+  {
+   "nom_en": "head of mandible",
+   "inconstant": false,
+   "cle": "FJ3289",
+   "cote": "droit",
+   "porteur": "calculé",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0443,
+    1.5057,
+    0.0933
+   ],
+   "calcule": true
+  },
+  {
+   "nom_en": "head of mandible",
+   "inconstant": false,
+   "cle": "FJ3289",
+   "cote": "gauche",
+   "porteur": "calculé",
+   "ecart_mm": 0.0,
+   "p": [
+    0.0434,
+    1.5058,
+    0.0936
+   ],
+   "calcule": true
+  },
+  {
+   "nom_en": "coronoid process of mandible",
+   "inconstant": false,
+   "cle": "FJ3289",
+   "cote": "droit",
+   "porteur": "calculé",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0448,
+    1.5059,
+    0.0963
+   ],
+   "calcule": true
+  },
+  {
+   "nom_en": "coronoid process of mandible",
+   "inconstant": false,
+   "cle": "FJ3289",
+   "cote": "gauche",
+   "porteur": "calculé",
+   "ecart_mm": 0.0,
+   "p": [
+    0.0432,
+    1.4943,
+    0.1351
+   ],
+   "calcule": true
+  },
+  {
+   "nom_en": "angle of mandible",
+   "inconstant": false,
+   "cle": "FJ3289",
+   "cote": "droit",
+   "porteur": "calculé",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0402,
+    1.4504,
+    0.1024
+   ],
+   "calcule": true
+  },
+  {
+   "nom_en": "angle of mandible",
+   "inconstant": false,
+   "cle": "FJ3289",
+   "cote": "gauche",
+   "porteur": "calculé",
+   "ecart_mm": 0.0,
+   "p": [
+    0.039,
+    1.4504,
+    0.1023
+   ],
+   "calcule": true
+  },
+  {
+   "nom_en": "frontal process of maxilla",
+   "inconstant": false,
+   "cle": "FJ3269",
+   "cote": "gauche",
+   "porteur": "calculé",
+   "ecart_mm": 0.0,
+   "p": [
+    0.0075,
+    1.5333,
+    0.1679
+   ],
+   "calcule": true
+  },
+  {
+   "nom_en": "frontal process of maxilla",
+   "inconstant": false,
+   "cle": "FJ3375",
+   "cote": "droit",
+   "porteur": "calculé",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0084,
+    1.5333,
+    0.168
+   ],
+   "calcule": true
+  },
+  {
+   "nom_en": "alveolar process of maxilla",
+   "inconstant": false,
+   "cle": "FJ3269",
+   "cote": "gauche",
+   "porteur": "calculé",
+   "ecart_mm": 0.0,
+   "p": [
+    0.0078,
+    1.464,
+    0.1774
+   ],
+   "calcule": true
+  },
+  {
+   "nom_en": "alveolar process of maxilla",
+   "inconstant": false,
+   "cle": "FJ3375",
+   "cote": "droit",
+   "porteur": "calculé",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.009,
+    1.464,
+    0.1776
+   ],
+   "calcule": true
+  },
+  {
+   "nom_en": "zygomatic process of maxilla",
+   "inconstant": false,
+   "cle": "FJ3269",
+   "cote": "gauche",
+   "porteur": "calculé",
+   "ecart_mm": 0.0,
+   "p": [
+    0.0458,
+    1.4807,
+    0.1466
+   ],
+   "calcule": true
+  },
+  {
+   "nom_en": "zygomatic process of maxilla",
+   "inconstant": false,
+   "cle": "FJ3375",
+   "cote": "droit",
+   "porteur": "calculé",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0476,
+    1.4808,
+    0.1485
+   ],
+   "calcule": true
+  },
+  {
+   "nom_en": "frontal process of zygomatic bone",
+   "inconstant": false,
+   "cle": "FJ3287",
+   "cote": "gauche",
+   "porteur": "calculé",
+   "ecart_mm": 0.0,
+   "p": [
+    0.0499,
+    1.5367,
+    0.1534
+   ],
+   "calcule": true
+  },
+  {
+   "nom_en": "frontal process of zygomatic bone",
+   "inconstant": false,
+   "cle": "FJ3392",
+   "cote": "droit",
+   "porteur": "calculé",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0518,
+    1.5366,
+    0.1522
+   ],
+   "calcule": true
+  },
+  {
+   "nom_en": "temporal process of zygomatic bone",
+   "inconstant": false,
+   "cle": "FJ3287",
+   "cote": "gauche",
+   "porteur": "calculé",
+   "ecart_mm": 0.0,
+   "p": [
+    0.0605,
+    1.4983,
+    0.1217
+   ],
+   "calcule": true
+  },
+  {
+   "nom_en": "temporal process of zygomatic bone",
+   "inconstant": false,
+   "cle": "FJ3392",
+   "cote": "droit",
+   "porteur": "calculé",
+   "ecart_mm": 0.0,
+   "p": [
+    -0.0618,
+    1.4978,
+    0.1218
+   ],
+   "calcule": true
   }
  ],
  "ecartees": [
@@ -11098,42 +19170,24 @@
   "tuberosity of distal phalanx of foot (Distal phalanx of third finger of foot.l : 35 mm de la surface)"
  ],
  "reserve": [
-  "anterior limb of stapes (Stapes.r)",
-  "anterior process of malleus (Malleus.r)",
-  "apex of coccyx (Coccyx)",
-  "articular facet for malleus (Incus.r)",
-  "articular facet for stapes (Incus.r)",
-  "articular facet of head of malleus (Malleus.r)",
-  "articular facet of head of stapes (Stapes.r)",
-  "base of coccyx (Coccyx)",
-  "base of stapes (Stapes.r)",
-  "body of incus (Incus.r)",
-  "clavicular notch (Manubrium of sternum)",
-  "coccygeal horn (Coccyx)",
-  "handle of malleus (Malleus.r)",
-  "head of malleus (Malleus.r)",
-  "lateral process of malleus (Malleus.r)",
-  "lenticular process of incus (Incus.r)",
-  "long limb of incus (Incus.r)",
-  "neck of malleus (Malleus.r)",
-  "posterior limb of stapes (Stapes.r)",
   "septum of frontal sinuses (Sinus of frontal bone)",
-  "septum of sphenoidal sinuses (Sinus of sphenoid bone)",
-  "anterior limb of stapes (Stapes.l)",
-  "anterior process of malleus (Malleus.l)",
-  "articular facet for malleus (Incus.l)",
-  "articular facet for stapes (Incus.l)",
-  "articular facet of head of malleus (Malleus.l)",
-  "articular facet of head of stapes (Stapes.l)",
-  "base of stapes (Stapes.l)",
-  "body of incus (Incus.l)",
-  "handle of malleus (Malleus.l)",
-  "head of malleus (Malleus.l)",
-  "lateral process of malleus (Malleus.l)",
-  "lenticular process of incus (Incus.l)",
-  "long limb of incus (Incus.l)",
-  "neck of malleus (Malleus.l)",
-  "posterior limb of stapes (Stapes.l)"
+  "septum of sphenoidal sinuses (Sinus of sphenoid bone)"
+ ],
+ "reports_refuses": [
+  "intervertebral surface sur first lumbar vertebra : 6 mm de la surface",
+  "costal part of transverse process sur twelfth thoracic vertebra : 7 mm de la surface",
+  "transverse process sur twelfth thoracic vertebra : 12 mm de la surface",
+  "intervertebral surface sur fourth lumbar vertebra : 7 mm de la surface",
+  "eleventh thoracic vertebra depuis tenth thoracic vertebra : formes trop différentes (2.0 mm après recalage)",
+  "right first metacarpal bone depuis right second metacarpal bone : formes trop différentes (7.2 mm après recalage)",
+  "proximal phalanx of right thumb depuis proximal phalanx of right index finger : formes trop différentes (2.6 mm après recalage)",
+  "middle phalanx of right middle finger depuis proximal phalanx of right middle finger : formes trop différentes (4.1 mm après recalage)",
+  "right first metatarsal bone depuis right second metatarsal bone : formes trop différentes (3.0 mm après recalage)",
+  "middle phalanx of right third toe depuis proximal phalanx of right third toe : formes trop différentes (4.6 mm après recalage)",
+  "left first metacarpal bone depuis left second metacarpal bone : formes trop différentes (6.6 mm après recalage)",
+  "middle phalanx of left middle finger depuis proximal phalanx of left middle finger : formes trop différentes (4.5 mm après recalage)",
+  "left first metatarsal bone depuis left second metatarsal bone : formes trop différentes (2.9 mm après recalage)",
+  "middle phalanx of left third toe depuis proximal phalanx of left third toe : formes trop différentes (4.3 mm après recalage)"
  ],
  "os": {
   "Arytenoid cartilage.l": {
@@ -11215,6 +19269,15 @@
    "avant_mm": 4.25,
    "rigide_mm": 2.28,
    "apres_mm": 1.36,
+   "mode": "affine"
+  },
+  "Coccyx": {
+   "maillages": [
+    "Coccyx"
+   ],
+   "avant_mm": 14.33,
+   "rigide_mm": 0.0,
+   "apres_mm": 0.0,
    "mode": "affine"
   },
   "Cricoid cartilage": {
@@ -11426,6 +19489,24 @@
    "apres_mm": 0.52,
    "mode": "affine"
   },
+  "Incus.l": {
+   "maillages": [
+    "Incus.l"
+   ],
+   "avant_mm": 3.11,
+   "rigide_mm": 0.0,
+   "apres_mm": 0.0,
+   "mode": "affine"
+  },
+  "Incus.r": {
+   "maillages": [
+    "Incus.r"
+   ],
+   "avant_mm": 3.02,
+   "rigide_mm": 0.0,
+   "apres_mm": 0.0,
+   "mode": "affine"
+  },
   "Lower first molar tooth.l": {
    "maillages": [
     "FJ1254"
@@ -11444,6 +19525,24 @@
    "apres_mm": 0.73,
    "mode": "affine"
   },
+  "Malleus.l": {
+   "maillages": [
+    "Malleus.l"
+   ],
+   "avant_mm": 2.54,
+   "rigide_mm": 0.0,
+   "apres_mm": 0.0,
+   "mode": "affine"
+  },
+  "Malleus.r": {
+   "maillages": [
+    "Malleus.r"
+   ],
+   "avant_mm": 2.3,
+   "rigide_mm": 0.0,
+   "apres_mm": 0.0,
+   "mode": "affine"
+  },
   "Mandible": {
    "maillages": [
     "FJ3289"
@@ -11452,6 +19551,15 @@
    "rigide_mm": 2.85,
    "apres_mm": 2.85,
    "mode": "rigide"
+  },
+  "Manubrium of sternum": {
+   "maillages": [
+    "FJ3290"
+   ],
+   "avant_mm": 3.17,
+   "rigide_mm": 2.84,
+   "apres_mm": 1.43,
+   "mode": "affine"
   },
   "Maxilla.l": {
    "maillages": [
@@ -11632,6 +19740,24 @@
    "rigide_mm": 0.98,
    "apres_mm": 0.77,
    "mode": "affine"
+  },
+  "Stapes.l": {
+   "maillages": [
+    "Stapes.l"
+   ],
+   "avant_mm": 2.72,
+   "rigide_mm": 0.0,
+   "apres_mm": 0.0,
+   "mode": "rigide"
+  },
+  "Stapes.r": {
+   "maillages": [
+    "Stapes.r"
+   ],
+   "avant_mm": 3.26,
+   "rigide_mm": 0.0,
+   "apres_mm": 0.0,
+   "mode": "rigide"
   },
   "Talus.l": {
    "maillages": [

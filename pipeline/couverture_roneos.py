@@ -19,9 +19,11 @@ import unicodedata
 from collections import defaultdict
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from listes import lire_listes  # noqa: E402
+
 RACINE = Path(__file__).resolve().parent.parent
 TEXTES = RACINE / "donnees" / "derive" / "roneos"
-LISTE = RACINE / "donnees" / "listes" / "liste_noyau_bloc1.csv"
 SORTIE_CSV = RACINE / "donnees" / "derive" / "couverture_roneos.csv"
 SORTIE_MD = RACINE / "rapports" / "nomenclature_roneos.md"
 
@@ -71,8 +73,7 @@ def main():
         journal("FAIL", "Aucun texte de ronéo. Action : lancer pipeline/extraire_roneos.py.")
         sys.exit(1)
     corpus = {f.stem: pages(f.read_text(encoding="utf-8")) for f in fichiers}
-    with open(LISTE, encoding="utf-8-sig", newline="") as f:
-        liste = list(csv.DictReader(f, delimiter=";"))
+    liste = lire_listes()
 
     lignes, bilan = [], []
     for s in liste:

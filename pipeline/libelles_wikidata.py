@@ -16,8 +16,10 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from listes import lire_listes  # noqa: E402
+
 RACINE = Path(__file__).resolve().parent.parent
-LISTE = RACINE / "donnees" / "listes" / "liste_noyau_bloc1.csv"
 INDEX_MAILLAGES = RACINE / "modeles" / "index_maillages.csv"
 TAILLE_LOT = 300
 SORTIE = RACINE / "donnees" / "derive" / "wikidata_fma.csv"
@@ -55,8 +57,7 @@ def interroger(fma_ids, noms_en):
 def main():
     # Console Windows : accents lisibles quel que soit le code de page
     sys.stdout.reconfigure(encoding="utf-8")
-    with open(LISTE, encoding="utf-8-sig", newline="") as f:
-        lignes = list(csv.DictReader(f, delimiter=";"))
+    lignes = lire_listes()
     fma_ids = {f.removeprefix("FMA") for l in lignes for f in l["fma_id"].split("|") if f.startswith("FMA")}
     noms_en = {l["nom_fma_en"].strip() for l in lignes if l["nom_fma_en"].strip()}
     if INDEX_MAILLAGES.exists():

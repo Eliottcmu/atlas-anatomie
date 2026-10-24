@@ -21,6 +21,7 @@ export interface ItemLegende {
   inconstant?: boolean;
   calcule?: boolean;
   approchee?: boolean;
+  reporte?: string;
   correction?: string;
   structure?: string;
   cote?: Cote;
@@ -138,7 +139,8 @@ export class Legendes {
       b.className = `legende ${item.type}${item.inconstant ? " inconstant" : ""}`;
       b.dataset.legende = item.id;
       b.title = item.nom + (item.inconstant ? " (inconstant)" : "") + (item.calcule ? ", position calculée sur le modèle" : "")
-        + (item.approchee ? ", pointe posée sur le bord le plus proche" : "") + (item.correction ? `. ${item.correction}` : "");
+        + (item.approchee ? ", pointe posée sur le bord le plus proche" : "")
+        + (item.reporte ? `, position reportée depuis l'os type (${item.reporte.toLowerCase()})` : "") + (item.correction ? `. ${item.correction}` : "");
       this.elements.set(item.id, b);
       this.majTexte(item);
       this.calque.appendChild(b);
@@ -476,7 +478,7 @@ export function itemsOrgane(atlas: Atlas, modeles: Modeles, organe: Organe): Ite
     if (!modeles.maillages.has(r.cle)) continue;
     items.push({ id: `repere:${r.nom}:${r.cle}`, nom: r.nom, type: "repere", cles: [r.cle],
       ancres: [new THREE.Vector3(...r.p)], inconstant: r.inconstant, calcule: r.calcule, approchee: r.approchee,
-      correction: r.correction });
+      reporte: r.reporte, correction: r.correction });
   }
   return items;
 }

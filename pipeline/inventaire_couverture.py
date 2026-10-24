@@ -18,11 +18,11 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from arbre_vasculaire import Arbre, sans_cote  # noqa: E402
+from listes import ecrire_fichier, fichiers_listes, lire_fichier  # noqa: E402
 
 RACINE = Path(__file__).resolve().parent.parent
 TABLES = RACINE / "donnees" / "brut" / "bodyparts3d" / "tables"
 ARCHIVE = RACINE / "donnees" / "brut" / "bodyparts3d" / "archive" / "isa_BP3D_4.0_obj_99.zip"
-LISTE = RACINE / "donnees" / "listes" / "liste_noyau_bloc1.csv"
 SORTIE_CSV = RACINE / "rapports" / "inventaire_couverture.csv"
 SORTIE_MD = RACINE / "rapports" / "rapport_couverture.md"
 
@@ -570,21 +570,17 @@ def ecrire_rapport(resultats, archive_lue):
     journal("OK", f"Rapport écrit : {SORTIE_MD.relative_to(RACINE)}")
 
 
-def remplir_liste(entete, lignes, resultats):
+def remplir_liste(listes, resultats):
     par_id = {r["id"]: r for r in resultats}
     n = 0
-    for l in lignes:
-        r = par_id[l["id"]]
-        if not l["fma_id"].strip() and r["correspondance"] in ("exacte", "par côtés"):
-            l["fma_id"] = r["fma_id"]
-            n += 1
-    # Écriture dans un fichier temporaire puis remplacement : un échec ne touche pas l'original
-    temporaire = LISTE.with_suffix(".csv.tmp")
-    with open(temporaire, "w", encoding="utf-8-sig", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=entete, delimiter=";")
-        w.writeheader()
-        w.writerows(lignes)
-    temporaire.replace(LISTE)
+    for entete, lignes in listes:
+        for l in lignes:
+            r = par_id[l["id"]]
+            if not l["fma_id"].strip() and r["correspondance"] in ("exacte", "par côtés"):
+                l["fma_id"] = r["fma_id"]
+                n += 1
+        if lignes:
+            ecrire_fichier(lignes[0]["_fichier"], entete, lignes)
     journal("OK", f"Liste noyau : {n} identifiants FMA ajoutés.")
 
 
@@ -599,14 +595,14 @@ def main():
     journal("OK", f"Tables lues : {len(noms)} concepts FMA.")
     presents = charger_archive()
 
-    with open(LISTE, encoding="utf-8-sig", newline="") as f:
-        lecteur = csv.DictReader(f, delimiter=";")
-        entete, lignes = lecteur.fieldnames, list(lecteur)
+    listes = [lire_fichier(c) for c in fichiers_listes()]
+    lignes = [l for _, ls in listes for l in ls]
+    entete = listes[0][0]
     # Un ";" dans une remarque crée une colonne de trop (clé None) ou en retire une (valeur None)
     mal_formees = [l.get("id") or "?" for l in lignes if None in l or None in l.values()]
     if mal_formees:
         journal("FAIL", f"Lignes mal formées dans la liste noyau : {', '.join(mal_formees)}. "
-                f"Conséquence : inventaire arrêté. Action : chaque ligne doit avoir {len(entete)} colonnes, "
+                f"Conséquence : inventaire arrêté. Action : chaque ligne doit avoir {len(entete) + 1} colonnes, "
                 "sans « ; » dans les textes.")
         sys.exit(1)
     journal("OK", f"Liste noyau lue : {len(lignes)} structures.")
@@ -622,7 +618,7 @@ def main():
     ecrire_csv(resultats)
     ecrire_rapport(resultats, presents is not None)
     if "--remplir" in sys.argv:
-        remplir_liste(entete, lignes, resultats)
+        remplir_liste(listes, resultats)
 
     a_trancher = sum(r["correspondance"] not in RESOLUES for r in resultats)
     if a_trancher:

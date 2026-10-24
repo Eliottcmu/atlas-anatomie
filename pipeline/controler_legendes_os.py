@@ -35,7 +35,8 @@ def main():
         par_os[l["porteur"]].setdefault(l["nom_en"], l)
     controles, inversions = 0, []
     for porteur, reperes in par_os.items():
-        cote = "droit" if porteur.endswith(".r") else "gauche" if porteur.endswith(".l") else None
+        # Côté de l'os : celui de ses légendes (repères reportés « report:right fourth rib » compris)
+        cote = next(iter(reperes.values())).get("cote")
         for nom, l in reperes.items():
             for a, b, axe, signe in PAIRES:
                 if not re.search(rf"\b{a}\b", nom):

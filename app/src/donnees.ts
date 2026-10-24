@@ -60,6 +60,8 @@ export interface Repere {
   calcule?: boolean;
   /** Pointe de Z-Anatomy au centre d'un trou ou dans l'axe d'un os : posée sur le bord le plus proche. */
   approchee?: boolean;
+  /** Repère reporté depuis l'os type de la famille (nom de l'os : troisième vertèbre lombaire). */
+  reporte?: string;
   /** Nom cité tel quel dans les ronéos d'Eliott. */
   roneo?: boolean;
   /** Étiquette de Z-Anatomy corrigée (noms échangés), et pourquoi. */
@@ -136,7 +138,11 @@ export function normaliser(texte: string): string {
     .trim();
 }
 
-const SYSTEMES: Record<string, string> = { "artère": "Artère", veine: "Veine" };
+const SYSTEMES: Record<string, string> = { "artère": "Artère", veine: "Veine", muscle: "Muscle", organe: "Organe", os: "Os" };
+/** Pluriel des systèmes, pour les titres de groupes (liste des fiches, parcours). */
+export const SYSTEMES_PLURIEL: Record<string, string> = {
+  "artère": "Artères", veine: "Veines", muscle: "Muscles", organe: "Organes", os: "Os",
+};
 
 export function libelleSysteme(systeme: string): string {
   return SYSTEMES[systeme] ?? systeme;

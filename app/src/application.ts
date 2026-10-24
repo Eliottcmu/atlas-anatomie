@@ -339,6 +339,7 @@ export class Application {
         this.selection.repere = item.nom + (item.calcule ? " (position calculée sur le modèle)" : "");
         this.selection.repereId = item.id;
         this.selection.repereNote = [item.approchee ? "La pointe de Z-Anatomy vise le centre d'un trou ou l'axe de l'os : posée sur le bord le plus proche." : "",
+          item.reporte ? `Repère reporté par recalage depuis le seul os de la famille légendé par Z-Anatomy (${item.reporte.toLowerCase()}) : position à vérifier.` : "",
           item.correction ?? ""].filter(Boolean).join(" ") || undefined;
         this.appliquerEtats();
         this.afficherFiche();

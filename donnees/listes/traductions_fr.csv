@@ -1225,3 +1225,11 @@ wall of {side} atrium;paroi de l'atrium {droit}
 wall of ventricle;paroi des ventricules
 white matter of {side} cerebral hemisphere;substance blanche de l'hémisphère cérébral {droit}
 wing of central lobule;aile du lobule central
+head of mandible;tête de la mandibule
+coronoid process of mandible;processus coronoïde de la mandibule
+angle of mandible;angle de la mandibule
+frontal process of maxilla;processus frontal du maxillaire
+alveolar process of maxilla;processus alvéolaire du maxillaire
+zygomatic process of maxilla;processus zygomatique du maxillaire
+frontal process of zygomatic bone;processus frontal de l'os zygomatique
+temporal process of zygomatic bone;processus temporal de l'os zygomatique

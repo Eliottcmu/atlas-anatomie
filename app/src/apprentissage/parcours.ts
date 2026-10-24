@@ -1,4 +1,4 @@
-import type { Atlas, Cote } from "../donnees";
+import { normaliser, SYSTEMES_PLURIEL, type Atlas, type Cote } from "../donnees";
 import { api, type RelationBase } from "./api";
 import type { FabriqueQuestions, Question } from "./questions";
 import { echapper, type Plateau, type Seance } from "./seance";
@@ -25,13 +25,19 @@ const REGIONS: [string, string][] = [
   ["Membre supérieur", "du membre supérieur"], ["Abdomen", "de l'abdomen"],
   ["Abdomen et pelvis", "de l'abdomen et du pelvis"], ["Pelvis et membre inférieur", "du pelvis et du membre inférieur"],
   ["Membre inférieur", "du membre inférieur"],
+  // Blocs 2 à 4 : muscles par région, organes par appareil, os par région
+  ["Tronc", "du tronc"], ["Cardiorespiratoire", "cardiorespiratoires"], ["Digestif", "digestifs"],
+  ["Urinaire et génital", "urinaires et génitaux"], ["Endocrine et nerveux", "endocrines et nerveux"],
+  ["Tête et rachis", "de la tête et du rachis"], ["Thorax", "du thorax"], ["Pelvis", "du pelvis"],
 ];
+// Blocs suivis dans les parcours ; pour les vaisseaux, l'ordre suit les relations des fiches, sinon celui de la liste
+const SYSTEMES_PARCOURS = ["artère", "veine", "muscle", "organe", "os"];
 const TAILLE_MAXI = 15;
 
 /** Parcours générés : un par région et par système, ordre en profondeur selon les relations. */
 export function construireParcours(atlas: Atlas, relations: RelationBase[]): Parcours[] {
   const res: Parcours[] = [];
-  for (const systeme of ["artère", "veine"]) {
+  for (const systeme of SYSTEMES_PARCOURS) {
     for (const [region, complement] of REGIONS) {
       const ids = Object.entries(atlas.structures)
         .filter(([, s]) => s.niveau === "noyau" && s.systeme === systeme && s.region === region && s.noeuds.length)
@@ -61,13 +67,13 @@ export function construireParcours(atlas: Atlas, relations: RelationBase[]): Par
       for (const id of ids) if (!aParent.has(id)) visiter(id);
       for (const id of ids) visiter(id);
       const etapes = ordre.map((id) => ({ structure: id, cote: (atlas.structures[id].cote === "bilatéral" ? "droit" : null) as Cote }));
-      const nom = `${systeme === "artère" ? "Artères" : "Veines"} ${complement}`;
+      const nom = `${SYSTEMES_PLURIEL[systeme]} ${complement}`;
       const parties = Math.ceil(etapes.length / TAILLE_MAXI);
       const taille = Math.ceil(etapes.length / parties);
       for (let p = 0; p < parties; p++) {
         res.push({
-          id: `${systeme === "artère" ? "arteres" : "veines"}-${region.toLowerCase().normalize("NFD").replace(/[^a-z]+/g, "-")}${parties > 1 ? `-${p + 1}` : ""}`,
-          titre: nom + (parties > 1 ? `, partie ${p + 1} sur ${parties}` : ""), groupe: systeme === "artère" ? "Artères" : "Veines",
+          id: `${normaliser(SYSTEMES_PLURIEL[systeme]).replace(/ /g, "-")}-${region.toLowerCase().normalize("NFD").replace(/[^a-z]+/g, "-")}${parties > 1 ? `-${p + 1}` : ""}`,
+          titre: nom + (parties > 1 ? `, partie ${p + 1} sur ${parties}` : ""), groupe: SYSTEMES_PLURIEL[systeme],
           etapes: etapes.slice(p * taille, (p + 1) * taille),
         });
       }
@@ -82,7 +88,8 @@ interface FicheEtape {
   sources: string[];
 }
 
-/** Deux lignes d'explication tirées de la fiche : origine, puis terminaison (ou trajet). */
+/** Deux lignes d'explication tirées de la fiche : origine, puis terminaison (ou trajet) ; pour un muscle,
+ * origine puis action ; pour un organe ou un os, situation puis description ou rapports. */
 async function ficheEtape(id: string): Promise<FicheEtape> {
   try {
     const r = await (await fetch(`/api/fiches/${id}`)).json();
@@ -91,7 +98,11 @@ async function ficheEtape(id: string): Promise<FicheEtape> {
     const premiere = (t?: string) => ((t ?? "").match(/^.*?[.;](?=\s|$)/)?.[0] ?? (t ?? "")).replace(/;$/, ".").trim();
     const lignes: string[] = [];
     const sources: string[] = [];
-    for (const [cle, libelle] of [["origine", "Origine"], ["terminaison", "Terminaison"], ["trajet", "Trajet"], ["territoire", "Territoire"]]) {
+    const muscle = r.structure?.systeme === "muscle";
+    const ordre = muscle ? [["origine", "Origine"], ["action", "Action"], ["terminaison", "Terminaison"]]
+      : [["origine", "Origine"], ["terminaison", "Terminaison"], ["trajet", "Trajet"], ["territoire", "Territoire"],
+        ["situation", "Situation"], ["description", "Description"], ["configuration", "Configuration"], ["rapports", "Rapports"]];
+    for (const [cle, libelle] of ordre) {
       if (lignes.length >= 2 || !champs[cle]?.texte) continue;
       lignes.push(`${libelle} : ${premiere(champs[cle].texte)}`);
       for (const s of champs[cle].sources ?? []) sources.push(typeof s === "string" ? s : `${s.roneo}:${(s.pages ?? []).join(",")}`);

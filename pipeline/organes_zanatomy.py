@@ -13,7 +13,7 @@ des légendes (hile du rein, pôles, faces, segments du foie et des poumons). Ce
   4. pose chaque légende sur la surface affichée : sommet le plus proche du maillage qui la porte,
      à 12 mm au plus après recalage, sinon la légende est écartée et signalée.
 
-Sorties : modeles/zanatomy_organes.glb, modeles/index_zanatomy_organes.csv,
+Sorties : modeles/zanatomy_organes.glb, modeles/zanatomy_os.glb (coccyx, osselets), modeles/index_zanatomy_organes.csv,
 donnees/derive/organes_zanatomy.json (doublons, légendes, bilan du recalage),
 rapports/recalage_organes.md.
 
@@ -98,6 +98,11 @@ GROUPES = [
     {"id": "abdomen", "reperes": [r"^(Stomach|Duodenum|Pancreas|Gallbladder|Ascending colon|Transverse colon|"
                                   r"Descending colon)$", r"^Kidney\.[lr]$"],
      "motif": r"^(Greater omentum|Lesser omentum|Renal pelvis\.[lr]|Sigmoid colon)$", "enveloppes": r"omentum"},
+    # Os absents de BodyParts3D : calque des os (modeles/zanatomy_os.glb), légendés par legendes_squelette.py.
+    # Osselets recalés côté par côté sur leur os temporal : quelques millimètres d'écart les sortiraient de la caisse
+    {"id": "coccyx", "systeme": "os", "motif": r"^Coccyx$", "reperes": [r"^Sacrum$", r"^Hip bone\.[lr]$"]},
+    {"id": "osselets-droits", "systeme": "os", "motif": r"^(Malleus|Incus|Stapes)\.r$", "reperes": [r"^Temporal bone\.r$"]},
+    {"id": "osselets-gauches", "systeme": "os", "motif": r"^(Malleus|Incus|Stapes)\.l$", "reperes": [r"^Temporal bone\.l$"]},
     {"id": "lymphatiques", "reperes": "os", "rendu": "lymphatique",
      # Nœuds lymphatiques ; pas les nœuds sinu-atrial et atrio-ventriculaire du cœur
      "motif": r"^\(?(?!Sinu|Atrioventricular)[A-Z].*(nodes?|Node)\)?" + COTES + "$"},
@@ -361,8 +366,9 @@ def main():
     for fj in doublons_bp3d:
         journal("OK", f"Remplacé : {nom_fj[fj]} ({fj}) par {len(candidats_par_fj[fj])} parties de Z-Anatomy.")
 
-    # Écriture du GLB des organes
-    ecrivain, lignes, retournes = EcrivainGLB("autres"), [], 0
+    # Écriture des GLB : organes (calque « autres ») et os absents de BodyParts3D (calque des os)
+    ecrivains = {"autres": EcrivainGLB("autres"), "os": EcrivainGLB("os")}
+    lignes, retournes = [], 0
     groupe_de = {g["id"]: g for g in GROUPES}
     for o in retenus:
         sommets_mm, faces, miroir = places[o], geo_za[o][1], geo_za[o][2]
@@ -376,25 +382,33 @@ def main():
         if g.get("enveloppes") and re.search(g["enveloppes"], o, re.I):
             rendu = "enveloppe"
         (_, _), transfo = transformation_de(o)
-        extras = {"nom_en": nom_en(o), "systeme": "autres", "groupe": g["id"], "rendu": rendu,
+        systeme = g.get("systeme", "autres")
+        extras = {"nom_en": nom_en(o), "systeme": systeme, "groupe": g["id"], "rendu": rendu,
                   "source": "Z-Anatomy (CC BY-SA 4.0)"}
-        ecrivain.ajouter(o, positions, normales, faces, extras)
+        ecrivains[systeme].ajouter(o, positions, normales, faces, extras)
         c = positions.mean(axis=0)
-        lignes.append({"objet": o, "groupe": g["id"], "nom_en": nom_en(o), "cote": cote_de(o) or "", "rendu": rendu,
-                       "transformation": transfo, "recouvrement_bp3d": f"{recouvre[o][0]:.2f}",
+        lignes.append({"objet": o, "groupe": g["id"], "systeme": systeme, "nom_en": nom_en(o), "cote": cote_de(o) or "",
+                       "rendu": rendu, "transformation": transfo, "recouvrement_bp3d": f"{recouvre[o][0]:.2f}",
                        "sommets": len(positions), "triangles": len(faces),
                        "centre_x": f"{c[0]:.4f}", "centre_y": f"{c[1]:.4f}", "centre_z": f"{c[2]:.4f}"})
-    ecrivain.gltf["asset"]["copyright"] = "Z-Anatomy, CC BY-SA 4.0 ; d'après BodyParts3D, DBCLS, CC BY 4.0"
-    chemin = MODELES / "zanatomy_organes.glb"
-    ecrivain.ecrire(chemin)
-    if "--compresser" in sys.argv:
-        compresser(chemin)
-    journal("OK", f"{chemin.name} : {len(lignes)} objets, {chemin.stat().st_size / 1e6:.1f} Mo, "
-            f"{retournes} copies en miroir réorientées.")
+    for systeme, ecrivain in ecrivains.items():
+        ecrivain.gltf["asset"]["copyright"] = "Z-Anatomy, CC BY-SA 4.0 ; d'après BodyParts3D, DBCLS, CC BY 4.0"
+        chemin = MODELES / ("zanatomy_os.glb" if systeme == "os" else "zanatomy_organes.glb")
+        ecrivain.ecrire(chemin)
+        if "--compresser" in sys.argv:
+            compresser(chemin)
+        n = sum(l["systeme"] == systeme for l in lignes)
+        journal("OK", f"{chemin.name} : {n} objets, {chemin.stat().st_size / 1e6:.1f} Mo.")
+    journal("OK", f"{retournes} copies en miroir réorientées.")
     with open(MODELES / "index_zanatomy_organes.csv", "w", encoding="utf-8-sig", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(lignes[0]), delimiter=";")
         w.writeheader()
         w.writerows(lignes)
+    # Os importés : sommets placés (mm, repère BodyParts3D), pour que legendes_squelette.py pose leurs
+    # légendes exactement sur la surface affichée
+    os_importes = [l["objet"] for l in lignes if l["systeme"] == "os"]
+    np.savez(CACHE / "os_importes.npz", **{f"nom{k}": o for k, o in enumerate(os_importes)},
+             **{f"s{k}": places[o] for k, o in enumerate(os_importes)})
 
     # Légendes : pointe recalée avec son porteur, puis posée sur la surface affichée
     surfaces = {}  # porteur -> (arbre, sommets mm, clés de nœud par sommet)

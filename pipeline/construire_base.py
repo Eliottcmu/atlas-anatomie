@@ -3,7 +3,7 @@
 Au démarrage, le lanceur (lanceur/) fusionne cette graine dans la base personnelle d'Eliott.
 
 Entrées :
-  - donnees/listes/liste_noyau_bloc1.csv (structures)
+  - donnees/listes/liste_noyau_bloc*.csv (structures des quatre blocs, pipeline/listes.py)
   - donnees/fiches/brouillons/*.json (brouillons rédigés par Claude à partir des ronéos)
   - donnees/fiches/sources.json (codes des ronéos citées)
 Règles de fusion, pour ne jamais perdre une vérification :
@@ -27,8 +27,8 @@ from pathlib import Path
 RACINE = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import base  # noqa: E402
+from listes import lire_listes  # noqa: E402
 
-LISTE = RACINE / "donnees" / "listes" / "liste_noyau_bloc1.csv"
 INVENTAIRE = RACINE / "rapports" / "inventaire_couverture.csv"
 TA2 = RACINE / "donnees" / "brut" / "z-anatomy" / "TA2.csv"
 FICHES = RACINE / "donnees" / "fiches"
@@ -58,7 +58,7 @@ def noms_latins():
 
 
 def importer_structures(cnx):
-    liste, inventaire, latins = lire_csv(LISTE), {l["id"]: l for l in lire_csv(INVENTAIRE)}, noms_latins()
+    liste, inventaire, latins = lire_listes(), {l["id"]: l for l in lire_csv(INVENTAIRE)}, noms_latins()
     for l in liste:
         cnx.execute("""INSERT INTO structure (id, fma_id, nom_fr, synonymes_fr, nom_latin, systeme, region, cote,
                                               niveau, couverture)

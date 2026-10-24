@@ -234,7 +234,8 @@ LYMPHATIQUES = [
 
 # Os : un focus par os ou groupe d'os, légendé par les repères de Z-Anatomy (pipeline/legendes_squelette.py).
 # (id, nom, groupe, motif sur les noms BodyParts3D sans côté, accord du côté pour un os pair, vue) ;
-# accord : « m » (fémur droit), « f » (ulna droite), « main » ou « pied » (métacarpe et doigts, main droite)
+# accord : « m » (fémur droit), « f » (ulna droite), « main » ou « pied » (métacarpe et doigts, main droite),
+# « mp » (osselets droits) ; motif None : os pris seulement dans Z-Anatomy (OS_ZANATOMY)
 # Le sternum et le processus xiphoïde sont rangés par BodyParts3D hors du système osseux : le motif les prend.
 COTE_EXT = (1, 0, 0.35)  # vue latérale du côté gauche ; inversée pour le côté droit
 OS = [
@@ -246,8 +247,10 @@ OS = [
     ("vertebres-cervicales", "Vertèbres cervicales", "Tête et rachis", CERVICALES, None, (0.7, 0.1, 0.7)),
     ("vertebres-thoraciques", "Vertèbres thoraciques", "Tête et rachis", r"thoracic vertebra$", None, (0.7, 0, -0.7)),
     ("vertebres-lombaires", "Vertèbres lombaires", "Tête et rachis", r"lumbar vertebra$", None, (0.7, 0, -0.7)),
-    ("sacrum", "Sacrum", "Tête et rachis", r"^sacrum$", None, DOS),
-    ("cotes-sternum", "Côtes et sternum", "Tête et rachis", r"(\brib|^body of sternum|^xiphoid process)$", None, FACE),
+    ("osselets", "Osselets de l'ouïe", "Tête et rachis", None, "mp", COTE_EXT),
+    ("sacrum", "Sacrum et coccyx", "Tête et rachis", r"^sacrum$", None, DOS),
+    ("cotes-sternum", "Côtes et sternum", "Tête et rachis", r"(\brib|^manubrium|^body of sternum|^xiphoid process)$", None,
+     FACE),
     ("clavicule", "Clavicule", "Membre supérieur", r"^clavicle$", "f", (0, 0.6, 0.8)),
     ("scapula", "Scapula", "Membre supérieur", r"^scapula$", "f", DOS),
     ("humerus", "Humérus", "Membre supérieur", r"^humerus$", "m", FACE),
@@ -268,20 +271,34 @@ OS = [
 ]
 
 
-def os_(index):
-    """Focus des os : maillages de chaque os ou groupe d'os, par côté pour les os pairs."""
+# Os de Z-Anatomy absents de BodyParts3D (pipeline/organes_zanatomy.py) : focus d'accueil et motif sur l'objet
+OS_ZANATOMY = {"osselets": r"^(Malleus|Incus|Stapes)\.[lr]$", "sacrum": r"^Coccyx$"}
+
+
+def os_(index, lignes_za=()):
+    """Focus des os : maillages de chaque os ou groupe d'os, par côté pour les os pairs.
+
+    lignes_za : objets de Z-Anatomy importés (index_zanatomy_organes.csv) ; ceux du calque des os
+    (coccyx, osselets) rejoignent le focus que leur donne OS_ZANATOMY.
+    """
     res, manquants = [], []
     for id_, nom, groupe, motif, genre, vue in OS:
-        m = re.compile(motif)
+        m = re.compile(motif) if motif else None
         par_cote = defaultdict(list)
-        for l in index:
+        for l in index if m else []:
             if l["systeme"] not in ("os", "autres"):
                 continue
             cote = "droit" if re.search(r"\bright\b", l["nom_en"]) else "gauche" if re.search(r"\bleft\b", l["nom_en"]) else None
             base = re.sub(r"\b(right|left) ", "", l["nom_en"])
             # Le sternum seul est pris dans « autres » ; un muscle « sternocostal » ne l'est pas
-            if m.search(base) and (l["systeme"] == "os" or re.search(r"sternum|xiphoid", base)):
+            if m.search(base) and (l["systeme"] == "os" or re.search(r"sternum|xiphoid|^manubrium", base)):
                 par_cote[cote if genre else None].append(l["fj"])
+        if id_ in OS_ZANATOMY:
+            mz = re.compile(OS_ZANATOMY[id_])
+            for l in lignes_za:
+                if l.get("systeme") == "os" and mz.search(l["objet"]):
+                    cote = {"r": "droit", "l": "gauche"}.get(l["objet"][-1]) if re.search(r"\.[lr]$", l["objet"]) else None
+                    par_cote[cote if genre else None].append(l["objet"])
         if not par_cote:
             manquants.append(f"{nom} : aucun maillage")
             continue
@@ -290,7 +307,8 @@ def os_(index):
                 continue
             accord = "" if not genre else {
                 "m": f" {cote}", "f": f" {'droite' if cote == 'droit' else 'gauche'}",
-                "main": f", main {'droite' if cote == 'droit' else 'gauche'}", "pied": f", pied {cote}"}[genre]
+                "main": f", main {'droite' if cote == 'droit' else 'gauche'}", "pied": f", pied {cote}",
+                "mp": f" {cote}s"}[genre]
             v = list(vue)
             if cote == "droit" and v == list(COTE_EXT):
                 v[0] = -v[0]
@@ -335,6 +353,7 @@ def organes(index, lignes_za=(), doublons=frozenset()):
             m = re.compile(motif_za)
             # L'encéphale prend ses groupes de Z-Anatomy entiers (hémisphères et cervelet)
             parties |= {l["objet"] for l in lignes_za if m.search(l["objet"]) and l["groupe"] != "lymphatiques"
+                        and l.get("systeme", "autres") != "os"
                         and (id_ != "encephale" or l["groupe"] in ("encephale", "cervelet"))}
         parties -= set(doublons)
         if not parties:

@@ -23,6 +23,12 @@ var champsParSysteme = map[string][]string{
 		"pathologie", "reperes"},
 	"veine": {"origine", "trajet", "affluents", "terminaison", "territoire", "rapports", "variations", "clinique",
 		"pathologie", "reperes"},
+	"muscle": {"situation", "origine", "terminaison", "innervation", "vascularisation", "action", "rapports",
+		"variations", "clinique", "pathologie"},
+	"organe": {"situation", "configuration", "rapports", "fixite", "vascularisation", "innervation", "variations",
+		"clinique", "pathologie", "reperes"},
+	"os": {"situation", "description", "articulations", "insertions", "rapports", "variations", "clinique",
+		"pathologie"},
 }
 
 var libellesChamps = map[string]string{
@@ -30,6 +36,9 @@ var libellesChamps = map[string]string{
 	"terminaison": "Terminaison", "territoire": "Territoire", "rapports": "Rapports",
 	"variations": "Variations", "clinique": "Intérêt clinique",
 	"pathologie": "Pathologies", "reperes": "Repères physiologiques",
+	"situation": "Situation", "innervation": "Innervation", "vascularisation": "Vascularisation",
+	"action": "Action", "configuration": "Configuration", "fixite": "Moyens de fixité",
+	"description": "Description", "articulations": "Articulations", "insertions": "Insertions musculaires",
 }
 
 var typesRelation = map[string]bool{

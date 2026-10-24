@@ -1,10 +1,10 @@
 import { normaliser } from "../donnees";
 
 // Correction des réponses tapées : accents, ligatures, tirets et majuscules ignorés, synonymes et
-// anciens noms acceptés, « artère » ou « veine » facultatifs, une faute de frappe tolérée par tranche de 7 lettres.
+// anciens noms acceptés, « artère », « veine » ou « muscle » facultatifs, une faute de frappe tolérée par tranche de 7 lettres.
 
-// Seuls « artère » et « veine » sont facultatifs : « horizontale » ne suffit pas pour l'aorte horizontale
-const PREFIXES = /^(arteres?|veines?) /;
+// Seuls « artère », « veine » et « muscle » sont facultatifs : « horizontale » ne suffit pas pour l'aorte horizontale
+const PREFIXES = /^(arteres?|veines?|muscles?) /;
 
 export function distance(a: string, b: string): number {
   if (a === b) return 0;

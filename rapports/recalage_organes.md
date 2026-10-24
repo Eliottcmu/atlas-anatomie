@@ -15,6 +15,9 @@ Similitude globale sur 69 os : écart médian 9.7 mm. Recalage local par groupe 
 | pharynx | 8 | 3.56 | 2.63 | ICP local |
 | endocrines | 5 | 2.36 | 1.46 | ICP local |
 | abdomen | 9 | 5.63 | 5.49 | ICP local |
+| coccyx | 3 | 9.72 | 2.78 | ICP local |
+| osselets-droits | 1 | 3.19 | 2.68 | ICP local |
+| osselets-gauches | 1 | 3.19 | 2.71 | ICP local |
 | os : tête et cou | 15 | 3.97 | 3.42 | ICP local |
 | os : thorax | 24 | 5.85 | 5.21 | ICP local |
 | os : membre supérieur droit | 5 | 7.32 | 2.13 | ICP local |
@@ -23,7 +26,7 @@ Similitude globale sur 69 os : écart médian 9.7 mm. Recalage local par groupe 
 | os : membre inférieur droit | 4 | 6.17 | 4.24 | ICP local |
 | os : membre inférieur gauche | 4 | 6.15 | 4.19 | ICP local |
 
-**277 objets importés** : abdomen 5, cervelet 31, encephale 74, endocrines 3, lymphatiques 135, moelle 5, oreilles 8, pharynx 10, poumons 6.
+**284 objets importés** : abdomen 5, cervelet 31, coccyx 1, encephale 74, endocrines 3, lymphatiques 135, moelle 5, oreilles 8, osselets-droits 3, osselets-gauches 3, pharynx 10, poumons 6.
 
 **67 objets écartés**, déjà présents dans BodyParts3D (60 % de leur surface à moins de 2 mm) :
 

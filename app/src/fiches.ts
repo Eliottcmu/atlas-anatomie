@@ -1,7 +1,7 @@
 // Fiches des structures : affichage dans le panneau, vérification et correction, liste de suivi.
 // Les données viennent du lanceur local (lanceur/, en Go) ; sans lui, l'atlas reste utilisable.
 
-import type { Cote } from "./donnees";
+import { SYSTEMES_PLURIEL, type Cote } from "./donnees";
 import { signalerPresence } from "./presence";
 
 const $ = <T extends HTMLElement = HTMLElement>(id: string) => document.getElementById(id) as T;
@@ -352,7 +352,7 @@ export class Fiches {
     })[this.filtre];
     const parRegion = new Map<string, Ligne[]>();
     for (const l of this.lignes.filter(garder)) {
-      const cle = `${l.systeme === "artère" ? "Artères" : "Veines"} · ${l.region}`;
+      const cle = `${SYSTEMES_PLURIEL[l.systeme] ?? l.systeme} · ${l.region}`;
       parRegion.set(cle, [...(parRegion.get(cle) ?? []), l]);
     }
     const html = [...parRegion].map(([region, ls]) => `<section><h3 class="etiquette">${region} <span>${ls.length}</span></h3><ul>${

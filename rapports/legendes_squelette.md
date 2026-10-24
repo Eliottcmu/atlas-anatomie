@@ -15,6 +15,7 @@ Similitude globale : écart médian 9.7 mm sur les os. Puis, pour chaque os port
 | Calcaneus.r | 10 | 4.99 | 1.02 | 0.25 | affine |
 | Clavicle.l | 10 | 4.53 | 2.31 | 1.32 | affine |
 | Clavicle.r | 10 | 4.25 | 2.28 | 1.36 | affine |
+| Coccyx | 3 | 14.33 | 0.0 | 0.0 | affine |
 | Cricoid cartilage | 4 | 1.33 | 0.51 | 0.24 | affine |
 | Cuboid bone.l | 2 | 4.73 | 0.98 | 0.73 | affine |
 | Cuboid bone.r | 2 | 4.62 | 0.62 | 0.15 | affine |
@@ -38,9 +39,14 @@ Similitude globale : écart médian 9.7 mm sur les os. Puis, pour chaque os port
 | Humerus.l | 28 | 6.55 | 2.43 | 0.89 | affine |
 | Humerus.r | 28 | 6.85 | 2.43 | 0.19 | affine |
 | Hyoid bone | 3 | 2.27 | 1.41 | 0.52 | affine |
+| Incus.l | 5 | 3.11 | 0.0 | 0.0 | affine |
+| Incus.r | 5 | 3.02 | 0.0 | 0.0 | affine |
 | Lower first molar tooth.l | 9 | 1.66 | 1.19 | 0.76 | affine |
 | Lower first molar tooth.r | 10 | 1.66 | 1.1 | 0.73 | affine |
+| Malleus.l | 6 | 2.54 | 0.0 | 0.0 | affine |
+| Malleus.r | 6 | 2.3 | 0.0 | 0.0 | affine |
 | Mandible | 15 | 3.7 | 2.85 | 2.85 | rigide |
+| Manubrium of sternum | 1 | 3.17 | 2.84 | 1.43 | affine |
 | Maxilla.l | 1 | 1.88 | 0.68 | 0.61 | affine |
 | Maxilla.r | 1 | 1.89 | 0.53 | 0.46 | affine |
 | Navicular bone.l | 1 | 5.46 | 0.84 | 0.61 | affine |
@@ -61,6 +67,8 @@ Similitude globale : écart médian 9.7 mm sur les os. Puis, pour chaque os port
 | Sixth rib.l | 11 | 4.54 | 1.55 | 0.8 | affine |
 | Sixth rib.r | 11 | 4.45 | 1.62 | 0.8 | affine |
 | Sphenoid bone | 42 | 2.18 | 0.98 | 0.77 | affine |
+| Stapes.l | 4 | 2.72 | 0.0 | 0.0 | rigide |
+| Stapes.r | 4 | 3.26 | 0.0 | 0.0 | rigide |
 | Talus.l | 18 | 4.94 | 1.05 | 0.74 | affine |
 | Talus.r | 18 | 4.48 | 0.75 | 0.17 | affine |
 | Temporal bone.l | 12 | 3.19 | 2.71 | 2.16 | affine |
@@ -81,11 +89,48 @@ Similitude globale : écart médian 9.7 mm sur les os. Puis, pour chaque os port
 | Vertebra T8 | 4 | 2.98 | 1.49 | 1.39 | affine |
 | Xiphoid process | 0 | 8.1 | 0.64 | 0.38 | affine |
 
-**851 légendes posées** ; écart de pose médian 1.6 mm, maximal 16.8 mm.
+**1430 légendes posées** ; écart de pose médian 1.4 mm, maximal 16.8 mm.
 
 Étiquettes de Z-Anatomy corrigées :
 
 - Femur : lateral supracondylar line et medial supracondylar line. Z-Anatomy inverse les deux lignes supracondylaires du fémur, des deux côtés : la ligne nommée latérale y est à 2 cm de l'épicondyle médial et à 6 cm du latéral. Noms échangés.
+
+**529 repères reportés** d'un os type sur sa famille (de proche en proche, ICP rigide puis affine) :
+
+| Os type | Repères reportés | Os légendés |
+| --- | --- | --- |
+| distal phalanx of left middle finger | 4 | 4 |
+| distal phalanx of right middle finger | 4 | 4 |
+| eighth thoracic vertebra | 23 | 9 |
+| fourth cervical vertebra | 17 | 4 |
+| left sixth rib | 60 | 6 |
+| left third metacarpal bone | 9 | 3 |
+| left third metatarsal bone | 9 | 3 |
+| proximal phalanx of left middle finger | 16 | 4 |
+| proximal phalanx of left third toe | 16 | 4 |
+| proximal phalanx of right middle finger | 12 | 3 |
+| proximal phalanx of right third toe | 16 | 4 |
+| right sixth rib | 60 | 6 |
+| right third metacarpal bone | 9 | 3 |
+| right third metatarsal bone | 9 | 3 |
+| third lumbar vertebra | 265 | 21 |
+
+Reports refusés :
+
+- intervertebral surface sur first lumbar vertebra : 6 mm de la surface
+- costal part of transverse process sur twelfth thoracic vertebra : 7 mm de la surface
+- transverse process sur twelfth thoracic vertebra : 12 mm de la surface
+- intervertebral surface sur fourth lumbar vertebra : 7 mm de la surface
+- eleventh thoracic vertebra depuis tenth thoracic vertebra : formes trop différentes (2.0 mm après recalage)
+- right first metacarpal bone depuis right second metacarpal bone : formes trop différentes (7.2 mm après recalage)
+- proximal phalanx of right thumb depuis proximal phalanx of right index finger : formes trop différentes (2.6 mm après recalage)
+- middle phalanx of right middle finger depuis proximal phalanx of right middle finger : formes trop différentes (4.1 mm après recalage)
+- right first metatarsal bone depuis right second metatarsal bone : formes trop différentes (3.0 mm après recalage)
+- middle phalanx of right third toe depuis proximal phalanx of right third toe : formes trop différentes (4.6 mm après recalage)
+- left first metacarpal bone depuis left second metacarpal bone : formes trop différentes (6.6 mm après recalage)
+- middle phalanx of left middle finger depuis proximal phalanx of left middle finger : formes trop différentes (4.5 mm après recalage)
+- left first metatarsal bone depuis left second metatarsal bone : formes trop différentes (2.9 mm après recalage)
+- middle phalanx of left third toe depuis proximal phalanx of left third toe : formes trop différentes (4.3 mm après recalage)
 
 Légendes écartées (pointe trop loin de l'os après recalage) :
 
@@ -95,39 +140,5 @@ Légendes écartées (pointe trop loin de l'os après recalage) :
 
 Légendes en réserve (os absent de BodyParts3D) :
 
-- anterior limb of stapes (Stapes.r)
-- anterior process of malleus (Malleus.r)
-- apex of coccyx (Coccyx)
-- articular facet for malleus (Incus.r)
-- articular facet for stapes (Incus.r)
-- articular facet of head of malleus (Malleus.r)
-- articular facet of head of stapes (Stapes.r)
-- base of coccyx (Coccyx)
-- base of stapes (Stapes.r)
-- body of incus (Incus.r)
-- clavicular notch (Manubrium of sternum)
-- coccygeal horn (Coccyx)
-- handle of malleus (Malleus.r)
-- head of malleus (Malleus.r)
-- lateral process of malleus (Malleus.r)
-- lenticular process of incus (Incus.r)
-- long limb of incus (Incus.r)
-- neck of malleus (Malleus.r)
-- posterior limb of stapes (Stapes.r)
 - septum of frontal sinuses (Sinus of frontal bone)
 - septum of sphenoidal sinuses (Sinus of sphenoid bone)
-- anterior limb of stapes (Stapes.l)
-- anterior process of malleus (Malleus.l)
-- articular facet for malleus (Incus.l)
-- articular facet for stapes (Incus.l)
-- articular facet of head of malleus (Malleus.l)
-- articular facet of head of stapes (Stapes.l)
-- base of stapes (Stapes.l)
-- body of incus (Incus.l)
-- handle of malleus (Malleus.l)
-- head of malleus (Malleus.l)
-- lateral process of malleus (Malleus.l)
-- lenticular process of incus (Incus.l)
-- long limb of incus (Incus.l)
-- neck of malleus (Malleus.l)
-- posterior limb of stapes (Stapes.l)

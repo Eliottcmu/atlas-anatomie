@@ -3340,6 +3340,24 @@
     "avant_mm": 5.63,
     "apres_mm": 5.49,
     "transformation": "ICP local"
+   },
+   "coccyx": {
+    "reperes": 3,
+    "avant_mm": 9.72,
+    "apres_mm": 2.78,
+    "transformation": "ICP local"
+   },
+   "osselets-droits": {
+    "reperes": 1,
+    "avant_mm": 3.19,
+    "apres_mm": 2.68,
+    "transformation": "ICP local"
+   },
+   "osselets-gauches": {
+    "reperes": 1,
+    "avant_mm": 3.19,
+    "apres_mm": 2.71,
+    "transformation": "ICP local"
    }
   },
   "regions_os": {

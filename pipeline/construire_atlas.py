@@ -21,9 +21,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from focus import organes, os_, regions  # noqa: E402
 from arbre_vasculaire import COTE_EN, Arbre, sans_cote  # noqa: E402
 from inventaire_couverture import charger_ta2, variantes_en  # noqa: E402
+from listes import CALQUE_SYSTEME, lire_listes  # noqa: E402
 
 RACINE = Path(__file__).resolve().parent.parent
-LISTE = RACINE / "donnees" / "listes" / "liste_noyau_bloc1.csv"
 INVENTAIRE = RACINE / "rapports" / "inventaire_couverture.csv"
 WIKIDATA = RACINE / "donnees" / "derive" / "wikidata_fma.csv"
 TRADUCTIONS = RACINE / "donnees" / "listes" / "traductions_fr.csv"
@@ -40,7 +40,7 @@ CALQUES = [
     {"id": "veines", "nom": "Veines", "couleur": "#2a4fc0", "touche": "V", "visible": True,
      "fichiers": ["bp3d_veines.glb", "zanatomy_veines.glb"]},
     {"id": "os", "nom": "Os", "couleur": "#ede5cc", "touche": "O", "visible": True, "repere": True,
-     "fichiers": ["bp3d_os.glb"]},
+     "fichiers": ["bp3d_os.glb", "zanatomy_os.glb"]},
     {"id": "muscles", "nom": "Muscles", "couleur": "#8c382e", "touche": "M", "visible": False,
      "fichiers": ["bp3d_muscles.glb"]},
     {"id": "autres", "nom": "Organes et autres", "couleur": "#d9b399", "touche": "R", "visible": False,
@@ -136,11 +136,11 @@ class Nommeur:
 def main():
     # Console Windows : accents lisibles quel que soit le code de page
     sys.stdout.reconfigure(encoding="utf-8")
-    for chemin in (LISTE, INVENTAIRE, MODELES / "index_maillages.csv"):
+    for chemin in (INVENTAIRE, MODELES / "index_maillages.csv"):
         if not chemin.exists():
             journal("FAIL", f"{chemin.relative_to(RACINE)} absent. Action : relancer les étapes précédentes du pipeline.")
             sys.exit(1)
-    liste = {l["id"]: l for l in lire_csv(LISTE)}
+    liste = {l["id"]: l for l in lire_listes()}
     inventaire = {l["id"]: l for l in lire_csv(INVENTAIRE)}
     nommeur = Nommeur()
 
@@ -294,7 +294,7 @@ def main():
         if re.search(r"\.[lr]$", objet) and f"{objet[:-2]}.{'r' if objet[-1] == 'l' else 'l'}" in objets_org:
             cote = "droit" if objet.endswith(".r") else "gauche"
         nom, source_nom = nommeur.nommer("", l["nom_en"])
-        noeuds[objet] = {"calque": "autres", "structure": None, "propre": False, "cote": cote, "nom": nom,
+        noeuds[objet] = {"calque": l.get("systeme") or "autres", "structure": None, "propre": False, "cote": cote, "nom": nom,
                          "source_nom": source_nom, "nom_en": l["nom_en"], "fma_id": "",
                          "source": "Z-Anatomy (CC BY-SA 4.0), recalé sur BodyParts3D"}
         if l["rendu"]:
@@ -304,14 +304,50 @@ def main():
         if fj in noeuds:
             noeuds[fj]["doublon"] = True
 
+    les_regions = regions(index_bp3d)
+    les_organes, organes_manquants = organes(index_bp3d, lignes_org, {k for k, n in noeuds.items() if n.get("doublon")})
+    les_os, os_manquants = os_(index_bp3d, lignes_org)
+    les_organes += les_os
+    organes_manquants += os_manquants
+
+    # Organes et os de la liste (blocs 3 et 4) : maillages de leur focus du catalogue (colonne « focus »),
+    # Z-Anatomy compris (lobes pulmonaires, coccyx) ; un os pair prend ses deux focus, droit et gauche
+    par_focus = {o["id"]: o for o in les_organes}
+    for i, l in liste.items():
+        f = (l.get("focus") or "").strip()
+        if not f:
+            continue
+        ids = [k for k in par_focus if k == f or re.fullmatch(rf"{re.escape(f)}-(droit|gauche)", k)]
+        if not ids:
+            journal("WARN", f"{i} ({l['nom_fr']}) : focus « {f} » absent du catalogue. Conséquence : structure sans "
+                    "maillage. Action : corriger la colonne focus de la liste noyau.")
+            continue
+        for k in ids:
+            for cle in par_focus[k]["parties"]:
+                n = noeuds.get(cle)
+                if n is None or n.get("doublon"):
+                    continue
+                if n["structure"] is None or n["structure"] == i:
+                    n["structure"] = i
+                elif n["calque"] not in ("arteres", "veines"):
+                    journal("WARN", f"{cle} ({n['nom']}) : rattaché à {n['structure']}, aussi dans le focus de {i}. "
+                            "Conséquence : la plus petite structure garde le maillage.")
+                structures[i]["noeuds"].append(cle)
+    # Un maillage dans deux structures (un muscle et son groupe) fausserait « localiser » : signalé
+    double = defaultdict(list)
+    for i, s in structures.items():
+        if liste[i]["systeme"] not in ("artère", "veine"):
+            for cle in set(s["noeuds"]):
+                double[cle].append(i)
+    double = {k: v for k, v in double.items() if len(v) > 1}
+    if double:
+        exemples = ", ".join(f"{k} ({'/'.join(v)})" for k, v in list(double.items())[:4])
+        journal("WARN", f"{len(double)} maillages dans plusieurs structures de la liste : {exemples}. Action : garder le "
+                "groupe ou ses membres, pas les deux.")
+
     sans_noeud = [i for i, s in structures.items() if not s["noeuds"]]
     for s in structures.values():
         s["noeuds"] = sorted(set(s["noeuds"]))
-    les_regions = regions(index_bp3d)
-    les_organes, organes_manquants = organes(index_bp3d, lignes_org, {k for k, n in noeuds.items() if n.get("doublon")})
-    les_os, os_manquants = os_(index_bp3d)
-    les_organes += les_os
-    organes_manquants += os_manquants
     # Légendes de Z-Anatomy (organes, puis os : pipeline/legendes_squelette.py) : rattachées à chaque
     # organe ou os qui contient le maillage porteur
     legendes_os = json.loads(LEGENDES_OS.read_text(encoding="utf-8"))["legendes"] if LEGENDES_OS.exists() else []
@@ -332,6 +368,8 @@ def main():
             entree["calcule"] = True
         if leg.get("approchee"):
             entree["approchee"] = True
+        if leg.get("reporte"):
+            entree["reporte"] = nommeur.nommer("", leg["reporte"])[0]
         if leg.get("correction"):
             entree["correction"] = leg["correction"]
         # Nom cité tel quel dans les ronéos d'Eliott : repère du programme, à apprendre en premier

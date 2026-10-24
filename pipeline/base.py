@@ -27,12 +27,21 @@ CHAMPS = {
                "pathologie", "reperes"],
     "veine": ["origine", "trajet", "affluents", "terminaison", "territoire", "rapports", "variations", "clinique",
               "pathologie", "reperes"],
+    "muscle": ["situation", "origine", "terminaison", "innervation", "vascularisation", "action", "rapports",
+               "variations", "clinique", "pathologie"],
+    "organe": ["situation", "configuration", "rapports", "fixite", "vascularisation", "innervation", "variations",
+               "clinique", "pathologie", "reperes"],
+    "os": ["situation", "description", "articulations", "insertions", "rapports", "variations", "clinique",
+           "pathologie"],
 }
 LIBELLES_CHAMPS = {
     "origine": "Origine", "trajet": "Trajet", "branches": "Branches", "affluents": "Affluents",
     "terminaison": "Terminaison", "territoire": "Territoire", "rapports": "Rapports",
     "variations": "Variations", "clinique": "Intérêt clinique",
     "pathologie": "Pathologies", "reperes": "Repères physiologiques",
+    "situation": "Situation", "innervation": "Innervation", "vascularisation": "Vascularisation",
+    "action": "Action", "configuration": "Configuration", "fixite": "Moyens de fixité",
+    "description": "Description", "articulations": "Articulations", "insertions": "Insertions musculaires",
 }
 TYPES_RELATION = ("branche_de", "fait_suite_a", "se_jette_dans", "anastomose_avec",
                   "s_insere_sur", "vascularise", "draine", "innerve")
