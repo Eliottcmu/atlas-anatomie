@@ -2,7 +2,8 @@
 // atlas utilisable, une seule instance, arrêt automatique à la fermeture de la fenêtre.
 // Données personnelles dans un dossier jetable : la vraie base n'est pas touchée.
 //
-// Usage : node tests/appli.mjs   (après python -I pipeline/construire_appli.py)
+// Usage : node tests/appli.mjs [--partage]   (après python -I pipeline/construire_appli.py [--partage])
+//   --partage : paquet à diffuser (distribution/partage/), sans ronéos
 
 import { spawn, spawnSync } from "node:child_process";
 import { existsSync, mkdtempSync, readFileSync, rmSync } from "node:fs";
@@ -12,7 +13,8 @@ import { fileURLToPath } from "node:url";
 import { chromium } from "playwright-core";
 
 const RACINE = resolve(dirname(fileURLToPath(import.meta.url)), "..", "..");
-const PAQUET = join(RACINE, "distribution", "Atlas-anatomie-Windows.zip");
+const PARTAGE = process.argv.includes("--partage");
+const PAQUET = join(RACINE, "distribution", ...(PARTAGE ? ["partage"] : []), "Atlas-anatomie-Windows.zip");
 const PORT = 8797;
 let echecs = 0;
 const verifier = (ok, message) => {
@@ -61,8 +63,16 @@ await page.fill("#champ-recherche", "aorte horizontale");
 await page.keyboard.press("Enter");
 await page.waitForSelector(".fiche-champs dt", { timeout: 10_000 });
 verifier((await page.$$(".fiche-champs dt")).length > 3, "fiche affichée depuis la base de l'appli");
-const pdf = await page.evaluate(async () => (await fetch("/roneos/GV26")).headers.get("content-type"));
-verifier(pdf === "application/pdf", "ronéos servies par l'appli");
+const pdf = await page.evaluate(async () => {
+  const r = await fetch("/roneos/GV26");
+  return { type: r.headers.get("content-type"), texte: await r.text() };
+});
+if (PARTAGE) {
+  verifier(pdf.type.startsWith("text/html") && pdf.texte.includes("Ronéo non incluse"),
+    "version à partager : pas de ronéo, page « Ronéo non incluse » lisible");
+} else {
+  verifier(pdf.type === "application/pdf", "ronéos servies par l'appli");
+}
 // Organes de Z-Anatomy et légendes : focus sur le cervelet (lobules), étiquettes posées
 await page.evaluate(() => window.__atlas.deselectionner());
 await page.evaluate(() => window.__atlas.focusTest.entrerOrgane("cervelet"));

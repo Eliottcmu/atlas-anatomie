@@ -10,8 +10,10 @@
 
 Aucune donnée personnelle n'entre dans les paquets : la base d'Eliott reste dans son dossier utilisateur.
 
-Usage : python -I pipeline/construire_appli.py [--dev]
+Usage : python -I pipeline/construire_appli.py [--dev | --partage]
   --dev : seulement la graine et le lanceur de développement (construction/lanceur-dev.exe), pour les tests
+  --partage : paquets à diffuser (publication GitHub), SANS les ronéos, dans distribution/partage/ ;
+              les liens de ronéo des fiches ouvrent alors une page « ronéo non incluse »
 """
 
 import csv
@@ -120,7 +122,7 @@ def icone():
 
 # ------------------------------------------------------------ ressources
 
-def ressources():
+def ressources(partage=False):
     if RESSOURCES.exists():
         shutil.rmtree(RESSOURCES)
     RESSOURCES.mkdir(parents=True)
@@ -135,7 +137,8 @@ def ressources():
             shutil.copy2(source, RESSOURCES / "modeles" / f)
     # Ronéos : noms en forme composée (é et non e + accent), lisibles à l'identique sur Windows et macOS
     (RESSOURCES / "roneos").mkdir()
-    for pdf in (RACINE / "donnees" / "roneos").glob("*.pdf"):
+    # Version à partager : jamais de ronéos (documents de cours d'Eliott, droits de l'université)
+    for pdf in [] if partage else (RACINE / "donnees" / "roneos").glob("*.pdf"):
         shutil.copy2(pdf, RESSOURCES / "roneos" / unicodedata.normalize("NFC", pdf.name))
     sources = json.loads((RACINE / "donnees" / "fiches" / "sources.json").read_text(encoding="utf-8"))
     pages = {}
@@ -189,9 +192,11 @@ En cas de problème
 Le fichier journal.txt, dans le même dossier que tes données, explique ce qui s'est passé.
 
 Sources et licences : BodyParts3D (DBCLS, CC BY 4.0), Z-Anatomy (CC BY-SA 4.0),
-Human Reference Atlas (HuBMAP, CC BY 4.0), Wikidata (CC0). Les ronéos sont tes documents de cours :
-ce paquet est pour ton usage personnel, ne pas le diffuser.
+Human Reference Atlas (HuBMAP, CC BY 4.0), Wikidata (CC0). {mention_roneos}
 """
+MENTION_PERSO = "Les ronéos sont tes documents de cours :\nce paquet est pour ton usage personnel, ne pas le diffuser."
+MENTION_PARTAGE = ("Les ronéos citées dans les fiches ne sont pas\nfournies (documents de cours). Les fiches sont des "
+                   "brouillons rédigés par Claude :\nles vérifier contre ton cours avant de les apprendre.")
 
 INSTALLATION_WINDOWS = """Installation (Windows 10 ou 11)
 -------------------------------
@@ -239,7 +244,7 @@ def ajouter_dossier(z, dossier, prefixe, executables=()):
                 shutil.copyfileobj(source, cible, 1 << 20)
 
 
-def paquet_windows(exe, dossier_icone):
+def paquet_windows(exe, dossier_icone, sorties, mention):
     racine = CONSTRUCTION / "windows" / NOM
     if racine.parent.exists():
         shutil.rmtree(racine.parent)
@@ -247,18 +252,18 @@ def paquet_windows(exe, dossier_icone):
     shutil.copy2(exe, racine / f"{NOM}.exe")
     shutil.copytree(RESSOURCES, racine / "ressources")
     (racine / "Lisez-moi.txt").write_text(LISEZ_MOI.format(
-        version=VERSION, installation=INSTALLATION_WINDOWS,
+        version=VERSION, installation=INSTALLATION_WINDOWS, mention_roneos=mention,
         donnees=r"%LOCALAPPDATA%\AtlasAnatomie (taper ce chemin dans la barre de l'Explorateur)").replace("\n", "\r\n"),
         encoding="utf-8-sig")
-    DISTRIBUTION.mkdir(exist_ok=True)
-    sortie = DISTRIBUTION / "Atlas-anatomie-Windows.zip"
+    sorties.mkdir(parents=True, exist_ok=True)
+    sortie = sorties / "Atlas-anatomie-Windows.zip"
     with zipfile.ZipFile(sortie, "w") as z:
         ajouter_dossier(z, racine, NOM)
     journal("OK", f"Paquet Windows : {sortie.relative_to(RACINE)} ({sortie.stat().st_size // 1_000_000} Mo).")
     return racine
 
 
-def paquet_mac(binaires, dossier_icone):
+def paquet_mac(binaires, dossier_icone, sorties, mention):
     app = CONSTRUCTION / "mac" / f"{NOM}.app"
     if app.parent.exists():
         shutil.rmtree(app.parent)
@@ -281,9 +286,9 @@ def paquet_mac(binaires, dossier_icone):
             "LSUIElement": True,
         }, f)
     lisez = CONSTRUCTION / "mac" / "Lisez-moi.txt"
-    lisez.write_text(LISEZ_MOI.format(version=VERSION, installation=INSTALLATION_MAC,
+    lisez.write_text(LISEZ_MOI.format(version=VERSION, installation=INSTALLATION_MAC, mention_roneos=mention,
                                       donnees="~/Library/Application Support/AtlasAnatomie"), encoding="utf-8")
-    sortie = DISTRIBUTION / "Atlas-anatomie-Mac.zip"
+    sortie = sorties / "Atlas-anatomie-Mac.zip"
     with zipfile.ZipFile(sortie, "w") as z:
         ajouter_dossier(z, app, f"{NOM}.app", executables={"atlas", "atlas-arm64", "atlas-amd64"})
         info = zipfile.ZipInfo("Lisez-moi.txt", date_time=(2026, 1, 1, 0, 0, 0))
@@ -306,7 +311,8 @@ def main():
     npm = shutil.which("npm") or echec("npm introuvable.", "installer Node.js.")
     lancer([npm, "run", "build", "--silent"], cwd=RACINE / "app")
     journal("OK", "Interface construite (app/dist).")
-    ressources()
+    partage = "--partage" in sys.argv
+    ressources(partage)
     dossier_icone = icone()
     # Icône et version intégrées à l'exe Windows (fichier .syso lu automatiquement par go build)
     lancer([go, "run", "github.com/tc-hib/go-winres@v0.3.3", "simply", "--icon", str(dossier_icone / "icone.png"),
@@ -322,9 +328,13 @@ def main():
         compiler(go, f"darwin/{archi}", binaires / f"atlas-darwin-{archi}", commun)
     for f in LANCEUR.glob("rsrc_windows_*.syso"):
         f.unlink()
-    paquet_windows(binaires / "atlas-windows-amd64.exe", dossier_icone)
-    paquet_mac({"arm64": binaires / "atlas-darwin-arm64", "amd64": binaires / "atlas-darwin-amd64"}, dossier_icone)
-    journal("OK", f"Appli {VERSION} prête dans {DISTRIBUTION.relative_to(RACINE)}/.")
+    sorties = DISTRIBUTION / "partage" if partage else DISTRIBUTION
+    mention = MENTION_PARTAGE if partage else MENTION_PERSO
+    paquet_windows(binaires / "atlas-windows-amd64.exe", dossier_icone, sorties, mention)
+    paquet_mac({"arm64": binaires / "atlas-darwin-arm64", "amd64": binaires / "atlas-darwin-amd64"}, dossier_icone,
+               sorties, mention)
+    journal("OK", f"Appli {VERSION} prête dans {sorties.relative_to(RACINE)}/"
+            + (" (version à partager, sans ronéos)." if partage else " (usage personnel, ronéos comprises : ne pas diffuser)."))
 
 
 if __name__ == "__main__":

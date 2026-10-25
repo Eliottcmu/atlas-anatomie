@@ -4,6 +4,8 @@ import (
 	"database/sql"
 	"encoding/json"
 	"errors"
+	"fmt"
+	"html"
 	"net/http"
 	"os"
 	"path/filepath"
@@ -395,7 +397,14 @@ func (s *Serveur) roneo(w http.ResponseWriter, r *http.Request) {
 	}
 	chemin := trouverPDF(s.chemins.Roneos, src.Fichier)
 	if chemin == "" {
-		refuser(w, 404, "Ronéo absente : "+src.Fichier+".pdf")
+		// Version à partager : les ronéos (documents de cours personnels) n'y sont pas. Page lisible,
+		// ouverte dans un nouvel onglet par le lien de la fiche.
+		w.Header().Set("Content-Type", "text/html; charset=utf-8")
+		fmt.Fprintf(w, `<!doctype html><html lang="fr"><meta charset="utf-8"><title>Ronéo non incluse</title>
+<body style="font-family:system-ui,sans-serif;max-width:36em;margin:4em auto;padding:0 1em;line-height:1.5;color:#222">
+<h1 style="font-size:1.4em">Ronéo non incluse</h1>
+<p>Cette fiche cite <strong>%s</strong>. Les ronéos sont des documents de cours : elles ne sont pas fournies avec cette version de l'atlas.</p>
+<p>Si tu as ce cours, ouvre-le à la page indiquée dans la fiche.</p></body></html>`, html.EscapeString(src.Titre))
 		return
 	}
 	w.Header().Set("Content-Type", "application/pdf")

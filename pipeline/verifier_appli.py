@@ -5,7 +5,8 @@ lancer un exécutable Apple Silicon), Info.plist valide, droits d'exécution con
 de démarrage aux fins de ligne Unix, ressources présentes.
 Windows : exécutable PE en sous-système graphique (pas de console), icône intégrée, ressources présentes.
 
-Usage : python -I pipeline/verifier_appli.py
+Usage : python -I pipeline/verifier_appli.py [--partage]
+  --partage : paquets à diffuser (distribution/partage/), qui ne doivent contenir aucune ronéo
 """
 
 import plistlib
@@ -15,7 +16,8 @@ import zipfile
 from pathlib import Path
 
 RACINE = Path(__file__).resolve().parent.parent
-DISTRIBUTION = RACINE / "distribution"
+PARTAGE = "--partage" in sys.argv
+DISTRIBUTION = RACINE / "distribution" / ("partage" if PARTAGE else "")
 NOM = "Atlas d'anatomie"
 echecs = 0
 
@@ -79,6 +81,13 @@ def verifier_windows():
     verifier(f"{NOM}/Lisez-moi.txt" in noms, "mode d'emploi présent")
 
 
+def verifier_sans_roneos():
+    """Version à partager : les ronéos (documents de cours d'Eliott) ne doivent jamais être diffusées."""
+    for paquet in ("Atlas-anatomie-Mac.zip", "Atlas-anatomie-Windows.zip"):
+        pdf = [n for n in zipfile.ZipFile(DISTRIBUTION / paquet).namelist() if n.lower().endswith(".pdf")]
+        verifier(not pdf, f"{paquet} : aucune ronéo" + (f" ({len(pdf)} PDF trouvés, NE PAS PUBLIER)" if pdf else ""))
+
+
 def main():
     # Console Windows : accents lisibles quel que soit le code de page
     sys.stdout.reconfigure(encoding="utf-8")
@@ -86,6 +95,9 @@ def main():
     verifier_mac()
     print("--- Windows")
     verifier_windows()
+    if PARTAGE:
+        print("--- Version à partager")
+        verifier_sans_roneos()
     print(f"[{'FAIL' if echecs else 'OK'}] {echecs or 'aucune'} anomalie{'s' if echecs > 1 else ''}.")
     sys.exit(1 if echecs else 0)
 
