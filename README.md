@@ -16,7 +16,37 @@ Choisis la version de ton ordinateur :
 
 Les deux liens téléchargent toujours la dernière version. Toutes les versions sont sur la page [Versions](https://github.com/Eliottcmu/atlas-anatomie/releases).
 
+Le plus simple est souvent l'**installation en une commande** décrite plus bas : elle télécharge, installe, crée les raccourcis et évite l'avertissement de sécurité du premier lancement.
+
+## Configuration requise
+
+| | Windows | Mac |
+| --- | --- | --- |
+| Système | Windows 10 ou 11, 64 bits | macOS 11 (Big Sur) ou plus récent, puce Apple (M1, M2...) ou Intel |
+| Navigateur | Microsoft Edge, déjà présent sur tout Windows 10 et 11 | Chrome ou Edge conseillés ; sinon Safari 15 ou plus récent |
+| Mémoire | 8 Go conseillés (4 Go au minimum) | 8 Go conseillés (4 Go au minimum) |
+| Place sur le disque | Environ 60 Mo, plus quelques Mo pour ta progression | Environ 60 Mo, plus quelques Mo pour ta progression |
+| Carte graphique | Compatible WebGL 2 : c'est le cas de presque tout ordinateur depuis 2015 | Tous les Mac compatibles avec macOS 11 |
+| Internet | Seulement pour télécharger l'atlas | Seulement pour télécharger l'atlas |
+
+Il faut un ordinateur avec souris ou pavé tactile et un clavier : l'atlas n'est pas prévu pour tablette ni téléphone. Aucun droit administrateur n'est nécessaire.
+
 ## Installer et ouvrir sur Windows
+
+### Méthode simple : une commande (recommandée)
+
+1. Ouvre le menu **Démarrer**, tape `PowerShell`, puis appuie sur **Entrée**. Une fenêtre bleue ou noire s'ouvre.
+2. Copie la ligne ci-dessous (bouton de copie à droite du cadre), colle-la dans cette fenêtre avec un **clic droit**, puis appuie sur **Entrée** :
+
+   ```
+   irm https://raw.githubusercontent.com/Eliottcmu/atlas-anatomie/main/installation/installer-windows.ps1 | iex
+   ```
+
+3. Attends le message « C'est prêt » : l'atlas s'ouvre tout seul. Tu peux fermer la fenêtre PowerShell.
+
+L'atlas est installé dans ton dossier personnel, avec un raccourci sur le **Bureau** et dans le menu **Démarrer**, sans écran d'avertissement de Windows. Pour le **mettre à jour**, relance la même commande : ta progression est gardée. Le script est lisible ici : [installation/installer-windows.ps1](installation/installer-windows.ps1).
+
+### Méthode manuelle
 
 1. Clique sur **Télécharger pour Windows**. Le fichier `Atlas-anatomie-Windows.zip` arrive dans ton dossier **Téléchargements**.
 2. Fais un **clic droit** sur ce fichier, puis **Extraire tout...**, puis **Extraire**. Un dossier « Atlas d'anatomie » apparaît.
@@ -29,6 +59,21 @@ Les deux liens téléchargent toujours la dernière version. Toutes les versions
 Astuce : pour le retrouver facilement, fais un clic droit sur « Atlas d'anatomie », **Afficher d'autres options**, **Envoyer vers**, **Bureau (créer un raccourci)**.
 
 ## Installer et ouvrir sur Mac
+
+### Méthode simple : une commande (recommandée)
+
+1. Ouvre le **Terminal** : appuie sur **Cmd + Espace**, tape `Terminal`, puis appuie sur **Entrée**.
+2. Copie la ligne ci-dessous (bouton de copie à droite du cadre), colle-la dans le Terminal avec **Cmd + V**, puis appuie sur **Entrée** :
+
+   ```
+   curl -fsSL https://raw.githubusercontent.com/Eliottcmu/atlas-anatomie/main/installation/installer-mac.sh | sh
+   ```
+
+3. Attends le message « C'est prêt » : l'atlas s'ouvre tout seul. Tu peux fermer le Terminal.
+
+L'atlas est installé dans le dossier **Applications** (il apparaît aussi dans le Launchpad), sans avertissement de sécurité du Mac. Pour le **mettre à jour**, relance la même commande : ta progression est gardée. Le script est lisible ici : [installation/installer-mac.sh](installation/installer-mac.sh).
+
+### Méthode manuelle
 
 1. Clique sur **Télécharger pour Mac**. Le fichier arrive dans ton dossier **Téléchargements** ; en général, le Mac le décompresse tout seul. Sinon, double-clique sur `Atlas-anatomie-Mac.zip`.
 2. Fais glisser **Atlas d'anatomie** dans le dossier **Applications** (dans le Finder, colonne de gauche).
@@ -54,7 +99,8 @@ Au premier lancement, une courte visite guidée présente l'essentiel.
 - **Tes progrès sont gardés sur ton ordinateur**, en dehors de l'application. Tu peux remplacer l'atlas par une nouvelle version sans rien perdre.
 - **Les fiches sont des brouillons** rédigés par une intelligence artificielle (Claude) à partir de cours de médecine. Chaque fiche indique ce qui vient du cours et ce qui est « hors ronéos, à vérifier ». **Vérifie-les toujours avec ton propre cours** avant de les apprendre.
 - **Les ronéos (supports de cours) ne sont pas fournies** : ce sont des documents de cours. Les fiches citent le cours et la page ; si tu as ce cours, ouvre-le à la page indiquée.
-- **Mettre à jour** : télécharge la nouvelle version, remplace l'ancienne (Windows : le dossier « Atlas d'anatomie » ; Mac : l'application dans Applications). Tes progrès restent.
+- **Mettre à jour** : relance la commande d'installation. Si tu as installé à la main, télécharge la nouvelle version et remplace l'ancienne (Windows : le dossier « Atlas d'anatomie » ; Mac : l'application dans Applications). Tes progrès restent.
+- **Désinstaller** : Windows, supprime le dossier `%LOCALAPPDATA%\Programs\Atlas d'anatomie` (ou le dossier que tu avais décompressé) et ses raccourcis ; Mac, mets « Atlas d'anatomie » à la corbeille depuis Applications. Ta progression reste dans le dossier indiqué ci-dessous : supprime-le aussi pour tout effacer.
 - **En cas de problème** : un fichier `journal.txt` explique ce qui s'est passé. Il se trouve dans `%LOCALAPPDATA%\AtlasAnatomie` sous Windows (colle ce chemin dans la barre d'adresse de l'Explorateur) et dans `~/Library/Application Support/AtlasAnatomie` sur Mac (Finder, menu **Aller**, **Aller au dossier...**).
 
 ## Ce que contient l'atlas
@@ -69,6 +115,29 @@ Au premier lancement, une courte visite guidée présente l'essentiel.
 ## Pour les développeurs
 
 Application locale, sans connexion : lanceur Go (SQLite intégré, API des fiches et des révisions FSRS) qui sert une interface Vite, TypeScript et three.js. Plan complet : [docs/plan.md](docs/plan.md). Conventions : [CLAUDE.md](CLAUDE.md).
+
+### Prérequis
+
+Développement fait et testé sous Windows 11 ; les paquets Mac sont produits par compilation croisée depuis Windows.
+
+| Outil | Version | Sert à | Installation |
+| --- | --- | --- | --- |
+| Python | 3.12 | pipeline de données, construction des paquets | `winget install Python.Python.3.12` |
+| numpy, scipy, Pillow | voir [requirements.txt](requirements.txt) | géométrie, recalage, icônes | automatique (ci-dessous) |
+| Node.js | 22.11 ou plus récent | interface (Vite 6), tests | `winget install OpenJS.NodeJS.LTS` |
+| Dépendances de l'interface | voir `app/package-lock.json` | Vite, three.js, Playwright | automatique (`npm ci`) |
+| Go | 1.27 | lanceur de l'appli (Windows et Mac) | automatique (Go portable, empreinte vérifiée) |
+| Microsoft Edge | récent | tests de l'interface (Playwright) | présent sous Windows |
+| Git | récent | versionnement ; fournit aussi `pdftotext` | `winget install Git.Git` |
+| Blender | 5.2 | facultatif : régénérer les structures et légendes de Z-Anatomy | `winget install BlenderFoundation.Blender` |
+
+Vérifier et installer d'un coup ce qui peut l'être (paquets Python, dépendances de l'interface, Go portable dans `%LOCALAPPDATA%\AtlasAnatomie\outils\go`) :
+
+```
+python -I pipeline/verifier_outils.py --installer
+```
+
+Sans `--installer`, le script fait seulement le bilan. Les modèles 3D (`modeles/*.glb`) et les sources brutes ne sont pas versionnés : sur un dépôt neuf, les régénérer avec le pipeline (section suivante ; Blender requis pour la partie Z-Anatomy). Les ronéos, personnelles, ne sont jamais versionnées : la version à partager s'en passe.
 
 ### Construire les paquets
 
@@ -93,9 +162,8 @@ Phase 0, socle de données : inventaire de couverture 3D ([rapports/rapport_couv
 
 ### Reproduire les données
 
-Python 3.12 avec numpy ; Node.js pour la compression des GLB ; Blender 5.2 pour Z-Anatomy.
-
 ```
+python -I pipeline/verifier_outils.py --installer  # outils en place
 python -I pipeline/telecharger_sources.py      # environ 270 Mo, une seule fois
 python -I pipeline/extraire_noms_secours.py    # noms disponibles dans Z-Anatomy et le Human Reference Atlas
 python -I pipeline/libelles_wikidata.py        # identifiants FMA et libellés français (connexion requise)
@@ -134,6 +202,8 @@ cd lanceur && go test ./...                      # FSRS et API des révisions (G
 | `donnees/roneos/` | Ronéos déposées par Eliott (PDF), sources des fiches, hors git |
 | `donnees/fiches/brouillons/*.json` | Brouillons de fiches rédigés par Claude, chaque champ sourcé (ronéo, pages) |
 | `lanceur/` | Lanceur en Go : sert l'atlas, API des fiches, SQLite intégré ; un exécutable par système |
+| `installation/` | Scripts d'installation et de mise à jour en une commande (Windows et Mac), qui téléchargent la dernière version publiée |
+| `requirements.txt`, `pipeline/verifier_outils.py` | Paquets Python du pipeline ; bilan et installation des outils de développement |
 | `lanceur/schema.sql` | Schéma de la base, commun au lanceur et au pipeline |
 | `app/` | Interface : Vite 6, TypeScript, three.js ; `src/` le code, `tests/` les tests Playwright |
 | `app/public/donnees/atlas.json` | Données de l'interface, générées par `pipeline/construire_atlas.py` |

@@ -1,0 +1,4 @@
+# Paquets Python du pipeline (Python 3.12) ; installer avec : python -I pipeline/verifier_outils.py --installer
+numpy==2.2.6
+scipy==1.16.2
+Pillow==11.3.0

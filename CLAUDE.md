@@ -53,6 +53,9 @@ Appli locale d'apprentissage de l'anatomie sur modèle 3D, avec révisions espac
 - Le schéma SQL est unique : `lanceur/schema.sql`, lu par pipeline/base.py et intégré au lanceur.
 - Construire : `python -I pipeline/construire_appli.py` (paquets) ou `--dev` (graine et lanceur de développement pour les tests). Vérifier : `pipeline/verifier_appli.py`, `npm run test:appli`.
 - Le paquet macOS n'a jamais tourné sur un vrai Mac depuis ce poste : seules ses propriétés sont vérifiées.
+- Diffusion : `construire_appli.py --partage` (paquets SANS ronéos, `distribution/partage/`), vérifiés par `verifier_appli.py --partage` et `node tests/appli.mjs --partage`, puis publiés en version GitHub (`gh release create`). Ne jamais publier `distribution/` (ronéos comprises). Les liens du README et les scripts `installation/` visent `releases/latest/download/` : ils ne marchent pour autrui que si le dépôt est public.
+- `installation/installer-windows.ps1` (lancé par `irm | iex` : UTF-8 sans BOM, pas de bloc param) et `installation/installer-mac.sh` (fins de ligne LF, `.gitattributes`) : installent ou mettent à jour, ferment l'atlas ouvert par `POST /api/quitter`. Téléchargés par PowerShell ou curl, les paquets échappent à SmartScreen et Gatekeeper. Tests locaux : variables `ATLAS_ZIP`, `ATLAS_DOSSIER`, `ATLAS_DONNEES`, `ATLAS_SANS_LANCER`, `ATLAS_SANS_RACCOURCIS`.
+- Outils de développement : `python -I pipeline/verifier_outils.py [--installer]` (paquets Python de `requirements.txt`, `npm ci`, Go portable vérifié par SHA-256).
 - Les fichiers des zip ont tous la même date : le lanceur ne doit jamais répondre « non modifié » (sinon la fenêtre garde la page de la version précédente). Seul `/assets/` (noms à empreinte) est mis en cache.
 
 ## Blender

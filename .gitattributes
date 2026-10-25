@@ -1,0 +1,2 @@
+# Scripts lus par sh (macOS, curl | sh) : fins de ligne Unix quoi qu'il arrive
+*.sh text eol=lf
