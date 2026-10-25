@@ -18,6 +18,10 @@ Similitude globale sur 69 os : écart médian 9.7 mm. Recalage local par groupe 
 | coccyx | 3 | 9.72 | 2.78 | ICP local |
 | osselets-droits | 1 | 3.19 | 2.68 | ICP local |
 | osselets-gauches | 1 | 3.19 | 2.71 | ICP local |
+| muscles-tete | 12 | 3.84 | 3.53 | ICP local |
+| muscles-cou | 7 | 3.65 | 2.87 | ICP local |
+| muscles-abdomen | 2 | 6.2 | 3.51 | ICP local |
+| muscles-dos | 32 | 6.7 | 6.08 | ICP local |
 | os : tête et cou | 15 | 3.97 | 3.42 | ICP local |
 | os : thorax | 24 | 5.85 | 5.21 | ICP local |
 | os : membre supérieur droit | 5 | 7.32 | 2.13 | ICP local |
@@ -26,9 +30,9 @@ Similitude globale sur 69 os : écart médian 9.7 mm. Recalage local par groupe 
 | os : membre inférieur droit | 4 | 6.17 | 4.24 | ICP local |
 | os : membre inférieur gauche | 4 | 6.15 | 4.19 | ICP local |
 
-**284 objets importés** : abdomen 5, cervelet 31, coccyx 1, encephale 74, endocrines 3, lymphatiques 135, moelle 5, oreilles 8, osselets-droits 3, osselets-gauches 3, pharynx 10, poumons 6.
+**298 objets importés** : abdomen 5, cervelet 31, coccyx 1, encephale 74, endocrines 3, lymphatiques 123, moelle 5, muscles-abdomen 10, muscles-cou 1, muscles-dos 6, muscles-tete 12, oreilles 8, osselets-droits 3, osselets-gauches 3, pharynx 7, poumons 6.
 
-**67 objets écartés**, déjà présents dans BodyParts3D (60 % de leur surface à moins de 2 mm) :
+**83 objets écartés**, déjà présents dans BodyParts3D (60 % de leur surface à moins de 2 mm) :
 
 - Ampulla of lacrimal canaliculus.l : left lacrimal sac
 - Ampulla of lacrimal canaliculus.r : right lacrimal sac
@@ -55,10 +59,14 @@ Similitude globale sur 69 os : écart médian 9.7 mm. Recalage local par groupe 
 - Inferior tracheobronchial nodes : right main bronchus proper
 - Intraparietal sulcus.l : left superior parietal lobule
 - Intraparietal sulcus.r : right superior parietal lobule
+- Laryngopharynx : left palatopharyngeus
 - Lat_Fis-post.l : left supramarginal gyrus
 - Lat_Fis-post.r : right supramarginal gyrus
+- Longus colli muscle.l : superior oblique part of left longus colli
 - Mamillary body.l : mammillary body
 - Mamillary body.r : mammillary body
+- Mastoid nodes.l : left sternocleidomastoid
+- Mastoid nodes.r : right sternocleidomastoid
 - Occipitotemporal sulcus (Lateral part*).l : white matter of left cerebral hemisphere
 - Occipitotemporal sulcus (Lateral part*).r : right middle temporal gyrus
 - Olfactory sulcus.l : white matter of left cerebral hemisphere
@@ -66,10 +74,13 @@ Similitude globale sur 69 os : écart médian 9.7 mm. Recalage local par groupe 
 - Olive.l : medulla oblongata
 - Opercular part of inferior frontal gyrus.l : left inferior frontal gyrus
 - Opercular part of inferior frontal gyrus.r : right inferior frontal gyrus
+- Oropharynx : right superior pharyngeal constrictor
 - Paracentral gyrus and sulcus*.l : left precentral gyrus
 - Paracentral gyrus and sulcus*.r : right precentral gyrus
 - Paracentral sulcus.l : white matter of left cerebral hemisphere
 - Paracentral sulcus.r : white matter of right cerebral hemisphere
+- Parasternal nodes.l : left transversus thoracis
+- Parasternal nodes.r : right transversus thoracis
 - Parieto-occipital sulcus.l : white matter of left cerebral hemisphere
 - Parieto-occipital sulcus.r : white matter of right cerebral hemisphere
 - Postcentral sulcus.l : left postcentral gyrus
@@ -81,8 +92,12 @@ Similitude globale sur 69 os : écart médian 9.7 mm. Recalage local par groupe 
 - Precentral sulcus (inferior part)*.l : white matter of left cerebral hemisphere
 - Precuneus.l : left superior parietal lobule
 - Precuneus.r : right superior parietal lobule
+- Pretracheal nodes.l : left sternohyoid
+- Pretracheal nodes.r : right sternohyoid
 - Retina.l : optic part of left retina
 - Retina.r : right choroid
+- Retropharyngeal nodes.l : left salpingopharyngeus
+- Retropharyngeal nodes.r : right superior pharyngeal constrictor
 - Right colic nodes : taenia mesocolica
 - Septal nuclei : lamina terminalis
 - Septum pellucidum : septum of telencephalon
@@ -90,13 +105,18 @@ Similitude globale sur 69 os : écart médian 9.7 mm. Recalage local par groupe 
 - Straight gyrus (Gyrus rectus).r : orbital gyrus
 - Stria medullaris thalami.l : left thalamus
 - Stria medullaris thalami.r : third ventricle
+- Submental nodes.l : left platysma
+- Submental nodes.r : right platysma
 - Subparietal sulcus.l : left superior parietal lobule
 - Subparietal sulcus.r : right superior parietal lobule
 - Sulcus interm_prim-Jensen.l : white matter of left cerebral hemisphere
 - Sulcus interm_prim-Jensen.r : right angular gyrus
+- Thyroid nodes.l : left thyrohyoid
+- Thyroid nodes.r : right thyrohyoid
 - Transverse frontopolar gyrus and sulcus*.r : right superior frontal gyrus
 - Transverse occipital sulcus.l : white matter of left cerebral hemisphere
 - Transverse occipital sulcus.r : white matter of right cerebral hemisphere
+- Uvula of palate : uvular muscle
 
 **3 maillages BodyParts3D remplacés** par des parties plus fines :
 

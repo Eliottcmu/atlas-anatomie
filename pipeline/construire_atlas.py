@@ -42,7 +42,7 @@ CALQUES = [
     {"id": "os", "nom": "Os", "couleur": "#ede5cc", "touche": "O", "visible": True, "repere": True,
      "fichiers": ["bp3d_os.glb", "zanatomy_os.glb"]},
     {"id": "muscles", "nom": "Muscles", "couleur": "#8c382e", "touche": "M", "visible": False,
-     "fichiers": ["bp3d_muscles.glb"]},
+     "fichiers": ["bp3d_muscles.glb", "zanatomy_muscles.glb"]},
     {"id": "autres", "nom": "Organes et autres", "couleur": "#d9b399", "touche": "R", "visible": False,
      "fichiers": ["bp3d_autres.glb", "zanatomy_organes.glb"]},
 ]
@@ -299,7 +299,30 @@ def main():
                          "source": "Z-Anatomy (CC BY-SA 4.0), recalé sur BodyParts3D"}
         if l["rendu"]:
             noeuds[objet]["rendu"] = l["rendu"]
-    extra = json.loads(ORGANES_ZA.read_text(encoding="utf-8")) if ORGANES_ZA.exists() else {}
+    # Objets Z-Anatomy désignés dans la liste (colonne zanatomy, noms sans côté) : muscles absents de
+    # BodyParts3D (masséter) ou complétés (parties du trapèze, long du cou droit)
+    for i, l in liste.items():
+        voulus = {n.strip() for n in (l.get("zanatomy") or "").split("|") if n.strip()}
+        if not voulus:
+            continue
+        trouves = [o for o in objets_org if re.sub(r"\.[lr]$", "", o) in voulus]
+        if not trouves:
+            journal("WARN", f"{i} ({l['nom_fr']}) : objets Z-Anatomy {', '.join(sorted(voulus))} non importés. "
+                    "Conséquence : structure sans ces maillages. Action : les ajouter à un groupe de "
+                    "pipeline/organes_zanatomy.py.")
+        for o in sorted(trouves):
+            noeuds[o]["structure"] = i
+            if noeuds[o]["cote"] is None and re.search(r"\.[lr]$", o):
+                noeuds[o]["cote"] = "droit" if o.endswith(".r") else "gauche"
+            structures[i]["noeuds"].append(o)
+    # Muscle entier (pas un chef ni une partie) : nom de la liste, celui des ronéos. Les nœuds des muscles
+    # restent non « propres » : tous comptent pour leur structure (localiser, clic), chefs compris
+    for k, n in noeuds.items():
+        i = n["structure"]
+        if i and liste[i]["systeme"] not in ("artère", "veine") and \
+                re.sub(r" muscle$", "", normaliser(n["nom_en"])) == normaliser(liste[i]["nom_fma_en"]):
+            n["nom"], n["source_nom"] = liste[i]["nom_fr"], "liste noyau"
+    extra =json.loads(ORGANES_ZA.read_text(encoding="utf-8")) if ORGANES_ZA.exists() else {}
     for fj in extra.get("doublons_bp3d", []):
         if fj in noeuds:
             noeuds[fj]["doublon"] = True

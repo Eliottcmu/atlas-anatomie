@@ -1,0 +1,119 @@
+﻿id;nom_fr;synonymes_fr;nom_fma_en;fma_id;systeme;region;cote;niveau;remarque;parties_fma;zanatomy
+M001;muscle masséter;masséter;masseter;FMA48996;muscle;Tête et cou;bilatéral;noyau;Absent de BodyParts3D : modèle Z-Anatomy.;;Superficial part of masseter|Deep part of masseter
+M002;muscle temporal;temporal;temporalis;FMA49006;muscle;Tête et cou;bilatéral;noyau;Absent de BodyParts3D : modèle Z-Anatomy.;;Temporalis muscle
+M003;muscle ptérygoïdien latéral;ptérygoïdien latéral;lateral pterygoid;FMA49015;muscle;Tête et cou;bilatéral;approfondissement;Absent de BodyParts3D : modèle Z-Anatomy. Non cité dans les ronéos UE10.;;Superior head of lateral pterygoid muscle|Inferior head of lateral pterygoid muscle
+M004;muscle ptérygoïdien médial;ptérygoïdien médial;medial pterygoid;FMA49011;muscle;Tête et cou;bilatéral;approfondissement;Absent de BodyParts3D : modèle Z-Anatomy. Non cité dans les ronéos UE10.;;Medial pterygoid muscle
+M005;muscle sterno-cléido-mastoïdien;sterno-cléido-mastoïdien;sternocleidomastoid;FMA13407;muscle;Tête et cou;bilatéral;noyau;;;
+M006;muscle scalène antérieur;scalène antérieur;scalenus anterior;FMA13385;muscle;Tête et cou;bilatéral;noyau;;;
+M007;muscle scalène moyen;scalène moyen;scalenus medius;FMA13386;muscle;Tête et cou;bilatéral;noyau;;;
+M008;muscle scalène postérieur;scalène postérieur;scalenus posterior;FMA13387;muscle;Tête et cou;bilatéral;noyau;;;
+M009;muscle digastrique;digastrique;digastric;FMA46291;muscle;Tête et cou;bilatéral;noyau;;;
+M010;muscle stylo-hyoïdien;stylo-hyoïdien;stylohyoid;FMA9625;muscle;Tête et cou;bilatéral;noyau;;;
+M011;muscle mylo-hyoïdien;mylo-hyoïdien;mylohyoid;FMA46320;muscle;Tête et cou;bilatéral;noyau;;;
+M012;muscle génio-hyoïdien;génio-hyoïdien;geniohyoid;FMA46325;muscle;Tête et cou;bilatéral;noyau;;;
+M013;muscle sterno-hyoïdien;sterno-hyoïdien;sternohyoid;FMA13341;muscle;Tête et cou;bilatéral;noyau;;;
+M014;muscle omo-hyoïdien;omo-hyoïdien;omohyoid;FMA13342;muscle;Tête et cou;bilatéral;noyau;;;
+M015;muscle sterno-thyroïdien;sterno-thyroïdien;sternothyroid;FMA13343;muscle;Tête et cou;bilatéral;noyau;;;
+M016;muscle thyro-hyoïdien;thyro-hyoïdien;thyrohyoid;FMA13344;muscle;Tête et cou;bilatéral;noyau;;;
+M017;muscle platysma;platysma;platysma;FMA45738;muscle;Tête et cou;bilatéral;approfondissement;Hors liste du plan, cité dans le fascia superficiel du cou (UE10 9 p.25).;;
+M018;muscle long du cou;long du cou;longus colli;FMA13370;muscle;Tête et cou;bilatéral;approfondissement;Hors liste du plan, muscle pré-vertébral cité en UE10 9. BodyParts3D n'a que le côté gauche (trois parties) : côté droit pris dans Z-Anatomy.;FMA46284|FMA46286|FMA46288;Longus colli muscle
+M019;muscle splénius de la tête;splénius de la tête;splenius capitis;FMA22653;muscle;Tête et cou;bilatéral;approfondissement;Hors liste du plan, cité en UE10 9 et 10.;;
+M020;diaphragme;muscle diaphragme;diaphragm;FMA13295;muscle;Tronc;unique;noyau;;;
+M021;muscle intercostal externe;intercostaux externes;external intercostal muscle;FMA9756;muscle;Tronc;unique;noyau;;;
+M022;muscle intercostal interne;intercostaux internes;internal intercostal muscle;FMA9757;muscle;Tronc;unique;noyau;;;
+M023;muscle intercostal intime;intercostaux intimes;innermost intercostal muscle;FMA9758;muscle;Tronc;unique;noyau;;;
+M024;muscle droit de l'abdomen;droit de l'abdomen;rectus abdominis;FMA9628;muscle;Tronc;bilatéral;noyau;Absent de BodyParts3D : modèle Z-Anatomy.;;Rectus abdominis muscle
+M025;muscle oblique externe de l'abdomen;oblique externe;external oblique;FMA13335;muscle;Tronc;bilatéral;noyau;;;
+M026;muscle oblique interne de l'abdomen;oblique interne;abdominal internal oblique;FMA13891;muscle;Tronc;bilatéral;noyau;Absent de BodyParts3D : modèle Z-Anatomy.;;Internal abdominal oblique muscle
+M027;muscle transverse de l'abdomen;transverse de l'abdomen;transversus abdominis;FMA15570;muscle;Tronc;bilatéral;noyau;Absent de BodyParts3D : modèle Z-Anatomy.;;Transversus abdominis muscle
+M028;muscle carré des lombes;carré des lombes;quadratus lumborum;FMA15569;muscle;Tronc;bilatéral;noyau;Absent de BodyParts3D : modèle Z-Anatomy.;;Quadratus lumborum muscle
+M029;muscle trapèze;trapèze;trapezius;FMA9626;muscle;Tronc;bilatéral;noyau;BodyParts3D n'a que la partie transverse : parties descendante et ascendante prises dans Z-Anatomy.;FMA33584|FMA33585;Descending part of trapezius muscle|Ascending part of trapezius muscle
+M030;muscle grand dorsal;grand dorsal;latissimus dorsi;FMA13357;muscle;Tronc;bilatéral;noyau;Absent de BodyParts3D : modèle Z-Anatomy.;;Latissimus dorsi muscle
+M031;muscle grand rhomboïde;grand rhomboïde;rhomboid major;FMA13379;muscle;Tronc;bilatéral;noyau;;;
+M032;muscle petit rhomboïde;petit rhomboïde;rhomboid minor;FMA13380;muscle;Tronc;bilatéral;noyau;;;
+M033;muscle élévateur de la scapula;élévateur de la scapula;levator scapulae;FMA32519;muscle;Tronc;bilatéral;noyau;;;
+M034;muscle iliocostal;ilio-costal;iliocostalis;FMA77177;muscle;Tronc;bilatéral;noyau;Érecteur du rachis.;;
+M035;muscle longissimus;longissimus;longissimus;FMA77178;muscle;Tronc;bilatéral;noyau;Érecteur du rachis.;;
+M036;muscle épineux;épineux;spinalis;FMA77179;muscle;Tronc;bilatéral;noyau;Érecteur du rachis.;;
+M037;muscle dentelé postérieur et supérieur;dentelé postérieur supérieur;serratus posterior superior;FMA13401;muscle;Tronc;bilatéral;approfondissement;Hors liste du plan, cité en UE10 10 p.16.;;
+M038;muscle dentelé postérieur et inférieur;dentelé postérieur inférieur;serratus posterior inferior;FMA13402;muscle;Tronc;bilatéral;approfondissement;Hors liste du plan, cité en UE10 10 p.16.;;
+M039;muscle transverse du thorax;transverse du thorax;transversus thoracis;FMA9760;muscle;Tronc;bilatéral;approfondissement;Non cité dans les ronéos UE10.;;
+M040;muscle deltoïde;deltoïde;deltoid;FMA32521;muscle;Membre supérieur;bilatéral;noyau;BodyParts3D en trois parties : claviculaire, acromiale, spinale.;FMA34680|FMA34681|FMA34682|FMA34683|FMA34684|FMA34685;
+M041;muscle supra-épineux;supra-épineux;supraspinatus;FMA9629;muscle;Membre supérieur;bilatéral;noyau;;;
+M042;muscle infra-épineux;infra-épineux;infraspinatus;FMA32546;muscle;Membre supérieur;bilatéral;noyau;;;
+M043;muscle petit rond;petit rond;teres minor;FMA32550;muscle;Membre supérieur;bilatéral;noyau;;;
+M044;muscle sub-scapulaire;subscapulaire;subscapularis;FMA13413;muscle;Membre supérieur;bilatéral;noyau;"Orthographe des ronéos UE10 (sub-scapulaire) ; « subscapulaire » dans MB25 et MB26.";;
+M045;muscle grand rond;grand rond;teres major;FMA32549;muscle;Membre supérieur;bilatéral;noyau;;;
+M046;muscle grand pectoral;grand pectoral;pectoralis major;FMA9627;muscle;Membre supérieur;bilatéral;noyau;BodyParts3D en trois parties : claviculaire, sterno-costale, abdominale.;FMA34690|FMA34691|FMA45874|FMA45875|FMA79979|FMA79980;
+M047;muscle petit pectoral;petit pectoral;pectoralis minor;FMA13109;muscle;Membre supérieur;bilatéral;noyau;;;
+M048;muscle sub-clavier;subclavier;subclavius;FMA13410;muscle;Membre supérieur;bilatéral;approfondissement;Hors liste du plan, cité en UE10 11 p.15 et 16c p.7.;;
+M049;muscle dentelé antérieur;dentelé antérieur;serratus anterior;FMA13397;muscle;Membre supérieur;bilatéral;noyau;;;
+M050;muscle biceps brachial;biceps brachial;biceps brachii;FMA37670;muscle;Membre supérieur;bilatéral;noyau;BodyParts3D en deux chefs, long et court.;FMA37684|FMA37685|FMA37686|FMA37687;
+M051;muscle coraco-brachial;coraco-brachial;coracobrachialis;FMA37664;muscle;Membre supérieur;bilatéral;noyau;;;
+M052;muscle brachial;brachial;brachialis;FMA37667;muscle;Membre supérieur;bilatéral;noyau;;;
+M053;muscle triceps brachial;triceps brachial;triceps brachii;FMA37688;muscle;Membre supérieur;bilatéral;noyau;BodyParts3D en trois chefs : long, médial, latéral.;FMA37695|FMA37696|FMA37697|FMA37698|FMA37699|FMA37700;
+M054;muscle anconé;anconé;anconeus;FMA37704;muscle;Membre supérieur;bilatéral;noyau;Cité dans les loges du coude et de l'avant-bras (UE10 14b p.15-16).;;
+M055;muscle brachio-radial;brachio-radial;brachioradialis;FMA38485;muscle;Membre supérieur;bilatéral;noyau;;;
+M056;muscle rond pronateur;rond pronateur;pronator teres;FMA38450;muscle;Membre supérieur;bilatéral;noyau;BodyParts3D en deux chefs, huméral et ulnaire.;FMA38560|FMA38561|FMA38562|FMA38563;
+M057;muscle fléchisseur radial du carpe;fléchisseur radial du carpe;flexor carpi radialis;FMA38459;muscle;Membre supérieur;bilatéral;noyau;;;
+M058;muscle long palmaire;long palmaire;palmaris longus;FMA38462;muscle;Membre supérieur;bilatéral;noyau;;;
+M059;muscle fléchisseur ulnaire du carpe;fléchisseur ulnaire du carpe;flexor carpi ulnaris;FMA38465;muscle;Membre supérieur;bilatéral;noyau;BodyParts3D en deux chefs, huméral et ulnaire.;FMA38617|FMA38618|FMA38619|FMA38620;
+M060;muscle fléchisseur superficiel des doigts;fléchisseur superficiel des doigts;flexor digitorum superficialis;FMA38469;muscle;Membre supérieur;bilatéral;noyau;;;
+M061;muscle fléchisseur profond des doigts;fléchisseur profond des doigts;flexor digitorum profundus;FMA38478;muscle;Membre supérieur;bilatéral;noyau;;;
+M062;muscle long fléchisseur du pouce;long fléchisseur du pouce;flexor pollicis longus;FMA38481;muscle;Membre supérieur;bilatéral;noyau;;;
+M063;muscle carré pronateur;carré pronateur;pronator quadratus;FMA38453;muscle;Membre supérieur;bilatéral;noyau;;;
+M064;muscle long extenseur radial du carpe;long extenseur radial du carpe;extensor carpi radialis longus;FMA38494;muscle;Membre supérieur;bilatéral;noyau;;;
+M065;muscle court extenseur radial du carpe;court extenseur radial du carpe;extensor carpi radialis brevis;FMA38497;muscle;Membre supérieur;bilatéral;noyau;;;
+M066;muscle extenseur des doigts;extenseur des doigts;extensor digitorum;FMA38500;muscle;Membre supérieur;bilatéral;noyau;;;
+M067;muscle extenseur du petit doigt;extenseur du petit doigt;extensor digiti minimi;FMA38503;muscle;Membre supérieur;bilatéral;noyau;;;
+M068;muscle extenseur ulnaire du carpe;extenseur ulnaire du carpe;extensor carpi ulnaris;FMA38506;muscle;Membre supérieur;bilatéral;noyau;;;
+M069;muscle supinateur;supinateur;supinator;FMA38512;muscle;Membre supérieur;bilatéral;noyau;;;
+M070;muscle long abducteur du pouce;long abducteur du pouce;abductor pollicis longus;FMA38515;muscle;Membre supérieur;bilatéral;noyau;;;
+M071;muscle court extenseur du pouce;court extenseur du pouce;extensor pollicis brevis;FMA38518;muscle;Membre supérieur;bilatéral;noyau;;;
+M072;muscle long extenseur du pouce;long extenseur du pouce;extensor pollicis longus;FMA38521;muscle;Membre supérieur;bilatéral;noyau;;;
+M073;muscle extenseur de l'index;extenseur de l'index;extensor indicis;FMA38524;muscle;Membre supérieur;bilatéral;noyau;;;
+M074;muscle court abducteur du pouce;court abducteur du pouce;abductor pollicis brevis;FMA37373;muscle;Membre supérieur;bilatéral;noyau;Groupe thénar.;;
+M075;muscle court fléchisseur du pouce;court fléchisseur du pouce;flexor pollicis brevis;FMA37378;muscle;Membre supérieur;bilatéral;noyau;Groupe thénar. BodyParts3D sépare le chef superficiel (concept distinct) du reste du muscle : les deux sont rattachés.;FMA37388|FMA37389|FMA65198|FMA65199;
+M076;muscle opposant du pouce;opposant du pouce;opponens pollicis;FMA37379;muscle;Membre supérieur;bilatéral;noyau;Groupe thénar.;;
+M077;muscle adducteur du pouce;adducteur du pouce;adductor pollicis;FMA37380;muscle;Membre supérieur;bilatéral;noyau;Groupe thénar. BodyParts3D en deux chefs, oblique et transverse.;FMA46121|FMA46122|FMA46123|FMA46124;
+M078;muscle abducteur du petit doigt;abducteur du petit doigt;abductor digiti minimi of hand;FMA37382;muscle;Membre supérieur;bilatéral;noyau;Groupe hypothénar.;;
+M079;muscle court fléchisseur du petit doigt;court fléchisseur du petit doigt;flexor digiti minimi brevis of hand;FMA37383;muscle;Membre supérieur;bilatéral;noyau;Groupe hypothénar.;;
+M080;muscle opposant du petit doigt;opposant du petit doigt;opponens digiti minimi of hand;FMA37384;muscle;Membre supérieur;bilatéral;noyau;Groupe hypothénar.;;
+M081;muscle grand fessier;grand glutéal;gluteus maximus;FMA22314;muscle;Membre inférieur;bilatéral;noyau;"Nom des ronéos UE10 (13b, 16b) ; « grand glutéal » dans MB26 p.14.";;
+M082;muscle moyen fessier;moyen glutéal;gluteus medius;FMA22315;muscle;Membre inférieur;bilatéral;noyau;"Nom des ronéos UE10 (13b, 16b) ; « moyen glutéal » dans MB26 p.14.";;
+M083;muscle petit fessier;petit glutéal;gluteus minimus;FMA22317;muscle;Membre inférieur;bilatéral;noyau;"Nom des ronéos UE10 (13b, 16b) ; « petit glutéal » dans MB26 p.14.";;
+M084;muscle piriforme;piriforme;piriformis;FMA19082;muscle;Membre inférieur;bilatéral;noyau;;;
+M085;muscle obturateur interne;obturateur interne;obturator internus;FMA22298;muscle;Membre inférieur;bilatéral;approfondissement;Hors liste du plan, pelvi-trochantérien cité en UE10 13b p.12.;;
+M086;muscle obturateur externe;obturateur externe;obturator externus;FMA22299;muscle;Membre inférieur;bilatéral;approfondissement;Hors liste du plan, pelvi-trochantérien cité en UE10 13b p.12.;;
+M087;muscle jumeau supérieur;jumeau supérieur;gemellus superior;FMA22318;muscle;Membre inférieur;bilatéral;approfondissement;Hors liste du plan, pelvi-trochantérien cité en UE10 13b p.12.;;
+M088;muscle jumeau inférieur;jumeau inférieur;gemellus inferior;FMA22320;muscle;Membre inférieur;bilatéral;approfondissement;Hors liste du plan, pelvi-trochantérien cité en UE10 13b p.12.;;
+M089;muscle carré fémoral;carré fémoral;quadratus femoris;FMA22321;muscle;Membre inférieur;bilatéral;approfondissement;Hors liste du plan, pelvi-trochantérien cité en UE10 13b p.12.;;
+M090;muscle grand psoas;grand psoas;psoas major;FMA18060;muscle;Membre inférieur;bilatéral;noyau;Partie de l'ilio-psoas.;;
+M091;muscle iliaque;iliaque;iliacus;FMA22310;muscle;Membre inférieur;bilatéral;noyau;Partie de l'ilio-psoas.;;
+M092;muscle tenseur du fascia lata;tenseur du fascia lata;tensor fasciae latae;FMA22423;muscle;Membre inférieur;bilatéral;noyau;;;
+M093;muscle sartorius;sartorius;sartorius;FMA22353;muscle;Membre inférieur;bilatéral;noyau;;;
+M094;muscle droit fémoral;droit fémoral;rectus femoris;FMA22430;muscle;Membre inférieur;bilatéral;noyau;Chef du quadriceps.;;
+M095;muscle vaste latéral;vaste latéral;vastus lateralis;FMA22431;muscle;Membre inférieur;bilatéral;noyau;Chef du quadriceps.;;
+M096;muscle vaste médial;vaste médial;vastus medialis;FMA22432;muscle;Membre inférieur;bilatéral;noyau;Chef du quadriceps.;;
+M097;muscle vaste intermédiaire;vaste intermédiaire;vastus intermedius;FMA22433;muscle;Membre inférieur;bilatéral;noyau;Chef du quadriceps.;;
+M098;muscle pectiné;pectiné;pectineus;FMA22440;muscle;Membre inférieur;bilatéral;approfondissement;Hors liste du plan, cité en UE10 13b p.12-13.;;
+M099;muscle long adducteur;long adducteur;adductor longus;FMA22441;muscle;Membre inférieur;bilatéral;noyau;;;
+M100;muscle court adducteur;court adducteur;adductor brevis;FMA22442;muscle;Membre inférieur;bilatéral;noyau;;;
+M101;muscle grand adducteur;grand adducteur;adductor magnus;FMA22443;muscle;Membre inférieur;bilatéral;noyau;;;
+M102;muscle gracile;gracile;gracilis;FMA43882;muscle;Membre inférieur;bilatéral;noyau;;;
+M103;muscle biceps fémoral;biceps fémoral;biceps femoris;FMA22356;muscle;Membre inférieur;bilatéral;noyau;Ischio-jambier. BodyParts3D en deux chefs, long et court.;FMA45888|FMA45889|FMA45891|FMA45892;
+M104;muscle semi-tendineux;semi-tendineux;semitendinosus;FMA22357;muscle;Membre inférieur;bilatéral;noyau;Ischio-jambier.;;
+M105;muscle semi-membraneux;semi-membraneux;semimembranosus;FMA22438;muscle;Membre inférieur;bilatéral;noyau;Ischio-jambier.;;
+M106;muscle gastrocnémien;gastrocnémien;gastrocnemius;FMA22541;muscle;Membre inférieur;bilatéral;noyau;Triceps sural. BodyParts3D en deux chefs, médial et latéral.;FMA45957|FMA45958|FMA45960|FMA45961;
+M107;muscle soléaire;soléaire;soleus;FMA22542;muscle;Membre inférieur;bilatéral;noyau;Triceps sural.;;
+M108;muscle plantaire;plantaire;plantaris;FMA22543;muscle;Membre inférieur;bilatéral;approfondissement;Hors liste du plan, cité en UE10 13b p.14.;;
+M109;muscle poplité;poplité;popliteus;FMA22590;muscle;Membre inférieur;bilatéral;approfondissement;Hors liste du plan, cité en UE10 13b p.14.;;
+M110;muscle tibial antérieur;tibial antérieur;tibialis anterior;FMA22532;muscle;Membre inférieur;bilatéral;noyau;;;
+M111;muscle long extenseur des orteils;long extenseur des orteils;extensor digitorum longus;FMA22534;muscle;Membre inférieur;bilatéral;noyau;;;
+M112;muscle long extenseur de l'hallux;long extenseur de l'hallux;extensor hallucis longus;FMA22533;muscle;Membre inférieur;bilatéral;noyau;;;
+M113;muscle troisième fibulaire;3e fibulaire;fibularis tertius;FMA22538;muscle;Membre inférieur;bilatéral;approfondissement;Hors liste du plan, cité en UE10 13b p.14.;;
+M114;muscle long fibulaire;long fibulaire;fibularis longus;FMA22539;muscle;Membre inférieur;bilatéral;noyau;;;
+M115;muscle court fibulaire;court fibulaire;fibularis brevis;FMA22540;muscle;Membre inférieur;bilatéral;noyau;;;
+M116;muscle tibial postérieur;tibial postérieur;tibialis posterior;FMA51099;muscle;Membre inférieur;bilatéral;noyau;;;
+M117;muscle long fléchisseur des orteils;long fléchisseur des orteils;flexor digitorum longus;FMA51071;muscle;Membre inférieur;bilatéral;noyau;;;
+M118;muscle long fléchisseur de l'hallux;long fléchisseur de l'hallux;flexor hallucis longus;FMA22593;muscle;Membre inférieur;bilatéral;noyau;;;

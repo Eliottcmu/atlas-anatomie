@@ -1,7 +1,6 @@
 ﻿qid;fma_id;libelle_en;libelle_fr;alias_fr
 Q2349469;FMA3736;ascending aorta;aorte ascendante;portion ascendante de la crosse aortique
 Q616032;FMA3768;aortic arch;arc de l'aorte;arche aortique|crosse de l'aorte
-Q3270170;FMA3784;descending aorta;aorte descendante;portion descendante de l'aorte
 Q2264329;FMA3789;abdominal aorta;aorte abdominale;
 Q66499428;FMA3802;trunk of right coronary artery;;
 Q55091813;FMA3807;conus branch of right coronary artery;rameau du cône artériel de l'artère coronaire droite;artère du cône artériel droit|artère graisseuse droite de Vieussens
@@ -194,17 +193,22 @@ Q66504921;FMA9466;cavity of left ventricle;;
 Q66504971;FMA9531;wall of left atrium;;
 Q9625;FMA9600;prostate;prostate;
 Q638244;FMA9615;cricoid cartilage;cartilage cricoïde;cartilage basal de Ludwig
-Q66505019;FMA9623;perineal muscle;muscle du périnée;
+Q899783;FMA9625;stylohyoid muscle;muscle stylo-hyoïdien;muscle stylo-hyoidien|muscle stylohyoïdien
+Q204113;FMA9626;trapezius muscle;muscle trapèze;trapèze|muscle cucullaire
+Q532798;FMA9627;pectoralis major;muscle grand pectoral;pectoralis major
+Q275150;FMA9628;rectus abdominis muscle;muscle droit de l'abdomen;muscle grand droit|muscle grand droit de l'abdomen
+Q74959;FMA9629;supraspinatus muscle;muscle supra-épineux;muscle supraépineux|muscle sus-épineux|supra-épineux
 Q193527;FMA9710;vomer;vomer;os vomer|vomérien
 Q66505071;FMA9756;external intercostal muscle;;
 Q1954132;FMA9757;internal intercostal muscle;muscle intercostal interne;muscle intercostal moyen
 Q66505073;FMA9758;innermost intercostal muscle;;
+Q936699;FMA9760;transversus thoracis muscle;muscle transverse du thorax;muscle triangulaire du sternum
 Q66505075;FMA9761;right transversus thoracis;;
 Q66505076;FMA9762;left transversus thoracis;;
 Q46992876;FMA9922;T5 vertebra;cinquième vertèbre thoracique;T5|vertèbre T5
 Q46992877;FMA9945;T6 vertebra;sixième vertèbre thoracique;T6|vertèbre T6
 Q46992878;FMA9968;T7 vertebra;septième vertèbre thoracique;T7|vertèbre T7
-Q46992879;FMA9991;T8 vertebra;huitième vertèbre thoracique;vertèbre T8|T8
+Q46992879;FMA9991;T8 vertebra;huitième vertèbre thoracique;T8|vertèbre T8
 Q46992880;FMA10014;T9 vertebra;neuvième vertèbre thoracique;T9|vertèbre T9
 Q46992881;FMA10037;T10 vertebra;dixième vertèbre thoracique;T10|vertèbre T10
 Q46992882;FMA10059;T11 vertebra;onzième vertèbre thoracique;T11|vertèbre T11
@@ -240,7 +244,8 @@ Q46993005;FMA13072;L1 vertebra;première vertèbre lombaire;L1|vertèbre L1
 Q46993006;FMA13073;L2 vertebra;deuxième vertèbre lombaire;L2|vertèbre L2
 Q46993007;FMA13074;L3 vertebra;troisième vertèbre lombaire;L3|vertèbre L3
 Q46993008;FMA13075;L4 vertebra;quatrième vertèbre lombaire;L4|vertèbre L4
-Q46993009;FMA13076;L5 vertebra;cinquième vertèbre lombaire;vertèbre L5|L5
+Q46993009;FMA13076;L5 vertebra;cinquième vertèbre lombaire;L5|vertèbre L5
+Q757083;FMA13109;pectoralis minor muscle;muscle petit pectoral;musculus pectoralis minor|petit pectoral
 Q2512768;FMA13110;external jugular vein;veine jugulaire externe;
 Q66507993;FMA13279;left anterior segmental artery;artère segmentaire antérieure de l'artère pulmonaire gauche;artère médiastinale ventrale du poumon gauche
 Q9654;FMA13295;thoracic diaphragm;diaphragme;
@@ -253,8 +258,13 @@ Q66508025;FMA13326;left cephalic vein;;
 Q682122;FMA13329;axillary vein;veine axillaire;
 Q66508026;FMA13330;right axillary vein;;
 Q66508027;FMA13331;left axillary vein;;
+Q746123;FMA13335;abdominal external oblique muscle;muscle oblique externe de l'abdomen;muscle grand oblique de l'abdomen|Muscle oblique externe
 Q66508031;FMA13336;right external oblique;;
 Q66508032;FMA13337;left external oblique;;
+Q925888;FMA13341;sternohyoid muscle;muscle sterno-hyoïdien;muscle sterno-cléïdo-hyoïdien
+Q1049279;FMA13342;omohyoid muscle;muscle omo-hyoïdien;
+Q545171;FMA13343;sternothyroid muscle;muscle sterno-thyroïdien;muscle sterno-costo-thyroïdien
+Q1072039;FMA13344;thyrohyoid muscle;muscle thyro-hyoïdien;
 Q66508034;FMA13346;right sternohyoid;;
 Q66508035;FMA13347;left sternohyoid;;
 Q66508036;FMA13348;right omohyoid;;
@@ -263,13 +273,20 @@ Q66508038;FMA13350;right sternothyroid;;
 Q66508039;FMA13351;left sternothyroid;;
 Q66508040;FMA13352;right thyrohyoid;;
 Q66508041;FMA13353;left thyrohyoid;;
+Q283673;FMA13357;latissimus dorsi muscle;muscle latissimus du dos;grand dorsal|muscle grand dorsal
 Q5054375;FMA13365;caudate lobe of liver;;
+Q1055797;FMA13370;longus colli muscle;Muscle long du cou;
 Q66508054;FMA13375;right pectoralis minor;;
 Q66508055;FMA13376;left pectoralis minor;;
+Q617389;FMA13379;rhomboid major muscle;muscle grand rhomboïde;
+Q901538;FMA13380;rhomboid minor muscle;Muscle petit rhomboïde;Muscle petit rhomboide
 Q66508058;FMA13381;right rhomboid major;;
 Q66508059;FMA13382;left rhomboid major;;
 Q66508060;FMA13383;right rhomboid minor;;
 Q66508061;FMA13384;left rhomboid minor;;
+Q914148;FMA13385;scalenus anterior;muscle scalène antérieur;
+Q1088115;FMA13386;scalenus medius;muscle scalène moyen;muscle scalène dorsal de la 1ère côte|scalène moyen
+Q955110;FMA13387;scalenus posterior;muscle scalène postérieur;muscle scalène dorsal|muscle scalène supracostal|muscle scalène transcostal
 Q66508062;FMA13388;right scalenus posterior;;
 Q66508063;FMA13389;left scalenus posterior;;
 Q66508064;FMA13390;right scalenus medius;;
@@ -278,16 +295,22 @@ Q66508066;FMA13392;right scalenus anterior;;
 Q66508067;FMA13393;left scalenus anterior;;
 Q66508068;FMA13395;right scapula;;
 Q66508069;FMA13396;left scapula;;
+Q743294;FMA13397;serratus anterior muscle;muscle dentelé antérieur;muscle grand dentelé
 Q66508070;FMA13398;right serratus anterior;;
 Q66508071;FMA13399;left serratus anterior;;
+Q1085940;FMA13401;serratus posterior superior muscle;muscle dentelé postérieur et supérieur;muscle dentelé postérieur supérieur|muscle petit dentelé postérieur et supérieur
+Q920567;FMA13402;serratus posterior inferior muscle;muscle dentelé postérieur et inférieur;muscle dentelé postérieur inférieur|muscle petit dentelé postérieur et inférieur
 Q66508073;FMA13403;right serratus posterior superior;;
 Q66508074;FMA13404;left serratus posterior superior;;
 Q66508075;FMA13405;right serratus posterior inferior;;
 Q66508076;FMA13406;left serratus posterior inferior;;
+Q272830;FMA13407;sternocleidomastoid muscle;muscle sterno-cléido-mastoïdien;muscle sterno-cléïdo-mastoïdien|musculus sternocleidomastoideus
 Q66508077;FMA13408;right sternocleidomastoid;;
 Q66508078;FMA13409;left sternocleidomastoid;;
+Q130086;FMA13410;subclavius muscle;muscle subclavier;muscle sous-Clavier|muscle sousclavier
 Q66508079;FMA13411;left subclavius;;
 Q66508080;FMA13412;right subclavius;;
+Q130050;FMA13413;subscapularis muscle;muscle subscapulaire;muscle sous-scapulaire
 Q66508081;FMA13414;right subscapularis;;
 Q66508082;FMA13415;left subscapularis;;
 Q66508172;FMA13495;intervertebral disk of second thoracic vertebra;;
@@ -302,6 +325,7 @@ Q66508191;FMA13507;intervertebral disk of tenth thoracic vertebra;;
 Q66508193;FMA13508;intervertebral disk of eleventh thoracic vertebra;;
 Q66508805;FMA13884;wall of ventricle;;
 Q156871;FMA13889;pituitary gland;hypophyse;adénome hypophysaire|glande hypophyse|glande pituitaire|hormone hypophysaire|pituitaire
+Q1334595;FMA13891;abdominal internal oblique muscle;muscle oblique interne de l'abdomen;Muscle oblique interne|Muscle petit oblique de l'abdomen
 Q66508822;FMA13896;intervertebral disk of third cervical vertebra;;
 Q66508825;FMA13897;intervertebral disk of fourth cervical vertebra;;
 Q66508827;FMA13898;intervertebral disk of fifth cervical vertebra;;
@@ -413,6 +437,8 @@ Q66512018;FMA15428;medial superior segmental branch of left portal vein;;
 Q66512019;FMA15429;medial inferior segmental branch of left portal vein;;
 Q66512023;FMA15431;lateral superior segmental branch of left portal vein;;
 Q66512024;FMA15432;lateral inferior segmental branch of left portal vein;;
+Q1426052;FMA15569;quadratus lumborum muscle;muscle carré des lombes;Muscle carre des lombes|Muscle_carré_des_lombes
+Q1427665;FMA15570;transversus abdominis muscle;muscle transverse de l'abdomen;muscle transverse
 Q66512237;FMA15571;right ureter;;
 Q66512240;FMA15572;left ureter;;
 Q66715642;FMA15629;right adrenal gland;;
@@ -447,6 +473,7 @@ Q66514141;FMA16587;left hip bone;;
 Q66713494;FMA16981;Proximal part of jejunum;;
 Q66713497;FMA16982;Middle part of jejunum;;
 Q66713503;FMA16983;Distal part of jejunum;;
+Q1550323;FMA18060;psoas major muscle;muscle grand psoas;
 Q650891;FMA18247;glans penis;gland du pénis;balane|balanus|gland pénien
 Q66509437;FMA18256;right epididymis;;
 Q66509439;FMA18257;left epididymis;;
@@ -481,6 +508,7 @@ Q66510143;FMA18915;right obturator vein;;
 Q66510144;FMA18916;left obturator vein;;
 Q66510145;FMA18918;right internal pudendal vein;;
 Q66510146;FMA18919;left internal pudendal vein;;
+Q1144893;FMA19082;piriformis muscle;muscle piriforme;muscle pyramidal du bassin
 Q66510394;FMA19235;right deferent duct;;
 Q66510395;FMA19236;left deferent duct;;
 Q66510590;FMA19387;right seminal vesicle;;
@@ -488,6 +516,7 @@ Q66510592;FMA19388;left seminal vesicle;;
 Q14413567;FMA19617;corpus spongiosum penis;;
 Q1455226;FMA19618;corpus cavernosum penis;corps caverneux;
 Q9386;FMA19667;urethra;urètre;
+Q4751012;FMA20347;anal triangle;;
 Q66512370;FMA20688;right inferior epigastric artery;;
 Q66512372;FMA20689;left inferior epigastric artery;;
 Q66512471;FMA20735;right superficial epigastric artery;;
@@ -515,6 +544,15 @@ Q66513356;FMA21388;left common iliac vein;;
 Q66513404;FMA21422;descending branch of right lateral circumflex femoral artery;;
 Q66513406;FMA21423;descending branch of left lateral circumflex femoral artery;;
 Q2379958;FMA21930;external anal sphincter;muscle sphincter externe de l'anus;
+Q1500758;FMA22298;obturator internus muscle;muscle obturateur interne;
+Q1756762;FMA22299;obturator externus muscle;muscle obturateur externe;
+Q1508879;FMA22310;iliacus muscle;muscle iliaque;
+Q637545;FMA22314;gluteus maximus muscle;muscle grand glutéal;grand fessier|muscle grand fessier
+Q1126170;FMA22315;gluteus medius muscle;muscle moyen glutéal;moyen fessier|muscle moyen fessier
+Q523799;FMA22317;gluteus minimus muscle;muscle petit glutéal;muscle petit fessier|petit fessier
+Q1732695;FMA22318;superior gemellus muscle;muscle jumeau supérieur;
+Q1892060;FMA22320;inferior gemellus muscle;muscle jumeau inférieur;
+Q1428240;FMA22321;quadratus femoris muscle;muscle carré fémoral;muscle carré crural
 Q66514389;FMA22322;right iliacus;;
 Q66514390;FMA22323;left iliacus;;
 Q66514391;FMA22324;right obturator internus;;
@@ -537,12 +575,25 @@ Q66514407;FMA22340;right piriformis;;
 Q66514408;FMA22341;left piriformis;;
 Q66514409;FMA22342;right psoas major;;
 Q66514410;FMA22343;left psoas major;;
+Q740337;FMA22353;sartorius muscle;muscle sartorius;muscle couturier|sartorius
 Q66514419;FMA22354;right sartorius;;
 Q66514420;FMA22355;left sartorius;;
+Q601016;FMA22356;biceps femoris muscle;muscle biceps fémoral;biceps fémoral|muscle biceps crural
+Q1163035;FMA22357;semitendinosus muscle;muscle semi-tendineux;muscle demi-tendineux
 Q66514421;FMA22358;right semitendinosus;;
 Q66514422;FMA22359;left semitendinosus;;
+Q1429453;FMA22423;tensor fasciae latae muscle;muscle tenseur du fascia lata;tenseur du fascia lata
 Q66514484;FMA22425;right tensor fasciae latae;;
 Q66514485;FMA22426;left tensor fasciae latae;;
+Q1633822;FMA22430;rectus femoris muscle;muscle droit fémoral;
+Q975459;FMA22431;vastus lateralis muscle;muscle vaste latéral;muscle vaste externe
+Q1590935;FMA22432;vastus medialis;muscle vaste médial;muscle vaste interne|vaste interne
+Q1812578;FMA22433;vastus intermedius muscle;muscle vaste intermédiaire;muscle crural
+Q1270633;FMA22438;semimembranosus muscle;muscle semi-membraneux;muscle demi-membraneux
+Q1501677;FMA22440;pectineus muscle;Muscle pectiné;Muscle pectine
+Q1428231;FMA22441;adductor longus muscle;muscle long adducteur;muscle moyen adducteur
+Q1551135;FMA22442;adductor brevis muscle;muscle court adducteur;muscle deuxième adducteur
+Q478040;FMA22443;adductor magnus muscle;muscle troisième adducteur;muscle grand adducteur
 Q66514495;FMA22448;right semimembranosus;;
 Q66514496;FMA22449;left semimembranosus;;
 Q66514497;FMA22450;right pectineus;;
@@ -555,6 +606,15 @@ Q66514503;FMA22459;right adductor magnus;;
 Q66514504;FMA22460;left adductor magnus;;
 Q66514540;FMA22507;right descending genicular artery;;
 Q66514541;FMA22508;left descending genicular artery;;
+Q975054;FMA22532;tibialis anterior muscle;muscle tibial antérieur;muscle jambier antérieur
+Q1446138;FMA22533;extensor hallucis longus muscle;muscle long extenseur de l'hallux;
+Q1684283;FMA22534;extensor digitorum longus muscle;muscle long extenseur des orteils;Muscle extenseur commun des orteils|Muscle Long Extenseur Des Orteils
+Q1757887;FMA22538;fibularis tertius;muscle troisième fibulaire;muscle péronier antérieur|muscle troisième péronier
+Q1386945;FMA22539;fibularis longus;muscle long fibulaire;muscle long péronier latéral
+Q1723682;FMA22540;fibularis brevis muscle;muscle court fibulaire;
+Q943203;FMA22541;gastrocnemius muscle;muscle gastrocnémien;muscles jumeaux de la jambe
+Q1954164;FMA22542;soleus muscle;muscle soléaire;soléaire
+Q526239;FMA22543;plantaris muscle;muscle plantaire;
 Q66514561;FMA22544;right tibialis anterior;;
 Q66514562;FMA22545;left tibialis anterior;;
 Q66514563;FMA22546;right extensor hallucis longus;;
@@ -577,8 +637,11 @@ Q66514598;FMA22586;right medial superior genicular artery;;
 Q66514600;FMA22587;left medial superior genicular artery;;
 Q66514602;FMA22588;right lateral superior genicular artery;;
 Q66514603;FMA22589;left lateral superior genicular artery;;
+Q1308051;FMA22590;popliteus muscle;muscle poplité;
 Q66514606;FMA22591;right popliteus;;
 Q66514607;FMA22592;left popliteus;;
+Q1500559;FMA22593;flexor hallucis longus muscle;muscle long fléchisseur de l'hallux;muscle fléchisseur péronier des orteils|muscle long fléchisseur propre du gros orteil
+Q1088126;FMA22653;splenius capitis muscle;muscle splénius de la tête;
 Q502164;FMA22654;axillary artery;artère axillaire;Artere axillaire
 Q66514705;FMA22655;right axillary artery;;
 Q66514706;FMA22656;left axillary artery;;
@@ -798,6 +861,8 @@ Q66516036;FMA24526;left lateral cuneiform bone;;
 Q66516037;FMA24528;right cuboid bone;;
 Q66516038;FMA24529;left cuboid bone;;
 Q66516391;FMA25058;intervertebral disk of axis;;
+Q755141;FMA32519;levator scapulae muscle;muscle élévateur de la scapula;muscle angulaire de l'omoplate|muscle grand dentelé du cou
+Q130243;FMA32521;deltoid muscle;muscle deltoïde;muscle deltoide
 Q66523018;FMA32530;right rectus capitis posterior major;;
 Q66523019;FMA32531;left rectus capitis posterior major;;
 Q66523020;FMA32532;right rectus capitis posterior minor;;
@@ -810,8 +875,11 @@ Q66523027;FMA32540;right levator scapulae;;
 Q66523028;FMA32541;left levator scapulae;;
 Q66523032;FMA32544;right supraspinatus;;
 Q66523033;FMA32545;left supraspinatus;;
+Q19087;FMA32546;infraspinatus muscle;muscle infra-épineux;infra-épineux|muscle sous-épineux
 Q66523034;FMA32547;right infraspinatus muscle;;
 Q66523035;FMA32548;left infraspinatus muscle;;
+Q56658;FMA32549;teres major muscle;muscle grand rond;
+Q74963;FMA32550;teres minor muscle;muscle petit rond;petit rond
 Q66523036;FMA32551;right teres major;;
 Q66523037;FMA32552;left teres major;;
 Q66523038;FMA32553;right teres minor;;
@@ -856,6 +924,13 @@ Q66524659;FMA34690;clavicular part of right pectoralis major;;
 Q66524660;FMA34691;clavicular part of left pectoralis major;;
 Q66525124;FMA35192;interosseous membrane of right leg;;
 Q66525125;FMA35193;interosseous membrane of left leg;;
+Q337824;FMA37373;abductor pollicis brevis muscle;muscle court abducteur du pouce;
+Q257609;FMA37378;Flexor pollicis brevis muscle;muscle court fléchisseur du pouce;
+Q931622;FMA37379;opponens pollicis muscle;Muscle opposant du pouce;
+Q1065866;FMA37380;Adductor pollicis muscle;muscle adducteur du pouce;
+Q659744;FMA37382;abductor digiti minimi muscle of hand;muscle abducteur du petit doigt;muscle abducteur de l'auriculaire|muscle adducteur du petit doigt
+Q238607;FMA37383;flexor digiti minimi brevis muscle of hand;muscle court fléchisseur du petit doigt;Muscle court flechisseur du petit doigt|Muscle Court Fléchisseur Du Petit Doigt|Muscle flechisseur du petit doigt|Muscle Fléchisseur Du Petit Doigt
+Q1064676;FMA37384;opponens digiti minimi muscle of hand;muscle opposant du petit doigt de la main;
 Q66526730;FMA37386;right abductor pollicis brevis;;
 Q66526731;FMA37387;left abductor pollicis brevis;;
 Q66526732;FMA37388;right flexor pollicis brevis;;
@@ -882,20 +957,25 @@ Q66526802;FMA37483;fourth lumbrical of right foot;;
 Q66526803;FMA37484;fourth lumbrical of left foot;;
 Q66526804;FMA37485;third lumbrical of right foot;;
 Q66526805;FMA37486;third lumbrical of left foot;;
+Q730359;FMA37664;coracobrachialis muscle;muscle coraco-brachial;coraco-brachial|coracobrachial|muscle coracobrachial|muscle perforé de Casserius
 Q66526946;FMA37665;right coracobrachialis;;
 Q66526947;FMA37666;left coracobrachialis;;
+Q752441;FMA37667;brachialis muscle;muscle brachial;muscle brachial antérieur|muscle court fléchisseur de l'avant-bras
 Q66526948;FMA37668;right brachialis;;
 Q66526949;FMA37669;left brachialis;;
+Q25950351;FMA37670;human musculus biceps brachii;;
 Q66526960;FMA37684;short head of right biceps brachii;;
 Q66526961;FMA37685;short head of left biceps brachii;;
 Q66526962;FMA37686;long head of right biceps brachii;;
 Q66526963;FMA37687;long head of left biceps brachii;;
+Q83379;FMA37688;triceps brachii muscle;muscle triceps brachial;
 Q66526971;FMA37695;medial head of right triceps brachii;;
 Q66526972;FMA37696;medial head of left triceps brachii;;
 Q66526973;FMA37697;lateral head of right triceps brachii;;
 Q66526974;FMA37698;lateral head of left triceps brachii;;
 Q66526975;FMA37699;long head of right triceps brachii;;
 Q66526976;FMA37700;long head of left triceps brachii;;
+Q526403;FMA37704;anconeus muscle;muscle anconé;
 Q66526979;FMA37705;right anconeus;;
 Q66526980;FMA37706;left anconeus;;
 Q66526983;FMA37717;first lumbrical of right foot;;
@@ -908,38 +988,57 @@ Q66527007;FMA37743;second plantar interosseous of right foot;;
 Q66527008;FMA37744;second plantar interosseous of left foot;;
 Q66527010;FMA37745;first plantar interosseous of right foot;;
 Q66527011;FMA37746;first plantar interosseous of left foot;;
+Q828232;FMA38450;pronator teres muscle;Muscle rond pronateur;Rond pronateur
+Q840572;FMA38453;pronator quadratus muscle;muscle carré pronateur;Carré pronateur|Muscle carre pronateur
 Q66527637;FMA38454;right pronator quadratus;;
 Q66527638;FMA38455;left pronator quadratus;;
+Q914475;FMA38459;flexor carpi radialis muscle;muscle fléchisseur radial du carpe;muscle grand palmaire
 Q66527640;FMA38460;right flexor carpi radialis;;
 Q66527641;FMA38461;left flexor carpi radialis;;
+Q672854;FMA38462;palmaris longus muscle;muscle long palmaire;muscle petit palmaire
 Q66527642;FMA38463;right palmaris longus;;
 Q66527643;FMA38464;left palmaris longus;;
+Q279039;FMA38465;flexor carpi ulnaris muscle;muscle fléchisseur ulnaire du carpe;muscle cubital antérieur
+Q847112;FMA38469;flexor digitorum superficialis muscle;muscle fléchisseur superficiel des doigts de la main;muscle fléchisseur commun superficiel des doigts|muscle fléchisseur perforé|muscle fléchisseur superficiel des doigts
 Q66527647;FMA38470;right flexor digitorum superficialis;;
 Q66527648;FMA38471;left flexor digitorum superficialis;;
+Q840592;FMA38478;flexor digitorum profundus muscle;muscle fléchisseur profond des doigts de la main;muscle fléchisseur commun profond des doigts|muscle fléchisseur perforant|muscle fléchisseur profond des doigts
 Q66527651;FMA38479;right flexor digitorum profundus;;
 Q66527652;FMA38480;left flexor digitorum profundus;;
+Q901571;FMA38481;flexor pollicis longus muscle;muscle long fléchisseur du pouce;muscle long fléchisseur propre du pouce|muscle long fléchisseur propre du premier doigt
 Q66527653;FMA38482;right flexor pollicis longus;;
 Q66527654;FMA38484;left flexor pollicis longus;;
+Q385484;FMA38485;brachioradialis;muscle brachio-radial;muscle huméro-stylo-radial|muscle long supinateur|muscle satellite de l'artère radiale
 Q66527655;FMA38486;right brachioradialis;;
 Q66527656;FMA38487;left brachioradialis;;
+Q847092;FMA38494;extensor carpi radialis longus muscle;muscle long extenseur radial du carpe;muscle long radial|muscle premier radial|muscle premier radial externe
 Q66527659;FMA38495;right extensor carpi radialis longus;;
 Q66527660;FMA38496;left extensor carpi radialis longus;;
+Q847458;FMA38497;extensor carpi radialis brevis muscle;muscle court extenseur radial du carpe;muscle court radial|muscle deuxième radial
 Q66527661;FMA38498;right extensor carpi radialis brevis;;
 Q66527662;FMA38499;left extensor carpi radialis brevis;;
+Q901101;FMA38500;extensor digitorum muscle of hand;muscle extenseur des doigts de la main;muscle extenseur commun des doigts|muscle extenseur des doigts
 Q66527663;FMA38501;right extensor digitorum;;
 Q66527664;FMA38502;left extensor digitorum;;
+Q19030;FMA38503;extensor digiti minimi muscle;muscle extenseur du petit doigt;muscle extenseur propre du petit doigt
 Q66527665;FMA38504;right extensor digiti minimi;;
 Q66527666;FMA38505;left extensor digiti minimi;;
+Q527634;FMA38506;extensor carpi ulnaris muscle;muscle extenseur ulnaire du carpe;muscle cubital postérieur
 Q66527667;FMA38507;right extensor carpi ulnaris;;
 Q66527668;FMA38508;left extensor carpi ulnaris;;
+Q524064;FMA38512;supinator muscle;muscle supinateur;
 Q66527670;FMA38513;right supinator;;
 Q66527671;FMA38514;left supinator;;
+Q915948;FMA38515;abductor pollicis longus muscle;muscle long abducteur du pouce;muscle supinateur de la main
 Q66527672;FMA38516;right abductor pollicis longus;;
 Q66527673;FMA38517;left abductor pollicis longus;;
+Q901116;FMA38518;extensor pollicis brevis muscle;muscle court extenseur du pouce;
 Q66527674;FMA38519;right extensor pollicis brevis;;
 Q66527676;FMA38520;left extensor pollicis brevis;;
+Q574632;FMA38521;extensor pollicis longus muscle;muscle long extenseur du pouce;musculus extensor pollicis longus
 Q66527677;FMA38522;right extensor pollicis longus;;
 Q66527678;FMA38523;left extensor pollicis longus;;
+Q932883;FMA38524;extensor indicis muscle;muscle extenseur de l'index;muscle extenseur propre de l'index
 Q66527679;FMA38525;right extensor indicis;;
 Q66527680;FMA38526;left extensor indicis;;
 Q66527692;FMA38560;humeral head of right pronator teres;;
@@ -968,6 +1067,7 @@ Q66530444;FMA42404;set of dorsal interossei of right hand;;
 Q66530445;FMA42405;set of dorsal interossei of left hand;;
 Q66532386;FMA43253;proximal phalanx of right big toe;;
 Q66532387;FMA43254;proximal phalanx of left big toe;;
+Q1428669;FMA43882;gracilis muscle;muscle gracile;muscle droit interne de la cuisse
 Q66533805;FMA43883;right gracilis;;
 Q66533806;FMA43884;left gracilis;;
 Q66533807;FMA43886;right adductor minimus;;
@@ -1033,6 +1133,7 @@ Q66535377;FMA44920;right lateral circumflex femoral vein;;
 Q66535379;FMA44922;left lateral circumflex femoral vein;;
 Q66535540;FMA45097;sesamoid bone of right foot;;
 Q66535541;FMA45098;sesamoid bone of left foot;;
+Q841422;FMA45738;platysma muscle;muscle platysma;muscle peaucier du cou|platysma
 Q66536039;FMA45739;right platysma;;
 Q66536040;FMA45740;left platysma;;
 Q66536100;FMA45826;right stylohyoid;;
@@ -1068,6 +1169,7 @@ Q66536316;FMA46124;transverse head of left adductor pollicis;;
 Q66536447;FMA46284;superior oblique part of left longus colli;;
 Q66536449;FMA46286;vertical intermediate part of left longus colli;;
 Q66536451;FMA46288;inferior oblique part of left longus colli;;
+Q645694;FMA46291;digastric muscle;muscle digastrique;digastrique
 Q66536453;FMA46292;right digastric;;
 Q66536454;FMA46293;left digastric;;
 Q66536464;FMA46309;right longus capitis;;
@@ -1076,8 +1178,10 @@ Q66536466;FMA46313;right rectus capitis anterior;;
 Q66536467;FMA46314;left rectus capitis anterior;;
 Q66536468;FMA46317;right rectus capitis lateralis;;
 Q66536469;FMA46318;left rectus capitis lateralis;;
+Q927901;FMA46320;mylohyoid muscle;muscle mylo-hyoïdien;
 Q66536470;FMA46321;right mylohyoid;;
 Q66536471;FMA46322;left mylohyoid;;
+Q1072007;FMA46325;geniohyoid muscle;muscle génio-hyoïdien;
 Q66536472;FMA46326;right geniohyoid;;
 Q66536473;FMA46327;left geniohyoid;;
 Q66536527;FMA46442;tendinous arch of levator ani;arcade tendineuse du muscle élévateur de l'anus;arc tendineux du releveur de l'anus
@@ -1121,6 +1225,10 @@ Q66536706;FMA46729;left levator veli palatini;;
 Q66536707;FMA46731;right tensor veli palatini;;
 Q66536708;FMA46732;left tensor veli palatini;;
 Q1417662;FMA46733;musculus uvulae;muscle uvulaire;muscle azygos de la luette|muscle de la luette|muscle palato-staphyllin
+Q725408;FMA48996;masseter muscle;muscle masséter;masséter
+Q599406;FMA49006;temporal muscle;muscle temporal;muscle crotaphyte
+Q643928;FMA49011;medial pterygoid muscle;muscle ptérygoïdien médial;muscle ptérygoïdien interne
+Q977221;FMA49015;lateral pterygoid muscle;muscle ptérygoïdien latéral;muscle ptérygoïdien externe
 Q66538458;FMA49044;right superior rectus;;
 Q66538459;FMA49045;left superior rectus;;
 Q66538460;FMA49046;right inferior rectus;;
@@ -1275,6 +1383,8 @@ Q66540065;FMA50881;right trochlear nerve;;
 Q66540067;FMA50882;left trochlear nerve;;
 Q66540351;FMA51042;right deep femoral vein;;
 Q66540353;FMA51043;left deep femoral vein;;
+Q1892025;FMA51071;flexor digitorum longus muscle;muscle fléchisseur commun des orteils;muscle fléchisseur tibial des orteils|muscle long fléchisseur commun des orteils
+Q1551145;FMA51099;tibialis posterior muscle;muscle tibial postérieur;muscle jambier postérieur
 Q66540502;FMA51144;right extensor hallucis brevis;;
 Q66540504;FMA51145;left extensor hallucis brevis;;
 Q66542805;FMA52574;superior branch of right oculomotor nerve;;
@@ -1477,7 +1587,7 @@ Q192570;FMA67943;pons;pont;Pont de Varole|Protubérance annulaire|Sillon bulbo-p
 Q130983;FMA67944;cerebellum;cervelet;
 Q605523;FMA68068;inferior phrenic vein;veine phrénique inférieure;veine diaphragmatique inférieure
 Q927103;FMA68109;bronchial artery;rameau artériel bronchique de l'aorte thoracique;artère bronchique|artères bronchiques|rameaux artériels bronchiques de l'aorte thoracique
-Q66563800;FMA68197;right upper lobar artery;artère lobaire supérieure de l'artère pulmonaire droite;artère scissurale du lobe supérieur du poumon droit|premier rameau de l’artère pulmonaire de Narath|tronc antérieur de l’artère pulmonaire droite de Boyden|artère du lobe supérieur de Lodge|artère fissurale du lobe supérieur du poumon droit|artère lobaire supérieure droite de Lucien|artère médiastinale|artère principale du lobe supérieur droit d’Hovelacque
+Q66563800;FMA68197;right upper lobar artery;artère lobaire supérieure de l'artère pulmonaire droite;artère du lobe supérieur de Lodge|artère fissurale du lobe supérieur du poumon droit|artère lobaire supérieure droite de Lucien|artère médiastinale|artère principale du lobe supérieur droit d’Hovelacque|artère scissurale du lobe supérieur du poumon droit|premier rameau de l’artère pulmonaire de Narath|tronc antérieur de l’artère pulmonaire droite de Boyden
 Q66563808;FMA68211;right apical segmental bronchial tree;;
 Q66563809;FMA68212;right anterior segmental bronchial tree;;
 Q66563810;FMA68213;right posterior segmental bronchial tree;;
@@ -1559,8 +1669,8 @@ Q66568454;FMA70490;posterior division of left renal artery;;
 Q66568456;FMA70492;ureteric segment of right renal artery;;
 Q66568457;FMA70493;ureteric segment of left renal artery;;
 Q3328736;FMA70800;dorsal metacarpal arteries;artère métacarpienne dorsale;artère interosseuse dorsale de la main
-Q5298777;FMA70801;dorsal digital arteries of foot;artère digitale dorsale du pied;
 Q66568732;FMA70801;set of dorsal digital arteries;;
+Q5298777;FMA70801;dorsal digital arteries of foot;artère digitale dorsale du pied;
 Q707334;FMA70807;lumbar artery;artère lombale;artère lombaire
 Q66568736;FMA70815;set of perforating arteries;;
 Q5153594;FMA70821;common plantar digital arteries;artère digitale plantaire commune;artères digitales plantaires communes
@@ -1668,6 +1778,8 @@ Q66571428;FMA74075;set of right levatores costarum longi;;
 Q66571429;FMA74076;set of left levatores costarum longi;;
 Q66571430;FMA74077;set of right levatores costarum breves;;
 Q66571431;FMA74078;set of left levatores costarum breves;;
+Q1954132;FMA74085;internal intercostal muscle;muscle intercostal interne;muscle intercostal moyen
+Q727342;FMA74086;innermost intercostal muscle;muscle intercostal intime;muscle intercostal interne
 Q499802;FMA74877;mammillary body;corps mamillaires;tubercules mamillaires
 Q66572152;FMA74912;trunk of anterior interventricular branch of left coronary artery;;
 Q3540833;FMA75351;interventricular foramina;trou de monro;trou de Monro
@@ -1678,6 +1790,8 @@ Q66574181;FMA76767;anterior cardiac vein;;
 Q66574374;FMA76903;left duct of caudate lobe of liver;;
 Q707468;FMA77155;popliteal artery;artère poplitée;
 Q4116983;FMA77168;median sacral vein;veine sacrée médiane;veine sacrale médiane
+Q646925;FMA77177;iliocostalis;muscle ilio-costal;muscle iliocostal
+Q1085907;FMA77178;longissimus;muscle longissimus;
 Q1088104;FMA77179;spinalis muscles;muscle épineux;muscle épi-épineux
 Q66574996;FMA77380;right popliteal artery;;
 Q66574997;FMA77381;left popliteal artery;;

@@ -1,0 +1,1560 @@
+{
+ "region": "Tête, cou et tronc (muscles)",
+ "redige_le": "2026-10-24",
+ "fiches": [
+  {
+   "id": "M001",
+   "champs": {
+    "situation": {
+     "texte": "Muscle de la face (région parotido-massétérique), recouvert par la lame superficielle du fascia cervical ; deux parties, superficielle et profonde.",
+     "sources": [
+      "TETE:13,20"
+     ]
+    },
+    "origine": {
+     "texte": "Bord inférieur et face médiale de l'arcade zygomatique.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Face latérale de la branche et de l'angle de la mandibule.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf mandibulaire (V3), branche du nerf trijumeau.",
+     "sources": []
+    },
+    "vascularisation": {
+     "texte": "Artère maxillaire (rameaux massétérique, temporaux profonds, ptérygoïdiens) ; artère faciale transverse.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Élévation de la mandibule (fermeture de la bouche), serrement des dents ; la partie superficielle propulse la mandibule.",
+     "sources": []
+    },
+    "clinique": {
+     "texte": "Palpable dents serrées ; hypertrophie massétérine du bruxisme. Le conduit parotidien croise sa face latérale.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Absent de BodyParts3D : modèle Z-Anatomy.",
+    "Les ronéos UE10 ne décrivent pas les muscles masticateurs ; seul le rapport avec le fascia est cité (UE10 8 p.13)."
+   ]
+  },
+  {
+   "id": "M002",
+   "champs": {
+    "situation": {
+     "texte": "Muscle de la région temporale, recouvert par le fascia temporal.",
+     "sources": [
+      "TETE:13,18"
+     ]
+    },
+    "origine": {
+     "texte": "Fosse temporale et face profonde du fascia temporal.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Processus coronoïde et bord antérieur de la branche de la mandibule.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf mandibulaire (V3), branche du nerf trijumeau.",
+     "sources": []
+    },
+    "vascularisation": {
+     "texte": "Artères temporales profondes (artère maxillaire), artère temporale moyenne.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Élévation de la mandibule ; ses fibres postérieures, horizontales, la rétropulsent.",
+     "sources": []
+    },
+    "clinique": {
+     "texte": "Céphalées de tension, troubles de l'articulation temporo-mandibulaire.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Absent de BodyParts3D : modèle Z-Anatomy."
+   ]
+  },
+  {
+   "id": "M003",
+   "champs": {
+    "situation": {
+     "texte": "Muscle profond de la région infra-temporale, deux chefs (supérieur et inférieur).",
+     "sources": []
+    },
+    "origine": {
+     "texte": "Chef supérieur : face infra-temporale de la grande aile du sphénoïde. Chef inférieur : face latérale de la lame latérale du processus ptérygoïde.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Fossette ptérygoïdienne du col de la mandibule ; capsule et disque de l'articulation temporo-mandibulaire.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf mandibulaire (V3), branche du nerf trijumeau.",
+     "sources": []
+    },
+    "vascularisation": {
+     "texte": "Artère maxillaire (rameaux massétérique, temporaux profonds, ptérygoïdiens) ; artère faciale transverse.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Propulsion et abaissement de la mandibule (ouverture de la bouche) ; diduction en contraction unilatérale.",
+     "sources": []
+    },
+    "clinique": {
+     "texte": "Luxation de l'articulation temporo-mandibulaire en avant par contraction excessive.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Absent de BodyParts3D : modèle Z-Anatomy. Non cité dans les ronéos UE10."
+   ]
+  },
+  {
+   "id": "M004",
+   "champs": {
+    "situation": {
+     "texte": "Muscle profond de la région infra-temporale, à la face médiale de la branche de la mandibule.",
+     "sources": []
+    },
+    "origine": {
+     "texte": "Fosse ptérygoïdienne (face médiale de la lame latérale), tubérosité du maxillaire.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Face médiale de l'angle de la mandibule.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf mandibulaire (V3), branche du nerf trijumeau.",
+     "sources": []
+    },
+    "vascularisation": {
+     "texte": "Artère maxillaire (rameaux massétérique, temporaux profonds, ptérygoïdiens) ; artère faciale transverse.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Élévation et propulsion de la mandibule ; diduction.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Absent de BodyParts3D : modèle Z-Anatomy. Non cité dans les ronéos UE10.",
+    "Avec le masséter, il forme une sangle autour de l'angle de la mandibule (hors ronéos)."
+   ]
+  },
+  {
+   "id": "M005",
+   "champs": {
+    "situation": {
+     "texte": "Muscle superficiel latéral du cou, dans un dédoublement de la lame superficielle du fascia cervical ; repère latéral de la région (région sterno-cléido-mastoïdienne).",
+     "sources": [
+      "COU:11,22,26-27"
+     ]
+    },
+    "origine": {
+     "texte": "Face antérieure du manubrium (chef sternal) et tiers médial de la clavicule (chef claviculaire).",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Processus mastoïde et moitié latérale de la ligne nucale supérieure.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf accessoire (XI), avec des rameaux du plexus cervical (C2-C3).",
+     "sources": []
+    },
+    "vascularisation": {
+     "texte": "Artères occipitale, thyroïdienne supérieure et supra-scapulaire.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Inspirateur accessoire.",
+     "sources": [
+      "RESP18e:9"
+     ]
+    },
+    "clinique": {
+     "texte": "Torticolis congénital ; repère des voies d'abord de la veine jugulaire interne et de la carotide.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Contraction unilatérale : inclinaison homolatérale et rotation controlatérale de la tête ; bilatérale : flexion du cou (hors ronéos)."
+   ]
+  },
+  {
+   "id": "M006",
+   "champs": {
+    "situation": {
+     "texte": "Muscle latéro-vertébral du cou, dans la lame pré-vertébrale du fascia cervical.",
+     "sources": [
+      "COU:13,17"
+     ]
+    },
+    "origine": {
+     "texte": "Tubercules antérieurs des processus transverses de C3 à C6.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Tubercule du muscle scalène antérieur, face supérieure de la 1re côte.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Rameaux antérieurs des nerfs cervicaux (C4-C6).",
+     "sources": []
+    },
+    "vascularisation": {
+     "texte": "Artère cervicale ascendante.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Inspirateur accessoire.",
+     "sources": [
+      "RESP18e:9"
+     ]
+    },
+    "rapports": {
+     "texte": "Sépare la veine subclavière, en avant, de l'artère subclavière et du plexus brachial, en arrière (défilé des scalènes). Le nerf phrénique descend sur sa face antérieure.",
+     "sources": []
+    },
+    "clinique": {
+     "texte": "Syndrome du défilé thoraco-brachial.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": []
+  },
+  {
+   "id": "M007",
+   "champs": {
+    "situation": {
+     "texte": "Muscle latéro-vertébral du cou, le plus volumineux des scalènes.",
+     "sources": [
+      "COU:13,17"
+     ]
+    },
+    "origine": {
+     "texte": "Tubercules postérieurs des processus transverses de C2 à C7.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Face supérieure de la 1re côte, en arrière du sillon de l'artère subclavière.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Rameaux antérieurs des nerfs cervicaux (C3-C8).",
+     "sources": []
+    },
+    "vascularisation": {
+     "texte": "Artère cervicale ascendante.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Inspirateur accessoire : élève la 1re côte.",
+     "sources": [
+      "RESP18e:9"
+     ]
+    },
+    "rapports": {
+     "texte": "Limite postérieure du défilé des scalènes, où passent l'artère subclavière et le plexus brachial.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": []
+  },
+  {
+   "id": "M008",
+   "champs": {
+    "situation": {
+     "texte": "Muscle latéro-vertébral du cou, le plus postérieur des scalènes.",
+     "sources": [
+      "COU:13,17"
+     ]
+    },
+    "origine": {
+     "texte": "Tubercules postérieurs des processus transverses de C4 à C6.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Face externe de la 2e côte.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Rameaux antérieurs des nerfs cervicaux (C6-C8).",
+     "sources": []
+    },
+    "vascularisation": {
+     "texte": "Artère cervicale superficielle.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Inspirateur accessoire : élève la 2e côte.",
+     "sources": [
+      "RESP18e:9"
+     ]
+    }
+   },
+   "relations": [],
+   "remarques": []
+  },
+  {
+   "id": "M009",
+   "champs": {
+    "situation": {
+     "texte": "Muscle supra-hyoïdien, muscle superficiel antérieur du cou. Deux ventres, antérieur et postérieur, réunis par un tendon intermédiaire.",
+     "sources": [
+      "COU:23"
+     ]
+    },
+    "origine": {
+     "texte": "Ventre postérieur : incisure mastoïdienne du temporal.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Ventre antérieur : fosse digastrique de la mandibule. Le tendon intermédiaire est amarré à l'os hyoïde par une poulie fibreuse.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Ventre antérieur : nerf mylo-hyoïdien (V3). Ventre postérieur : nerf facial (VII).",
+     "sources": []
+    },
+    "vascularisation": {
+     "texte": "Artères faciale (sub-mentale) et occipitale.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Élève l'os hyoïde ; abaisse la mandibule quand l'os hyoïde est fixé.",
+     "sources": []
+    },
+    "rapports": {
+     "texte": "Ses deux ventres limitent le trigone sub-mandibulaire.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Double origine embryologique (1er et 2e arcs), d'où sa double innervation (hors ronéos)."
+   ]
+  },
+  {
+   "id": "M010",
+   "champs": {
+    "situation": {
+     "texte": "Muscle supra-hyoïdien, muscle superficiel antérieur du cou.",
+     "sources": [
+      "COU:23"
+     ]
+    },
+    "origine": {
+     "texte": "Processus styloïde du temporal.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Corps de l'os hyoïde, à la jonction avec la grande corne ; son tendon est perforé par le tendon intermédiaire du digastrique.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf facial (VII).",
+     "sources": []
+    },
+    "vascularisation": {
+     "texte": "Artères faciale et occipitale.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Élève et porte en arrière l'os hyoïde (déglutition).",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": []
+  },
+  {
+   "id": "M011",
+   "champs": {
+    "situation": {
+     "texte": "Muscle supra-hyoïdien, muscle superficiel antérieur du cou.",
+     "sources": [
+      "COU:23"
+     ]
+    },
+    "origine": {
+     "texte": "Ligne mylo-hyoïdienne de la face médiale de la mandibule.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Raphé médian, de la symphyse à l'os hyoïde, et corps de l'os hyoïde.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf mylo-hyoïdien, branche du nerf alvéolaire inférieur (V3).",
+     "sources": []
+    },
+    "vascularisation": {
+     "texte": "Artère sub-mentale (artère faciale).",
+     "sources": []
+    },
+    "action": {
+     "texte": "Élève le plancher oral, la langue et l'os hyoïde (déglutition) ; abaisse la mandibule.",
+     "sources": []
+    },
+    "rapports": {
+     "texte": "La glande sub-mandibulaire s'enroule autour de son bord postérieur.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": []
+  },
+  {
+   "id": "M012",
+   "champs": {
+    "situation": {
+     "texte": "Muscle supra-hyoïdien, muscle superficiel antérieur du cou. Au-dessus du mylo-hyoïdien, contre la ligne médiane.",
+     "sources": [
+      "COU:23"
+     ]
+    },
+    "origine": {
+     "texte": "Épine mentonnière inférieure de la mandibule.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Face antérieure du corps de l'os hyoïde.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Fibres de C1 qui cheminent avec le nerf hypoglosse (XII).",
+     "sources": []
+    },
+    "vascularisation": {
+     "texte": "Artère linguale.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Porte l'os hyoïde en haut et en avant ; abaisse la mandibule.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": []
+  },
+  {
+   "id": "M013",
+   "champs": {
+    "situation": {
+     "texte": "Muscle infra-hyoïdien, muscle superficiel antérieur du cou. Le plus superficiel, près de la ligne médiane.",
+     "sources": [
+      "COU:23"
+     ]
+    },
+    "origine": {
+     "texte": "Face postérieure du manubrium et extrémité médiale de la clavicule.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Bord inférieur du corps de l'os hyoïde.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Anse cervicale (XII, C1 à C3), qui innerve les muscles infra-hyoïdiens.",
+     "sources": [
+      "NP16a:18"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère thyroïdienne supérieure.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Abaisse l'os hyoïde et le larynx ; phonation. Inspirateur accessoire.",
+     "sources": [
+      "NP16a:18",
+      "RESP18e:9"
+     ]
+    }
+   },
+   "relations": [],
+   "remarques": []
+  },
+  {
+   "id": "M014",
+   "champs": {
+    "situation": {
+     "texte": "Muscle infra-hyoïdien, muscle superficiel antérieur du cou. Deux ventres, supérieur et inférieur, réunis par un tendon intermédiaire ; il divise la région cervicale latérale en trigones omo-trapézien et omo-claviculaire.",
+     "sources": [
+      "COU:23,26"
+     ]
+    },
+    "origine": {
+     "texte": "Ventre inférieur : bord supérieur de la scapula, près de l'incisure scapulaire.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Ventre supérieur : bord inférieur du corps de l'os hyoïde. Le tendon intermédiaire est maintenu sur la clavicule par une expansion du fascia cervical.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Anse cervicale (XII, C1 à C3), qui innerve les muscles infra-hyoïdiens.",
+     "sources": [
+      "NP16a:18"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artères thyroïdienne supérieure et supra-scapulaire.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Abaisse l'os hyoïde et le larynx ; phonation. Inspirateur accessoire.",
+     "sources": [
+      "NP16a:18",
+      "RESP18e:9"
+     ]
+    },
+    "rapports": {
+     "texte": "Croise la gaine carotidienne en avant, au niveau du cartilage cricoïde.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": []
+  },
+  {
+   "id": "M015",
+   "champs": {
+    "situation": {
+     "texte": "Muscle infra-hyoïdien, muscle superficiel antérieur du cou. Sous le sterno-hyoïdien, contre la glande thyroïde.",
+     "sources": [
+      "COU:23"
+     ]
+    },
+    "origine": {
+     "texte": "Face postérieure du manubrium et 1er cartilage costal.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Ligne oblique du cartilage thyroïde.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Anse cervicale (XII, C1 à C3), qui innerve les muscles infra-hyoïdiens.",
+     "sources": [
+      "NP16a:18"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère thyroïdienne supérieure.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Abaisse le larynx ; phonation. Inspirateur accessoire.",
+     "sources": [
+      "NP16a:18",
+      "RESP18e:9"
+     ]
+    }
+   },
+   "relations": [],
+   "remarques": []
+  },
+  {
+   "id": "M016",
+   "champs": {
+    "situation": {
+     "texte": "Muscle infra-hyoïdien, muscle superficiel antérieur du cou. Prolonge le sterno-thyroïdien vers l'os hyoïde.",
+     "sources": [
+      "COU:23"
+     ]
+    },
+    "origine": {
+     "texte": "Ligne oblique du cartilage thyroïde.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Bord inférieur de la grande corne et du corps de l'os hyoïde.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Fibres de C1 qui cheminent avec le nerf hypoglosse (XII), et non par l'anse cervicale.",
+     "sources": []
+    },
+    "vascularisation": {
+     "texte": "Artère thyroïdienne supérieure.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Abaisse l'os hyoïde, ou élève le larynx si l'os hyoïde est fixé ; phonation.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "NP16a p.18 donne à l'anse cervicale les muscles infra-hyoïdiens ; le thyro-hyoïdien reçoit en fait un rameau propre de C1 qui accompagne le nerf hypoglosse (hors ronéos).",
+    "UE10 16a p.18 : muscles infra-hyoïdiens, phonation."
+   ]
+  },
+  {
+   "id": "M017",
+   "champs": {
+    "situation": {
+     "texte": "Muscle peaucier, dans le fascia superficiel des régions antérieure et latérales du cou.",
+     "sources": [
+      "COU:25"
+     ]
+    },
+    "origine": {
+     "texte": "Fascia de la partie haute du thorax (régions pectorale et deltoïdienne).",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Bord inférieur de la mandibule, peau de la partie inférieure de la face et commissure des lèvres.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Rameau cervical du nerf facial (VII).",
+     "sources": []
+    },
+    "vascularisation": {
+     "texte": "Artères sub-mentale et supra-scapulaire.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Tend la peau du cou ; abaisse la commissure des lèvres (expression d'effroi).",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Hors liste du plan, cité dans le fascia superficiel du cou (UE10 9 p.25)."
+   ]
+  },
+  {
+   "id": "M018",
+   "champs": {
+    "situation": {
+     "texte": "Muscle pré-vertébral du cou, entouré par la lame pré-vertébrale du fascia cervical.",
+     "sources": [
+      "COU:13,16"
+     ]
+    },
+    "origine": {
+     "texte": "Faces antérieures des corps de C5 à T3 et tubercules antérieurs des processus transverses de C3 à C5.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Tubercule antérieur de l'atlas, corps de C2 à C4, tubercules antérieurs de C5 et C6.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Rameaux antérieurs des nerfs cervicaux, issus du plexus cervical.",
+     "sources": [
+      "NP16a:18"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artères vertébrale, cervicale ascendante et thyroïdienne inférieure.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Flexion du cou ; inclinaison et rotation controlatérale de la tête.",
+     "sources": [
+      "NP16a:18"
+     ]
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Hors liste du plan, muscle pré-vertébral cité en UE10 9.",
+    "BodyParts3D n'a que le côté gauche (trois parties) : côté droit pris dans Z-Anatomy."
+   ]
+  },
+  {
+   "id": "M019",
+   "champs": {
+    "situation": {
+     "texte": "Muscle rétro-vertébral du cou, plan intermédiaire (spino-transversaire de la nuque), sous le trapèze.",
+     "sources": [
+      "COU:20",
+      "DOS:15"
+     ]
+    },
+    "origine": {
+     "texte": "Moitié inférieure du ligament nucal, processus épineux de C7 à T3.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Processus mastoïde et tiers latéral de la ligne nucale supérieure.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Branches postérieures des nerfs cervicaux moyens.",
+     "sources": []
+    },
+    "vascularisation": {
+     "texte": "Artère occipitale, artère cervicale transverse.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Extension de la tête et du cou ; rotation et inclinaison homolatérales.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Hors liste du plan, cité en UE10 9 et 10.",
+    "UE10 16a p.7 : les branches postérieures des nerfs spinaux innervent les muscles intrinsèques du dos.",
+    "UE10 10 p.12 et 15 : groupe profond, mobilisation de la colonne vertébrale et de la tête."
+   ]
+  },
+  {
+   "id": "M020",
+   "champs": {
+    "situation": {
+     "texte": "Sépare les régions thoracique et abdominale ; région infra-médiastinale postérieure au-dessus, région thoraco-abdominale au-dessous ; traversé par les éléments qui passent d'une région à l'autre.",
+     "sources": [
+      "RESP18e:7",
+      "THX:13",
+      "ABP12b:15"
+     ]
+    },
+    "origine": {
+     "texte": "Insertions périphériques : colonne lombale (piliers), arcs costaux 12 à 7, processus xiphoïde.",
+     "sources": [
+      "RESP18e:7"
+     ]
+    },
+    "terminaison": {
+     "texte": "Insertions centrales sur le centre tendineux.",
+     "sources": [
+      "RESP18e:7"
+     ]
+    },
+    "innervation": {
+     "texte": "Nerfs phréniques (C3, C4, C5 ; le plus gros contingent vient de C4), branches du plexus cervical ; ils sont aussi sensitifs.",
+     "sources": [
+      "RESP18e:7",
+      "NP16a:8,18"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artères phréniques inférieures et supérieures, musculo-phréniques, péricardo-phréniques, intercostales postérieures basses.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Inspirateur principal, seul actif dans la respiration de repos ; augmente la pression abdominale.",
+     "sources": [
+      "RESP18e:7,9,13"
+     ]
+    },
+    "clinique": {
+     "texte": "Paralysie d'une moitié du diaphragme possible (lésion d'un nerf phrénique) ; atteinte dans les myopathies, la sclérose latérale amyotrophique et les compressions médullaires hautes.",
+     "sources": [
+      "RESP18e:14"
+     ]
+    },
+    "pathologie": {
+     "texte": "Hernies diaphragmatiques : hiatale (œsophagienne), congénitale postéro-latérale (Bochdalek) ou rétro-xiphoïdienne (Morgagni). Douleur projetée à l'épaule (C4) d'une irritation diaphragmatique.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Orifices (hiatus aortique en T12, œsophagien en T10, foramen de la veine cave en T8) : hors ronéos UE10."
+   ]
+  },
+  {
+   "id": "M021",
+   "champs": {
+    "situation": {
+     "texte": "Muscle intercostal, le plus superficiel des trois, prolongé en avant par la membrane intercostale externe ; muscle intrinsèque du thorax.",
+     "sources": [
+      "THX:14",
+      "RESP18e:5,9"
+     ]
+    },
+    "origine": {
+     "texte": "Bord inférieur de la côte sus-jacente.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Bord supérieur de la côte sous-jacente ; fibres obliques en bas et en avant.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerfs intercostaux 1 à 11, issus des nerfs spinaux T1 à T11.",
+     "sources": [
+      "NP16a:18"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artères intercostales postérieures et antérieures.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Inspirateur principal, intrinsèque : élévation des côtes.",
+     "sources": [
+      "RESP18e:5,9"
+     ]
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "BodyParts3D le donne d'un seul tenant, tous espaces et deux côtés réunis : structure notée « unique » dans la liste."
+   ]
+  },
+  {
+   "id": "M022",
+   "champs": {
+    "situation": {
+     "texte": "Muscle intercostal moyen, prolongé en arrière par la membrane intercostale interne ; muscle intrinsèque du thorax.",
+     "sources": [
+      "THX:14",
+      "RESP18e:11"
+     ]
+    },
+    "origine": {
+     "texte": "Bord inférieur (lèvre interne du sillon costal) de la côte sus-jacente.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Bord supérieur de la côte sous-jacente ; fibres obliques en bas et en arrière.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerfs intercostaux 1 à 11.",
+     "sources": [
+      "NP16a:18"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artères intercostales postérieures et antérieures.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Expirateur intrinsèque : abaissement des côtes.",
+     "sources": [
+      "RESP18e:5,11"
+     ]
+    },
+    "rapports": {
+     "texte": "Le paquet vasculo-nerveux intercostal (veine, artère, nerf, de haut en bas) chemine entre l'intercostal interne et l'intercostal intime, dans le sillon costal.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Structure notée « unique » : maillage BodyParts3D d'un seul tenant."
+   ]
+  },
+  {
+   "id": "M023",
+   "champs": {
+    "situation": {
+     "texte": "Muscle intercostal le plus profond, contre le fascia endothoracique ; muscle intrinsèque du thorax.",
+     "sources": [
+      "THX:9,14",
+      "RESP18e:11"
+     ]
+    },
+    "origine": {
+     "texte": "Face interne de la côte sus-jacente (partie moyenne des espaces).",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Face interne de la côte sous-jacente.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerfs intercostaux 1 à 11.",
+     "sources": [
+      "NP16a:18"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artères intercostales.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Expirateur intrinsèque.",
+     "sources": [
+      "RESP18e:11"
+     ]
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Structure notée « unique » : maillage BodyParts3D d'un seul tenant."
+   ]
+  },
+  {
+   "id": "M024",
+   "champs": {
+    "situation": {
+     "texte": "Muscle de la paroi antérieure de l'abdomen, de part et d'autre de la ligne blanche, dans la gaine des muscles droits ; avec le pyramidal, il forme la paroi antérieure.",
+     "sources": [
+      "ABP12b:3,18",
+      "THX:15"
+     ]
+    },
+    "origine": {
+     "texte": "Crête pubienne et symphyse pubienne.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Faces antérieures des 5e à 7e cartilages costaux et processus xiphoïde.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerfs intercostaux (T7 à T11) et sub-costal ; nerfs ilio-hypogastrique et ilio-inguinal selon la ronéo.",
+     "sources": [
+      "NP16a:18",
+      "NP16b:26"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artères épigastriques supérieure (thoracique interne) et inférieure (iliaque externe), anastomosées dans la gaine.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Expirateur accessoire ; presse abdominale, flexion de la colonne ; contraction isométrique dans l'inspiration d'effort.",
+     "sources": [
+      "RESP18e:11,13",
+      "NP16a:18"
+     ]
+    },
+    "clinique": {
+     "texte": "Diastasis des droits (grossesse) ; hématome de la gaine des droits.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Absent de BodyParts3D : modèle Z-Anatomy.",
+    "Intersections tendineuses et ligne arquée de la gaine : hors ronéos."
+   ]
+  },
+  {
+   "id": "M025",
+   "champs": {
+    "situation": {
+     "texte": "Muscle large de la paroi latérale de l'abdomen, le plus superficiel ; son fascia forme en avant le fascia profond de la région abdominale.",
+     "sources": [
+      "ABP12b:3,17",
+      "DOS:19"
+     ]
+    },
+    "origine": {
+     "texte": "Faces externes des 5e à 12e côtes, par des digitations entrecroisées avec celles du dentelé antérieur et du grand dorsal.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Lèvre externe de la crête iliaque ; aponévrose vers la lame antérieure de la gaine des droits et la ligne blanche ; son bord inférieur forme le ligament inguinal.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerfs intercostaux (T7 à T11) et sub-costal.",
+     "sources": [
+      "NP16a:18"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artères intercostales postérieures basses, sub-costale, lombales, épigastriques supérieure et inférieure, circonflexe iliaque profonde.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Expiration (expirateur accessoire), presse abdominale, mobilisation de la colonne ; contraction isométrique dans l'inspiration d'effort.",
+     "sources": [
+      "NP16a:18",
+      "RESP18e:11,13"
+     ]
+    },
+    "clinique": {
+     "texte": "Hernies inguinales : son aponévrose forme la paroi antérieure du canal inguinal et l'anneau inguinal superficiel.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Contraction unilatérale : rotation controlatérale du tronc (hors ronéos)."
+   ]
+  },
+  {
+   "id": "M026",
+   "champs": {
+    "situation": {
+     "texte": "Muscle large de la paroi latérale de l'abdomen, entre oblique externe et transverse ; les nerfs ilio-hypogastrique et ilio-inguinal cheminent entre lui et le transverse.",
+     "sources": [
+      "ABP12b:17",
+      "DOS:19",
+      "NP16b:25"
+     ]
+    },
+    "origine": {
+     "texte": "Fascia thoraco-lombal, ligne intermédiaire de la crête iliaque, deux tiers latéraux du ligament inguinal.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Bords inférieurs des trois dernières côtes ; aponévrose vers la gaine des droits et la ligne blanche ; fibres inférieures dans le tendon conjoint (faux inguinale) avec le transverse.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerfs intercostaux (les derniers) et sub-costal ; nerfs ilio-hypogastrique et ilio-inguinal (L1).",
+     "sources": [
+      "NP16a:18",
+      "NP16b:26"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artères intercostales postérieures basses, sub-costale, lombales, épigastriques supérieure et inférieure, circonflexe iliaque profonde.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Expiration (expirateur accessoire), presse abdominale, mobilisation de la colonne ; contraction isométrique dans l'inspiration d'effort.",
+     "sources": [
+      "NP16a:18",
+      "RESP18e:11,13"
+     ]
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Absent de BodyParts3D : modèle Z-Anatomy.",
+    "Ses fibres inférieures forment le muscle crémaster, innervé par le nerf génito-fémoral (UE10 16b p.28 cite le crémaster)."
+   ]
+  },
+  {
+   "id": "M027",
+   "champs": {
+    "situation": {
+     "texte": "Muscle large de la paroi latérale de l'abdomen, le plus profond, doublé en dedans par le fascia transversalis.",
+     "sources": [
+      "ABP12b:4,17",
+      "DOS:19"
+     ]
+    },
+    "origine": {
+     "texte": "Faces internes des six derniers cartilages costaux, fascia thoraco-lombal, lèvre interne de la crête iliaque, tiers latéral du ligament inguinal.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Aponévrose vers la gaine des droits et la ligne blanche ; tendon conjoint sur le pubis.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerfs intercostaux (les derniers) et sub-costal ; nerfs ilio-hypogastrique et ilio-inguinal (L1).",
+     "sources": [
+      "NP16a:18",
+      "NP16b:26"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artères intercostales postérieures basses, sub-costale, lombales, épigastriques supérieure et inférieure, circonflexe iliaque profonde.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Expiration (expirateur accessoire), presse abdominale, mobilisation de la colonne ; contraction isométrique dans l'inspiration d'effort.",
+     "sources": [
+      "NP16a:18",
+      "RESP18e:11,13"
+     ]
+    },
+    "rapports": {
+     "texte": "Les nerfs ilio-hypogastrique et ilio-inguinal cheminent entre le transverse de l'abdomen et l'oblique interne.",
+     "sources": [
+      "NP16b:25"
+     ]
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Absent de BodyParts3D : modèle Z-Anatomy."
+   ]
+  },
+  {
+   "id": "M028",
+   "champs": {
+    "situation": {
+     "texte": "Muscle de la paroi postérieure de l'abdomen, avec l'iliaque et le grand psoas.",
+     "sources": [
+      "ABP12b:16",
+      "DOS:19"
+     ]
+    },
+    "origine": {
+     "texte": "Lèvre interne de la crête iliaque (partie postérieure) et ligament ilio-lombal.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Bord inférieur de la 12e côte et processus costiformes de L1 à L4.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf sub-costal (T12) et branches collatérales du plexus lombal (nerf du carré des lombes).",
+     "sources": [
+      "NP16a:18",
+      "NP16b:7"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artères lombales, sub-costale et ilio-lombale.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Expiration (abaisse la 12e côte), inclinaison homolatérale de la colonne.",
+     "sources": [
+      "NP16a:18",
+      "RESP18e:11"
+     ]
+    },
+    "rapports": {
+     "texte": "Les nerfs ilio-hypogastrique et ilio-inguinal passent en avant du carré des lombes.",
+     "sources": [
+      "NP16b:25"
+     ]
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Absent de BodyParts3D : modèle Z-Anatomy."
+   ]
+  },
+  {
+   "id": "M029",
+   "champs": {
+    "situation": {
+     "texte": "Muscle du groupe superficiel du dos et muscle superficiel postérieur du cou.",
+     "sources": [
+      "DOS:17",
+      "COU:21"
+     ]
+    },
+    "origine": {
+     "texte": "Protubérance occipitale externe et tiers médial de la ligne nucale supérieure, ligament nucal, processus épineux de C7 à T12.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Tiers latéral de la clavicule (partie descendante), acromion et épine de la scapula (parties transverse et ascendante).",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf accessoire (XI), et rameaux du plexus cervical (C3-C4).",
+     "sources": []
+    },
+    "vascularisation": {
+     "texte": "Artère cervicale transverse, artère occipitale, rameaux dorsaux des intercostales.",
+     "sources": []
+    },
+    "action": {
+     "texte": "La partie descendante élève le moignon de l'épaule, la partie transverse rapproche la scapula de la colonne, la partie ascendante l'abaisse ; sonnette latérale avec le dentelé antérieur.",
+     "sources": []
+    },
+    "clinique": {
+     "texte": "Lésion du nerf accessoire (curage ganglionnaire cervical) : chute du moignon de l'épaule, gêne à l'élévation du bras.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "BodyParts3D n'a que la partie transverse : parties descendante et ascendante prises dans Z-Anatomy.",
+    "Les actions propres à chaque partie sont hors ronéos (DOS p.17 : « mobilisation du membre supérieur »).",
+    "UE10 16c p.5 donne l'élévation de l'épaule au myotome C4.",
+    "UE10 10 p.17 : groupe superficiel, « mobilisation du membre supérieur »."
+   ]
+  },
+  {
+   "id": "M030",
+   "champs": {
+    "situation": {
+     "texte": "Muscle du groupe superficiel du dos ; muscle postérieur de l'épaule ; il forme avec le grand pectoral le bord inférieur de la fosse axillaire.",
+     "sources": [
+      "DOS:17",
+      "MS14b:13",
+      "MS14c:15"
+     ]
+    },
+    "origine": {
+     "texte": "Processus épineux de T7 à L5 et crête sacrale médiane par le fascia thoraco-lombal, tiers postérieur de la crête iliaque, dernières côtes, parfois angle inférieur de la scapula.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Fond du sillon inter-tuberculaire de l'humérus.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf thoraco-dorsal (C6-C8), branche collatérale du plexus brachial.",
+     "sources": [
+      "NP16c:7"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère thoraco-dorsale (branche de l'artère sub-scapulaire).",
+     "sources": []
+    },
+    "action": {
+     "texte": "Adduction, rétropulsion et rotation médiale de l'épaule ; expirateur accessoire.",
+     "sources": []
+    },
+    "clinique": {
+     "texte": "Lambeau de grand dorsal (reconstruction mammaire).",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Absent de BodyParts3D : modèle Z-Anatomy.",
+    "Le détail des mouvements de l'épaule est hors ronéos.",
+    "UE10 10 p.17 : mobilisation du membre supérieur ; UE10 18e p.11 : expirateur accessoire."
+   ]
+  },
+  {
+   "id": "M031",
+   "champs": {
+    "situation": {
+     "texte": "Muscle du groupe superficiel du dos, sous le trapèze, sous le petit rhomboïde.",
+     "sources": [
+      "DOS:17"
+     ]
+    },
+    "origine": {
+     "texte": "Processus épineux de T2 à T5 et ligament supra-épineux.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Bord médial de la scapula, de l'épine à l'angle inférieur.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf dorsal de la scapula (C4-C5), branche collatérale du plexus brachial.",
+     "sources": [
+      "NP16c:7"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère dorsale de la scapula.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Rapproche la scapula de la colonne et l'élève (sonnette médiale).",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "UE10 10 p.17 : groupe superficiel, « mobilisation du membre supérieur »."
+   ]
+  },
+  {
+   "id": "M032",
+   "champs": {
+    "situation": {
+     "texte": "Muscle du groupe superficiel du dos, sous le trapèze, au-dessus du grand rhomboïde.",
+     "sources": [
+      "DOS:17"
+     ]
+    },
+    "origine": {
+     "texte": "Partie inférieure du ligament nucal, processus épineux de C7 et T1.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Bord médial de la scapula, à hauteur de la racine de l'épine.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf dorsal de la scapula (C4-C5).",
+     "sources": [
+      "NP16c:7"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère dorsale de la scapula.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Rapproche la scapula de la colonne et l'élève.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "UE10 10 p.17 : groupe superficiel, « mobilisation du membre supérieur »."
+   ]
+  },
+  {
+   "id": "M033",
+   "champs": {
+    "situation": {
+     "texte": "Muscle du groupe superficiel du dos ; muscle rétro-vertébral du cou, plan intermédiaire.",
+     "sources": [
+      "DOS:17",
+      "COU:20"
+     ]
+    },
+    "origine": {
+     "texte": "Tubercules postérieurs des processus transverses de C1 à C4.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Angle supérieur et partie haute du bord médial de la scapula.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf dorsal de la scapula (C5) et rameaux du plexus cervical (C3-C4).",
+     "sources": [
+      "NP16c:7"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artères dorsale de la scapula et cervicale transverse.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Mobilisation du membre supérieur : élève la scapula ; incline le cou du même côté.",
+     "sources": [
+      "DOS:17"
+     ]
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Les rameaux du plexus cervical sont hors ronéos."
+   ]
+  },
+  {
+   "id": "M034",
+   "champs": {
+    "situation": {
+     "texte": "Muscle érecteur du groupe profond du dos (épineux, longissimus, iliocostal), dans le canal ostéofibreux formé de chaque côté de la colonne par le fascia thoraco-lombal.",
+     "sources": [
+      "DOS:11,14"
+     ]
+    },
+    "origine": {
+     "texte": "Crête iliaque, face postérieure du sacrum, angles des côtes (pour les faisceaux thoracique et cervical).",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Angles des côtes, processus transverses de C4 à C6. Trois faisceaux : des lombes, du thorax, du cou.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Branches postérieures des nerfs spinaux, qui innervent les muscles intrinsèques du dos.",
+     "sources": [
+      "NP16a:7"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Rameaux dorsaux des artères intercostales postérieures et lombales ; artères vertébrale et occipitale au cou.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Extension de la colonne vertébrale et de la tête ; inclinaison homolatérale en contraction unilatérale.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Ronéo DOS p.14 : iliocostal (lombes, thorax, cou) ; COU p.19 cite l'iliocostal du cou dans le plan profond des muscles rétro-vertébraux.",
+    "Le plus latéral des érecteurs du rachis (hors ronéos).",
+    "UE10 10 p.12 et 14 : érecteurs, mobilisation de la colonne vertébrale et de la tête."
+   ]
+  },
+  {
+   "id": "M035",
+   "champs": {
+    "situation": {
+     "texte": "Muscle érecteur du groupe profond du dos (épineux, longissimus, iliocostal), dans le canal ostéofibreux formé de chaque côté de la colonne par le fascia thoraco-lombal.",
+     "sources": [
+      "DOS:11,14"
+     ]
+    },
+    "origine": {
+     "texte": "Tendon commun des érecteurs (sacrum, crête iliaque, processus épineux lombaux), processus transverses thoraciques et cervicaux.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Processus transverses et côtes (faisceau du thorax), processus transverses cervicaux (faisceau du cou), processus mastoïde (faisceau de la tête).",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Branches postérieures des nerfs spinaux, qui innervent les muscles intrinsèques du dos.",
+     "sources": [
+      "NP16a:7"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Rameaux dorsaux des artères intercostales postérieures et lombales ; artères vertébrale et occipitale au cou.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Extension de la colonne vertébrale et de la tête ; inclinaison homolatérale en contraction unilatérale.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Ronéo DOS p.14 : longissimus (thorax, cou, tête). Intermédiaire entre iliocostal et épineux (hors ronéos).",
+    "UE10 10 p.12 et 14 : érecteurs, mobilisation de la colonne vertébrale et de la tête."
+   ]
+  },
+  {
+   "id": "M036",
+   "champs": {
+    "situation": {
+     "texte": "Muscle érecteur du groupe profond du dos (épineux, longissimus, iliocostal), dans le canal ostéofibreux formé de chaque côté de la colonne par le fascia thoraco-lombal.",
+     "sources": [
+      "DOS:11,14"
+     ]
+    },
+    "origine": {
+     "texte": "Processus épineux de T11 à L2 (faisceau du thorax).",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Processus épineux de T2 à T8.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Branches postérieures des nerfs spinaux, qui innervent les muscles intrinsèques du dos.",
+     "sources": [
+      "NP16a:7"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Rameaux dorsaux des artères intercostales postérieures et lombales ; artères vertébrale et occipitale au cou.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Extension de la colonne vertébrale et de la tête ; inclinaison homolatérale en contraction unilatérale.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Ronéo DOS p.14 : épineux (thorax, cou, tête). Le plus médial des érecteurs (hors ronéos).",
+    "BodyParts3D a un maillage « spinalis » sans côté et deux « spinalis thoracis » latéralisés.",
+    "UE10 10 p.12 et 14 : érecteurs, mobilisation de la colonne vertébrale et de la tête."
+   ]
+  },
+  {
+   "id": "M037",
+   "champs": {
+    "situation": {
+     "texte": "Muscle du groupe intermédiaire du dos (respiration), sous les rhomboïdes.",
+     "sources": [
+      "DOS:16"
+     ]
+    },
+    "origine": {
+     "texte": "Partie inférieure du ligament nucal, processus épineux de C7 à T3.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Bords supérieurs des 2e à 5e côtes, en dehors de leur angle.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerfs intercostaux 2 à 5.",
+     "sources": []
+    },
+    "vascularisation": {
+     "texte": "Artères intercostales postérieures.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Élève les côtes (inspirateur).",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Hors liste du plan, cité en UE10 10 p.16.",
+    "Le sens de son action (inspiration) est hors ronéos.",
+    "UE10 10 p.16 : groupe intermédiaire, « respiration »."
+   ]
+  },
+  {
+   "id": "M038",
+   "champs": {
+    "situation": {
+     "texte": "Muscle du groupe intermédiaire du dos (respiration), sous le grand dorsal.",
+     "sources": [
+      "DOS:16"
+     ]
+    },
+    "origine": {
+     "texte": "Processus épineux de T11 à L2, par le fascia thoraco-lombal.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Bords inférieurs des 9e à 12e côtes.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerfs intercostaux 9 à 11 et sub-costal.",
+     "sources": []
+    },
+    "vascularisation": {
+     "texte": "Artères intercostales postérieures et sub-costale.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Abaisse les dernières côtes.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Hors liste du plan, cité en UE10 10 p.16.",
+    "Le sens de son action est hors ronéos.",
+    "UE10 10 p.16 : groupe intermédiaire, « respiration »."
+   ]
+  },
+  {
+   "id": "M039",
+   "champs": {
+    "situation": {
+     "texte": "Muscle de la face interne de la paroi antérieure du thorax, en arrière du sternum et des cartilages costaux.",
+     "sources": []
+    },
+    "origine": {
+     "texte": "Face postérieure du processus xiphoïde et de la partie inférieure du corps du sternum.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Faces internes des 2e à 6e cartilages costaux.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerfs intercostaux 2 à 6.",
+     "sources": []
+    },
+    "vascularisation": {
+     "texte": "Artère thoracique interne.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Abaisse les cartilages costaux : expirateur.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Non cité dans les ronéos UE10."
+   ]
+  }
+ ]
+}

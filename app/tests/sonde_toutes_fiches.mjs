@@ -45,7 +45,8 @@ try {
     const repere = Object.values(detail.fiche.champs)[0].texte.slice(0, 40);
     const vue = await page.waitForFunction(
       (r) => (document.querySelector("#fiche-contenu")?.textContent ?? "").includes(r),
-      repere, { timeout: 5_000 },
+      // 20 s : la première fiche de muscle charge le calque Muscles (13 Mo), qui occupe la page
+      repere, { timeout: 20_000 },
     ).then(() => true, () => false);
     if (!vue) erreurs.push(`fiche non affichée (repère « ${repere} » absent)`);
     const rendu = await page.evaluate(() => ({

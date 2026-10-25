@@ -353,7 +353,7 @@ def organes(index, lignes_za=(), doublons=frozenset()):
             m = re.compile(motif_za)
             # L'encéphale prend ses groupes de Z-Anatomy entiers (hémisphères et cervelet)
             parties |= {l["objet"] for l in lignes_za if m.search(l["objet"]) and l["groupe"] != "lymphatiques"
-                        and l.get("systeme", "autres") != "os"
+                        and l.get("systeme", "autres") == "autres"
                         and (id_ != "encephale" or l["groupe"] in ("encephale", "cervelet"))}
         parties -= set(doublons)
         if not parties:

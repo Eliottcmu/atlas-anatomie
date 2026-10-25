@@ -1,0 +1,1611 @@
+{
+ "region": "Membre inférieur (muscles)",
+ "redige_le": "2026-10-24",
+ "fiches": [
+  {
+   "id": "M081",
+   "champs": {
+    "situation": {
+     "texte": "Muscle postérieur de la hanche, le plus volumineux des fessiers (grand, moyen et petit). Recouvre le nerf ischiatique à sa sortie du foramen infra-piriforme.",
+     "sources": [
+      "MI13b:12",
+      "NP16b:38"
+     ]
+    },
+    "origine": {
+     "texte": "Face glutéale de l'ilium en arrière de la ligne glutéale postérieure, face dorsale du sacrum et du coccyx, ligament sacro-tubéral, fascia thoraco-lombal.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Tractus ilio-tibial pour la plus grande partie (faisceaux superficiels), tubérosité glutéale du fémur (faisceaux profonds).",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf glutéal inférieur (L5-S2), branche collatérale du plexus sacral : traverse le foramen infra-piriforme et chemine entre le moyen et le grand fessiers.",
+     "sources": [
+      "NP16b:21,36"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artères glutéales supérieure et inférieure, branches de l'artère iliaque interne.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Extension et rotation latérale de la hanche ; station debout.",
+     "sources": [
+      "NP16b:36"
+     ]
+    },
+    "clinique": {
+     "texte": "Injection intramusculaire dans le quadrant supéro-latéral de la fesse, loin du nerf ischiatique.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Nom des ronéos UE10 (13b, 16b) : grand fessier ; MB26 p.14 écrit « grand glutéal »."
+   ]
+  },
+  {
+   "id": "M082",
+   "champs": {
+    "situation": {
+     "texte": "Muscle postérieur de la hanche, groupe des fessiers, entre le grand fessier en arrière et le petit fessier en avant.",
+     "sources": [
+      "MI13b:12",
+      "NP16b:35-36"
+     ]
+    },
+    "origine": {
+     "texte": "Face glutéale de l'ilium, entre les lignes glutéales antérieure et postérieure.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Face latérale du grand trochanter.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf glutéal supérieur (L4-S1) : traverse le foramen supra-piriforme et chemine entre le petit et le moyen fessiers.",
+     "sources": [
+      "NP16b:20,35"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère glutéale supérieure.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Abduction de la hanche ; équilibre du bassin en appui monopodal.",
+     "sources": [
+      "NP16b:35"
+     ]
+    },
+    "clinique": {
+     "texte": "Paralysie (lésion du nerf glutéal supérieur) : signe de Trendelenburg, le bassin bascule du côté opposé en appui sur le membre atteint ; boiterie de Trendelenburg.",
+     "sources": []
+    },
+    "pathologie": {
+     "texte": "Tendinopathie et rupture des tendons du moyen et du petit fessier sur le grand trochanter (syndrome douloureux du grand trochanter, « coiffe des rotateurs de la hanche »).",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": []
+  },
+  {
+   "id": "M083",
+   "champs": {
+    "situation": {
+     "texte": "Muscle postérieur de la hanche, le plus profond des fessiers, sous le moyen fessier.",
+     "sources": [
+      "MI13b:12",
+      "NP16b:35"
+     ]
+    },
+    "origine": {
+     "texte": "Face glutéale de l'ilium, entre les lignes glutéales antérieure et inférieure.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Face antérieure du grand trochanter.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf glutéal supérieur (L4-S1), qui chemine entre le petit et le moyen fessiers.",
+     "sources": [
+      "NP16b:20,35"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère glutéale supérieure.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Abduction de la hanche ; équilibre du bassin en appui monopodal.",
+     "sources": [
+      "NP16b:35"
+     ]
+    },
+    "clinique": {
+     "texte": "Atteint avec le moyen fessier dans la paralysie du nerf glutéal supérieur (signe de Trendelenburg).",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": []
+  },
+  {
+   "id": "M084",
+   "champs": {
+    "situation": {
+     "texte": "Muscle postérieur de la hanche (pelvi-trochantérien) et de la paroi postérieure du pelvis. Traverse la grande incisure ischiatique, qu'il divise en foramen supra-piriforme (nerf et vaisseaux glutéaux supérieurs) et foramen infra-piriforme (nerf ischiatique, nerf et vaisseaux glutéaux inférieurs, nerf pudendal et vaisseaux pudendaux internes).",
+     "sources": [
+      "MI13b:12",
+      "ABP12b:20",
+      "MI13c:4"
+     ]
+    },
+    "origine": {
+     "texte": "Face pelvienne du sacrum, entre les foramens sacraux antérieurs S2 à S4.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Bord supérieur du grand trochanter.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf du piriforme, branche collatérale du plexus sacral (S1-S2).",
+     "sources": [
+      "NP16b:19"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artères glutéales supérieure et inférieure, branches de l'artère iliaque interne.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Rotation latérale de la hanche en extension ; abduction de la hanche fléchie.",
+     "sources": []
+    },
+    "clinique": {
+     "texte": "Syndrome du piriforme : compression du nerf ischiatique (sciatalgie tronquée) ; variante où une partie du nerf traverse le muscle.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Hors liste du plan, cité en UE10 13b p.12."
+   ]
+  },
+  {
+   "id": "M085",
+   "champs": {
+    "situation": {
+     "texte": "Muscle pelvi-trochantérien, postérieur de la hanche ; forme la paroi latérale du pelvis et ferme, avec l'obturateur externe et la membrane obturatrice, le foramen obturé.",
+     "sources": [
+      "MI13b:12",
+      "ABP12b:20",
+      "MI13c:6"
+     ]
+    },
+    "origine": {
+     "texte": "Face interne de la membrane obturatrice et pourtour du foramen obturé.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Sort par la petite incisure ischiatique et se fixe sur la fosse trochantérique, avec les jumeaux.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf de l'obturateur interne et du jumeau supérieur, branche collatérale du plexus sacral (L5-S2).",
+     "sources": [
+      "NP16b:17"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artères pudendale interne et obturatrice.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Rotation latérale de la hanche.",
+     "sources": []
+    },
+    "rapports": {
+     "texte": "Son aponévrose est longée par le nerf obturateur, qui gagne le foramen obturé.",
+     "sources": [
+      "NP16b:33"
+     ]
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Hors liste du plan, pelvi-trochantérien cité en UE10 13b p.12."
+   ]
+  },
+  {
+   "id": "M086",
+   "champs": {
+    "situation": {
+     "texte": "Muscle pelvi-trochantérien, postérieur de la hanche ; ferme le foramen obturé par sa face externe.",
+     "sources": [
+      "MI13b:12",
+      "MI13c:6"
+     ]
+    },
+    "origine": {
+     "texte": "Face externe de la membrane obturatrice et pourtour du foramen obturé.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Fosse trochantérique du fémur.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf obturateur (L3-L4).",
+     "sources": []
+    },
+    "vascularisation": {
+     "texte": "Artère obturatrice et artère circonflexe fémorale médiale.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Rotation latérale de la hanche.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Hors liste du plan, pelvi-trochantérien cité en UE10 13b p.12."
+   ]
+  },
+  {
+   "id": "M087",
+   "champs": {
+    "situation": {
+     "texte": "Muscle pelvi-trochantérien, postérieur de la hanche, au-dessus du tendon de l'obturateur interne.",
+     "sources": [
+      "MI13b:12"
+     ]
+    },
+    "origine": {
+     "texte": "Épine ischiatique.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Tendon de l'obturateur interne, fosse trochantérique.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf de l'obturateur interne et du jumeau supérieur (plexus sacral).",
+     "sources": [
+      "NP16b:17"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artères glutéale inférieure et pudendale interne.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Rotation latérale de la hanche, avec l'obturateur interne.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Hors liste du plan, pelvi-trochantérien cité en UE10 13b p.12."
+   ]
+  },
+  {
+   "id": "M088",
+   "champs": {
+    "situation": {
+     "texte": "Muscle pelvi-trochantérien, postérieur de la hanche, sous le tendon de l'obturateur interne.",
+     "sources": [
+      "MI13b:12"
+     ]
+    },
+    "origine": {
+     "texte": "Tubérosité ischiatique.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Tendon de l'obturateur interne, fosse trochantérique.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf du carré fémoral et du jumeau inférieur (plexus sacral).",
+     "sources": [
+      "NP16b:18"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère circonflexe fémorale médiale.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Rotation latérale de la hanche.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Hors liste du plan, pelvi-trochantérien cité en UE10 13b p.12."
+   ]
+  },
+  {
+   "id": "M089",
+   "champs": {
+    "situation": {
+     "texte": "Muscle pelvi-trochantérien, le plus bas des muscles postérieurs de la hanche.",
+     "sources": [
+      "MI13b:12"
+     ]
+    },
+    "origine": {
+     "texte": "Bord latéral de la tubérosité ischiatique.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Tubercule carré, sur la crête intertrochantérique du fémur.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf du carré fémoral et du jumeau inférieur, branche collatérale du plexus sacral.",
+     "sources": [
+      "NP16b:18"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère circonflexe fémorale médiale.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Rotation latérale et adduction de la hanche.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Hors liste du plan, pelvi-trochantérien cité en UE10 13b p.12."
+   ]
+  },
+  {
+   "id": "M090",
+   "champs": {
+    "situation": {
+     "texte": "Muscle de la paroi postérieure de l'abdomen, entouré du fascia du psoas ; réuni au muscle iliaque (ilio-psoas), il passe dans la lacune musculaire sous le ligament inguinal avec le nerf fémoral et devient un muscle antérieur de la hanche.",
+     "sources": [
+      "ABP12b:4,16",
+      "MI13c:5",
+      "MI13b:12"
+     ]
+    },
+    "origine": {
+     "texte": "Faces latérales des corps vertébraux de T12 à L4 et des disques (chef corporéal), processus costiformes de L1 à L5 (chef costiforme).",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Petit trochanter du fémur, par le tendon commun de l'ilio-psoas.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Branches collatérales du plexus lombal (nerf du grand psoas, L1-L3).",
+     "sources": [
+      "NP16b:8"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artères lombales, artère ilio-lombale.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Flexion de la hanche (plexus lombal : flexion de la hanche).",
+     "sources": [
+      "NP16b:16"
+     ]
+    },
+    "rapports": {
+     "texte": "Traversé par le nerf génito-fémoral, qui parcourt ensuite sa face antérieure dans son fascia ; le nerf fémoral chemine dans le sillon entre l'iliaque et le grand psoas ; le nerf obturateur longe son bord médial.",
+     "sources": [
+      "NP16b:27,31,33"
+     ]
+    },
+    "clinique": {
+     "texte": "Abcès du psoas (spondylodiscite, tuberculose) fusant vers la cuisse ; signe du psoas dans l'appendicite rétro-cæcale.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Le plexus lombal se forme dans l'épaisseur du muscle (hors ronéos)."
+   ]
+  },
+  {
+   "id": "M091",
+   "champs": {
+    "situation": {
+     "texte": "Muscle de la paroi postérieure de l'abdomen (fosse iliaque), recouvert par le fascia iliaque ; avec le grand psoas il forme l'ilio-psoas, qui passe dans la lacune musculaire avec le nerf fémoral.",
+     "sources": [
+      "ABP12b:4,16",
+      "MI13c:5",
+      "NP16b:31"
+     ]
+    },
+    "origine": {
+     "texte": "Fosse iliaque, lèvre interne de la crête iliaque, aile du sacrum.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Petit trochanter, par le tendon commun de l'ilio-psoas.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Rameaux du nerf fémoral (L2-L3) dans la fosse iliaque.",
+     "sources": []
+    },
+    "vascularisation": {
+     "texte": "Artère ilio-lombale, artère circonflexe iliaque profonde.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Flexion de la hanche, avec le grand psoas.",
+     "sources": []
+    },
+    "rapports": {
+     "texte": "Le nerf fémoral descend dans le sillon entre l'iliaque et le grand psoas, recouvert par le fascia iliaque.",
+     "sources": [
+      "NP16b:31"
+     ]
+    }
+   },
+   "relations": [],
+   "remarques": []
+  },
+  {
+   "id": "M092",
+   "champs": {
+    "situation": {
+     "texte": "Muscle antérieur de la hanche, dans le dédoublement du fascia lata.",
+     "sources": [
+      "MI13b:4,12"
+     ]
+    },
+    "origine": {
+     "texte": "Épine iliaque antéro-supérieure et partie antérieure de la lèvre externe de la crête iliaque.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Tractus ilio-tibial, qui se fixe sur le tubercule infra-condylaire latéral du tibia (tubercule de Gerdy).",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf glutéal supérieur (L4-S1), qui chemine entre le petit et le moyen fessiers jusqu'au tenseur du fascia lata.",
+     "sources": [
+      "NP16b:35"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère circonflexe fémorale latérale, artère glutéale supérieure.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Abduction de la hanche ; équilibre du bassin en appui monopodal.",
+     "sources": [
+      "NP16b:35"
+     ]
+    },
+    "clinique": {
+     "texte": "Syndrome de la bandelette ilio-tibiale du coureur (frottement sur l'épicondyle latéral du fémur).",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": []
+  },
+  {
+   "id": "M093",
+   "champs": {
+    "situation": {
+     "texte": "Compartiment antérieur de la cuisse, le plus superficiel ; muscle antérieur de la hanche. Recouvre l'artère fémorale entre le long adducteur et le vaste médial.",
+     "sources": [
+      "MI13b:12-13",
+      "MB26:14-16"
+     ]
+    },
+    "origine": {
+     "texte": "Épine iliaque antéro-supérieure.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Face médiale de l'extrémité proximale du tibia, par la patte d'oie (avec le gracile et le semi-tendineux).",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf fémoral (L2-L4), branche terminale du plexus lombal (compartiment antérieur de la cuisse).",
+     "sources": [
+      "NP16b:14,32"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère fémorale et artère profonde de la cuisse (artère circonflexe fémorale latérale surtout).",
+     "sources": []
+    },
+    "action": {
+     "texte": "Flexion, abduction et rotation latérale de la hanche ; flexion et rotation médiale du genou (position du tailleur).",
+     "sources": []
+    },
+    "rapports": {
+     "texte": "Limite latérale du canal fémoral à sa partie haute ; plus bas, recouvre les vaisseaux fémoraux.",
+     "sources": [
+      "MB26:14-16"
+     ]
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "La ronéo NP16b p.32 attribue au compartiment antérieur « flexion de la hanche, extension du genou » ; le sartorius, lui, fléchit le genou (hors ronéos)."
+   ]
+  },
+  {
+   "id": "M094",
+   "champs": {
+    "situation": {
+     "texte": "Compartiment antérieur de la cuisse, chef du quadriceps (4 corps : droit fémoral, vastes latéral, intermédiaire et médial), le seul qui croise la hanche ; muscle antérieur de la hanche.",
+     "sources": [
+      "MI13b:12-13",
+      "LOC15c:9"
+     ]
+    },
+    "origine": {
+     "texte": "Épine iliaque antéro-inférieure (tendon direct) et sillon supra-acétabulaire (tendon réfléchi).",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Tendon quadricipital sur la base de la patella, os sésamoïde du quadriceps, puis ligament patellaire sur la tubérosité tibiale.",
+     "sources": [
+      "MI13a:14"
+     ]
+    },
+    "innervation": {
+     "texte": "Nerf fémoral (L2-L4), par le nerf du quadriceps.",
+     "sources": [
+      "NP16b:31-32"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère circonflexe fémorale latérale (rameau descendant).",
+     "sources": []
+    },
+    "action": {
+     "texte": "Extension du genou et flexion de la hanche (territoire moteur du nerf fémoral).",
+     "sources": [
+      "NP16b:32"
+     ]
+    },
+    "clinique": {
+     "texte": "Réflexe rotulien (L3-L4) : percussion du ligament patellaire.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Le réflexe rotulien n'est pas décrit dans les ronéos UE10 lues."
+   ]
+  },
+  {
+   "id": "M095",
+   "champs": {
+    "situation": {
+     "texte": "Compartiment antérieur de la cuisse, chef latéral du quadriceps.",
+     "sources": [
+      "MI13b:12-13"
+     ]
+    },
+    "origine": {
+     "texte": "Ligne intertrochantérique (partie haute), bord antérieur et inférieur du grand trochanter, lèvre latérale de la ligne âpre.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Tendon quadricipital et bord latéral de la patella (os sésamoïde du quadriceps), rétinaculum patellaire latéral.",
+     "sources": [
+      "MI13a:14"
+     ]
+    },
+    "innervation": {
+     "texte": "Nerf fémoral (L2-L4), nerf du quadriceps.",
+     "sources": [
+      "NP16b:31-32"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère circonflexe fémorale latérale (rameau descendant).",
+     "sources": []
+    },
+    "action": {
+     "texte": "Extension du genou.",
+     "sources": [
+      "NP16b:32"
+     ]
+    },
+    "clinique": {
+     "texte": "Site d'injection intramusculaire chez le nourrisson (face antéro-latérale de la cuisse).",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": []
+  },
+  {
+   "id": "M096",
+   "champs": {
+    "situation": {
+     "texte": "Compartiment antérieur de la cuisse, chef médial du quadriceps ; l'artère fémorale descend entre le long adducteur et le vaste médial.",
+     "sources": [
+      "MI13b:13",
+      "MB26:16"
+     ]
+    },
+    "origine": {
+     "texte": "Ligne intertrochantérique (partie basse), ligne spirale, lèvre médiale de la ligne âpre.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Patella, os sésamoïde du quadriceps, par le tendon quadricipital.",
+     "sources": [
+      "MI13a:14"
+     ]
+    },
+    "innervation": {
+     "texte": "Nerf fémoral (L2-L4), nerf du quadriceps.",
+     "sources": [
+      "NP16b:31-32"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère fémorale, artère descendante du genou.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Extension du genou ; ses fibres basses (vaste médial oblique) stabilisent la patella contre la luxation latérale.",
+     "sources": []
+    },
+    "clinique": {
+     "texte": "Amyotrophie précoce après une entorse ou une chirurgie du genou.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": []
+  },
+  {
+   "id": "M097",
+   "champs": {
+    "situation": {
+     "texte": "Compartiment antérieur de la cuisse, chef profond du quadriceps, sous le droit fémoral.",
+     "sources": [
+      "MI13b:13"
+     ]
+    },
+    "origine": {
+     "texte": "Faces antérieure et latérale des deux tiers proximaux de la diaphyse fémorale.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Patella, os sésamoïde du quadriceps, par la face profonde du tendon quadricipital.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf fémoral (L2-L4), nerf du quadriceps.",
+     "sources": [
+      "NP16b:31-32"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère circonflexe fémorale latérale, artère profonde de la cuisse.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Extension du genou.",
+     "sources": [
+      "NP16b:32"
+     ]
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Ses fibres profondes forment le muscle articulaire du genou, qui tend la bourse supra-patellaire (hors ronéos).",
+    "UE10 13a p.14 : patella, « os sésamoïde du muscle quadriceps »."
+   ]
+  },
+  {
+   "id": "M098",
+   "champs": {
+    "situation": {
+     "texte": "Muscle antérieur de la hanche ; placé par la ronéo dans le groupe médial (adducteurs) du compartiment postérieur de la cuisse.",
+     "sources": [
+      "MI13b:12-13"
+     ]
+    },
+    "origine": {
+     "texte": "Pecten du pubis (ligne pectinée) et surface pectinéale.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Ligne pectinée du fémur, entre le petit trochanter et la ligne âpre.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf fémoral (L2-L3), parfois aussi nerf obturateur ou obturateur accessoire.",
+     "sources": []
+    },
+    "vascularisation": {
+     "texte": "Artère circonflexe fémorale médiale, artère obturatrice.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Adduction et flexion de la hanche.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Hors liste du plan, cité en UE10 13b p.12-13.",
+    "La ronéo NP16b p.34 donne au nerf obturateur le groupe médial ; le pectiné, rangé dans ce groupe par UE10 13b p.13, est innervé surtout par le nerf fémoral (hors ronéos). Écart à trancher par Eliott."
+   ]
+  },
+  {
+   "id": "M099",
+   "champs": {
+    "situation": {
+     "texte": "Groupe médial (adducteurs) du compartiment postérieur de la cuisse ; muscle antérieur de la hanche. Limite le canal fémoral en arrière et en dedans.",
+     "sources": [
+      "MI13b:12-13",
+      "MB26:14"
+     ]
+    },
+    "origine": {
+     "texte": "Face antérieure du corps du pubis, sous le tubercule pubien.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Lèvre médiale de la ligne âpre, au tiers moyen.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf obturateur (L2-L4), branche terminale du plexus lombal.",
+     "sources": [
+      "NP16b:14,34"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère profonde de la cuisse (perforantes) et artère obturatrice.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Adduction et rotation latérale de la hanche.",
+     "sources": [
+      "NP16b:34"
+     ]
+    },
+    "clinique": {
+     "texte": "Pubalgie des sportifs (tendinopathie d'insertion des adducteurs).",
+     "sources": []
+    },
+    "rapports": {
+     "texte": "Bord médial du trigone fémoral ; l'artère fémorale passe entre le long adducteur et le vaste médial.",
+     "sources": [
+      "MB26:14,16"
+     ]
+    }
+   },
+   "relations": [],
+   "remarques": []
+  },
+  {
+   "id": "M100",
+   "champs": {
+    "situation": {
+     "texte": "Groupe médial (adducteurs) du compartiment postérieur de la cuisse, entre le long adducteur en avant et le grand adducteur en arrière.",
+     "sources": [
+      "MI13b:12-13"
+     ]
+    },
+    "origine": {
+     "texte": "Face antérieure du corps et de la branche inférieure du pubis.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Ligne pectinée et partie haute de la lèvre médiale de la ligne âpre.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf obturateur (L2-L4).",
+     "sources": [
+      "NP16b:34"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère profonde de la cuisse (perforantes) et artère obturatrice.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Adduction et rotation latérale de la hanche.",
+     "sources": [
+      "NP16b:34"
+     ]
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Les deux branches du nerf obturateur l'encadrent (hors ronéos)."
+   ]
+  },
+  {
+   "id": "M101",
+   "champs": {
+    "situation": {
+     "texte": "Groupe médial (adducteurs) du compartiment postérieur de la cuisse, le plus volumineux ; son fascia postérieur sépare le groupe médial du groupe postérieur (ischio-jambiers).",
+     "sources": [
+      "MI13b:6,13"
+     ]
+    },
+    "origine": {
+     "texte": "Branche ischio-pubienne (partie adductrice) et tubérosité ischiatique (partie ischio-condylienne).",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Ligne âpre et ligne supracondylaire médiale (partie adductrice) ; tubercule de l'adducteur du condyle médial (partie ischio-condylienne). Entre les deux, le hiatus tendineux de l'adducteur.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf obturateur (L2-L4) ; la partie ischio-condylienne reçoit en plus un rameau du nerf ischiatique.",
+     "sources": []
+    },
+    "vascularisation": {
+     "texte": "Artère profonde de la cuisse (perforantes) et artère obturatrice.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Adduction et rotation latérale de la hanche ; la partie ischio-condylienne étend la hanche.",
+     "sources": [
+      "NP16b:34"
+     ]
+    },
+    "rapports": {
+     "texte": "Le hiatus tendineux de l'adducteur (anneau du grand adducteur) laisse passer les vaisseaux fémoraux, qui deviennent poplités.",
+     "sources": [
+      "MB26:14,16",
+      "MI13c:7"
+     ]
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "L'innervation par le nerf ischiatique de la partie ischio-condylienne et son action d'extension sont hors ronéos.",
+    "UE10 16b p.34 : nerf obturateur pour le groupe médial ; le rameau du nerf ischiatique est hors ronéos."
+   ]
+  },
+  {
+   "id": "M102",
+   "champs": {
+    "situation": {
+     "texte": "Groupe médial (adducteurs) du compartiment postérieur de la cuisse, le plus médial et superficiel.",
+     "sources": [
+      "MI13b:13"
+     ]
+    },
+    "origine": {
+     "texte": "Corps du pubis et branche inférieure du pubis, près de la symphyse.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Face médiale de l'extrémité proximale du tibia, par la patte d'oie.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf obturateur (L2-L4).",
+     "sources": [
+      "NP16b:34"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère profonde de la cuisse (perforantes) et artère obturatrice.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Adduction et rotation latérale de la hanche.",
+     "sources": [
+      "NP16b:34"
+     ]
+    },
+    "clinique": {
+     "texte": "Prélevé avec le semi-tendineux pour la ligamentoplastie du ligament croisé antérieur ; lambeau musculaire en chirurgie réparatrice.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Il fléchit aussi le genou et le tourne en dedans (hors ronéos)."
+   ]
+  },
+  {
+   "id": "M103",
+   "champs": {
+    "situation": {
+     "texte": "Groupe postérieur (ischio-jambiers) du compartiment postérieur de la cuisse, le plus latéral ; deux chefs, long et court.",
+     "sources": [
+      "MI13b:13"
+     ]
+    },
+    "origine": {
+     "texte": "Chef long : tubérosité ischiatique (tendon commun avec le semi-tendineux). Chef court : lèvre latérale de la ligne âpre.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Tête de la fibula.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Chef long : nerf ischiatique (L4-S3). Chef court : nerf fibulaire commun.",
+     "sources": [
+      "NP16b:38,41"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artères perforantes de l'artère profonde de la cuisse ; artère glutéale inférieure en haut.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Flexion du genou et rotation latérale du genou fléchi ; le chef long étend la hanche.",
+     "sources": []
+    },
+    "clinique": {
+     "texte": "Lésions musculaires fréquentes chez le sprinteur ; le nerf fibulaire commun longe son tendon puis la tête de la fibula.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "La ronéo NP16b p.38 donne les ischio-jambiers au nerf ischiatique ; l'innervation du chef court par le contingent fibulaire commun, la rotation et l'extension de hanche sont hors ronéos.",
+    "UE10 16b p.38 : ischio-jambiers, « flexion du genou » ; rotation et extension de hanche hors ronéos."
+   ]
+  },
+  {
+   "id": "M104",
+   "champs": {
+    "situation": {
+     "texte": "Groupe postérieur (ischio-jambiers) du compartiment postérieur de la cuisse, médial, superficiel au semi-membraneux.",
+     "sources": [
+      "MI13b:13"
+     ]
+    },
+    "origine": {
+     "texte": "Tubérosité ischiatique, tendon commun avec le chef long du biceps fémoral.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Face médiale de l'extrémité proximale du tibia, par la patte d'oie.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf ischiatique (L5-S2).",
+     "sources": [
+      "NP16b:38"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artères perforantes de l'artère profonde de la cuisse ; artère glutéale inférieure en haut.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Flexion du genou ; extension de la hanche, rotation médiale du genou fléchi.",
+     "sources": []
+    },
+    "clinique": {
+     "texte": "Prélevé avec le gracile pour la ligamentoplastie du ligament croisé antérieur.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Extension de la hanche et rotation médiale : hors ronéos (NP16b p.38 ne cite que la flexion du genou).",
+    "UE10 16b p.38 : ischio-jambiers, « flexion du genou »."
+   ]
+  },
+  {
+   "id": "M105",
+   "champs": {
+    "situation": {
+     "texte": "Groupe postérieur (ischio-jambiers) du compartiment postérieur de la cuisse, médial et profond.",
+     "sources": [
+      "MI13b:13"
+     ]
+    },
+    "origine": {
+     "texte": "Tubérosité ischiatique, au-dessus et en dehors du tendon commun.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Face postéro-médiale du condyle médial du tibia ; expansions vers le ligament poplité oblique et la capsule du genou.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf ischiatique (L5-S2).",
+     "sources": [
+      "NP16b:38"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artères perforantes de l'artère profonde de la cuisse ; artère glutéale inférieure en haut.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Flexion du genou ; extension de la hanche, rotation médiale du genou fléchi.",
+     "sources": []
+    },
+    "clinique": {
+     "texte": "Kyste poplité (de Baker) entre semi-membraneux et chef médial du gastrocnémien.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Extension de la hanche et rotation médiale : hors ronéos.",
+    "UE10 16b p.38 : ischio-jambiers, « flexion du genou »."
+   ]
+  },
+  {
+   "id": "M106",
+   "champs": {
+    "situation": {
+     "texte": "Compartiment postérieur de la jambe, groupe superficiel : deux chefs, médial et latéral, qui forment avec le soléaire le triceps sural.",
+     "sources": [
+      "MI13b:14"
+     ]
+    },
+    "origine": {
+     "texte": "Chef médial : face postérieure du condyle fémoral médial. Chef latéral : face latérale du condyle fémoral latéral.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Tendon calcanéen (d'Achille), commun avec le soléaire, sur la tubérosité calcanéenne.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf tibial (L4-S3).",
+     "sources": [
+      "NP16b:39-40"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artères surales, branches de l'artère poplitée.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Flexion de la cheville (flexion plantaire), propulsion lors de la marche ; fléchit aussi le genou.",
+     "sources": [
+      "NP16b:40"
+     ]
+    },
+    "clinique": {
+     "texte": "Réflexe achilléen (S1). Déchirure du chef médial (« coup de fouet ») ; rupture du tendon calcanéen.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "La flexion du genou par le gastrocnémien et le réflexe achilléen sont hors ronéos."
+   ]
+  },
+  {
+   "id": "M107",
+   "champs": {
+    "situation": {
+     "texte": "Compartiment postérieur de la jambe, groupe superficiel, sous le gastrocnémien : triceps sural. Le nerf tibial et les vaisseaux tibiaux postérieurs passent en avant de l'arcade du muscle soléaire.",
+     "sources": [
+      "MI13b:14",
+      "MI13c:7"
+     ]
+    },
+    "origine": {
+     "texte": "Tête et face postérieure de la fibula, ligne du muscle soléaire du tibia, arcade tendineuse du soléaire entre les deux.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Tendon calcanéen, sur la tubérosité calcanéenne.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf tibial (L4-S3).",
+     "sources": [
+      "NP16b:40"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artères surales, tibiale postérieure et fibulaire.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Flexion de la cheville, propulsion lors de la marche.",
+     "sources": [
+      "NP16b:40"
+     ]
+    },
+    "clinique": {
+     "texte": "Pompe musculaire du retour veineux du mollet (sinus veineux du soléaire), siège fréquent des thromboses veineuses profondes.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Rôle postural et pompe veineuse : hors ronéos."
+   ]
+  },
+  {
+   "id": "M108",
+   "champs": {
+    "situation": {
+     "texte": "Compartiment postérieur de la jambe, groupe superficiel, entre gastrocnémien et soléaire.",
+     "sources": [
+      "MI13b:14"
+     ]
+    },
+    "origine": {
+     "texte": "Ligne supracondylaire latérale du fémur, au-dessus du chef latéral du gastrocnémien.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Long tendon grêle, sur le bord médial du tendon calcanéen ou la tubérosité calcanéenne.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf tibial.",
+     "sources": [
+      "NP16b:40"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artères surales.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Faible fléchisseur plantaire de la cheville et du genou.",
+     "sources": []
+    },
+    "clinique": {
+     "texte": "Inconstant (absent dans environ 10 % des cas) ; son tendon sert de greffon.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Hors liste du plan, cité en UE10 13b p.14."
+   ]
+  },
+  {
+   "id": "M109",
+   "champs": {
+    "situation": {
+     "texte": "Compartiment postérieur de la jambe, groupe profond ; plancher de la fosse poplitée.",
+     "sources": [
+      "MI13b:14"
+     ]
+    },
+    "origine": {
+     "texte": "Face latérale du condyle fémoral latéral (tendon intra-capsulaire), ménisque latéral.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Face postérieure du tibia, au-dessus de la ligne du muscle soléaire.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf tibial.",
+     "sources": [
+      "NP16b:40"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artères inférieures du genou (branches de l'artère poplitée).",
+     "sources": []
+    },
+    "action": {
+     "texte": "Rotation médiale du tibia en début de flexion : « déverrouille » le genou en extension.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Hors liste du plan, cité en UE10 13b p.14."
+   ]
+  },
+  {
+   "id": "M110",
+   "champs": {
+    "situation": {
+     "texte": "Compartiment antérieur de la jambe, le plus médial, contre la face latérale du tibia.",
+     "sources": [
+      "MI13b:14"
+     ]
+    },
+    "origine": {
+     "texte": "Condyle latéral et moitié proximale de la face latérale du tibia, membrane interosseuse.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Face médiale du cunéiforme médial et base du 1er métatarsien.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf fibulaire profond (L4-L5).",
+     "sources": [
+      "NP16b:41-42"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère tibiale antérieure.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Extension de la cheville (flexion dorsale) ; maintien de la voûte plantaire.",
+     "sources": [
+      "NP16b:42"
+     ]
+    },
+    "clinique": {
+     "texte": "Paralysie du nerf fibulaire commun (col de la fibula) : pied tombant, steppage.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Il porte aussi le pied en inversion (hors ronéos)."
+   ]
+  },
+  {
+   "id": "M111",
+   "champs": {
+    "situation": {
+     "texte": "Compartiment antérieur de la jambe, latéral au tibial antérieur ; ses tendons gagnent le dos du pied.",
+     "sources": [
+      "MI13b:14,19"
+     ]
+    },
+    "origine": {
+     "texte": "Condyle latéral du tibia, trois quarts proximaux de la face médiale de la fibula, membrane interosseuse.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Quatre tendons sur les phalanges moyennes et distales des orteils II à V (dossière des extenseurs).",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf fibulaire profond (L5-S1).",
+     "sources": [
+      "NP16b:41-42"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère tibiale antérieure.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Extension des orteils et de la cheville.",
+     "sources": [
+      "NP16b:42"
+     ]
+    },
+    "clinique": {
+     "texte": "Atteint dans la paralysie fibulaire (pied tombant).",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": []
+  },
+  {
+   "id": "M112",
+   "champs": {
+    "situation": {
+     "texte": "Compartiment antérieur de la jambe, entre tibial antérieur et long extenseur des orteils ; son tendon longe le dos du pied vers l'hallux.",
+     "sources": [
+      "MI13b:14,19"
+     ]
+    },
+    "origine": {
+     "texte": "Partie moyenne de la face médiale de la fibula, membrane interosseuse.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Base de la phalange distale de l'hallux.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf fibulaire profond (L5).",
+     "sources": [
+      "NP16b:41-42"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère tibiale antérieure.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Extension de l'hallux et de la cheville.",
+     "sources": [
+      "NP16b:42"
+     ]
+    },
+    "clinique": {
+     "texte": "Testing de la racine L5 : extension contrariée du gros orteil.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "UE10 16b p.5 donne au myotome L5 l'extension du gros orteil."
+   ]
+  },
+  {
+   "id": "M113",
+   "champs": {
+    "situation": {
+     "texte": "Compartiment antérieur de la jambe, faisceau latéral du long extenseur des orteils.",
+     "sources": [
+      "MI13b:14"
+     ]
+    },
+    "origine": {
+     "texte": "Tiers distal de la face médiale de la fibula.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Face dorsale de la base du 5e métatarsien.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf fibulaire profond.",
+     "sources": [
+      "NP16b:41-42"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère tibiale antérieure.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Extension de la cheville et éversion du pied.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Hors liste du plan, cité en UE10 13b p.14 (« 3è fibulaire »). Inconstant.",
+    "Malgré son nom, il appartient au compartiment antérieur (nerf fibulaire profond), pas au compartiment latéral."
+   ]
+  },
+  {
+   "id": "M114",
+   "champs": {
+    "situation": {
+     "texte": "Compartiment latéral de la jambe, superficiel au court fibulaire ; ses tendons passent dans le sillon rétro-malléolaire latéral et sous la trochlée des muscles fibulaires du calcanéus.",
+     "sources": [
+      "MI13b:14",
+      "MI13c:22",
+      "MI13a:17"
+     ]
+    },
+    "origine": {
+     "texte": "Tête et deux tiers proximaux de la face latérale de la fibula.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Traverse la plante sous le cuboïde et se fixe sur le cunéiforme médial et la base du 1er métatarsien.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf fibulaire superficiel (L5-S1), qui chemine entre long et court fibulaires.",
+     "sources": [
+      "NP16b:41-42"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère fibulaire et rameaux de l'artère tibiale antérieure.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Pronation du pied.",
+     "sources": [
+      "NP16b:42"
+     ]
+    },
+    "rapports": {
+     "texte": "Au contact du col de la fibula, il recouvre le nerf fibulaire commun.",
+     "sources": [
+      "NP16b:41"
+     ]
+    },
+    "clinique": {
+     "texte": "Entorse de la cheville en inversion : lésion des tendons fibulaires ou de leur rétinaculum.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Le soutien de la voûte transversale est hors ronéos."
+   ]
+  },
+  {
+   "id": "M115",
+   "champs": {
+    "situation": {
+     "texte": "Compartiment latéral de la jambe, sous le long fibulaire ; tendon dans le sillon rétro-malléolaire latéral.",
+     "sources": [
+      "MI13b:14",
+      "MI13c:22"
+     ]
+    },
+    "origine": {
+     "texte": "Deux tiers distaux de la face latérale de la fibula.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Tubérosité du 5e métatarsien.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf fibulaire superficiel.",
+     "sources": [
+      "NP16b:41-42"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère fibulaire et rameaux de l'artère tibiale antérieure.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Pronation du pied.",
+     "sources": [
+      "NP16b:42"
+     ]
+    },
+    "clinique": {
+     "texte": "Arrachement de la base du 5e métatarsien lors d'une entorse en inversion.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": []
+  },
+  {
+   "id": "M116",
+   "champs": {
+    "situation": {
+     "texte": "Compartiment postérieur de la jambe, groupe profond, le plus profond, contre la membrane interosseuse ; tendon dans le sillon rétro-malléolaire médial.",
+     "sources": [
+      "MI13b:14",
+      "MI13c:22"
+     ]
+    },
+    "origine": {
+     "texte": "Faces postérieures du tibia et de la fibula, membrane interosseuse.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Tubérosité de l'os naviculaire, expansions vers les cunéiformes, le cuboïde et les bases des métatarsiens II à IV.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf tibial (L4-L5).",
+     "sources": [
+      "NP16b:39-40"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère tibiale postérieure ; artère fibulaire pour les muscles profonds latéraux.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Flexion de la cheville ; inversion du pied, soutien de l'arche médiale.",
+     "sources": [
+      "NP16b:40"
+     ]
+    },
+    "clinique": {
+     "texte": "Dysfonction du tendon tibial postérieur : pied plat acquis de l'adulte.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Inversion et soutien de l'arche médiale : hors ronéos ; UE10 16b p.5 rattache l'inversion aux myotomes L4 et L5."
+   ]
+  },
+  {
+   "id": "M117",
+   "champs": {
+    "situation": {
+     "texte": "Compartiment postérieur de la jambe, groupe profond, médial ; son tendon passe dans le sillon rétro-malléolaire médial et rejoint le groupe plantaire moyen.",
+     "sources": [
+      "MI13b:14,16",
+      "MI13c:22"
+     ]
+    },
+    "origine": {
+     "texte": "Face postérieure du tibia, sous la ligne du muscle soléaire.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Quatre tendons sur les bases des phalanges distales des orteils II à V.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf tibial.",
+     "sources": [
+      "NP16b:40"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère tibiale postérieure ; artère fibulaire pour les muscles profonds latéraux.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Flexion des orteils et de la cheville, propulsion lors de la marche.",
+     "sources": [
+      "NP16b:40"
+     ]
+    },
+    "rapports": {
+     "texte": "Dans le sillon rétro-malléolaire médial, avec les tendons du tibial postérieur et du long fléchisseur de l'hallux, les vaisseaux tibiaux postérieurs et le nerf tibial.",
+     "sources": [
+      "MI13c:22"
+     ]
+    }
+   },
+   "relations": [],
+   "remarques": []
+  },
+  {
+   "id": "M118",
+   "champs": {
+    "situation": {
+     "texte": "Compartiment postérieur de la jambe, groupe profond, latéral ; son tendon passe dans le sillon rétro-malléolaire médial et rejoint le groupe plantaire médial.",
+     "sources": [
+      "MI13b:14,17",
+      "MI13c:22"
+     ]
+    },
+    "origine": {
+     "texte": "Deux tiers distaux de la face postérieure de la fibula, membrane interosseuse.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Base de la phalange distale de l'hallux.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf tibial.",
+     "sources": [
+      "NP16b:40"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère tibiale postérieure ; artère fibulaire pour les muscles profonds latéraux.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Flexion de l'hallux et de la cheville ; propulsion lors de la marche.",
+     "sources": [
+      "NP16b:40"
+     ]
+    },
+    "rapports": {
+     "texte": "Son tendon glisse dans un sillon de la face postérieure du talus puis sous le sustentaculum tali.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": []
+  }
+ ]
+}

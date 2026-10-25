@@ -142,18 +142,18 @@ FJ1391;FMA37471;flexor digiti minimi brevis of right foot;muscles;bp3d_muscles.g
 FJ1391M;FMA37472;flexor digiti minimi brevis of left foot;muscles;bp3d_muscles.glb;821;786;0.1300;-0.0624;0.1245
 FJ1392;FMA35192;interosseous membrane of right leg;autres;bp3d_autres.glb;4157;5640;-0.0936;0.1679;0.0740
 FJ1392M;FMA35193;interosseous membrane of left leg;autres;bp3d_autres.glb;4157;5640;0.0936;0.1679;0.0740
-FJ1393;FMA45973;lateral head of right flexor hallucis brevis;autres;bp3d_autres.glb;2213;1742;-0.0862;-0.0510;0.1470
-FJ1393M;FMA45974;lateral head of left flexor hallucis brevis;autres;bp3d_autres.glb;2213;1742;0.0862;-0.0510;0.1471
-FJ1394;FMA45960;lateral head of right gastrocnemius;autres;bp3d_autres.glb;1748;3052;-0.0927;0.3044;0.0400
-FJ1394M;FMA45961;lateral head of left gastrocnemius;autres;bp3d_autres.glb;1746;3052;0.0927;0.3042;0.0399
-FJ1395;FMA45888;long head of right biceps femoris;autres;bp3d_autres.glb;2838;5110;-0.0954;0.5417;0.0482
-FJ1395M;FMA45889;long head of left biceps femoris;autres;bp3d_autres.glb;2837;5110;0.0954;0.5418;0.0482
-FJ1396;FMA45971;medial head of right flexor hallucis brevis;autres;bp3d_autres.glb;1199;992;-0.0780;-0.0481;0.1468
-FJ1396M;FMA45972;medial head of left flexor hallucis brevis;autres;bp3d_autres.glb;1201;992;0.0780;-0.0481;0.1468
-FJ1397;FMA45957;medial head of right gastrocnemius;autres;bp3d_autres.glb;2263;3842;-0.0519;0.2897;0.0527
-FJ1397M;FMA45958;medial head of left gastrocnemius;autres;bp3d_autres.glb;2264;3842;0.0519;0.2896;0.0527
-FJ1398;FMA46018;oblique head of right adductor hallucis;autres;bp3d_autres.glb;1168;1054;-0.1030;-0.0475;0.1303
-FJ1398M;FMA46019;oblique head of left adductor hallucis;autres;bp3d_autres.glb;1168;1054;0.1030;-0.0475;0.1303
+FJ1393;FMA45973;lateral head of right flexor hallucis brevis;muscles;bp3d_muscles.glb;2213;1742;-0.0862;-0.0510;0.1470
+FJ1393M;FMA45974;lateral head of left flexor hallucis brevis;muscles;bp3d_muscles.glb;2213;1742;0.0862;-0.0510;0.1471
+FJ1394;FMA45960;lateral head of right gastrocnemius;muscles;bp3d_muscles.glb;1748;3052;-0.0927;0.3044;0.0400
+FJ1394M;FMA45961;lateral head of left gastrocnemius;muscles;bp3d_muscles.glb;1746;3052;0.0927;0.3042;0.0399
+FJ1395;FMA45888;long head of right biceps femoris;muscles;bp3d_muscles.glb;2838;5110;-0.0954;0.5417;0.0482
+FJ1395M;FMA45889;long head of left biceps femoris;muscles;bp3d_muscles.glb;2837;5110;0.0954;0.5418;0.0482
+FJ1396;FMA45971;medial head of right flexor hallucis brevis;muscles;bp3d_muscles.glb;1199;992;-0.0780;-0.0481;0.1468
+FJ1396M;FMA45972;medial head of left flexor hallucis brevis;muscles;bp3d_muscles.glb;1201;992;0.0780;-0.0481;0.1468
+FJ1397;FMA45957;medial head of right gastrocnemius;muscles;bp3d_muscles.glb;2263;3842;-0.0519;0.2897;0.0527
+FJ1397M;FMA45958;medial head of left gastrocnemius;muscles;bp3d_muscles.glb;2264;3842;0.0519;0.2896;0.0527
+FJ1398;FMA46018;oblique head of right adductor hallucis;muscles;bp3d_muscles.glb;1168;1054;-0.1030;-0.0475;0.1303
+FJ1398M;FMA46019;oblique head of left adductor hallucis;muscles;bp3d_muscles.glb;1168;1054;0.1030;-0.0475;0.1303
 FJ1399;FMA86034;opponens digiti minimi of right foot;muscles;bp3d_muscles.glb;267;200;-0.1209;-0.0578;0.1113
 FJ1399M;FMA86035;opponens digiti minimi of left foot;muscles;bp3d_muscles.glb;267;200;0.1209;-0.0578;0.1113
 FJ1400;FMA37459;right abductor hallucis;muscles;bp3d_muscles.glb;974;1068;-0.0728;-0.0538;0.1296
@@ -222,8 +222,8 @@ FJ1431;FMA22342;right psoas major;muscles;bp3d_muscles.glb;3632;4900;-0.0420;0.9
 FJ1431M;FMA22343;left psoas major;muscles;bp3d_muscles.glb;3634;4900;0.0419;0.9591;0.0828
 FJ1432;FMA22338;right quadratus femoris;muscles;bp3d_muscles.glb;1015;1196;-0.1048;0.7702;0.0493
 FJ1432M;FMA22339;left quadratus femoris;muscles;bp3d_muscles.glb;1013;1196;0.1047;0.7702;0.0493
-FJ1433;FMA38928;right rectus femoris;autres;bp3d_autres.glb;3326;5688;-0.1063;0.6105;0.1170
-FJ1433M;FMA38929;left rectus femoris;autres;bp3d_autres.glb;3326;5688;0.1063;0.6105;0.1170
+FJ1433;FMA38928;right rectus femoris;muscles;bp3d_muscles.glb;3326;5688;-0.1063;0.6105;0.1170
+FJ1433M;FMA38929;left rectus femoris;muscles;bp3d_muscles.glb;3326;5688;0.1063;0.6105;0.1170
 FJ1434;FMA22354;right sartorius;muscles;bp3d_muscles.glb;2630;3444;-0.0756;0.6057;0.1195
 FJ1434M;FMA22355;left sartorius;muscles;bp3d_muscles.glb;2633;3444;0.0757;0.6060;0.1196
 FJ1435;FMA22448;right semimembranosus;muscles;bp3d_muscles.glb;2588;4612;-0.0411;0.5459;0.0628
@@ -238,37 +238,37 @@ FJ1439;FMA22544;right tibialis anterior;muscles;bp3d_muscles.glb;2204;2510;-0.08
 FJ1439M;FMA22545;left tibialis anterior;muscles;bp3d_muscles.glb;2206;2510;0.0862;0.0996;0.1127
 FJ1440;FMA65018;right tibialis posterior;muscles;bp3d_muscles.glb;5039;5136;-0.0769;0.0512;0.0973
 FJ1440M;FMA65019;left tibialis posterior;muscles;bp3d_muscles.glb;5037;5136;0.0769;0.0514;0.0972
-FJ1441;FMA38934;right vastus intermedius;autres;bp3d_autres.glb;2748;4260;-0.1049;0.5447;0.1075
-FJ1441M;FMA38935;left vastus intermedius;autres;bp3d_autres.glb;2744;4260;0.1049;0.5450;0.1075
-FJ1442;FMA38930;right vastus lateralis;autres;bp3d_autres.glb;3975;6688;-0.1221;0.5381;0.1003
-FJ1442M;FMA38931;left vastus lateralis;autres;bp3d_autres.glb;3974;6688;0.1221;0.5381;0.1003
-FJ1443;FMA38932;right vastus medialis;autres;bp3d_autres.glb;2773;4552;-0.0758;0.5273;0.1166
-FJ1443M;FMA38933;left vastus medialis;autres;bp3d_autres.glb;2772;4552;0.0758;0.5273;0.1166
-FJ1444;FMA45891;short head of right biceps femoris;autres;bp3d_autres.glb;1211;1728;-0.1023;0.4787;0.0718
-FJ1444M;FMA45892;short head of left biceps femoris;autres;bp3d_autres.glb;1215;1728;0.1023;0.4785;0.0718
-FJ1445;FMA46020;transverse head of right adductor hallucis;autres;bp3d_autres.glb;1115;818;-0.1191;-0.0625;0.1666
-FJ1445M;FMA46021;transverse head of left adductor hallucis;autres;bp3d_autres.glb;1115;818;0.1191;-0.0625;0.1666
-FJ1446;FMA45874;abdominal part of right pectoralis major;autres;bp3d_autres.glb;1019;1536;-0.1110;1.1798;0.1641
-FJ1446M;FMA45875;abdominal part of left pectoralis major;autres;bp3d_autres.glb;1019;1536;0.1110;1.1798;0.1641
-FJ1447;FMA34690;clavicular part of right pectoralis major;autres;bp3d_autres.glb;1492;1846;-0.1150;1.3011;0.1152
-FJ1447M;FMA34691;clavicular part of left pectoralis major;autres;bp3d_autres.glb;1495;1846;0.1151;1.3011;0.1152
+FJ1441;FMA38934;right vastus intermedius;muscles;bp3d_muscles.glb;2748;4260;-0.1049;0.5447;0.1075
+FJ1441M;FMA38935;left vastus intermedius;muscles;bp3d_muscles.glb;2744;4260;0.1049;0.5450;0.1075
+FJ1442;FMA38930;right vastus lateralis;muscles;bp3d_muscles.glb;3975;6688;-0.1221;0.5381;0.1003
+FJ1442M;FMA38931;left vastus lateralis;muscles;bp3d_muscles.glb;3974;6688;0.1221;0.5381;0.1003
+FJ1443;FMA38932;right vastus medialis;muscles;bp3d_muscles.glb;2773;4552;-0.0758;0.5273;0.1166
+FJ1443M;FMA38933;left vastus medialis;muscles;bp3d_muscles.glb;2772;4552;0.0758;0.5273;0.1166
+FJ1444;FMA45891;short head of right biceps femoris;muscles;bp3d_muscles.glb;1211;1728;-0.1023;0.4787;0.0718
+FJ1444M;FMA45892;short head of left biceps femoris;muscles;bp3d_muscles.glb;1215;1728;0.1023;0.4785;0.0718
+FJ1445;FMA46020;transverse head of right adductor hallucis;muscles;bp3d_muscles.glb;1115;818;-0.1191;-0.0625;0.1666
+FJ1445M;FMA46021;transverse head of left adductor hallucis;muscles;bp3d_muscles.glb;1115;818;0.1191;-0.0625;0.1666
+FJ1446;FMA45874;abdominal part of right pectoralis major;muscles;bp3d_muscles.glb;1019;1536;-0.1110;1.1798;0.1641
+FJ1446M;FMA45875;abdominal part of left pectoralis major;muscles;bp3d_muscles.glb;1019;1536;0.1110;1.1798;0.1641
+FJ1447;FMA34690;clavicular part of right pectoralis major;muscles;bp3d_muscles.glb;1492;1846;-0.1150;1.3011;0.1152
+FJ1447M;FMA34691;clavicular part of left pectoralis major;muscles;bp3d_muscles.glb;1495;1846;0.1151;1.3011;0.1152
 FJ1448;FMA11336;linea alba;autres;bp3d_autres.glb;1114;1990;-0.0006;1.0035;0.1828
 FJ1449M;FMA46444;left coccygeus;muscles;bp3d_muscles.glb;1630;2088;0.0222;0.8161;0.0182
-FJ1450;FMA19728;superficial perineal muscle;muscles;bp3d_muscles.glb;250;368;-0.0074;0.7644;0.0277
+FJ1450;FMA20347;anal part of perineum;autres;bp3d_autres.glb;250;368;-0.0074;0.7644;0.0277
 FJ1450M;FMA21930;external anal sphincter;muscles;bp3d_muscles.glb;250;368;0.0074;0.7644;0.0277
 FJ1451;FMA9756;external intercostal muscle;muscles;bp3d_muscles.glb;85775;98928;-0.0940;1.2073;0.0739
 FJ1451M;FMA9756;external intercostal muscle;muscles;bp3d_muscles.glb;85756;98928;0.0939;1.2073;0.0739
 FJ1452;FMA13336;right external oblique;muscles;bp3d_muscles.glb;63907;111826;-0.0625;1.0088;0.1714
 FJ1452M;FMA13337;left external oblique;muscles;bp3d_muscles.glb;63893;111826;0.0625;1.0087;0.1714
-FJ1453M;FMA45859;left iliococcygeus;autres;bp3d_autres.glb;3288;3862;0.0317;0.7971;0.0442
+FJ1453M;FMA45859;left iliococcygeus;muscles;bp3d_muscles.glb;3288;3862;0.0317;0.7971;0.0442
 FJ1454;FMA9758;innermost intercostal muscle;muscles;bp3d_muscles.glb;70306;87218;-0.1072;1.1658;0.0868
 FJ1454M;FMA9758;innermost intercostal muscle;muscles;bp3d_muscles.glb;70269;87218;0.1072;1.1658;0.0868
 FJ1455;FMA9757;internal intercostal muscle;muscles;bp3d_muscles.glb;70842;89838;-0.1009;1.1658;0.0999
 FJ1455M;FMA9757;internal intercostal muscle;muscles;bp3d_muscles.glb;70829;89838;0.1009;1.1658;0.0999
 FJ1456;FMA13375;right pectoralis minor;muscles;bp3d_muscles.glb;6741;9468;-0.1027;1.2521;0.1406
 FJ1456M;FMA13376;left pectoralis minor;muscles;bp3d_muscles.glb;6746;9468;0.1027;1.2520;0.1407
-FJ1457M;FMA45855;left pubococcygeus;autres;bp3d_autres.glb;3296;4616;0.0194;0.7880;0.0560
-FJ1458M;FMA45857;left puborectalis;autres;bp3d_autres.glb;3817;3634;0.0182;0.7807;0.0786
+FJ1457M;FMA45855;left pubococcygeus;muscles;bp3d_muscles.glb;3296;4616;0.0194;0.7880;0.0560
+FJ1458M;FMA45857;left puborectalis;muscles;bp3d_muscles.glb;3817;3634;0.0182;0.7807;0.0786
 FJ1459;FMA13398;right serratus anterior;muscles;bp3d_muscles.glb;28465;49212;-0.1101;1.2286;0.0688
 FJ1459M;FMA13399;left serratus anterior;muscles;bp3d_muscles.glb;28450;49212;0.1101;1.2286;0.0688
 FJ1460;FMA13412;right subclavius;muscles;bp3d_muscles.glb;1155;1640;-0.0646;1.3250;0.1142
@@ -279,16 +279,16 @@ FJ1462;FMA74077;set of right levatores costarum breves;autres;bp3d_autres.glb;58
 FJ1462M;FMA74078;set of left levatores costarum breves;autres;bp3d_autres.glb;5815;6050;0.0459;1.1991;0.0243
 FJ1463;FMA74075;set of right levatores costarum longi;autres;bp3d_autres.glb;8260;12210;-0.0483;1.2226;0.0221
 FJ1463M;FMA74076;set of left levatores costarum longi;autres;bp3d_autres.glb;8256;12210;0.0483;1.2225;0.0221
-FJ1464;FMA79979;sternocostal part of right pectoralis major;autres;bp3d_autres.glb;5480;7114;-0.0810;1.2433;0.1659
-FJ1464M;FMA79980;sternocostal part of left pectoralis major;autres;bp3d_autres.glb;5466;7114;0.0810;1.2432;0.1659
+FJ1464;FMA79979;sternocostal part of right pectoralis major;muscles;bp3d_muscles.glb;5480;7114;-0.0810;1.2433;0.1659
+FJ1464M;FMA79980;sternocostal part of left pectoralis major;muscles;bp3d_muscles.glb;5466;7114;0.0810;1.2432;0.1659
 FJ1465;FMA46442;tendinous arch of levator ani;autres;bp3d_autres.glb;454;722;-0.0370;0.7979;0.0716
 FJ1465M;FMA46442;tendinous arch of levator ani;autres;bp3d_autres.glb;454;722;0.0370;0.7979;0.0716
 FJ1466;FMA37396;abductor digiti minimi of right hand;muscles;bp3d_muscles.glb;625;508;-0.2281;0.7581;0.1406
 FJ1466M;FMA37397;abductor digiti minimi of left hand;muscles;bp3d_muscles.glb;620;508;0.2281;0.7580;0.1406
-FJ1467;FMA34682;acromial part of right deltoid;autres;bp3d_autres.glb;916;1300;-0.1884;1.2951;0.0698
-FJ1467M;FMA34683;acromial part of left deltoid;autres;bp3d_autres.glb;918;1300;0.1886;1.2945;0.0699
-FJ1468;FMA34680;clavicular part of right deltoid;autres;bp3d_autres.glb;2592;2206;-0.1354;1.3303;0.0887
-FJ1468M;FMA34681;clavicular part of left deltoid;autres;bp3d_autres.glb;2604;2206;0.1353;1.3304;0.0887
+FJ1467;FMA34682;acromial part of right deltoid;muscles;bp3d_muscles.glb;916;1300;-0.1884;1.2951;0.0698
+FJ1467M;FMA34683;acromial part of left deltoid;muscles;bp3d_muscles.glb;918;1300;0.1886;1.2945;0.0699
+FJ1468;FMA34680;clavicular part of right deltoid;muscles;bp3d_muscles.glb;2592;2206;-0.1354;1.3303;0.0887
+FJ1468M;FMA34681;clavicular part of left deltoid;muscles;bp3d_muscles.glb;2604;2206;0.1353;1.3304;0.0887
 FJ1469;FMA37389;left flexor pollicis brevis;muscles;bp3d_muscles.glb;735;714;-0.2719;0.7863;0.1331
 FJ1469M;FMA37388;right flexor pollicis brevis;muscles;bp3d_muscles.glb;735;714;0.2719;0.7863;0.1331
 FJ1470;FMA37398;flexor digiti minimi brevis of right hand;muscles;bp3d_muscles.glb;312;328;-0.2328;0.7555;0.1418
@@ -297,24 +297,24 @@ FJ1471;FMA40120;flexor retinaculum of right wrist;autres;bp3d_autres.glb;1594;19
 FJ1471M;FMA40121;flexor retinaculum of left wrist;autres;bp3d_autres.glb;1591;1924;0.2559;0.7977;0.1355
 FJ1472;FMA38507;right extensor carpi ulnaris;muscles;bp3d_muscles.glb;2975;2186;-0.2270;0.9014;0.0852
 FJ1472M;FMA38508;left extensor carpi ulnaris;muscles;bp3d_muscles.glb;2983;2186;0.2270;0.9015;0.0851
-FJ1473;FMA38617;humeral head of right flexor carpi ulnaris;autres;bp3d_autres.glb;1887;2656;-0.2065;0.9186;0.0970
-FJ1473M;FMA38618;humeral head of left flexor carpi ulnaris;autres;bp3d_autres.glb;1884;2656;0.2065;0.9188;0.0969
-FJ1474;FMA38560;humeral head of right pronator teres;autres;bp3d_autres.glb;1588;1846;-0.2366;0.9757;0.0892
-FJ1474M;FMA38561;humeral head of left pronator teres;autres;bp3d_autres.glb;1599;1846;0.2366;0.9758;0.0893
+FJ1473;FMA38617;humeral head of right flexor carpi ulnaris;muscles;bp3d_muscles.glb;1887;2656;-0.2065;0.9186;0.0970
+FJ1473M;FMA38618;humeral head of left flexor carpi ulnaris;muscles;bp3d_muscles.glb;1884;2656;0.2065;0.9188;0.0969
+FJ1474;FMA38560;humeral head of right pronator teres;muscles;bp3d_muscles.glb;1588;1846;-0.2366;0.9757;0.0892
+FJ1474M;FMA38561;humeral head of left pronator teres;muscles;bp3d_muscles.glb;1599;1846;0.2366;0.9758;0.0893
 FJ1475;FMA38470;right flexor digitorum superficialis;muscles;bp3d_muscles.glb;6109;8698;-0.2330;0.8466;0.1211
 FJ1475M;FMA38471;left flexor digitorum superficialis;muscles;bp3d_muscles.glb;6106;8698;0.2330;0.8465;0.1212
 FJ1476;FMA23707;interosseous membrane of right forearm;autres;bp3d_autres.glb;1647;1588;-0.2389;0.8916;0.0963
 FJ1476M;FMA23708;interosseous membrane of left forearm;autres;bp3d_autres.glb;1645;1588;0.2389;0.8916;0.0963
-FJ1477;FMA37697;lateral head of right triceps brachii;autres;bp3d_autres.glb;1678;2606;-0.2060;1.1482;0.0440
-FJ1477M;FMA37698;lateral head of left triceps brachii;autres;bp3d_autres.glb;1676;2606;0.2060;1.1481;0.0440
-FJ1478;FMA37686;long head of right biceps brachii;autres;bp3d_autres.glb;1053;1426;-0.1974;1.1645;0.0873
-FJ1478M;FMA37687;long head of left biceps brachii;autres;bp3d_autres.glb;1039;1426;0.1971;1.1667;0.0873
-FJ1479;FMA37699;long head of right triceps brachii;autres;bp3d_autres.glb;1105;1588;-0.1796;1.1603;0.0453
-FJ1479M;FMA37700;long head of left triceps brachii;autres;bp3d_autres.glb;1109;1588;0.1796;1.1599;0.0453
-FJ1480;FMA37695;medial head of right triceps brachii;autres;bp3d_autres.glb;620;832;-0.1965;1.1054;0.0562
-FJ1480M;FMA37696;medial head of left triceps brachii;autres;bp3d_autres.glb;617;832;0.1965;1.1054;0.0562
-FJ1481;FMA46121;oblique head of right adductor pollicis;autres;bp3d_autres.glb;734;658;-0.2744;0.7767;0.1336
-FJ1481M;FMA46122;oblique head of left adductor pollicis;autres;bp3d_autres.glb;733;658;0.2744;0.7767;0.1336
+FJ1477;FMA37697;lateral head of right triceps brachii;muscles;bp3d_muscles.glb;1678;2606;-0.2060;1.1482;0.0440
+FJ1477M;FMA37698;lateral head of left triceps brachii;muscles;bp3d_muscles.glb;1676;2606;0.2060;1.1481;0.0440
+FJ1478;FMA37686;long head of right biceps brachii;muscles;bp3d_muscles.glb;1053;1426;-0.1974;1.1645;0.0873
+FJ1478M;FMA37687;long head of left biceps brachii;muscles;bp3d_muscles.glb;1039;1426;0.1971;1.1667;0.0873
+FJ1479;FMA37699;long head of right triceps brachii;muscles;bp3d_muscles.glb;1105;1588;-0.1796;1.1603;0.0453
+FJ1479M;FMA37700;long head of left triceps brachii;muscles;bp3d_muscles.glb;1109;1588;0.1796;1.1599;0.0453
+FJ1480;FMA37695;medial head of right triceps brachii;muscles;bp3d_muscles.glb;620;832;-0.1965;1.1054;0.0562
+FJ1480M;FMA37696;medial head of left triceps brachii;muscles;bp3d_muscles.glb;617;832;0.1965;1.1054;0.0562
+FJ1481;FMA46121;oblique head of right adductor pollicis;muscles;bp3d_muscles.glb;734;658;-0.2744;0.7767;0.1336
+FJ1481M;FMA46122;oblique head of left adductor pollicis;muscles;bp3d_muscles.glb;733;658;0.2744;0.7767;0.1336
 FJ1482;FMA37400;opponens digiti minimi of right hand;muscles;bp3d_muscles.glb;626;484;-0.2318;0.7551;0.1360
 FJ1482M;FMA37401;opponens digiti minimi of left hand;muscles;bp3d_muscles.glb;624;484;0.2318;0.7552;0.1360
 FJ1483;FMA37386;right abductor pollicis brevis;muscles;bp3d_muscles.glb;713;744;-0.2774;0.7942;0.1391
@@ -375,20 +375,20 @@ FJ1510;FMA42398;set of lumbricals of right hand;autres;bp3d_autres.glb;3008;2668
 FJ1510M;FMA42399;set of lumbricals of left hand;autres;bp3d_autres.glb;3012;2668;0.2609;0.7328;0.1404
 FJ1511;FMA42402;set of palmar interossei of right hand;autres;bp3d_autres.glb;1239;966;-0.2598;0.7454;0.1349
 FJ1511M;FMA42403;set of palmar interossei of left hand;autres;bp3d_autres.glb;1243;966;0.2598;0.7454;0.1349
-FJ1512;FMA37684;short head of right biceps brachii;autres;bp3d_autres.glb;1739;1856;-0.1821;1.1766;0.0905
-FJ1512M;FMA37685;short head of left biceps brachii;autres;bp3d_autres.glb;1743;1856;0.1820;1.1768;0.0905
-FJ1513;FMA34684;spinal part of right deltoid;autres;bp3d_autres.glb;1665;1900;-0.1453;1.2873;0.0332
-FJ1513M;FMA34685;spinal part of left deltoid;autres;bp3d_autres.glb;1678;1900;0.1455;1.2868;0.0334
-FJ1514;FMA65198;superficial head of right flexor pollicis brevis;autres;bp3d_autres.glb;954;726;-0.2686;0.7871;0.1418
-FJ1514M;FMA65199;superficial head of left flexor pollicis brevis;autres;bp3d_autres.glb;954;726;0.2686;0.7871;0.1418
-FJ1515;FMA46123;transverse head of right adductor pollicis;autres;bp3d_autres.glb;645;754;-0.2727;0.7623;0.1317
-FJ1515M;FMA46124;transverse head of left adductor pollicis;autres;bp3d_autres.glb;645;754;0.2727;0.7623;0.1317
-FJ1516;FMA38562;ulnar head of right pronator teres;autres;bp3d_autres.glb;791;1040;-0.2377;0.9722;0.0881
-FJ1516M;FMA38563;ulnar head of left pronator teres;autres;bp3d_autres.glb;791;1040;0.2377;0.9722;0.0881
+FJ1512;FMA37684;short head of right biceps brachii;muscles;bp3d_muscles.glb;1739;1856;-0.1821;1.1766;0.0905
+FJ1512M;FMA37685;short head of left biceps brachii;muscles;bp3d_muscles.glb;1743;1856;0.1820;1.1768;0.0905
+FJ1513;FMA34684;spinal part of right deltoid;muscles;bp3d_muscles.glb;1665;1900;-0.1453;1.2873;0.0332
+FJ1513M;FMA34685;spinal part of left deltoid;muscles;bp3d_muscles.glb;1678;1900;0.1455;1.2868;0.0334
+FJ1514;FMA65198;superficial head of right flexor pollicis brevis;muscles;bp3d_muscles.glb;954;726;-0.2686;0.7871;0.1418
+FJ1514M;FMA65199;superficial head of left flexor pollicis brevis;muscles;bp3d_muscles.glb;954;726;0.2686;0.7871;0.1418
+FJ1515;FMA46123;transverse head of right adductor pollicis;muscles;bp3d_muscles.glb;645;754;-0.2727;0.7623;0.1317
+FJ1515M;FMA46124;transverse head of left adductor pollicis;muscles;bp3d_muscles.glb;645;754;0.2727;0.7623;0.1317
+FJ1516;FMA38562;ulnar head of right pronator teres;muscles;bp3d_muscles.glb;791;1040;-0.2377;0.9722;0.0881
+FJ1516M;FMA38563;ulnar head of left pronator teres;muscles;bp3d_muscles.glb;791;1040;0.2377;0.9722;0.0881
 FJ1517;FMA38507;right extensor carpi ulnaris;muscles;bp3d_muscles.glb;1114;1208;-0.2288;0.8795;0.0898
 FJ1517M;FMA38508;left extensor carpi ulnaris;muscles;bp3d_muscles.glb;1116;1208;0.2288;0.8794;0.0899
-FJ1518;FMA38619;ulnar head of right flexor carpi ulnaris;autres;bp3d_autres.glb;1715;1538;-0.2061;0.9297;0.0819
-FJ1518M;FMA38620;ulnar head of left flexor carpi ulnaris;autres;bp3d_autres.glb;1717;1538;0.2061;0.9298;0.0819
+FJ1518;FMA38619;ulnar head of right flexor carpi ulnaris;muscles;bp3d_muscles.glb;1715;1538;-0.2061;0.9297;0.0819
+FJ1518M;FMA38620;ulnar head of left flexor carpi ulnaris;muscles;bp3d_muscles.glb;1717;1538;0.2061;0.9298;0.0819
 FJ1520;FMA33581;ascending part of right trapezius;autres;bp3d_autres.glb;7533;10530;-0.0408;1.2457;0.0024
 FJ1520M;FMA33583;ascending part of left trapezius;autres;bp3d_autres.glb;7507;10530;0.0405;1.2454;0.0023
 FJ1521;FMA33586;descending part of right trapezius;autres;bp3d_autres.glb;5023;7108;-0.0374;1.4125;0.0410
@@ -449,11 +449,11 @@ FJ1552;FMA71309;set of interspinales cervicis;autres;bp3d_autres.glb;1148;1210;-
 FJ1552M;FMA71309;set of interspinales cervicis;autres;bp3d_autres.glb;1160;1210;0.0028;1.4171;0.0399
 FJ1553;FMA71443;set of posterior cervical intertransversarii;autres;bp3d_autres.glb;1074;1090;-0.0270;1.4214;0.0752
 FJ1553M;FMA71443;set of posterior cervical intertransversarii;autres;bp3d_autres.glb;1071;1090;0.0270;1.4214;0.0752
-FJ1554;FMA33584;transverse part of right trapezius;autres;bp3d_autres.glb;3535;4460;-0.0488;1.3432;0.0166
-FJ1554M;FMA33585;transverse part of left trapezius;autres;bp3d_autres.glb;3535;4460;0.0488;1.3433;0.0166
+FJ1554;FMA33584;transverse part of right trapezius;muscles;bp3d_muscles.glb;3535;4460;-0.0488;1.3432;0.0166
+FJ1554M;FMA33585;transverse part of left trapezius;muscles;bp3d_muscles.glb;3535;4460;0.0488;1.3433;0.0166
 FJ1555;FMA46293;left digastric;muscles;bp3d_muscles.glb;408;650;0.0079;1.4316;0.1458
 FJ1556;FMA46292;right digastric;muscles;bp3d_muscles.glb;457;680;-0.0102;1.4322;0.1436
-FJ1557;FMA46288;inferior oblique part of left longus colli;autres;bp3d_autres.glb;1130;1960;0.0095;1.3471;0.0807
+FJ1557;FMA46288;inferior oblique part of left longus colli;muscles;bp3d_muscles.glb;1130;1960;0.0095;1.3471;0.0807
 FJ1558;FMA45740;left platysma;muscles;bp3d_muscles.glb;7290;13396;0.0417;1.3823;0.1174
 FJ1559;FMA46327;left geniohyoid;muscles;bp3d_muscles.glb;419;732;0.0027;1.4303;0.1366
 FJ1560;FMA46293;left digastric;muscles;bp3d_muscles.glb;367;392;0.0113;1.4325;0.1226
@@ -496,8 +496,8 @@ FJ1596;FMA13346;right sternohyoid;muscles;bp3d_muscles.glb;1911;3116;-0.0132;1.3
 FJ1597;FMA13350;right sternothyroid;muscles;bp3d_muscles.glb;1585;2608;-0.0143;1.3459;0.1174
 FJ1598;FMA45826;right stylohyoid;muscles;bp3d_muscles.glb;843;1236;-0.0239;1.4518;0.1093
 FJ1599;FMA13352;right thyrohyoid;muscles;bp3d_muscles.glb;1102;1450;-0.0132;1.4141;0.1071
-FJ1600;FMA46284;superior oblique part of left longus colli;autres;bp3d_autres.glb;1433;2200;0.0165;1.4411;0.0838
-FJ1601;FMA46286;vertical intermediate part of left longus colli;autres;bp3d_autres.glb;1953;3002;0.0052;1.4095;0.0866
+FJ1600;FMA46284;superior oblique part of left longus colli;muscles;bp3d_muscles.glb;1433;2200;0.0165;1.4411;0.0838
+FJ1601;FMA46286;vertical intermediate part of left longus colli;muscles;bp3d_muscles.glb;1953;3002;0.0052;1.4095;0.0866
 FJ1654;FMA50029;right anterior cerebral artery;arteres;bp3d_arteres.glb;213;400;-0.0074;1.5403;0.1139
 FJ1654M;FMA50030;left anterior cerebral artery;arteres;bp3d_arteres.glb;213;400;0.0074;1.5403;0.1139
 FJ1655;FMA50169;anterior communicating artery;arteres;bp3d_arteres.glb;63;80;-0.0005;1.5377;0.1125
@@ -1246,14 +1246,14 @@ FJ2540;FMA68226;superior lingular bronchial tree;autres;bp3d_autres.glb;230;366;
 FJ2541;FMA7394;trachea;autres;bp3d_autres.glb;2607;4996;-0.0010;1.3420;0.0945
 FJ2542;FMA46444;left coccygeus;muscles;bp3d_muscles.glb;1482;2082;0.0222;0.8157;0.0177
 FJ2543;FMA21930;external anal sphincter;muscles;bp3d_muscles.glb;240;364;0.0075;0.7643;0.0275
-FJ2544;FMA45859;left iliococcygeus;autres;bp3d_autres.glb;2898;3846;0.0322;0.7978;0.0436
-FJ2545;FMA45855;left pubococcygeus;autres;bp3d_autres.glb;2937;4670;0.0192;0.7878;0.0533
-FJ2546;FMA45857;left puborectalis;autres;bp3d_autres.glb;3163;3618;0.0187;0.7806;0.0729
+FJ2544;FMA45859;left iliococcygeus;muscles;bp3d_muscles.glb;2898;3846;0.0322;0.7978;0.0436
+FJ2545;FMA45855;left pubococcygeus;muscles;bp3d_muscles.glb;2937;4670;0.0192;0.7878;0.0533
+FJ2546;FMA45857;left puborectalis;muscles;bp3d_muscles.glb;3163;3618;0.0187;0.7806;0.0729
 FJ2547;FMA46443;right coccygeus;muscles;bp3d_muscles.glb;1607;2086;-0.0224;0.8155;0.0184
 FJ2548;FMA21930;external anal sphincter;muscles;bp3d_muscles.glb;250;368;-0.0074;0.7644;0.0277
-FJ2549;FMA45858;right iliococcygeus;autres;bp3d_autres.glb;3319;3864;-0.0299;0.7971;0.0435
-FJ2550;FMA45854;right pubococcygeus;autres;bp3d_autres.glb;3498;4616;-0.0176;0.7877;0.0586
-FJ2551;FMA45856;right puborectalis;autres;bp3d_autres.glb;4164;3638;-0.0145;0.7806;0.0807
+FJ2549;FMA45858;right iliococcygeus;muscles;bp3d_muscles.glb;3319;3864;-0.0299;0.7971;0.0435
+FJ2550;FMA45854;right pubococcygeus;muscles;bp3d_muscles.glb;3498;4616;-0.0176;0.7877;0.0586
+FJ2551;FMA45856;right puborectalis;muscles;bp3d_muscles.glb;4164;3638;-0.0145;0.7806;0.0807
 FJ2552;FMA46442;tendinous arch of levator ani;autres;bp3d_autres.glb;440;710;0.0366;0.7979;0.0724
 FJ2553;FMA46442;tendinous arch of levator ani;autres;bp3d_autres.glb;434;722;-0.0368;0.7975;0.0727
 FJ2554;FMA59505;right major alar cartilage;autres;bp3d_autres.glb;219;366;-0.0076;1.4823;0.1916
@@ -1471,16 +1471,16 @@ FJ2770;FMA55130;epiglottis;autres;bp3d_autres.glb;2992;3602;-0.0007;1.4256;0.110
 FJ2771;FMA55227;hyo-epiglottic ligament;autres;bp3d_autres.glb;1686;2112;-0.0007;1.4255;0.1163
 FJ2772;FMA52749;hyoid bone;os;bp3d_os.glb;687;1196;-0.0007;1.4328;0.1141
 FJ2773;FMA55118;left cuneiform cartilage;autres;bp3d_autres.glb;91;174;0.0042;1.4156;0.1015
-FJ2774;FMA46605;left aryepiglotticus;autres;bp3d_autres.glb;5804;4510;0.0060;1.4246;0.1048
+FJ2774;FMA46605;left aryepiglotticus;muscles;bp3d_muscles.glb;5804;4510;0.0060;1.4246;0.1048
 FJ2775;FMA55114;left arytenoid cartilage;autres;bp3d_autres.glb;284;536;0.0035;1.4063;0.0981
 FJ2776;FMA55116;left corniculate cartilage;autres;bp3d_autres.glb;110;136;0.0023;1.4117;0.0959
 FJ2777;FMA55252;left conus elasticus;autres;bp3d_autres.glb;2858;4306;0.0039;1.4003;0.1068
 FJ2778;FMA46581;left lateral crico-arytenoid;muscles;bp3d_muscles.glb;3559;6214;0.0090;1.4004;0.1015
 FJ2779;FMA55141;left lateral thyrohyoid ligament;autres;bp3d_autres.glb;561;964;0.0169;1.4338;0.0950
 FJ2780;FMA46585;left oblique arytenoid;muscles;bp3d_muscles.glb;4267;6304;-0.0001;1.4067;0.0949
-FJ2781;FMA46614;oblique part of left cricothyroid;autres;bp3d_autres.glb;3572;5580;0.0096;1.3944;0.1012
+FJ2781;FMA46614;oblique part of left cricothyroid;muscles;bp3d_muscles.glb;3572;5580;0.0096;1.3944;0.1012
 FJ2782;FMA46578;left posterior crico-arytenoid;muscles;bp3d_muscles.glb;2611;4842;0.0050;1.3961;0.0945
-FJ2783;FMA46612;straight part of left cricothyroid;autres;bp3d_autres.glb;2393;3270;0.0064;1.3947;0.1088
+FJ2783;FMA46612;straight part of left cricothyroid;muscles;bp3d_muscles.glb;2393;3270;0.0064;1.3947;0.1088
 FJ2784;FMA46590;left thyro-arytenoid;muscles;bp3d_muscles.glb;3588;6092;0.0043;1.4068;0.1040
 FJ2785;FMA46590;left thyro-arytenoid;muscles;bp3d_muscles.glb;5969;9290;0.0047;1.4173;0.1054
 FJ2786;FMA55134;left thyrohyoid membrane;autres;bp3d_autres.glb;2853;4884;0.0143;1.4250;0.1061
@@ -1488,7 +1488,7 @@ FJ2787;FMA55246;left vocal ligament;autres;bp3d_autres.glb;2492;1858;0.0013;1.40
 FJ2788;FMA46593;left vocalis;muscles;bp3d_muscles.glb;679;1152;0.0019;1.4043;0.1066
 FJ2789;FMA55237;median cricothyroid ligament;autres;bp3d_autres.glb;1779;2052;-0.0007;1.3974;0.1123
 FJ2790;FMA55138;median thyrohyoid ligament;autres;bp3d_autres.glb;1842;2856;-0.0003;1.4169;0.1217
-FJ2791;FMA46604;right aryepiglotticus;autres;bp3d_autres.glb;4947;4366;-0.0070;1.4239;0.1045
+FJ2791;FMA46604;right aryepiglotticus;muscles;bp3d_muscles.glb;4947;4366;-0.0070;1.4239;0.1045
 FJ2792;FMA55113;right arytenoid cartilage;autres;bp3d_autres.glb;282;540;-0.0047;1.4064;0.0981
 FJ2793;FMA55115;right corniculate cartilage;autres;bp3d_autres.glb;108;172;-0.0036;1.4118;0.0957
 FJ2794;FMA55251;right conus elasticus;autres;bp3d_autres.glb;4274;4366;-0.0050;1.3988;0.1086
@@ -1496,9 +1496,9 @@ FJ2795;FMA55117;right cuneiform cartilage;autres;bp3d_autres.glb;88;170;-0.0053;
 FJ2796;FMA46580;right lateral crico-arytenoid;muscles;bp3d_muscles.glb;3501;6198;-0.0103;1.4005;0.1015
 FJ2797;FMA55140;right lateral thyrohyoid ligament;autres;bp3d_autres.glb;554;974;-0.0183;1.4337;0.0950
 FJ2798;FMA46584;right oblique arytenoid;muscles;bp3d_muscles.glb;4117;6084;-0.0012;1.4067;0.0950
-FJ2799;FMA46613;oblique part of right cricothyroid;autres;bp3d_autres.glb;3434;5566;-0.0111;1.3946;0.1009
+FJ2799;FMA46613;oblique part of right cricothyroid;muscles;bp3d_muscles.glb;3434;5566;-0.0111;1.3946;0.1009
 FJ2800;FMA46577;right posterior crico-arytenoid;muscles;bp3d_muscles.glb;2567;4812;-0.0062;1.3962;0.0945
-FJ2801;FMA46611;straight part of right cricothyroid;autres;bp3d_autres.glb;2255;3232;-0.0078;1.3950;0.1087
+FJ2801;FMA46611;straight part of right cricothyroid;muscles;bp3d_muscles.glb;2255;3232;-0.0078;1.3950;0.1087
 FJ2802;FMA46589;right thyro-arytenoid;muscles;bp3d_muscles.glb;3594;6092;-0.0057;1.4069;0.1038
 FJ2803;FMA46589;right thyro-arytenoid;muscles;bp3d_muscles.glb;6818;10650;-0.0060;1.4173;0.1054
 FJ2804;FMA55133;right thyrohyoid membrane;autres;bp3d_autres.glb;2832;4884;-0.0155;1.4251;0.1064

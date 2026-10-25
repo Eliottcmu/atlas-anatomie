@@ -31,6 +31,7 @@ Appli locale d'apprentissage de l'anatomie sur modèle 3D, avec révisions espac
 - Polices embarquées (@fontsource), aucune ressource en ligne : l'atlas doit marcher hors connexion.
 - Les tests posent `localStorage["atlas.accueil"] = "vu"` avant le chargement : la carte des premiers pas recouvrirait la vue.
 - Panneaux en position fixe : tester leur visibilité par `getClientRects()`, jamais `offsetParent` (toujours nul).
+- Le calque Muscles est masqué et non chargé au départ : sélectionner, surligner ou localiser une structure charge et affiche son calque (`montrerCalques`). Le premier muscle demande quelques secondes (13 Mo).
 - La caméra cadre dans la zone libre entre les panneaux (`Scene3D.definirZoneUtile`, décalage de projection) : rien ne doit être cadré sous le dock ou la fiche.
 - Masquage (H) annulable : Ctrl Z remet la dernière structure masquée (sélectionnée), Ctrl Y ou Ctrl Maj Z refait ; Échap « tout réafficher » s'annule aussi. Dans un champ de saisie, Ctrl Z reste au navigateur.
 - Interrogation (T) sur la planche muette du focus : exercice libre, hors FSRS (noms des repères pas encore calés sur les ronéos). Pendant l'interrogation, ni fiche, ni liste de zone, ni infobulle, ni clic sur le modèle.
@@ -60,11 +61,14 @@ Appli locale d'apprentissage de l'anatomie sur modèle 3D, avec révisions espac
 - `pipeline/blender_zanatomy.py` tourne dans le Python de Blender, pas celui du système.
 - Les légendes de Z-Anatomy (texte « .t », trait « .j ») pointent l'organe par un modificateur HOOK : lire la géométrie évaluée du trait, jamais ses sommets bruts.
 - `pipeline/legendes_squelette.py` pose les légendes osseuses de Z-Anatomy sur les os de BodyParts3D : recalage de chaque os (similitude globale, ICP rigide puis affine, déformation bornée à 25 %), pointe posée sur le sommet le plus proche (10 mm, jusqu'à 18 mm marquée « approchée » : centre d'un trou, axe d'un os long). Lent (8 min, ICP par force brute).
+- `pipeline/organes_zanatomy.py` importe aussi les muscles absents de BodyParts3D (masséter, temporal, ptérygoïdiens, droit, oblique interne et transverse de l'abdomen, carré des lombes, grand dorsal, parties descendante et ascendante du trapèze, long du cou droit) dans `zanatomy_muscles.glb` ; seuls les objets `.l`/`.r` sont des corps musculaires (`.ol`, `.el`, `.o1l` : zones d'insertion). Muscles présents dans les deux modèles sous deux noms : `ALIAS_REPERES`.
 - `pipeline/organes_zanatomy.py` importe les organes absents de BodyParts3D ; un objet recouvrant à 60 % un maillage BodyParts3D est un doublon, écarté. Remplacement explicite (`remplace`) quand Z-Anatomy découpe plus finement (cervelet).
 
 ## Règles de contenu
 
 - Une correspondance FMA ambiguë est signalée, jamais tranchée au hasard.
+- Listes noyau : un fichier par bloc (`liste_noyau_bloc1.csv` vaisseaux, `bloc2` muscles M001 à M118), lus ensemble par `pipeline/listes.py`. Colonnes facultatives : `parties_fma` (concepts BodyParts3D des chefs ou parties quand le muscle entier n'y existe pas : deltoïde, biceps, triceps...), `zanatomy` (objets Z-Anatomy sans côté), `focus` (organe ou os du catalogue de `focus.py`).
+- Nœuds des muscles jamais « propres » : tous comptent pour leur structure (chefs compris) ; un nœud qui est le muscle entier prend le nom de la liste.
 - Dans la liste noyau, `fma_id` porte toujours le vrai identifiant FMA, même si la structure manque dans BodyParts3D (l'inventaire le détecte via Wikidata). `aucun` : la structure n'existe pas comme concept dans la FMA.
 - Après toute modification d'identifiants dans la liste, relancer `libelles_wikidata.py` avant l'inventaire.
 - Nom affiché = nom des ronéos d'Eliott ; les autres noms vont en synonymes.
@@ -75,4 +79,5 @@ Appli locale d'apprentissage de l'anatomie sur modèle 3D, avec révisions espac
 - Après une modification des brouillons : `python -I pipeline/construire_base.py` (validation), `python -I pipeline/controler_citations.py` (recouvrement texte et pages citées), puis `construire_appli.py --dev` et `test:toutes-fiches`.
 - Champs « pathologie » et « reperes » des fiches : compléments hors ronéos rédigés par Claude, sans source, affichés « hors ronéos, à vérifier ». Liste des champs à modifier à deux endroits : `pipeline/base.py` et `lanceur/base.go`.
 - Fiches : chaque champ cite sa source (code de ronéo et pages, voir donnees/fiches/sources.json). Un champ sans source est affiché « hors ronéos, à vérifier ». Les incohérences des ronéos vont en remarque, jamais tranchées en silence.
+- Fiches des muscles (UE10) : les ronéos donnent compartiments, nerfs par territoire et actions par territoire, rarement origine et terminaison (hors ronéos). Un champ cité ne contient que ce que disent les pages citées ; les exceptions à une règle de territoire (fléchisseur ulnaire du carpe, adducteur du pouce, chef court du biceps fémoral, pectiné) vont en remarque.
 - Référence des fiches : cours de Montaudon 2026 (gros vaisseaux, membres) et 2025 (médiastin, vascularisation du cœur, pas de version 2026 déposée).

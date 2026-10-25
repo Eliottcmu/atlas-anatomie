@@ -1,0 +1,1706 @@
+{
+ "region": "Membre supérieur (muscles)",
+ "redige_le": "2026-10-24",
+ "fiches": [
+  {
+   "id": "M040",
+   "champs": {
+    "situation": {
+     "texte": "Muscle latéral de l'épaule, en trois parties (claviculaire, acromiale, spinale) ; son bord antérieur limite le sillon delto-pectoral, son bord postérieur sépare la région deltoïdienne du dos.",
+     "sources": [
+      "MS14b:13",
+      "MS14a:5"
+     ]
+    },
+    "origine": {
+     "texte": "Tiers latéral du bord antérieur de la clavicule (partie claviculaire), bord latéral de l'acromion (partie acromiale), bord inférieur de l'épine de la scapula (partie spinale).",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Tubérosité deltoïdienne de l'humérus.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf axillaire (C5-C6), qui traverse l'espace axillaire latéral et s'enroule autour du col de l'humérus.",
+     "sources": [
+      "NP16c:11"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère circonflexe humérale postérieure, rameau deltoïdien de l'artère thoraco-acromiale.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Abduction de l'épaule (partie acromiale) ; la partie claviculaire porte le bras en antépulsion et rotation médiale, la partie spinale en rétropulsion et rotation latérale.",
+     "sources": []
+    },
+    "clinique": {
+     "texte": "Fracture du col chirurgical de l'humérus, 5 cm sous l'acromion : lésion du nerf axillaire, paralysie du deltoïde et anesthésie de la région deltoïdienne.",
+     "sources": [
+      "MS14c:15",
+      "NP16c:11"
+     ]
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Les actions propres à chaque partie sont hors ronéos ; NP16c p.11 donne « abduction, rotation latérale de l'épaule » au territoire du nerf axillaire (deltoïde et petit rond)."
+   ]
+  },
+  {
+   "id": "M041",
+   "champs": {
+    "situation": {
+     "texte": "Muscle postérieur de l'épaule, péri-scapulaire, dans la fosse supra-épineuse ; coiffe des rotateurs.",
+     "sources": [
+      "MS14b:13",
+      "DOS:18"
+     ]
+    },
+    "origine": {
+     "texte": "Fosse supra-épineuse de la scapula.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Tubercule majeur de l'humérus (facette supérieure), avec l'infra-épineux et le petit rond.",
+     "sources": [
+      "MS14c:15"
+     ]
+    },
+    "innervation": {
+     "texte": "Nerf supra-scapulaire (C5-C6), branche collatérale du plexus brachial.",
+     "sources": [
+      "NP16c:7"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère supra-scapulaire.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Amorce l'abduction de l'épaule ; plaque la tête humérale dans la cavité glénoïdale.",
+     "sources": []
+    },
+    "clinique": {
+     "texte": "Tendinopathie et rupture du supra-épineux sous l'arche acromio-coracoïdienne (conflit sous-acromial) : la lésion la plus fréquente de la coiffe des rotateurs.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "UE10 16c p.7 cite le nerf supra-scapulaire sans dire quels muscles il innerve."
+   ]
+  },
+  {
+   "id": "M042",
+   "champs": {
+    "situation": {
+     "texte": "Muscle postérieur de l'épaule, péri-scapulaire, dans la fosse infra-épineuse ; coiffe des rotateurs.",
+     "sources": [
+      "MS14b:13",
+      "DOS:18"
+     ]
+    },
+    "origine": {
+     "texte": "Fosse infra-épineuse de la scapula.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Tubercule majeur, avec le supra-épineux et le petit rond.",
+     "sources": [
+      "MS14c:15"
+     ]
+    },
+    "innervation": {
+     "texte": "Nerf supra-scapulaire (C5-C6), branche collatérale du plexus brachial.",
+     "sources": [
+      "NP16c:7"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère supra-scapulaire et artère circonflexe de la scapula.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Rotation latérale de l'épaule ; stabilisation de la tête humérale.",
+     "sources": []
+    },
+    "clinique": {
+     "texte": "Amyotrophie de la fosse infra-épineuse dans la compression du nerf supra-scapulaire à l'incisure spino-glénoïdale.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "UE10 16c p.5 donne la rotation latérale de l'épaule au myotome C5."
+   ]
+  },
+  {
+   "id": "M043",
+   "champs": {
+    "situation": {
+     "texte": "Muscle postérieur de l'épaule, péri-scapulaire, sous l'infra-épineux ; coiffe des rotateurs.",
+     "sources": [
+      "MS14b:13",
+      "DOS:18"
+     ]
+    },
+    "origine": {
+     "texte": "Partie haute du bord latéral de la scapula (face postérieure).",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Tubercule majeur de l'humérus (facette inférieure).",
+     "sources": [
+      "MS14c:15"
+     ]
+    },
+    "innervation": {
+     "texte": "Nerf axillaire (C5-C6).",
+     "sources": [
+      "NP16c:11"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère circonflexe de la scapula.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Rotation latérale de l'épaule.",
+     "sources": [
+      "NP16c:11"
+     ]
+    },
+    "rapports": {
+     "texte": "Limite supérieure des espaces axillaires médial (triangulaire) et latéral (quadrilatère).",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": []
+  },
+  {
+   "id": "M044",
+   "champs": {
+    "situation": {
+     "texte": "Muscle postérieur de l'épaule, péri-scapulaire.",
+     "sources": [
+      "MS14b:13",
+      "DOS:18"
+     ]
+    },
+    "origine": {
+     "texte": "Fosse sub-scapulaire (face antérieure de la scapula).",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Tubercule mineur de l'humérus.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerfs sub-scapulaires supérieur et inférieur (C5-C6), branches collatérales du plexus brachial.",
+     "sources": [
+      "NP16c:7"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère sub-scapulaire.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Rotation médiale de l'épaule ; stabilisation antérieure de la tête humérale.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Orthographe des ronéos UE10 (sub-scapulaire) ; « subscapulaire » dans MB25 et MB26."
+   ]
+  },
+  {
+   "id": "M045",
+   "champs": {
+    "situation": {
+     "texte": "Muscle postérieur de l'épaule, péri-scapulaire.",
+     "sources": [
+      "MS14b:13",
+      "DOS:18"
+     ]
+    },
+    "origine": {
+     "texte": "Face postérieure de l'angle inférieur de la scapula.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Crête du tubercule mineur de l'humérus, en arrière du tendon du grand dorsal.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf sub-scapulaire inférieur (C5-C7).",
+     "sources": [
+      "NP16c:7"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère circonflexe de la scapula, artère thoraco-dorsale.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Adduction, rotation médiale et rétropulsion de l'épaule.",
+     "sources": []
+    },
+    "rapports": {
+     "texte": "Limite inférieure des espaces axillaires ; le chef long du triceps le croise en arrière et sépare les espaces axillaires médial, latéral et l'espace axillaire inférieur (où passe le nerf radial).",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "UE10 16c p.12 nomme « espace axillaire caudal » l'espace traversé par le nerf radial."
+   ]
+  },
+  {
+   "id": "M046",
+   "champs": {
+    "situation": {
+     "texte": "Muscle antérieur de l'épaule et de la paroi antérieure du thorax, en trois parties (claviculaire, sterno-costale, abdominale) ; il forme le bord inférieur (antérieur) de la fosse axillaire.",
+     "sources": [
+      "MS14b:13",
+      "THX:15",
+      "MS14c:15"
+     ]
+    },
+    "origine": {
+     "texte": "Moitié médiale de la clavicule, face antérieure du sternum, six premiers cartilages costaux, gaine du droit de l'abdomen.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Lèvre latérale du sillon intertuberculaire de l'humérus (crête du tubercule majeur).",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerfs pectoraux latéral et médial, branches collatérales du plexus brachial.",
+     "sources": [
+      "NP16c:7"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère thoraco-acromiale (rameaux pectoraux), artère thoracique interne.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Adduction et rotation médiale de l'épaule ; antépulsion (partie claviculaire). Inspirateur accessoire, point fixe huméral.",
+     "sources": []
+    },
+    "clinique": {
+     "texte": "Syndrome de Poland : agénésie de la partie sterno-costale. Lambeau de grand pectoral en chirurgie cervico-faciale.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Seul le rôle d'inspirateur accessoire est donné par les ronéos ; les autres actions sont hors ronéos.",
+    "UE10 18e p.9 : inspirateur accessoire (« pectoraux »)."
+   ]
+  },
+  {
+   "id": "M047",
+   "champs": {
+    "situation": {
+     "texte": "Muscle antérieur de l'épaule et de la paroi antérieure du thorax, sous le grand pectoral, dans le fascia clavi-pectoral.",
+     "sources": [
+      "MS14b:13",
+      "THX:8,15"
+     ]
+    },
+    "origine": {
+     "texte": "Faces externes des 3e à 5e côtes.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Processus coracoïde de la scapula (bord médial).",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf pectoral médial (C8-T1), branche collatérale du plexus brachial.",
+     "sources": [
+      "NP16c:7"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère thoraco-acromiale, artère thoracique latérale.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Abaisse et porte en avant le moignon de l'épaule ; inspirateur accessoire.",
+     "sources": []
+    },
+    "rapports": {
+     "texte": "Croise en avant l'artère axillaire, qu'il divise en trois segments.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "UE10 18e p.9 : inspirateur accessoire (« pectoraux »)."
+   ]
+  },
+  {
+   "id": "M048",
+   "champs": {
+    "situation": {
+     "texte": "Muscle de la paroi antérieure du thorax, sous la clavicule, avec le petit pectoral.",
+     "sources": [
+      "THX:15"
+     ]
+    },
+    "origine": {
+     "texte": "Jonction de la 1re côte et de son cartilage.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Sillon du muscle subclavier, face inférieure de la clavicule.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf du muscle sub-clavier (C5-C6), branche collatérale du plexus brachial.",
+     "sources": [
+      "NP16c:7"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère thoraco-acromiale (rameau claviculaire).",
+     "sources": []
+    },
+    "action": {
+     "texte": "Abaisse la clavicule et stabilise l'articulation sterno-claviculaire ; inspirateur accessoire.",
+     "sources": [
+      "RESP18e:9"
+     ]
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Hors liste du plan, cité en UE10 11 p.15 et 16c p.7.",
+    "Abaissement de la clavicule et stabilisation sterno-claviculaire : hors ronéos."
+   ]
+  },
+  {
+   "id": "M049",
+   "champs": {
+    "situation": {
+     "texte": "Muscle de la région thoracique et de la paroi antérieure du thorax.",
+     "sources": [
+      "DOS:19",
+      "THX:15"
+     ]
+    },
+    "origine": {
+     "texte": "Faces externes des 1re à 9e côtes, par des digitations.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Face antérieure du bord médial de la scapula, de l'angle supérieur à l'angle inférieur.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf thoracique long (C5-C7), branche collatérale du plexus brachial.",
+     "sources": [
+      "NP16c:7"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère thoracique latérale, artère thoraco-dorsale.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Plaque la scapula contre le thorax et la porte en avant ; sonnette latérale (élévation du bras au-dessus de l'horizontale). Inspirateur accessoire.",
+     "sources": []
+    },
+    "clinique": {
+     "texte": "Paralysie du nerf thoracique long (curage axillaire, port de charges) : scapula alata.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "La syssarcose scapulo-thoracique est décrite en UE10 15b p.9.",
+    "Seul le rôle respiratoire est donné par les ronéos.",
+    "UE10 18e p.9 : inspirateur accessoire ; UE10 15b p.9 : syssarcose scapulo-thoracique."
+   ]
+  },
+  {
+   "id": "M050",
+   "champs": {
+    "situation": {
+     "texte": "Compartiment antérieur du bras, muscle à 2 corps (chefs long et court) ; le chef long compte aussi parmi les muscles antérieurs de l'épaule. Son tendon et son expansion aponévrotique occupent le compartiment antérieur du coude.",
+     "sources": [
+      "MS14b:13-15",
+      "LOC15c:9"
+     ]
+    },
+    "origine": {
+     "texte": "Chef long : tubercule supra-glénoïdal de la scapula (tendon intra-articulaire). Chef court : apex du processus coracoïde, avec le coraco-brachial.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Tubérosité du radius ; expansion aponévrotique dans le fascia antébrachial.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf musculocutané (C5-C7), qui chemine entre le biceps brachial et le brachial.",
+     "sources": [
+      "NP16c:9-10"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Rameaux musculaires de l'artère brachiale.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Flexion du coude et supination ; antépulsion de l'épaule.",
+     "sources": [
+      "NP16c:10",
+      "LOC15c:21"
+     ]
+    },
+    "rapports": {
+     "texte": "Le tendon du chef long passe dans le sillon inter-tuberculaire ; l'artère radiale prolonge la direction du tendon terminal.",
+     "sources": [
+      "MS14c:15,18"
+     ]
+    },
+    "clinique": {
+     "texte": "Réflexe bicipital, par percussion du tendon au pli du coude.",
+     "sources": [
+      "MS14c:17"
+     ]
+    },
+    "pathologie": {
+     "texte": "Rupture du tendon du chef long (signe de « Popeye ») ; tendinopathie du long biceps dans le conflit antérieur de l'épaule.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Le niveau du réflexe bicipital (C5-C6) n'est pas précisé dans les ronéos.",
+    "UE10 14b p.6 cite l'expansion aponévrotique du biceps brachial au pli du coude."
+   ]
+  },
+  {
+   "id": "M051",
+   "champs": {
+    "situation": {
+     "texte": "Muscle antérieur de l'épaule, traversé par le nerf musculocutané.",
+     "sources": [
+      "MS14b:13",
+      "NP16c:9"
+     ]
+    },
+    "origine": {
+     "texte": "Apex du processus coracoïde, tendon commun avec le chef court du biceps.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Face médiale de la diaphyse humérale, au tiers moyen.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf musculocutané (C5-C7), qui le traverse.",
+     "sources": [
+      "NP16c:9-10"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Rameaux musculaires de l'artère brachiale.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Antépulsion et adduction de l'épaule.",
+     "sources": [
+      "NP16c:10"
+     ]
+    }
+   },
+   "relations": [],
+   "remarques": []
+  },
+  {
+   "id": "M052",
+   "champs": {
+    "situation": {
+     "texte": "Compartiment antérieur du bras, sous le biceps brachial ; se poursuit au compartiment antérieur du coude par son expansion aponévrotique.",
+     "sources": [
+      "MS14b:14-15"
+     ]
+    },
+    "origine": {
+     "texte": "Moitié distale de la face antérieure de l'humérus.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Tubérosité de l'ulna et processus coronoïde.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf musculocutané (C5-C7), entre biceps brachial et brachial.",
+     "sources": [
+      "NP16c:9-10"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Rameaux musculaires de l'artère brachiale.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Flexion du coude, quelle que soit la position de l'avant-bras.",
+     "sources": [
+      "NP16c:10"
+     ]
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Sa partie latérale reçoit souvent un rameau du nerf radial (hors ronéos)."
+   ]
+  },
+  {
+   "id": "M053",
+   "champs": {
+    "situation": {
+     "texte": "Compartiment postérieur du bras, muscle à 3 corps : chef long, chef médial, chef latéral ; le chef long compte aussi parmi les muscles postérieurs de l'épaule.",
+     "sources": [
+      "MS14b:13-14",
+      "LOC15c:9"
+     ]
+    },
+    "origine": {
+     "texte": "Chef long : tubercule infra-glénoïdal de la scapula. Chef latéral : face postérieure de l'humérus au-dessus du sillon du nerf radial. Chef médial : face postérieure de l'humérus sous ce sillon.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Olécrâne de l'ulna.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf radial (C6-C8), dans le sillon du nerf radial du compartiment postérieur du bras.",
+     "sources": [
+      "NP16c:12-13"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère brachiale profonde, artères collatérales ulnaires.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Extension du coude ; le chef long participe à la rétropulsion de l'épaule.",
+     "sources": [
+      "NP16c:13"
+     ]
+    },
+    "rapports": {
+     "texte": "Dans le compartiment postérieur du bras avec l'artère et les veines brachiales profondes et le nerf radial.",
+     "sources": [
+      "MS14b:14"
+     ]
+    },
+    "clinique": {
+     "texte": "Réflexe tricipital, par percussion du tendon au-dessus de l'olécrâne.",
+     "sources": [
+      "MS14c:17"
+     ]
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "UE10 16c p.5 donne l'extension du coude au myotome C7."
+   ]
+  },
+  {
+   "id": "M054",
+   "champs": {
+    "situation": {
+     "texte": "Compartiment postérieur du coude, couche profonde du compartiment postérieur de l'avant-bras.",
+     "sources": [
+      "MS14b:15-16"
+     ]
+    },
+    "origine": {
+     "texte": "Face postérieure de l'épicondyle latéral de l'humérus.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Face latérale de l'olécrâne et face postérieure de l'ulna (partie haute).",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf radial (C7-C8).",
+     "sources": [
+      "NP16c:13"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère interosseuse récurrente.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Extension du coude.",
+     "sources": [
+      "NP16c:13"
+     ]
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Cité dans les loges du coude et de l'avant-bras (UE10 14b p.15-16)."
+   ]
+  },
+  {
+   "id": "M055",
+   "champs": {
+    "situation": {
+     "texte": "Épicondylien latéral, compartiment postérieur du coude et couche superficielle du compartiment postérieur de l'avant-bras, le plus latéral.",
+     "sources": [
+      "MS14b:15-16",
+      "MS14c:17"
+     ]
+    },
+    "origine": {
+     "texte": "Crête supra-épicondylaire latérale de l'humérus (tiers proximal).",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Base du processus styloïde du radius.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf radial (C5-C6), avant sa division.",
+     "sources": [
+      "NP16c:12-13"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère récurrente radiale.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Flexion du coude, avant-bras en position intermédiaire (pouce en haut) ; ramène l'avant-bras en position neutre.",
+     "sources": []
+    },
+    "rapports": {
+     "texte": "La branche superficielle du nerf radial et les vaisseaux radiaux cheminent sous son bord médial.",
+     "sources": [
+      "MS14b:16",
+      "NP16c:12"
+     ]
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Innervé par le nerf radial, il fléchit pourtant le coude, alors que NP16c p.13 attribue au territoire radial l'extension : exception à connaître (hors ronéos)."
+   ]
+  },
+  {
+   "id": "M064",
+   "champs": {
+    "situation": {
+     "texte": "Épicondylien latéral, couche superficielle du compartiment postérieur de l'avant-bras.",
+     "sources": [
+      "MS14b:15-16",
+      "MS14c:17"
+     ]
+    },
+    "origine": {
+     "texte": "Crête supra-épicondylaire latérale de l'humérus (tiers distal), sous le brachio-radial.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Face dorsale de la base du 2e métacarpien.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf radial (C6-C7).",
+     "sources": [
+      "NP16c:13"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère interosseuse postérieure, artère récurrente radiale.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Extension et abduction (inclinaison radiale) du poignet.",
+     "sources": [
+      "NP16c:13"
+     ]
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "L'inclinaison radiale est hors ronéos."
+   ]
+  },
+  {
+   "id": "M065",
+   "champs": {
+    "situation": {
+     "texte": "Épicondylien latéral, couche superficielle du compartiment postérieur de l'avant-bras.",
+     "sources": [
+      "MS14b:15-16",
+      "MS14c:17"
+     ]
+    },
+    "origine": {
+     "texte": "Épicondyle latéral de l'humérus, tendon commun des extenseurs.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Face dorsale de la base du 3e métacarpien.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf radial, branche profonde (C7-C8).",
+     "sources": [
+      "NP16c:12-13"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère interosseuse postérieure, artère récurrente radiale.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Extension du poignet.",
+     "sources": [
+      "NP16c:13"
+     ]
+    },
+    "clinique": {
+     "texte": "Épicondylalgie latérale (« tennis elbow ») : tendinopathie d'insertion, surtout de ce muscle.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": []
+  },
+  {
+   "id": "M066",
+   "champs": {
+    "situation": {
+     "texte": "Couche superficielle du compartiment postérieur de l'avant-bras ; ses tendons occupent le compartiment dorsal de la main.",
+     "sources": [
+      "MS14b:16-17"
+     ]
+    },
+    "origine": {
+     "texte": "Épicondyle latéral de l'humérus, tendon commun des extenseurs.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Quatre tendons vers les doigts II à V : dossière des extenseurs, phalanges moyennes et distales.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf radial, branche profonde (nerf interosseux postérieur, C7-C8).",
+     "sources": [
+      "NP16c:12-13"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère interosseuse postérieure, artère récurrente radiale.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Extension des doigts et du poignet.",
+     "sources": [
+      "NP16c:13"
+     ]
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "UE10 16c p.5 donne l'extension des doigts longs au myotome C7."
+   ]
+  },
+  {
+   "id": "M067",
+   "champs": {
+    "situation": {
+     "texte": "Couche superficielle du compartiment postérieur de l'avant-bras, entre extenseur des doigts et extenseur ulnaire du carpe ; son tendon gagne le compartiment dorsal de la main.",
+     "sources": [
+      "MS14b:16-17"
+     ]
+    },
+    "origine": {
+     "texte": "Épicondyle latéral de l'humérus, tendon commun des extenseurs.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Dossière des extenseurs du 5e doigt.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf radial, branche profonde (C7-C8).",
+     "sources": [
+      "NP16c:12-13"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère interosseuse postérieure, artère récurrente radiale.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Extension du petit doigt.",
+     "sources": [
+      "NP16c:13"
+     ]
+    }
+   },
+   "relations": [],
+   "remarques": []
+  },
+  {
+   "id": "M068",
+   "champs": {
+    "situation": {
+     "texte": "Couche superficielle du compartiment postérieur de l'avant-bras, le plus médial.",
+     "sources": [
+      "MS14b:16"
+     ]
+    },
+    "origine": {
+     "texte": "Épicondyle latéral de l'humérus et bord postérieur de l'ulna.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Tubercule de la base du 5e métacarpien.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf radial, branche profonde (C7-C8).",
+     "sources": [
+      "NP16c:12-13"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artères interosseuse postérieure et ulnaire.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Extension et adduction (inclinaison ulnaire) du poignet.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "L'inclinaison ulnaire est hors ronéos ; UE10 16c p.5 donne l'adduction du poignet au myotome C8.",
+    "UE10 16c p.13 : territoire radial, extension du poignet."
+   ]
+  },
+  {
+   "id": "M069",
+   "champs": {
+    "situation": {
+     "texte": "Épicondylien latéral, compartiment postérieur du coude, couche profonde du compartiment postérieur de l'avant-bras ; enroulé autour du col du radius.",
+     "sources": [
+      "MS14b:15-16",
+      "MS14c:17"
+     ]
+    },
+    "origine": {
+     "texte": "Épicondyle latéral, ligaments collatéral radial et annulaire, crête du muscle supinateur de l'ulna.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Faces latérale, antérieure et postérieure du tiers proximal du radius.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Branche profonde du nerf radial, qui contourne le col du radius en le traversant.",
+     "sources": [
+      "NP16c:12-13"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artères récurrentes radiale et interosseuse.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Supination de l'avant-bras.",
+     "sources": [
+      "NP16c:13"
+     ]
+    },
+    "clinique": {
+     "texte": "Compression de la branche profonde du nerf radial sous l'arcade du supinateur (arcade de Frohse) : déficit des extenseurs sans trouble sensitif.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "UE10 16c p.12 dit que la branche profonde « contourne le col du radius » sans nommer le supinateur, qu'elle traverse (hors ronéos)."
+   ]
+  },
+  {
+   "id": "M070",
+   "champs": {
+    "situation": {
+     "texte": "Couche profonde du compartiment postérieur de l'avant-bras ; son tendon devient superficiel au bord latéral du poignet.",
+     "sources": [
+      "MS14b:16"
+     ]
+    },
+    "origine": {
+     "texte": "Faces postérieures de l'ulna et du radius, membrane interosseuse.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Base du 1er métacarpien (face latérale).",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf interosseux postérieur, branche profonde du nerf radial (C7-C8).",
+     "sources": [
+      "NP16c:12-13"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère interosseuse postérieure, artère récurrente radiale.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Abduction du pouce (antépulsion) et inclinaison radiale du poignet.",
+     "sources": []
+    },
+    "clinique": {
+     "texte": "Ténosynovite de De Quervain, avec le court extenseur du pouce, dans le premier compartiment des extenseurs.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "UE10 14b p.17 ne cite pas son tendon parmi ceux du compartiment dorsal de la main."
+   ]
+  },
+  {
+   "id": "M071",
+   "champs": {
+    "situation": {
+     "texte": "Couche profonde du compartiment postérieur de l'avant-bras ; son tendon gagne le compartiment dorsal de la main.",
+     "sources": [
+      "MS14b:16-17"
+     ]
+    },
+    "origine": {
+     "texte": "Face postérieure du radius et membrane interosseuse.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Base de la phalange proximale du pouce.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf interosseux postérieur, branche profonde du nerf radial.",
+     "sources": [
+      "NP16c:12-13"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère interosseuse postérieure, artère récurrente radiale.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Extension du pouce (articulation métacarpo-phalangienne).",
+     "sources": []
+    },
+    "rapports": {
+     "texte": "Limite latérale de la tabatière anatomique, avec le long abducteur du pouce.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "UE10 16c p.5 donne l'extension du pouce au myotome C8.",
+    "UE10 16c p.13 : territoire radial, extension des doigts."
+   ]
+  },
+  {
+   "id": "M072",
+   "champs": {
+    "situation": {
+     "texte": "Couche profonde du compartiment postérieur de l'avant-bras ; son tendon gagne le compartiment dorsal de la main.",
+     "sources": [
+      "MS14b:16-17"
+     ]
+    },
+    "origine": {
+     "texte": "Face postérieure de l'ulna (tiers moyen) et membrane interosseuse.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Base de la phalange distale du pouce.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf interosseux postérieur, branche profonde du nerf radial.",
+     "sources": [
+      "NP16c:12-13"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère interosseuse postérieure, artère récurrente radiale.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Extension du pouce (phalange distale), rétropulsion.",
+     "sources": []
+    },
+    "rapports": {
+     "texte": "Limite médiale de la tabatière anatomique ; son tendon se réfléchit sur le tubercule dorsal du radius (tubercule de Lister).",
+     "sources": []
+    },
+    "clinique": {
+     "texte": "Rupture spontanée du tendon après une fracture de l'extrémité distale du radius.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "UE10 16c p.13 : territoire radial, extension des doigts."
+   ]
+  },
+  {
+   "id": "M073",
+   "champs": {
+    "situation": {
+     "texte": "Couche profonde du compartiment postérieur de l'avant-bras ; son tendon gagne le compartiment dorsal de la main.",
+     "sources": [
+      "MS14b:16-17"
+     ]
+    },
+    "origine": {
+     "texte": "Face postérieure de l'ulna (tiers distal) et membrane interosseuse.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Dossière des extenseurs de l'index, en dedans du tendon de l'extenseur des doigts.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf interosseux postérieur, branche profonde du nerf radial.",
+     "sources": [
+      "NP16c:12-13"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère interosseuse postérieure, artère récurrente radiale.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Extension de l'index.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "UE10 16c p.13 : territoire radial, extension des doigts."
+   ]
+  },
+  {
+   "id": "M056",
+   "champs": {
+    "situation": {
+     "texte": "Épicondylien médial, compartiment antérieur du coude et couche superficielle du compartiment antérieur de l'avant-bras ; deux chefs, huméral et ulnaire.",
+     "sources": [
+      "MS14b:15-16",
+      "MS14c:17"
+     ]
+    },
+    "origine": {
+     "texte": "Chef huméral : épicondyle médial (tendon commun des fléchisseurs). Chef ulnaire : processus coronoïde.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Face latérale du radius, au milieu de la diaphyse (empreinte du rond pronateur).",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf médian (C6-C7).",
+     "sources": [
+      "NP16c:15"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artères radiale et ulnaire, artère interosseuse antérieure.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Pronation de l'avant-bras ; accessoire de la flexion du coude.",
+     "sources": [
+      "NP16c:15"
+     ]
+    },
+    "rapports": {
+     "texte": "Le nerf médian passe entre ses deux chefs (site de compression : syndrome du rond pronateur).",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Flexion du coude : hors ronéos."
+   ]
+  },
+  {
+   "id": "M057",
+   "champs": {
+    "situation": {
+     "texte": "Épicondylien médial, couche superficielle du compartiment antérieur de l'avant-bras ; son tendon traverse le canal carpien.",
+     "sources": [
+      "MS14b:15-16",
+      "MS14c:6,17"
+     ]
+    },
+    "origine": {
+     "texte": "Épicondyle médial, tendon commun des fléchisseurs.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Base du 2e métacarpien (face palmaire).",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf médian (C6-C7).",
+     "sources": [
+      "NP16c:15"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artères radiale et ulnaire, artère interosseuse antérieure.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Flexion du poignet.",
+     "sources": [
+      "NP16c:15"
+     ]
+    },
+    "rapports": {
+     "texte": "Son tendon est le repère de l'artère radiale, qui bat en dehors de lui au poignet.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "UE10 16c p.5 donne la flexion du poignet au myotome C7."
+   ]
+  },
+  {
+   "id": "M058",
+   "champs": {
+    "situation": {
+     "texte": "Épicondylien médial, couche superficielle du compartiment antérieur de l'avant-bras ; son tendon renforce le rétinaculum des fléchisseurs, en avant du canal carpien.",
+     "sources": [
+      "MS14b:15-16",
+      "MS14c:6"
+     ]
+    },
+    "origine": {
+     "texte": "Épicondyle médial, tendon commun des fléchisseurs.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Rétinaculum des fléchisseurs et aponévrose palmaire.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf médian.",
+     "sources": [
+      "NP16c:15"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artères radiale et ulnaire, artère interosseuse antérieure.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Flexion du poignet ; tend l'aponévrose palmaire.",
+     "sources": [
+      "NP16c:15"
+     ]
+    },
+    "clinique": {
+     "texte": "Absent dans environ 15 % des cas ; son tendon sert de greffon. Le nerf médian est juste en arrière de lui au poignet.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": []
+  },
+  {
+   "id": "M059",
+   "champs": {
+    "situation": {
+     "texte": "Épicondylien médial, couche superficielle du compartiment antérieur de l'avant-bras, le plus médial ; deux chefs, huméral et ulnaire.",
+     "sources": [
+      "MS14b:15-16",
+      "MS14c:17"
+     ]
+    },
+    "origine": {
+     "texte": "Chef huméral : épicondyle médial. Chef ulnaire : olécrâne et bord postérieur de l'ulna.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Pisiforme, puis hamatum et base du 5e métacarpien (ligaments piso-hamulaire et piso-métacarpien).",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf ulnaire (C7-T1).",
+     "sources": []
+    },
+    "vascularisation": {
+     "texte": "Artère ulnaire, artères collatérales ulnaires.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Flexion et adduction (inclinaison ulnaire) du poignet.",
+     "sources": []
+    },
+    "rapports": {
+     "texte": "Le nerf ulnaire passe dans le sillon épicondylo-olécrânien médial, recouvert par l'arcade tendineuse du fléchisseur ulnaire du carpe, puis chemine sous le muscle.",
+     "sources": [
+      "NP16c:16"
+     ]
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Exception à la règle des ronéos : NP16c p.15 donne au nerf médian le compartiment antérieur de l'avant-bras, mais le fléchisseur ulnaire du carpe est innervé par le nerf ulnaire (hors ronéos)."
+   ]
+  },
+  {
+   "id": "M060",
+   "champs": {
+    "situation": {
+     "texte": "Compartiment antérieur de l'avant-bras, groupe superficiel, couche profonde (intermédiaire) ; ses tendons traversent le canal carpien.",
+     "sources": [
+      "MS14b:16",
+      "MS14c:6"
+     ]
+    },
+    "origine": {
+     "texte": "Épicondyle médial, processus coronoïde de l'ulna, bord antérieur du radius (arcade entre les deux).",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Quatre tendons, perforés par ceux du fléchisseur profond, sur les phalanges moyennes des doigts II à V.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf médian (C7-T1), qui chemine en arrière de lui.",
+     "sources": [
+      "NP16c:14-15"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artères radiale et ulnaire, artère interosseuse antérieure.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Flexion des doigts (interphalangiennes proximales) et du poignet.",
+     "sources": [
+      "NP16c:15"
+     ]
+    },
+    "rapports": {
+     "texte": "Le nerf médian descend en arrière du fléchisseur superficiel des doigts.",
+     "sources": [
+      "NP16c:14"
+     ]
+    }
+   },
+   "relations": [],
+   "remarques": []
+  },
+  {
+   "id": "M061",
+   "champs": {
+    "situation": {
+     "texte": "Compartiment antérieur de l'avant-bras, groupe profond ; ses tendons traversent le canal carpien et donnent insertion aux lombricaux dans la paume.",
+     "sources": [
+      "MS14b:16-17",
+      "MS14c:6"
+     ]
+    },
+    "origine": {
+     "texte": "Faces antérieure et médiale de l'ulna (trois quarts proximaux), membrane interosseuse.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Quatre tendons sur les bases des phalanges distales des doigts II à V.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Double : partie latérale (doigts II et III) par le nerf interosseux antérieur, branche du nerf médian ; partie médiale (doigts IV et V) par le nerf ulnaire.",
+     "sources": []
+    },
+    "vascularisation": {
+     "texte": "Artères ulnaire et interosseuse antérieure.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Flexion des doigts (interphalangiennes distales, puis proximales) et du poignet.",
+     "sources": []
+    },
+    "clinique": {
+     "texte": "Testing : flexion de la phalange distale, la phalange moyenne maintenue.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Exception à la règle des ronéos (compartiment antérieur de l'avant-bras par le nerf médian, NP16c p.15) : sa partie médiale dépend du nerf ulnaire (hors ronéos).",
+    "UE10 16c p.5 donne la flexion des doigts longs au myotome C8."
+   ]
+  },
+  {
+   "id": "M062",
+   "champs": {
+    "situation": {
+     "texte": "Compartiment antérieur de l'avant-bras, groupe profond ; son tendon traverse le canal carpien et le groupe thénar.",
+     "sources": [
+      "MS14b:16-17",
+      "MS14c:6"
+     ]
+    },
+    "origine": {
+     "texte": "Face antérieure du radius et membrane interosseuse.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Base de la phalange distale du pouce.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf interosseux antérieur, branche du nerf médian.",
+     "sources": [
+      "NP16c:14-15"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère interosseuse antérieure.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Flexion du pouce (interphalangienne) ; pince pollici-digitale.",
+     "sources": [
+      "NP16c:15"
+     ]
+    },
+    "clinique": {
+     "texte": "Lésion du nerf interosseux antérieur : impossible de faire un « O » avec le pouce et l'index (perte de la flexion des phalanges distales).",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": []
+  },
+  {
+   "id": "M063",
+   "champs": {
+    "situation": {
+     "texte": "Compartiment antérieur de l'avant-bras, groupe profond, le plus profond, au quart distal.",
+     "sources": [
+      "MS14b:16"
+     ]
+    },
+    "origine": {
+     "texte": "Quart distal de la face antérieure de l'ulna.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Quart distal de la face antérieure du radius.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf interosseux antérieur, branche du nerf médian.",
+     "sources": [
+      "NP16c:14-15"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère interosseuse antérieure.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Pronation de l'avant-bras (principal pronateur).",
+     "sources": [
+      "NP16c:15"
+     ]
+    }
+   },
+   "relations": [],
+   "remarques": []
+  },
+  {
+   "id": "M074",
+   "champs": {
+    "situation": {
+     "texte": "Groupe thénar du compartiment antérieur (palmaire) de la main, superficiel.",
+     "sources": [
+      "MS14b:11,17"
+     ]
+    },
+    "origine": {
+     "texte": "Rétinaculum des fléchisseurs, tubercules du scaphoïde et du trapèze.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Face latérale de la base de la phalange proximale du pouce.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf médian, rameau thénarien.",
+     "sources": [
+      "NP16c:15"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Rameau palmaire superficiel de l'artère radiale.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Abduction (antépulsion) du pouce ; participe à l'opposition.",
+     "sources": []
+    },
+    "clinique": {
+     "texte": "Syndrome du canal carpien : amyotrophie thénarienne, testing de l'abduction du pouce.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "UE10 16c p.15 : territoire médian, opposition et pinces pollici-digitales."
+   ]
+  },
+  {
+   "id": "M075",
+   "champs": {
+    "situation": {
+     "texte": "Groupe thénar du compartiment antérieur (palmaire) de la main.",
+     "sources": [
+      "MS14b:17"
+     ]
+    },
+    "origine": {
+     "texte": "Chef superficiel : rétinaculum des fléchisseurs, tubercule du trapèze. Chef profond : trapézoïde et capitatum.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Sésamoïde latéral et base de la phalange proximale du pouce.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Chef superficiel : nerf médian. Chef profond : nerf ulnaire (rameau profond).",
+     "sources": []
+    },
+    "vascularisation": {
+     "texte": "Arcades palmaires superficielle et profonde.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Flexion de la phalange proximale du pouce ; participe à l'opposition.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Exception à la règle des ronéos (thénar par le nerf médian, NP16c p.15) : le chef profond dépend souvent du nerf ulnaire (hors ronéos)."
+   ]
+  },
+  {
+   "id": "M076",
+   "champs": {
+    "situation": {
+     "texte": "Groupe thénar du compartiment antérieur (palmaire) de la main, profond.",
+     "sources": [
+      "MS14b:17"
+     ]
+    },
+    "origine": {
+     "texte": "Rétinaculum des fléchisseurs, tubercule du trapèze.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Bord latéral et face palmaire du 1er métacarpien.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf médian, rameau thénarien.",
+     "sources": [
+      "NP16c:15"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Arcades palmaires superficielle et profonde.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Opposition du pouce : prises fines, pinces pollici-digitales.",
+     "sources": [
+      "NP16c:15"
+     ]
+    }
+   },
+   "relations": [],
+   "remarques": []
+  },
+  {
+   "id": "M077",
+   "champs": {
+    "situation": {
+     "texte": "Groupe thénar du compartiment antérieur (palmaire) de la main.",
+     "sources": [
+      "MS14b:17"
+     ]
+    },
+    "origine": {
+     "texte": "Chef oblique : capitatum, bases des 2e et 3e métacarpiens. Chef transverse : face palmaire du 3e métacarpien.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Sésamoïde médial et base de la phalange proximale du pouce.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf ulnaire, rameau profond (C8-T1).",
+     "sources": []
+    },
+    "vascularisation": {
+     "texte": "Arcade palmaire profonde.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Adduction du pouce : prise de force entre pouce et index.",
+     "sources": []
+    },
+    "clinique": {
+     "texte": "Signe de Froment dans la paralysie ulnaire : le pouce fléchit sa phalange distale (long fléchisseur, nerf médian) pour compenser l'adducteur.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "Exception à la règle des ronéos : UE10 14b p.17 le range dans le groupe thénar, dont NP16c p.15 donne l'innervation au nerf médian, mais l'adducteur du pouce est innervé par le nerf ulnaire (hors ronéos). Beaucoup de traités le placent dans une loge propre, la loge de l'adducteur."
+   ]
+  },
+  {
+   "id": "M078",
+   "champs": {
+    "situation": {
+     "texte": "Groupe hypothénar du compartiment antérieur (palmaire) de la main, le plus médial.",
+     "sources": [
+      "MS14b:17"
+     ]
+    },
+    "origine": {
+     "texte": "Pisiforme et tendon du fléchisseur ulnaire du carpe.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Face médiale de la base de la phalange proximale du 5e doigt.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf ulnaire (C8-T1).",
+     "sources": [
+      "NP16c:17"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère ulnaire (rameau palmaire profond).",
+     "sources": []
+    },
+    "action": {
+     "texte": "Abduction du petit doigt.",
+     "sources": [
+      "NP16c:17"
+     ]
+    }
+   },
+   "relations": [],
+   "remarques": []
+  },
+  {
+   "id": "M079",
+   "champs": {
+    "situation": {
+     "texte": "Groupe hypothénar du compartiment antérieur (palmaire) de la main.",
+     "sources": [
+      "MS14b:17"
+     ]
+    },
+    "origine": {
+     "texte": "Hamulus de l'hamatum, rétinaculum des fléchisseurs.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Base de la phalange proximale du 5e doigt.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf ulnaire.",
+     "sources": [
+      "NP16c:17"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère ulnaire.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Flexion de la phalange proximale du petit doigt.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": []
+  },
+  {
+   "id": "M080",
+   "champs": {
+    "situation": {
+     "texte": "Groupe hypothénar du compartiment antérieur (palmaire) de la main, profond.",
+     "sources": [
+      "MS14b:17"
+     ]
+    },
+    "origine": {
+     "texte": "Hamulus de l'hamatum, rétinaculum des fléchisseurs.",
+     "sources": []
+    },
+    "terminaison": {
+     "texte": "Bord médial du 5e métacarpien.",
+     "sources": []
+    },
+    "innervation": {
+     "texte": "Nerf ulnaire.",
+     "sources": [
+      "NP16c:17"
+     ]
+    },
+    "vascularisation": {
+     "texte": "Artère ulnaire.",
+     "sources": []
+    },
+    "action": {
+     "texte": "Opposition du 5e doigt : creuse la paume, prise de force.",
+     "sources": []
+    }
+   },
+   "relations": [],
+   "remarques": [
+    "UE10 16c p.17 donne au territoire ulnaire la « prise de force »."
+   ]
+  }
+ ]
+}

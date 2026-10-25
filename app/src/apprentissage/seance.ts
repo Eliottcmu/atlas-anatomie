@@ -12,8 +12,8 @@ export interface Plateau {
   montrer(structure: string, cote: Cote, cadrer?: boolean): void;
   /** Surligne plusieurs structures (correction d'un trajet). */
   montrerPlusieurs(structures: string[]): void;
-  /** Vue d'ensemble, rien de surligné : pour localiser. */
-  vueEnsemble(): void;
+  /** Vue d'ensemble, rien de surligné : pour localiser (le calque de la structure est affiché s'il était masqué). */
+  vueEnsemble(structure?: string): void;
   effacer(): void;
   /** Clic dans la vue détourné vers la séance (localiser) ; null pour rendre la main. */
   capturerClic(f: ((cle: string | null) => void) | null): void;
@@ -179,7 +179,7 @@ export class Seance {
     const q = this.courant.question;
     this.debut = performance.now();
     if (q.type === "localiser" || q.type === "trajet") {
-      this.plateau.vueEnsemble();
+      this.plateau.vueEnsemble(q.type === "localiser" ? q.structure : undefined);
       if (q.type === "localiser") this.plateau.capturerClic((cle) => this.repondre({ cle }));
     } else {
       this.plateau.capturerClic(null);

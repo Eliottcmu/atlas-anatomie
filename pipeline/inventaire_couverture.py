@@ -1,4 +1,4 @@
-"""Inventaire de couverture 3D des vaisseaux noyau (phase 0, bloc 1).
+"""Inventaire de couverture 3D des structures noyau (phase 0 pour le bloc 1, puis blocs 2 à 4).
 
 Lit la liste noyau, les tables BodyParts3D et l'archive des maillages,
 puis produit l'inventaire CSV et le rapport Markdown.
@@ -32,7 +32,8 @@ TA2 = RACINE / "donnees" / "brut" / "z-anatomy" / "TA2.csv"
 WIKIDATA = DERIVE / "wikidata_fma.csv"
 INDEX_ZANATOMY = RACINE / "modeles" / "index_zanatomy.csv"
 
-RESOLUES = ("exacte", "manuelle", "par côtés", "absent de BodyParts3D", "sans concept FMA", "étiquette corrigée")
+RESOLUES = ("exacte", "manuelle", "par côtés", "par parties", "absent de BodyParts3D", "sans concept FMA",
+            "étiquette corrigée")
 SOLUTIONS = {
     "Z-Anatomy": "Z-Anatomy : export GLB depuis Blender (licence CC BY-SA)",
     "HRA femme": "Human Reference Atlas, modèle féminin (GLB)",
@@ -41,8 +42,10 @@ SOLUTIONS = {
 
 ORDRE_REGIONS = [
     "Cœur et thorax", "Tête et cou", "Membre supérieur", "Abdomen",
-    "Abdomen et pelvis", "Pelvis et membre inférieur", "Membre inférieur",
+    "Abdomen et pelvis", "Pelvis et membre inférieur", "Membre inférieur", "Tronc",
 ]
+# Préfixe de l'identifiant -> système, dans l'ordre des blocs (pipeline/listes.py)
+SYSTEMES_PAR_PREFIXE = {"A": "Artères", "V": "Veines", "M": "Muscles", "O": "Organes", "S": "Os"}
 
 
 def journal(niveau, message):
@@ -170,6 +173,12 @@ def cote_du_nom(nom):
 
 def resoudre(ligne, noms, par_nom, wikidata):
     """Renvoie (fma_id, mode, suggestions). Ne tranche jamais un cas ambigu."""
+    # Structure que BodyParts3D n'a que par chefs ou parties (deltoïde, biceps) : concepts des parties,
+    # listés à la main dans la colonne parties_fma ; fma_id garde le vrai identifiant du muscle entier
+    parties = (ligne.get("parties_fma") or "").strip()
+    if parties:
+        inconnus = [f for f in parties.split("|") if f not in noms]
+        return (None, "identifiant inconnu", " | ".join(inconnus)) if inconnus else (parties, "par parties", "")
     fma = ligne["fma_id"].strip()
     if fma == "aucun":
         # Vérifié à la main : la structure n'existe pas comme concept dans la FMA
@@ -264,7 +273,11 @@ def analyser(ligne, bp3d, presents, geo, sources, ta2, wikidata, arbre=None):
     res = analyser_bp3d(ligne, *bp3d, presents, geo, wikidata)
     appliquer_arbre(res, ligne, arbre)
     if res["correspondance"] in RESOLUES:
-        choisir_secours(res, ligne, disponibilite(ligne["nom_fma_en"], sources))
+        dispo = disponibilite(ligne["nom_fma_en"], sources)
+        # Objets Z-Anatomy désignés à la main (colonne zanatomy, noms sans côté) : « Deep part of masseter »
+        if (ligne.get("zanatomy") or "").strip():
+            dispo["Z-Anatomy"] = {"droit", "gauche"} if ligne["cote"] == "bilatéral" else {None}
+        choisir_secours(res, ligne, dispo)
     nomenclature(res, ligne, ta2, wikidata)
     return res
 
@@ -275,6 +288,9 @@ def analyser_bp3d(ligne, noms, elements, enfants, par_nom, presents, geo, wikida
         # Identifiant FMA réel gardé comme clé pivot, nom anglais pris dans Wikidata
         fma_affiche = ligne["fma_id"].strip()
         nom_trouve = " | ".join(wikidata[f]["libelle_en"] for f in fma_affiche.split("|"))
+    elif mode == "par parties":
+        fma_affiche = ligne["fma_id"].strip()
+        nom_trouve = " | ".join(noms[f] for f in fma.split("|"))
     else:
         fma_affiche = fma or ""
         nom_trouve = " | ".join(noms[f] for f in fma.split("|")) if fma else ""
@@ -509,7 +525,7 @@ def couverture(r):
 
 def ecrire_rapport(resultats, archive_lue):
     noyau = [r for r in resultats if r["niveau"] == "noyau"]
-    lignes = ["# Rapport de couverture 3D, bloc 1 (vaisseaux)", "",
+    lignes = ["# Rapport de couverture 3D des structures noyau", "",
               "Fichier généré par pipeline/inventaire_couverture.py, ne pas éditer à la main.", ""]
     if not archive_lue:
         lignes += ["> Archive des maillages absente : présence déduite des seules tables.", ""]
@@ -526,9 +542,14 @@ def ecrire_rapport(resultats, archive_lue):
     ]
     groupes = defaultdict(list)
     for r in noyau:
-        systeme = "Artères" if r["id"].startswith("A") else "Veines"
-        groupes[(systeme, r["region"])].append(r)
-    for (systeme, region), rs in sorted(groupes.items(), key=lambda kv: (kv[0][0], ORDRE_REGIONS.index(kv[0][1]))):
+        groupes[(SYSTEMES_PAR_PREFIXE.get(r["id"][0], "Autres"), r["region"])].append(r)
+    ordre = {s: k for k, s in enumerate(SYSTEMES_PAR_PREFIXE.values())}
+
+    def cle(kv):
+        (systeme, region) = kv[0]
+        return ordre.get(systeme, 99), ORDRE_REGIONS.index(region) if region in ORDRE_REGIONS else 99, region
+
+    for (systeme, region), rs in sorted(groupes.items(), key=cle):
         n = {c: sum(couverture(r) == c for r in rs) for c in classes}
         en_3d = n["BodyParts3D"] + n["partiel"] + n["secours 3D"]
         lignes.append(f"| {systeme} | {region} | {len(rs)} | {n['BodyParts3D']} | {n['partiel']} | "

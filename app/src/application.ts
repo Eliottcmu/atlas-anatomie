@@ -291,6 +291,32 @@ export class Application {
       `Touche ${calque.touche} pour ${visible ? "le masquer" : "l'afficher"} à nouveau.`);
   }
 
+  /** Calques masqués qui portent ces maillages (un muscle cherché alors que le calque Muscles est masqué). */
+  private calquesMasques(cles: Iterable<string>): string[] {
+    const ids = new Set<string>();
+    for (const c of cles) {
+      const k = this.atlas.noeuds[c]?.calque;
+      if (k && k !== "os" && !this.modeles.estVisible(k)) ids.add(k);
+    }
+    return [...ids];
+  }
+
+  /** Charge et affiche, sans message, les calques masqués qui portent ces maillages. */
+  private async montrerCalques(cles: Iterable<string>): Promise<void> {
+    for (const id of this.calquesMasques(cles)) {
+      this.modeles.afficherCalque(id, true);
+      if (!this.modeles.calquesCharges.has(id)) {
+        try {
+          await this.modeles.charger(id, (p) => this.suivre(p));
+        } catch {
+          this.etat(`Le calque ${id} n'a pas pu être chargé.`, "Lancer python -I pipeline/convertir_glb.py --compresser puis réessayer.", true);
+        }
+      }
+    }
+    this.majCalques();
+    this.appliquerEtats();
+  }
+
   private cyclerOs(): void {
     const ordre: ModeOs[] = ["repere", "opaque", "masque"];
     this.definirModeOs(ordre[(ordre.indexOf(this.modeles.modeOs) + 1) % ordre.length]);
@@ -476,8 +502,15 @@ export class Application {
       this.etat(`${s.nom} : pas de modèle 3D.`, `Solution prévue : ${s.couverture}. Échap pour fermer.`);
       return;
     }
-    if (cadrer) this.scene.cadrer(this.modeles.boite(cles));
-    this.etat(`Sélection : ${s.nom}${cote ? `, ${libelleCote(cote)}` : ""}.${cadrer ? " Vue cadrée sur la structure." : ""}`,
+    const masques = this.calquesMasques(cles);
+    if (masques.length) {
+      // Calque masqué (muscles) : affiché, puis cadrage une fois ses maillages chargés
+      void this.montrerCalques(cles).then(() => {
+        if (cadrer && this.selection?.structure === id) this.scene.cadrer(this.modeles.boite(cles));
+      });
+    } else if (cadrer) this.scene.cadrer(this.modeles.boite(cles));
+    const affiches = masques.length ? ` Calque ${masques.map((k) => this.atlas.calques.find((c) => c.id === k)?.nom.toLowerCase() ?? k).join(", ")} affiché.` : "";
+    this.etat(`Sélection : ${s.nom}${cote ? `, ${libelleCote(cote)}` : ""}.${cadrer ? " Vue cadrée sur la structure." : ""}${affiches}`,
       "I pour isoler, Échap pour fermer, Alt flèche gauche pour revenir.");
   }
 
@@ -1319,9 +1352,11 @@ export class Application {
       etat: (a, e, err) => this.etat(a, e, err),
       montrer: (id, cote, cadrer = true) => this.surligner([id], cote, cadrer),
       montrerPlusieurs: (ids) => this.surligner(ids, null, true),
-      vueEnsemble: () => {
+      vueEnsemble: (structure) => {
         this.surligner([], null, false);
-        this.scene.vue("face", this.modeles.boiteVisible());
+        // Localiser un muscle : son calque doit être affiché pour qu'on puisse le cliquer
+        const cles = structure ? this.atlas.structures[structure]?.noeuds ?? [] : [];
+        void this.montrerCalques(cles).then(() => this.scene.vue("face", this.modeles.boiteVisible()));
       },
       effacer: () => this.surligner([], null, false),
       capturerClic: (f) => { this.capteur = f; },
@@ -1399,7 +1434,11 @@ export class Application {
     this.isole = cles.size > 0;
     $("fiche").hidden = true;
     this.appliquerEtats();
-    if (cadrer && cles.size) this.scene.cadrer(this.modeles.boite(cles), undefined, 2.2);
+    if (this.calquesMasques(cles).length) {
+      void this.montrerCalques(cles).then(() => {
+        if (cadrer && cles.size) this.scene.cadrer(this.modeles.boite(cles), undefined, 2.2);
+      });
+    } else if (cadrer && cles.size) this.scene.cadrer(this.modeles.boite(cles), undefined, 2.2);
   }
 
   /** Étape d'un parcours : la structure en surbrillance, celles du parcours visibles, le reste estompé. */
@@ -1568,10 +1607,13 @@ export class Application {
     this.aAnnuler = [];
     this.aRetablir = [];
     this.modeles.toutReafficher();
+    // Calques par défaut, plus celui de la structure (un muscle ne doit pas cacher les vaisseaux du cas suivant)
+    for (const c of this.atlas.calques) if (c.id !== "os") this.modeles.afficherCalque(c.id, c.visible);
     this.appliquerEtats();
     const toutes = this.clesStructure(id, cote);
     const propres = [...toutes].filter((c) => this.atlas.noeuds[c]?.structure === id && this.atlas.noeuds[c]?.propre);
     const cles = propres.length ? propres : [...toutes];
+    await this.montrerCalques(cles);
     this.scene.cadrer(this.modeles.boite(cles), vue);
     return this.pointsSur(cles);
   }

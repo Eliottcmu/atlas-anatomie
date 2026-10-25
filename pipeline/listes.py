@@ -1,8 +1,10 @@
 """Listes noyau des quatre blocs du plan, éditées à la main : donnees/listes/liste_noyau_bloc*.csv.
 
-Bloc 1 vaisseaux (A, V), bloc 2 muscles (M), bloc 3 organes (O), bloc 4 os (S). Toutes ont les mêmes
-colonnes ; les scripts les lisent ensemble, dans l'ordre des blocs. Le système d'une structure
-(artère, veine, muscle, organe, os) décide des champs de sa fiche (pipeline/base.py).
+Bloc 1 vaisseaux (A, V), bloc 2 muscles (M), bloc 3 organes (O), bloc 4 os (S). Colonnes communes
+(id à remarque), puis colonnes facultatives : parties_fma (concepts BodyParts3D des chefs ou parties,
+quand le muscle entier n'y existe pas), zanatomy (objets Z-Anatomy sans côté), focus (organe ou os du
+catalogue de pipeline/focus.py). Les scripts les lisent ensemble, dans l'ordre des blocs. Le système
+d'une structure (artère, veine, muscle, organe, os) décide des champs de sa fiche (pipeline/base.py).
 """
 
 import csv

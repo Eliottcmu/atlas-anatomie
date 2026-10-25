@@ -46,6 +46,11 @@ export class Accueil {
     this.fermerRappel();
   }
 
+  /** Nombre de structures noyau de ces systèmes. */
+  private noyau(...systemes: string[]): number {
+    return Object.values(this.atlas.structures).filter((s) => s.niveau === "noyau" && systemes.includes(s.systeme)).length;
+  }
+
   private afficher(etape: number): void {
     this.etape = Math.max(1, Math.min(3, etape));
     const points = [1, 2, 3].map((i) => `<li class="${i === this.etape ? "actif" : i < this.etape ? "fait" : ""}">${i}</li>`).join("");
@@ -56,13 +61,13 @@ export class Accueil {
       corps = `<h2>Données installées</h2><ul class="controle">
         ${ligne(c.maillages > 0, `Modèle 3D : ${c.maillages.toLocaleString("fr-FR")} structures prêtes à l'affichage.`)}
         ${ligne(c.organes > 0, `${c.organes} organes et 29 régions pour le focus, légendés.`)}
-        ${c.fiches ? ligne(c.fiches.verifiees === c.fiches.noyau, `Fiches des vaisseaux : ${c.fiches.verifiees} vérifiées sur ${c.fiches.noyau} ; les autres sont des brouillons à vérifier contre tes ronéos (touche L).`) : ligne(false, "Fiches indisponibles : le lanceur ne répond pas.")}
+        ${c.fiches ? ligne(c.fiches.verifiees === c.fiches.noyau, `Fiches : ${c.fiches.verifiees} vérifiées sur ${c.fiches.noyau} ; les autres sont des brouillons à vérifier contre tes ronéos (touche L).`) : ligne(false, "Fiches indisponibles : le lanceur ne répond pas.")}
         ${c.cartes !== null ? ligne(c.cartes > 0, `${c.cartes} cartes de révision prêtes (nommer et localiser) ; les questions sur les relations arrivent avec les fiches vérifiées.`) : ""}
         </ul>`;
     } else if (this.etape === 2) {
       corps = `<h2>Choisis ton bloc</h2>
-        <div class="blocs"><button class="bloc actif" disabled><strong>Bloc 1</strong><span>Vaisseaux : ${Object.values(this.atlas.structures).filter((s) => s.niveau === "noyau").length} artères et veines</span></button>
-        <button class="bloc" disabled><strong>Bloc 2</strong><span>Muscles, à venir</span></button>
+        <div class="blocs"><button class="bloc actif" disabled><strong>Bloc 1</strong><span>Vaisseaux : ${this.noyau("artère", "veine")} artères et veines</span></button>
+        <button class="bloc actif" disabled><strong>Bloc 2</strong><span>Muscles : ${this.noyau("muscle")} muscles</span></button>
         <button class="bloc" disabled><strong>Bloc 3</strong><span>Organes, à venir</span></button>
         <button class="bloc" disabled><strong>Bloc 4</strong><span>Os, à venir</span></button></div>
         <p class="aide">Les organes sont déjà consultables en focus (touche G) ; leurs fiches et leurs cartes arriveront avec le bloc 3.</p>`;

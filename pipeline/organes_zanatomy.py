@@ -13,7 +13,8 @@ des légendes (hile du rein, pôles, faces, segments du foie et des poumons). Ce
   4. pose chaque légende sur la surface affichée : sommet le plus proche du maillage qui la porte,
      à 12 mm au plus après recalage, sinon la légende est écartée et signalée.
 
-Sorties : modeles/zanatomy_organes.glb, modeles/zanatomy_os.glb (coccyx, osselets), modeles/index_zanatomy_organes.csv,
+Sorties : modeles/zanatomy_organes.glb, modeles/zanatomy_os.glb (coccyx, osselets), modeles/zanatomy_muscles.glb
+(masséter, temporal, ptérygoïdiens, muscles de la paroi abdominale, grand dorsal, trapèze), modeles/index_zanatomy_organes.csv,
 donnees/derive/organes_zanatomy.json (doublons, légendes, bilan du recalage),
 rapports/recalage_organes.md.
 
@@ -103,6 +104,25 @@ GROUPES = [
     {"id": "coccyx", "systeme": "os", "motif": r"^Coccyx$", "reperes": [r"^Sacrum$", r"^Hip bone\.[lr]$"]},
     {"id": "osselets-droits", "systeme": "os", "motif": r"^(Malleus|Incus|Stapes)\.r$", "reperes": [r"^Temporal bone\.r$"]},
     {"id": "osselets-gauches", "systeme": "os", "motif": r"^(Malleus|Incus|Stapes)\.l$", "reperes": [r"^Temporal bone\.l$"]},
+    # Muscles absents de BodyParts3D : calque des muscles (modeles/zanatomy_muscles.glb). Seuls les corps
+    # musculaires (.l, .r) : .ol, .el, .o1l... sont les zones d'insertion. Trapèze : BodyParts3D n'a que la
+    # partie transverse ; long du cou : seulement le côté gauche (le droit est importé, le gauche écarté en doublon)
+    {"id": "muscles-tete", "systeme": "muscles",
+     "motif": r"^((Superficial|Deep) part of masseter|Temporalis muscle|(Superior|Inferior) head of lateral pterygoid "
+              r"muscle|Medial pterygoid muscle)\.[lr]$",
+     "reperes": [r"^(Mandible|Sphenoid bone|Frontal bone|Occipital bone)$",
+                 r"^(Temporal bone|Zygomatic bone|Maxilla|Parietal bone)\.[lr]$"]},
+    {"id": "muscles-cou", "systeme": "muscles", "motif": r"^Longus colli muscle\.[lr]$",
+     "reperes": [r"^(Atlas \(C1\)|Axis \(C2\)|Occipital bone)$", r"^(First|Second) rib\.[lr]$"]},
+    {"id": "muscles-abdomen", "systeme": "muscles",
+     "motif": r"^(Rectus abdominis muscle|Internal abdominal oblique muscle|Transversus abdominis muscle|"
+              r"Quadratus lumborum muscle|Pyramidalis muscle)\.[lr]$",
+     # Recalés sur l'oblique externe, présent dans les deux modèles : sur les côtes seules, l'oblique interne
+     # perçait par endroits l'oblique externe de BodyParts3D
+     "reperes": [r"^External abdominal oblique muscle\.[lr]$"]},
+    {"id": "muscles-dos", "systeme": "muscles",
+     "motif": r"^(Latissimus dorsi muscle|(Descending|Ascending) part of trapezius muscle)\.[lr]$",
+     "reperes": [r"^Transverse part of trapezius muscle\.[lr]$", COTES_THORAX, r"^(Scapula|Clavicle|Humerus)\.[lr]$"]},
     {"id": "lymphatiques", "reperes": "os", "rendu": "lymphatique",
      # Nœuds lymphatiques ; pas les nœuds sinu-atrial et atrio-ventriculaire du cœur
      "motif": r"^\(?(?!Sinu|Atrioventricular)[A-Z].*(nodes?|Node)\)?" + COTES + "$"},
@@ -208,11 +228,25 @@ def legendes_brutes(blender, blend, reexporter):
 
 # ---------------------------------------------------------------- recalage
 
+# Muscles présents dans les deux modèles sous des noms différents, repères des groupes de muscles
+ALIAS_REPERES = {"External abdominal oblique muscle": "{cote}external oblique",
+                 "Transverse part of trapezius muscle": "transverse part of {cote}trapezius"}
+
+
+def nom_repere(objet):
+    """Nom BodyParts3D d'un objet Z-Anatomy, alias compris : 'External abdominal oblique muscle.l' -> 'left external oblique'."""
+    base = re.sub(r"\.[lr]$", "", objet)
+    if base in ALIAS_REPERES:
+        return ALIAS_REPERES[base].replace("{cote}", {"l": "left ", "r": "right "}.get(objet[-1], "")
+                                           if re.search(r"\.[lr]$", objet) else "")
+    return nom_bp3d(objet)
+
+
 def appariements(motifs, objets_za, index_noms):
     """Paires (objet Z-Anatomy, nom BodyParts3D) dont le nom correspond à l'un des motifs."""
     regex = [re.compile(m) for m in motifs]
-    return [(o, nom_bp3d(o)) for o in objets_za if any(r.search(o) for r in regex)
-            and nom_bp3d(o) in index_noms]
+    return [(o, nom_repere(o)) for o in objets_za if any(r.search(o) for r in regex)
+            and nom_repere(o) in index_noms]
 
 
 def transformation_locale(paires, geo_za, geo_bp3d, fj_par_nom, globale):
@@ -267,8 +301,10 @@ def main():
 
     # BodyParts3D : os pour la similitude globale, repères, porteurs, organes voisins pour les doublons
     autres = [l for l in index if l["systeme"] == "autres"]
+    # Doublons cherchés parmi les organes et les muscles de BodyParts3D
+    voisins = [l for l in index if l["systeme"] in ("autres", "muscles")]
     fjs = {fj for p in [*reperes.values(), tous_os] for _, n in p for fj in fj_par_nom[n]}
-    fjs |= {l["fj"] for l in autres} | {l["fj"] for l in index if l["systeme"] == "os"}
+    fjs |= {l["fj"] for l in voisins} | {l["fj"] for l in index if l["systeme"] == "os"}
     vaisseaux_reperes = [re.compile(v) for _, _, methode, v in REPERES_CALCULES if methode == "proche"]
     fjs |= {l["fj"] for l in index if any(v.search(l["nom_en"]) for v in vaisseaux_reperes)}
     geo_bp3d = charger_bp3d(fjs)
@@ -317,7 +353,7 @@ def main():
         return globale(p * 1000) @ r.T + t  # mm, repère BodyParts3D
 
     # Doublons : recouvrement des objets candidats avec les organes de BodyParts3D
-    autres_fj = [l["fj"] for l in autres if l["fj"] in geo_bp3d]
+    autres_fj = [l["fj"] for l in voisins if l["fj"] in geo_bp3d]
     pts_bp3d = np.concatenate([geo_bp3d[fj] for fj in autres_fj])
     etiq_bp3d = np.concatenate([np.full(len(geo_bp3d[fj]), i) for i, fj in enumerate(autres_fj)])
     arbre_bp3d = cKDTree(pts_bp3d)
@@ -367,7 +403,8 @@ def main():
         journal("OK", f"Remplacé : {nom_fj[fj]} ({fj}) par {len(candidats_par_fj[fj])} parties de Z-Anatomy.")
 
     # Écriture des GLB : organes (calque « autres ») et os absents de BodyParts3D (calque des os)
-    ecrivains = {"autres": EcrivainGLB("autres"), "os": EcrivainGLB("os")}
+    ecrivains = {"autres": EcrivainGLB("autres"), "os": EcrivainGLB("os"), "muscles": EcrivainGLB("muscles")}
+    fichiers_glb = {"autres": "zanatomy_organes.glb", "os": "zanatomy_os.glb", "muscles": "zanatomy_muscles.glb"}
     lignes, retournes = [], 0
     groupe_de = {g["id"]: g for g in GROUPES}
     for o in retenus:
@@ -393,7 +430,7 @@ def main():
                        "centre_x": f"{c[0]:.4f}", "centre_y": f"{c[1]:.4f}", "centre_z": f"{c[2]:.4f}"})
     for systeme, ecrivain in ecrivains.items():
         ecrivain.gltf["asset"]["copyright"] = "Z-Anatomy, CC BY-SA 4.0 ; d'après BodyParts3D, DBCLS, CC BY 4.0"
-        chemin = MODELES / ("zanatomy_os.glb" if systeme == "os" else "zanatomy_organes.glb")
+        chemin = MODELES / fichiers_glb[systeme]
         ecrivain.ecrire(chemin)
         if "--compresser" in sys.argv:
             compresser(chemin)

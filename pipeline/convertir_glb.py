@@ -37,7 +37,8 @@ REGLES = [
     ("arteres", {"segment of arterial tree organ", "artery", "arterial tree organ", "arterial anastomosis"}),
     ("veines", {"segment of venous tree organ", "vein", "venous tree organ", "venous anastomosis"}),
     ("os", {"bone organ"}),
-    ("muscles", {"muscle organ"}),
+    # Deltoïde, biceps, triceps... n'existent que par chefs ou parties : ancêtres « head » ou « zone »
+    ("muscles", {"muscle organ", "head of muscle organ", "zone of muscle organ"}),
 ]
 # Repli sur le nom quand les ancêtres ne disent rien ("set of dorsal digital arteries",
 # "insular part of right middle cerebral artery") ; \b évite "hepatovenous segment" (segment du foie)
@@ -255,6 +256,11 @@ def main():
             compresser(chemin)
         journal("OK", f"{chemin.name} : {len(ecrivain.gltf['nodes'])} maillages, "
                 f"{chemin.stat().st_size / 1e6:.1f} Mo.")
+    if voulus:
+        # Un index partiel ferait disparaître les autres systèmes de tout le pipeline
+        journal("WARN", "--systemes : index_maillages.csv laissé tel quel. Action : relancer sans --systemes si les "
+                "maillages ont changé de système.")
+        return
     with open(SORTIE / "index_maillages.csv", "w", encoding="utf-8-sig", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(index[0]), delimiter=";")
         w.writeheader()
