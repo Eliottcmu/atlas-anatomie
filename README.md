@@ -31,6 +31,8 @@ Le plus simple est souvent l'**installation en une commande** décrite plus bas 
 
 Il faut un ordinateur avec souris ou pavé tactile et un clavier : l'atlas n'est pas prévu pour tablette ni téléphone. Aucun droit administrateur n'est nécessaire.
 
+**Rien d'autre à installer.** Pas de Python, de Blender, de Node.js, de Go ni de logiciel de développement : la version téléchargée contient déjà tout (modèle 3D, fiches, programme). Ces outils, listés tout en bas de la page, servent seulement à fabriquer l'atlas ; on ne s'en sert jamais pour l'utiliser.
+
 ## Installer et ouvrir sur Windows
 
 ### Méthode simple : une commande (recommandée)
@@ -113,6 +115,8 @@ Au premier lancement, une courte visite guidée présente l'essentiel.
 ---
 
 ## Pour les développeurs
+
+> **Cette partie ne concerne pas les utilisateurs.** Elle sert à fabriquer l'atlas à partir de ses sources. Pour s'en servir, il suffit de le télécharger (en haut de la page) : aucun des outils ci-dessous n'est nécessaire.
 
 Application locale, sans connexion : lanceur Go (SQLite intégré, API des fiches et des révisions FSRS) qui sert une interface Vite, TypeScript et three.js. Plan complet : [docs/plan.md](docs/plan.md). Conventions : [CLAUDE.md](CLAUDE.md).
 
