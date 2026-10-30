@@ -366,7 +366,7 @@ export class Seance {
       return true;
     }
     // Les autres touches (vues, cadrage) restent à l'atlas, sauf les calques qui trahiraient la réponse
-    return /^[avomrnAVOMRN]$/.test(e.key);
+    return /^[avomrnjyxAVOMRNJYX]$/.test(e.key);
   }
 
   private ajouterEtape(id: string): void {

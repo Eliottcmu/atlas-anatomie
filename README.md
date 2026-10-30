@@ -107,7 +107,8 @@ Au premier lancement, une courte visite guidée présente l'essentiel.
 
 ## Ce que contient l'atlas
 
-- Un corps entier en 3D : artères, veines, os, muscles et organes, chaque morceau cliquable et nommé en français.
+- Un corps entier en 3D : artères, veines, os, muscles, nerfs, nœuds lymphatiques et organes, chaque morceau cliquable et nommé en français.
+- Un affichage à la carte : on choisit les familles d'organes ou les organes à montrer (la peau est à part), on masque ce qui gêne et on le remet d'un clic.
 - 91 vaisseaux et 118 muscles au programme, chacun avec sa fiche (brouillon à vérifier).
 - 29 régions et 48 organes en vue de planche d'atlas, avec plus de 1 600 repères légendés sur les os et les organes.
 - Des révisions espacées (méthode FSRS) : nommer une structure, la retrouver sur le modèle.
@@ -174,7 +175,7 @@ python -I pipeline/libelles_wikidata.py        # identifiants FMA et libellés f
 python -I pipeline/inventaire_couverture.py    # inventaire CSV et rapport Markdown
 python -I pipeline/convertir_glb.py --compresser  # un GLB par système dans modeles/ (environ 1 min 30)
 python -I pipeline/zanatomy.py --compresser       # vaisseaux de Z-Anatomy recalés (environ 5 min, Blender requis)
-python -I pipeline/organes_zanatomy.py --compresser  # organes, os et muscles de Z-Anatomy recalés (environ 15 min, Blender requis)
+python -I pipeline/organes_zanatomy.py --compresser  # organes, os, muscles, nerfs et nœuds lymphatiques de Z-Anatomy recalés (environ 20 min, Blender requis)
 python -I pipeline/legendes_squelette.py        # légendes osseuses de Z-Anatomy posées sur les os (environ 8 min)
 python -I pipeline/construire_atlas.py          # app/public/donnees/atlas.json : nom, côté et structure de chaque maillage
 cd app && npm ci && npm run test:clic            # test du clic sur chaque structure noyau (Edge requis)
@@ -188,6 +189,7 @@ npm run test:toutes-fiches                       # toutes les fiches s'ouvrent e
 npm run test:navigation                          # fil d'Ariane, historique, légendes, raccourcis, pavé tactile
 npm run test:apprentissage                       # cartes, révision FSRS, parcours et mini-quiz, tableau de bord
 npm run test:os                                  # focus des os, légendes, interrogation, masquage annulable
+npm run test:affichage                           # nerfs, lymphatique, choix des organes, boutons du masquage, dégagement
 cd lanceur && go test ./...                      # FSRS et API des révisions (Go portable, voir CLAUDE.md)
 ```
 

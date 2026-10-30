@@ -9,7 +9,7 @@ Appli locale d'apprentissage de l'anatomie sur modèle 3D, avec révisions espac
 - Journaux balisés `[OK]`, `[WARN]`, `[FAIL]`, construits en cause, conséquence, action.
 - Python lancé avec `python -I` (les données téléchargées ne doivent jamais être importables).
 - CSV : séparateur `;`, encodage UTF-8 avec BOM (ouverture directe dans Excel).
-- Dépôt GitHub privé : https://github.com/Eliottcmu/atlas-anatomie (branche `main`). Les ronéos (PDF et extraits texte), les bases SQLite et les fichiers régénérables ne sont jamais versionnés (voir `.gitignore`). `gh` est dans `%LOCALAPPDATA%\Microsoft\WinGet\Packages\GitHub.cli_Microsoft.Winget.Source_8wekyb3d8bbwe\bin\`.
+- Dépôt GitHub public : https://github.com/Eliottcmu/atlas-anatomie (branche `main`). Les ronéos (PDF et extraits texte), les bases SQLite et les fichiers régénérables ne sont jamais versionnés (voir `.gitignore`). `gh` est dans `%LOCALAPPDATA%\Microsoft\WinGet\Packages\GitHub.cli_Microsoft.Winget.Source_8wekyb3d8bbwe\bin\`.
 
 ## Arborescence
 
@@ -25,7 +25,7 @@ Appli locale d'apprentissage de l'anatomie sur modèle 3D, avec révisions espac
 
 - Vite 6.4.4 (Vite 8 exige Node 22.12, le poste a 22.11), TypeScript 6, three.js 0.186.1, three-mesh-bvh pour les clics. Versions épinglées exactes.
 - Les GLB restent dans `modeles/` : `vite.config.ts` les sert sous `/modeles/`.
-- Après une modification de l'interface : `npx tsc --noEmit`, puis `npm run test:clic`, `test:focus`, `test:fiches`, `test:toutes-fiches`, `test:navigation`, `test:apprentissage`, `test:os` (pilotent Edge par Playwright ; ils démarrent `construction/lanceur-dev.exe` sur un dossier de données jetable).
+- Après une modification de l'interface : `npx tsc --noEmit`, puis `npm run test:clic`, `test:focus`, `test:fiches`, `test:toutes-fiches`, `test:navigation`, `test:apprentissage`, `test:os`, `test:affichage` (pilotent Edge par Playwright ; ils démarrent `construction/lanceur-dev.exe` sur un dossier de données jetable).
 - Dans les tests, ne jamais envoyer Échap pour fermer une sélection : sans sélection, Échap quitte le focus. Utiliser `window.__atlas.deselectionner()`.
 - Le CSS force `[hidden] { display: none !important; }` : sans cette règle, un composant en `display: grid` reste affiché malgré `hidden`.
 - Polices embarquées (@fontsource), aucune ressource en ligne : l'atlas doit marcher hors connexion.
@@ -34,6 +34,10 @@ Appli locale d'apprentissage de l'anatomie sur modèle 3D, avec révisions espac
 - Le calque Muscles est masqué et non chargé au départ : sélectionner, surligner ou localiser une structure charge et affiche son calque (`montrerCalques`). Le premier muscle demande quelques secondes (13 Mo).
 - La caméra cadre dans la zone libre entre les panneaux (`Scene3D.definirZoneUtile`, décalage de projection) : rien ne doit être cadré sous le dock ou la fiche.
 - Masquage (H) annulable : Ctrl Z remet la dernière structure masquée (sélectionnée), Ctrl Y ou Ctrl Maj Z refait ; Échap « tout réafficher » s'annule aussi. Dans un champ de saisie, Ctrl Z reste au navigateur.
+- Calques Nerfs (J) et Lymphatique (Y) : objets de Z-Anatomy (`zanatomy_nerfs.glb`, `zanatomy_lymphatique.glb`). Aucune source n'a de vaisseaux lymphatiques (conduit thoracique, troncs) : seulement les nœuds ; rate, thymus et tonsilles restent dans Organes.
+- Panneau « Choisir » d'un calque (organes, nerfs, lymphatique) : familles et éléments de `atlas.familles` (pipeline/familles.py), un maillage dans un seul élément. Choix gardé dans `localStorage["atlas.familles-cachees"]` ; sans choix enregistré, les familles `masquee` (peau) sont décochées. Une recherche ou une carte recoche l'élément ; le focus d'un organe le montre seulement le temps du focus (`definirFiltre(filtre, prioritaires)`).
+- Dégagement (X, et automatiquement après une recherche) : `degagement.ts` lance des rayons depuis 27 directions vers la face visible de la cible, tourne la vue vers la moins cachée et estompe ce qui gêne encore (état `attenue`, non cliquable). Estomper passe par la même pile d'annulation que H ; « Couper plutôt » pose une coupe juste devant (`Focus.couperDevant`).
+- Groupe « Masqué » du dock (Annuler, Rétablir, Liste, Tout remettre) : caché tant que rien n'est masqué ni annulable.
 - Interrogation (T) sur la planche muette du focus : exercice libre, hors FSRS (noms des repères pas encore calés sur les ronéos). Pendant l'interrogation, ni fiche, ni liste de zone, ni infobulle, ni clic sur le modèle.
 
 ## Apprentissage (phase 3)
@@ -53,7 +57,7 @@ Appli locale d'apprentissage de l'anatomie sur modèle 3D, avec révisions espac
 - Le schéma SQL est unique : `lanceur/schema.sql`, lu par pipeline/base.py et intégré au lanceur.
 - Construire : `python -I pipeline/construire_appli.py` (paquets) ou `--dev` (graine et lanceur de développement pour les tests). Vérifier : `pipeline/verifier_appli.py`, `npm run test:appli`.
 - Le paquet macOS n'a jamais tourné sur un vrai Mac depuis ce poste : seules ses propriétés sont vérifiées.
-- Diffusion : `construire_appli.py --partage` (paquets SANS ronéos, `distribution/partage/`), vérifiés par `verifier_appli.py --partage` et `node tests/appli.mjs --partage`, puis publiés en version GitHub (`gh release create`). Ne jamais publier `distribution/` (ronéos comprises). Les liens du README et les scripts `installation/` visent `releases/latest/download/` : ils ne marchent pour autrui que si le dépôt est public.
+- Diffusion : `construire_appli.py --partage` (paquets SANS ronéos, `distribution/partage/`), vérifiés par `verifier_appli.py --partage` et `node tests/appli.mjs --partage`, puis publiés en version GitHub (`gh release create`). Ne jamais publier `distribution/` (ronéos comprises). Les liens du README et les scripts `installation/` visent `releases/latest/download/` (le dépôt est public : ils marchent pour tous).
 - `installation/installer-windows.ps1` (lancé par `irm | iex` : UTF-8 sans BOM, pas de bloc param) et `installation/installer-mac.sh` (fins de ligne LF, `.gitattributes`) : installent ou mettent à jour, ferment l'atlas ouvert par `POST /api/quitter`. Téléchargés par PowerShell ou curl, les paquets échappent à SmartScreen et Gatekeeper. Tests locaux : variables `ATLAS_ZIP`, `ATLAS_DOSSIER`, `ATLAS_DONNEES`, `ATLAS_SANS_LANCER`, `ATLAS_SANS_RACCOURCIS`.
 - Outils de développement : `python -I pipeline/verifier_outils.py [--installer]` (paquets Python de `requirements.txt`, `npm ci`, Go portable vérifié par SHA-256).
 - Les fichiers des zip ont tous la même date : le lanceur ne doit jamais répondre « non modifié » (sinon la fenêtre garde la page de la version précédente). Seul `/assets/` (noms à empreinte) est mis en cache.
@@ -65,6 +69,7 @@ Appli locale d'apprentissage de l'anatomie sur modèle 3D, avec révisions espac
 - Les légendes de Z-Anatomy (texte « .t », trait « .j ») pointent l'organe par un modificateur HOOK : lire la géométrie évaluée du trait, jamais ses sommets bruts.
 - `pipeline/legendes_squelette.py` pose les légendes osseuses de Z-Anatomy sur les os de BodyParts3D : recalage de chaque os (similitude globale, ICP rigide puis affine, déformation bornée à 25 %), pointe posée sur le sommet le plus proche (10 mm, jusqu'à 18 mm marquée « approchée » : centre d'un trou, axe d'un os long). Lent (8 min, ICP par force brute).
 - `pipeline/organes_zanatomy.py` importe aussi les muscles absents de BodyParts3D (masséter, temporal, ptérygoïdiens, droit, oblique interne et transverse de l'abdomen, carré des lombes, grand dorsal, parties descendante et ascendante du trapèze, long du cou droit) dans `zanatomy_muscles.glb` ; seuls les objets `.l`/`.r` sont des corps musculaires (`.ol`, `.el`, `.o1l` : zones d'insertion). Muscles présents dans les deux modèles sous deux noms : `ALIAS_REPERES`.
+- `pipeline/organes_zanatomy.py` importe aussi les nerfs (courbes de la collection « 7: Nervous system », choisies par `inventaire.json`, mode `inventaire` de blender_zanatomy.py) : recalage lissé, chaque sommet mélange les recalages des régions osseuses selon sa distance à leurs os (un nerf long ne se casse pas entre deux régions) ; doublons cherchés parmi les seuls nerfs de BodyParts3D.
 - `pipeline/organes_zanatomy.py` importe les organes absents de BodyParts3D ; un objet recouvrant à 60 % un maillage BodyParts3D est un doublon, écarté. Remplacement explicite (`remplace`) quand Z-Anatomy découpe plus finement (cervelet).
 
 ## Règles de contenu

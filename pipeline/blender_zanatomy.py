@@ -155,9 +155,31 @@ def legendes(sortie, sommets_npz, collections=COLLECTIONS_LEGENDES):
     print(f"[OK] {len(res)} légendes sur {len(porteurs)} objets porteurs.")
 
 
+def inventaire(sortie):
+    """Objets géométriques par système (collection de tête « 7: Nervous system... ») et sous-collection."""
+    res = {}
+    for tete in bpy.data.collections:
+        if not tete.name[:1].isdigit() or ":" not in tete.name:
+            continue
+
+        def parcourir(c, chemin):
+            for o in c.objects:
+                if o.type in ("MESH", "CURVE") and o.name not in res:
+                    res[o.name] = {"systeme": tete.name, "chemin": chemin, "type": o.type,
+                                   "parent": o.parent.name if o.parent else None}
+            for e in c.children:
+                parcourir(e, chemin + [e.name])
+        parcourir(tete, [])
+    with open(sortie, "w", encoding="utf-8") as f:
+        json.dump(res, f, ensure_ascii=False)
+    print(f"[OK] {len(res)} objets inventoriés.")
+
+
 def main():
     args = sys.argv[sys.argv.index("--") + 1:]
-    if args[0] == "bornes":
+    if args[0] == "inventaire":
+        inventaire(args[1])
+    elif args[0] == "bornes":
         bornes(args[1])
     elif args[0] == "export":
         exporter(args[1], args[2])

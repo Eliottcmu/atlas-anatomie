@@ -9,6 +9,8 @@ import { construireParcours, Lecteur, type Etape } from "./apprentissage/parcour
 import { FabriqueQuestions } from "./apprentissage/questions";
 import { Seance, type Plateau } from "./apprentissage/seance";
 import { COULEURS_NIVEAU, Tableau } from "./apprentissage/tableau";
+import { chercherCoupe, chercherVue, PART_ACCEPTABLE } from "./degagement";
+import { ChoixFamilles } from "./familles";
 import { Fiches } from "./fiches";
 import { Focus } from "./focus";
 import { Interrogation } from "./interrogation";
@@ -21,9 +23,10 @@ import { Selecteur } from "./selection";
 
 const $ = <T extends HTMLElement = HTMLElement>(id: string) => document.getElementById(id) as T;
 const CALQUES_INITIAUX = ["arteres", "veines", "os"];
-const CALQUES_ATTENUABLES = new Set(["arteres", "veines", "muscles", "autres"]);
+const CALQUES_ATTENUABLES = new Set(["arteres", "veines", "muscles", "nerfs", "lymphatique", "autres"]);
 const NOMS_CALQUES: Record<string, string> = {
-  arteres: "Artère", veines: "Veine", os: "Os", muscles: "Muscle", autres: "Organe ou autre structure",
+  arteres: "Artère", veines: "Veine", os: "Os", muscles: "Muscle", nerfs: "Nerf", lymphatique: "Nœud lymphatique",
+  autres: "Organe ou autre structure",
 };
 /** Lien d'un vaisseau avec son vaisseau d'origine, tel que la fiche l'énonce. */
 const LIENS: Record<string, string> = {
@@ -46,10 +49,15 @@ interface Selection {
   repereNote?: string;
 }
 
-/** Un masquage (H) ou un réaffichage de tout (Échap) : ce qu'il faut pour le défaire. */
+/**
+ * Un masquage (H), un dégagement de la vue (structures estompées) ou un réaffichage de tout (Échap) :
+ * ce qu'il faut pour le défaire.
+ */
 interface ActionMasquage {
   masque: boolean;
   cles: string[];
+  /** Structures estompées (translucides, non cliquables) par le dégagement de la vue. */
+  estompes?: string[];
   libelle: string;
   /** Sélection en cours au moment de masquer : elle revient avec la structure. */
   selection: { noeud: string | null; structure: string | null; cote: Cote } | null;
@@ -92,6 +100,10 @@ export class Application {
   private survolLegende: Set<string> | null = null;
   private isole = false;
   private masques = new Set<string>();
+  private estompes = new Set<string>();
+  private choix!: ChoixFamilles;
+  // Dernier dégagement de la vue : son message reste affiché tant que la sélection ne change pas
+  private degagement: { action: ActionMasquage; boite: THREE.Box3; direction: THREE.Vector3; nom: string } | null = null;
   // Masquages annulables (Ctrl Z) et rétablissables (Ctrl Y ou Ctrl Maj Z), du plus ancien au plus récent
   private aAnnuler: ActionMasquage[] = [];
   private aRetablir: ActionMasquage[] = [];
@@ -177,6 +189,19 @@ export class Application {
     new Orientation(document.getElementById("orientation-svg") as unknown as SVGSVGElement, this.scene,
       (v) => this.vue(v));
 
+    this.choix = new ChoixFamilles(this.atlas, {
+      etat: (a, e, err) => this.etat(a, e, err),
+      afficherCalque: (id) => this.afficherCalque(id),
+      appliquer: (caches) => {
+        this.modeles.definirHorsFamilles(caches);
+        this.appliquerEtats();
+        this.focus.majZone();
+      },
+      lire: (cle) => reglages.lire(cle),
+      ecrire: (cle, v) => reglages.ecrire(cle, v),
+    });
+    this.choix.demarrer();
+    document.addEventListener("atlas:familles", () => this.majCalques());
     this.construireCalques();
     this.brancherEvenements();
     this.majModeOs();
@@ -251,8 +276,11 @@ export class Application {
       const li = document.createElement("li");
       li.innerHTML = `<button class="calque" data-calque="${c.id}" aria-pressed="${c.visible}">
           <span class="pastille" style="background:${c.couleur}"></span>
-          <span class="nom">${c.nom}</span><span class="compte"></span><kbd>${c.touche}</kbd></button>`;
-      li.querySelector("button")!.addEventListener("click", () => this.basculerCalque(c.id));
+          <span class="nom">${c.nom}</span><span class="compte"></span><kbd>${c.touche}</kbd></button>`
+        + (this.choix.aDesFamilles(c.id) ? `<button class="choisir" data-choisir="${c.id}"
+          title="Choisir les familles et les éléments affichés">Choisir <span class="choisir-bilan"></span></button>` : "");
+      li.querySelector(".calque")!.addEventListener("click", () => this.basculerCalque(c.id));
+      li.querySelector(".choisir")?.addEventListener("click", () => this.choix.basculer(c.id, c.nom));
       ul.appendChild(li);
     }
     this.majCalques();
@@ -265,6 +293,26 @@ export class Application {
       b.setAttribute("aria-pressed", String(this.modeles ? this.modeles.estVisible(id) : false));
       b.querySelector(".compte")!.textContent = charge ? String(this.modeles.compter(id)) : "";
     }
+    for (const b of document.querySelectorAll<HTMLButtonElement>(".choisir")) {
+      const { affiches, total } = this.choix.bilan(b.dataset.choisir!);
+      b.querySelector(".choisir-bilan")!.textContent = affiches === total ? "tout" : `${affiches} sur ${total}`;
+      b.classList.toggle("partiel", affiches !== total);
+    }
+  }
+
+  /** Affiche un calque (chargé au besoin), sans message : une case cochée dans « Choisir ». */
+  private async afficherCalque(id: string): Promise<void> {
+    if (id === "os") return;
+    this.modeles.afficherCalque(id, true);
+    if (!this.modeles.calquesCharges.has(id)) {
+      try {
+        await this.modeles.charger(id, (p) => this.suivre(p));
+      } catch {
+        this.etat(`Le calque ${id} n'a pas pu être chargé.`, "Lancer python -I pipeline/organes_zanatomy.py --compresser puis réessayer.", true);
+      }
+    }
+    this.majCalques();
+    this.appliquerEtats();
   }
 
   private async basculerCalque(id: string): Promise<void> {
@@ -286,7 +334,9 @@ export class Application {
       }
       this.appliquerEtats();
     }
-    const masque = id === "muscles" && visible ? " Les muscles cachent la plupart des vaisseaux." : "";
+    const masque = id === "muscles" && visible ? " Les muscles cachent la plupart des vaisseaux."
+      : visible && this.choix.aDesFamilles(id) && this.choix.bilan(id).affiches < this.choix.bilan(id).total
+        ? ` Une partie est décochée dans « Choisir » (${this.choix.bilan(id).affiches} éléments sur ${this.choix.bilan(id).total}).` : "";
     this.etat(`Calque ${calque.nom.toLowerCase()} ${visible ? "affiché" : "masqué"}.${masque}`,
       `Touche ${calque.touche} pour ${visible ? "le masquer" : "l'afficher"} à nouveau.`);
   }
@@ -299,6 +349,15 @@ export class Application {
       if (k && k !== "os" && !this.modeles.estVisible(k)) ids.add(k);
     }
     return [...ids];
+  }
+
+  /**
+   * Recoche dans « Choisir » les éléments qui portent ces maillages (organe d'une famille décochée) ;
+   * renvoie la phrase qui le dit, vide si rien n'était caché.
+   */
+  private recocher(cles: Iterable<string>): string {
+    const noms = this.choix.montrer(cles);
+    return noms.length ? ` ${noms.join(", ")} recoché${noms.length > 1 ? "s" : ""} dans « Choisir ».` : "";
   }
 
   /** Charge et affiche, sans message, les calques masqués qui portent ces maillages. */
@@ -477,12 +536,14 @@ export class Application {
     const cote = s && s.cote === "bilatéral" ? n.cote : null;
     const cles = n.structure ? this.clesStructure(n.structure, cote) : new Set([cle]);
     cles.add(cle);
+    this.masquerDegagement();
+    const recoches = this.recocher(cles);
     this.selection = { noeud: cle, structure: n.structure, cote: n.cote, cles };
     this.appliquerEtats();
     this.afficherFiche();
     if (cadrer) this.scene.cadrer(this.modeles.boite([cle]));
     const nom = this.nomAffiche();
-    this.etat(`Sélection : ${nom}${n.cote ? `, ${libelleCote(n.cote)}` : ""}. ${cles.size > 1 ? `${cles.size} segments surlignés.` : ""}`,
+    this.etat(`Sélection : ${nom}${n.cote ? `, ${libelleCote(n.cote)}` : ""}. ${cles.size > 1 ? `${cles.size} segments surlignés.` : ""}${recoches}`,
       "I pour isoler, Z pour cadrer, Échap pour fermer.");
     this.apresNavigation();
   }
@@ -494,6 +555,8 @@ export class Application {
     // Un côté n'a de sens que pour une structure bilatérale (un lien de relation peut en porter un)
     if (s.cote !== "bilatéral") cote = null;
     const cles = this.clesStructure(id, cote);
+    this.masquerDegagement();
+    const recoches = this.recocher(cles);
     this.selection = { noeud: null, structure: id, cote, cles };
     this.appliquerEtats();
     this.afficherFiche();
@@ -510,12 +573,13 @@ export class Application {
       });
     } else if (cadrer) this.scene.cadrer(this.modeles.boite(cles));
     const affiches = masques.length ? ` Calque ${masques.map((k) => this.atlas.calques.find((c) => c.id === k)?.nom.toLowerCase() ?? k).join(", ")} affiché.` : "";
-    this.etat(`Sélection : ${s.nom}${cote ? `, ${libelleCote(cote)}` : ""}.${cadrer ? " Vue cadrée sur la structure." : ""}${affiches}`,
+    this.etat(`Sélection : ${s.nom}${cote ? `, ${libelleCote(cote)}` : ""}.${cadrer ? " Vue cadrée sur la structure." : ""}${affiches}${recoches}`,
       "I pour isoler, Échap pour fermer, Alt flèche gauche pour revenir.");
   }
 
   /** Ferme la sélection sans toucher aux masquages (retour dans l'historique). */
   private fermerSelection(): void {
+    this.masquerDegagement();
     if (!this.selection) return;
     this.selection = null;
     this.isole = false;
@@ -527,13 +591,18 @@ export class Application {
 
   deselectionner(): void {
     if (!this.selection) {
-      if (this.isole || this.masques.size) {
-        const n = this.masques.size;
-        if (n) this.noterMasquage({ masque: false, cles: [...this.masques], libelle: `${n} structure${n > 1 ? "s" : ""} masquée${n > 1 ? "s" : ""}`, selection: null });
+      if (this.isole || this.masques.size || this.estompes.size) {
+        const n = this.masques.size + this.estompes.size;
+        if (n) {
+          this.noterMasquage({ masque: false, cles: [...this.masques], estompes: [...this.estompes],
+            libelle: `${n} structure${n > 1 ? "s" : ""} masquée${n > 1 ? "s" : ""} ou estompée${n > 1 ? "s" : ""}`, selection: null });
+        }
         this.isole = false;
         this.masques.clear();
+        this.estompes.clear();
         this.modeles.toutReafficher();
         this.appliquerEtats();
+        this.majMasquage();
         this.etat("Toutes les structures sont réaffichées.",
           n ? `${touche("Ctrl")} Z pour les masquer de nouveau.` : "Clique sur une structure pour la sélectionner.");
       }
@@ -542,7 +611,7 @@ export class Application {
     this.avantNavigation();
     this.fermerSelection();
     this.apresNavigation();
-    const reste = this.masques.size ? ` Des structures restent masquées : ${touche("Ctrl")} Z pour remettre la dernière, Échap pour tout réafficher.` : "";
+    const reste = this.masques.size || this.estompes.size ? ` Des structures restent masquées ou estompées : ${touche("Ctrl")} Z pour remettre la dernière, Échap pour tout réafficher.` : "";
     this.etat(`Sélection fermée.${reste}`, `Clique sur une structure, ou cherche un nom (${touche("Ctrl")} K).`);
   }
 
@@ -583,13 +652,21 @@ export class Application {
     this.aAnnuler.push(action);
     if (this.aAnnuler.length > MAXI_ANNULATIONS) this.aAnnuler.shift();
     this.aRetablir = [];
+    this.majMasquage();
   }
 
-  /** Masque (vrai) ou réaffiche (faux) ces maillages, sans rien noter dans les annulations. */
-  private appliquerMasquage(cles: string[], masque: boolean): void {
+  /** Masque (vrai) ou réaffiche (faux) ces maillages, et estompe ou rend leur aspect à d'autres, sans rien noter. */
+  private appliquerMasquage(cles: string[], masque: boolean, estompes: string[] = []): void {
     for (const c of cles) {
       if (masque) this.masques.add(c);
       else this.masques.delete(c);
+    }
+    for (const c of estompes) {
+      if (masque) this.estompes.add(c);
+      else this.estompes.delete(c);
+    }
+    if (this.degagement && !masque && this.degagement.action.estompes?.some((c) => estompes.includes(c))) {
+      this.masquerDegagement();
     }
     this.modeles.masquer(cles, masque);
     if (masque && this.selection && cles.some((c) => this.selection!.cles.has(c))) {
@@ -601,6 +678,7 @@ export class Application {
     this.appliquerEtats();
     this.majFil();
     this.legendes.invalider();
+    this.majMasquage();
   }
 
   /** Ctrl Z : défait le dernier masquage (la structure revient, sélectionnée) ou le dernier « tout réafficher ». */
@@ -612,15 +690,20 @@ export class Application {
     }
     this.aRetablir.push(action);
     const encore = this.aAnnuler.length ? ` ${touche("Ctrl")} Z encore pour remonter plus loin.` : "";
-    if (action.masque) {
-      this.appliquerMasquage(action.cles, false);
+    if (action.masque && !action.cles.length) {
+      // Dégagement : les structures estompées reprennent leur aspect, la sélection reste
+      this.appliquerMasquage([], false, action.estompes);
+      this.etat(`Dégagement annulé : ${action.estompes?.length ?? 0} structures remises.${encore}`,
+        `${touche("Ctrl")} Y pour les estomper de nouveau.`);
+    } else if (action.masque) {
+      this.appliquerMasquage(action.cles, false, action.estompes);
       const s = action.selection;
       if (s?.noeud) this.selectionnerNoeud(s.noeud);
       else if (s?.structure) this.selectionnerStructure(s.structure, s.cote, false);
       this.etat(`Masquage annulé : ${action.libelle} de nouveau affiché.${encore}`,
         `${touche("Ctrl")} Y pour la masquer de nouveau.`);
     } else {
-      this.appliquerMasquage(action.cles, true);
+      this.appliquerMasquage(action.cles, true, action.estompes);
       this.etat(`Réaffichage annulé : ${action.libelle} de nouveau.${encore}`,
         `${touche("Ctrl")} Y pour tout réafficher.`);
     }
@@ -634,9 +717,156 @@ export class Application {
       return;
     }
     this.aAnnuler.push(action);
-    this.appliquerMasquage(action.cles, action.masque);
-    this.etat(action.masque ? `Masqué de nouveau : ${action.libelle}.` : "Toutes les structures sont de nouveau réaffichées.",
-      `${touche("Ctrl")} Z pour annuler.`);
+    this.appliquerMasquage(action.cles, action.masque, action.estompes);
+    this.etat(action.masque ? `${action.cles.length ? "Masqué" : "Estompé"} de nouveau : ${action.libelle}.`
+      : "Toutes les structures sont de nouveau réaffichées.", `${touche("Ctrl")} Z pour annuler.`);
+  }
+
+  /** Masquages encore en vigueur, du plus récent au plus ancien : ce que la liste du dock propose de remettre. */
+  private masquagesActifs(): { action: ActionMasquage; cles: string[]; estompes: string[] }[] {
+    const res: { action: ActionMasquage; cles: string[]; estompes: string[] }[] = [];
+    const vus = new Set<string>();
+    for (const a of [...this.aAnnuler].reverse()) {
+      if (!a.masque) continue;
+      const cles = a.cles.filter((c) => this.masques.has(c) && !vus.has(c));
+      const estompes = (a.estompes ?? []).filter((c) => this.estompes.has(c) && !vus.has(c));
+      for (const c of [...cles, ...estompes]) vus.add(c);
+      if (cles.length || estompes.length) res.push({ action: a, cles, estompes });
+    }
+    return res;
+  }
+
+  /** Dock : compte des masquages, boutons Annuler et Rétablir, liste des structures à remettre. */
+  private majMasquage(): void {
+    const actifs = this.masquagesActifs();
+    const groupe = $("dock-masquage");
+    const avant = groupe.hidden;
+    groupe.hidden = !actifs.length && !this.aAnnuler.length && !this.aRetablir.length;
+    if (groupe.hidden !== avant) requestAnimationFrame(() => this.majZoneUtile());
+    $("masquage-compte").textContent = actifs.length ? String(actifs.length) : "";
+    $<HTMLButtonElement>("masquage-annuler").disabled = !this.aAnnuler.length;
+    $<HTMLButtonElement>("masquage-retablir").disabled = !this.aRetablir.length;
+    $<HTMLButtonElement>("masquage-tout").disabled = !this.masques.size && !this.estompes.size;
+    $<HTMLButtonElement>("masquage-liste-bouton").disabled = !actifs.length;
+    if (!actifs.length) this.fermerListeMasquage();
+    else if (!$("masquage-liste").hidden) this.afficherListeMasquage();
+  }
+
+  private afficherListeMasquage(): void {
+    const actifs = this.masquagesActifs();
+    const liste = $("masquage-liste");
+    liste.innerHTML = `<span class="etiquette">Masqué ou estompé</span><ul>${actifs.map((x, i) => `<li>
+        <span class="nom">${echapper(x.action.libelle)}</span>
+        <span class="meta">${x.cles.length ? "masqué" : `${x.estompes.length} estompée${x.estompes.length > 1 ? "s" : ""}`}</span>
+        <button data-remettre="${i}">Remettre</button></li>`).join("")}</ul>`;
+    liste.hidden = false;
+    $("masquage-liste-bouton").setAttribute("aria-expanded", "true");
+    // Au-dessus du bouton qui l'ouvre, sans sortir de l'écran
+    const r = $("masquage-liste-bouton").getBoundingClientRect();
+    liste.style.left = `${Math.max(12, Math.min(r.left, window.innerWidth - liste.offsetWidth - 12))}px`;
+    liste.style.bottom = `${window.innerHeight - r.top + 8}px`;
+  }
+
+  private fermerListeMasquage(): void {
+    $("masquage-liste").hidden = true;
+    $("masquage-liste-bouton").setAttribute("aria-expanded", "false");
+  }
+
+  /** Remet une entrée de la liste (pas forcément la dernière) ; Ctrl Z la masque de nouveau. */
+  private remettre(i: number): void {
+    const x = this.masquagesActifs()[i];
+    if (!x) return;
+    this.noterMasquage({ masque: false, cles: x.cles, estompes: x.estompes, libelle: x.action.libelle, selection: null });
+    this.appliquerMasquage(x.cles, false, x.estompes);
+    this.etat(`Remis : ${x.action.libelle}.`, `${touche("Ctrl")} Z pour la masquer de nouveau.`);
+  }
+
+  // ------------------------------------------------------------ dégagement de la vue
+
+  /**
+   * Structure enfouie : tourne la vue vers le côté où elle est le moins cachée et, s'il reste des structures
+   * devant elle, les estompe (annulable par Ctrl Z, ou Couper plutôt, ou Masquer plutôt).
+   * auto : après une recherche, rien n'est dit si la vue est déjà dégagée.
+   */
+  async degager(auto: boolean): Promise<void> {
+    const sel = this.selection;
+    if (!sel?.cles.size || this.titreSeance || this.interrogation.active) {
+      if (!auto) this.etat("Rien à dégager : aucune structure sélectionnée.", "Clique d'abord sur une structure, ou cherche-la (Ctrl K).");
+      return;
+    }
+    const cibles = sel.structure && !sel.noeud ? this.clesPropres(sel.structure, sel.cote) : new Set([sel.noeud!]);
+    // Calques à charger d'abord (muscle cherché alors que le calque était masqué) ; une image de plus, pour
+    // passer après le cadrage de la sélection
+    const calques = new Set([...cibles].map((c) => this.atlas.noeuds[c]?.calque).filter((c): c is string => !!c && c !== "os"));
+    await Promise.all([...calques].map((c) => this.modeles.charger(c, (p) => this.suivre(p)).catch(() => undefined)));
+    await new Promise((r) => requestAnimationFrame(r));
+    if (this.selection !== sel) return;
+    const cam = this.scene.etatCamera();
+    const actuelle = new THREE.Vector3(...cam.position).sub(new THREE.Vector3(...cam.cible)).normalize();
+    const d = chercherVue(this.scene, this.modeles, cibles, sel.cles, actuelle);
+    const nom = this.nomAffiche();
+    const boite = this.modeles.boite(cibles);
+    if (!d) {
+      if (!auto) this.etat(`${nom} : pas de surface affichée à dégager.`, "Vérifie le calque et la coupe.");
+      return;
+    }
+    if (d.partActuelle <= PART_ACCEPTABLE) {
+      if (!auto) this.etat(`${nom} : rien ne la cache dans cette vue.`, "H masque la sélection, I l'isole.");
+      return;
+    }
+    // 3 cm de contexte autour de la cible : un tronc de 2 cm ne doit pas remplir l'écran
+    this.scene.cadrer(boite.clone().expandByScalar(0.03), d.direction);
+    const estompes = d.occultants.filter((c) => !this.estompes.has(c));
+    if (d.partCachee <= PART_ACCEPTABLE || !estompes.length) {
+      this.etat(`Vue tournée vers ${nom} : elle y est visible.`, "Alt flèche gauche pour revenir à la vue précédente.");
+      return;
+    }
+    const action: ActionMasquage = { masque: true, cles: [], estompes, libelle: `devant ${nom}`, selection: null };
+    this.noterMasquage(action);
+    this.appliquerMasquage([], true, estompes);
+    this.degagement = { action, boite, direction: d.direction, nom };
+    const noms = [...new Set(estompes.slice(0, 3).map((c) => this.nomNoeud(c)))];
+    $("degagement-texte").innerHTML = `<strong>Vue dégagée sur ${echapper(nom)}.</strong> ${estompes.length} structure${estompes.length > 1 ? "s" : ""}
+      estompée${estompes.length > 1 ? "s" : ""} devant elle : ${echapper(noms.join(", "))}${estompes.length > noms.length ? "..." : ""}`;
+    $("degagement").hidden = false;
+    this.etat(`Vue dégagée sur ${nom} : ${estompes.length} structures estompées devant elle.`,
+      `${touche("Ctrl")} Z ou Remettre pour les rendre, Couper plutôt pour une coupe juste devant.`);
+  }
+
+  private nomNoeud(cle: string): string {
+    const n = this.atlas.noeuds[cle];
+    return n ? (n.propre && n.structure ? this.atlas.structures[n.structure].nom : n.nom) : cle;
+  }
+
+  private masquerDegagement(): void {
+    this.degagement = null;
+    $("degagement").hidden = true;
+  }
+
+  /** Bouton du message de dégagement : remettre, couper juste devant ou masquer pour de bon. */
+  private suiteDegagement(choix: "remettre" | "couper" | "masquer"): void {
+    const d = this.degagement;
+    if (!d) return;
+    const estompes = (d.action.estompes ?? []).filter((c) => this.estompes.has(c));
+    this.masquerDegagement();
+    if (this.aAnnuler[this.aAnnuler.length - 1] === d.action) this.aAnnuler.pop();
+    else this.noterMasquage({ masque: false, cles: [], estompes, libelle: d.action.libelle, selection: null });
+    this.appliquerMasquage([], false, estompes);
+    if (choix === "remettre") {
+      this.etat(`Structures remises devant ${d.nom}.`, "X pour dégager de nouveau.");
+    } else if (choix === "couper") {
+      // La direction qui dégage le mieux en estompant n'est pas toujours celle qui dégage le mieux en coupant
+      const sel = this.selection;
+      const cibles = sel?.structure && !sel.noeud ? this.clesPropres(sel.structure, sel.cote) : new Set(sel?.noeud ? [sel.noeud] : []);
+      const dir = sel ? chercherCoupe(this.scene, this.modeles, cibles, sel.cles, d.boite) : null;
+      this.focus.couperDevant(d.boite, dir ?? d.direction);
+      this.etat(`Coupe juste devant ${d.nom} : on voit ce qui est derrière le plan.`,
+        "Curseur pour déplacer le plan, Inverser pour l'autre moitié, C pour une autre coupe, Échap pour la retirer.");
+    } else {
+      this.noterMasquage({ masque: true, cles: estompes, libelle: `structures devant ${d.nom}`, selection: null });
+      this.appliquerMasquage(estompes, true);
+      this.etat(`${estompes.length} structures masquées devant ${d.nom}.`, `${touche("Ctrl")} Z pour les remettre.`);
+    }
   }
 
   private appliquerEtats(): void {
@@ -649,6 +879,7 @@ export class Application {
       }
       let etat: "normal" | "survol" | "selection" | "attenue" = "normal";
       if (sel?.has(cle)) etat = "selection";
+      else if (this.estompes.has(cle)) etat = "attenue";
       else if (this.isole && sel && CALQUES_ATTENUABLES.has(m.userData.calque)) etat = "attenue";
       else if (this.survol === m || this.survolLegende?.has(cle)) etat = "survol";
       if (this.modeles.etat(m) !== etat) this.modeles.definirEtat(m, etat);
@@ -946,8 +1177,10 @@ export class Application {
       this.focus.entrerOrgane(r.id);
     } else if (r.type === "structure") {
       this.selectionnerStructure(r.id);
+      void this.degager(true);
     } else {
       this.selectionnerNoeud(r.id, true);
+      void this.degager(true);
     }
   }
 
@@ -961,6 +1194,8 @@ export class Application {
     this.scene.modeNavigation = nav === "souris" || nav === "pave" ? nav : SUR_MAC ? "pave" : "souris";
     $("raccourci-recherche").textContent = `${touche("Ctrl")} K`;
     for (const k of document.querySelectorAll<HTMLElement>(".touche-echap")) k.textContent = touche("Échap");
+    for (const k of document.querySelectorAll<HTMLElement>(".touche-annuler")) k.textContent = `${touche("Ctrl")} Z`;
+    for (const k of document.querySelectorAll<HTMLElement>(".touche-retablir")) k.textContent = `${touche("Ctrl")} Y`;
   }
 
   private construireAide(): void {
@@ -984,11 +1219,13 @@ export class Application {
       ]],
       ["Voir et sélectionner", [
         ["Clic", "sélectionner ; encore au même endroit : la structure de dessous"],
-        ["A, V, O, M, R", "calques artères, veines, os, muscles, organes"],
+        ["A, V, O, M, J, Y, R", "calques artères, veines, os, muscles, nerfs, lymphatique, organes"],
+        ["Choisir", "sous un calque : cocher les familles et les organes à afficher (la peau à part)"],
         ["N", "légendes : noms, numéros (planche muette), aucune"],
         ["T", "s'interroger sur les légendes visibles du focus : un nom, cliquer son numéro"],
         ["I, H", "isoler la sélection, la masquer"],
-        [`${t("Ctrl")} Z, ${t("Ctrl")} Y`, "annuler le dernier masquage (la structure revient), le refaire"],
+        ["X", "dégager la sélection : tourner la vue vers elle, estomper ce qui la cache"],
+        [`${t("Ctrl")} Z, ${t("Ctrl")} Y`, "annuler le dernier masquage ou dégagement, le refaire (aussi le dock : Annuler, Liste)"],
         ["C", "coupe frontale, sagittale, horizontale"],
       ]],
       ["Fiches", [
@@ -1091,7 +1328,7 @@ export class Application {
     }
     const actions: Record<string, () => void> = {
       cadrer: () => this.cadrer(), isoler: () => this.isoler(), masquer: () => this.masquer(),
-      deselectionner: () => this.deselectionner(),
+      deselectionner: () => this.deselectionner(), degager: () => void this.degager(false),
     };
     for (const b of document.querySelectorAll<HTMLButtonElement>("[data-action]")) {
       b.addEventListener("click", () => actions[b.dataset.action!]());
@@ -1100,6 +1337,24 @@ export class Application {
       const sel = this.selection;
       if (sel?.structure) this.selectionnerStructure(sel.structure, this.atlas.structures[sel.structure].cote === "bilatéral" ? sel.cote : null);
     });
+    $("masquage-annuler").addEventListener("click", () => this.annulerMasquage());
+    $("masquage-retablir").addEventListener("click", () => this.retablirMasquage());
+    $("masquage-tout").addEventListener("click", () => {
+      if (this.selection) this.fermerSelection();
+      this.deselectionner();
+    });
+    $("masquage-liste-bouton").addEventListener("click", () => {
+      if ($("masquage-liste").hidden) this.afficherListeMasquage();
+      else this.fermerListeMasquage();
+    });
+    $("masquage-liste").addEventListener("click", (e) => {
+      const b = (e.target as HTMLElement).closest<HTMLButtonElement>("button[data-remettre]");
+      if (b) this.remettre(Number(b.dataset.remettre));
+    });
+    $("degagement-remettre").addEventListener("click", () => this.suiteDegagement("remettre"));
+    $("degagement-couper").addEventListener("click", () => this.suiteDegagement("couper"));
+    $("degagement-masquer").addEventListener("click", () => this.suiteDegagement("masquer"));
+    $("degagement-fermer").addEventListener("click", () => this.masquerDegagement());
     $("nav-precedent").addEventListener("click", () => this.reculer());
     $("nav-suivant").addEventListener("click", () => this.avancer());
     $("ouvrir-aide").addEventListener("click", () => this.basculerAide());
@@ -1174,6 +1429,17 @@ export class Application {
       this.fermerAide();
       return;
     }
+    if (e.key === "Escape" && !$("masquage-liste").hidden) {
+      e.preventDefault();
+      this.fermerListeMasquage();
+      return;
+    }
+    if (e.key === "Escape" && this.choix.ouvert) {
+      e.preventDefault();
+      this.choix.fermer();
+      $<HTMLInputElement>("choix-filtre").blur();
+      return;
+    }
     // Apprentissage : premier lancement, séance, parcours et tableau de bord prennent les touches en premier
     if (this.accueil.touche(e) || this.seance.touche(e) || this.lecteur.touche(e)) return;
     if (this.tableau.ouvert) {
@@ -1222,7 +1488,7 @@ export class Application {
       F: () => this.vue("face"), D: () => this.vue("dos"),
       ArrowLeft: () => this.vue("droite"), ArrowRight: () => this.vue("gauche"),
       ArrowUp: () => this.vue("dessus"), ArrowDown: () => this.vue("dessous"),
-      Z: () => this.cadrer(), I: () => this.isoler(), H: () => this.masquer(),
+      Z: () => this.cadrer(), I: () => this.isoler(), H: () => this.masquer(), X: () => void this.degager(false),
       G: () => this.focus.basculerCatalogue(), C: () => this.focus.cyclerCoupe(),
       N: () => this.definirModeLegendes(MODES_LEGENDES[(MODES_LEGENDES.indexOf(this.legendes.mode) + 1) % MODES_LEGENDES.length]),
       P: () => this.changerMode("parcours"), Q: () => this.changerMode("reviser"), B: () => this.changerMode("progres"),
@@ -1240,7 +1506,7 @@ export class Application {
 
   /** Échap défait la dernière couche : sélection, puis masquages, puis focus, puis coupe. */
   private echap(): void {
-    if (this.selection || this.isole || this.masques.size) this.deselectionner();
+    if (this.selection || this.isole || this.masques.size || this.estompes.size) this.deselectionner();
     else if (this.focus.actif) this.focus.quitter();
     else if (this.focus.coupe !== "aucune") this.focus.definirCoupe("aucune");
   }
@@ -1356,6 +1622,7 @@ export class Application {
         this.surligner([], null, false);
         // Localiser un muscle : son calque doit être affiché pour qu'on puisse le cliquer
         const cles = structure ? this.atlas.structures[structure]?.noeuds ?? [] : [];
+        this.choix.montrer(cles);
         void this.montrerCalques(cles).then(() => this.scene.vue("face", this.modeles.boiteVisible()));
       },
       effacer: () => this.surligner([], null, false),
@@ -1429,6 +1696,7 @@ export class Application {
     const cles = new Set<string>();
     // La structure demandée seule, sans ses branches : l'artère axillaire, pas ses vingt rameaux
     for (const id of ids) for (const c of this.clesPropres(id, this.atlas.structures[id]?.cote === "bilatéral" ? cote : null)) cles.add(c);
+    this.choix.montrer(cles);
     if (this.focus.actif) this.focus.quitter(false);
     this.selection = cles.size ? { noeud: null, structure: ids[0] ?? null, cote, cles } : null;
     this.isole = cles.size > 0;
@@ -1554,8 +1822,14 @@ export class Application {
   }
 
   /** Maillages masqués à la main et piles d'annulation (test). */
-  masquesTest(): { masques: number; annulables: number; retablissables: number } {
-    return { masques: this.masques.size, annulables: this.aAnnuler.length, retablissables: this.aRetablir.length };
+  masquesTest(): { masques: number; estompes: number; annulables: number; retablissables: number } {
+    return { masques: this.masques.size, estompes: this.estompes.size, annulables: this.aAnnuler.length,
+      retablissables: this.aRetablir.length };
+  }
+
+  /** Accès du test automatique au panneau « Choisir ». */
+  get choixTest(): ChoixFamilles {
+    return this.choix;
   }
 
   /** Accès du test automatique à l'interrogation. */
@@ -1604,9 +1878,12 @@ export class Application {
     $("fiche").hidden = true;
     this.isole = false;
     this.masques.clear();
+    this.estompes.clear();
     this.aAnnuler = [];
     this.aRetablir = [];
+    this.masquerDegagement();
     this.modeles.toutReafficher();
+    this.majMasquage();
     // Calques par défaut, plus celui de la structure (un muscle ne doit pas cacher les vaisseaux du cas suivant)
     for (const c of this.atlas.calques) if (c.id !== "os") this.modeles.afficherCalque(c.id, c.visible);
     this.appliquerEtats();

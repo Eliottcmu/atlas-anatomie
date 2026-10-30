@@ -30,7 +30,7 @@ Similitude globale sur 69 os : écart médian 9.7 mm. Recalage local par groupe 
 | os : membre inférieur droit | 4 | 6.17 | 4.24 | ICP local |
 | os : membre inférieur gauche | 4 | 6.15 | 4.19 | ICP local |
 
-**298 objets importés** : abdomen 5, cervelet 31, coccyx 1, encephale 74, endocrines 3, lymphatiques 123, moelle 5, muscles-abdomen 10, muscles-cou 1, muscles-dos 6, muscles-tete 12, oreilles 8, osselets-droits 3, osselets-gauches 3, pharynx 7, poumons 6.
+**537 objets importés** : abdomen 5, cervelet 31, coccyx 1, encephale 74, endocrines 3, lymphatiques 123, moelle 5, muscles-abdomen 10, muscles-cou 1, muscles-dos 6, muscles-tete 12, nerfs 239, oreilles 8, osselets-droits 3, osselets-gauches 3, pharynx 7, poumons 6.
 
 **83 objets écartés**, déjà présents dans BodyParts3D (60 % de leur surface à moins de 2 mm) :
 

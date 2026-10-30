@@ -18,6 +18,7 @@ from datetime import date
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from familles import familles  # noqa: E402
 from focus import organes, os_, regions  # noqa: E402
 from arbre_vasculaire import COTE_EN, Arbre, sans_cote  # noqa: E402
 from inventaire_couverture import charger_ta2, variantes_en  # noqa: E402
@@ -43,6 +44,11 @@ CALQUES = [
      "fichiers": ["bp3d_os.glb", "zanatomy_os.glb"]},
     {"id": "muscles", "nom": "Muscles", "couleur": "#8c382e", "touche": "M", "visible": False,
      "fichiers": ["bp3d_muscles.glb", "zanatomy_muscles.glb"]},
+    # Jaune citron des atlas, distinct de l'ocre de la sélection
+    {"id": "nerfs", "nom": "Nerfs", "couleur": "#e3d464", "touche": "J", "visible": False,
+     "fichiers": ["zanatomy_nerfs.glb"]},
+    {"id": "lymphatique", "nom": "Lymphatique", "couleur": "#a9c46c", "touche": "Y", "visible": False,
+     "fichiers": ["zanatomy_lymphatique.glb"]},
     {"id": "autres", "nom": "Organes et autres", "couleur": "#d9b399", "touche": "R", "visible": False,
      "fichiers": ["bp3d_autres.glb", "zanatomy_organes.glb"]},
 ]
@@ -404,8 +410,15 @@ def main():
             o["reperes"].append(entree)
         reperes += bool(porteurs)
         sans_organe += not porteurs
-    atlas = {"genere_le": date.today().isoformat(), "calques": CALQUES, "structures": structures, "noeuds": noeuds,
-             "regions": les_regions, "organes": les_organes}
+    # Calques dont le fichier manque (pipeline pas encore relancé) : retirés plutôt qu'un chargement en échec
+    calques = [c for c in CALQUES if all((MODELES / f).exists() for f in c["fichiers"])]
+    for c in CALQUES:
+        if c not in calques:
+            journal("WARN", f"Calque {c['nom']} : fichier absent dans modeles/. Conséquence : calque retiré de l'atlas. "
+                    "Action : lancer python -I pipeline/organes_zanatomy.py --compresser.")
+    les_familles = familles(noeuds, les_organes)
+    atlas = {"genere_le": date.today().isoformat(), "calques": calques, "structures": structures, "noeuds": noeuds,
+             "regions": les_regions, "organes": les_organes, "familles": les_familles}
     SORTIE.parent.mkdir(parents=True, exist_ok=True)
     SORTIE.write_text(json.dumps(atlas, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
@@ -415,6 +428,9 @@ def main():
     journal("OK", f"{SORTIE.relative_to(RACINE)} : {len(noeuds)} nœuds, {len(structures)} structures, "
             f"{SORTIE.stat().st_size // 1024} Ko.")
     journal("OK", "Noms des nœuds : " + ", ".join(f"{k} {v}" for k, v in sorted(sources.items(), key=lambda kv: -kv[1])) + ".")
+    journal("OK", "Familles d'affichage : " + ", ".join(
+        f"{c} {sum(f['calque'] == c for f in les_familles)} ({sum(len(f['elements']) for f in les_familles if f['calque'] == c)} éléments)"
+        for c in dict.fromkeys(f["calque"] for f in les_familles)) + ".")
     journal("OK", f"Focus : {len(les_regions)} régions, {len(les_organes) - len(les_os)} organes, {len(les_os)} os "
             f"({sum(len(o['parties']) for o in les_organes)} maillages).")
     tous_noms = {r["nom"] for o in les_organes for r in o["reperes"]}

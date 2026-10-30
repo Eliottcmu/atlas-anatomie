@@ -15,7 +15,7 @@
       <div class="titre">
         <span class="surtitre">Atlas d'anatomie</span>
         <h1 id="titre-mode">Explorer</h1>
-        <span class="sous-titre">Vaisseaux et muscles</span>
+        <span class="sous-titre">Vaisseaux, muscles, nerfs et organes</span>
       </div>
       <div class="entete-centre">
         <div class="recherche" role="search">
@@ -96,6 +96,15 @@
           <button data-action="cadrer" class="cadrer" title="Cadrer la sélection ou le focus (Z)">Cadrer <kbd>Z</kbd></button>
         </div>
       </div>
+      <div class="dock-groupe" id="dock-masquage" hidden>
+        <span class="etiquette">Masqué <span id="masquage-compte" class="compte-masquage"></span></span>
+        <div class="dock-boutons">
+          <button id="masquage-annuler" title="Remettre la dernière structure masquée ou estompée">Annuler <kbd class="touche-annuler">Ctrl Z</kbd></button>
+          <button id="masquage-retablir" title="Refaire ce qui vient d'être annulé">Rétablir <kbd class="touche-retablir">Ctrl Y</kbd></button>
+          <button id="masquage-liste-bouton" aria-expanded="false" aria-controls="masquage-liste" title="Voir les structures masquées et en remettre une">Liste</button>
+          <button id="masquage-tout" title="Réafficher toutes les structures masquées ou estompées">Tout remettre</button>
+        </div>
+      </div>
       <div class="dock-groupe">
         <span class="etiquette">Coupe <kbd>C</kbd></span>
         <div class="segments coupe" role="radiogroup" aria-label="Plan de coupe">
@@ -111,6 +120,32 @@
       </div>
       </div>
     </nav>
+
+    <div id="masquage-liste" class="panneau masquage-liste" aria-label="Structures masquées" hidden></div>
+
+    <div id="degagement" class="degagement" role="status" aria-live="polite" hidden>
+      <p id="degagement-texte"></p>
+      <div class="degagement-boutons">
+        <button id="degagement-remettre" title="Remettre les structures estompées">Remettre <kbd class="touche-annuler">Ctrl Z</kbd></button>
+        <button id="degagement-couper" title="Couper juste devant la structure au lieu d'estomper">Couper plutôt</button>
+        <button id="degagement-masquer" title="Masquer complètement ce qui gêne au lieu de l'estomper">Masquer plutôt</button>
+        <button id="degagement-fermer" class="lien" title="Garder la vue et fermer ce message">Garder</button>
+      </div>
+    </div>
+
+    <aside id="choix-familles" class="panneau choix-familles" aria-label="Choisir les structures affichées" hidden>
+      <div class="choix-entete">
+        <div><span class="surtitre">Choisir</span><h2 id="choix-titre"></h2></div>
+        <button id="choix-fermer" class="fermer">Fermer <kbd class="touche-echap">Échap</kbd></button>
+      </div>
+      <div class="choix-outils">
+        <button data-choix="tout">Tout</button>
+        <button data-choix="rien">Rien</button>
+        <button data-choix="defaut">Par défaut</button>
+      </div>
+      <input id="choix-filtre" type="search" autocomplete="off" spellcheck="false" placeholder="Filtrer : foie, médian..." aria-label="Filtrer les éléments" />
+      <div id="choix-liste" class="choix-liste"></div>
+    </aside>
 
     <div id="orientation" class="orientation" aria-label="Orientation : clique un axe pour regarder de ce côté">
       <svg id="orientation-svg" viewBox="-50 -50 100 100"></svg>
@@ -206,6 +241,7 @@
       <div class="fiche-actions">
         <button data-action="isoler">Isoler <kbd>I</kbd></button>
         <button data-action="masquer">Masquer <kbd>H</kbd></button>
+        <button data-action="degager" title="Estomper ce qui cache la structure et tourner la vue vers elle">Dégager <kbd>X</kbd></button>
         <button data-action="deselectionner">Fermer <kbd class="touche-echap">Échap</kbd></button>
       </div>
     </aside>

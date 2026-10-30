@@ -453,12 +453,14 @@ export function ancresDe(points: THREE.Vector3[], n = 6): THREE.Vector3[] {
   return res;
 }
 
-/** Parties nommées d'un organe (calque organes) et ses repères légendés. */
+const CALQUES_PARTIES_ORGANE = new Set(["autres", "os", "lymphatique"]);
+
+/** Parties nommées d'un organe (calque organes, nœuds lymphatiques) et ses repères légendés. */
 export function itemsOrgane(atlas: Atlas, modeles: Modeles, organe: Organe): ItemLegende[] {
   const parNom = new Map<string, string[]>();
   for (const cle of organe.parties) {
     const n = atlas.noeuds[cle];
-    if (!n || (n.calque !== "autres" && n.calque !== "os") || n.doublon || !modeles.maillages.has(cle)) continue;
+    if (!n || !CALQUES_PARTIES_ORGANE.has(n.calque) || n.doublon || !modeles.maillages.has(cle)) continue;
     const nom = n.propre && n.structure ? atlas.structures[n.structure].nom : n.nom;
     const cleNom = `${nom}|${n.cote ?? ""}`;
     parNom.set(cleNom, [...(parNom.get(cleNom) ?? []), cle]);

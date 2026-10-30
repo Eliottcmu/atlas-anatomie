@@ -94,8 +94,19 @@ export interface Organe {
   cote?: Cote;
 }
 
+/** Famille d'affichage d'un calque (appareil digestif, nerfs crâniens) : éléments à cocher un par un. */
+export interface Famille {
+  calque: string;
+  id: string;
+  nom: string;
+  /** Cachée tant que l'utilisateur ne l'a pas cochée (la peau recouvre tout). */
+  masquee: boolean;
+  elements: { id: string; nom: string; cles: string[] }[];
+}
+
 export interface Atlas {
   genere_le: string;
+  familles?: Famille[];
   calques: Calque[];
   structures: Record<string, Structure>;
   noeuds: Record<string, Noeud>;

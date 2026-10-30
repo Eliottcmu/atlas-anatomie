@@ -16,6 +16,7 @@
     "test:navigation": "node tests/navigation.mjs",
     "test:apprentissage": "node tests/apprentissage.mjs",
     "test:os": "node tests/os.mjs",
+    "test:affichage": "node tests/affichage.mjs",
     "test:appli": "node tests/appli.mjs"
   },
   "dependencies": {

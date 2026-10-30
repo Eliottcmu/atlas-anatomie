@@ -1,33 +1,66 @@
 ﻿objet;groupe;systeme;nom_en;cote;rendu;transformation;recouvrement_bp3d;sommets;triangles;centre_x;centre_y;centre_z
+(Communicating branch of median nerve with ulnar nerve).l;nerfs;nerfs;(communicating branch of median nerve with ulnar nerve);gauche;;os lissé;0.00;300;576;0.2572;0.7898;0.1348
+(Communicating branch of median nerve with ulnar nerve).r;nerfs;nerfs;(communicating branch of median nerve with ulnar nerve);droit;;os lissé;0.00;300;576;-0.2610;0.7906;0.1338
+Abducens nerve (VI).l;nerfs;nerfs;abducens nerve (vi);gauche;;os lissé;0.42;2520;4936;0.0160;1.5203;0.1133
+Abducens nerve (VI).r;nerfs;nerfs;abducens nerve (vi);droit;;os lissé;0.21;2520;4936;-0.0179;1.5204;0.1125
+Accessory nerve (XI).l;nerfs;nerfs;accessory nerve (xi);gauche;;os lissé;0.00;7848;15384;0.0294;1.4293;0.0658
+Accessory nerve (XI).r;nerfs;nerfs;accessory nerve (xi);droit;;os lissé;0.00;7848;15384;-0.0300;1.4293;0.0651
 Adenohypophysis;endocrines;autres;adenohypophysis;;;endocrines;1.00;369;680;-0.0007;1.5292;0.1063
-Anterior axillary nodes.l;lymphatiques;autres;anterior axillary nodes;gauche;lymphatique;os:thorax;0.24;516;1008;0.1185;1.2536;0.1262
-Anterior axillary nodes.r;lymphatiques;autres;anterior axillary nodes;droit;lymphatique;os:thorax;0.23;516;1008;-0.1202;1.2532;0.1269
-Anterior inferior jugular nodes.l;lymphatiques;autres;anterior inferior jugular nodes;gauche;lymphatique;os:tête et cou;0.26;516;1008;0.0279;1.3748;0.1090
-Anterior inferior jugular nodes.r;lymphatiques;autres;anterior inferior jugular nodes;droit;lymphatique;os:tête et cou;0.29;516;1008;-0.0298;1.3748;0.1076
+Anterior axillary nodes.l;lymphatiques;lymphatique;anterior axillary nodes;gauche;lymphatique;os:thorax;0.24;516;1008;0.1185;1.2536;0.1262
+Anterior axillary nodes.r;lymphatiques;lymphatique;anterior axillary nodes;droit;lymphatique;os:thorax;0.23;516;1008;-0.1202;1.2532;0.1269
+Anterior branch of medial antebrachial cutaneous nerve.l;nerfs;nerfs;anterior branch of medial antebrachial cutaneous nerve;gauche;;os lissé;0.00;732;1440;0.2084;1.0003;0.1044
+Anterior branch of medial antebrachial cutaneous nerve.r;nerfs;nerfs;anterior branch of medial antebrachial cutaneous nerve;droit;;os lissé;0.00;732;1440;-0.2107;1.0007;0.1039
+Anterior branch of obturator nerve.l;nerfs;nerfs;anterior branch of obturator nerve;gauche;;os lissé;0.00;876;1728;0.0436;0.6823;0.1162
+Anterior branch of obturator nerve.r;nerfs;nerfs;anterior branch of obturator nerve;droit;;os lissé;0.00;876;1728;-0.0430;0.6820;0.1157
+Anterior cutaneous branches of femoral nerve.l;nerfs;nerfs;anterior cutaneous branches of femoral nerve;gauche;;os lissé;0.00;732;1440;0.0611;0.5958;0.1360
+Anterior cutaneous branches of femoral nerve.r;nerfs;nerfs;anterior cutaneous branches of femoral nerve;droit;;os lissé;0.00;732;1440;-0.0602;0.5955;0.1354
+Anterior division of inferior trunk of brachial plexus.l;nerfs;nerfs;anterior division of inferior trunk of brachial plexus;gauche;;os lissé;0.00;300;576;0.0898;1.3366;0.0862
+Anterior division of inferior trunk of brachial plexus.r;nerfs;nerfs;anterior division of inferior trunk of brachial plexus;droit;;os lissé;0.00;300;576;-0.0910;1.3363;0.0866
+Anterior division of mandibular nerve.l;nerfs;nerfs;anterior division of mandibular nerve;gauche;;os lissé;0.00;324;596;0.0264;1.4975;0.1083
+Anterior division of mandibular nerve.r;nerfs;nerfs;anterior division of mandibular nerve;droit;;os lissé;0.00;324;596;-0.0281;1.4975;0.1071
+Anterior division of middle trunk of brachial plexus.l;nerfs;nerfs;anterior division of middle trunk of brachial plexus;gauche;;os lissé;0.00;156;288;0.0949;1.3387;0.0822
+Anterior division of middle trunk of brachial plexus.r;nerfs;nerfs;anterior division of middle trunk of brachial plexus;droit;;os lissé;0.00;156;288;-0.0960;1.3384;0.0825
+Anterior division of superior trunk of brachial plexus.l;nerfs;nerfs;anterior division of superior trunk of brachial plexus;gauche;;os lissé;0.00;156;288;0.0985;1.3349;0.0794
+Anterior division of superior trunk of brachial plexus.r;nerfs;nerfs;anterior division of superior trunk of brachial plexus;droit;;os lissé;0.00;156;288;-0.0996;1.3346;0.0797
+Anterior inferior jugular nodes.l;lymphatiques;lymphatique;anterior inferior jugular nodes;gauche;lymphatique;os:tête et cou;0.26;516;1008;0.0279;1.3748;0.1090
+Anterior inferior jugular nodes.r;lymphatiques;lymphatique;anterior inferior jugular nodes;droit;lymphatique;os:tête et cou;0.29;516;1008;-0.0298;1.3748;0.1076
+Anterior interosseous nerve of forearm.l;nerfs;nerfs;anterior interosseous nerve of forearm;gauche;;os lissé;0.00;732;1440;0.2438;0.9066;0.0983
+Anterior interosseous nerve of forearm.r;nerfs;nerfs;anterior interosseous nerve of forearm;droit;;os lissé;0.00;732;1440;-0.2466;0.9073;0.0974
 Anterior quadrangular lobule.l;cervelet;autres;anterior quadrangular lobule;gauche;;cervelet;0.49;3270;6520;0.0109;1.5274;0.0593
 Anterior quadrangular lobule.r;cervelet;autres;anterior quadrangular lobule;droit;;cervelet;0.58;3270;6520;-0.0121;1.5270;0.0592
-Apical axillary nodes.l;lymphatiques;autres;apical axillary nodes;gauche;lymphatique;os:thorax;0.00;172;336;0.1430;1.2556;0.0612
-Apical axillary nodes.r;lymphatiques;autres;apical axillary nodes;droit;lymphatique;os:thorax;0.00;172;336;-0.1451;1.2551;0.0621
-Appendicular nodes;lymphatiques;autres;appendicular nodes;;lymphatique;os:bassin;0.22;258;504;-0.0491;0.9167;0.1006
+Anterior root of posterior femoral cutaneous nerve.l;nerfs;nerfs;anterior root of posterior femoral cutaneous nerve;gauche;;os lissé;0.00;756;1440;0.0278;0.8764;0.0454
+Anterior root of posterior femoral cutaneous nerve.r;nerfs;nerfs;anterior root of posterior femoral cutaneous nerve;droit;;os lissé;0.00;756;1440;-0.0286;0.8761;0.0455
+Anterior root of spinal nerve.l;nerfs;nerfs;anterior root of spinal nerve;gauche;;os lissé;0.00;3564;6624;0.0076;1.2854;0.0552
+Anterior root of spinal nerve.r;nerfs;nerfs;anterior root of spinal nerve;droit;;os lissé;0.00;3564;6624;-0.0090;1.2854;0.0551
+Apical axillary nodes.l;lymphatiques;lymphatique;apical axillary nodes;gauche;lymphatique;os:thorax;0.00;172;336;0.1430;1.2556;0.0612
+Apical axillary nodes.r;lymphatiques;lymphatique;apical axillary nodes;droit;lymphatique;os:thorax;0.00;172;336;-0.1451;1.2551;0.0621
+Appendicular nodes;lymphatiques;lymphatique;appendicular nodes;;lymphatique;os:bassin;0.22;258;504;-0.0491;0.9167;0.1006
 Ascending part of trapezius muscle.l;muscles-dos;muscles;ascending part of trapezius muscle;gauche;;muscles-dos;0.50;2298;4596;0.0331;1.4068;0.0440
 Ascending part of trapezius muscle.r;muscles-dos;muscles;ascending part of trapezius muscle;droit;;muscles-dos;0.52;2298;4596;-0.0359;1.4066;0.0442
 Auditory tube.l;oreilles;autres;auditory tube;gauche;;oreilles;0.00;922;1840;0.0195;1.5068;0.1009
 Auditory tube.r;oreilles;autres;auditory tube;droit;;oreilles;0.00;922;1840;-0.0209;1.5068;0.1011
+Axillary nerve.l;nerfs;nerfs;axillary nerve;gauche;;os lissé;0.00;588;1152;0.1353;1.3001;0.0774
+Axillary nerve.r;nerfs;nerfs;axillary nerve;droit;;os lissé;0.00;588;1152;-0.1363;1.2999;0.0776
 Biventral lobule.l;cervelet;autres;biventral lobule;gauche;;cervelet;0.28;4464;8902;0.0200;1.5006;0.0529
 Biventral lobule.r;cervelet;autres;biventral lobule;droit;;cervelet;0.28;4464;8902;-0.0204;1.5000;0.0527
-Brachial nodes.l;lymphatiques;autres;brachial nodes;gauche;lymphatique;os:thorax;0.26;430;840;0.1535;1.2918;0.1083
-Brachial nodes.r;lymphatiques;autres;brachial nodes;droit;lymphatique;os:thorax;0.21;430;840;-0.1555;1.2913;0.1094
-Brachiocephalic nodes;lymphatiques;autres;brachiocephalic nodes;;lymphatique;os:thorax;0.20;258;504;-0.0221;1.3208;0.1181
-Bucinator node.l;lymphatiques;autres;bucinator node;gauche;lymphatique;os:tête et cou;0.51;258;504;0.0262;1.4724;0.1622
-Bucinator node.r;lymphatiques;autres;bucinator node;droit;lymphatique;os:tête et cou;0.31;258;504;-0.0304;1.4725;0.1609
+Brachial nodes.l;lymphatiques;lymphatique;brachial nodes;gauche;lymphatique;os:thorax;0.26;430;840;0.1535;1.2918;0.1083
+Brachial nodes.r;lymphatiques;lymphatique;brachial nodes;droit;lymphatique;os:thorax;0.21;430;840;-0.1555;1.2913;0.1094
+Brachiocephalic nodes;lymphatiques;lymphatique;brachiocephalic nodes;;lymphatique;os:thorax;0.20;258;504;-0.0221;1.3208;0.1181
+Buccal nerve.l;nerfs;nerfs;buccal nerve;gauche;;os lissé;0.00;1368;2632;0.0305;1.4662;0.1378
+Buccal nerve.r;nerfs;nerfs;buccal nerve;droit;;os lissé;0.00;1368;2632;-0.0336;1.4663;0.1364
+Bucinator node.l;lymphatiques;lymphatique;bucinator node;gauche;lymphatique;os:tête et cou;0.51;258;504;0.0262;1.4724;0.1622
+Bucinator node.r;lymphatiques;lymphatique;bucinator node;droit;lymphatique;os:tête et cou;0.31;258;504;-0.0304;1.4725;0.1609
 Calcarine sulcus.l;encephale;autres;calcarine sulcus;gauche;;encephale;0.50;437;872;0.0121;1.5476;0.0226
 Calcarine sulcus.r;encephale;autres;calcarine sulcus;droit;;encephale;0.51;437;872;-0.0136;1.5473;0.0225
-Central axillary nodes.l;lymphatiques;autres;central axillary nodes;gauche;lymphatique;os:thorax;0.00;172;336;0.1430;1.2386;0.0614
-Central axillary nodes.r;lymphatiques;autres;central axillary nodes;droit;lymphatique;os:thorax;0.00;172;336;-0.1451;1.2382;0.0623
+Cauda equina;nerfs;nerfs;cauda equina;;;os lissé;0.00;7128;13824;-0.0006;0.9177;0.0381
+Central axillary nodes.l;lymphatiques;lymphatique;central axillary nodes;gauche;lymphatique;os:thorax;0.00;172;336;0.1430;1.2386;0.0614
+Central axillary nodes.r;lymphatiques;lymphatique;central axillary nodes;droit;lymphatique;os:thorax;0.00;172;336;-0.1451;1.2382;0.0623
 Central lobule;cervelet;autres;central lobule;;;cervelet;0.76;505;1006;-0.0002;1.5257;0.0617
 Central sulcus.l;encephale;autres;central sulcus;gauche;;encephale;0.59;722;1440;0.0385;1.5948;0.0722
 Central sulcus.r;encephale;autres;central sulcus;droit;;encephale;0.59;722;1440;-0.0418;1.5936;0.0718
-Central superior mesenteric nodes;lymphatiques;autres;central superior mesenteric nodes;;lymphatique;os:thorax;0.07;258;504;-0.0081;1.0027;0.1522
+Central superior mesenteric nodes;lymphatiques;lymphatique;central superior mesenteric nodes;;lymphatique;os:thorax;0.07;258;504;-0.0081;1.0027;0.1522
+Chorda tympani.l;nerfs;nerfs;chorda tympani;gauche;;os lissé;0.00;900;1748;0.0286;1.4944;0.0971
+Chorda tympani.r;nerfs;nerfs;chorda tympani;droit;;os lissé;0.00;900;1748;-0.0298;1.4945;0.0958
 Cingulate gyrus and sulcus (Middle anterior part).l;encephale;autres;cingulate gyrus and sulcus (middle anterior part);gauche;;encephale;0.57;370;736;0.0049;1.5912;0.1049
 Cingulate gyrus and sulcus (Middle anterior part).r;encephale;autres;cingulate gyrus and sulcus (middle anterior part);droit;;encephale;0.55;370;736;-0.0084;1.5910;0.1049
 Cingulate gyrus and sulcus (Middle posterior part).l;encephale;autres;cingulate gyrus and sulcus (middle posterior part);gauche;;encephale;0.55;302;600;0.0066;1.5914;0.0743
@@ -39,131 +72,251 @@ Cochlea.l;oreilles;autres;cochlea;gauche;;oreilles;0.00;3110;6168;0.0390;1.5069;
 Cochlea.r;oreilles;autres;cochlea;droit;;oreilles;0.00;3110;6168;-0.0404;1.5068;0.0967
 Cochlear nerve;encephale;autres;cochlear nerve;;;encephale;0.01;881;1758;-0.0276;1.5089;0.0861
 Cochlear nerve.l;encephale;autres;cochlear nerve;gauche;;encephale;0.00;468;884;0.0301;1.5095;0.0876
-Coeliac nodes;lymphatiques;autres;coeliac nodes;;lymphatique;os:thorax;0.22;344;672;0.0095;1.0719;0.1241
-Cubital nodes.l;lymphatiques;autres;cubital nodes;gauche;lymphatique;os:membre supérieur gauche;0.17;516;1008;0.2157;1.0082;0.0995
-Cubital nodes.r;lymphatiques;autres;cubital nodes;droit;lymphatique;os:membre supérieur droit;0.42;516;1008;-0.2179;1.0088;0.0988
+Coeliac nodes;lymphatiques;lymphatique;coeliac nodes;;lymphatique;os:thorax;0.22;344;672;0.0095;1.0719;0.1241
+Common fibular nerve.l;nerfs;nerfs;common fibular nerve;gauche;;os lissé;0.00;1020;2016;0.0918;0.4063;0.0512
+Common fibular nerve.r;nerfs;nerfs;common fibular nerve;droit;;os lissé;0.00;1020;2016;-0.0921;0.4060;0.0512
+Common palmar digital branches of median nerve.l;nerfs;nerfs;common palmar digital branches of median nerve;gauche;;os lissé;0.00;1188;2304;0.2814;0.7436;0.1433
+Common palmar digital branches of median nerve.r;nerfs;nerfs;common palmar digital branches of median nerve;droit;;os lissé;0.00;1188;2304;-0.2856;0.7446;0.1422
+Common palmar digital branches of ulnar nerve.l;nerfs;nerfs;common palmar digital branches of ulnar nerve;gauche;;os lissé;0.00;900;1728;0.2618;0.7318;0.1456
+Common palmar digital branches of ulnar nerve.r;nerfs;nerfs;common palmar digital branches of ulnar nerve;droit;;os lissé;0.00;900;1728;-0.2661;0.7327;0.1447
+Common plantar digital branches of lateral plantar nerve.l;nerfs;nerfs;common plantar digital branches of lateral plantar nerve;gauche;;os lissé;0.00;756;1440;0.1155;-0.0378;0.1501
+Common plantar digital branches of lateral plantar nerve.r;nerfs;nerfs;common plantar digital branches of lateral plantar nerve;droit;;os lissé;0.00;756;1440;-0.1137;-0.0381;0.1506
+Common plantar digital branches of medial plantar nerve;nerfs;nerfs;common plantar digital branches of medial plantar nerve;;;os lissé;0.00;900;1728;-0.0816;-0.0362;0.1696
+Common plantar digital branches of medial plantar nerve.l;nerfs;nerfs;common plantar digital branches of medial plantar nerve;gauche;;os lissé;0.00;900;1728;0.0838;-0.0360;0.1696
+Cubital nodes.l;lymphatiques;lymphatique;cubital nodes;gauche;lymphatique;os:membre supérieur gauche;0.17;516;1008;0.2157;1.0082;0.0995
+Cubital nodes.r;lymphatiques;lymphatique;cubital nodes;droit;lymphatique;os:membre supérieur droit;0.42;516;1008;-0.2179;1.0088;0.0988
 Culmen;cervelet;autres;culmen;;;cervelet;0.45;1194;2378;-0.0006;1.5303;0.0490
 Cuneus.l;encephale;autres;cuneus;gauche;;encephale;0.41;475;946;0.0066;1.5557;0.0075
 Cuneus.r;encephale;autres;cuneus;droit;;encephale;0.40;475;946;-0.0082;1.5555;0.0074
-Cystic node;lymphatiques;autres;cystic node;;lymphatique;os:thorax;0.24;86;168;-0.0236;1.0856;0.1385
+Cystic node;lymphatiques;lymphatique;cystic node;;lymphatique;os:thorax;0.24;86;168;-0.0236;1.0856;0.1385
 Declive;cervelet;autres;declive;;;cervelet;0.47;1067;2125;-0.0007;1.5242;0.0344
+Deep branch of radial nerve.l;nerfs;nerfs;deep branch of radial nerve;gauche;;os lissé;0.00;1020;2016;0.2502;0.9239;0.0869
+Deep branch of radial nerve.r;nerfs;nerfs;deep branch of radial nerve;droit;;os lissé;0.00;1020;2016;-0.2528;0.9246;0.0860
+Deep branch of ulnar nerve.l;nerfs;nerfs;deep branch of ulnar nerve;gauche;;os lissé;0.00;732;1440;0.2656;0.7706;0.1379
+Deep branch of ulnar nerve.r;nerfs;nerfs;deep branch of ulnar nerve;droit;;os lissé;0.00;732;1440;-0.2696;0.7715;0.1369
+Deep fibular nerve.l;nerfs;nerfs;deep fibular nerve;gauche;;os lissé;0.00;2172;4320;0.0915;0.1333;0.0993
+Deep fibular nerve.r;nerfs;nerfs;deep fibular nerve;droit;;os lissé;0.00;2172;4320;-0.0907;0.1330;0.0994
 Deep part of masseter.l;muscles-tete;muscles;deep part of masseter;gauche;;muscles-tete;0.19;497;994;0.0502;1.4755;0.1161
 Deep part of masseter.r;muscles-tete;muscles;deep part of masseter;droit;;muscles-tete;0.01;497;994;-0.0480;1.4735;0.1148
-Deep popliteal nodes.l;lymphatiques;autres;deep popliteal nodes;gauche;lymphatique;os:membre inférieur gauche;0.00;172;336;0.0732;0.4354;0.0680
-Deep popliteal nodes.r;lymphatiques;autres;deep popliteal nodes;droit;lymphatique;os:membre inférieur droit;0.00;172;336;-0.0733;0.4351;0.0677
+Deep popliteal nodes.l;lymphatiques;lymphatique;deep popliteal nodes;gauche;lymphatique;os:membre inférieur gauche;0.00;172;336;0.0732;0.4354;0.0680
+Deep popliteal nodes.r;lymphatiques;lymphatique;deep popliteal nodes;droit;lymphatique;os:membre inférieur droit;0.00;172;336;-0.0733;0.4351;0.0677
 Descending part of trapezius muscle.l;muscles-dos;muscles;descending part of trapezius muscle;gauche;;muscles-dos;0.33;3376;6760;0.0374;1.2404;-0.0048
 Descending part of trapezius muscle.r;muscles-dos;muscles;descending part of trapezius muscle;droit;;muscles-dos;0.32;3376;6760;-0.0395;1.2402;-0.0045
+Dorsal branch of ulnar nerve.l;nerfs;nerfs;dorsal branch of ulnar nerve;gauche;;os lissé;0.00;744;1440;0.2436;0.7641;0.1272
+Dorsal branch of ulnar nerve.r;nerfs;nerfs;dorsal branch of ulnar nerve;droit;;os lissé;0.00;744;1440;-0.2475;0.7648;0.1264
+Dorsal digital branches of deep fibular nerve.l;nerfs;nerfs;dorsal digital branches of deep fibular nerve;gauche;;os lissé;0.00;1608;3168;0.0997;-0.0321;0.2213
+Dorsal digital branches of deep fibular nerve.r;nerfs;nerfs;dorsal digital branches of deep fibular nerve;droit;;os lissé;0.00;1608;3168;-0.0968;-0.0324;0.2216
+Dorsal digital branches of radial nerve.l;nerfs;nerfs;dorsal digital branches of radial nerve;gauche;;os lissé;0.00;6852;13536;0.2986;0.6951;0.1536
+Dorsal digital branches of radial nerve.r;nerfs;nerfs;dorsal digital branches of radial nerve;droit;;os lissé;0.00;6852;13536;-0.3031;0.6962;0.1524
+Dorsal digital branches of superficial fibular nerve.l;nerfs;nerfs;dorsal digital branches of superficial fibular nerve;gauche;;os lissé;0.00;4260;8352;0.1192;-0.0357;0.2125
+Dorsal digital branches of superficial fibular nerve.r;nerfs;nerfs;dorsal digital branches of superficial fibular nerve;droit;;os lissé;0.00;4260;8352;-0.1163;-0.0360;0.2131
+Dorsal digital branches of ulnar nerve.l;nerfs;nerfs;dorsal digital branches of ulnar nerve;gauche;;os lissé;0.00;2484;4896;0.2476;0.6802;0.1556
+Dorsal digital branches of ulnar nerve.r;nerfs;nerfs;dorsal digital branches of ulnar nerve;droit;;os lissé;0.00;2484;4896;-0.2504;0.6806;0.1559
+Dorsal scapular nerve.l;nerfs;nerfs;dorsal scapular nerve;gauche;;os lissé;0.00;1308;2592;0.0464;1.3301;0.0280
+Dorsal scapular nerve.r;nerfs;nerfs;dorsal scapular nerve;droit;;os lissé;0.00;1308;2592;-0.0477;1.3298;0.0283
+Facial nerve (VII).l;nerfs;nerfs;facial nerve (vii);gauche;;os lissé;0.00;13968;27312;0.0436;1.4897;0.1161
+Facial nerve (VII).r;nerfs;nerfs;facial nerve (vii);droit;;os lissé;0.00;13968;27312;-0.0456;1.4897;0.1141
 Falx cerebri;encephale;autres;falx cerebri;;;encephale;0.41;7091;14724;-0.0012;1.5672;0.0648
+Femoral branch of genitofemoral nerve.l;nerfs;nerfs;femoral branch of genitofemoral nerve;gauche;;os lissé;0.00;1320;2592;0.0461;0.8135;0.1323
+Femoral branch of genitofemoral nerve.r;nerfs;nerfs;femoral branch of genitofemoral nerve;droit;;os lissé;0.00;1320;2592;-0.0457;0.8131;0.1323
+Femoral nerve.l;nerfs;nerfs;femoral nerve;gauche;;os lissé;0.00;2052;4032;0.0597;0.9089;0.0943
+Femoral nerve.r;nerfs;nerfs;femoral nerve;droit;;os lissé;0.00;2052;4032;-0.0604;0.9085;0.0944
 Flocculus.l;cervelet;autres;flocculus;gauche;;cervelet;0.29;1869;3660;0.0229;1.5099;0.0724
 Flocculus.r;cervelet;autres;flocculus;droit;;cervelet;0.31;1869;3660;-0.0237;1.5092;0.0722
 Folium of vermis;cervelet;autres;folium of vermis;;;cervelet;0.45;410;812;-0.0003;1.5169;0.0292
 Ganglia of sympathetic trunk.l;moelle;autres;ganglia of sympathetic trunk;gauche;;moelle;0.22;12708;25344;0.0131;1.2710;0.0634
 Ganglia of sympathetic trunk.r;moelle;autres;ganglia of sympathetic trunk;droit;;moelle;0.24;12708;25344;-0.0146;1.2709;0.0635
+Genital branch of genitofemoral nerve.l;nerfs;nerfs;genital branch of genitofemoral nerve;gauche;;os lissé;0.00;876;1728;0.0316;0.8296;0.1276
+Genital branch of genitofemoral nerve.r;nerfs;nerfs;genital branch of genitofemoral nerve;droit;;os lissé;0.00;876;1728;-0.0314;0.8292;0.1277
+Genitofemoral nerve.l;nerfs;nerfs;genitofemoral nerve;gauche;;os lissé;0.00;456;864;0.0328;0.9963;0.0816
+Genitofemoral nerve.r;nerfs;nerfs;genitofemoral nerve;droit;;os lissé;0.00;456;864;-0.0340;0.9962;0.0818
+Glossopharyngeal nerve (IX).l;nerfs;nerfs;glossopharyngeal nerve (ix);gauche;;os lissé;0.00;6876;13388;0.0210;1.4694;0.0789
+Glossopharyngeal nerve (IX).r;nerfs;nerfs;glossopharyngeal nerve (ix);droit;;os lissé;0.00;6876;13388;-0.0215;1.4695;0.0781
 Gracile lobule.l;cervelet;autres;gracile lobule;gauche;;cervelet;0.35;3488;6961;0.0223;1.5008;0.0436
 Gracile lobule.r;cervelet;autres;gracile lobule;droit;;cervelet;0.34;3488;6961;-0.0226;1.5001;0.0435
 Greater omentum;abdomen;autres;greater omentum;;enveloppe;abdomen;0.14;38986;77968;0.0033;0.9544;0.1639
-Ileocolic nodes;lymphatiques;autres;ileocolic nodes;;lymphatique;os:thorax;0.24;172;336;-0.0057;1.0393;0.1258
+Hypoglossal nerve (XII).l;nerfs;nerfs;hypoglossal nerve (xii);gauche;;os lissé;0.00;8352;16288;0.0124;1.4810;0.0905
+Hypoglossal nerve (XII).r;nerfs;nerfs;hypoglossal nerve (xii);droit;;os lissé;0.00;8352;16288;-0.0133;1.4810;0.0899
+Ileocolic nodes;lymphatiques;lymphatique;ileocolic nodes;;lymphatique;os:thorax;0.24;172;336;-0.0057;1.0393;0.1258
+Ilio-inguinal nerve.l;nerfs;nerfs;ilio-inguinal nerve;gauche;;os lissé;0.00;1884;3744;0.0874;0.9047;0.1122
+Ilio-inguinal nerve.r;nerfs;nerfs;ilio-inguinal nerve;droit;;os lissé;0.00;1884;3744;-0.0880;0.9039;0.1125
+Iliohypogastric nerve.l;nerfs;nerfs;iliohypogastric nerve;gauche;;os lissé;0.00;888;1728;0.0622;1.0079;0.0677
+Iliohypogastric nerve.r;nerfs;nerfs;iliohypogastric nerve;droit;;os lissé;0.00;888;1728;-0.0635;1.0076;0.0680
 Incus.l;osselets-gauches;os;incus;gauche;;osselets-gauches;0.00;1268;2532;0.0482;1.5100;0.0883
 Incus.r;osselets-droits;os;incus;droit;;osselets-droits;0.00;1268;2532;-0.0492;1.5089;0.0882
-Inferior deep lateral cervical nodes.l;lymphatiques;autres;inferior deep lateral cervical nodes;gauche;lymphatique;os:thorax;0.00;344;672;0.0308;1.3452;0.1086
-Inferior deep lateral cervical nodes.r;lymphatiques;autres;inferior deep lateral cervical nodes;droit;lymphatique;os:thorax;0.00;344;672;-0.0329;1.3451;0.1088
-Inferior diaphragmatic nodes;lymphatiques;autres;inferior diaphragmatic nodes;;lymphatique;os:thorax;0.17;516;1008;-0.0038;1.1665;0.1111
-Inferior epigastric nodes.l;lymphatiques;autres;inferior epigastric nodes;gauche;lymphatique;os:bassin;0.00;172;336;0.0458;0.8249;0.1433
-Inferior epigastric nodes.r;lymphatiques;autres;inferior epigastric nodes;droit;lymphatique;os:bassin;0.00;172;336;-0.0455;0.8244;0.1435
+Inferior alveolar nerve.l;nerfs;nerfs;inferior alveolar nerve;gauche;;os lissé;0.00;8784;16944;0.0175;1.4427;0.1490
+Inferior alveolar nerve.r;nerfs;nerfs;inferior alveolar nerve;droit;;os lissé;0.00;8784;16944;-0.0211;1.4428;0.1481
+Inferior deep lateral cervical nodes.l;lymphatiques;lymphatique;inferior deep lateral cervical nodes;gauche;lymphatique;os:thorax;0.00;344;672;0.0308;1.3452;0.1086
+Inferior deep lateral cervical nodes.r;lymphatiques;lymphatique;inferior deep lateral cervical nodes;droit;lymphatique;os:thorax;0.00;344;672;-0.0329;1.3451;0.1088
+Inferior diaphragmatic nodes;lymphatiques;lymphatique;inferior diaphragmatic nodes;;lymphatique;os:thorax;0.17;516;1008;-0.0038;1.1665;0.1111
+Inferior epigastric nodes.l;lymphatiques;lymphatique;inferior epigastric nodes;gauche;lymphatique;os:bassin;0.00;172;336;0.0458;0.8249;0.1433
+Inferior epigastric nodes.r;lymphatiques;lymphatique;inferior epigastric nodes;droit;lymphatique;os:bassin;0.00;172;336;-0.0455;0.8244;0.1435
 Inferior frontal sulcus.l;encephale;autres;inferior frontal sulcus;gauche;;encephale;0.59;413;742;0.0387;1.5835;0.1226
 Inferior frontal sulcus.r;encephale;autres;inferior frontal sulcus;droit;;encephale;0.56;413;742;-0.0421;1.5823;0.1223
-Inferior gluteal nodes.l;lymphatiques;autres;inferior gluteal nodes;gauche;lymphatique;os:bassin;0.40;344;672;0.0307;0.8646;0.0613
-Inferior gluteal nodes.r;lymphatiques;autres;inferior gluteal nodes;droit;lymphatique;os:bassin;0.20;344;672;-0.0312;0.8642;0.0615
+Inferior gluteal nodes.l;lymphatiques;lymphatique;inferior gluteal nodes;gauche;lymphatique;os:bassin;0.40;344;672;0.0307;0.8646;0.0613
+Inferior gluteal nodes.r;lymphatiques;lymphatique;inferior gluteal nodes;droit;lymphatique;os:bassin;0.20;344;672;-0.0312;0.8642;0.0615
 Inferior head of lateral pterygoid muscle.l;muscles-tete;muscles;inferior head of lateral pterygoid muscle;gauche;;muscles-tete;0.03;164;326;0.0335;1.4937;0.1122
 Inferior head of lateral pterygoid muscle.r;muscles-tete;muscles;inferior head of lateral pterygoid muscle;droit;;muscles-tete;0.16;164;326;-0.0319;1.4923;0.1113
+Inferior lateral brachial cutaneous nerve.l;nerfs;nerfs;inferior lateral brachial cutaneous nerve;gauche;;os lissé;0.00;300;576;0.2281;1.1344;0.0663
+Inferior lateral brachial cutaneous nerve.r;nerfs;nerfs;inferior lateral brachial cutaneous nerve;droit;;os lissé;0.00;300;576;-0.2292;1.1350;0.0653
 Inferior lobe of left lung;poumons;autres;inferior lobe of left lung;;enveloppe;poumons;0.32;4637;9258;0.0796;1.1732;0.0823
 Inferior lobe of right lung;poumons;autres;inferior lobe of right lung;;enveloppe;poumons;0.41;4231;8452;-0.0749;1.1721;0.0767
 Inferior occipital gyrus and sulcus*.l;encephale;autres;inferior occipital gyrus and sulcus;gauche;;encephale;0.46;449;894;0.0361;1.5302;0.0175
 Inferior occipital gyrus and sulcus*.r;encephale;autres;inferior occipital gyrus and sulcus;droit;;encephale;0.47;449;894;-0.0370;1.5291;0.0171
 Inferior semilunar lobule.l;cervelet;autres;inferior semilunar lobule;gauche;;cervelet;0.42;3901;7787;0.0226;1.5071;0.0343
 Inferior semilunar lobule.r;cervelet;autres;inferior semilunar lobule;droit;;cervelet;0.42;3901;7787;-0.0229;1.5065;0.0341
-Inferior superficial inguinal nodes.l;lymphatiques;autres;inferior superficial inguinal nodes;gauche;lymphatique;os:bassin;0.00;344;672;0.0615;0.7643;0.1333
-Inferior superficial inguinal nodes.r;lymphatiques;autres;inferior superficial inguinal nodes;droit;lymphatique;os:bassin;0.00;344;672;-0.0606;0.7636;0.1336
-Infra-auricular nodes.l;lymphatiques;autres;infra-auricular nodes;gauche;lymphatique;os:tête et cou;0.08;172;336;0.0577;1.4908;0.0964
-Infra-auricular nodes.r;lymphatiques;autres;infra-auricular nodes;droit;lymphatique;os:tête et cou;0.00;172;336;-0.0588;1.4908;0.0938
-Infraclavicular nodes.l;lymphatiques;autres;infraclavicular nodes;gauche;lymphatique;os:thorax;0.20;430;840;0.0973;1.3283;0.0983
-Infraclavicular nodes.r;lymphatiques;autres;infraclavicular nodes;droit;lymphatique;os:thorax;0.36;430;840;-0.0995;1.3280;0.0989
-Intercostal nodes.l;lymphatiques;autres;intercostal nodes;gauche;lymphatique;os:thorax;0.01;1032;2016;0.0183;1.2258;0.0516
-Intercostal nodes.r;lymphatiques;autres;intercostal nodes;droit;lymphatique;os:thorax;0.08;1032;2016;-0.0204;1.2257;0.0517
-Intermediate common iliac nodes;lymphatiques;autres;intermediate common iliac nodes;;lymphatique;os:bassin;0.24;344;672;0.0006;0.9581;0.1079
-Intermediate external iliac nodes.l;lymphatiques;autres;intermediate external iliac nodes;gauche;lymphatique;os:bassin;0.00;602;1176;0.0450;0.8777;0.1015
-Intermediate external iliac nodes.r;lymphatiques;autres;intermediate external iliac nodes;droit;lymphatique;os:bassin;0.07;602;1176;-0.0455;0.8773;0.1017
-Intermediate lumbar nodes;lymphatiques;autres;intermediate lumbar nodes;;lymphatique;os:thorax;0.23;430;840;-0.0008;1.0391;0.1262
+Inferior subscapular nerve.l;nerfs;nerfs;inferior subscapular nerve;gauche;;os lissé;0.00;1032;2016;0.1071;1.2599;0.0333
+Inferior subscapular nerve.r;nerfs;nerfs;inferior subscapular nerve;droit;;os lissé;0.00;1032;2016;-0.1083;1.2596;0.0337
+Inferior superficial inguinal nodes.l;lymphatiques;lymphatique;inferior superficial inguinal nodes;gauche;lymphatique;os:bassin;0.00;344;672;0.0615;0.7643;0.1333
+Inferior superficial inguinal nodes.r;lymphatiques;lymphatique;inferior superficial inguinal nodes;droit;lymphatique;os:bassin;0.00;344;672;-0.0606;0.7636;0.1336
+Inferior trunk of brachial plexus.l;nerfs;nerfs;inferior trunk of brachial plexus;gauche;;os lissé;0.00;300;576;0.0658;1.3570;0.0867
+Inferior trunk of brachial plexus.r;nerfs;nerfs;inferior trunk of brachial plexus;droit;;os lissé;0.00;300;576;-0.0671;1.3567;0.0871
+Infra-auricular nodes.l;lymphatiques;lymphatique;infra-auricular nodes;gauche;lymphatique;os:tête et cou;0.08;172;336;0.0577;1.4908;0.0964
+Infra-auricular nodes.r;lymphatiques;lymphatique;infra-auricular nodes;droit;lymphatique;os:tête et cou;0.00;172;336;-0.0588;1.4908;0.0938
+Infraclavicular nodes.l;lymphatiques;lymphatique;infraclavicular nodes;gauche;lymphatique;os:thorax;0.20;430;840;0.0973;1.3283;0.0983
+Infraclavicular nodes.r;lymphatiques;lymphatique;infraclavicular nodes;droit;lymphatique;os:thorax;0.36;430;840;-0.0995;1.3280;0.0989
+Infrapatellar branch of saphenous nerve.l;nerfs;nerfs;infrapatellar branch of saphenous nerve;gauche;;os lissé;0.00;300;576;0.0708;0.2932;0.1061
+Infrapatellar branch of saphenous nerve.r;nerfs;nerfs;infrapatellar branch of saphenous nerve;droit;;os lissé;0.00;300;576;-0.0701;0.2929;0.1057
+Intercostal nerves.l;nerfs;nerfs;intercostal nerves;gauche;;os lissé;0.00;25908;51552;0.0788;1.1674;0.0994
+Intercostal nerves.r;nerfs;nerfs;intercostal nerves;droit;;os lissé;0.00;25908;51552;-0.0802;1.1670;0.0999
+Intercostal nodes.l;lymphatiques;lymphatique;intercostal nodes;gauche;lymphatique;os:thorax;0.01;1032;2016;0.0183;1.2258;0.0516
+Intercostal nodes.r;lymphatiques;lymphatique;intercostal nodes;droit;lymphatique;os:thorax;0.08;1032;2016;-0.0204;1.2257;0.0517
+Intermediate common iliac nodes;lymphatiques;lymphatique;intermediate common iliac nodes;;lymphatique;os:bassin;0.24;344;672;0.0006;0.9581;0.1079
+Intermediate dorsal cutaneous nerve of foot.l;nerfs;nerfs;intermediate dorsal cutaneous nerve of foot;gauche;;os lissé;0.00;1320;2592;0.1104;-0.0088;0.1256
+Intermediate dorsal cutaneous nerve of foot.r;nerfs;nerfs;intermediate dorsal cutaneous nerve of foot;droit;;os lissé;0.00;1320;2592;-0.1089;-0.0091;0.1260
+Intermediate external iliac nodes.l;lymphatiques;lymphatique;intermediate external iliac nodes;gauche;lymphatique;os:bassin;0.00;602;1176;0.0450;0.8777;0.1015
+Intermediate external iliac nodes.r;lymphatiques;lymphatique;intermediate external iliac nodes;droit;lymphatique;os:bassin;0.07;602;1176;-0.0455;0.8773;0.1017
+Intermediate lumbar nodes;lymphatiques;lymphatique;intermediate lumbar nodes;;lymphatique;os:thorax;0.23;430;840;-0.0008;1.0391;0.1262
 Internal abdominal oblique muscle.l;muscles-abdomen;muscles;internal abdominal oblique muscle;gauche;;muscles-abdomen;0.27;14411;28869;0.0564;0.9838;0.1668
 Internal abdominal oblique muscle.r;muscles-abdomen;muscles;internal abdominal oblique muscle;droit;;muscles-abdomen;0.28;14411;28869;-0.0571;0.9839;0.1667
-Interpectoral nodes.l;lymphatiques;autres;interpectoral nodes;gauche;lymphatique;os:thorax;0.43;430;840;0.1145;1.2574;0.1435
-Interpectoral nodes.r;lymphatiques;autres;interpectoral nodes;droit;lymphatique;os:thorax;0.20;430;840;-0.1161;1.2570;0.1443
-Intraglandular parotid nodes.l;lymphatiques;autres;intraglandular parotid nodes;gauche;lymphatique;os:tête et cou;0.02;258;504;0.0547;1.4755;0.1179
-Intraglandular parotid nodes.r;lymphatiques;autres;intraglandular parotid nodes;droit;lymphatique;os:tête et cou;0.00;258;504;-0.0568;1.4756;0.1153
-Intrapulmonary nodes;lymphatiques;autres;intrapulmonary nodes;;lymphatique;os:thorax;0.25;1978;3864;0.0179;1.2310;0.0792
-Jugulodigastric node.l;lymphatiques;autres;jugulodigastric node;gauche;lymphatique;os:tête et cou;0.00;86;168;0.0325;1.4577;0.0879
-Jugulodigastric node.r;lymphatiques;autres;jugulodigastric node;droit;lymphatique;os:tête et cou;0.00;86;168;-0.0333;1.4577;0.0864
-Juxta-intestinal mesenteric nodes;lymphatiques;autres;juxta-intestinal mesenteric nodes;;lymphatique;os:bassin;0.30;1290;2520;0.0060;0.9363;0.1438
-Juxta-oesophageal nodes;lymphatiques;autres;juxta-oesophageal nodes;;lymphatique;os:thorax;0.26;860;1680;-0.0011;1.2532;0.0750
+Interpectoral nodes.l;lymphatiques;lymphatique;interpectoral nodes;gauche;lymphatique;os:thorax;0.43;430;840;0.1145;1.2574;0.1435
+Interpectoral nodes.r;lymphatiques;lymphatique;interpectoral nodes;droit;lymphatique;os:thorax;0.20;430;840;-0.1161;1.2570;0.1443
+Intraglandular parotid nodes.l;lymphatiques;lymphatique;intraglandular parotid nodes;gauche;lymphatique;os:tête et cou;0.02;258;504;0.0547;1.4755;0.1179
+Intraglandular parotid nodes.r;lymphatiques;lymphatique;intraglandular parotid nodes;droit;lymphatique;os:tête et cou;0.00;258;504;-0.0568;1.4756;0.1153
+Intrapulmonary nodes;lymphatiques;lymphatique;intrapulmonary nodes;;lymphatique;os:thorax;0.25;1978;3864;0.0179;1.2310;0.0792
+Jugulodigastric node.l;lymphatiques;lymphatique;jugulodigastric node;gauche;lymphatique;os:tête et cou;0.00;86;168;0.0325;1.4577;0.0879
+Jugulodigastric node.r;lymphatiques;lymphatique;jugulodigastric node;droit;lymphatique;os:tête et cou;0.00;86;168;-0.0333;1.4577;0.0864
+Juxta-intestinal mesenteric nodes;lymphatiques;lymphatique;juxta-intestinal mesenteric nodes;;lymphatique;os:bassin;0.30;1290;2520;0.0060;0.9363;0.1438
+Juxta-oesophageal nodes;lymphatiques;lymphatique;juxta-oesophageal nodes;;lymphatique;os:thorax;0.26;860;1680;-0.0011;1.2532;0.0750
 Lat_Fis-ant-Horizont.l;encephale;autres;lat_fis-ant-horizont;gauche;;encephale;0.55;89;174;0.0425;1.5628;0.1250
 Lat_Fis-ant-Horizont.r;encephale;autres;lat_fis-ant-horizont;droit;;encephale;0.53;89;174;-0.0453;1.5615;0.1246
 Lat_Fis-ant-Vertical.l;encephale;autres;lat_fis-ant-vertical;gauche;;encephale;0.40;99;194;0.0436;1.5756;0.1167
 Lat_Fis-ant-Vertical.r;encephale;autres;lat_fis-ant-vertical;droit;;encephale;0.53;99;194;-0.0467;1.5742;0.1163
-Lateral aortic nodes;lymphatiques;autres;lateral aortic nodes;;lymphatique;os:thorax;0.00;344;672;-0.0120;1.0328;0.1327
-Lateral axillary nodes.l;lymphatiques;autres;lateral axillary nodes;gauche;lymphatique;os:thorax;0.25;172;336;0.1535;1.2387;0.0614
-Lateral axillary nodes.r;lymphatiques;autres;lateral axillary nodes;droit;lymphatique;os:thorax;0.00;172;336;-0.1556;1.2381;0.0624
-Lateral caval nodes;lymphatiques;autres;lateral caval nodes;;lymphatique;os:thorax;0.13;430;840;-0.0075;1.0394;0.1325
-Lateral common iliac nodes;lymphatiques;autres;lateral common iliac nodes;;lymphatique;os:bassin;0.00;688;1344;0.0006;0.9581;0.1079
+Lateral antebrachial cutaneous nerve.l;nerfs;nerfs;lateral antebrachial cutaneous nerve;gauche;;os lissé;0.00;876;1728;0.2597;0.9578;0.1049
+Lateral antebrachial cutaneous nerve.r;nerfs;nerfs;lateral antebrachial cutaneous nerve;droit;;os lissé;0.00;876;1728;-0.2622;0.9586;0.1038
+Lateral aortic nodes;lymphatiques;lymphatique;lateral aortic nodes;;lymphatique;os:thorax;0.00;344;672;-0.0120;1.0328;0.1327
+Lateral axillary nodes.l;lymphatiques;lymphatique;lateral axillary nodes;gauche;lymphatique;os:thorax;0.25;172;336;0.1535;1.2387;0.0614
+Lateral axillary nodes.r;lymphatiques;lymphatique;lateral axillary nodes;droit;lymphatique;os:thorax;0.00;172;336;-0.1556;1.2381;0.0624
+Lateral caval nodes;lymphatiques;lymphatique;lateral caval nodes;;lymphatique;os:thorax;0.13;430;840;-0.0075;1.0394;0.1325
+Lateral common iliac nodes;lymphatiques;lymphatique;lateral common iliac nodes;;lymphatique;os:bassin;0.00;688;1344;0.0006;0.9581;0.1079
+Lateral femoral cutaneous nerve.l;nerfs;nerfs;lateral femoral cutaneous nerve;gauche;;os lissé;0.00;2340;4608;0.1344;0.7191;0.1099
+Lateral femoral cutaneous nerve.r;nerfs;nerfs;lateral femoral cutaneous nerve;droit;;os lissé;0.00;2340;4608;-0.1344;0.7186;0.1106
 Lateral occipital gyrus (Middle occipital gyrus*).l;encephale;autres;lateral occipital gyrus (middle occipital gyrus);gauche;;encephale;0.57;429;854;0.0362;1.5512;0.0087
 Lateral occipital gyrus (Middle occipital gyrus*).r;encephale;autres;lateral occipital gyrus (middle occipital gyrus);droit;;encephale;0.54;429;854;-0.0376;1.5501;0.0084
 Lateral occipitotemporal gyrus.l;encephale;autres;lateral occipitotemporal gyrus;gauche;;encephale;0.57;470;866;0.0354;1.5302;0.0487
 Lateral occipitotemporal gyrus.r;encephale;autres;lateral occipitotemporal gyrus;droit;;encephale;0.53;470;866;-0.0366;1.5291;0.0484
-Lateral pericardial nodes;lymphatiques;autres;lateral pericardial nodes;;lymphatique;os:thorax;0.15;344;672;-0.0323;1.2051;0.1298
-Lateral sacral nodes.l;lymphatiques;autres;lateral sacral nodes;gauche;lymphatique;os:bassin;0.23;430;840;0.0236;0.8605;0.0276
-Lateral sacral nodes.r;lymphatiques;autres;lateral sacral nodes;droit;lymphatique;os:bassin;0.32;430;840;-0.0243;0.8602;0.0277
-Lateral superior jugular node.l;lymphatiques;autres;lateral superior jugular node;gauche;lymphatique;os:tête et cou;0.35;430;840;0.0291;1.4310;0.0973
-Lateral superior jugular node.r;lymphatiques;autres;lateral superior jugular node;droit;lymphatique;os:tête et cou;0.43;430;840;-0.0304;1.4310;0.0960
-Lateral vesical nodes.l;lymphatiques;autres;lateral vesical nodes;gauche;lymphatique;os:bassin;0.31;516;1008;0.0297;0.7997;0.0858
-Lateral vesical nodes.r;lymphatiques;autres;lateral vesical nodes;droit;lymphatique;os:bassin;0.30;516;1008;-0.0294;0.7994;0.0859
+Lateral pectoral nerve.l;nerfs;nerfs;lateral pectoral nerve;gauche;;os lissé;0.00;3660;7200;0.1122;1.2525;0.1674
+Lateral pectoral nerve.r;nerfs;nerfs;lateral pectoral nerve;droit;;os lissé;0.00;3660;7200;-0.1134;1.2521;0.1680
+Lateral pericardial nodes;lymphatiques;lymphatique;lateral pericardial nodes;;lymphatique;os:thorax;0.15;344;672;-0.0323;1.2051;0.1298
+Lateral plantar nerve.l;nerfs;nerfs;lateral plantar nerve;gauche;;os lissé;0.00;588;1152;0.0702;-0.0273;0.0946
+Lateral plantar nerve.r;nerfs;nerfs;lateral plantar nerve;droit;;os lissé;0.00;588;1152;-0.0692;-0.0276;0.0944
+Lateral sacral nodes.l;lymphatiques;lymphatique;lateral sacral nodes;gauche;lymphatique;os:bassin;0.23;430;840;0.0236;0.8605;0.0276
+Lateral sacral nodes.r;lymphatiques;lymphatique;lateral sacral nodes;droit;lymphatique;os:bassin;0.32;430;840;-0.0243;0.8602;0.0277
+Lateral superior jugular node.l;lymphatiques;lymphatique;lateral superior jugular node;gauche;lymphatique;os:tête et cou;0.35;430;840;0.0291;1.4310;0.0973
+Lateral superior jugular node.r;lymphatiques;lymphatique;lateral superior jugular node;droit;lymphatique;os:tête et cou;0.43;430;840;-0.0304;1.4310;0.0960
+Lateral vesical nodes.l;lymphatiques;lymphatique;lateral vesical nodes;gauche;lymphatique;os:bassin;0.31;516;1008;0.0297;0.7997;0.0858
+Lateral vesical nodes.r;lymphatiques;lymphatique;lateral vesical nodes;droit;lymphatique;os:bassin;0.30;516;1008;-0.0294;0.7994;0.0859
 Latissimus dorsi muscle.l;muscles-dos;muscles;latissimus dorsi muscle;gauche;;muscles-dos;0.11;10796;21580;0.0816;1.0824;0.0273
 Latissimus dorsi muscle.r;muscles-dos;muscles;latissimus dorsi muscle;droit;;muscles-dos;0.11;10796;21580;-0.0826;1.0819;0.0278
-Left colic nodes;lymphatiques;autres;left colic nodes;;lymphatique;os:thorax;0.00;258;504;0.0439;1.0012;0.1253
+Left colic nodes;lymphatiques;lymphatique;left colic nodes;;lymphatique;os:thorax;0.00;258;504;0.0439;1.0012;0.1253
 Lesser omentum;abdomen;autres;lesser omentum;;enveloppe;abdomen;0.30;2382;4760;0.0029;1.0999;0.1530
 Lingual gyrus.l;encephale;autres;lingual gyrus;gauche;;encephale;0.39;841;1658;0.0104;1.5376;0.0196
 Lingual gyrus.r;encephale;autres;lingual gyrus;droit;;encephale;0.37;841;1658;-0.0115;1.5373;0.0195
+Lingual nerve.l;nerfs;nerfs;lingual nerve;gauche;;os lissé;0.00;1332;2612;0.0201;1.4640;0.1209
+Lingual nerve.r;nerfs;nerfs;lingual nerve;droit;;os lissé;0.00;1332;2612;-0.0224;1.4640;0.1199
 Lingula of cerebellum;cervelet;autres;lingula of cerebellum;;;cervelet;0.89;530;1028;-0.0003;1.5225;0.0621
+Long thoracic nerve.l;nerfs;nerfs;long thoracic nerve;gauche;;os lissé;0.00;2040;4032;0.0974;1.2755;0.0739
+Long thoracic nerve.r;nerfs;nerfs;long thoracic nerve;droit;;os lissé;0.00;2040;4032;-0.0989;1.2752;0.0743
 Longus colli muscle.r;muscles-cou;muscles;longus colli muscle;droit;;muscles-cou;0.52;3154;6294;-0.0133;1.4016;0.0852
 Lunate sulcus.l;encephale;autres;lunate sulcus;gauche;;encephale;0.53;195;382;0.0320;1.5445;0.0072
 Lunate sulcus.r;encephale;autres;lunate sulcus;droit;;encephale;0.55;195;382;-0.0333;1.5435;0.0070
-Lymph node;lymphatiques;autres;lymph node;;lymphatique;similitude globale;0.00;86;168;0.0000;-0.0757;0.1112
+Lymph node;lymphatiques;lymphatique;lymph node;;lymphatique;similitude globale;0.00;86;168;0.0000;-0.0757;0.1112
 Malleus.l;osselets-gauches;os;malleus;gauche;;osselets-gauches;0.00;1993;3982;0.0494;1.5096;0.0908
 Malleus.r;osselets-droits;os;malleus;droit;;osselets-droits;0.00;1993;3982;-0.0505;1.5086;0.0907
-Mandibular node.l;lymphatiques;autres;mandibular node;gauche;lymphatique;os:tête et cou;0.55;258;504;0.0185;1.4392;0.1635
-Mandibular node.r;lymphatiques;autres;mandibular node;droit;lymphatique;os:tête et cou;0.37;258;504;-0.0228;1.4392;0.1625
-Medial common iliac nodes;lymphatiques;autres;medial common iliac nodes;;lymphatique;os:bassin;0.11;516;1008;-0.0028;0.9436;0.1040
-Medial external iliac nodes.l;lymphatiques;autres;medial external iliac nodes;gauche;lymphatique;os:bassin;0.07;688;1344;0.0292;0.8811;0.0975
-Medial external iliac nodes.r;lymphatiques;autres;medial external iliac nodes;droit;lymphatique;os:bassin;0.08;688;1344;-0.0298;0.8808;0.0977
+Mandibular node.l;lymphatiques;lymphatique;mandibular node;gauche;lymphatique;os:tête et cou;0.55;258;504;0.0185;1.4392;0.1635
+Mandibular node.r;lymphatiques;lymphatique;mandibular node;droit;lymphatique;os:tête et cou;0.37;258;504;-0.0228;1.4392;0.1625
+Maxillary nerve.l;nerfs;nerfs;maxillary nerve;gauche;;os lissé;0.00;4068;7876;0.0215;1.4968;0.1473
+Maxillary nerve.r;nerfs;nerfs;maxillary nerve;droit;;os lissé;0.00;4068;7876;-0.0249;1.4968;0.1462
+Medial antebrachial cutaneous nerve.l;nerfs;nerfs;medial antebrachial cutaneous nerve;gauche;;os lissé;0.00;876;1728;0.1717;1.1918;0.0893
+Medial antebrachial cutaneous nerve.r;nerfs;nerfs;medial antebrachial cutaneous nerve;droit;;os lissé;0.00;876;1728;-0.1730;1.1919;0.0893
+Medial brachial cutaneous nerve.l;nerfs;nerfs;medial brachial cutaneous nerve;gauche;;os lissé;0.00;876;1728;0.1517;1.2321;0.0787
+Medial brachial cutaneous nerve.r;nerfs;nerfs;medial brachial cutaneous nerve;droit;;os lissé;0.00;876;1728;-0.1529;1.2320;0.0789
+Medial common iliac nodes;lymphatiques;lymphatique;medial common iliac nodes;;lymphatique;os:bassin;0.11;516;1008;-0.0028;0.9436;0.1040
+Medial crural cutaneous branches of saphenous nerve.l;nerfs;nerfs;medial crural cutaneous branches of saphenous nerve;gauche;;os lissé;0.00;300;576;0.0442;0.7577;0.1335
+Medial crural cutaneous branches of saphenous nerve.r;nerfs;nerfs;medial crural cutaneous branches of saphenous nerve;droit;;os lissé;0.00;300;576;-0.0433;0.7573;0.1335
+Medial dorsal cutaneous nerve of foot.l;nerfs;nerfs;medial dorsal cutaneous nerve of foot;gauche;;os lissé;0.00;2064;4032;0.0912;-0.0069;0.1647
+Medial dorsal cutaneous nerve of foot.r;nerfs;nerfs;medial dorsal cutaneous nerve of foot;droit;;os lissé;0.00;2064;4032;-0.0891;-0.0071;0.1648
+Medial external iliac nodes.l;lymphatiques;lymphatique;medial external iliac nodes;gauche;lymphatique;os:bassin;0.07;688;1344;0.0292;0.8811;0.0975
+Medial external iliac nodes.r;lymphatiques;lymphatique;medial external iliac nodes;droit;lymphatique;os:bassin;0.08;688;1344;-0.0298;0.8808;0.0977
 Medial occipitotemporal gyrus (Parahippocampal*).l;encephale;autres;medial occipitotemporal gyrus (parahippocampal);gauche;;encephale;0.58;477;858;0.0262;1.5310;0.0820
 Medial occipitotemporal gyrus (Parahippocampal*).r;encephale;autres;medial occipitotemporal gyrus (parahippocampal);droit;;encephale;0.57;477;858;-0.0276;1.5302;0.0818
+Medial pectoral nerve.l;nerfs;nerfs;medial pectoral nerve;gauche;;os lissé;0.00;1032;2016;0.0818;1.3093;0.1230
+Medial pectoral nerve.r;nerfs;nerfs;medial pectoral nerve;droit;;os lissé;0.00;1032;2016;-0.0832;1.3090;0.1234
+Medial plantar nerve.l;nerfs;nerfs;medial plantar nerve;gauche;;os lissé;0.00;600;1152;0.0667;-0.0186;0.1129
+Medial plantar nerve.r;nerfs;nerfs;medial plantar nerve;droit;;os lissé;0.00;600;1152;-0.0655;-0.0189;0.1126
 Medial pterygoid muscle.l;muscles-tete;muscles;medial pterygoid muscle;gauche;;muscles-tete;0.19;249;496;0.0297;1.4749;0.1162
 Medial pterygoid muscle.r;muscles-tete;muscles;medial pterygoid muscle;droit;;muscles-tete;0.32;249;496;-0.0275;1.4737;0.1155
-Median sacral nodes;lymphatiques;autres;median sacral nodes;;lymphatique;os:bassin;0.37;344;672;-0.0001;0.8967;0.0826
-Middle colic nodes;lymphatiques;autres;middle colic nodes;;lymphatique;os:thorax;0.18;258;504;-0.0405;1.0336;0.1372
+Medial sural cutaneous nerve.l;nerfs;nerfs;medial sural cutaneous nerve;gauche;;os lissé;0.00;156;288;0.0674;0.4137;0.0406
+Medial sural cutaneous nerve.r;nerfs;nerfs;medial sural cutaneous nerve;droit;;os lissé;0.00;156;288;-0.0679;0.4134;0.0401
+Median nerve.l;nerfs;nerfs;median nerve;gauche;;os lissé;0.00;2604;5184;0.2057;1.0410;0.0959
+Median nerve.r;nerfs;nerfs;median nerve;droit;;os lissé;0.00;2604;5184;-0.2077;1.0413;0.0954
+Median sacral nodes;lymphatiques;lymphatique;median sacral nodes;;lymphatique;os:bassin;0.37;344;672;-0.0001;0.8967;0.0826
+Meningeal branch of maxillary nerve.l;nerfs;nerfs;meningeal branch of maxillary nerve;gauche;;os lissé;0.00;3132;6108;0.0599;1.5313;0.0918
+Meningeal branch of maxillary nerve.r;nerfs;nerfs;meningeal branch of maxillary nerve;droit;;os lissé;0.00;3132;6108;-0.0608;1.5314;0.0891
+Mental nerve.l;nerfs;nerfs;mental nerve;gauche;;os lissé;0.00;1404;2652;0.0187;1.4369;0.1586
+Mental nerve.r;nerfs;nerfs;mental nerve;droit;;os lissé;0.00;1404;2652;-0.0227;1.4370;0.1576
+Middle colic nodes;lymphatiques;lymphatique;middle colic nodes;;lymphatique;os:thorax;0.18;258;504;-0.0405;1.0336;0.1372
 Middle lobe of right lung;poumons;autres;middle lobe of right lung;;enveloppe;poumons;0.30;3708;7396;-0.0669;1.2057;0.1326
+Middle trunk of brachial plexus.l;nerfs;nerfs;middle trunk of brachial plexus;gauche;;os lissé;0.00;156;288;0.0661;1.3592;0.0741
+Middle trunk of brachial plexus.r;nerfs;nerfs;middle trunk of brachial plexus;droit;;os lissé;0.00;156;288;-0.0676;1.3589;0.0745
 Motor root of trigeminal nerve.l;encephale;autres;motor root of trigeminal nerve;gauche;;encephale;0.00;482;960;0.0072;1.5180;0.0777
 Motor root of trigeminal nerve.r;encephale;autres;motor root of trigeminal nerve;droit;;encephale;0.00;482;960;-0.0083;1.5177;0.0776
 Mucosa of nasal cavity;pharynx;autres;mucosa of nasal cavity;;;pharynx;0.12;4860;9808;-0.0005;1.4974;0.1666
-Nasolabial node.l;lymphatiques;autres;nasolabial node;gauche;lymphatique;os:tête et cou;0.00;86;168;0.0186;1.4922;0.1692
-Nasolabial node.r;lymphatiques;autres;nasolabial node;droit;lymphatique;os:tête et cou;0.00;86;168;-0.0231;1.4922;0.1683
+Muscular branches of axillary nerve.l;nerfs;nerfs;muscular branches of axillary nerve;gauche;;os lissé;0.00;588;1152;0.1818;1.2876;0.0694
+Muscular branches of axillary nerve.r;nerfs;nerfs;muscular branches of axillary nerve;droit;;os lissé;0.00;588;1152;-0.1821;1.2878;0.0688
+Muscular branches of deep fibular nerve.l;nerfs;nerfs;muscular branches of deep fibular nerve;gauche;;os lissé;0.00;444;864;0.0932;0.0052;0.1070
+Muscular branches of deep fibular nerve.r;nerfs;nerfs;muscular branches of deep fibular nerve;droit;;os lissé;0.00;444;864;-0.0921;0.0049;0.1071
+Muscular branches of median nerve.l;nerfs;nerfs;muscular branches of median nerve;gauche;;os lissé;0.00;624;1152;0.2227;0.9703;0.0981
+Muscular branches of median nerve.r;nerfs;nerfs;muscular branches of median nerve;droit;;os lissé;0.00;624;1152;-0.2251;0.9709;0.0973
+Muscular branches of radial nerve.l;nerfs;nerfs;muscular branches of radial nerve;gauche;;os lissé;0.00;1356;2592;0.2399;1.0559;0.0605
+Muscular branches of radial nerve.r;nerfs;nerfs;muscular branches of radial nerve;droit;;os lissé;0.00;1356;2592;-0.2415;1.0565;0.0595
+Muscular branches of ulnar nerve.l;nerfs;nerfs;muscular branches of ulnar nerve;gauche;;os lissé;0.00;312;576;0.2005;0.9546;0.0825
+Muscular branches of ulnar nerve.r;nerfs;nerfs;muscular branches of ulnar nerve;droit;;os lissé;0.00;312;576;-0.2028;0.9549;0.0820
+Musculocutaneous nerve.l;nerfs;nerfs;musculocutaneous nerve;gauche;;os lissé;0.00;732;1440;0.2062;1.1319;0.0844
+Musculocutaneous nerve.r;nerfs;nerfs;musculocutaneous nerve;droit;;os lissé;0.00;732;1440;-0.2075;1.1323;0.0837
+Nasolabial node.l;lymphatiques;lymphatique;nasolabial node;gauche;lymphatique;os:tête et cou;0.00;86;168;0.0186;1.4922;0.1692
+Nasolabial node.r;lymphatiques;lymphatique;nasolabial node;droit;lymphatique;os:tête et cou;0.00;86;168;-0.0231;1.4922;0.1683
 Nasopharynx;pharynx;autres;nasopharynx;;;pharynx;0.30;978;1952;-0.0008;1.4970;0.1119
+Nerve to mylohyoid muscle.l;nerfs;nerfs;nerve to mylohyoid muscle;gauche;;os lissé;0.00;1800;3496;0.0209;1.4445;0.1276
+Nerve to mylohyoid muscle.r;nerfs;nerfs;nerve to mylohyoid muscle;droit;;os lissé;0.00;1800;3496;-0.0235;1.4445;0.1266
+Nerve to piriformis muscle.l;nerfs;nerfs;nerve to piriformis muscle;gauche;;os lissé;0.00;744;1440;0.0394;0.8546;0.0417
+Nerve to piriformis muscle.r;nerfs;nerfs;nerve to piriformis muscle;droit;;os lissé;0.00;744;1440;-0.0400;0.8542;0.0417
+Nerve to quadratus femoris muscle.l;nerfs;nerfs;nerve to quadratus femoris muscle;gauche;;os lissé;0.00;2208;4320;0.0573;0.8371;0.0586
+Nerve to quadratus femoris muscle.r;nerfs;nerfs;nerve to quadratus femoris muscle;droit;;os lissé;0.00;2208;4320;-0.0578;0.8367;0.0586
 Neurohypophysis;endocrines;autres;neurohypophysis;;;endocrines;1.00;325;592;-0.0007;1.5276;0.1027
 Nodule of vermis;cervelet;autres;nodule of vermis;;;cervelet;0.43;512;1012;-0.0004;1.5087;0.0545
-Obturator nodes.l;lymphatiques;autres;obturator nodes;gauche;lymphatique;os:bassin;0.00;344;672;0.0478;0.8274;0.0679
-Obturator nodes.r;lymphatiques;autres;obturator nodes;droit;lymphatique;os:bassin;0.00;344;672;-0.0479;0.8269;0.0681
-Occipital nodes.l;lymphatiques;autres;occipital nodes;gauche;lymphatique;os:tête et cou;0.00;172;336;0.0344;1.5167;0.0004
-Occipital nodes.r;lymphatiques;autres;occipital nodes;droit;lymphatique;os:tête et cou;0.00;172;336;-0.0311;1.5167;-0.0011
+Obturator nerve.l;nerfs;nerfs;obturator nerve;gauche;;os lissé;0.00;1764;3456;0.0469;0.9166;0.0757
+Obturator nerve.r;nerfs;nerfs;obturator nerve;droit;;os lissé;0.00;1764;3456;-0.0478;0.9162;0.0758
+Obturator nodes.l;lymphatiques;lymphatique;obturator nodes;gauche;lymphatique;os:bassin;0.00;344;672;0.0478;0.8274;0.0679
+Obturator nodes.r;lymphatiques;lymphatique;obturator nodes;droit;lymphatique;os:bassin;0.00;344;672;-0.0479;0.8269;0.0681
+Occipital nodes.l;lymphatiques;lymphatique;occipital nodes;gauche;lymphatique;os:tête et cou;0.00;172;336;0.0344;1.5167;0.0004
+Occipital nodes.r;lymphatiques;lymphatique;occipital nodes;droit;lymphatique;os:tête et cou;0.00;172;336;-0.0311;1.5167;-0.0011
 Occipital pole.l;encephale;autres;occipital pole;gauche;;encephale;0.34;479;954;0.0176;1.5318;0.0005
 Occipital pole.r;encephale;autres;occipital pole;droit;;encephale;0.37;479;954;-0.0184;1.5313;0.0004
+Oculomotor nerve (III).l;nerfs;nerfs;oculomotor nerve (iii);gauche;;os lissé;0.17;4572;8780;0.0155;1.5258;0.1202
+Oculomotor nerve (III).r;nerfs;nerfs;oculomotor nerve (iii);droit;;os lissé;0.18;4572;8780;-0.0177;1.5259;0.1195
+Olfactory nerve (I).l;nerfs;nerfs;olfactory nerve (i);gauche;;os lissé;0.01;14076;26956;0.0015;1.5298;0.1464
+Olfactory nerve (I).r;nerfs;nerfs;olfactory nerve (i);droit;;os lissé;0.01;14076;26956;-0.0049;1.5298;0.1462
 Olive.r;encephale;autres;olive;droit;;encephale;0.56;482;960;-0.0084;1.4981;0.0731
 Orbital gyri (Frontomarginal gyrus and sulcus*).l;encephale;autres;orbital gyri (frontomarginal gyrus and sulcus);gauche;;encephale;0.50;330;656;0.0250;1.5646;0.1575
 Orbital gyri (Frontomarginal gyrus and sulcus*).r;encephale;autres;orbital gyri (frontomarginal gyrus and sulcus);droit;;encephale;0.48;330;656;-0.0281;1.5638;0.1573
@@ -177,29 +330,67 @@ Orbital sulci (Lateral Orbital sulcus*).l;encephale;autres;orbital sulci (latera
 Orbital sulci (Lateral Orbital sulcus*).r;encephale;autres;orbital sulci (lateral orbital sulcus);droit;;encephale;0.39;102;200;-0.0495;1.5631;0.1380
 Palatine tonsil.l;pharynx;autres;palatine tonsil;gauche;;pharynx;0.37;86;168;0.0271;1.4850;0.1157
 Palatine tonsil.r;pharynx;autres;palatine tonsil;droit;;pharynx;0.34;86;168;-0.0287;1.4850;0.1160
-Paracolic superior mesenteric nodes;lymphatiques;autres;paracolic superior mesenteric nodes;;lymphatique;os:bassin;0.18;1462;2856;0.0101;0.9802;0.1210
-Pararectal nodes;lymphatiques;autres;pararectal nodes;;lymphatique;os:bassin;0.43;516;1008;0.0009;0.7655;0.0327
-Paratracheal cervical nodes;lymphatiques;autres;paratracheal cervical nodes;;lymphatique;os:thorax;0.17;516;1008;-0.0011;1.3663;0.1027
-Paratracheal thoracic nodes;lymphatiques;autres;paratracheal thoracic nodes;;lymphatique;os:thorax;0.58;860;1680;-0.0011;1.3220;0.0926
+Palmar branch of median nerve.l;nerfs;nerfs;palmar branch of median nerve;gauche;;os lissé;0.00;588;1152;0.2629;0.8061;0.1350
+Palmar branch of median nerve.r;nerfs;nerfs;palmar branch of median nerve;droit;;os lissé;0.00;588;1152;-0.2666;0.8070;0.1341
+Palmar branch of ulnar nerve.l;nerfs;nerfs;palmar branch of ulnar nerve;gauche;;os lissé;0.00;588;1152;0.2468;0.8202;0.1294
+Palmar branch of ulnar nerve.r;nerfs;nerfs;palmar branch of ulnar nerve;droit;;os lissé;0.00;588;1152;-0.2504;0.8209;0.1285
+Paracolic superior mesenteric nodes;lymphatiques;lymphatique;paracolic superior mesenteric nodes;;lymphatique;os:bassin;0.18;1462;2856;0.0101;0.9802;0.1210
+Pararectal nodes;lymphatiques;lymphatique;pararectal nodes;;lymphatique;os:bassin;0.43;516;1008;0.0009;0.7655;0.0327
+Paratracheal cervical nodes;lymphatiques;lymphatique;paratracheal cervical nodes;;lymphatique;os:thorax;0.17;516;1008;-0.0011;1.3663;0.1027
+Paratracheal thoracic nodes;lymphatiques;lymphatique;paratracheal thoracic nodes;;lymphatique;os:thorax;0.58;860;1680;-0.0011;1.3220;0.0926
 Parotid gland.l;pharynx;autres;parotid gland;gauche;;pharynx;0.08;854;1704;0.0510;1.4832;0.1044
 Parotid gland.r;pharynx;autres;parotid gland;droit;;pharynx;0.07;854;1704;-0.0527;1.4833;0.1049
 Peduncle of flocculus.l;cervelet;autres;peduncle of flocculus;gauche;;cervelet;0.28;1216;2368;0.0177;1.5115;0.0624
 Peduncle of flocculus.r;cervelet;autres;peduncle of flocculus;droit;;cervelet;0.28;1216;2368;-0.0185;1.5109;0.0622
 Pleura;poumons;autres;pleura;;enveloppe;poumons;0.37;56160;112288;-0.0004;1.2124;0.1024
-Posterior axillary nodes.l;lymphatiques;autres;posterior axillary nodes;gauche;lymphatique;os:thorax;0.14;516;1008;0.1608;1.2816;0.0850
-Posterior axillary nodes.r;lymphatiques;autres;posterior axillary nodes;droit;lymphatique;os:thorax;0.36;516;1008;-0.1629;1.2811;0.0861
+Posterior antebrachial cutaneous nerve.l;nerfs;nerfs;posterior antebrachial cutaneous nerve;gauche;;os lissé;0.00;1308;2592;0.2500;0.9647;0.0674
+Posterior antebrachial cutaneous nerve.r;nerfs;nerfs;posterior antebrachial cutaneous nerve;droit;;os lissé;0.00;1308;2592;-0.2522;0.9654;0.0664
+Posterior axillary nodes.l;lymphatiques;lymphatique;posterior axillary nodes;gauche;lymphatique;os:thorax;0.14;516;1008;0.1608;1.2816;0.0850
+Posterior axillary nodes.r;lymphatiques;lymphatique;posterior axillary nodes;droit;lymphatique;os:thorax;0.36;516;1008;-0.1629;1.2811;0.0861
+Posterior branch of medial antebrachial cutaneous nerve.l;nerfs;nerfs;posterior branch of medial antebrachial cutaneous nerve;gauche;;os lissé;0.00;1164;2304;0.1966;0.9886;0.0753
+Posterior branch of medial antebrachial cutaneous nerve.r;nerfs;nerfs;posterior branch of medial antebrachial cutaneous nerve;droit;;os lissé;0.00;1164;2304;-0.1987;0.9889;0.0748
+Posterior branch of obturator nerve.l;nerfs;nerfs;posterior branch of obturator nerve;gauche;;os lissé;0.00;588;1152;0.0511;0.7350;0.1082
+Posterior branch of obturator nerve.r;nerfs;nerfs;posterior branch of obturator nerve;droit;;os lissé;0.00;588;1152;-0.0506;0.7346;0.1078
+Posterior cord of brachial plexus.l;nerfs;nerfs;posterior cord of brachial plexus;gauche;;os lissé;0.00;300;576;0.1087;1.3184;0.0745
+Posterior cord of brachial plexus.r;nerfs;nerfs;posterior cord of brachial plexus;droit;;os lissé;0.00;300;576;-0.1099;1.3181;0.0748
+Posterior division of inferior trunk of brachial plexus.l;nerfs;nerfs;posterior division of inferior trunk of brachial plexus;gauche;;os lissé;0.00;156;288;0.0970;1.3360;0.0854
+Posterior division of inferior trunk of brachial plexus.r;nerfs;nerfs;posterior division of inferior trunk of brachial plexus;droit;;os lissé;0.00;156;288;-0.0981;1.3358;0.0858
+Posterior division of mandibular nerve.l;nerfs;nerfs;posterior division of mandibular nerve;gauche;;os lissé;0.00;468;884;0.0309;1.4924;0.1070
+Posterior division of mandibular nerve.r;nerfs;nerfs;posterior division of mandibular nerve;droit;;os lissé;0.00;468;884;-0.0325;1.4925;0.1055
+Posterior division of middle trunk of brachial plexus.l;nerfs;nerfs;posterior division of middle trunk of brachial plexus;gauche;;os lissé;0.00;156;288;0.0896;1.3391;0.0761
+Posterior division of middle trunk of brachial plexus.r;nerfs;nerfs;posterior division of middle trunk of brachial plexus;droit;;os lissé;0.00;156;288;-0.0908;1.3388;0.0765
+Posterior division of superior trunk of brachial plexus.l;nerfs;nerfs;posterior division of superior trunk of brachial plexus;gauche;;os lissé;0.00;156;288;0.0910;1.3380;0.0737
+Posterior division of superior trunk of brachial plexus.r;nerfs;nerfs;posterior division of superior trunk of brachial plexus;droit;;os lissé;0.00;156;288;-0.0922;1.3377;0.0740
+Posterior femoral cutaneous nerve.l;nerfs;nerfs;posterior femoral cutaneous nerve;gauche;;os lissé;0.00;1332;2592;0.0452;0.8060;0.0337
+Posterior femoral cutaneous nerve.r;nerfs;nerfs;posterior femoral cutaneous nerve;droit;;os lissé;0.00;1332;2592;-0.0457;0.8056;0.0336
+Posterior interosseous nerve of forearm.l;nerfs;nerfs;posterior interosseous nerve of forearm;gauche;;os lissé;0.00;876;1728;0.2450;0.9282;0.0870
+Posterior interosseous nerve of forearm.r;nerfs;nerfs;posterior interosseous nerve of forearm;droit;;os lissé;0.00;876;1728;-0.2476;0.9289;0.0861
 Posterior quadrangular lobule.l;cervelet;autres;posterior quadrangular lobule;gauche;;cervelet;0.50;1816;3618;0.0172;1.5217;0.0471
 Posterior quadrangular lobule.r;cervelet;autres;posterior quadrangular lobule;droit;;cervelet;0.59;1816;3618;-0.0181;1.5212;0.0470
-Postvesical nodes;lymphatiques;autres;postvesical nodes;;lymphatique;os:bassin;0.00;516;1008;0.0034;0.8057;0.0463
-Pre-aortic nodes;lymphatiques;autres;pre-aortic nodes;;lymphatique;os:thorax;0.02;430;840;-0.0074;1.0378;0.1300
-Pre-auricular nodes.l;lymphatiques;autres;pre-auricular nodes;gauche;lymphatique;os:tête et cou;0.00;258;504;0.0626;1.5152;0.1055
-Pre-auricular nodes.r;lymphatiques;autres;pre-auricular nodes;droit;lymphatique;os:tête et cou;0.01;258;504;-0.0641;1.5153;0.1026
-Precaecal nodes;lymphatiques;autres;precaecal nodes;;lymphatique;os:bassin;0.00;172;336;-0.0802;0.9126;0.1269
-Precaval nodes;lymphatiques;autres;precaval nodes;;lymphatique;os:thorax;0.38;430;840;-0.0075;1.0394;0.1325
+Posterior root of posterior femoral cutaneous nerve.l;nerfs;nerfs;posterior root of posterior femoral cutaneous nerve;gauche;;os lissé;0.00;2052;4032;0.0332;0.8842;0.0230
+Posterior root of posterior femoral cutaneous nerve.r;nerfs;nerfs;posterior root of posterior femoral cutaneous nerve;droit;;os lissé;0.00;2052;4032;-0.0341;0.8838;0.0231
+Posterior root of spinal nerve.l;nerfs;nerfs;posterior root of spinal nerve;gauche;;os lissé;0.00;3276;6048;0.0069;1.2714;0.0509
+Posterior root of spinal nerve.r;nerfs;nerfs;posterior root of spinal nerve;droit;;os lissé;0.00;3276;6048;-0.0084;1.2714;0.0509
+Postvesical nodes;lymphatiques;lymphatique;postvesical nodes;;lymphatique;os:bassin;0.00;516;1008;0.0034;0.8057;0.0463
+Pre-aortic nodes;lymphatiques;lymphatique;pre-aortic nodes;;lymphatique;os:thorax;0.02;430;840;-0.0074;1.0378;0.1300
+Pre-auricular nodes.l;lymphatiques;lymphatique;pre-auricular nodes;gauche;lymphatique;os:tête et cou;0.00;258;504;0.0626;1.5152;0.1055
+Pre-auricular nodes.r;lymphatiques;lymphatique;pre-auricular nodes;droit;lymphatique;os:tête et cou;0.01;258;504;-0.0641;1.5153;0.1026
+Precaecal nodes;lymphatiques;lymphatique;precaecal nodes;;lymphatique;os:bassin;0.00;172;336;-0.0802;0.9126;0.1269
+Precaval nodes;lymphatiques;lymphatique;precaval nodes;;lymphatique;os:thorax;0.38;430;840;-0.0075;1.0394;0.1325
 Precentral sulcus (inferior part)*.r;encephale;autres;precentral sulcus (inferior part);droit;;encephale;0.58;391;780;-0.0440;1.5870;0.1000
-Prepericardial nodes;lymphatiques;autres;prepericardial nodes;;lymphatique;os:thorax;0.00;344;672;-0.0267;1.3164;0.1290
-Prevertebral nodes;lymphatiques;autres;prevertebral nodes;;lymphatique;os:thorax;0.19;860;1680;-0.0009;1.2532;0.0736
-Prevesical nodes;lymphatiques;autres;prevesical nodes;;lymphatique;os:bassin;0.00;258;504;0.0009;0.7966;0.1139
+Prepericardial nodes;lymphatiques;lymphatique;prepericardial nodes;;lymphatique;os:thorax;0.00;344;672;-0.0267;1.3164;0.1290
+Prevertebral nodes;lymphatiques;lymphatique;prevertebral nodes;;lymphatique;os:thorax;0.19;860;1680;-0.0009;1.2532;0.0736
+Prevesical nodes;lymphatiques;lymphatique;prevesical nodes;;lymphatique;os:bassin;0.00;258;504;0.0009;0.7966;0.1139
+Proper palmar digital branches of median nerve.l;nerfs;nerfs;proper palmar digital branches of median nerve;gauche;;os lissé;0.00;5556;10944;0.2986;0.6831;0.1673
+Proper palmar digital branches of median nerve.r;nerfs;nerfs;proper palmar digital branches of median nerve;droit;;os lissé;0.00;5556;10944;-0.3033;0.6842;0.1662
+Proper palmar digital branches of ulnar nerve.l;nerfs;nerfs;proper palmar digital branches of ulnar nerve;gauche;;os lissé;0.00;2916;5760;0.2463;0.6965;0.1572
+Proper palmar digital branches of ulnar nerve.r;nerfs;nerfs;proper palmar digital branches of ulnar nerve;droit;;os lissé;0.00;2916;5760;-0.2496;0.6970;0.1571
+Proper plantar digital branches of lateral plantar nerve.l;nerfs;nerfs;proper plantar digital branches of lateral plantar nerve;gauche;;os lissé;0.00;3804;7488;0.1387;-0.0431;0.2021
+Proper plantar digital branches of lateral plantar nerve.r;nerfs;nerfs;proper plantar digital branches of lateral plantar nerve;droit;;os lissé;0.00;3804;7488;-0.1360;-0.0434;0.2030
+Proper plantar digital branches of medial plantar nerve.l;nerfs;nerfs;proper plantar digital branches of medial plantar nerve;gauche;;os lissé;0.00;3228;6336;0.1057;-0.0422;0.2230
+Proper plantar digital branches of medial plantar nerve.r;nerfs;nerfs;proper plantar digital branches of medial plantar nerve;droit;;os lissé;0.00;3228;6336;-0.1027;-0.0425;0.2233
+Pudendal nerve.l;nerfs;nerfs;pudendal nerve;gauche;;os lissé;0.00;1908;3744;0.0200;0.8191;0.0308
+Pudendal nerve.r;nerfs;nerfs;pudendal nerve;droit;;os lissé;0.00;1908;3744;-0.0203;0.8189;0.0308
 Pyramid of medulla oblongata.l;encephale;autres;pyramid of medulla oblongata;gauche;;encephale;0.57;482;960;0.0030;1.4976;0.0776
 Pyramid of medulla oblongata.r;encephale;autres;pyramid of medulla oblongata;droit;;encephale;0.56;482;960;-0.0035;1.4975;0.0775
 Pyramidalis muscle.l;muscles-abdomen;muscles;pyramidalis muscle;gauche;;muscles-abdomen;0.34;554;1112;0.0138;0.8124;0.1525
@@ -207,77 +398,115 @@ Pyramidalis muscle.r;muscles-abdomen;muscles;pyramidalis muscle;droit;;muscles-a
 Pyramis of vermis;cervelet;autres;pyramis of vermis;;;cervelet;0.51;593;1182;-0.0001;1.5030;0.0369
 Quadratus lumborum muscle.l;muscles-abdomen;muscles;quadratus lumborum muscle;gauche;;muscles-abdomen;0.11;1416;2832;0.0402;0.9882;0.0392
 Quadratus lumborum muscle.r;muscles-abdomen;muscles;quadratus lumborum muscle;droit;;muscles-abdomen;0.10;1416;2832;-0.0407;0.9883;0.0391
+Radial nerve.l;nerfs;nerfs;radial nerve;gauche;;os lissé;0.00;1164;2304;0.2015;1.1588;0.0718
+Radial nerve.r;nerfs;nerfs;radial nerve;droit;;os lissé;0.00;1164;2304;-0.2027;1.1591;0.0712
 Rectus abdominis muscle.l;muscles-abdomen;muscles;rectus abdominis muscle;gauche;;muscles-abdomen;0.25;10304;20604;0.0408;1.0421;0.1912
 Rectus abdominis muscle.r;muscles-abdomen;muscles;rectus abdominis muscle;droit;;muscles-abdomen;0.22;10304;20604;-0.0416;1.0422;0.1911
 Red nucleus.l;encephale;autres;red nucleus;gauche;;encephale;0.36;354;704;0.0040;1.5389;0.0891
 Red nucleus.r;encephale;autres;red nucleus;droit;;encephale;0.28;354;704;-0.0058;1.5387;0.0891
 Renal pelvis.l;abdomen;autres;renal pelvis;gauche;;abdomen;0.23;732;1450;0.0614;1.0414;0.0813
 Renal pelvis.r;abdomen;autres;renal pelvis;droit;;abdomen;0.23;638;1262;-0.0577;1.0300;0.0895
-Retro-aortic nodes;lymphatiques;autres;retro-aortic nodes;;lymphatique;os:thorax;0.20;430;840;0.0082;1.0266;0.1110
-Retrocaecal nodes;lymphatiques;autres;retrocaecal nodes;;lymphatique;os:bassin;0.00;258;504;-0.0598;0.9023;0.0895
-Retrocaval nodes;lymphatiques;autres;retrocaval nodes;;lymphatique;os:thorax;0.04;430;840;-0.0076;1.0357;0.1129
-Right gastric nodes;lymphatiques;autres;right gastric nodes;;lymphatique;os:thorax;0.19;430;840;-0.0118;1.0887;0.1676
-Right gastro-omental nodes;lymphatiques;autres;right gastro-omental nodes;;lymphatique;os:thorax;0.11;602;1176;-0.0203;1.1066;0.1717
+Retro-aortic nodes;lymphatiques;lymphatique;retro-aortic nodes;;lymphatique;os:thorax;0.20;430;840;0.0082;1.0266;0.1110
+Retrocaecal nodes;lymphatiques;lymphatique;retrocaecal nodes;;lymphatique;os:bassin;0.00;258;504;-0.0598;0.9023;0.0895
+Retrocaval nodes;lymphatiques;lymphatique;retrocaval nodes;;lymphatique;os:thorax;0.04;430;840;-0.0076;1.0357;0.1129
+Right gastric nodes;lymphatiques;lymphatique;right gastric nodes;;lymphatique;os:thorax;0.19;430;840;-0.0118;1.0887;0.1676
+Right gastro-omental nodes;lymphatiques;lymphatique;right gastro-omental nodes;;lymphatique;os:thorax;0.11;602;1176;-0.0203;1.1066;0.1717
+Roots of brachial plexus.l;nerfs;nerfs;roots of brachial plexus;gauche;;os lissé;0.00;2388;4608;0.0295;1.3882;0.0765
+Roots of brachial plexus.r;nerfs;nerfs;roots of brachial plexus;droit;;os lissé;0.00;2388;4608;-0.0311;1.3881;0.0763
+Saphenous nerve.l;nerfs;nerfs;saphenous nerve;gauche;;os lissé;0.00;3360;6624;0.0533;0.3357;0.0846
+Saphenous nerve.r;nerfs;nerfs;saphenous nerve;droit;;os lissé;0.00;3360;6624;-0.0529;0.3354;0.0841
+Sciatic nerve.l;nerfs;nerfs;sciatic nerve;gauche;;os lissé;0.00;2484;4896;0.0473;0.7990;0.0491
+Sciatic nerve.r;nerfs;nerfs;sciatic nerve;droit;;os lissé;0.00;2484;4896;-0.0478;0.7986;0.0490
 Sensory root of trigeminal nerve.l;encephale;autres;sensory root of trigeminal nerve;gauche;;encephale;0.18;1378;2752;0.0045;1.5121;0.0736
 Sensory root of trigeminal nerve.r;encephale;autres;sensory root of trigeminal nerve;droit;;encephale;0.19;1378;2752;-0.0054;1.5120;0.0735
 Sigmoid colon;abdomen;autres;sigmoid colon;;;abdomen;0.16;1716;3432;-0.0051;0.8041;0.0515
-Sigmoid nodes;lymphatiques;autres;sigmoid nodes;;lymphatique;os:bassin;0.09;516;1008;0.0399;0.9408;0.1006
+Sigmoid nodes;lymphatiques;lymphatique;sigmoid nodes;;lymphatique;os:bassin;0.09;516;1008;0.0399;0.9408;0.1006
 Soft palate;pharynx;autres;soft palate;;;pharynx;0.34;1884;3764;-0.0008;1.4787;0.1203
 Spinal dura;moelle;autres;spinal dura;;enveloppe;moelle;0.09;18104;35002;-0.0008;1.2618;0.0507
 Spinal ganglion.l;moelle;autres;spinal ganglion;gauche;;moelle;0.11;882;1680;0.0131;1.2681;0.0548
 Spinal ganglion.r;moelle;autres;spinal ganglion;droit;;moelle;0.16;882;1680;-0.0146;1.2680;0.0548
-Splenic nodes;lymphatiques;autres;splenic nodes;;lymphatique;os:thorax;0.06;258;504;0.0854;1.0892;0.1024
+Splenic nodes;lymphatiques;lymphatique;splenic nodes;;lymphatique;os:thorax;0.06;258;504;0.0854;1.0892;0.1024
 Stapes.l;osselets-gauches;os;stapes;gauche;;osselets-gauches;0.00;2171;4342;0.0437;1.5081;0.0897
 Stapes.r;osselets-droits;os;stapes;droit;;osselets-droits;0.00;2171;4342;-0.0448;1.5072;0.0896
-Subaortic nodes;lymphatiques;autres;subaortic nodes;;lymphatique;os:bassin;0.00;258;504;0.0043;0.9590;0.1179
-Submandibular nodes.l;lymphatiques;autres;submandibular nodes;gauche;lymphatique;os:tête et cou;0.23;258;504;0.0043;1.4267;0.1426
-Submandibular nodes.r;lymphatiques;autres;submandibular nodes;droit;lymphatique;os:tête et cou;0.23;258;504;-0.0076;1.4267;0.1423
-Superficial anterior cervical nodes;lymphatiques;autres;superficial anterior cervical nodes;;lymphatique;os:thorax;0.00;516;1008;-0.0010;1.3583;0.1387
-Superficial lateral cervical nodes.l;lymphatiques;autres;superficial lateral cervical nodes;gauche;lymphatique;os:tête et cou;0.34;516;1008;0.0526;1.3943;0.0781
-Superficial lateral cervical nodes.r;lymphatiques;autres;superficial lateral cervical nodes;droit;lymphatique;os:tête et cou;0.23;516;1008;-0.0530;1.3944;0.0757
-Superficial parotid nodes.l;lymphatiques;autres;superficial parotid nodes;gauche;lymphatique;os:tête et cou;0.00;258;504;0.0514;1.4759;0.1023
-Superficial parotid nodes.r;lymphatiques;autres;superficial parotid nodes;droit;lymphatique;os:tête et cou;0.17;258;504;-0.0528;1.4760;0.1000
+Subaortic nodes;lymphatiques;lymphatique;subaortic nodes;;lymphatique;os:bassin;0.00;258;504;0.0043;0.9590;0.1179
+Subclavian nerve.l;nerfs;nerfs;subclavian nerve;gauche;;os lissé;0.00;444;864;0.0574;1.3490;0.1034
+Subclavian nerve.r;nerfs;nerfs;subclavian nerve;droit;;os lissé;0.00;444;864;-0.0588;1.3487;0.1037
+Submandibular nodes.l;lymphatiques;lymphatique;submandibular nodes;gauche;lymphatique;os:tête et cou;0.23;258;504;0.0043;1.4267;0.1426
+Submandibular nodes.r;lymphatiques;lymphatique;submandibular nodes;droit;lymphatique;os:tête et cou;0.23;258;504;-0.0076;1.4267;0.1423
+Superficial anterior cervical nodes;lymphatiques;lymphatique;superficial anterior cervical nodes;;lymphatique;os:thorax;0.00;516;1008;-0.0010;1.3583;0.1387
+Superficial branch of radial nerve.l;nerfs;nerfs;superficial branch of radial nerve;gauche;;os lissé;0.00;2208;4320;0.2779;0.8426;0.1203
+Superficial branch of radial nerve.r;nerfs;nerfs;superficial branch of radial nerve;droit;;os lissé;0.00;2208;4320;-0.2812;0.8436;0.1191
+Superficial branch of ulnar nerve.l;nerfs;nerfs;superficial branch of ulnar nerve;gauche;;os lissé;0.00;444;864;0.2501;0.7888;0.1353
+Superficial branch of ulnar nerve.r;nerfs;nerfs;superficial branch of ulnar nerve;droit;;os lissé;0.00;444;864;-0.2539;0.7895;0.1344
+Superficial fibular nerve.l;nerfs;nerfs;superficial fibular nerve;gauche;;os lissé;0.00;1596;3168;0.1086;0.1899;0.0694
+Superficial fibular nerve.r;nerfs;nerfs;superficial fibular nerve;droit;;os lissé;0.00;1596;3168;-0.1083;0.1896;0.0697
+Superficial lateral cervical nodes.l;lymphatiques;lymphatique;superficial lateral cervical nodes;gauche;lymphatique;os:tête et cou;0.34;516;1008;0.0526;1.3943;0.0781
+Superficial lateral cervical nodes.r;lymphatiques;lymphatique;superficial lateral cervical nodes;droit;lymphatique;os:tête et cou;0.23;516;1008;-0.0530;1.3944;0.0757
+Superficial parotid nodes.l;lymphatiques;lymphatique;superficial parotid nodes;gauche;lymphatique;os:tête et cou;0.00;258;504;0.0514;1.4759;0.1023
+Superficial parotid nodes.r;lymphatiques;lymphatique;superficial parotid nodes;droit;lymphatique;os:tête et cou;0.17;258;504;-0.0528;1.4760;0.1000
 Superficial part of masseter.l;muscles-tete;muscles;superficial part of masseter;gauche;;muscles-tete;0.19;702;1404;0.0510;1.4734;0.1289
 Superficial part of masseter.r;muscles-tete;muscles;superficial part of masseter;droit;;muscles-tete;0.08;702;1404;-0.0490;1.4713;0.1275
-Superficial popliteal nodes.l;lymphatiques;autres;superficial popliteal nodes;gauche;lymphatique;os:membre inférieur gauche;0.00;172;336;0.0726;0.4306;0.0555
-Superficial popliteal nodes.r;lymphatiques;autres;superficial popliteal nodes;droit;lymphatique;os:membre inférieur droit;0.00;172;336;-0.0728;0.4303;0.0551
+Superficial popliteal nodes.l;lymphatiques;lymphatique;superficial popliteal nodes;gauche;lymphatique;os:membre inférieur gauche;0.00;172;336;0.0726;0.4306;0.0555
+Superficial popliteal nodes.r;lymphatiques;lymphatique;superficial popliteal nodes;droit;lymphatique;os:membre inférieur droit;0.00;172;336;-0.0728;0.4303;0.0551
 Superior cerebellar peduncle.l;cervelet;autres;superior cerebellar peduncle;gauche;;cervelet;0.44;4344;8474;0.0072;1.5185;0.0612
 Superior cerebellar peduncle.r;cervelet;autres;superior cerebellar peduncle;droit;;cervelet;0.45;4344;8474;-0.0082;1.5183;0.0611
-Superior diaphragmatic nodes;lymphatiques;autres;superior diaphragmatic nodes;;lymphatique;os:thorax;0.26;516;1008;-0.0065;1.1651;0.1106
+Superior diaphragmatic nodes;lymphatiques;lymphatique;superior diaphragmatic nodes;;lymphatique;os:thorax;0.26;516;1008;-0.0065;1.1651;0.1106
 Superior frontal sulcus.l;encephale;autres;superior frontal sulcus;gauche;;encephale;0.51;647;1290;0.0202;1.6032;0.1079
 Superior frontal sulcus.r;encephale;autres;superior frontal sulcus;droit;;encephale;0.52;647;1290;-0.0240;1.6025;0.1077
-Superior gluteal nodes.l;lymphatiques;autres;superior gluteal nodes;gauche;lymphatique;os:bassin;0.11;344;672;0.0371;0.8739;0.0558
-Superior gluteal nodes.r;lymphatiques;autres;superior gluteal nodes;droit;lymphatique;os:bassin;0.10;344;672;-0.0378;0.8735;0.0560
+Superior gluteal nerve.l;nerfs;nerfs;superior gluteal nerve;gauche;;os lissé;0.00;1764;3456;0.0649;0.8779;0.0547
+Superior gluteal nerve.r;nerfs;nerfs;superior gluteal nerve;droit;;os lissé;0.00;1764;3456;-0.0657;0.8773;0.0549
+Superior gluteal nodes.l;lymphatiques;lymphatique;superior gluteal nodes;gauche;lymphatique;os:bassin;0.11;344;672;0.0371;0.8739;0.0558
+Superior gluteal nodes.r;lymphatiques;lymphatique;superior gluteal nodes;droit;lymphatique;os:bassin;0.10;344;672;-0.0378;0.8735;0.0560
 Superior head of lateral pterygoid muscle.l;muscles-tete;muscles;superior head of lateral pterygoid muscle;gauche;;muscles-tete;0.00;115;226;0.0344;1.5026;0.1107
 Superior head of lateral pterygoid muscle.r;muscles-tete;muscles;superior head of lateral pterygoid muscle;droit;;muscles-tete;0.00;115;226;-0.0332;1.5012;0.1098
+Superior lateral brachial cutaneous nerve.l;nerfs;nerfs;superior lateral brachial cutaneous nerve;gauche;;os lissé;0.00;1020;2016;0.1902;1.2595;0.0345
+Superior lateral brachial cutaneous nerve.r;nerfs;nerfs;superior lateral brachial cutaneous nerve;droit;;os lissé;0.00;1020;2016;-0.1905;1.2597;0.0339
 Superior lobe of left lung;poumons;autres;superior lobe of left lung;;enveloppe;poumons;0.29;4662;9290;0.0636;1.2520;0.1167
 Superior lobe of right lung;poumons;autres;superior lobe of right lung;;enveloppe;poumons;0.22;3902;7748;-0.0555;1.2735;0.0999
 Superior occipital gyri.l;encephale;autres;superior occipital gyri;gauche;;encephale;0.53;337;670;0.0159;1.5644;0.0013
 Superior occipital gyri.r;encephale;autres;superior occipital gyri;droit;;encephale;0.55;337;670;-0.0177;1.5639;0.0012
-Superior pancreatic nodes;lymphatiques;autres;superior pancreatic nodes;;lymphatique;os:thorax;0.10;344;672;0.0153;1.0708;0.1258
-Superior pancreaticoduodenal nodes;lymphatiques;autres;superior pancreaticoduodenal nodes;;lymphatique;os:thorax;0.50;258;504;-0.0383;1.0436;0.1333
+Superior pancreatic nodes;lymphatiques;lymphatique;superior pancreatic nodes;;lymphatique;os:thorax;0.10;344;672;0.0153;1.0708;0.1258
+Superior pancreaticoduodenal nodes;lymphatiques;lymphatique;superior pancreaticoduodenal nodes;;lymphatique;os:thorax;0.50;258;504;-0.0383;1.0436;0.1333
 Superior semilunar lobule.l;cervelet;autres;superior semilunar lobule;gauche;;cervelet;0.43;4368;8688;0.0242;1.5156;0.0331
 Superior semilunar lobule.r;cervelet;autres;superior semilunar lobule;droit;;cervelet;0.53;4368;8688;-0.0248;1.5149;0.0329
+Superior subscapular nerve.l;nerfs;nerfs;superior subscapular nerve;gauche;;os lissé;0.00;588;1152;0.0963;1.2932;0.0377
+Superior subscapular nerve.r;nerfs;nerfs;superior subscapular nerve;droit;;os lissé;0.00;588;1152;-0.0975;1.2929;0.0381
 Superior temporal gyrus (Lateral part).l;encephale;autres;superior temporal gyrus (lateral part);gauche;;encephale;0.59;538;1072;0.0567;1.5525;0.0843
 Superior temporal gyrus (Lateral part).r;encephale;autres;superior temporal gyrus (lateral part);droit;;encephale;0.53;538;1072;-0.0588;1.5508;0.0838
 Superior temporal sulcus.l;encephale;autres;superior temporal sulcus;gauche;;encephale;0.59;1189;2374;0.0481;1.5559;0.0509
 Superior temporal sulcus.r;encephale;autres;superior temporal sulcus;droit;;encephale;0.56;1189;2374;-0.0500;1.5544;0.0505
-Superior tracheobronchial nodes;lymphatiques;autres;superior tracheobronchial nodes;;lymphatique;os:thorax;0.52;430;840;-0.0027;1.3029;0.0882
-Superolateral superficial inguinal nodes.l;lymphatiques;autres;superolateral superficial inguinal nodes;gauche;lymphatique;os:bassin;0.00;258;504;0.0602;0.8154;0.1413
-Superolateral superficial inguinal nodes.r;lymphatiques;autres;superolateral superficial inguinal nodes;droit;lymphatique;os:bassin;0.00;258;504;-0.0598;0.8148;0.1416
-Superomedial superficial inguinal nodes.l;lymphatiques;autres;superomedial superficial inguinal nodes;gauche;lymphatique;os:bassin;0.03;258;504;0.0228;0.7933;0.1438
-Superomedial superficial inguinal nodes.r;lymphatiques;autres;superomedial superficial inguinal nodes;droit;lymphatique;os:bassin;0.02;258;504;-0.0222;0.7930;0.1439
-Supraclavicular nodes.l;lymphatiques;autres;supraclavicular nodes;gauche;lymphatique;os:thorax;0.02;344;672;0.0309;1.3427;0.1162
-Supraclavicular nodes.r;lymphatiques;autres;supraclavicular nodes;droit;lymphatique;os:thorax;0.00;344;672;-0.0329;1.3426;0.1164
-Supratrochlear nodes.l;lymphatiques;autres;supratrochlear nodes;gauche;lymphatique;os:membre supérieur gauche;0.43;430;840;0.1922;1.0504;0.0742
-Supratrochlear nodes.r;lymphatiques;autres;supratrochlear nodes;droit;lymphatique;os:membre supérieur droit;0.32;430;840;-0.1939;1.0508;0.0736
+Superior tracheobronchial nodes;lymphatiques;lymphatique;superior tracheobronchial nodes;;lymphatique;os:thorax;0.52;430;840;-0.0027;1.3029;0.0882
+Superior trunk of brachial plexus.l;nerfs;nerfs;superior trunk of brachial plexus;gauche;;os lissé;0.00;156;288;0.0687;1.3645;0.0782
+Superior trunk of brachial plexus.r;nerfs;nerfs;superior trunk of brachial plexus;droit;;os lissé;0.00;156;288;-0.0701;1.3642;0.0786
+Superolateral superficial inguinal nodes.l;lymphatiques;lymphatique;superolateral superficial inguinal nodes;gauche;lymphatique;os:bassin;0.00;258;504;0.0602;0.8154;0.1413
+Superolateral superficial inguinal nodes.r;lymphatiques;lymphatique;superolateral superficial inguinal nodes;droit;lymphatique;os:bassin;0.00;258;504;-0.0598;0.8148;0.1416
+Superomedial superficial inguinal nodes.l;lymphatiques;lymphatique;superomedial superficial inguinal nodes;gauche;lymphatique;os:bassin;0.03;258;504;0.0228;0.7933;0.1438
+Superomedial superficial inguinal nodes.r;lymphatiques;lymphatique;superomedial superficial inguinal nodes;droit;lymphatique;os:bassin;0.02;258;504;-0.0222;0.7930;0.1439
+Supraclavicular nodes.l;lymphatiques;lymphatique;supraclavicular nodes;gauche;lymphatique;os:thorax;0.02;344;672;0.0309;1.3427;0.1162
+Supraclavicular nodes.r;lymphatiques;lymphatique;supraclavicular nodes;droit;lymphatique;os:thorax;0.00;344;672;-0.0329;1.3426;0.1164
+Suprascapular nerve.l;nerfs;nerfs;suprascapular nerve;gauche;;os lissé;0.00;2508;4896;0.1099;1.3062;0.0394
+Suprascapular nerve.r;nerfs;nerfs;suprascapular nerve;droit;;os lissé;0.00;2508;4896;-0.1109;1.3060;0.0397
+Supratrochlear nodes.l;lymphatiques;lymphatique;supratrochlear nodes;gauche;lymphatique;os:membre supérieur gauche;0.43;430;840;0.1922;1.0504;0.0742
+Supratrochlear nodes.r;lymphatiques;lymphatique;supratrochlear nodes;droit;lymphatique;os:membre supérieur droit;0.32;430;840;-0.1939;1.0508;0.0736
+Sural communicating branch of common fibular nerve.l;nerfs;nerfs;sural communicating branch of common fibular nerve;gauche;;os lissé;0.00;588;1152;0.0939;0.3148;0.0375
+Sural communicating branch of common fibular nerve.r;nerfs;nerfs;sural communicating branch of common fibular nerve;droit;;os lissé;0.00;588;1152;-0.0942;0.3144;0.0375
+Sural nerve.l;nerfs;nerfs;sural nerve;gauche;;os lissé;0.00;2052;4032;0.1023;0.0590;0.0873
+Sural nerve.r;nerfs;nerfs;sural nerve;droit;;os lissé;0.00;2052;4032;-0.1016;0.0587;0.0876
+Sympathetic nerves.l;nerfs;nerfs;sympathetic nerves;gauche;;os lissé;0.00;12468;24480;0.0157;1.2636;0.0513
+Sympathetic nerves.r;nerfs;nerfs;sympathetic nerves;droit;;os lissé;0.00;12468;24480;-0.0175;1.2635;0.0513
+Sympathetic trunk.l;nerfs;nerfs;sympathetic trunk;gauche;;os lissé;0.00;12684;25344;0.0132;1.2726;0.0637
+Sympathetic trunk.r;nerfs;nerfs;sympathetic trunk;droit;;os lissé;0.00;12684;25344;-0.0149;1.2726;0.0637
 Temporal plane.l;encephale;autres;temporal plane;gauche;;encephale;0.49;280;556;0.0563;1.5713;0.0537
 Temporal plane.r;encephale;autres;temporal plane;droit;;encephale;0.55;280;556;-0.0587;1.5695;0.0533
 Temporal pole.l;encephale;autres;temporal pole;gauche;;encephale;0.49;274;523;0.0367;1.5244;0.1090
 Temporal pole.r;encephale;autres;temporal pole;droit;;encephale;0.44;274;523;-0.0382;1.5233;0.1087
 Temporalis muscle.l;muscles-tete;muscles;temporalis muscle;gauche;;muscles-tete;0.10;5126;10260;0.0605;1.5406;0.1072
 Temporalis muscle.r;muscles-tete;muscles;temporalis muscle;droit;;muscles-tete;0.05;5126;10260;-0.0608;1.5380;0.1056
+Thoracodorsal nerve.l;nerfs;nerfs;thoracodorsal nerve;gauche;;os lissé;0.00;2340;4608;0.1222;1.2148;0.0325
+Thoracodorsal nerve.r;nerfs;nerfs;thoracodorsal nerve;droit;;os lissé;0.00;2340;4608;-0.1236;1.2145;0.0329
 Thyroid gland;endocrines;autres;thyroid gland;;;endocrines;0.58;1302;2600;-0.0005;1.3978;0.1031
+Tibial nerve.l;nerfs;nerfs;tibial nerve;gauche;;os lissé;0.00;1308;2592;0.0736;0.2271;0.0586
+Tibial nerve.r;nerfs;nerfs;tibial nerve;droit;;os lissé;0.00;1308;2592;-0.0736;0.2268;0.0583
 Tonsil of cerebellum.l;cervelet;autres;tonsil of cerebellum;gauche;;cervelet;0.39;1821;3638;0.0111;1.4998;0.0556
 Tonsil of cerebellum.r;cervelet;autres;tonsil of cerebellum;droit;;cervelet;0.45;1821;3638;-0.0115;1.4994;0.0555
 Transverse frontopolar gyrus and sulcus*.l;encephale;autres;transverse frontopolar gyrus and sulcus;gauche;;encephale;0.59;123;242;0.0127;1.5707;0.1620
@@ -287,13 +516,23 @@ Transversus abdominis muscle.l;muscles-abdomen;muscles;transversus abdominis mus
 Transversus abdominis muscle.r;muscles-abdomen;muscles;transversus abdominis muscle;droit;;muscles-abdomen;0.32;17164;34328;-0.0833;1.0100;0.1248
 Triangular part of inferior frontal gyrus.l;encephale;autres;triangular part of inferior frontal gyrus;gauche;;encephale;0.48;254;504;0.0487;1.5712;0.1222
 Triangular part of inferior frontal gyrus.r;encephale;autres;triangular part of inferior frontal gyrus;droit;;encephale;0.39;254;504;-0.0518;1.5697;0.1218
+Trigeminal nerve (V).l;nerfs;nerfs;trigeminal nerve (v);gauche;;os lissé;0.06;1224;2344;0.0160;1.5173;0.0898
+Trigeminal nerve (V).r;nerfs;nerfs;trigeminal nerve (v);droit;;os lissé;0.06;1224;2344;-0.0168;1.5173;0.0891
 Tuber of vermis;cervelet;autres;tuber of vermis;;;cervelet;0.31;591;1178;-0.0000;1.5102;0.0310
 Tympanic membrane.l;oreilles;autres;tympanic membrane;gauche;;oreilles;0.00;788;1572;0.0473;1.5042;0.0915
 Tympanic membrane.r;oreilles;autres;tympanic membrane;droit;;oreilles;0.00;788;1572;-0.0487;1.5041;0.0918
+Ulnar nerve.l;nerfs;nerfs;ulnar nerve;gauche;;os lissé;0.00;1596;3168;0.1892;1.0372;0.0898
+Ulnar nerve.r;nerfs;nerfs;ulnar nerve;droit;;os lissé;0.00;1596;3168;-0.1913;1.0375;0.0894
 Uvula of vermis;cervelet;autres;uvula of vermis;;;cervelet;0.40;1118;2176;0.0003;1.5030;0.0480
+Vagus nerve (X).l;nerfs;nerfs;vagus nerve (x);gauche;;os lissé;0.00;7452;14540;0.0167;1.4389;0.0880
+Vagus nerve (X).r;nerfs;nerfs;vagus nerve (x);droit;;os lissé;0.00;23508;45924;0.0199;1.2060;0.1001
+Vestibular nerve.l;nerfs;nerfs;vestibular nerve;gauche;;os lissé;0.00;2448;4688;0.0354;1.5083;0.0855
+Vestibular nerve.r;nerfs;nerfs;vestibular nerve;droit;;os lissé;0.00;2448;4688;-0.0361;1.5084;0.0839
 Vestibular nuclei.l;encephale;autres;vestibular nuclei;gauche;;encephale;0.00;786;1568;0.0039;1.5185;0.0778
 Vestibular nuclei.r;encephale;autres;vestibular nuclei;droit;;encephale;0.00;786;1568;-0.0050;1.5184;0.0777
 Vestibule.l;oreilles;autres;vestibule;gauche;;oreilles;0.00;4316;8580;0.0386;1.5091;0.0873
 Vestibule.r;oreilles;autres;vestibule;droit;;oreilles;0.01;4316;8580;-0.0400;1.5090;0.0876
+Vestibulocochlear nerve (VIII).l;nerfs;nerfs;vestibulocochlear nerve (viii);gauche;;os lissé;0.00;936;1768;0.0130;1.5063;0.0763
+Vestibulocochlear nerve (VIII).r;nerfs;nerfs;vestibulocochlear nerve (viii);droit;;os lissé;0.00;936;1768;-0.0132;1.5063;0.0757
 Wing of central lobule.l;cervelet;autres;wing of central lobule;gauche;;cervelet;0.74;1585;3144;0.0092;1.5268;0.0684
 Wing of central lobule.r;cervelet;autres;wing of central lobule;droit;;cervelet;0.76;1585;3144;-0.0105;1.5265;0.0683

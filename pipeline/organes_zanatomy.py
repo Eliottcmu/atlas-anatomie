@@ -13,8 +13,13 @@ des légendes (hile du rein, pôles, faces, segments du foie et des poumons). Ce
   4. pose chaque légende sur la surface affichée : sommet le plus proche du maillage qui la porte,
      à 12 mm au plus après recalage, sinon la légende est écartée et signalée.
 
+Nerfs et nœuds lymphatiques : chacun dans son calque. Les nerfs (courbes de la collection « 7: Nervous system »)
+traversent plusieurs régions : chaque sommet reçoit un mélange des recalages des régions osseuses, pondéré par
+sa distance à leurs os, pour qu'un nerf long (sciatique, vague) ne se casse pas à la frontière de deux régions.
+
 Sorties : modeles/zanatomy_organes.glb, modeles/zanatomy_os.glb (coccyx, osselets), modeles/zanatomy_muscles.glb
-(masséter, temporal, ptérygoïdiens, muscles de la paroi abdominale, grand dorsal, trapèze), modeles/index_zanatomy_organes.csv,
+(masséter, temporal, ptérygoïdiens, muscles de la paroi abdominale, grand dorsal, trapèze), modeles/zanatomy_nerfs.glb,
+modeles/zanatomy_lymphatique.glb, modeles/index_zanatomy_organes.csv,
 donnees/derive/organes_zanatomy.json (doublons, légendes, bilan du recalage),
 rapports/recalage_organes.md.
 
@@ -36,7 +41,7 @@ from scipy.spatial import cKDTree
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from convertir_glb import ECHELLE, ROTATION, EcrivainGLB, compresser, lire_obj, normales_calculees  # noqa: E402
 from zanatomy import (ARCHIVE_BP3D, CACHE, DERIVE, MODELES, RACINE, icp, journal, lancer_blender,  # noqa: E402
-                      nom_bp3d, preparer_blend, recalage_global, trouver_blender)
+                      nom_bp3d, preparer_blend, recalage_global, sous_echantillon, trouver_blender)
 
 RAPPORT = RACINE / "rapports" / "recalage_organes.md"
 SORTIE_JSON = DERIVE / "organes_zanatomy.json"
@@ -45,6 +50,8 @@ SORTIE_JSON = DERIVE / "organes_zanatomy.json"
 SEUIL_RECOUVREMENT_MM, PART_DOUBLON, PART_REMPLACE = 2.0, 0.6, 0.7
 # Légendes : distance maximale entre la pointe recalée et la surface affichée
 SEUIL_LEGENDE_MM = 12.0
+# Recalage lissé des nerfs : portée du poids d'une région osseuse au-delà de la plus proche
+SIGMA_LISSE_MM = 40.0
 
 COTES = r"(\.[lr])?"
 # Parties de l'encéphale communes aux deux modèles : repères du recalage de l'encéphale et du cervelet
@@ -123,9 +130,15 @@ GROUPES = [
     {"id": "muscles-dos", "systeme": "muscles",
      "motif": r"^(Latissimus dorsi muscle|(Descending|Ascending) part of trapezius muscle)\.[lr]$",
      "reperes": [r"^Transverse part of trapezius muscle\.[lr]$", COTES_THORAX, r"^(Scapula|Clavicle|Humerus)\.[lr]$"]},
-    {"id": "lymphatiques", "reperes": "os", "rendu": "lymphatique",
+    {"id": "lymphatiques", "systeme": "lymphatique", "reperes": "os", "rendu": "lymphatique",
      # Nœuds lymphatiques ; pas les nœuds sinu-atrial et atrio-ventriculaire du cœur
      "motif": r"^\(?(?!Sinu|Atrioventricular)[A-Z].*(nodes?|Node)\)?" + COTES + "$"},
+    # Nerfs : toutes les courbes du système nerveux, sauf le canal central et le corps ciliaire (repères de
+    # l'œil et de la moelle). Doublons cherchés parmi les seuls nerfs de BodyParts3D (ceux de l'orbite) :
+    # un nerf qui longe un muscle à moins de 2 mm n'en est pas le doublon
+    {"id": "nerfs", "systeme": "nerfs", "reperes": "os", "lisse": True,
+     "collection": ("7: Nervous system & Sense organs", "CURVE"), "motif": r"^(?!Central canal|Ciliary body)",
+     "doublons": r"nerve|ganglion"},
 ]
 # Légendes portées par un organe de BodyParts3D : noms BodyParts3D du porteur (cible du recalage et de la pose)
 PORTEURS_BP3D = {
@@ -216,6 +229,14 @@ def exporter(blender, blend, objets, reexporter):
             for k in range(len(d.files) // 3)}
 
 
+def inventaire(blender, blend, reexporter):
+    """Objets de Z-Anatomy par système (cache) : {nom: {"systeme", "type", ...}}."""
+    sortie = CACHE / "inventaire.json"
+    if reexporter or not sortie.exists():
+        lancer_blender(blender, blend, "inventaire", sortie)
+    return json.loads(sortie.read_text(encoding="utf-8"))
+
+
 def legendes_brutes(blender, blend, reexporter):
     sortie, npz = CACHE / "legendes.json", CACHE / "legendes_sommets.npz"
     if reexporter or not sortie.exists() or not npz.exists():
@@ -277,9 +298,14 @@ def main():
 
     # Objets demandés par groupe, et repères des recalages locaux
     choix = {}
+    systemes_za = inventaire(blender, blend, reexporter)
     for g in GROUPES:
         motif = re.compile(g["motif"])
-        for o in objets_za:
+        candidats = objets_za
+        if g.get("collection"):
+            collection, genre = g["collection"]
+            candidats = sorted(o for o, v in systemes_za.items() if v["systeme"] == collection and v["type"] == genre)
+        for o in candidats:
             if motif.search(o) and nom_bp3d(o) not in index_noms and o not in choix:
                 choix[o] = g["id"]
     reperes = {g["id"]: appariements(g["reperes"], objets_za, index_noms) for g in GROUPES if g["reperes"] != "os"}
@@ -293,7 +319,7 @@ def main():
         a_exporter.add(leg["porteur"])
         if leg["porteur"].endswith(".r"):
             a_exporter.add(leg["porteur"][:-2] + ".l")
-    a_exporter &= set(objets_za)
+    a_exporter &= set(objets_za) | set(systemes_za)
     geo_za = exporter(blender, blend, a_exporter, reexporter)
     manquants = sorted(set(choix) - set(geo_za))
     if manquants:
@@ -336,9 +362,29 @@ def main():
             pts = np.concatenate([geo_za[o][0] for o, _ in paires if o in geo_za])
             boites_os[region] = (pts.min(axis=0) - 0.05, pts.max(axis=0) + 0.05)
 
+    groupe_de = {g["id"]: g for g in GROUPES}
+    # Recalage lissé : os de chaque région (Z-Anatomy après similitude globale), pour la distance d'un sommet
+    arbres_os = {reg: cKDTree(sous_echantillon(np.concatenate([globale(geo_za[o][0] * 1000) for o, _ in paires
+                                                               if o in geo_za]), 6000))
+                 for reg, paires in reperes_os.items() if any(o in geo_za for o, _ in paires)}
+
+    def lisser(p_mm):
+        """Sommets (mm, après similitude) : moyenne des recalages régionaux, poids gaussien de l'excès de distance."""
+        regs = list(arbres_os)
+        d = np.stack([arbres_os[r].query(p_mm)[0] for r in regs], axis=1)
+        w = np.exp(-(d ** 2 - (d ** 2).min(axis=1, keepdims=True)) / SIGMA_LISSE_MM ** 2)
+        w /= w.sum(axis=1, keepdims=True)
+        res = np.zeros_like(p_mm)
+        for k, reg in enumerate(regs):
+            r, t = transformations[f"os:{reg}"]
+            res += w[:, k:k + 1] * (p_mm @ r.T + t)
+        return res
+
     def transformation_de(objet):
         groupe = choix.get(objet)
-        if groupe and groupe != "lymphatiques":
+        if groupe and groupe_de[groupe].get("lisse"):
+            return (np.eye(3), np.zeros(3)), "os lissé"
+        if groupe and groupe_de[groupe]["reperes"] != "os":
             return transformations[groupe], groupe
         centre = geo_za[objet][0].mean(axis=0)
         dedans = [(np.prod(hi - lo), reg) for reg, (lo, hi) in boites_os.items() if (centre >= lo).all() and (centre <= hi).all()]
@@ -348,18 +394,27 @@ def main():
         return (np.eye(3), np.zeros(3)), "similitude globale"
 
     def placer(objet, points_m=None):
-        (r, t), _ = transformation_de(objet)
+        (r, t), transfo = transformation_de(objet)
         p = geo_za[objet][0] if points_m is None else points_m
+        if transfo == "os lissé":
+            return lisser(globale(p * 1000))
         return globale(p * 1000) @ r.T + t  # mm, repère BodyParts3D
 
-    # Doublons : recouvrement des objets candidats avec les organes de BodyParts3D
-    autres_fj = [l["fj"] for l in voisins if l["fj"] in geo_bp3d]
-    pts_bp3d = np.concatenate([geo_bp3d[fj] for fj in autres_fj])
-    etiq_bp3d = np.concatenate([np.full(len(geo_bp3d[fj]), i) for i, fj in enumerate(autres_fj)])
-    arbre_bp3d = cKDTree(pts_bp3d)
+    # Doublons : recouvrement des objets candidats avec les organes de BodyParts3D (ou, pour un groupe qui
+    # le précise, avec ses seuls homologues : les nerfs de l'orbite pour les nerfs)
+    arbres_doublons = {}
+
+    def arbre_doublons(motif):
+        if motif not in arbres_doublons:
+            fjs_v = [l["fj"] for l in voisins if l["fj"] in geo_bp3d and (motif is None or re.search(motif, l["nom_en"]))]
+            arbres_doublons[motif] = (fjs_v, cKDTree(np.concatenate([geo_bp3d[fj] for fj in fjs_v])),
+                                      np.concatenate([np.full(len(geo_bp3d[fj]), i) for i, fj in enumerate(fjs_v)]))
+        return arbres_doublons[motif]
+
     places = {o: placer(o) for o in choix if o in geo_za}
     recouvre = {}  # objet -> (part recouverte, maillage BodyParts3D le plus recouvert)
     for o, p in places.items():
+        autres_fj, arbre_bp3d, etiq_bp3d = arbre_doublons(groupe_de[choix[o]].get("doublons"))
         ech = p[np.random.default_rng(0).choice(len(p), min(len(p), 3000), replace=False)]
         d, i = arbre_bp3d.query(ech, distance_upper_bound=SEUIL_RECOUVREMENT_MM)
         proches = d <= SEUIL_RECOUVREMENT_MM
@@ -403,10 +458,10 @@ def main():
         journal("OK", f"Remplacé : {nom_fj[fj]} ({fj}) par {len(candidats_par_fj[fj])} parties de Z-Anatomy.")
 
     # Écriture des GLB : organes (calque « autres ») et os absents de BodyParts3D (calque des os)
-    ecrivains = {"autres": EcrivainGLB("autres"), "os": EcrivainGLB("os"), "muscles": EcrivainGLB("muscles")}
-    fichiers_glb = {"autres": "zanatomy_organes.glb", "os": "zanatomy_os.glb", "muscles": "zanatomy_muscles.glb"}
+    fichiers_glb = {"autres": "zanatomy_organes.glb", "os": "zanatomy_os.glb", "muscles": "zanatomy_muscles.glb",
+                    "nerfs": "zanatomy_nerfs.glb", "lymphatique": "zanatomy_lymphatique.glb"}
+    ecrivains = {s: EcrivainGLB(s) for s in fichiers_glb}
     lignes, retournes = [], 0
-    groupe_de = {g["id"]: g for g in GROUPES}
     for o in retenus:
         sommets_mm, faces, miroir = places[o], geo_za[o][1], geo_za[o][2]
         if miroir:

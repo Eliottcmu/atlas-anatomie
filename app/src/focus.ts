@@ -7,6 +7,8 @@ import type { Scene3D } from "./scene";
 const $ = <T extends HTMLElement = HTMLElement>(id: string) => document.getElementById(id) as T;
 
 export type ModeCoupe = "aucune" | "frontale" | "sagittale" | "horizontale";
+/** Calques dont les maillages sont des parties d'organe nommées (liste de la zone, légendes). */
+export const CALQUES_PARTIES = new Set(["autres", "os", "lymphatique"]);
 const MODES_COUPE: ModeCoupe[] = ["aucune", "frontale", "sagittale", "horizontale"];
 
 export interface FocusActif {
@@ -202,10 +204,13 @@ export class Focus {
     if (!o) return;
     this.rappels.avant(true);
     // Les organes sont dans le calque « Organes et autres » : on le charge et on l'affiche le temps du focus
-    // (pour un os aussi : BodyParts3D y range le sternum)
-    if (!this.modeles.calquesCharges.has("autres")) {
-      this.rappels.etat(`Chargement des organes pour le focus sur ${o.nom.toLowerCase()}.`, "Quelques secondes.");
-      await this.rappels.chargerCalque("autres");
+    // (pour un os aussi : BodyParts3D y range le sternum) ; les nœuds lymphatiques ont leur propre calque
+    const calquesParties = new Set(["autres", ...o.parties.map((c) => this.atlas.noeuds[c]?.calque).filter(Boolean)]);
+    calquesParties.delete("os");
+    for (const id of calquesParties) {
+      if (this.modeles.calquesCharges.has(id)) continue;
+      this.rappels.etat(`Chargement des structures pour le focus sur ${o.nom.toLowerCase()}.`, "Quelques secondes.");
+      await this.rappels.chargerCalque(id);
     }
     if (!this.calquesAvant) {
       this.calquesAvant = Object.fromEntries(this.atlas.calques.map((c) => [c.id, this.modeles.estVisible(c.id)]));
@@ -218,7 +223,7 @@ export class Focus {
       this.modeles.afficherCalque("autres", true);
     } else {
       this.restaurerOs();
-      for (const c of ["arteres", "veines", "autres"]) this.modeles.afficherCalque(c, true);
+      for (const c of ["arteres", "veines", ...calquesParties]) this.modeles.afficherCalque(c, true);
     }
     const parties = new Set(o.parties.filter((c) => !this.atlas.noeuds[c]?.doublon));
     const boiteOrgane = new THREE.Box3();
@@ -242,7 +247,7 @@ export class Focus {
       if (o.contexte === "parties" && calque !== "os") return false;
       if (calque !== "arteres" && calque !== "veines" && calque !== "os") return false;
       return boiteOrgane.containsPoint(this.modeles.boiteDe(m).getCenter(centre));
-    });
+    }, parties);
     this.appliquer();
     const n = this.compterVisibles();
     const reperes = o.reperes?.length ? `, ${o.reperes.length} repères légendés` : "";
@@ -337,7 +342,10 @@ export class Focus {
     for (const m of this.modeles.maillages.values()) {
       if (m.visible && this.modeles.estVisible(m.userData.calque)) n[m.userData.calque] = (n[m.userData.calque] ?? 0) + 1;
     }
-    const noms: Record<string, string> = { arteres: "artères", veines: "veines", os: "os", muscles: "muscles", autres: "autres" };
+    const noms: Record<string, string> = {
+      arteres: "artères", veines: "veines", os: "os", muscles: "muscles", nerfs: "nerfs", lymphatique: "nœuds lymphatiques",
+      autres: "autres",
+    };
     const detail = Object.entries(n).map(([c, k]) => `${k} ${noms[c] ?? c}`).join(", ");
     return { total: Object.values(n).reduce((a, b) => a + b, 0), vaisseaux: (n.arteres ?? 0) + (n.veines ?? 0), detail };
   }
@@ -385,7 +393,7 @@ export class Focus {
       const parNom = new Map<string, string[]>();
       for (const cle of this.actif.parties) {
         const n = this.atlas.noeuds[cle];
-        if (!n || (n.calque !== "autres" && n.calque !== "os") || !this.visibleDansZone(cle)) continue;
+        if (!n || !CALQUES_PARTIES.has(n.calque) || !this.visibleDansZone(cle)) continue;
         const nom = n.propre && n.structure ? this.atlas.structures[n.structure].nom : n.nom;
         parNom.set(nom, [...(parNom.get(nom) ?? []), cle]);
       }
@@ -484,6 +492,30 @@ export class Focus {
     };
     this.rappels.etat(textes[mode], mode === "aucune" ? "C pour une nouvelle coupe."
       : "Curseur pour déplacer le plan, Inverser pour changer de côté, C pour le mode suivant.");
+  }
+
+  /**
+   * Coupe qui passe juste devant une structure, vue de la direction donnée : on garde ce qui est derrière
+   * le plan, la structure entière comprise. Axe : celui qui est le plus proche de la direction de vue.
+   */
+  couperDevant(boite: THREE.Box3, direction: THREE.Vector3): void {
+    const a = [Math.abs(direction.x), Math.abs(direction.y), Math.abs(direction.z)];
+    const axe = (["x", "y", "z"] as const)[a.indexOf(Math.max(...a))];
+    const mode: ModeCoupe = { x: "sagittale", y: "horizontale", z: "frontale" }[axe] as ModeCoupe;
+    const vers = direction[axe] > 0;
+    const ref = this.reference();
+    const bord = vers ? boite.max[axe] + 0.004 : boite.min[axe] - 0.004;
+    this.coupe = mode;
+    // Côté gardé par défaut : moins (frontale, horizontale), plus (sagittale) ; on garde le côté opposé à la caméra
+    this.coupeInversee = mode === "sagittale" ? vers : !vers;
+    this.positionCoupe = THREE.MathUtils.clamp((bord - ref.min[axe]) / Math.max(ref.max[axe] - ref.min[axe], 1e-6), 0, 1);
+    $<HTMLInputElement>("coupe-position").value = String(Math.round(this.positionCoupe * 100));
+    this.appliquerCoupe();
+    this.majCoupeUI();
+    const vue = new THREE.Vector3();
+    vue[axe] = vers ? 1 : -1;
+    if (axe === "y") vue.z = 0.25;
+    this.scene.cadrer(boite.clone().expandByScalar(0.03), vue);
   }
 
   private reference(): THREE.Box3 {

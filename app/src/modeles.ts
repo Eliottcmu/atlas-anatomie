@@ -55,6 +55,9 @@ export class Modeles {
   private boites = new Map<THREE.Mesh, THREE.Box3>();
   // Filtre du focus : un maillage qui n'y passe pas est caché, en plus du masquage manuel
   private filtre: ((m: THREE.Mesh) => boolean) | null = null;
+  // Maillages des familles décochées (peau, foie...) ; les parties de l'organe en focus restent affichées
+  private horsFamilles = new Set<string>();
+  private prioritaires: Set<string> | null = null;
   modeOs: ModeOs = "repere";
   private chargeur: GLTFLoader;
 
@@ -156,7 +159,7 @@ export class Modeles {
           });
           groupe.add(gltf.scene);
           this.appliquerModeOs();
-          if (this.filtre) this.appliquerVisibilite();
+          if (this.filtre || this.horsFamilles.size) this.appliquerVisibilite();
           progression({ fichier, calque: calque.id, charge: 1, total: 1, termine: true });
           resoudre();
         },
@@ -191,16 +194,25 @@ export class Modeles {
     return total ? dedans / total : 0;
   }
 
-  definirFiltre(filtre: ((m: THREE.Mesh) => boolean) | null): void {
+  /** Filtre du focus ; prioritaires : maillages affichés même si leur famille est décochée (organe en focus). */
+  definirFiltre(filtre: ((m: THREE.Mesh) => boolean) | null, prioritaires: Set<string> | null = null): void {
     this.filtre = filtre;
+    this.prioritaires = prioritaires;
     this.appliquerVisibilite();
   }
 
-  /** Visibilité d'un maillage = ni masqué à la main, ni écarté par le focus. */
+  /** Maillages des familles décochées dans le panneau « Choisir ». */
+  definirHorsFamilles(cles: Iterable<string>): void {
+    this.horsFamilles = new Set(cles);
+    this.appliquerVisibilite();
+  }
+
+  /** Visibilité d'un maillage = ni masqué à la main, ni écarté par le focus, ni dans une famille décochée. */
   private appliquerVisibilite(): void {
-    for (const m of this.maillages.values()) {
+    for (const [cle, m] of this.maillages) {
       m.userData.horsFocus = this.filtre ? !this.filtre(m) : false;
-      m.visible = !m.userData.masque && !m.userData.horsFocus && !m.userData.doublon;
+      m.userData.horsFamille = this.horsFamilles.has(cle) && !this.prioritaires?.has(cle);
+      m.visible = !m.userData.masque && !m.userData.horsFocus && !m.userData.doublon && !m.userData.horsFamille;
     }
     this.onChange();
   }
@@ -239,7 +251,7 @@ export class Modeles {
     if (!m.visible || !this.estVisible(m.userData.calque)) return false;
     if (m.userData.calque === "os" && this.modeOs === "repere") return false;
     return this.etats.get(m) !== "attenue" && m.userData.masque !== true && m.userData.horsFocus !== true
-      && m.userData.doublon !== true;
+      && m.userData.doublon !== true && m.userData.horsFamille !== true;
   }
 
   cliquables(): THREE.Mesh[] {

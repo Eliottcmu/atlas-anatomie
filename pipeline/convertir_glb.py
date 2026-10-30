@@ -53,7 +53,8 @@ EXCLUS = {
 # Code couleur du plan : artères rouges, veines bleues, muscles brun-rouge, os ivoire
 COULEURS = {
     "arteres": (0.80, 0.12, 0.12), "veines": (0.15, 0.30, 0.75), "os": (0.93, 0.90, 0.80),
-    "muscles": (0.55, 0.22, 0.18), "autres": (0.85, 0.70, 0.60),
+    "muscles": (0.55, 0.22, 0.18), "autres": (0.85, 0.70, 0.60), "nerfs": (0.89, 0.83, 0.39),
+    "lymphatique": (0.66, 0.77, 0.42),
 }
 # (x, y, z) BodyParts3D en mm, Z vers le haut, avant vers -Y  ->  (x, z, -y) en m
 ROTATION = np.array([[1, 0, 0], [0, 0, 1], [0, -1, 0]], dtype=np.float64)
